@@ -1,0 +1,733 @@
+{
+  "test_id": 1002,
+  "title": "Documentation",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-05",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, siempre que la misma esté debidamente cotejada.\nYes, as long as it is properly verified."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, solo si es a color.\nYes, but only if it is in colour."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "1 General Requirements\n \nThis documentation must be presented agents of the authority responsible for traffic surveillance in exercising the functions with which they are entrusted who thus request.\nThese documents should be originals, however certain photocopies are acceptable, when they have been certified by the Provincial Traffic Headquarters or another recognised and approved public department.\n(Página 19 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485817900000000/81eeb89c-ef53-47cd-8566-6756cbde16c3M.jpg",
+      "number": "1.",
+      "question": "¿Se puede llevar una fotocopia del permiso de conducción en lugar del original?\nCan you carry a photocopy of your driving licence instead of the original?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "en el momento de cometer una infracción que lleve aparejada la pérdida de puntos.\nwhen committing an offence that entails the loss of points."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "al día siguiente de cometer una infracción que lleve aparejada la pérdida de puntos.\nthe day after committing an offence that entails the loss of points."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "cuando la sanción que lleve aparejada la pérdida de puntos sea firme.\nwhen the penalty that entails the loss of points is definitive."
+        }
+      ],
+      "help": "2 Driver documentation      \n     \n2.2 The penalty point system    \nLoss of points\nPoints are subtracted for each sanction that entails its loss. As a general rule, no more than eight points can be lost in a single day.\nWhen drivers receive a non-appealable sanction in an administrative proceeding for committing any of the serious or very serious infractions that entail a loss of points, the points that are lost will be automatically and simultaneously deducted at the time when the violation is entered into the Registry of Drivers and Offenders. If one year has passed since the penalty became final and the related offence has not been recorded, the points will not be deducted.\nA licence can be withdrawn as a consequence of losing all available points. It is then not possible to obtain a new licence for six months (three months for a professional driver).\n(Página 20 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634671550590000000/e565f326-352a-4503-b980-08c85f5ebdedM.jpg",
+      "number": "2.",
+      "question": "El número de puntos inicialmente asignado al titular de un permiso o licencia de conducción se verá reducido…\nThe number of points initially assigned to the holder of a driving licence or permit will be reduced...",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No existe límite.\nThere is no limit."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Un máximo de 10 puntos.\nA maximum of 10 points."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Un máximo de 8 puntos, salvo que las infracciones cometidas sean muy graves.\nA maximum of 8 points, unless the traffic offences are major."
+        }
+      ],
+      "help": "2 Driver documentation      \n     \n2.2 The penalty point system    \nLoss of points\nPoints are subtracted for each sanction that entails its loss. As a general rule, no more than eight points can be lost in a single day.\nWhen drivers receive a non-appealable sanction in an administrative proceeding for committing any of the serious or very serious infractions that entail a loss of points, the points that are lost will be automatically and simultaneously deducted at the time when the violation is entered into the Registry of Drivers and Offenders. If one year has passed since the penalty became final and the related offence has not been recorded, the points will not be deducted.\nA licence can be withdrawn as a consequence of losing all available points. It is then not possible to obtain a new licence for six months (three months for a professional driver).\n(Página 20 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485848100000000/08865bbd-72eb-4625-82c0-693509f914f8M.jpg",
+      "number": "3.",
+      "question": "¿Cuántos puntos se pueden perder en un día?\nHow many points can you lose in one day?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, obteniendo de nuevo el permiso de conducción.\nYes, by getting their driving licence again."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, realizando un curso de sensibilización y reeducación vial.\nYes, by taking a road awareness and re-education programme."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, una vez perdidos no es posible recuperarlos.\nNo, once lost, they cannot be recovered."
+        }
+      ],
+      "help": "2 Driver documentation          \n         \n2.2 The penalty point system    \nRegaining points\nAnyone who has lost some points will recover the twelve-point credit if he or she does not lose any more in two years.\nAlso points may be regained (a maximum of four points) by undertaking a recognised and established course of re-education and instruction of a minimum duration of 10 hours. However, such a course may only be undertaken once, every two years (once a year for professional drivers).\n \n \n(Página 20 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482504720000000/00874122-f3be-485c-8688-4126f8b6d953M.jpg",
+      "number": "4.",
+      "question": "Cuando el titular de un permiso de conducir pierda parte de su asignación total de puntos, ¿puede recuperarlos?\nWhen a driving licence holder loses some of their points, can they be recovered?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el permiso para conducir y se obtiene un nuevo crédito de 8 puntos.\na driving licence and new credit of 8 points."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "un máximo de 4 puntos.\na maximum of 4 points."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "un máximo de 5 puntos.\na maximum of 5 points."
+        }
+      ],
+      "help": "2 Driver documentation          \n         \n2.2 The penalty point system    \nRegaining points\nAnyone who has lost some points will recover the twelve-point credit if he or she does not lose any more in two years.\nAlso points may be regained (a maximum of four points) by undertaking a recognised and established course of re-education and instruction of a minimum duration of 10 hours. However, such a course may only be undertaken once, every two years (once a year for professional drivers).\n \n \n(Página 20 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636518714320000000/d5e806d8-03cc-48dc-a454-c283dcc1701eM.jpg",
+      "number": "5.",
+      "question": "Con el curso de sensibilización y reeducación vial de recuperación parcial de puntos se puede recuperar...\nBy taking the partial recovery road awareness and re-education programme, you can recover...",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, siempre que la cilindrada de la motocicleta no sea superior a 250 cc.\nYes, provided that the motorcycle's engine capacity is no higher than 250 cc."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, en ningún caso.\nNo, never."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, siempre que la motocicleta se pueda conducir con el permiso de la clase A1.\nYes, provided that the motorcycle can be driven using a class A1 licence."
+        }
+      ],
+      "help": "2 Driver documentation            \n         \n2.4 Classes of driving permits      \n2.4.5 B permit\nThe minimum age it can be obtained is 18, although until holders turn 21, they cannot drive motor tricycles with a power exceeding 15 kW.\nObtaining it does not entail the concession of AM, A1, A2 or A permits. However, the holder of a class-B permit for longer than 3 years can drive motorcycles authorised by the class-A1 permit within the country.\n(Página 22 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636312181480000000/7ca15b5c-975e-4ed9-8ba9-61323f23886aM.jpg",
+      "number": "6.",
+      "question": "El permiso de la clase B con más de tres años de antigüedad, ¿permite conducir por territorio español una motocicleta con sidecar?\nIs it permitted to drive a motorcycle with a sidecar within Spain using a class B licence which is at least three years old?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, es necesario el permiso de la clase C1.\nNo, you must have the class C1 permit."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "En vías urbanas sí, en vías interurbanas no.\nYes, on urban roads but not interurban roads."
+        }
+      ],
+      "help": "2 Driver documentation            \n         \n2.4 Classes of driving permits    \n2.4.5 B permit\nIt grants authorisation to drive::\nTwo or three-wheeled mopeds and light quadricycles.\nVehicles for people with reduced mobility.\nMotor vehicles (including motor tricycles and heavy quadricycles) with a maximum authorised mass not exceeding 3,500 kg and designed and constructed for the carriage of no more than eight passengers in addition to the driver. Motor vehicles in this category may be combined with a trailer having a maximum authorised mass which does not exceed 750 kg.\nExample:\nVehicle with 3,500 kg MAM + 750 kg MAM trailer = combination of 4,250 kg MAM\n(Página 22 del manual 'Learning to drive')\n\n2 Driver documentation            \n         \n2.4 Classes of driving permits    \n2.4.5 B permit\nIt grants authorisation to drive:\nMotor vehicles in this category may be combined with a trailer with a maximum authorised mass exceeding 750 kg, provided that the maximum authorised mass of this combination does not exceed 4,250 kg.\nExample:\nVehicle with 3,000 kg MAM + 1,250 kg MAM trailer = combination of 4,250 kg MAM\nTo drive one of these units, if the MAM exceeds 3,500 kg, it will be necessary to pass a skills and performance test, after which the code number “96” will be stamped on the back of the driver’s licence to accredit this.\n(Página 22 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636833197790000000/2af9cd60-e23c-4912-aa3c-27e280c93bf8M.jpg",
+      "number": "7.",
+      "question": "Con el permiso B, ¿está permitido conducir un taxi en servicio?\nWith a class B licence, are you permitted to drive a taxi on duty?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, cuando la velocidad máxima autorizada no exceda de 40 km/h.\nYes, when the maximum authorised speed does not exceed 40 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, porque sobrepasa los 3.500 kilogramos de masa máxima autorizada.\nNo, because it is exceeding the maximum authorised mass of 3,500 kg."
+        }
+      ],
+      "help": "2 Driver documentation            \n         \n2.4 Classes of driving permits      \n2.4.5 B permit\nIt grants authorisation to drive:\nSpecial self-propelled agricultural vehicles and their combination vehicles.\nSpecial non-agricultural vehicles or their combinations whose maximum authorised speed does not exceed 40 km/h and whose MAM does not exceed 3,500 kg. If either of these limits is surpassed, then the driving license must be obtained for said maximum authorised mass.\nIf transporting people, the maximum number of people, including the driver, cannot be greater than nine.\n(Página 22 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675850000000/3fb2e486-cc34-4ce2-b50c-9656d3e7be4bM.jpg",
+      "number": "8.",
+      "question": "Un tractor agrícola de más de 3.500 kilogramos de MMA, ¿se puede conducir con el permiso B?\nCan an agricultural tractor with an MAM of more than 3,500 kg drive with a B licence?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, si el turismo se puede conducir con el permiso de la clase B.\nYes, if the private car can be driven with a Class B licence."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solo si la masa máxima autorizada del conjunto no supera los 3.500 kilogramos.\nOnly when the maximum authorized mass of the group does not exceed 3,500 kilograms."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, en ningún caso.\nNo, never."
+        }
+      ],
+      "help": "2 Driver documentation            \n         \n2.4 Classes of driving permits    \n2.4.5 B permit\nIt grants authorisation to drive::\nTwo or three-wheeled mopeds and light quadricycles.\nVehicles for people with reduced mobility.\nMotor vehicles (including motor tricycles and heavy quadricycles) with a maximum authorised mass not exceeding 3,500 kg and designed and constructed for the carriage of no more than eight passengers in addition to the driver. Motor vehicles in this category may be combined with a trailer having a maximum authorised mass which does not exceed 750 kg.\nExample:\nVehicle with 3,500 kg MAM + 750 kg MAM trailer = combination of 4,250 kg MAM\n(Página 22 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634606627000000000/86f5e696-cafb-4e4c-8f6c-6e2197f65afaM.jpg",
+      "number": "9.",
+      "question": "Conducir, con un permiso de la clase B, un turismo que arrastra un remolque ligero, ¿está permitido?\nIs a private car pulling a light trailer permitted to drive with a Class B licence?",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Ser titular del permiso de la clase B y haber superado las pruebas de control de aptitudes y comportamientos para la obtención del código 96.\nHold the driving licence category B as well has have passed the test of skills and behaviours to obtain code 96."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solo ser titular del permiso de la clase B.\nHold the driving licence category B only."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Ser titular del permiso de la clase B+E.\nHold the driving licence category B+E."
+        }
+      ],
+      "help": "2 Driver documentation            \n         \n2.4 Classes of driving permits    \n2.4.5 B permit\nIt grants authorisation to drive:\nMotor vehicles in this category may be combined with a trailer with a maximum authorised mass exceeding 750 kg, provided that the maximum authorised mass of this combination does not exceed 4,250 kg.\nExample:\nVehicle with 3,000 kg MAM + 1,250 kg MAM trailer = combination of 4,250 kg MAM\nTo drive one of these units, if the MAM exceeds 3,500 kg, it will be necessary to pass a skills and performance test, after which the code number “96” will be stamped on the back of the driver’s licence to accredit this.\n(Página 22 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635270178630000000/9407b663-3b78-4dc3-9cc4-d68271453afaM.jpg",
+      "number": "10.",
+      "question": "¿Qué requisitos mínimos son necesarios para conducir un turismo de 3.000 kg de MMA que arrastra un remolque de 800 kg de MMA?\nWhat are the minimus requirements necessary to drive a vehicle with a maximum authorized mass of 3000 kilograms that tows a trailer with a maximum authorized mass of 800 kilograms?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "con independencia de la antigüedad del permiso, pero se podrán conducir únicamente dentro del territorio español.\nregardless of how long the licence has been held, but only within Spain."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "con una antigüedad del permiso superior a dos años y únicamente dentro del territorio español.\nwith a licence which is at least two years old and only within Spain."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "con una antigüedad del permiso superior a dos años y únicamente dentro del territorio de la Unión Europea.\nwith a licence which is at least two years old and only within the European Union."
+        }
+      ],
+      "help": "2 Driver documentation              \n           \n2.4 Classes of driving permits        \n2.4.5 B permit\nWith a B driving licence which is at least two years’ old, it is possible to drive, within the country, vehicles without trailers powered by alternative fuels for the transport of goods with a MAM above 3,500 kg but below 4,250 kg. This is provided that the mass above 3,500 kg is solely due to the propulsion system compared to the propulsion system of a vehicle with the same dimensions which is equipped with a standard internal combustion engine with spark or compression ignition, and provided that it does not increase the load capacity with regards to the same vehicle.\n \n(Página 22 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634600657650000000/28e5beac-2f40-4a13-92d2-9b946131fce2M.jpg",
+      "number": "11.",
+      "question": "El permiso de la clase B autoriza la conducción de ciertos automóviles impulsados por combustibles alternativos con una MMA no superior a 4.250 kg…\nA class B licence allows you to drive certain vehicles powered by alternative fuels with a MAM not exceeding 4,250 kg...",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, en la parte delantera, durante un año.\nYes, on the front of the vehicle, for one year."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí durante un año, en la parte trasera.\nYes, for one year, on the rear of the vehicle."
+        }
+      ],
+      "help": "2 Driver documentation    \n   \n2.5 Novice drivers\nA person who obtains their first driving licence (permission to drive) will be considered a novice driver during the first year of holding their licence, as long as this period is not interrupted i.e. due to suspension etc. If a licence is reissued within this year, then the period is extended to take in to account the period of suspension.\n(Página 22 del manual 'Learning to drive')\n\n2 Driver documentation    \n   \n2.5 New drivers\nA novice driver must display a green rectangular plate, with a white letter ‘L’ on it, that corresponds to the prescribed dimensions legally required.\n(Página 22 del manual 'Learning to drive')\n\n2 Driver documentation  \n \n2.5 New drivers\nThis plate must be placed at the rear, to the left of the vehicle and remain clearly visible. However, it must not hinder visibility and obscure the vehicle identification plate or any signalling device. On motorcycles and three wheeled motor vehicles, it is acceptable to place it at the rear in a visible place, not necessarily to the left.\n(Página 23 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681090000000/097580ae-f414-4717-b4bb-40cf821cb134M.jpg",
+      "number": "12.",
+      "question": "Si tiene el permiso de la clase B desde hace más de un año y ahora obtiene el de la clase A2, ¿está obligado a llevar una placa L en su motocicleta?\nIf you have had a class B licence for more than one year and now obtain the A2 licence, do you need to carry an L plate on your motorcycle?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "5 años, hasta que el titular cumpla los 45 años de edad.\n5 years, until the holder reaches 45 years of age."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "10 años, hasta que el titular cumpla los 70 años de edad.\n10 years, until the holder reaches 70 years of age."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "10 años, hasta que el titular cumpla los 65 años de edad.\n10 years, until the holder reaches 65 years of age."
+        }
+      ],
+      "help": "2 Driver documentation\n \n2.6 Driving licences - conditions of use/validity\nAM, A1, A2, A, B, B+E permits and driving licenses are valid:\nFor 10 years Until their holders turn 65 years old\nFor 5 years After the age of 65.\n(Página 23 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680640000000/29ab97ee-10b2-4525-bd1a-df8280d7f497M.jpg",
+      "number": "13.",
+      "question": "¿Qué plazo de vigencia tiene el permiso de la clase B?\nHow long is a class-B licence valid for?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "15 días.\n15 days."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "10 días.\n10 days."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "30 días.\n30 days."
+        }
+      ],
+      "help": "2 Driver documentation\n \n2.7 Amendments to data and duplicates\nThe driving licence holder must notify the Provincial Traffic Headquarters, of any amendments and changes required to the data shown on the driving licence, as well as the address of the holder. This must be communicated within fifteen days (starting from when the change of circumstance(s) occur).\nA duplicate driving licence will be issued, if the original licence becomes damaged, or lost, or due to changes to the data. If available, the original licence must be sent to the authorities upon application.\nIf as a consequence of a loss of a licence, a duplicate driving licence is issued, then should the original licence be subsequently found/recovered by the holder, the original must be returned to the issuing Provincial Traffic Headquarters.\n(Página 23 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636141221130000000/7afa6d6e-bc37-4a75-ab67-6a56d565cd67M.jpg",
+      "number": "14.",
+      "question": "El titular de un permiso de conducción deberá comunicar a la Jefatura Provincial de Tráfico el cambio de su domicilio dentro del plazo de...\nA driving licence holder must report a change of address to the Local Traffic Department within...",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Los vehículos, remolques y semirremolques de masa máxima autorizada superior o igual a 750 kilogramos y ciclomotores.\nVehicles, trailers and semi-trailers with a maximum authorised mass of 750 kg or more and mopeds."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Los vehículos a motor, remolques y semirremolques de masa máxima autorizada superior a 750 kilogramos y ciclomotores.\nMotor vehicles, trailers and semi-trailers with a maximum authorised mass greater than 750 kg and mopeds."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Los vehículos, remolques y semirremolques de masa máxima autorizada superior o igual a 750 kilogramos.\nVehicles, trailers and semi-trailers with a maximum authorised mass of 750 kg or more."
+        }
+      ],
+      "help": "3 Documentation for the vehicle\n \n3.1 Registration certificate\nIn order to drive a motor vehicle, or use a trailer or semitrailer (with a MAM above 750 kilograms) or ride a moped, it is necessary to first register them and to have the corresponding licence plates issued and affixed.\nThe vehicle registration certificate accredits the registration of the vehicle and authorises its use on public roads.\n(Página 24 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637227550070000000/f5cd7088-7219-42b7-a2f9-27f89cb89a16M.jpg",
+      "number": "15.",
+      "question": "Para poder circular, ¿qué vehículos deben tener obligatoriamente el permiso de circulación?\nTo be able to drive, which vehicles must have a vehicle registration certificate?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "El tomador del seguro.\nThe policyholder."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "El conductor habitual.\nThe usual driver."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "El titular del vehículo.\nThe vehicle owner."
+        }
+      ],
+      "help": "3 Documentation for the vehicle        \n       \n3.2 Card relating to the technical inspection of the vehicle (ITV card)  \n3.2.1 Technical inspections\nThe owner/registered keeper of the vehicle, is judged to be directly responsible, by the relevant authorities, for ensuring that the vehicle meets the technical inspections required. This may be determined by presentation of the necessary paper to the police and to any other authorised authority.\n(Página 26 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482496090000000/004e8a18-a866-4659-8f5c-e56c4313c06aM.jpg",
+      "number": "16.",
+      "question": "¿Quién es el responsable de pasar la ITV a un turismo?\nWho is responsible for arranging the ITV for a car?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el día de la compra del vehículo.\nthe date of the purchase of the vehicle."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "la fecha de la primera matriculación.\nthe date of its first registration."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la fecha en que pasó la inspección de fábrica.\nthe date in which it passed the inspection in the factory."
+        }
+      ],
+      "help": "3 Documentation for the vehicle    \n   \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections\nThe validity of the ITV card is limited and is subject to scheduled inspections. This is dependant on the type of vehicle, the age and use of the vehicle.\nIts expiry implies an economic fine and the granting of a term of 10 days in order to pass the service.\nIf, after the indicated period, it has not been presented to the aforementioned inspection, the Traffic Department will initiate the procedure for withdrawing the vehicle from circulation.\nThe age of the vehicle is calculated with effect from the date that it was first registered or from the date when it was granted the right to be used.\n(Página 25 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634781258010000000/f7f97a5e-cf38-4804-8536-46a422e89c1eM.jpg",
+      "number": "17.",
+      "question": "Para saber la fecha en que se debe pasar la primera ITV, la antigüedad de un vehículo empieza a contar a partir de...\nIn order to know the date on which a vehicle must pass its MOT, the age of a vehicle is counted from...",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí. Debo comunicar la venta en el plazo de 10 días, indicando los datos del nuevo titular.\nYes. I must report the sale within 10 days, giving the details of the new owner."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No. El nuevo titular es el que tiene que comunicar la compra.\nNo. It is the new owner who must report the purchase."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero no hay plazo obligatorio para comunicar la venta.\nYes, but there is no mandatory period to report the sale."
+        }
+      ],
+      "help": "3 Documentation for the vehicle    \n     \n3.1 Registration certificate\nIn any event, a new vehicle registration certificate will be issued if the variation in the data communicated affects those shown on the aforementioned document.\nIn other cases, the owner, as shown on the document, must notify the Traffic Headquarters, within a period of 10 days, (from the date of any transaction) when the vehicle is sold / ownership transferred and provide them with the name and address of the new owner / buyer (acquirer).\nThe purchaser, new owner, must obtain, within thirty days of the acquisition of the vehicle, a new registration document.\nThe vehicle cannot be used until this document has been obtained.\n(Página 25 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637200483060000000/60e35d91-34b9-47a8-8f65-450797163c0cM.jpg",
+      "number": "18.",
+      "question": "Si vende su vehículo, ¿debe comunicarlo a la Jefatura de Tráfico?\nIf you sell your vehicle, do you have to inform the Spanish Traffic Department (Jefatura de Tráfico)?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, cuando pase la ITV el automóvil al que van enganchados.\nYes, when the vehicle to which it is attached takes the ITV."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, cada dos años.\nYes, every two years."
+        }
+      ],
+      "help": "3 Documentation for the vehicle    \n   \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\nThis document states that the vehicle has met the relevant legal requirements in order to be used on a road. It is obligatory for all motor vehicles including mopeds and all trailers and semi-trailers (light and non-light / heavy; i.e. regardless or their weight).\nMay be issued on paper or using electronic media.\nFor combinations of vehicle-trailer or semi-trailer up to 750 kilograms MAM, the driver must carry the ITV card of the towing vehicle, where will be confirmed that the vehicle is equipped with a towbar that is compatible with the trailer as well as the ITV card of the light trailer itself.\n(Página 25 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635168289950000000/eecc956e-d030-4a16-b308-93a6d6488e01M.jpg",
+      "number": "19.",
+      "question": "Los remolques ligeros con más de dos años de antigüedad, ¿deben pasar la ITV?\nShould light trailers over two years old take the ITV?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A los 4 años, a partir de la fecha de fabricación o importación.\n4 years after it was manufactured or imported."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "A los 4 años, a partir de la fecha de la primera matriculación.\n4 years after it was first registered."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A los 3 años, a partir de la fecha de la primera matriculación.\n3 years after it was first registered."
+        }
+      ],
+      "help": "3 Documentation for the vehicle    \n   \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections\nThe validity of the ITV card is limited and is subject to scheduled inspections. This is dependant on the type of vehicle, the age and use of the vehicle.\nIts expiry implies an economic fine and the granting of a term of 10 days in order to pass the service.\nIf, after the indicated period, it has not been presented to the aforementioned inspection, the Traffic Department will initiate the procedure for withdrawing the vehicle from circulation.\nThe age of the vehicle is calculated with effect from the date that it was first registered or from the date when it was granted the right to be used.\n(Página 25 del manual 'Learning to drive')\n\n3 Documentation for the vehicle            \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\nVehicles in category M1 for private use:\nVehicles designed and constructed for the carriage of passengers and their luggage, comprising no more than eight seats in addition to the driver's seat.\nFrequency of inspection according to age of the vehicle\n- Up to four years: Exempt.\n- Over four years: Biennial.\n- Over ten years: Annual.\n(Página 26 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636305375820000000/232829fd-979c-4903-ae44-2aae5c4c5848M.jpg",
+      "number": "20.",
+      "question": "¿Cuándo debe pasar un turismo la primera inspección técnica?\nWhen must a passenger car have its first technical inspection?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Cada tres años.\nEvery three years."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Está exenta durante los seis primeros años.\nIt is exempt during the first six years."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cada dos años.\nEvery two years."
+        }
+      ],
+      "help": "3 Documentation for the vehicle              \n             \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\n- Towed caravans in category O2.\nFrequency of inspection according to age of the vehicle\n- Up to six years: Exempt.\n- Over six years: Biennial.\n(Página 26 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636326135680000000/643e1be7-176d-4e72-b83e-437c1c0a8fcaM.jpg",
+      "number": "21.",
+      "question": "Si se matricula hoy una caravana de la categoría O2 para llevarla enganchada a un turismo, ¿cada cuánto tiempo debe presentarla a inspección técnica periódica durante los primeros seis años?\nIf you register an O2 category caravan today to be towed by a car, how often should you submit it to a periodic technical inspection for the first six years?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "cada año.\nevery year."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "cada dos años.\nevery two years."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "cada cinco años.\nevery five years."
+        }
+      ],
+      "help": "3 Documentation for the vehicle            \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections    \nFrequency of compulsory periodic testing\nCategory of vehicle\n- Three-wheel mopeds and light quadricycles for private use.\n- Motorcycles with and without sidecar, three-wheel vehicles and heavy quadricycles, for private use.\n- Quads.\nFrequency of inspection according to age of the vehicle\n- Up to four years: Exempt.\n- Over four years: Biennial.\n(Página 26 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680790000000/90f3de46-bf59-4482-b9d4-0113dee97ff5M.jpg",
+      "number": "22.",
+      "question": "Las motocicletas con más de cinco años de antigüedad deben pasar la ITV...\nMotorcycles over five years old must take the ITV...",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Bienal, hasta los 10 años.\nEvery two years, up to 10 years."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Anual, hasta los seis años.\nAnnual, up to six years."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Bienal, hasta los seis años.\nEvery two years, up to six years."
+        }
+      ],
+      "help": "3 Documentation for the vehicle            \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\nVehicles in category N1:\nVehicles designed and constructed mainly for the carriage of goods with a maximum mass not exceeding 3.5 tonnes.   \nFrequency of inspection according to age of the vehicle\n- Up to two years: Exempt.\n- From two to six years: Biennial.\n- From six to ten years: Annual.\n- Over ten years: Half-yearly.    \n(Página 26 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634913521220000000/36840c60-ab7d-4d1d-9148-eac6a8ef0ad5M.jpg",
+      "number": "23.",
+      "question": "Un furgón de hasta 3.500 kg de 5 años de antigüedad, ¿cuándo debe pasar la inspección técnica?\nWhen should a 5-year-old van under 3,500 kg take the technical inspection?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "cada dos años.\nevery two years."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "cada año.\nevery year."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "cada cuatro años.\nevery four years."
+        }
+      ],
+      "help": "3 Documentation for the vehicle            \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\nVehicles in category M1 for private use:\nVehicles designed and constructed for the carriage of passengers and their luggage, comprising no more than eight seats in addition to the driver's seat.\nFrequency of inspection according to age of the vehicle\n- Up to four years: Exempt.\n- Over four years: Biennial.\n- Over ten years: Annual.\n(Página 26 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449573980000000/4c2fdc18-9ac9-49c1-87dc-e6b1d160b5ceM.jpg",
+      "number": "24.",
+      "question": "Un turismo con once años de antigüedad debe someterse a la inspección técnica periódica...\nA car that is eleven years old must take its periodical technical inspection...",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Pasados cuatro años.\nAfter four years."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Pasados dos años.\nAfter two years."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Al año siguiente.\nNext year."
+        }
+      ],
+      "help": "3 Documentation for the vehicle            \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\nVehicles in category M1 for private use:\nVehicles designed and constructed for the carriage of passengers and their luggage, comprising no more than eight seats in addition to the driver's seat.\nFrequency of inspection according to age of the vehicle\n- Up to four years: Exempt.\n- Over four years: Biennial.\n- Over ten years: Annual.\n(Página 26 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634781258470000000/a8bb2294-c320-4cc2-b0bd-22c6e967f857M.jpg",
+      "number": "25.",
+      "question": "Un turismo acaba de pasar satisfactoriamente la primera inspección técnica periódica, ¿cuándo debe pasar la siguiente?\nA passenger car has just passed its first regular technical inspection, when must it pass the next one?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, salvo cuando el conductor es el tomador del seguro.\nYes, except when the driver is the insurer."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, en todo caso.\nYes, always."
+        }
+      ],
+      "help": "3.3 Compulsory (minimum - limited) liability insurance (SOA)  \n \n3.3.1 Cover and exclusions\nFor damages, the driver will be covered for third party responsibility.\nThe basic, minimal cover for insurance will not cover payment(s) to the driver, of the assured vehicle, for injuries received, when he is deemed responsible for their cause.\n(Página 27 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635023254900000000/94a80fd8-a8ee-433c-aa7c-7d6ace452219M.jpg",
+      "number": "26.",
+      "question": "El seguro obligatorio, ¿cubre los daños en la persona del conductor del vehículo asegurado?\nDoes compulsory civil insurance cover injuries to the driver of the insured car?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, cuando su conductor no sea culpable del accidente.\nYes, when its driver is not at fault for the accident."
+        }
+      ],
+      "help": "3.3 Compulsory (minimum - limited) liability insurance (SOA)  \n \n3.3.1 Cover and exclusions\nFor damages, the driver will be covered for third party responsibility.\nThe basic, minimal cover for insurance will not cover payment(s) to the driver, of the assured vehicle, for injuries received, when he is deemed responsible for their cause.\n(Página 27 del manual 'Learning to drive')\n\n3.3 Compulsory (minimum - limited) liability insurance (SOA)  \n   \n3.3.1 Cover and exclusions\nAdditionally, the cover provided by the minimal obligatory subscription, does not cover:\nThe insured vehicle.\nOther items being transported within the insured vehicle.\nAny damage to goods that are owned by the insured, the owner, the driver, the spouse or close relatives.\n(Página 28 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680310000000/2b7a83f3-ebb0-4256-80f0-767f06bcf5d2M.jpg",
+      "number": "27.",
+      "question": "El seguro obligatorio, ¿cubre los daños del vehículo asegurado?\nDoes compulsory insurance cover damage to the insured vehicle?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, se llevará a cabo en un lugar seguro fuera de la vía.\nNo, they should complete it in a safe place off the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, siempre que lo hagan con las debidas condiciones de seguridad.\nYes, provided that they do so safely."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, cuando se realice en los arcenes de la vía, nunca en la calzada.\nYes, if on the hard shoulders, never on the carriageway."
+        }
+      ],
+      "help": "3.3.4 ’Friendly declaration of an accident’- form\n \nRoad users whose vehicle has been involved in an accident must not complete the accident report on the road. They should complete it in a safe place off the road.\n(Página 28 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637188450280000000/d750de09-0e4e-4c4f-b6ab-e417022796bdM.jpg",
+      "number": "28.",
+      "question": "Los usuarios de las vías cuyo vehículo haya sufrido un accidente, ¿tienen permitido cumplimentar el parte de accidente en la plataforma de circulación?\nAre road users whose vehicle has been involved in an accident allowed to complete the accident report on the road?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, en todo caso, si los gastos no superan los límites establecidos en la póliza.\nYes, in any case, if the expenses do not exceed the limits established in the policy."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, cuando su conductor resulta civilmente responsable del accidente, excepto si el vehículo hubiera sido robado.\nYes, if the driver is civilly liable for the accident, unless the vehicle was stolen."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, siempre, pues así se contempla en la póliza del seguro obligatorio.\nYes, always, as this is covered by the compulsory insurance policy."
+        }
+      ],
+      "help": "3.3 Compulsory (minimum - limited) liability insurance (SOA)  \n \n3.3.1 Cover and exclusions\nParties suffering damages due to driving the responsible vehicle are also excluded from cover for personal and material damages under the compulsory insurance in the case of theft.\nIn case of an accident, all the parts involved must report to their insurance company, the full details within a maximum period of seven days. Note - unless otherwise stated within the policy.\n(Página 28 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680910000000/fa60b4f5-a3da-4a14-a9c8-4f197e0f75a4M.jpg",
+      "number": "29.",
+      "question": "En caso de accidente, el seguro obligatorio de un vehículo, ¿cubre los daños producidos a la parte contraria?\nIn the event of an accident, does compulsory vehicle insurance cover the damages caused to the other party?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "El tomador del seguro.\nThe policyholder."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "El conductor.\nThe driver."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "El pasajero.\nThe passenger."
+        }
+      ],
+      "help": "4 Responsible people\n \nAs a general rule, the party liable for the infractions committed will be the author of the event leading to the infraction.\nNonetheless:\nDrivers of any vehicle that requires that drivers and passengers wear helmets will be responsible for the passenger not wearing his or her helmet, as well as for transporting passengers under the legal minimum age.\n(Página 29 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636465058770000000/9d1b61e5-f659-4448-8aeb-4374e847ea12M.jpg",
+      "number": "30.",
+      "question": "Uno de los pasajeros adultos del turismo que usted conduce no lleva puesto el cinturón de seguridad. Si un agente de la autoridad denuncia la infracción, ¿quién es el responsable?\nOne of the adult passengers in the car you are driving is not wearing a seat belt. If a law enforcement officer reports the offence, who is responsible?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

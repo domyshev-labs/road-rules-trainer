@@ -1,0 +1,733 @@
+{
+  "test_id": 1019,
+  "title": "Speed and distances 2",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-05",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "A 90 km/h.\nAt 90 kph."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "A 100 km/h.\nAt 100 kph."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A 110 km/h.\nAt 110 kph."
+        }
+      ],
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678850000000/9d0d2107-bf2b-42db-a429-855ea11576f1M.jpg",
+      "number": "1.",
+      "question": "Un vehículo mixto, ¿a qué velocidad está permitido que adelante en esta vía?\nAt what speed is a multi-purpose vehicle allowed to go on this road?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A 120 km/h.\n120 kph."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "A 100 km/h.\n100 kph."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "A 80 km/h.\n80 kph."
+        }
+      ],
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636855638670000000/9b157770-2f92-4baf-b745-cfae1a35957eM.jpg",
+      "number": "2.",
+      "question": "En una carretera convencional, ¿a qué velocidad máxima puede adelantar un camión?\nOn a conventional road, at what speed can a lorry overtake?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A 120 km/h.\n120 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No puede adelantar.\nIt cannot overtake."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A 110 km/h.\n110 km/h."
+        }
+      ],
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635168334140000000/b25b8908-f341-45e0-bfdc-f9ceeef73983M.jpg",
+      "number": "3.",
+      "question": "En esta carretera convencional, ¿a qué velocidad puede adelantar un turismo a un vehículo que circula a 90 km/h?\nOn this conventional road, at what speed can a passenger car overtake a vehicle that is driving at 90 km/h?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "90 km/h.\n90 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "80 km/h.\n80 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "100 km/h.\n100 km/h."
+        }
+      ],
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636833215670000000/e82c6d4b-b60e-4451-b2d0-a2503e8d3957M.jpg",
+      "number": "4.",
+      "question": "Circula con su turismo por esta carretera convencional. ¿Cuál es la velocidad máxima permitida?\nYou are driving your passenger car along this conventional road. What is the maximum speed permitted?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, en 20 km/h.\nYes, by 20 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, en 10 km/h.\nYes, by 10 km/h."
+        }
+      ],
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485884350000000/7713dba4-226c-4a55-bd01-e0dbb9b636f9M.jpg",
+      "number": "5.",
+      "question": "Un turismo con remolque, ¿puede superar la velocidad máxima permitida para adelantar?\nCan a car with a trailer exceed the speed limit to overtake?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A 110 km/h.\n110 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "A 90 km/h.\n90 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A 120 km/h.\n120 km/h."
+        }
+      ],
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636833211770000000/d1a7baa2-754a-4bc0-9dc3-59a46b130f91M.jpg",
+      "number": "6.",
+      "question": "En esta carretera convencional con un carril para cada sentido, ¿a qué velocidad como máximo puede circular un pick-up?\nOn this conventional road with one lane for each direction, what maximum speed can a pick-up truck drive at?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "70 km/h.\n70 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "45 km/h.\n45 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "45 km/h, pudiendo superarla en 20 km/h para adelantar.\n45 km/h, which can be increased by 20 km/h when overtaking."
+        }
+      ],
+      "help": "5 Generic speed      \n     \n5.1 Maximum speed limits on interurban roads   \n5.1.3 Other maximum speed limits outside of built-upareas  \nCycles, 2 or 3 wheeled mopeds, light quadricycles and vehicles for people with reduced mobility – are restricted to a maximum speed of 45 km/h.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681420000000/f4aaecf7-81ca-4fa3-befc-f193224c96cdM.jpg",
+      "number": "7.",
+      "question": "Fuera de poblado, ¿cuál es la velocidad máxima a la que puede circular un ciclomotor?\nOut of town, what is the maximum speed at which a moped can circulate?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A 50 km/h.\n50 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "A 45 km/h.\n45 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A 70 km/h.\n70 km/h."
+        }
+      ],
+      "help": "5 Generic speed      \n     \n5.1 Maximum speed limits on interurban roads   \n5.1.3 Other maximum speed limits outside of built-upareas  \nCycles, 2 or 3 wheeled mopeds, light quadricycles and vehicles for people with reduced mobility – are restricted to a maximum speed of 45 km/h.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681770000000/48dbaf83-b771-4d9e-8b19-efee3dfa354bM.jpg",
+      "number": "8.",
+      "question": "Un cuadriciclo ligero, ¿a qué velocidad máxima puede circular fuera de poblado?\nWhat is the maximum speed a microcar can travel at outside a built-up area?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "80 kilómetros por hora.\n80 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "50 kilómetros por hora.\n50 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "100 kilómetros por hora.\n100 kilometres per hour."
+        }
+      ],
+      "help": "5 Generic speed          \n       \n5.2 Maximum speeds within a populated area\nAs a general rule, the maximum speeds within populated areas, except for those vehicles with a lower maximum speed limit, are:\nOn urban roads with a single platform for carriageway and pavement: 20 km/h.\nIn urban lanes with one carriageway per direction of travel: 30 km/h. (*)  \n- Personal mobility vehicle: 25  km/h.\nIn urban lanes with two or more carriageways per direction of travel and in through-roads: 50 km/h.\n- Vehicles transporting hazardous goods: 40 km/h.\n- All other vehicles: 50 km/h.  \n- Personal mobility vehicle: 25  km/h.\n(*) The lanes reserved for certain users or for exclusive use by public transport are not considered for these purposes.\nThe generic speed limit on motorways and dual carriageways that pass through a populated area will be 80 km/h.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679270000000/efb68863-aa44-4024-908d-5ca902eb36afM.jpg",
+      "number": "9.",
+      "question": "En defecto de señalización, ¿cuál es la velocidad máxima a la que se permite la circulación por una autovía, dentro de poblado, a un autobús?\nIf there is no sign, what is the maximum speed that a bus is allowed to drive at along a dual carriageway in a populated area?",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "25 kilómetros por hora.\n25 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "20 kilómetros por hora.\n20 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "50 kilómetros por hora.\n50 kilometres per hour."
+        }
+      ],
+      "help": "5 Generic speed          \n       \n5.2 Maximum speeds within a populated area\nAs a general rule, the maximum speeds within populated areas, except for those vehicles with a lower maximum speed limit, are:\nOn urban roads with a single platform for carriageway and pavement: 20 km/h.\nIn urban lanes with one carriageway per direction of travel: 30 km/h. (*)  \n- Personal mobility vehicle: 25  km/h.\nIn urban lanes with two or more carriageways per direction of travel and in through-roads: 50 km/h.\n- Vehicles transporting hazardous goods: 40 km/h.\n- All other vehicles: 50 km/h.  \n- Personal mobility vehicle: 25  km/h.\n(*) The lanes reserved for certain users or for exclusive use by public transport are not considered for these purposes.\nThe generic speed limit on motorways and dual carriageways that pass through a populated area will be 80 km/h.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637491591900000000/7f1afb52-f533-4f5d-b941-2d879ffe6d54M.jpg",
+      "number": "10.",
+      "question": "En vías urbanas de dos o más carriles por sentido, ¿cuál es la velocidad máxima permitida para un vehículo de movilidad personal?\nOn urban roads with two or more lanes per direction of travel, what is the maximum speed limit for a personal mobility vehicle?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "30 kilómetros por hora.\n30 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "35 kilómetros por hora.\n35 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "20 kilómetros por hora.\n20 kilometres per hour."
+        }
+      ],
+      "help": "5 Generic speed          \n       \n5.2 Maximum speeds within a populated area\nAs a general rule, the maximum speeds within populated areas, except for those vehicles with a lower maximum speed limit, are:\nOn urban roads with a single platform for carriageway and pavement: 20 km/h.\nIn urban lanes with one carriageway per direction of travel: 30 km/h. (*)  \n- Personal mobility vehicle: 25  km/h.\nIn urban lanes with two or more carriageways per direction of travel and in through-roads: 50 km/h.\n- Vehicles transporting hazardous goods: 40 km/h.\n- All other vehicles: 50 km/h.  \n- Personal mobility vehicle: 25  km/h.\n(*) The lanes reserved for certain users or for exclusive use by public transport are not considered for these purposes.\nThe generic speed limit on motorways and dual carriageways that pass through a populated area will be 80 km/h.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637491590590000000/383bebda-b864-4d26-8a5e-3e2893f6466dM.jpg",
+      "number": "11.",
+      "question": "En vías urbanas de un único carril por sentido de circulación, ¿cuál es la velocidad máxima permitida?\nOn urban roads with one lane per direction of travel, what is the maximum speed limit?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "20 kilómetros por hora.\n20 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "50 kilómetros por hora.\n50 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "30 kilómetros por hora.\n30 kilometres per hour."
+        }
+      ],
+      "help": "5 Generic speed          \n       \n5.2 Maximum speeds within a populated area\nAs a general rule, the maximum speeds within populated areas, except for those vehicles with a lower maximum speed limit, are:\nOn urban roads with a single platform for carriageway and pavement: 20 km/h.\nIn urban lanes with one carriageway per direction of travel: 30 km/h. (*)  \n- Personal mobility vehicle: 25  km/h.\nIn urban lanes with two or more carriageways per direction of travel and in through-roads: 50 km/h.\n- Vehicles transporting hazardous goods: 40 km/h.\n- All other vehicles: 50 km/h.  \n- Personal mobility vehicle: 25  km/h.\n(*) The lanes reserved for certain users or for exclusive use by public transport are not considered for these purposes.\nThe generic speed limit on motorways and dual carriageways that pass through a populated area will be 80 km/h.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637491589600000000/f7be2193-c771-4827-88d7-9aa3fb2ba18fM.jpg",
+      "number": "12.",
+      "question": "En vías urbanas que dispongan de plataforma única de calzada y acera, ¿cuál es la velocidad máxima permitida para un turismo con remolque?\nOn urban roads with a single carriageway and pavement, what is the maximum speed limit for a car towing a trailer?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "90 km/h.\n90 kph."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "70 km/h.\n70 kph."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "50 km/h.\n50 kph."
+        }
+      ],
+      "help": "5 Generic speed          \n       \n5.2 Maximum speeds within a populated area\nAs a general rule, the maximum speeds within populated areas, except for those vehicles with a lower maximum speed limit, are:\nOn urban roads with a single platform for carriageway and pavement: 20 km/h.\nIn urban lanes with one carriageway per direction of travel: 30 km/h. (*)  \n- Personal mobility vehicle: 25  km/h.\nIn urban lanes with two or more carriageways per direction of travel and in through-roads: 50 km/h.\n- Vehicles transporting hazardous goods: 40 km/h.\n- All other vehicles: 50 km/h.  \n- Personal mobility vehicle: 25  km/h.\n(*) The lanes reserved for certain users or for exclusive use by public transport are not considered for these purposes.\nThe generic speed limit on motorways and dual carriageways that pass through a populated area will be 80 km/h.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637487244240000000/69600a71-96a6-4353-89d3-7ce59d15976fM.jpg",
+      "number": "13.",
+      "question": "En una travesía sin limitación específica, ¿cuál es la velocidad máxima permitida para adelantar?\nOn a through road with no specific limitation, what is the maximum permitted speed when overtaking?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "60 kilómetros por hora.\n60 kilometres per hour."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "50 kilómetros por hora.\n50 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "100 kilómetros por hora.\n100 kilometres per hour."
+        }
+      ],
+      "help": "5 Vertical Signs                                                \n                                           \n5.4 Indication Road Signs                \n5.4.5 Direction and guidance signs\nSigns of location\nS-500 Entry into built-up area\nIndicates the name of the town or settlement being entered, as well as the point from which urban traffic regulations apply. The upper sub-panel reinforces the message that driving in this section must be adapted due to the presence of pedestrians, cyclists, or other vulnerable road users. It may also include the maximum permitted speed for the section, whether or not it matches the general limit.\n(Página 146 del manual 'Learning to drive')\n\n5 Generic speed          \n       \n5.2 Maximum speeds within a populated area\nAs a general rule, the maximum speeds within populated areas, except for those vehicles with a lower maximum speed limit, are:\nOn urban roads with a single platform for carriageway and pavement: 20 km/h.\nIn urban lanes with one carriageway per direction of travel: 30 km/h. (*)  \n- Personal mobility vehicle: 25  km/h.\nIn urban lanes with two or more carriageways per direction of travel and in through-roads: 50 km/h.\n- Vehicles transporting hazardous goods: 40 km/h.\n- All other vehicles: 50 km/h.  \n- Personal mobility vehicle: 25  km/h.\n(*) The lanes reserved for certain users or for exclusive use by public transport are not considered for these purposes.\nThe generic speed limit on motorways and dual carriageways that pass through a populated area will be 80 km/h.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638859318910000000/9b9185bd-a4d8-4f71-9dbf-0e2891cf5c00M.jpg",
+      "number": "14.",
+      "question": "A partir de la señal, ¿cuál es la velocidad máxima en la travesía?\nFrom the sign, what is the maximum speed on a through road?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "80 kilómetros por hora.\n80 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "45 kilómetros por hora.\n45 kilometres per hour."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "50 kilómetros por hora.\n50 kilometres per hour."
+        }
+      ],
+      "help": "5 Generic speed          \n       \n5.2 Maximum speeds within a populated area\nAs a general rule, the maximum speeds within populated areas, except for those vehicles with a lower maximum speed limit, are:\nOn urban roads with a single platform for carriageway and pavement: 20 km/h.\nIn urban lanes with one carriageway per direction of travel: 30 km/h. (*)  \n- Personal mobility vehicle: 25  km/h.\nIn urban lanes with two or more carriageways per direction of travel and in through-roads: 50 km/h.\n- Vehicles transporting hazardous goods: 40 km/h.\n- All other vehicles: 50 km/h.  \n- Personal mobility vehicle: 25  km/h.\n(*) The lanes reserved for certain users or for exclusive use by public transport are not considered for these purposes.\nThe generic speed limit on motorways and dual carriageways that pass through a populated area will be 80 km/h.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680950000000/fd2a3cab-bb09-4f3c-9a13-d70d94b51986M.jpg",
+      "number": "15.",
+      "question": "En una travesía, ¿cuál es la velocidad máxima permitida para una motocicleta?\nIn a road through a built-up area, what is the maximum speed allowed for a motorcycle?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero solo para no ser sancionado.\nYes, but only to avoid a penalty."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, para evitar causar accidentes.\nYes, to avoid causing accidents."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, ya que los límites inferiores son solo orientativos.\nNo, since the lower limits are for guidance only."
+        }
+      ],
+      "help": "5 Generic speed    \n \n5.3 Minimum generic speed\nWhen you drive below these minimum limits you are said to travel at an abnormally reduced speed. This is considered an inadequate speed, as there is an increased risk of danger and a higher risk of a collision as a result of people overtaking the slower moving vehicles. It also adds to road congestion as it hampers the movement of other road users.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674870000000/ddc3bd9c-32ea-499a-9a63-f27a6ecc062eM.jpg",
+      "number": "16.",
+      "question": "¿Es importante cumplir con los límites inferiores de velocidad?\nIs it important to comply with minimum speed limits?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A 70 km/h.\nAt 70 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "A 80 km/h.\nAt 80 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A 120 km/h.\nAt 120 km/h."
+        }
+      ],
+      "help": "5 Generic speed          \n       \n5.2 Maximum speeds within a populated area\nAs a general rule, the maximum speeds within populated areas, except for those vehicles with a lower maximum speed limit, are:\nOn urban roads with a single platform for carriageway and pavement: 20 km/h.\nIn urban lanes with one carriageway per direction of travel: 30 km/h. (*)  \n- Personal mobility vehicle: 25  km/h.\nIn urban lanes with two or more carriageways per direction of travel and in through-roads: 50 km/h.\n- Vehicles transporting hazardous goods: 40 km/h.\n- All other vehicles: 50 km/h.  \n- Personal mobility vehicle: 25  km/h.\n(*) The lanes reserved for certain users or for exclusive use by public transport are not considered for these purposes.\nThe generic speed limit on motorways and dual carriageways that pass through a populated area will be 80 km/h.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680540000000/df514034-5a70-4246-a35a-100054cd243dM.jpg",
+      "number": "17.",
+      "question": "En esta autopista dentro de poblado, ¿a qué velocidad puede circular como máximo si no existe señalización?\nOn this autopista inside a built-up area, what is the maximum speed you can drive at if there is no signage?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "90 km/h.\n90 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "80 km/h, pudiendo rebasarlo en 20 km/h para adelantar.\n80 km/h, which can be exceeded by 20 km/h when overtaking."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "80 km/h.\n80 km/h."
+        }
+      ],
+      "help": "5 Generic speed          \n       \n5.2 Maximum speeds within a populated area\nAs a general rule, the maximum speeds within populated areas, except for those vehicles with a lower maximum speed limit, are:\nOn urban roads with a single platform for carriageway and pavement: 20 km/h.\nIn urban lanes with one carriageway per direction of travel: 30 km/h. (*)  \n- Personal mobility vehicle: 25  km/h.\nIn urban lanes with two or more carriageways per direction of travel and in through-roads: 50 km/h.\n- Vehicles transporting hazardous goods: 40 km/h.\n- All other vehicles: 50 km/h.  \n- Personal mobility vehicle: 25  km/h.\n(*) The lanes reserved for certain users or for exclusive use by public transport are not considered for these purposes.\nThe generic speed limit on motorways and dual carriageways that pass through a populated area will be 80 km/h.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674120000000/f7ae5d74-5d12-41a5-8c08-f8f214a48f58M.jpg",
+      "number": "18.",
+      "question": "En autopistas y autovías dentro de poblado, el límite de velocidad para circular de un conductor novel es de...\nOn autopistas and autovías inside a built-up area, the speed limit for a new driver is...",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "60 km/h o inferior.\n60 kph or lower."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La inferior a 60 km/h.\nUnder 60 kph."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "La inferior a 45 km/h.\nUnder 45 kph."
+        }
+      ],
+      "help": "5 Generic speed        \n     \n5.3 Minimum generic speed\nThe generic minimum speed limits, both inside and outside populated areas, are:\nOn motorways and dual carriageways: 60 km/h for all motor vehicles.\nOn the remaining roads: the minimum speed is half of the maximum generic speed for each road.\n(Página 174 del manual 'Learning to drive')\n\n5 Generic speed    \n \n5.3 Minimum generic speed\nWhen you drive below these minimum limits you are said to travel at an abnormally reduced speed. This is considered an inadequate speed, as there is an increased risk of danger and a higher risk of a collision as a result of people overtaking the slower moving vehicles. It also adds to road congestion as it hampers the movement of other road users.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636791774960000000/be58b94f-d647-4bea-9780-481380c607f1M.jpg",
+      "number": "19.",
+      "question": "En esta carretera convencional, ¿qué velocidad se considera anormalmente reducida, sin causa justificada, para un turismo?\nOn this conventional road, what speed is considered abnormally low, without just cause, for a passenger car?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, una velocidad anormalmente reducida puede causar accidentes.\nYes, an abnormally low speed may cause accidents."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, ya que siempre se considera una velocidad adecuada.\nNo, as this is always considered to be a suitable speed."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, nunca.\nNo, never."
+        }
+      ],
+      "help": "5 Generic speed    \n \n5.3 Minimum generic speed\nWhen you drive below these minimum limits you are said to travel at an abnormally reduced speed. This is considered an inadequate speed, as there is an increased risk of danger and a higher risk of a collision as a result of people overtaking the slower moving vehicles. It also adds to road congestion as it hampers the movement of other road users.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674600000000/d733c096-c3f7-4492-a949-fb346ece2895M.jpg",
+      "number": "20.",
+      "question": "Circular por debajo de la velocidad mínima permitida, ¿podría ser un factor de riesgo?\nCould driving under the minimum speed allowed be a risk factor?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "75 km/h.\n75 kph."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "60 km/h.\n60 kph."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "90 km/h.\n90 kph."
+        }
+      ],
+      "help": "5 Generic speed        \n     \n5.3 Minimum generic speed\nThe generic minimum speed limits, both inside and outside populated areas, are:\nOn motorways and dual carriageways: 60 km/h for all motor vehicles.\nOn the remaining roads: the minimum speed is half of the maximum generic speed for each road.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636833237870000000/b56b197d-249d-4b2d-a405-48697fb21d04M.jpg",
+      "number": "21.",
+      "question": "En esta vía, la velocidad mínima permitida a los turismos es de…\nThe minimum speed permitted for a passenger car on this road is…",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, aunque en este caso estoy obligado a circular por el arcén.\nYes, although in this case I am required to drive on the hard shoulder."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, siempre que no circulen otros vehículos a los que pueda entorpecer su marcha normal.\nYes, provided that there are no other vehicles on the road whose normal progress could be hindered."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, porque es una velocidad anormalmente reducida.\nNo, because it is an abnormally low speed."
+        }
+      ],
+      "help": "5 Generic speed    \n \n5.3 Minimum generic speed\nIt is not permissible to travel at an abnormally slow speed and slow down the normal circulation of other vehicles without a justified cause.\nTherefore, it is prohibited to travel at a speed below the minimum limit, even if there are no other vehicles travelling on the roadway.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674390000000/6365f40f-702b-41f3-874f-1e274ca6da7dM.jpg",
+      "number": "22.",
+      "question": "¿Está permitido circular por una autovía, sin causa justificada, por debajo del límite mínimo de velocidad establecido para dicha vía?\nAre you allowed to drive on a dual carriageway below the minimum speed limit established for that road without just cause?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, si la circulación es escasa, pero no si es densa.\nYes, if circulation is low, but not dense traffic is low and not dense."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, porque es una autopista y es una vía de gran seguridad.\nNo, because it is a motorway where maximum safety must be exercised."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "5 Generic speed      \n   \n5.3 Minimum generic speed\nIt is only permitted to drive below the minimum speed limits:\nIn the case of bicycles, animal traction vehicles, special vehicles and vehicles that fall under the special transport system.\nWhen the circumstances of the traffic, of the vehicle or of the road in question make it difficult to maintain a speed above the minimum without posing a risk to traffic.\n(Página 175 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674520000000/be97fe79-412a-4822-9573-3821cdcb34b7M.jpg",
+      "number": "23.",
+      "question": "En una autopista, ¿está permitido circular a una velocidad anormalmente reducida con niebla espesa?\nIs it permitted to drive at an abnormally low speed with thick fog on a motorway?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "disminuye.\ndecreases."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "no varía.\ndoes not change."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "aumenta.\nincreases."
+        }
+      ],
+      "help": "8 Speed limits are a necessity  \n   \n8.3 The speed limit on motorways and dual carriageways\nThe probability of surviving an accident at 120 kilometres per hour is minimal due to a reduction in the effectiveness of the safety features fitted onto a vehicle (seatbelts, airbags, etc.) Additionally, the crash barriers are only designed to withstand an impact with a normal car at 110 kilometres per hour. The higher the speed, the greater the severity of injury.\n(Página 177 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674320000000/c3305a9c-7a16-45de-b442-b9f92babde31M.jpg",
+      "number": "24.",
+      "question": "A más de 120 kilómetros por hora en autopista, la probabilidad de sobrevivir a un accidente...\nWhen driving at more than 120 kilometres per hour on the motorway, the probability of surviving an accident…",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero sólo para no ser sancionado por exceso de velocidad.\nYes, but only in order not to be fined for excessive speed."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, para que, en caso de atropello, el peatón tenga más posibilidades de sobrevivir.\nYes, because if a pedestrian is knocked down, he has a greater chance of survival."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, sobre todo en las calles y avenidas anchas.\nNo, especially in streets and wide avenues."
+        }
+      ],
+      "help": "8 Speed limits are a necessity  \n   \n8.1 The speed limit in a built up area\nIn a built up area, roads are shared by vehicles and pedestrians and, in the event of a collision, speed is a major factor in the victim's chances of survival. In fact, most pedestrian fatalities occur on urban roads.  \nAt 30 kilometres per hour, only 5 % of pedestrians involved in a collision die as a result of the accident, while at 50 kilometres per hour, the proportion of deaths is nearly 50%.\n(Página 177 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675510000000/af9b87bf-ed7e-4a90-8ad9-5bce92d4e839M.jpg",
+      "number": "25.",
+      "question": "En ciudad, ¿es importante no circular a más de 50 kilómetros por hora?\nIs it important not to drive at over 50 kilometres per hour in a city?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "la máxima seguridad, aunque disminuya la fluidez.\nmaximum safety, even if fluidity is reduced."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "la máxima seguridad y fluidez.\nmaximum safety and fluidity."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la máxima fluidez, aunque disminuya la seguridad.\nmaximum fluidity, even if safety is reduced."
+        }
+      ],
+      "help": "8 Speed limits are a necessity\n \nSpeed limits are not capricious. There are numerous factors that determine the implementation of a certain speed limit being imposed, (for example; the designated speed, the acceptable degree of congestion, the demands of existing traffic, etc.) The aim of a set speed limit is to allow vehicles to travel with the maximum guarantee of safety and fluidity.\nOne of the most important criteria is the designated speed of the road (the maximum safe speed that can be maintained on a section of road under favourable conditions). This means that a road is designated to be used at a certain generic or specific speed limit and traffic is not allowed to do a higher speed than that specified. To do otherwise means that safety will be compromised.\n(Página 177 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681470000000/db99cbed-bd78-4b6a-9c2c-d65de4a89349M.jpg",
+      "number": "26.",
+      "question": "Los límites de velocidad se establecen para garantizar...\nSpeed limits are established to guarantee…",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "De su trazado y del número de curvas.\nThe design and the number of bends."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "De su trazado y del tráfico que vaya a soportar.\nThe design and the traffic that the road will hold."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "De criterios económicos, fundamentalmente.\nMainly economic criteria."
+        }
+      ],
+      "help": "8 Speed limits are a necessity\n \nSpeed limits are not capricious. There are numerous factors that determine the implementation of a certain speed limit being imposed, (for example; the designated speed, the acceptable degree of congestion, the demands of existing traffic, etc.) The aim of a set speed limit is to allow vehicles to travel with the maximum guarantee of safety and fluidity.\nOne of the most important criteria is the designated speed of the road (the maximum safe speed that can be maintained on a section of road under favourable conditions). This means that a road is designated to be used at a certain generic or specific speed limit and traffic is not allowed to do a higher speed than that specified. To do otherwise means that safety will be compromised.\n(Página 177 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675730000000/81ec028c-e85e-4d77-aba1-af2eaf22cdc1M.jpg",
+      "number": "27.",
+      "question": "Los límites de velocidad que se establecen para una vía, ¿de qué dependen?\nWhat do the speed limits that are established on roads depend on?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "de fluidez de una vía.\nfor fluid flow of traffic on the road."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "de diseño de una vía.\ndesigned for the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "adecuada de una vía.\nsuitable for the road."
+        }
+      ],
+      "help": "8 Speed limits are a necessity\n \nSpeed limits are not capricious. There are numerous factors that determine the implementation of a certain speed limit being imposed, (for example; the designated speed, the acceptable degree of congestion, the demands of existing traffic, etc.) The aim of a set speed limit is to allow vehicles to travel with the maximum guarantee of safety and fluidity.\nOne of the most important criteria is the designated speed of the road (the maximum safe speed that can be maintained on a section of road under favourable conditions). This means that a road is designated to be used at a certain generic or specific speed limit and traffic is not allowed to do a higher speed than that specified. To do otherwise means that safety will be compromised.\n(Página 177 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678240000000/239ed2d9-8f6f-4e6b-a0f2-283bad513573M.jpg",
+      "number": "28.",
+      "question": "La máxima velocidad segura que puede mantenerse sobre una sección de carretera en condiciones favorables es la velocidad...\nThe maximum safe speed that you can drive at on a section of road in favourable conditions is the speed...",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "solo sea capaz de percibir con nitidez la parte lateral de la vía.\nonly capable of seeing the lateral part of the road clearly."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "sea más sensible a los deslumbramientos.\nmore sensitive to dazzling."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "solo sea capaz de percibir con nitidez el centro de la vía.\nonly capable of seeing the centre of the road clearly."
+        }
+      ],
+      "help": "9 The negative effects of speed\n \nThrough the driver’s vision, 90% of the information needed for good driving is received: the condition and configuration of the road, signalling, distances, speeds etc. Hence, the importance of having the largest possible zone of vision when driving. Speed, among other factors, causes a decrease in the useful field of vision, which results in a tunnel vision effect. Therefore, as speed increases the driver’s field of vision is reduced eventually resulting in only objects in the centre of the roadway being clearly visible. The peripheral vision is steadily reduced as speed increases also.\n \n(Página 178 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485840020000000/9b5e3f59-d90d-44b4-a256-dfd668d6d482M.jpg",
+      "number": "29.",
+      "question": "El efecto túnel producido por la velocidad hace que el conductor...\nThe tunnel effect produced by speed makes a driver...",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, además están prohibidas.\nYes, and they are also prohibited."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, puesto que se trata de competiciones deportivas.\nNo, since these are sports competitions."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, solamente tendrían una sanción económica.\nNo, there would only be a fine."
+        }
+      ],
+      "help": "11 Competitions – roadraces\n \nIt is prohibited to race on the public highways or in public places. An exception exists when the relevant authorities have authorised an area or location to be used for racing purposes and in accordance with specific controls.\nRacing on the public roads and highways, in competitions of unauthorised races - Could result in the deduction for 6 points.\n(Página 178 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449636040000000/a6e84649-f433-4a1f-8a73-26983d986f77M.jpg",
+      "number": "30.",
+      "question": "Realizar por las vías públicas carreras y competiciones no autorizadas, ¿puede acarrear la pérdida de puntos del permiso de conducción?\nCan unauthorised races and competitions on public roads lead to the loss of driving licence points?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

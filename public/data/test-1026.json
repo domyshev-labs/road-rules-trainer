@@ -1,0 +1,733 @@
+{
+  "test_id": 1026,
+  "title": "Transporting people and loads",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-05",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, porque es peligroso.\nNo, because it is dangerous."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, cuando es un vehículo de transporte de mercancías.\nYes, when it is a goods transport vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero solamente cuando transporta equipaje y personas dentro de poblado.\nYes, but only when it is transporting luggage and people inside a built up area."
+        }
+      ],
+      "help": "Transporting people and loads  \n   \n1 Generally\nTherefore it is prohibited to travel with a mass (passengers or merchandise) above the maximum authorised mass of the vehicle.\nAdditionally, you cannot exceed the maximum authorised mass per axle or the maximum authorised mass of the set or combination.\nIt should be remembered that whatever the vehicle (or model), when it is loaded to the maximum limit, there will still be an effect on the handling and responses – for example an increase in the braking distance, reduction of acceleration, an increase in fuel consumption etc.\n(Página 213 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482491450000000/e1263a54-5092-4570-804a-d14da0059049M.jpg",
+      "number": "1.",
+      "question": "Un vehículo lleva más carga que la Masa Máxima Autorizada (MMA). ¿Está permitido circular así?\nA vehicle is carrying more load that its Maximum Authorized Mass (MAM). Is it permitted to drive like this?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "controlada obligatoriamente por un pasajero.\nheld by a passenger."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "situada obligatoriamente en los asientos traseros y con el cinturón de seguridad del vehículo.\nlocated on the rear seats and with a seatbelt."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "sujeta de forma que no interfiera con el conductor para evitar que pueda perder el control del vehículo.\nrestrained so that it does not interfere with the driver, to prevent them from losing control of the vehicle."
+        }
+      ],
+      "help": "Transporting people and loads  \n   \n1 Generally\nIt is necessary also for the driver, when transporting animals inside the vehicle, to ensure that they are suitably located and in a place where they will not interfere with the driver or compromise safety. This means placing them in a suitable cage and/or placing them in the rear (boot area) of the vehicle, separated from the driver and passenger compartment by a dog guard, bars or harness etc.\nNever allow an animal to travel with its head out of the window, either keep the window closed or open the window slightly for ventilation purposes.\n(Página 214 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676610000000/a2676177-a9b8-46c5-83c8-d404d925e741M.jpg",
+      "number": "2.",
+      "question": "Para transportar una mascota, salvo que exista en el vehículo un lugar destinado para su transporte, debe estar...\nWhen transporting a pet, unless there is a specific place for its transport in the vehicle, it must be...",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Siempre el conductor.\nAlways the driver."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Los pasajeros mayores de edad.\nAdult passengers."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "El pasajero que viaje en el asiento delantero.\nThe passenger travelling in the front seat."
+        }
+      ],
+      "help": "Transporting people and loads  \n   \n1 Generally\nIt is necessary therefore to pay special attention to the following:\nThe correct seating position for the driver.\nPassenger seating and comfort.\nThe correct placement of items transported, to assure that there is no obstruction or danger to the vehicle occupants or other road users.\n(Página 214 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636469435320000000/f1a169eb-12eb-43ad-b98d-f43ba9e0b5ddM.jpg",
+      "number": "3.",
+      "question": "Para garantizar la seguridad en un turismo, ¿quién cuidará de que los pasajeros mantengan la posición adecuada?\nFor safety in a car, who is responsible for ensuring passengers stay in the correct position?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, no está permitido.\nNo, it is not permitted."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, siempre que no supere en un 50% el número de plazas autorizado.\nYes, provided that you do not exceed by 50% the number of authorized places."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, siempre que no supere la masa máxima autorizada.\nYes, provided that you do not exceed the maximum authorized mass."
+        }
+      ],
+      "help": "Transporting people and loads\n \n2 Transporting people\n2.1 General rules\nWhen a vehicle is used to transport people, the driver of that vehicle, must ensure that he knows how many people are being transported and make sure that this number does not exceed the maximum authorised amount permissible for that vehicle.\n(Página 214 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674220000000/2c51f95c-c8e0-47ed-9cc7-1078b58a8898M.jpg",
+      "number": "4.",
+      "question": "En un turismo con cinco plazas autorizadas, ¿puede transportar a seis personas?\nIn a private car with five authorized places, are you permitted to carry six people?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "por el lado derecho.\non the right-hand side."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "siempre por el lado del conductor.\nalways on the driver's side."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "por el lado derecho o izquierdo, según el lado de la calzada donde se efectúe la inmovilización.\non the right or left side, depending on the side of the road where the vehicle has stopped."
+        }
+      ],
+      "help": "Transporting people and loads\n \n2 Transporting people\n2.1 General rules\nAs a general rule, people must enter and leave the vehicle on the side closest to the edge of the road and only after stopping.\n(Página 214 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675450000000/7aeb0e47-69c4-49f4-81d6-811dea24af61M.jpg",
+      "number": "5.",
+      "question": "En vía urbana de un solo sentido, los usuarios de un vehículo estacionado deberán salir de él...\nOn a one-way urban road, the occupants of a parked vehicle must leave it...",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, a un menor de hasta siete años siempre que lo haga en un asiento adicional homologado.\nYes, a child up to the age of seven, provided that he is transported in an additional authorized seat."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, sentado entre el conductor y el manillar.\nYes, between the rider and the handlebars."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, está prohibido.\nNo, it is prohibited."
+        }
+      ],
+      "help": "Transporting people and loads  \n   \n2 Transporting people\n2.3 Cycles, mopeds and motorcycles\nIf a cycle has been designed and constructed only to transport one person a passenger cannot be carried. However, if the rider is of a legal age (an adult) then it is permissible to transport a minor up to the age of seven years, but only when an accredited additional child seat is utilised.\n(Página 214 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674440000000/3638b6e5-5563-44e9-85e4-ee187f015654M.jpg",
+      "number": "6.",
+      "question": "¿Puede el conductor de una bicicleta transportar un pasajero?\nMay a cyclist transport a passenger?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, debido al aumento de peso.\nYes, due to the increased weight."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, sobre todo en las curvas.\nYes, especially on bends."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "Transporting people and loads  \n   \n2 Transporting people\n2.3 Cycles, mopeds and motorcycles\nIt must be taken into account that a lack of experience on the part of the passenger can be the cause of an accident, especially on bends.\n(Página 215 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680850000000/575f1b2f-64bb-44d0-af4b-9917b53efab4M.jpg",
+      "number": "7.",
+      "question": "La falta de experiencia del pasajero, ¿puede ser la causa de un accidente en moto?\nCan a passenger's lack of experience be the cause of a motorbike accident?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A horcajadas entre la persona que conduce y el manillar de dirección.\nStraddling the motorcycle between the person driving and the handlebars."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "A horcajadas y con los pies apoyados en los reposapiés laterales.\nStraddling the motorcycle, with their feet resting on the side footrests."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "De cualquier forma, siempre que vaya cómodo.\nHowever they like, provided it is comfortable."
+        }
+      ],
+      "help": "Transporting people and loads  \n   \n2 Transporting people\n2.3 Cycles, mopeds and motorcycles\nIn addition to the driver and, where applicable, the occupant of the sidecar, a passenger may also travel on mopeds and motorcycles, when thus stated on the driving permit and meeting the following conditions:\nThe passenger is older than 12 years.\nThat they use the appropriate seat behind the driver. In no case can they ever sit between the driver and the steering handlebars of the motorbike or moped.\nThe passenger must sit astride the machine and place his feet on the footrests provided.\nThe passenger must wear an approved crash helmet.\n(Página 215 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681040000000/21f28cf4-e849-488e-855e-9a1f53ac3c2fM.jpg",
+      "number": "8.",
+      "question": "¿Cómo debe sentarse el pasajero de una motocicleta?\nHow should a motorcycle passenger sit?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "tres años, pero siempre con asiento adicional.\nthree years old but always with an additional seat."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "siempre 12 años.\nalways 12 years old."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "12 años y, excepcionalmente, siete años si la motocicleta o ciclomotor van conducidos por el padre, madre o tutor.\n12 years old, and exceptionally, seven if the motorcycle or scooter is ridden by the father, mother or tutor."
+        }
+      ],
+      "help": "Transporting people and loads  \n   \n2 Transporting people\n2.3 Cycles, mopeds and motorcycles\nIn addition to the driver and, where applicable, the occupant of the sidecar, a passenger may also travel on mopeds and motorcycles, when thus stated on the driving permit and meeting the following conditions:\nThe passenger is older than 12 years.\nThat they use the appropriate seat behind the driver. In no case can they ever sit between the driver and the steering handlebars of the motorbike or moped.\nThe passenger must sit astride the machine and place his feet on the footrests provided.\nThe passenger must wear an approved crash helmet.\n(Página 215 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636304493210000000/c32308be-e8ac-4f6c-b597-55ea55a8365cM.jpg",
+      "number": "9.",
+      "question": "La edad mínima para viajar como acompañante en una motocicleta o ciclomotor será de...\nThe minimum age for travelling as a passenger on a motorcycle or scooter is...",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero solo cuando el conductor sea el padre, la madre o una persona autorizada.\nYes, but only when the rider is the father, the mother or an authorized person."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, con el correspondiente casco adecuado a su talla.\nYes, with the corresponding helmet suitable for his size."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "Transporting people and loads  \n   \n2 Transporting people\n2.3 Cycles, mopeds and motorcycles\nIn addition to the driver and, where applicable, the occupant of the sidecar, a passenger may also travel on mopeds and motorcycles, when thus stated on the driving permit and meeting the following conditions:\nThe passenger is older than 12 years.\nThat they use the appropriate seat behind the driver. In no case can they ever sit between the driver and the steering handlebars of the motorbike or moped.\nThe passenger must sit astride the machine and place his feet on the footrests provided.\nThe passenger must wear an approved crash helmet.\n(Página 215 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636305427900000000/110408a1-3a34-45e3-9996-87404acabd0dM.jpg",
+      "number": "10.",
+      "question": "Transportar un niño situado entre el manillar y el conductor en una motocicleta, ¿está permitido?\nIs it permitted to transport a child situated between the handlebars and rider of a motorcycle?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, igual que si se tratara de un sidecar.\nYes, just like a sidecar."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, si se trata de un niño mayor de 7 años.\nYes, if a child over 7 years of age."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, en ningún caso.\nNo, never."
+        }
+      ],
+      "help": "Transporting people and loads  \n \n3 Transport of load\n3.1 The general law\nMotorcycles, motor tricycles, mopeds, cycles and bicycles are additionally able to tow a trailer or semitrailer.\nHowever, the trailer cannot be greater than 50 percent of the empty mass of the pulling vehicle and the following conditions must all be fulfilled:\nTravel may only be used during the day and in good visibility - that is, they cannot be used in reduced visibility (for example in fog, heavy rain etc).\nThe speed must be reduced by 10 percent with respect to their normal permitted generic speed.\nNo passengers can be carried in the trailer under any circumstances.\nWhen travelling in urban locations municipal rules regarding circulation must always be complied with.\n(Página 215 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635981376500000000/460ed8a9-8e51-47a1-8cf9-9ed45e5bdfc9M.jpg",
+      "number": "11.",
+      "question": "Una motocicleta que arrastra un remolque, ¿puede transportar una persona en él?\nCan a trailer being towed by a motorcycle hold a passenger?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, si se hace a una velocidad un 10 por ciento por debajo de la genérica de la vía.\nYes, if you do so at a speed 10 per cent below the generic speed of the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, como a cualquier otra hora del día.\nYes, like any other time of day."
+        }
+      ],
+      "help": "Transporting people and loads  \n \n3 Transport of load\n3.1 The general law\nMotorcycles, motor tricycles, mopeds, cycles and bicycles are additionally able to tow a trailer or semitrailer.\nHowever, the trailer cannot be greater than 50 percent of the empty mass of the pulling vehicle and the following conditions must all be fulfilled:\nTravel may only be used during the day and in good visibility - that is, they cannot be used in reduced visibility (for example in fog, heavy rain etc).\nThe speed must be reduced by 10 percent with respect to their normal permitted generic speed.\nNo passengers can be carried in the trailer under any circumstances.\nWhen travelling in urban locations municipal rules regarding circulation must always be complied with.\n(Página 215 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636329570160000000/b019a497-f9d2-4169-9721-e0055fa4a691M.jpg",
+      "number": "12.",
+      "question": "Entre la puesta y la salida del sol, ¿está permitido conducir una motocicleta que arrastra un remolque?\nBetween dusk and dawn, are you permitted to ride a motorcycle that is pulling a trailer?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "2,5 metros.\n2.5 metres."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "3 metros.\n3 metres."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "4 metros como norma general.\n4 metres as a general rule."
+        }
+      ],
+      "help": "Transporting people and loads  \n   \n3 Transport of load\n3.3 Dimension Limitations\nAs a general rule, the maximum authorised height at which a vehicle can drive, including its load, is 4 metres.\nThe maximum authorised height for urban buses is 4.20 metres. The maximum authorised height is 4.50 metres for vehicle carriers; recovery vehicles used for the removal of damaged or broken-down vehicles; lorries or articulated vehicles transporting sealed containers approved for combined, intermodal, or air transport of the ULD type; height-adjustable lorries or articulated vehicles transporting live animals, straw bales and forage; and for supplier deliveries to industries on predetermined routes of less than 50 kilometres.\n(Página 216 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637229323730000000/3408d398-d9c4-4d92-ab35-699ed5622af5M.jpg",
+      "number": "13.",
+      "question": "Para un vehículo con carga, ¿cuál es la altura máxima permitida?\nWhat is the maximum permitted height for a laden vehicle?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, señalizada con un panel de franjas rojas y blancas.\nYes, when you signal this with a red and white striped panel."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, cuando no comprometa la estabilidad del vehículo.\nYes, when the stability of the vehicle is not affected."
+        }
+      ],
+      "help": "Transporting people and loads      \n       \n3 Transport of load\n3.5 Load size\nAs a general rule, loads cannot protrude from the vehicle floor: neither in front or in back or from the sides. It can protrude from the roof of the vehicle provided that it meets this condition.  \n(Página 217 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677410000000/df98560c-ca17-4806-a2f2-feb11654bc45M.jpg",
+      "number": "14.",
+      "question": "¿Está permitido que la carga de un turismo sobresalga por los laterales?\nIs a load on a private car permitted to project laterally?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Un 15 % de la longitud del vehículo.\n15 % of the vehicle's length."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Un tercio de la longitud del vehículo.\nOne third of the vehicle's length."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Nada; solo podrá sobresalir por su parte trasera.\nNothing; it can only protrude from the back."
+        }
+      ],
+      "help": "Transporting people and loads      \n       \n3 Transport of load\n3.5 Load size\nAs an exception, provided that it fulfils the conditions established in article 3.3 for vehicles exclusively for goods transport:\nLoads of indivisible length (beams, posts, tubes, etc.) can protrude:\n- In vehicles five metres or below - a third of the length of the vehicle forwards and a third of the length of the vehicle backwards.\n- In vehicles more than five metres in length –a maximum of 2 metres forwards and 3 metres backwards.\n(Página 217 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636534278640000000/a075d000-6bbf-4d00-87ea-25127cf40d89M.jpg",
+      "number": "15.",
+      "question": "En un vehículo de menos de 5 metros de longitud, destinado al transporte de mercancías, ¿cuánto puede sobresalir una carga de longitud indivisible por su parte delantera?\nIn a vehicle less than 5 metres long, intended for the transport of goods, by how much can a load of indivisible length protrude from the front?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "3 metros por la parte anterior y 2 por la posterior.\n3 metres in front and 2 at the rear."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "el 15 % de la longitud del vehículo por delante y por detrás.\n15 % of the length of the vehicle in front and at the rear."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "2 metros por la parte anterior y 3 por la posterior.\n2 metres in front and 3 at the rear."
+        }
+      ],
+      "help": "Transporting people and loads      \n       \n3 Transport of load\n3.5 Load size\nAs an exception, provided that it fulfils the conditions established in article 3.3 for vehicles exclusively for goods transport:\nLoads of indivisible length (beams, posts, tubes, etc.) can protrude:\n- In vehicles five metres or below - a third of the length of the vehicle forwards and a third of the length of the vehicle backwards.\n- In vehicles more than five metres in length –a maximum of 2 metres forwards and 3 metres backwards.\n(Página 217 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678960000000/59814bc9-447c-4b69-8be9-b3f2eb0d37a2M.jpg",
+      "number": "16.",
+      "question": "En un vehículo de más de 5 metros, destinado al transporte de mercancías, una carga de longitud indivisible puede sobresalir...\nIn a vehicle over 5 metres long destined for the transport of goods, an undivided load may project...",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, hasta un 10 % de su longitud y, si la carga fuera indivisible, hasta un 15 %.\nYes, up to 10% of its length, and if the load is indivisible, up to 15 %."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, no está permitido que sobresalga la carga del vehículo.\nNo, the load is not permitted to project from the back of the vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, hasta un 5 % de su longitud.\nYes, up to 5 % of its length."
+        }
+      ],
+      "help": "Transporting people and loads        \n         \n3 Transport of load  \n3.5 Load size\nAlso exceptionally, in vehicles not exclusively designed to transport merchandise the load may protrude to the rear only as follows:\nUp to 10 percent of the length of the vehicle, if the load is divisible.\nUp to 15 percent of the length of the vehicle, if the load is indivisible.\n(Página 218 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485854070000000/c43fe49d-e861-4921-9eba-613aa2068ba1M.jpg",
+      "number": "17.",
+      "question": "En un turismo, ¿la carga puede sobresalir por su parte posterior?\nIn a private car, may the load project from the rear of the vehicle?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, tanto de día como de noche.\nYes, during the day and at night."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, pero solo de noche o cuando existan condiciones meteorológicas que disminuyan sensiblemente la visibilidad.\nYes, but only at night or when there are meteorological conditions that considerably reduce visibility."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, porque no es un vehículo destinado exclusivamente al transporte de mercancías.\nNo, because it is a vehicle exclusively destined to the transport of merchandise."
+        }
+      ],
+      "help": "Transporting people and loads          \n         \n3 Transport of load\n3.6 Signalling – the load\nLoads protruding behind the vehicle (except those less than one metre wide) must be marked, both during the day and at night, with:\nA reflective board with 50 cm sides and red and white diagonal stripes (sign V-20) placed at the rear end of the load so that it is always perpendicular to the centre line of the vehicle.\n(Página 218 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676100000000/dd551691-92f4-4f1d-82a0-51d509437afbM.jpg",
+      "number": "18.",
+      "question": "Una carga sobresale por la parte trasera de un turismo, ¿debe ir señalizada?\nMust a load that projects from the rear of a private car be signalled?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "en todos los vehículos de anchura no inferior a un metro, cuando la carga sobresalga posteriormente.\non all vehicles no less than one metre wide, when the load protrudes at the rear."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "en la parte trasera de los vehículos destinados exclusivamente al transporte de mercancías.\nat the rear of vehicles intended exclusively for transporting goods."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "en la parte delantera y trasera en los vehículos destinados exclusivamente al transporte de mercancías.\nat the front and back of vehicles exclusively used for transporting goods."
+        }
+      ],
+      "help": "Transporting people and loads          \n         \n3 Transport of load\n3.6 Signalling – the load\nLoads protruding in front of the vehicle must be identified with a white light when the vehicle circulates between sunset and sunrise and in weather or environmental conditions that significantly reduce visibility. \n(Página 218 del manual 'Learning to drive')\n\nTransporting people and loads          \n         \n3 Transport of load\n3.6 Signalling – the load\nLoads protruding behind the vehicle (except those less than one metre wide) must be marked, both during the day and at night, with:\nA reflective board with 50 cm sides and red and white diagonal stripes (sign V-20) placed at the rear end of the load so that it is always perpendicular to the centre line of the vehicle.\n(Página 218 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675260000000/db24175a-6488-4b13-a766-69206d3de745M.jpg",
+      "number": "19.",
+      "question": "Este panel deberá colocarse...\nThis panel must be placed…",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "De noche con una luz roja por la parte trasera.\nAt night with a red light at the rear."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Con un panel reglamentario en el extremo de la carga.\nWith a reglamentary panel on the tip of the load."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "En las motocicletas la carga no es necesario señalizarla.\nIt is not necessary to signal the load on a motorcycle."
+        }
+      ],
+      "help": "Transporting people and loads          \n         \n3 Transport of load\n3.6 Signalling – the load\nLoads protruding behind the vehicle (except those less than one metre wide) must be marked, both during the day and at night, with:\nA reflective board with 50 cm sides and red and white diagonal stripes (sign V-20) placed at the rear end of the load so that it is always perpendicular to the centre line of the vehicle.\n(Página 218 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636306218070000000/46c94cce-d6f8-41cd-beb2-d576c41c7f04M.jpg",
+      "number": "20.",
+      "question": "¿Cómo debe señalizar la carga que sobresale de una motocicleta?\nHow must you signal the load that is projecting from a motorcycle?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Solo por detrás hasta 25 centímetros.\nOnly at the back, up to 25 centimetres."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, en ningún caso.\nNo, never."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, hasta 25 centímetros, por delante y por detrás.\nYes, up to 25 centimetres, at the front and back."
+        }
+      ],
+      "help": "Transporting people and loads          \n         \n3 Transport of load  \n3.5 Load size\nIn vehicles less than 1 metre wide, the load should not protrude:\nSideways, by more than 50 cm’ (on each side) of the longitudinal axle.\nThe rear - no more than 25 cm’s.\nTo the front –nothing at all.\n(Página 218 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636595732060000000/b3667096-45f8-480e-a720-6aed92327645M.jpg",
+      "number": "21.",
+      "question": "En un vehículo de anchura inferior a un metro, ¿puede sobresalir la carga por delante o por detrás?\nIn a vehicle with a width of less than one metre, can the load protrude at the front or at the back?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "la carga no deberá sobresalir lateralmente más de 0,40 metros a cada lado de su eje longitudinal.\nthe load must not protrude laterally more than 0.40 metres on each side of the longitudinal axis."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "la carga podrá sobresalir por la parte trasera hasta un 15%, cuando es indivisible.\nthe load can protrude up to 15% from the rear, when it is indivisible."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "la carga no deberá sobresalir lateralmente más de 0,50 metros a cada lado de su eje longitudinal.\nthe load must not protrude laterally more than 0.50 metres on each side of the longitudinal axis."
+        }
+      ],
+      "help": "Transporting people and loads          \n         \n3 Transport of load  \n3.5 Load size\nIn vehicles less than 1 metre wide, the load should not protrude:\nSideways, by more than 50 cm’ (on each side) of the longitudinal axle.\nThe rear - no more than 25 cm’s.\nTo the front –nothing at all.\n(Página 218 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636329575860000000/3ad9b342-c98a-4af0-8045-e4b9e2d447d9M.jpg",
+      "number": "22.",
+      "question": "En los vehículos de anchura inferior a un metro...\nOn vehicles less than one metre wide…",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "con una luz blanca y un dispositivo reflectante de color blanco por delante y con una luz roja y un dispositivo reflectante de color rojo por detrás.\nwith a white light and a white reflective device at the front and a red light and a red reflective device at the rear."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "con un panel reflectante por detrás solamente.\nonly with a reflective panel at the rear."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "con una luz roja y un dispositivo reflectante rojo por detrás, solamente.\nonly with a red light and a reflective device at the rear."
+        }
+      ],
+      "help": "Transporting people and loads          \n           \n3 Transport of load  \n3.6 Signalling – the load\nWhen the load protrudes to the sides by more than 40 cm’s past the exterior edge of the front or back position lights (side lights) of the vehicle, it must be marked, during conditions of adverse meteorological / weather conditions and during the hours of darkness.\n(Página 218 del manual 'Learning to drive')\n\nTransporting people and loads            \n           \n3 Transport of load  \n3.6 Signalling – the load\n(Between sunset and sunrise) by the following:\nForwards –with a white light and a white reflecting device.\nBackwards - with a red light and a red reflecting device.\n(Página 218 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674850000000/d92633a8-2099-4712-b8c4-9b94ebafef2cM.jpg",
+      "number": "23.",
+      "question": "De noche, es obligatorio señalizar una carga que sobresale lateralmente más de 0,40 metros de los bordes exteriores de las luces de posición...\nAt night, is it mandatory to identify a load which protrudes from the side of the vehicle by more than 0.40 metres from the outer edges of the position lamps...",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Señalizada y protegida en los extremos.\nMarked and protected at the ends."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Señalizada solamente.\nMarked only."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Protegida solamente, porque es un vehículo de transporte de mercancías.\nProtected only, because it is a goods vehicle."
+        }
+      ],
+      "help": "Transporting people and loads          \n         \n3 Transport of load  \n3.5 Load size\nWhen the load protrudes past the dimensions of the vehicle, then special safety precautions have to be implemented to prevent damage or dangers to other road users. This means that the part of the load that protrudes has to be protected so as to highlight and minimise the potential for damage or injury.\n(Página 218 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680190000000/b366d0c5-a7fc-4c20-a9c2-c9e8cb9f3b92M.jpg",
+      "number": "24.",
+      "question": "Este camión, ¿cómo debe llevar la carga que sobresale?\nHow should this lorry carry the protruding load?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Depositando la mercancía en el arcén o en la zona peatonal más próxima.\nPlacing the goods on the roadside or in the nearest pedestrian area."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "En ningún caso debe realizarse la operación de descarga dentro de la vía.\nUnder no circumstances should unloading be carried out on the road."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Efectuando la descarga lo antes posible, evitando ruidos y molestias innecesarias.\nBy unloading as quickly as possible, avoiding unnecessary noise and disturbance."
+        }
+      ],
+      "help": "Transporting people and loads              \n               \n3 Transport of load  \n3.7 Loading and unloading\nWhenever possible loading and unloading a vehicle, both inside and outside a built-up-area, should be carried out off the public road.  \nExceptionally, when this is not possible, the following should be complied with:\nIn compliance with the laws relating to parking and stopping and in built-upareas, in conformity of the municipal requirements concerning hours and suitable places etc.\nFrom the side of the vehicle closest to the edge of the roadway.\nAs quickly as possible.\nWith minimal noise and without causing annoyance.\n(Página 219 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636479945950000000/22948e1a-58b2-4677-a481-fa7d142e12c3M.jpg",
+      "number": "25.",
+      "question": "Si por cualquier circunstancia tuviera que realizar la operación de descarga de su vehículo dentro de la vía pública, ¿cómo deberá hacerlo?\nIf for any reason you have to unload your vehicle on the public highway, how should you do it?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, cuando se realizan por el lado más próximo al borde de la calzada.\nYes, when the operation is carried out on the side closest to the edge of the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, siempre que no causen molestias.\nYes, provided that they do not inconvenience others."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, ya que no se pueden depositar mercancías en la vía.\nNo, as goods cannot be left on the road."
+        }
+      ],
+      "help": "Transporting people and loads              \n               \n3 Transport of load  \n3.7 Loading and unloading\nIt is also additionally prohibited from placing (or depositing) merchandise on to the roadway, the hard shoulder, or the footpath (or pedestrian area).\nMerchandise must be directly transferred from the vehicle to its destination or vice versa.\n(Página 219 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678280000000/9e29fbe6-fed9-4195-ae37-71e349fc3269M.jpg",
+      "number": "26.",
+      "question": "¿Es correcto depositar objetos en la vía mientras se realizan operaciones de carga y descarga?\nIs it acceptable to leave objects on the road while loading and unloading?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "por el lado del vehículo más próximo al centro de la calzada.\nfrom the side of the vehicle nearest to the centre of the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "dentro de la vía, en cualquier caso.\non the road, in all cases."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "procurando evitar ruidos y molestias innecesarias.\ntaking care to avoid unnecessary noise and inconvenience."
+        }
+      ],
+      "help": "Transporting people and loads              \n               \n3 Transport of load  \n3.7 Loading and unloading\nWhenever possible loading and unloading a vehicle, both inside and outside a built-up-area, should be carried out off the public road.  \nExceptionally, when this is not possible, the following should be complied with:\nIn compliance with the laws relating to parking and stopping and in built-upareas, in conformity of the municipal requirements concerning hours and suitable places etc.\nFrom the side of the vehicle closest to the edge of the roadway.\nAs quickly as possible.\nWith minimal noise and without causing annoyance.\n(Página 219 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480656160000000/c8872023-b653-431d-9282-7f97ad471232M.jpg",
+      "number": "27.",
+      "question": "Las operaciones de carga y descarga se llevarán a cabo...\nLoading and unloading operations must be carried out…",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Dos, una delante y otra detrás.\nTwo, one in front and one behind."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Una en la parte posterior, en posición horizontal.\nOne at the back, in a horizontal position."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Una en la parte posterior, en posición vertical.\nOne at the back, in a vertical position."
+        }
+      ],
+      "help": "Transporting people and loads    \n \n5 Plates and symbols on vehicles\n5.1 Licence plates (Vehicle registration plates/marks)\nVehicle registration plates are comprised of both letters and numbers that serve to identify a particular vehicle, as per the registration documents.\nMotor vehicles, except motorcycles, threewheeled vehicles and heavy quadricycles, must carry two registration plates: one at the front and one at the rear.\nMopeds, motorcycles, three-wheeled vehicles, and both light and heavy quadricycles must carry a single registration plate at the rear. Light and heavy quadricycles may also optionally carry a front registration plate, identical in specification to the rear one.\n(Página 219 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636328659910000000/9b9a6501-126d-407f-ace2-766de73ceb6bM.jpg",
+      "number": "28.",
+      "question": "¿Cuántas placas de matrícula lleva una motocicleta?\nHow many licence plates does a motorcycle have?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "es lento y no puede superar los 40 km/h.\nit is slow and cannot exceed 40 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "es especial y está realizando trabajos en la vía.\nit is a special vehicle and is carrying our works on the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "transporta mercancías peligrosas.\nit is transporting hazardous goods."
+        }
+      ],
+      "help": "Transporting people and loads      \n   \n5 Plates and symbols on vehicles  \n5.2 Other distinctive plates, symbols, signs and stickers  \n5.2.4 Slow vehicle (V-5)\nIt indicates a motor vehicle, (or set of vehicles) due its design, cannot exceed the speed of 40 kilometres per hour.\n(Página 220 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678730000000/426691d2-fdf0-4ed9-ad18-39fd4b0052edM.jpg",
+      "number": "29.",
+      "question": "Un vehículo con esta señal indica que...\nA vehicle with this sign indicates that...",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Que es un vehículo ancho y mide más de 2 metros.\nIt is a wide vehicle and measures more than 2 metres."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Que es un vehículo largo y mide más de 12 metros.\nIt is a long vehicle and measures more than 12 metres."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Que el vehículo transporta mercancías peligrosas.\nThe vehicle is transporting hazardous goods."
+        }
+      ],
+      "help": "Transporting people and loads        \n     \n5 Plates and symbols on vehicles    \n5.2 Other distinctive plates, symbols, signs and stickers  \n5.2.5 Long vehicle (V-6)\nThis plate is placed at the rear of a vehicle to indicate that the vehicle or set of vehicles is longer than 12 metres in length. It is a yellow, reflective rectangular plate framed by a fluorescent red border.\nAlternatively, smaller plates may be used and more conveniently located symmetrically on the vehicle.\n(Página 220 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675600000000/57475f44-6087-4620-bb09-a77e14db62cfM.jpg",
+      "number": "30.",
+      "question": "El vehículo lleva dos rectángulos amarillos con borde rojo. ¿Qué indican?\nThe vehicle has two yellow rectangles with a red border. What do they indicate?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

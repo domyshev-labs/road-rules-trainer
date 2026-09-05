@@ -1,0 +1,733 @@
+{
+  "test_id": 1022,
+  "title": "Maneouvres 2",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-05",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Frenar bruscamente para volver a su derecha cuanto antes.\nBrake sharply in order to return to the right as soon as possible."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Terminar el adelantamiento aumentando rápidamente la velocidad.\nFinish the overtaking manoeuvre by increasing speed fast."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Desistir del adelantamiento, reduciendo rápidamente la marcha y regresando a su carril sin obstaculizar.\nStop the manoeuvre by reducing gear fast and return to his lane without obstructing the traffic."
+        }
+      ],
+      "help": "Maneouvres              \n             \n5.5 Overtaking  \n5.5.4 Performing the overtake\nIf, once you start to overtake, circumstances arise which make it difficult to complete the overtake without taking a risk, such as the vehicle being overtaken speeds up suddenly or traffic appears in the opposite lane, the driver must stop overtaking, quickly reducing their speed and rejoining the original lane, and duly informing other road users with the appropriate signals.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636595725090000000/fac88451-8458-4735-a773-de1196f17aeaM.jpg",
+      "number": "1.",
+      "question": "Una vez iniciado el adelantamiento se producen circunstancias que pueden hacer difícil su finalización sin provocar riesgos, ¿qué está obligado a hacer el conductor?\nOnce you have begun an overtaking manoeuvre, circumstances occur that may make it difficult to finish it without causing danger. What is the driver obliged to do?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Con las luces en ráfaga o con señales acústicas.\nBy flashing your headlights or using acoustic signals."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Con las señales acústicas únicamente.\nWith acoustic signals only."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Con el intermitente únicamente.\nOnly using your indicators."
+        }
+      ],
+      "help": "Maneouvres              \n             \n5.5 Overtaking  \n5.5.3 Signalling the manoeuvre and asking to move over\nThe driver being overtaken can be warned in advance of your intention to overtake them by using suitable sound signals, outside a populated area, or visual signals (flashing by alternating between the main and dipped beams), outside and within populated areas, where their help is required, or when it is mandatory to do so.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637229316480000000/bbe74b39-6799-4fe3-a547-79ca36759a06M.jpg",
+      "number": "2.",
+      "question": "En carretera desea adelantar a otro vehículo. ¿Cómo puede avisarle?\nYou want to overtake another vehicle on the motorway. How can you warn it?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "después de ver en el espejo retrovisor la parte delantera del vehículo adelantado.\nafter seeing the front of the vehicle you have overtaken in the rear-view mirror."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "después de 15 segundos.\nafter 15 seconds."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "después de recorrer 200 metros por delante del vehículo adelantado.\nafter travelling 200 metres in front of the car you have overtaken."
+        }
+      ],
+      "help": "Maneouvres                \n               \n5.5 Overtaking\n5.5.5 Completing the overtake\nAfter driving past the vehicle, they intend to overtake, the driver must first signal their sideways movement with the appropriate signals and then rejoin the original lane as soon as possible, gradually and without forcing other road users to change direction or speed.\nA good rule of thumb is to start moving back into the corresponding lane once you can see the front of the vehicle you have overtaken in the rear-view mirror.  \n(Página 189 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635932141570000000/86596bea-5ac4-42c9-934b-94cc66d6d554M.jpg",
+      "number": "3.",
+      "question": "Una vez sobrepasado el vehículo al que se pretende adelantar, el conductor deberá reintegrarse a su carril. Una norma práctica para efectuar la maniobra es iniciar el retorno al carril correspondiente...\nHaving passed the vehicle it intends to overtake, the driver must rejoin their lane. A standard rule for performing the manoeuvre is to start returning to the corresponding lane...",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solamente una distancia lateral de seguridad.\nJust the lateral safety distance."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "1,5 metros como mínimo en todo caso.\n1.5 metres as a minimum, in all cases."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Al menos 1,5 metros, cuando el adelantamiento se realice fuera de poblado.\nAt least 1.5 metres, when overtaking in non-built-up areas."
+        }
+      ],
+      "help": "Maneouvres                  \n                 \n5.5 Overtaking      \n5.5.4 Performing the overtake\nThe driver should keep a side-byside distance of at least 1.50 metres when, outside of a populated area:\nThe driver of a two-wheeled vehicle is overtaking another vehicle.\nThe driver of any vehicle is overtaking pedestrians, animals, animal transport vehicles, two-wheeled motor vehicles, vehicles stopped on the road or assistance vehicles when providing an assistance or rescue service. Moreover, provided that the conditions are suitable for the manoeuvre, they move partially or fully into the next or opposite lane.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636595723150000000/aac3c4dd-12db-449b-9f9e-fa431c3104a6M.jpg",
+      "number": "4.",
+      "question": "Al adelantar a una motocicleta de dos ruedas, ¿qué separación lateral de seguridad es obligatorio dejar?\nWhen overtaking a two-wheel motorcycle, how much lateral distance must you leave between you?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Un espacio no inferior a 1,50 metros.\nA distance not under 1.50 metres."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Una distancia proporcional a la velocidad a la que circule.\nA distance proportional to the speed at which it is driving."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Una separación que considere segura en función de las circunstancias del momento.\nA separation that it considers safe according to the circumstances of the moment."
+        }
+      ],
+      "help": "Maneouvres                  \n                 \n5.5 Overtaking      \n5.5.4 Performing the overtake\nThe driver should keep a side-byside distance of at least 1.50 metres when, outside of a populated area:\nThe driver of a two-wheeled vehicle is overtaking another vehicle.\nThe driver of any vehicle is overtaking pedestrians, animals, animal transport vehicles, two-wheeled motor vehicles, vehicles stopped on the road or assistance vehicles when providing an assistance or rescue service. Moreover, provided that the conditions are suitable for the manoeuvre, they move partially or fully into the next or opposite lane.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677670000000/019d1daf-2235-4116-a69e-3597fb01d0abM.jpg",
+      "number": "5.",
+      "question": "¿Qué separación lateral debe dejar la motocicleta que está adelantando al camión?\nWhat lateral separation must the motorcycle that is overtaking the truck leave?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Una distancia de 1,5 metros como mínimo.\nA distance of at least 1.5 metres."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Una distancia proporcional a la anchura y características de la calzada.\nA distance proportional to the width and the condition of the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Una distancia proporcional a la anchura del turismo.\nA distance proportional to the width of the car."
+        }
+      ],
+      "help": "Maneouvres                  \n                 \n5.5 Overtaking      \n5.5.4 Performing the overtake\nThe driver should keep a side-byside distance of at least 1.50 metres when, outside of a populated area:\nThe driver of a two-wheeled vehicle is overtaking another vehicle.\nThe driver of any vehicle is overtaking pedestrians, animals, animal transport vehicles, two-wheeled motor vehicles, vehicles stopped on the road or assistance vehicles when providing an assistance or rescue service. Moreover, provided that the conditions are suitable for the manoeuvre, they move partially or fully into the next or opposite lane.\n(Página 189 del manual 'Learning to drive')\n\nManeouvres              \n             \n5.5 Overtaking  \n5.5.4 Performing the overtake\nYou must leave a safe distance proportional to the speed and width of the road:\nWhen overtaking any vehicle outside a populated area other than those mentioned above.\nWhen overtaking in a populated area.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676270000000/16063a58-70d1-4490-b0e6-a606b06f2a84M.jpg",
+      "number": "6.",
+      "question": "En esta carretera, al adelantar con su camión de 3.500 kg a un turismo, ¿qué separación lateral debe respetar?\nOn this road, when overtaking a passenger car with your 3,500 kg lorry, what lateral separation should you respect?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, porque está prohibido adelantar a los ciclistas.\nNo, because you are not permitted to overtake cyclists."
+        }
+      ],
+      "help": "Maneouvres                \n               \n5.5 Overtaking  \n5.5.4 Performing the overtake\nThe driver of a vehicle that intends to overtake a bicycle or moped, or a group of them, must do so:\nOccupying some or all of the adjoining or opposite lane of the carriageway, where applicable, except when the carriageway has more than one lane per direction, in which case a full lane change will be mandatory, and  keeping a side-by-side distance of at least 1.5 metres.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675820000000/ae0e5a20-1cbb-45d0-abbe-691f9b9352e8M.jpg",
+      "number": "7.",
+      "question": "Al adelantar al ciclista que aparece en la fotografía, ¿es obligatorio invadir el carril de sentido contrario de la calzada?\nWhen overtaking the cyclist in the photo, do you need to cross into the opposite lane of oncoming traffic?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Un metro, al menos.\nAt least one metre."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Al menos metro y medio.\nAt least one and a half metres."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No importa la distancia porque circula por el arcén.\nIt doesn't matter how far you are from them because they are travelling on the hard shoulder."
+        }
+      ],
+      "help": "Maneouvres                \n               \n5.5 Overtaking  \n5.5.4 Performing the overtake\nThe driver of a vehicle that intends to overtake a bicycle or moped, or a group of them, must do so:\nOccupying some or all of the adjoining or opposite lane of the carriageway, where applicable, except when the carriageway has more than one lane per direction, in which case a full lane change will be mandatory, and  keeping a side-by-side distance of at least 1.5 metres.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637229320530000000/d75784af-44de-40c5-86e0-4f8ad9525b5aM.jpg",
+      "number": "8.",
+      "question": "Quiere adelantar a un ciclista que circula por el arcén, ¿qué distancia lateral debe dejar?\nYou want to overtake a cyclist who is riding on the hard shoulder. What lateral distance should you leave?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "será al menos de 1,5 metros en todo caso.\nof at least 1.5 metres, always."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "no será inferior a 1,5 metros, cuando el adelantamiento se realice fuera de poblado.\nof no less than 1.5 metres, when overtaking outside of built-up areas."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "será siempre proporcional a la anchura y características de la vía.\nwill be proportional to the width and characteristics of the road."
+        }
+      ],
+      "help": "Maneouvres                  \n                 \n5.5 Overtaking      \n5.5.4 Performing the overtake\nThe driver should keep a side-byside distance of at least 1.50 metres when, outside of a populated area:\nThe driver of a two-wheeled vehicle is overtaking another vehicle.\nThe driver of any vehicle is overtaking pedestrians, animals, animal transport vehicles, two-wheeled motor vehicles, vehicles stopped on the road or assistance vehicles when providing an assistance or rescue service. Moreover, provided that the conditions are suitable for the manoeuvre, they move partially or fully into the next or opposite lane.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677340000000/51760918-567f-4e64-903f-4c8050cf5feaM.jpg",
+      "number": "9.",
+      "question": "Cuando se adelante a vehículos de tracción animal, la separación lateral...\nWhen overtaking animal-drawn vehicles, you must maintain a lateral distance...",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, ya que deben adelantar por la izquierda.\nNo, as they must overtake from the left."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, arrimándose todo lo posible al lado izquierdo de la calzada.\nYes, by moving as close as possible to the left hand side of the road."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, arrimándose a la izquierda de su carril todo lo posible, pero sin obstaculizar a los vehículos que circulen en sentido contrario.\nYes, by moving to the left hand side of his lane as much as possible, but without obstructing vehicles that are driving in the opposite direction."
+        }
+      ],
+      "help": "Maneouvres  \n   \n5 Overtaking  \n5.6 Obligations of the driver of the vehicle being overtaken  \n5.6.1 Before the overtake\nMoreover, if a driver realises that they are going to be overtaken, they must leave as much space as possible, provided that there are no obstacles. As a general rule, they should keep to the right-hand side of the lane, without going into the hard shoulder.\nHowever, if they are going to turn left or park or stop on that side, they should keep to the left-hand side, where possible, but without impeding vehicles travelling in the opposite direction.\n(Página 190 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482399150000000/a4be2aa7-e6ce-44b6-952c-a11ce2628ca3M.jpg",
+      "number": "10.",
+      "question": "En una vía de doble sentido un vehículo va a girar a la izquierda, ¿debe facilitar el adelantamiento por la derecha a los demás vehículos?\nOn a two-way road, a vehicle is going to turn left. Must he facilitate the overtaking manoeuvre on the right for other vehicles?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Disminuir la velocidad o apartarse al arcén si es practicable.\nSlow down or drive closer to the roadside if it is practical."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Nada, la responsabilidad en el adelantamiento la tiene siempre el que adelanta.\nNothing, the responsibility of overtaking always lies with the driver doing the overtaking."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Detenerse en el arcén obligatoriamente.\nIt is required to stop at the roadside."
+        }
+      ],
+      "help": "Maneouvres    \n   \n5 Overtaking  \n5.6 Obligations of the driver of the vehicle being overtaken  \n5.6.1 Before the overtake\nWhen they are going to be overtaken, if it is not possible to move entirely to the right-hand side of the lane, but the overtake can be completed safely, drivers of:\nHeavy vehicles,\noversized vehicles and\nvehicles which must stick to a certain speed limit\nmust indicate to those behind that they can overtake.\n(Página 190 del manual 'Learning to drive')\n\nManeouvres  \n \n5 Overtaking\n5.6 Obligations of the driver of the vehicle being overtaken\n5.6.1 Before the overtake\nThey should ideally do this using arm signals, extending their arm horizontally and moving it back and forth repeatedly, with the back of the hand facing forward, or if it is not possible to use arm signals, putting on the right indicator.\n(Página 190 del manual 'Learning to drive')\n\nManeouvres  \n \n5 Overtaking\n5.6 Obligations of the driver of the vehicle being overtaken\n5.6.1 Before the overtake\nMoreover, drivers of the vehicles mentioned above should lower their speed or move away from the hard shoulder, if practical, to allow those behind to overtake, if the amount of traffic in the opposite direction, a narrow road, the road profile or condition does not allow a smooth and safe overtake.\n(Página 190 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678580000000/55b1496a-94f9-46d0-a417-fc4d58452b3fM.jpg",
+      "number": "11.",
+      "question": "¿Qué debe hacer el conductor de un vehículo de grandes dimensiones para facilitar ser adelantado?\nWhat should the driver of a large vehicle do to facilitate overtaking for other vehicles?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Disminuir la velocidad.\nSlow down."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Ceñirme al borde derecho de la calzada.\nMove over to the right side of the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Indicarle con el intermitente derecho que puede adelantar con seguridad.\nUse your right indicator to show that the driver can overtake safely."
+        }
+      ],
+      "help": "Maneouvres  \n   \n5 Overtaking  \n5.6 Obligations of the driver of the vehicle being overtaken  \n5.6.1 Before the overtake\nMoreover, if a driver realises that they are going to be overtaken, they must leave as much space as possible, provided that there are no obstacles. As a general rule, they should keep to the right-hand side of the lane, without going into the hard shoulder.\nHowever, if they are going to turn left or park or stop on that side, they should keep to the left-hand side, where possible, but without impeding vehicles travelling in the opposite direction.\n(Página 190 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676360000000/a6cbde59-69fc-483a-93a3-514e8796d1edM.jpg",
+      "number": "12.",
+      "question": "¿Tiene alguna obligación cuando observe que otro vehículo tiene el propósito de adelantarle?\nDo you have to do anything when you see that another vehicle is going to overtake you?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Circular obligatoriamente por el arcén.\nThey must drive on the hard shoulder."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Levantar el pie del acelerador o pisar un poco el freno.\nTake their foot off the accelerator or gently apply the brakes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No debe hacer nada.\nDo nothing."
+        }
+      ],
+      "help": "Maneouvres  \n \n5 Overtaking\n5.7 What to do if the overtaking vehicle is travelling in the opposite direction\nAny action taken must always aim to avoid an accident, so if the overtaking vehicle is travelling in the opposite direction, even if overtaking incorrectly, the driver must cooperate, leaving as much space as possible so the manoeuvre can be completed safely, including braking or moving right, and using the hard shoulder if needed.\n(Página 191 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634904790610000000/ea6a299b-9139-4b16-8bc1-fb8a667b1781M.jpg",
+      "number": "13.",
+      "question": "El vehículo blanco está adelantando incorrectamente. ¿Qué puede hacer el conductor del vehículo verde para facilitar el adelantamiento?\nThe white vehicle is overtaking incorrectly. What can the driver of the green vehicle do to facilitate the overtaking manoeuvre?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, porque no hay señalización expresa que lo prohíba.\nYes, because there are no clear signs that prohibit it."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, porque lo ha señalizado convenientemente.\nYes, because it has been properly signalled."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, porque para ello debe ocupar parte de la calzada que corresponde al sentido contrario.\nNo, because it would need to cross into the opposite lane to do so."
+        }
+      ],
+      "help": "Maneouvres    \n   \n5 Overtaking\n5.8 Situations when you must not overtake  \nSpecifically, it is prohibited to overtake:\nIn any place or circumstance where visibility is not sufficient to be able to complete the manoeuvre or abort it once started, unless the two directions of traffic are clearly marked out and the manoeuvre can be completed without moving into the zone reserved for the opposite direction, specifically:\n- On bends and changes in gradient with reduced visibility.\n- When the weather conditions significantly reduce visibility (fog, heavy rain or when the sun is low, dazzling drivers). In these circumstances, you should never overtake.\n- Behind a vehicle which is also overtaking if, due to its size or other features, it prevents the vehicle’s driver from seeing the road ahead.\n(Página 191 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673730000000/d11cd31e-1620-4806-8ade-3b5227e8c588M.jpg",
+      "number": "14.",
+      "question": "En este cambio de rasante de reducida visibilidad, ¿puede adelantar el vehículo blanco al azul?\nAt this change of level with reduced visibility, can the white vehicle overtake?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "En todas las curvas.\nOn all bends."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "En curvas a la derecha.\nOn bends to the right."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "En curvas de visibilidad reducida.\nOn bends with limited visibility."
+        }
+      ],
+      "help": "Maneouvres    \n   \n5 Overtaking\n5.8 Situations when you must not overtake  \nSpecifically, it is prohibited to overtake:\nIn any place or circumstance where visibility is not sufficient to be able to complete the manoeuvre or abort it once started, unless the two directions of traffic are clearly marked out and the manoeuvre can be completed without moving into the zone reserved for the opposite direction, specifically:\n- On bends and changes in gradient with reduced visibility.\n- When the weather conditions significantly reduce visibility (fog, heavy rain or when the sun is low, dazzling drivers). In these circumstances, you should never overtake.\n- Behind a vehicle which is also overtaking if, due to its size or other features, it prevents the vehicle’s driver from seeing the road ahead.\n(Página 191 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675460000000/ba1eb44d-cf78-4e4a-aa17-b22199d27404M.jpg",
+      "number": "15.",
+      "question": "¿En qué curvas está prohibido adelantar?\nOn which bends is overtaking prohibited?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, nunca.\nNo, never."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, cuando se haga a velocidad reducida, para poder detener el vehículo a tiempo si surgiera peligro de atropello.\nYes, at a low speed so that the vehicle can stop in time if there is any risk of an accident."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, siempre que no haya peatones cruzando.\nYes, provided there are no pedestrians crossing."
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking\n5.8 Situations when you must not overtake\nIt is also prohibited to overtake:\nAt signposted pedestrian crossings, junctions with cycle lanes, level crossings and nearby.\nAs an exception, at level crossings or nearby, you can overtake twowheeled vehicles if, due to their small size, they do not obscure vision to the side. The manoeuvre must be duly signalled with the appropriate sound and visual signals.\n \nSimilarly, at marked pedestrian crossings, any vehicle can be overtaken if the manoeuvre takes place at such a low speed that the vehicle can stop in time if there is any risk of an accident.\n(Página 191 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674440000000/ee58b62f-f243-4186-bd32-d7502f1a6e78M.jpg",
+      "number": "16.",
+      "question": "En los pasos para peatones y en sus proximidades, ¿está permitido adelantar?\nIs it permitted to overtake at or near a pedestrian crossing?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, siempre.\nYes, always."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, nunca.\nNo, never."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, cuando se adelante a vehículos de dos ruedas que no impidan la visibilidad lateral.\nYes, when overtaking two-wheeled vehicles which do not reduce visibility to the side."
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking\n5.8 Situations when you must not overtake\nIt is also prohibited to overtake:\nAt signposted pedestrian crossings, junctions with cycle lanes, level crossings and nearby.\nAs an exception, at level crossings or nearby, you can overtake twowheeled vehicles if, due to their small size, they do not obscure vision to the side. The manoeuvre must be duly signalled with the appropriate sound and visual signals.\n \nSimilarly, at marked pedestrian crossings, any vehicle can be overtaken if the manoeuvre takes place at such a low speed that the vehicle can stop in time if there is any risk of an accident.\n(Página 191 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674490000000/3ac6f2a8-e35d-4a09-a60e-1aa71fe1bea6M.jpg",
+      "number": "17.",
+      "question": "En un paso a nivel o sus proximidades, ¿está permitido adelantar?\nIs it permitted to overtake at or near a level crossing?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Solo si la calzada dispone de arcén practicable.\nOnly if the road has a passable hard shoulder."
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking\n5.8 Situations when you must not overtake\nIt is also prohibited to overtake:\nIn tunnels, underpasses and track sections covered by a Tunnel sign (S-5) with two-way traffic, if the vehicle which you intend to overtake only has one lane for their traffic.\n(Página 191 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636211076550000000/9d244b9c-2fd3-4905-a034-87313f65d825M.jpg",
+      "number": "18.",
+      "question": "En un túnel con un solo carril para cada sentido, ¿está permitido el adelantamiento?\nIn tunnels with a single lane for each direction, is it permitted to overtake?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, cuando el adelantamiento se realice a una velocidad tan suficientemente reducida que permita detenerse a tiempo si surgiera peligro.\nYes, if the manoeuvre takes place at such a low speed that the vehicle can stop in time if there is any risk of an accident."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, cuando no se genere peligro por falta de visibilidad.\nYes, if there is no danger due to poor visibility."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, como norma general.\nNo, not as a general rule."
+        }
+      ],
+      "help": "Maneouvres        \n       \n5 Overtaking  \n5.8 Situations when you must not overtake\nAt junctions or there proximities, except in the following situations, when overtaking is permissible:\n- When it is a roundabout.\n- When the overtake occurs through the right hand side.\n- When the road layout at the junction permits this and expresses the right of priority and it is signalled accordingly.\n- When overtaking 2 wheeled vehicles.\n(Página 192 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635465443080000000/cfd28c3e-769a-4886-a22b-a690e847341aM.jpg",
+      "number": "19.",
+      "question": "En las intersecciones y sus proximidades, ¿está permitido adelantar?\nIs it permitted to overtake at or near a junction?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "las glorietas.\nroundabouts."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "las intersecciones con vías para ciclistas.\nintersections with cyclist lanes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "todas las intersecciones, aunque la señalización lo permita.\nall intersections, even though the signs permit it."
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking\n5.8 Situations when you must not overtake\nIt is also prohibited to overtake:\nAt signposted pedestrian crossings, junctions with cycle lanes, level crossings and nearby.\nAs an exception, at level crossings or nearby, you can overtake twowheeled vehicles if, due to their small size, they do not obscure vision to the side. The manoeuvre must be duly signalled with the appropriate sound and visual signals.\n \nSimilarly, at marked pedestrian crossings, any vehicle can be overtaken if the manoeuvre takes place at such a low speed that the vehicle can stop in time if there is any risk of an accident.\n(Página 191 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675110000000/f6758209-1af3-402d-ad6c-dcd46da48a01M.jpg",
+      "number": "20.",
+      "question": "Está prohibido adelantar en...\nIt is prohibited to overtake on…",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, con precaución.\nYes, proceeding with caution."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, aunque esté permitido por la señalización.\nNo, even if it is permitted by signage."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, siempre.\nYes, always."
+        }
+      ],
+      "help": "Maneouvres            \n \n6 Change of direction\n6.1 Definition - Concept\nSuffice to say, that manoeuvres may only take place where permitted and must be undertaken so as not to cause unnecessary inconvenience and in the smallest possible time and space.\nIf the intended change of direction is to the left and visibility is seriously reduced and / or non-existent then the manoeuvre must not be carried out.\n(Página 192 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674860000000/45e18120-fdf3-471f-905e-6ded7ca6e995M.jpg",
+      "number": "21.",
+      "question": "¿Puede girar en una intersección a la izquierda si no tiene visibilidad?\nCan you turn left at an intersection if there is no visibility?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Cerca del borde derecho de la calzada.\nNear the right hand edge of the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Junto al borde izquierdo de la calzada.\nNext to the left hand edge of the road."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Junto a la marca longitudinal que separa los sentidos.\nNext to the longitudinal mark that separates the two directions."
+        }
+      ],
+      "help": "Maneouvres              \n     \n6 Change of direction    \n6.2 Carrying out a change of direction\nWhen a driver is changing direction to the left he should:\nIn one-way streets / roads (or where the road signing dictates accordingly) position his vehicle to the left hand side of the roadway.\nIn any other case (or as indicated) – next to the longitudinal line (on his side of the carriageway) that separates the two opposing directions of traffic.\nIf no line or mark exists then the driver must position his vehicle next to what would be the centre axis (centre line) but without invading the lane for the drivers travelling in the opposite direction.\n(Página 193 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637200366680000000/dd24a7da-6d84-4b8f-a092-8644ed304bd1M.jpg",
+      "number": "22.",
+      "question": "En esta vía de doble sentido, ¿dónde se colocará con su turismo para cambiar de dirección a la izquierda?\nOn this two-way road, where will you place your private car in order to turn left?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Junto al eje de la calzada, sin invadir el sentido contrario.\nNear the centre of the road, without crossing into the path of traffic coming from the opposite direction."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Obligatoriamente en el arcén, para realizar la maniobra desde allí.\nYou must be on the side of the road, and perform the manoeuvre from there."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "En el centro de la calzada, invadiendo parte del sentido contrario si es preciso.\nIn the centre of the road, crossing into the path of oncoming traffic if necessary."
+        }
+      ],
+      "help": "Maneouvres              \n     \n6 Change of direction    \n6.2 Carrying out a change of direction\nWhen a driver is changing direction to the left he should:\nIn one-way streets / roads (or where the road signing dictates accordingly) position his vehicle to the left hand side of the roadway.\nIn any other case (or as indicated) – next to the longitudinal line (on his side of the carriageway) that separates the two opposing directions of traffic.\nIf no line or mark exists then the driver must position his vehicle next to what would be the centre axis (centre line) but without invading the lane for the drivers travelling in the opposite direction.\n(Página 193 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674930000000/237efeb8-11c9-491b-b1b5-3f32c6d2c48fM.jpg",
+      "number": "23.",
+      "question": "Para girar a la izquierda, en una vía en la que no hay marca que separe los dos sentidos de circulación, ¿dónde debe situarse?\nTo turn left, on a road where there is no mark separating the two directions of traffic, where should you be?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "A la izquierda.\nOn the left."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "A la derecha.\nOn the right."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A la derecha o a la izquierda, es indiferente.\nOn the right or on the left, it is unimportant"
+        }
+      ],
+      "help": "Maneouvres              \n   \n6 Change of direction  \n6.2 Carrying out a change of direction\nDrivers should not cut the corners off when turning. And in general, the centre of the junction must be kept to the left hand side of the vehicle.\n(Página 193 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681210000000/9a7ea149-9d1f-445c-b9f9-7ae89523dffeM.jpg",
+      "number": "24.",
+      "question": "Para cambiar de dirección a la izquierda, ¿dónde debe dejar el centro de la intersección?\nTo make a left turn, where should you exit the centre of the intersection?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Junto al borde izquierdo de la calzada.\nOn the left side of the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Junto al borde derecho de la calzada.\nOn the right side of the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Tanto en el borde derecho como en el izquierdo de la calzada.\nEither on the right or left side of the road."
+        }
+      ],
+      "help": "Maneouvres              \n     \n6 Change of direction    \n6.2 Carrying out a change of direction\nWhen a driver is changing direction to the left he should:\nIn one-way streets / roads (or where the road signing dictates accordingly) position his vehicle to the left hand side of the roadway.\nIn any other case (or as indicated) – next to the longitudinal line (on his side of the carriageway) that separates the two opposing directions of traffic.\nIf no line or mark exists then the driver must position his vehicle next to what would be the centre axis (centre line) but without invading the lane for the drivers travelling in the opposite direction.\n(Página 193 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635343647070000000/caa15491-a5a2-4269-812d-2145a36e93e9M.jpg",
+      "number": "25.",
+      "question": "En esta vía de un solo sentido, ¿dónde se colocará para cambiar de dirección a la izquierda?\nOn this one-way road, where should you be positioned to turn to the left?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "En el carril situado a la izquierda de la calzada.\nIn the left-hand lane."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "En el carril central.\nIn the middle lane."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "En el carril de su derecha, como norma general.\nIn the right-hand lane, as a general rule."
+        }
+      ],
+      "help": "Maneouvres            \n   \n6 Change of direction  \n6.2 Carrying out a change of direction\nWhen a driver is changing direction to the left he should:\nIn a two way roadway, where there are three lanes, separated by broken (discontinuous) longitudinal centre lines, a driver intending to turn to the left, must be positioned in the centre lane.\n(Página 193 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677380000000/1d3a0a45-7f01-447d-b4ab-68102706baeeM.jpg",
+      "number": "26.",
+      "question": "En una vía interurbana de doble sentido y tres carriles separados por líneas discontinuas, ¿dónde se situará el conductor de un turismo para cambiar de dirección a la izquierda?\nOn a two-way intercity road with three lanes separated by broken lines, where will a car driver position themselves to turn left?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "debe situarse a la derecha, e iniciarlo siempre desde dentro de la calzada.\nit must move to the right and always initiate the turn on the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "no puede realizar el giro.\nit cannot make the turn."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "debe situarse a la derecha, e iniciarlo fuera de la calzada siempre que sea posible.\nit must move to the right, and initiate the turn off the road whenever possible."
+        }
+      ],
+      "help": "Maneouvres              \n   \n6 Change of direction\n6.3 Special circumstances\nTo turn left on interurban roads, cycles and two-wheeled mopeds must move to the right, if possible off the carriageway, and start from this position, except when there is a special lane for turning on that side.\n(Página 194 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681770000000/e37d1385-cd74-4672-b1d8-c8b126e53618M.jpg",
+      "number": "27.",
+      "question": "Si en una vía interurbana un ciclomotor de dos ruedas quiere girar a la izquierda y no hay carril acondicionado para ello...\nIf on an interurban road a two-wheeled moped wants to turn left and there is no lane provided for this purpose…",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, si no obstaculiza a otros conductores.\nYes, if it does not hinder other drivers."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, si no recorre marcha atrás más de 15 metros.\nYes, if not reversing more than 15 metres."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "Maneouvres      \n   \n7 ‘U’ turn  \n7.2 Carrying out a ‘U’ turn\nIf the circumstances are such that an obstruction or danger would be caused to other road users by a ‘U’ turn or the continuance of a ‘U’ turn, then the manoeuvre must not be commenced or must be terminated.\n(Página 194 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675290000000/3dc24560-bb57-46be-a27d-b5ad86746a15M.jpg",
+      "number": "28.",
+      "question": "El turismo está dando marcha atrás para cambiar el sentido de la marcha, ¿es correcto?\nThe car is reversing to change its direction of travel. Is it correct?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, cuando exista más de un carril para el sentido de la marcha.\nYes, when there is more than one lane in each direction of travel."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, cuando exista espacio suficiente y sin obstaculizar el paso de otros vehículos.\nYes, when there is enough space and without impeding the passage of other vehicles."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, está prohibido.\nNo, it is prohibited."
+        }
+      ],
+      "help": "Maneouvres          \n       \n7 ‘U’ turn    \n7.3 Circumstances when it is prohibited to undertake a ‘U’ turn\nIt is specifically prohibited to carry out a ‘U’ turn:\nAt level crossings (although it is not prohibited in their immediate surroundings).\nIn tunnels, underpasses and sections of the road affected by the signal “unnel”.\nOn motorways and dual carriageways, except in the places designated for this purpose.\nOn one-way roads and one-way sections of roads.\nIn general, in all sections of the road where overtaking is prohibited, unless a ‘’turn is expressly authorized.\n(Página 195 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677410000000/3dd81e62-07c5-4fb5-88fa-6fdea3c94199M.jpg",
+      "number": "29.",
+      "question": "En un túnel, ¿puede cambiar de sentido?\nIn a tunnel, can you change direction?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, ni siquiera en sus proximidades.\nNo, nor anywhere surrounding the crossing."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, pero sí en sus proximidades.\nNo, but you can do so nearby."
+        }
+      ],
+      "help": "Maneouvres        \n     \n7 ‘U’ turn  \n7.3 Circumstances when it is prohibited to undertake a ‘U’ turn\nAlso, where it is not permissible to overtake (and therefore it is not possible to undertake a ‘U’ turn):\nIntersections and their proximities, although the manoeuvre is permitted when there is an express priority sign on the road.\nAt pedestrian crossing and in the proximity of these crossings.\nCarrying out a ‘U’ turn where it is not permitted (under the regulations) could result in the deduction of 3 points.\n(Página 195 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675560000000/74b590fb-97ca-4c09-9986-f35f797c6f01M.jpg",
+      "number": "30.",
+      "question": "En un paso para peatones, ¿está permitido cambiar el sentido de la marcha?\nCan you turn around on a pedestrian crossing?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

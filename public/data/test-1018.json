@@ -1,0 +1,733 @@
+{
+  "test_id": 1018,
+  "title": "Speed and distances 1",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-05",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, cuando la velocidad no se adapte a las circunstancias del tráfico.\nYes, when the speed does not adapt to the traffic conditions."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, solo se pueden causar accidentes circulando por encima de ese límite.\nNo, you can only cause accidents by driving above this limit."
+        }
+      ],
+      "help": "1 Speed  \n \n1.1 Basics\nInappropriate speed: This is driving at a speed not suited to the circumstances such as, the weather conditions, the circumstances of the road, traffic, the vehicle or the condition of the driver. The speed may be inappropriate but is within the permitted limits.\nAppropriate speed: This is the adoption of an adequate speed which, while respecting the maximum and minimum limits, is suited to the changing traffic conditions, the road, the vehicle or the state of the driver. The appropriate speed allows the driver (and vehicle) to react to any obstacle or unexpected hazard that may occur.\n(Página 170 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636827089740000000/0d815d03-f510-4ba3-867d-f6163cbc8cf4M.jpg",
+      "number": "1.",
+      "question": "Circular por debajo del límite máximo de velocidad, ¿puede causar accidentes?\nCan driving under the maximum speed limit cause accidents?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "a una velocidad moderada, según las circunstancias.\ndriving at a moderate speed, depending on the circumstances."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "a una velocidad máxima.\ndriving at maximum speed."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "con exceso de velocidad.\nspeeding."
+        }
+      ],
+      "help": "1 Speed  \n \n1.1 Basics\nMaximum speed: Maximum speed means the top limit allowed for the vehicle on the road on which it is travelling. When driving at a speed exceeding this speed limit the vehicle is said to be ‘speeding’ (driving in excess of the permitted speed).\nMinimum speed: This is the lowest speed permitted for the vehicle to travel on that particular road. When driving at a speed less than the minimum speed allowed, the vehicle is being driven at an abnormally low speed.\n(Página 170 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676790000000/a43f2036-081d-4d2f-b486-138ded6e02a9M.jpg",
+      "number": "2.",
+      "question": "Circulando a una velocidad superior a la velocidad máxima permitida está circulando...\nDriving at a speed higher than the maximum permitted speed is…",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, pero la velocidad inadecuada es siempre excesiva.\nNo, but inadequate speed is always excessive."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "1 Speed  \n \n1.1 Basics\nInappropriate speed: This is driving at a speed not suited to the circumstances such as, the weather conditions, the circumstances of the road, traffic, the vehicle or the condition of the driver. The speed may be inappropriate but is within the permitted limits.\nAppropriate speed: This is the adoption of an adequate speed which, while respecting the maximum and minimum limits, is suited to the changing traffic conditions, the road, the vehicle or the state of the driver. The appropriate speed allows the driver (and vehicle) to react to any obstacle or unexpected hazard that may occur.\n(Página 170 del manual 'Learning to drive')\n\n1 Speed  \n \n1.1 Basics\nWhen the speed becomes greater than the appropriate speed, this speed is considered dangerous because the driver is unable to control his vehicle and react in an ‘appropriate’ manner.\nTravelling at an excessive speed does not always mean travelling in excess of the speed limit (generic or specific). For example, travelling at 70 km/h on a motorway where the road is covered in sheet ice is excessive even though the maximum permitted speed is 120 km/h.\n(Página 170 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635447398250000000/0c180aef-04e6-49be-89c0-9539484f0679M.jpg",
+      "number": "3.",
+      "question": "Velocidad inadecuada, ¿es lo mismo que velocidad excesiva?\nIs inadequate speed the same as excessive speed?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "inadecuada.\nat an unsuitable speed."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "adecuada.\nat a suitable speed."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "prohibida.\nat a prohibited speed."
+        }
+      ],
+      "help": "1 Speed  \n \n1.1 Basics\nInappropriate speed: This is driving at a speed not suited to the circumstances such as, the weather conditions, the circumstances of the road, traffic, the vehicle or the condition of the driver. The speed may be inappropriate but is within the permitted limits.\nAppropriate speed: This is the adoption of an adequate speed which, while respecting the maximum and minimum limits, is suited to the changing traffic conditions, the road, the vehicle or the state of the driver. The appropriate speed allows the driver (and vehicle) to react to any obstacle or unexpected hazard that may occur.\n(Página 170 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679480000000/d281fab7-9733-4bca-80bc-98fc18541cdfM.jpg",
+      "number": "4.",
+      "question": "Circular por una autopista a 120 km/h con lluvia intensa, es circular a una velocidad...\nDriving on a motorway at 120 km/h in heavy rain is driving...",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "resulta menos peligroso circular.\nit is less dangerous to drive."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "resulta más fácil adaptarse a las circunstancias del tráfico.\nit is easier to adapt to traffic conditions."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "resulta más difícil controlar el vehículo.\nit is more difficult to control the vehicle."
+        }
+      ],
+      "help": "1 Speed  \n \n1.2 Is it dangerous to speed?\nSpeed by itself does not necessarily constitute a risk factor. However, driving at a high speed makes it difficult for the driver to control the vehicle in a situation should the need arise.\nStudies have found that excessive or inappropriate speed is a contributory factor in at least one in four traffic collisions, making it one of the main causes of a traffic collision.\n(Página 170 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635164831810000000/bbbd741a-a58e-465c-b988-dd90850a5666M.jpg",
+      "number": "5.",
+      "question": "A medida que se aumenta la velocidad al circular...\nAs you increase speed when driving…",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Cuando se circula a velocidad inferior a la máxima permitida.\nWhen you are driving at a speed that is under the maximum permitted."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Cuando se circula a velocidad superior a la mínima permitida.\nWhen you are driving at a speed higher than the minimum permitted."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Cuando se circula a velocidad inferior a la mínima permitida.\nWhen you are driving at a speed under the minimum permitted."
+        }
+      ],
+      "help": "1 Speed  \n \n1.1 Basics\nMaximum speed: Maximum speed means the top limit allowed for the vehicle on the road on which it is travelling. When driving at a speed exceeding this speed limit the vehicle is said to be ‘speeding’ (driving in excess of the permitted speed).\nMinimum speed: This is the lowest speed permitted for the vehicle to travel on that particular road. When driving at a speed less than the minimum speed allowed, the vehicle is being driven at an abnormally low speed.\n(Página 170 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675770000000/3e375f83-410f-478d-92a2-c9407187964eM.jpg",
+      "number": "6.",
+      "question": "¿Cuándo se circula a velocidad anormalmente reducida?\nWhen are you driving at an abnormally slow speed?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "hoy apenas tienen incidencia en los accidentes, debido a la seguridad de los vehículos.\nhas little effect on accidents nowadays due to vehicle safety."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "junto con las distracciones, son responsables de la mayoría de los accidentes.\ntogether with distractions, is responsible for most accidents."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "son responsables de la mayoría de los accidentes, en vías de doble sentido solamente.\nis responsible for most accidents, on two-way roads only."
+        }
+      ],
+      "help": "DISTRACTIONS        \n   \n5 Collisions due to distractions\nA distraction occurs when something, inside or outside the vehicle, causes the driver’s attention to be diverted away from driving. Even when this occurs for a very short period of time, the driver receives less relevant information than necessary to drive safely.\nDistractions, directly or indirectly, cause four out of ten road traffic collisions. The last ten years has seen a 75% rise caused by this risk factor.\n(Página 33 del manual 'Learning to drive')\n\n1 Speed  \n \n1.2 Is it dangerous to speed?\nSpeed by itself does not necessarily constitute a risk factor. However, driving at a high speed makes it difficult for the driver to control the vehicle in a situation should the need arise.\nStudies have found that excessive or inappropriate speed is a contributory factor in at least one in four traffic collisions, making it one of the main causes of a traffic collision.\n(Página 170 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635466290170000000/5c38297e-22de-4710-b985-85854a8a2543M.jpg",
+      "number": "7.",
+      "question": "Los excesos de velocidad...\nSpeeding...",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "disminuya la saturación del tráfico.\ndecreases traffic congestion."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "aumente la probabilidad de tener un accidente.\nincreases the probability of having an accident."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "siempre se pierda el control del vehículo.\nalways causes you to lose control of the vehicle."
+        }
+      ],
+      "help": "1 Speed  \n \n1.2 Is it dangerous to speed?\nSpeed by itself does not necessarily constitute a risk factor. However, driving at a high speed makes it difficult for the driver to control the vehicle in a situation should the need arise.\nStudies have found that excessive or inappropriate speed is a contributory factor in at least one in four traffic collisions, making it one of the main causes of a traffic collision.\n(Página 170 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636329617010000000/b23a0244-17ee-449b-b95c-5dd3181179b1M.jpg",
+      "number": "8.",
+      "question": "Llevar una velocidad excesiva supone que...\nSpeeding...",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, en ningún caso.\nNo, never."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solamente fuera de poblado.\nOnly outside populated areas."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, en cualquier caso.\nYes, always."
+        }
+      ],
+      "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nWhen there are pedestrians on the part of the road that is being used or if rationally it could be foreseen, especially if it is children, the elderly, the blind or disabled people.\nThere are cyclists, using the roadway or the likelihood of cyclists –particularly at a junction or in the proximities of a cycle way or crossing.\n(Página 171 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674370000000/eecf6b5b-6044-4b40-9f10-544fa97b93b2M.jpg",
+      "number": "9.",
+      "question": "Al aproximarse a ciclos circulando, ¿es obligatorio moderar la velocidad?\nWhen approaching a cyclist, is it compulsory to adjust your speed?",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No disminuir la velocidad, porque la señalización lo permite.\nNot reduce speed because the sign permits it."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Moderar la velocidad, incluso detenerse, porque hay peatones en la calzada.\nSlow down, even stop, because there are pedestrians on the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Detenerse, para obedecer las marcas viales.\nStop, in order to obey the road signs."
+        }
+      ],
+      "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nWhen there are pedestrians on the part of the road that is being used or if rationally it could be foreseen, especially if it is children, the elderly, the blind or disabled people.\nThere are cyclists, using the roadway or the likelihood of cyclists –particularly at a junction or in the proximities of a cycle way or crossing.\n(Página 171 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677510000000/b8411edb-8383-4588-bd01-af3de3bc4b9eM.jpg",
+      "number": "10.",
+      "question": "En esta situación, ¿qué debe hacer?\nIn this situation, what must you do?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Mantener la velocidad y estar atento al cumplimiento de la señalización vertical.\nMaintain speed and obey vertical signs."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Hacer señales acústicas para indicar nuestra presencia.\nUse sound signals to indicate our presence."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Moderar la velocidad y si fuera preciso, detener el vehículo.\nSlow down and stop the vehicle, if necessary."
+        }
+      ],
+      "help": "3 Moderate speed\n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nIn the proximity of pedestrian crossings not regulated by traffic lights or personnel.\nThe proximity or locality of a market or shops, education centre or in places where it is foreseeable there may be children.\nWhen encountering animals in the part of the road you are using or you can foresee there is a likelihood of this.\n(Página 171 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681440000000/d61474ac-c54d-470b-af29-1b4eb652a16dM.jpg",
+      "number": "11.",
+      "question": "Al acercarse a un mercado, ¿qué precauciones se deben tomar?\nWhen approaching a market, what precautions should be taken?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "hacer señales acústicas y circular a velocidad moderada.\nuse sound signals and drive at a moderate speed."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "circular a velocidad moderada y, si fuera necesario, detener su vehículo.\ndrive at a moderate speed and stop the vehicle, if necessary."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "aumentar la velocidad para salir del tramo lo antes posible.\nspeed up to pass the stretch of road as quickly as possible."
+        }
+      ],
+      "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nIn the proximity of a bus, either, nearing or stationary at a bus stop, especially a bus carrying out school transport.\nOutside populated areas when approaching vehicles stopped on the road, assistance vehicles providing a service or bicycles using the road or hard shoulder.\nWhen travelling on slippery roads or when you encounter surface water or gravel or other objects that may affect yours and other road users safety if negotiated at an ‘xcesive speed’\n(Página 172 del manual 'Learning to drive')\n\n3 Moderate speed\n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nWhen a driver is temporarily blinded by lights etc., or encounters a situation of intense glare.\nDue to adverse meteorological conditions, such as dense snow, intense rain, fog, or clouds of dust or smoke.\n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634529004800000000/3e8a0870-0968-4191-a09c-a23087995dbbM.jpg",
+      "number": "12.",
+      "question": "Fuera de poblado, al circular por pavimento deslizante o cuando pueda salpicarse o proyectarse agua, gravilla u otras materias a los demás usuarios de la vía, todo conductor debe...\nOutside populated areas, when driving on a slippery road or when water, gravel or other materials could be splashed or spray onto other road users, all drivers must...",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, si el vehículo dispone de todos los sistemas de seguridad más avanzados.\nNo, if the vehicle has all the most advanced safety systems."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, y si fuera preciso, debe detenerse sin riesgo para la circulación.\nYes, and if necessary, you must stop without endangering traffic."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, siempre que se circule por vías de sentido único.\nYes, if driving on a one-way road."
+        }
+      ],
+      "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nIn the proximity of a bus, either, nearing or stationary at a bus stop, especially a bus carrying out school transport.\nOutside populated areas when approaching vehicles stopped on the road, assistance vehicles providing a service or bicycles using the road or hard shoulder.\nWhen travelling on slippery roads or when you encounter surface water or gravel or other objects that may affect yours and other road users safety if negotiated at an ‘xcesive speed’\n(Página 172 del manual 'Learning to drive')\n\n3 Moderate speed\n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nWhen a driver is temporarily blinded by lights etc., or encounters a situation of intense glare.\nDue to adverse meteorological conditions, such as dense snow, intense rain, fog, or clouds of dust or smoke.\n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636613774570000000/b46b899c-01cf-4c67-843c-f6321bbf2cd0M.jpg",
+      "number": "13.",
+      "question": "¿Está obligado a circular a una velocidad adecuada si las condiciones meteorológicas o ambientales son adversas?\nAre you required to drive at a suitable speed if there are adverse weather or ambient conditions?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Moderar la velocidad, e incluso detenerse si fuera necesario.\nSlow down and even stop, if necessary."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Detenerse hasta que el autobús reanude su marcha.\nStop until the bus resumes driving."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Tocar el claxon repetidamente para advertir de su presencia.\nUse the horn repeatedly to warn of your presence."
+        }
+      ],
+      "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nIn the proximity of a bus, either, nearing or stationary at a bus stop, especially a bus carrying out school transport.\nOutside populated areas when approaching vehicles stopped on the road, assistance vehicles providing a service or bicycles using the road or hard shoulder.\nWhen travelling on slippery roads or when you encounter surface water or gravel or other objects that may affect yours and other road users safety if negotiated at an ‘xcesive speed’\n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680020000000/ceafa498-0128-4651-974e-8bd12e533264M.jpg",
+      "number": "14.",
+      "question": "¿Qué debe hacer siempre que se acerque a un autobús del que bajan niños?\nWhat should you do whenever approaching a bus from which children are alighting?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Mantener la velocidad y estar atento al cumplimiento de la señalización vertical.\nMaintain speed and obey vertical signs."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Moderar la velocidad y si fuera preciso, detener el vehículo.\nSlow down and stop the vehicle, if necessary."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Ninguna si no vienen vehículos en sentido contrario.\nNone if there are no oncoming vehicles."
+        }
+      ],
+      "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nIn the proximity of a bus, either, nearing or stationary at a bus stop, especially a bus carrying out school transport.\nOutside populated areas when approaching vehicles stopped on the road, assistance vehicles providing a service or bicycles using the road or hard shoulder.\nWhen travelling on slippery roads or when you encounter surface water or gravel or other objects that may affect yours and other road users safety if negotiated at an ‘xcesive speed’\n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480819490000000/df68ed78-cfb8-45a3-950d-637dbe302674M.jpg",
+      "number": "15.",
+      "question": "Al aproximarse a un autobús en situación de parada, ¿qué precauciones se deben tomar?\nWhen approaching a bus at a bus stop, what precautions should be taken?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, en cualquier tipo de vía.\nYes, on all types of road."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Solo en vías fuera de poblado.\nOnly on roads outside a built up area."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nIn the proximity of a bus, either, nearing or stationary at a bus stop, especially a bus carrying out school transport.\nOutside populated areas when approaching vehicles stopped on the road, assistance vehicles providing a service or bicycles using the road or hard shoulder.\nWhen travelling on slippery roads or when you encounter surface water or gravel or other objects that may affect yours and other road users safety if negotiated at an ‘xcesive speed’\n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678790000000/8dcf93d4-de25-4d82-8f18-a81bd837ef60M.jpg",
+      "number": "16.",
+      "question": "Al aproximarse a un vehículo inmovilizado en la calzada, ¿es obligatorio moderar la velocidad?\nWhen approaching an immobilized vehicle on the road, must you slow down?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "paso a nivel.\na level crossing."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "semáforo.\ntraffic lights."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "vehículo inmovilizado en la calzada, fuera o dentro del poblado.\na vehicle that is stationary on the road, outside or inside a built-up area."
+        }
+      ],
+      "help": "3 Moderate speed\n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nIn the proximity of level crossings, roundabouts and junctions where you do not have priority. If the junction is particularly hazardous and visibility is seriously reduced, the speed of vehicles approaching should not exceed 50 km/h.\n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679300000000/6af099f6-d06a-4661-adfc-2ce897cb8cacM.jpg",
+      "number": "17.",
+      "question": "Se debe circular a velocidad moderada y, si fuera preciso, detener el vehículo, al aproximarse a un...\nYou should drive at moderate speed and, if necessary, stop the vehicle when approaching…",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Depende de la vía por la que circule, porque no tiene otra limitación de velocidad.\nIt depends on the road on which he is travelling, because he does not have any other speed limit."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "A 80 kilómetros por hora durante los dos primeros años.\nAt 80 kilometres per hour during the first two years."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A 80 kilómetros por hora durante el primer año.\nAt 80 kilometres per hour during the first year."
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')\n\n5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636305367040000000/a6dbf302-fc07-4425-b35e-83732d0afbadM.jpg",
+      "number": "18.",
+      "question": "El conductor de una motocicleta acaba de obtener su primer permiso de conducción, ¿a qué velocidad máxima le está permitido circular?\nA motorcycle rider has just obtained his first driving licence. What is the maximum speed at which he is permitted to travel at?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A 100 km/h.\n100 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "A 70 km/h.\n70 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "A 120 km/h.\n120 km/h."
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636330326440000000/3568e124-cb86-4b99-a5ae-a2bd6de9491eM.jpg",
+      "number": "19.",
+      "question": "¿A qué velocidad, como máximo, está permitido circular por una autovía con este vehículo de tres ruedas asimilado a motocicleta?\nWhat is the speed limit for this motorcycle-type three-wheeled vehicle on a motorway?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A 100 km/h.\n100 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "A 90 km/h.\n90 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A 120 km/h.\n120 km/h."
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636833203040000000/cd4371fb-0776-49b8-aec4-dedd7136956dM.jpg",
+      "number": "20.",
+      "question": "Un turismo con remolque de más de 750 kg de MMA, ¿a qué velocidad máxima puede circular por autovía?\nWhat is the maximum speed that a private car pulling a trailer over 750 kg MAM can drive at on a dual carriageway?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "120 km/h.\n120 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "90 km/h.\n90 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "100 km/h.\n100 km/h."
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636148041360000000/ff260b90-690d-4a0c-99ea-2de083e25a2dM.jpg",
+      "number": "21.",
+      "question": "¿Cuál es la velocidad máxima a la que le está permitido circular por una autovía con una autocaravana de MMA inferior a 3.500 kg?\nWhat is the speed limit for a motorhome with a MAM under 3,500 kg travelling on a dual carriageway?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "120 km/h.\n120 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "110 km/h.\n110 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "100 km/h.\n100 km/h."
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634671463450000000/9d91ed30-ca26-4475-bf74-4326446bde16M.jpg",
+      "number": "22.",
+      "question": "La velocidad máxima para un vehículo mixto adaptable en autovía es...\nThe maximum speed for an adaptable mixed-use vehicle on a dual carriageway is...",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "A 120 kilómetros por hora.\n120 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "A 90 kilómetros por hora.\n90 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A 80 kilómetros por hora.\n80 kilometres per hour."
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676990000000/2aafdda0-d708-4bc6-b369-a417d77841e3M.jpg",
+      "number": "23.",
+      "question": "Con una motocicleta de hasta 125 centímetros cúbicos, ¿a qué velocidad máxima puede circular por una autovía?\nWith a motorcycle up to 125 cubic centimetres, at what maximum speed can you drive on a dual carriageway?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "120 kilómetros por hora.\n120 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "140 kilómetros por hora.\n140 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "160 kilómetros por hora.\n160 kilometres per hour."
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674890000000/ddf99b22-482d-4d6b-b02f-df2af50db6c0M.jpg",
+      "number": "24.",
+      "question": "En autopista, ¿cuál es la velocidad máxima a la que puede adelantar un turismo?\nOn a motorway, what is the maximum speed at which a car can overtake?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "70 km/h.\n70 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "25 km/h.\n25 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "40 km/h.\n40 km/h."
+        }
+      ],
+      "help": "5 Generic speed    \n   \n5.1 Maximum speed limits on interurban roads   \n5.1.3 Other maximum speed limits outside of built-upareas\nSpecial vehicles and sets of special vehicles:\nIf they lack brake lights, or tow a trailer or are cultivators –a maximum speed of 25 km/h.\nIf they are capable of reaching a speed of 60 km/h on flat ground, and comply with the signalling regulations of vehicles: - a maximum speed of 70 km/h.\nIn all other cases, the maximum speed for the remaining special vehicles is 40 km/h.\nNote: All these vehicles are legally obligated to show, to the rear of the vehicle, the sign V-4 (limited speed sign). This must be displayed so that it is clearly visible.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674380000000/a17fcd75-e52a-45f0-87ee-2b0f96d56251M.jpg",
+      "number": "25.",
+      "question": "Un vehículo especial que carece de señalización de frenado no debe rebasar la velocidad máxima de...\nA special vehicle that lacks braking signals must not exceed the maximum speed of...",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "25 kilómetros por hora.\n25 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "40 kilómetros por hora.\n40 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "70 kilómetros por hora.\n70 kilometres per hour."
+        }
+      ],
+      "help": "5 Generic speed    \n   \n5.1 Maximum speed limits on interurban roads   \n5.1.3 Other maximum speed limits outside of built-upareas\nSpecial vehicles and sets of special vehicles:\nIf they lack brake lights, or tow a trailer or are cultivators –a maximum speed of 25 km/h.\nIf they are capable of reaching a speed of 60 km/h on flat ground, and comply with the signalling regulations of vehicles: - a maximum speed of 70 km/h.\nIn all other cases, the maximum speed for the remaining special vehicles is 40 km/h.\nNote: All these vehicles are legally obligated to show, to the rear of the vehicle, the sign V-4 (limited speed sign). This must be displayed so that it is clearly visible.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636486687890000000/a0ecc195-381a-4e4e-a989-b7363daebdfbM.jpg",
+      "number": "26.",
+      "question": "Un tractor que arrastra un remolque, ¿qué velocidad máxima no debe rebasar fuera de poblado?\nWhat is the maximum speed that a tractor pulling a trailer must not exceed outside a built up area?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "45 kilómetros por hora.\n45 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "60 kilómetros por hora.\n60 kilometres per hour."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "40 kilómetros por hora.\n40 kilometres per hour."
+        }
+      ],
+      "help": "5 Generic speed    \n   \n5.1 Maximum speed limits on interurban roads   \n5.1.3 Other maximum speed limits outside of built-upareas\nSpecial vehicles and sets of special vehicles:\nIf they lack brake lights, or tow a trailer or are cultivators –a maximum speed of 25 km/h.\nIf they are capable of reaching a speed of 60 km/h on flat ground, and comply with the signalling regulations of vehicles: - a maximum speed of 70 km/h.\nIn all other cases, the maximum speed for the remaining special vehicles is 40 km/h.\nNote: All these vehicles are legally obligated to show, to the rear of the vehicle, the sign V-4 (limited speed sign). This must be displayed so that it is clearly visible.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635460277330000000/567fe623-0bc0-4ce0-afcc-28ec4d2d54bdM.jpg",
+      "number": "27.",
+      "question": "La velocidad máxima, con carácter general, para un vehículo especial es de...\nIn general, the maximum speed for a special vehicle is...",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "80 kilómetros por hora.\n80 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "90 kilómetros por hora.\n90 kilometres per hour."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "70 kilómetros por hora.\n70 kilometres per hour."
+        }
+      ],
+      "help": "5 Generic speed    \n   \n5.1 Maximum speed limits on interurban roads   \n5.1.3 Other maximum speed limits outside of built-upareas\nSpecial vehicles and sets of special vehicles:\nIf they lack brake lights, or tow a trailer or are cultivators –a maximum speed of 25 km/h.\nIf they are capable of reaching a speed of 60 km/h on flat ground, and comply with the signalling regulations of vehicles: - a maximum speed of 70 km/h.\nIn all other cases, the maximum speed for the remaining special vehicles is 40 km/h.\nNote: All these vehicles are legally obligated to show, to the rear of the vehicle, the sign V-4 (limited speed sign). This must be displayed so that it is clearly visible.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636330334550000000/6d7a2d45-4b15-4a4b-ab76-f6a62d5a4c3bM.jpg",
+      "number": "28.",
+      "question": "Cuando los vehículos especiales puedan desarrollar una velocidad superior a los 60 km/h en llano con arreglo a sus características y cumplan las condiciones que se señalan en las normas reguladoras de los vehículos, ¿qué velocidad máxima no deben rebasar fuera de poblado?\nWhen special vehicles can drive at over 60 km/h on the flat depending on their characteristics, and they meet the conditions indicated in traffic rules, which maximum speed must they not exceed outside a populated area?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "90 km/h.\n90 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "100 km/h.\n100 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "80 km/h.\n80 km/h."
+        }
+      ],
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636486012920000000/9c0f80ea-4efc-43ce-b123-c2b85aef7f8bM.jpg",
+      "number": "29.",
+      "question": "En una carretera convencional la velocidad máxima a la que puede circular un automóvil derivado de turismo es de...\nOn a conventional road, the speed limit for car-derived vans is...",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "100 km/h.\n100 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "45 km/h.\n45 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "70 km/h.\n70 km/h."
+        }
+      ],
+      "help": "5 Generic speed    \n   \n5.1 Maximum speed limits on interurban roads     \n5.1.3 Other maximum speed limits outside of built-upareas\nOn conventional roads, buses in which passengers travel standing up because it is authorised and buses that are not equipped with seat belts: 80 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycles: 70 km/h.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680620000000/0bd6e620-aefd-4e52-9caa-a758c3b0060fM.jpg",
+      "number": "30.",
+      "question": "¿Cuál es la velocidad máxima para un cuadriciclo pesado en esta vía?\nWhat is the maximum speed for a heavy quadricycle on this road?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "test_id": 1001,
+  "title": "Definitions",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-05",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "que maneja el mecanismo de dirección o va al mando de un vehículo.\nwho is in control of the steering mechanism or who is behind the wheel of a vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "que conduce a pie un ciclo o ciclomotor de dos ruedas.\nwho is walking and pushing a bicycle or a two-wheeled scooter."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "que maneja el volante de un vehículo cuando circula en prácticas.\nwho is in control of the steering wheel of a vehicle during a driving lesson."
+        }
+      ],
+      "help": "Definitions  \n   \n1. Related to people  \n1.1 Driver\nThe driver is the person:\nWho has control over the operation of the vehicle. (See the exceptions).\nA drover’is a person who is in charge of animals, and is said to ‘rive’his animals.\nIn vehicles used for driving instruction, the driver is the person in charge of the aditional controls.\n(Página 6 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482478320000000/796ed3d4-72b3-4ec2-9c48-8d350c883b95M.jpg",
+      "number": "1.",
+      "question": "Se considera conductor a la persona...\nA driver is considered to be the person...",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "para transportar personas o cosas o ambas a la vez, o para la tracción de otros vehículos con ese fin.\nto transport people or things or both at the same time, or for pulling other vehicles for that purpose."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "para la realización de trabajos agrícolas.\nfor agricultural work."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "para realizar obras o determinados servicios.\nto carry out works or provide specific services."
+        }
+      ],
+      "help": "2. Definitions relating to vehicles    \n \n2.3 Automobile\nVehicle fitted with a motor that may either, transport people or objects, or both simultaneously, or may be used to pull another vehicles for this purpose. Note: That ‘special vehicles’ are excluded from this definition.\n(Página 7 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675830000000/bf325ead-a34b-4a72-9454-a2c4b3f937bbM.jpg",
+      "number": "2.",
+      "question": "El automóvil es un vehículo a motor que sirve normalmente...\nA car is a motor vehicle that is normally used...",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "excede de 750 kilogramos.\nexceeds 750 kilograms."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "no excede de 750 kilogramos, salvo los remolques agrícolas.\ndoes not exceed 750 kilograms, except for agricultural! trailers."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "es igual a 750 kilogramos.\nis equal to 750 kilograms."
+        }
+      ],
+      "help": "4. Vehicles without motor  \n \n4.4 Trailer\nA non self-propelled vehicle designed and constructed to be towed by a motor vehicle.\nNote: light trailers are those with a maximum authorised mass, which does not exceed 750 kg (agricultural trailers are not included within this).\nHeavy trailers (non-light trailers) are where the maximum authorised mass exceeds 750 kg.\n(Página 8 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634671460800000000/56153e52-9206-431b-bf16-720d345760a6M.jpg",
+      "number": "3.",
+      "question": "Son remolques ligeros aquellos cuya MMA...\nLight trailers are those whose MAM...",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "dos o más ruedas accionado con un motor o con pedales.\ntwo or more wheels powered by an engine or by pedals."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "dos ruedas, por lo menos, y propulsado exclusiva o principalmente por la energía muscular de la persona o personas que están sobre el vehículo, en particular por medio de pedales.\nat least two wheels, powered exclusively or principally by the muscular energy of the person or persons on the vehicle, in particular by using pedals."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "dos ruedas accionado con un motor.\ntwo wheels powered by a motor."
+        }
+      ],
+      "help": "4. Vehicles without motor\n \n4.2 Cycle\nVehicle equipped with at least two wheels and propelled exclusively or primarily by the muscle energy of the person or people who are on the vehicle, in particular by means of pedals.\n(Página 8 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675900000000/3f0899a8-cad6-48d1-96dc-fcb7dbf43bb7M.jpg",
+      "number": "4.",
+      "question": "Ciclo es el vehículo de...\nA cycle is a vehicle with…",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "25 y 50 km/h.\n25 and 50 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "6 y 25 km/h.\n6 and 25 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "25 y 45 km/h.\n25 and 45 km/h."
+        }
+      ],
+      "help": "5. Vehicles not considered motor vehicles \n \n5.4 Personal mobility vehicle\nVehicle with one or more wheels for a single occupant and powered exclusively by electric motors that can provide the vehicle with a maximum design speed of between 6 and 25 km/h.\nIt can only be equipped with a seat or saddle if it have a self-balancing system.\nThis definition excludes vehicles without a self-balancing system and a saddle, vehicles designed for competition, vehicles for people with reduced mobility and vehicles with an operating voltage exceeding 100 VDC or 240 VAC, as well as those included within the scope of Regulation (EU) no. 168/2013: scooters with seat, pedal-assist bicycles, etc.\n(Página 9 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637491511440000000/c1c4a150-34a2-4113-bc6f-27d73a1a1e37M.jpg",
+      "number": "5.",
+      "question": "Los motores eléctricos que propulsan los vehículos de movilidad personal pueden proporcionarles, por diseño, una velocidad máxima comprendida entre...\nElectric motors which power personal mobility vehicles can provide the vehicle with a maximum design speed between...",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "con una cilindrada superior a 125 centímetros cúbicos.\nwith a cylinder capacity of over 125 cubic centimetres."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "de dos ruedas con un motor de cilindrada superior a 50 centímetros cúbicos, y/o con una velocidad máxima superior a 45 km/h.\nwith two wheels with a cylinder capacity of over 50 cubic centimetres, and/or with a maximum speed of over 45 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "de dos o tres ruedas con una cilindrada superior a 50 centímetros cúbicos.\nwith two or three wheels with a cylinder capacity of over 50 cubic centimetres."
+        }
+      ],
+      "help": "6 Automobiles  \n   \n6.1 Motorcycle\nThe following automobiles are considered motorcycles and are defined according to specific characteristics as follows:  \n6.1.1 Motorcycle with two wheels\nAn automobile with two wheels, without a sidecar, that has at least one of the following characteristics:\nAn internal combustion engine (motor), with a cylinder capacity exceeding 50 cm3.\nConstructed to reach, a speed in excess of 45 km/h.\n(Página 9 del manual 'Learning to drive')\n\n6 Automobiles  \n   \n6.1 Motorcycle\nThe following automobiles are considered motorcycles and are defined according to specific characteristics as follows:  \n6.1.2 Motorcycle with sidecar\nAn automobile with three asymmetric wheels and that has at least one of the following characteristics:\nAn internal combustion engine (motor), with a cylinder capacity exceeding 50 cm3.\nConstructed to reach, a speed in excess of 45 km/h.\n \n(Página 9 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636964517600000000/ed2394c5-a003-4d0b-9a76-283fdcece6f7M.jpg",
+      "number": "6.",
+      "question": "Se define como motocicleta al automóvil...\nA motorcycle is defined as an automobile…",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "transporte, simultáneo o no, de personas y mercancías.\ntransporting people and goods, whether simultaneously or not."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "transporte de personas.\nthe transport of people."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "servicios o a transporte exclusivo de mercancías.\nservices or the exclusive transport of goods."
+        }
+      ],
+      "help": "6 Automobiles  \n \n6.5 Vehicle derived from a car\nAn automobile used to provide a service or to exclusively transport merchandise, with bodywork derived from a car and with only one row of seats.\n(Página 10 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675840000000/338c4186-a8a1-4e1e-a6d9-e18c3c44ba5eM.jpg",
+      "number": "7.",
+      "question": "El vehículo derivado de turismo está destinado a...\nA car derivative is intended for...",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Turismo.\nCar."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Camión.\nLorry."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Furgón.\nVan."
+        }
+      ],
+      "help": "6 Automobiles\n \n6.10 Goods vehicle - van\nAn automobile with at least four wheels, constructed to transport merchandise where the cabin is integrated within the rest of the body. It has a maximum of 9 seats, including the driver.\n(Página 10 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635465441070000000/20ccdc0b-dbaa-4fde-b5de-86f8f1502a16M.jpg",
+      "number": "8.",
+      "question": "¿Cómo se denomina el automóvil con cuatro ruedas o más, concebido y construido para el transporte de mercancías cuya cabina está integrada en el resto de la carrocería y con un máximo de 9 plazas, incluido el conductor?\nWhat is the name of the car with four wheels or more, designed and built for the transport of goods, whose cabin is integrated into the rest of the bodywork and with a maximum of 9 seats, including the driver?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "un tramo de vía donde no se ve el ancho total de la calzada.\na stretch of road where you cannot see the total width of the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "un tramo de vía donde hay un cambio de dirección.\na stretch of road where there is a change of direction."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "un lugar en el que se encuentran dos tramos de vía de distinta inclinación.\na place in which there are two stretches of road of different slopes."
+        }
+      ],
+      "help": "10 Other areas found on the roadway\n \n10.4 Change of gradient\nIt is the place in where two sections of roadway with different gradients meet.\n(Página 13 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675310000000/73e65850-e18f-498b-a577-5eb00f8186b4M.jpg",
+      "number": "9.",
+      "question": "Un cambio de rasante es...\nA change of gradient is...",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "la masa efectiva del vehículo, sin incluir la masa del personal de servicio ni de los pasajeros.\nthe effective mass of the vehicle, without including the mass of personnel or passengers."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "la masa efectiva del vehículo y de su carga.\nthe effective mass of the vehicle and its load."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la masa máxima autorizada para la utilización del vehículo.\nthe maximum authorized mass for the use of the vehicle."
+        }
+      ],
+      "help": "13 Other definitions\n \n13.2 Mass and load\nThis refers to the mass of the vehicle, as per the empty tare weight, plus the driver, passengers and load.\n(Página 17 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635932140350000000/4dae8c3f-c41e-4d2d-92ae-5f839579f927M.jpg",
+      "number": "10.",
+      "question": "La masa en carga es...\nLoaded mass is...",
+      "local_image": "images/q10.jpg"
+    }
+  ]
+}

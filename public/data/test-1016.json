@@ -1,0 +1,733 @@
+{
+  "test_id": 1016,
+  "title": "Use of the road 1",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-05",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Cuando circule en sentido contrario al habitual.\nWhen driving in the opposite way to the usual direction."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Cuando se circule por cambios de rasante o curvas de visibilidad reducida.\nWhen driving on changes of gradient or bends with reduced visibility."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando la circulación esté saturada.\nWhen traffic is congested."
+        }
+      ],
+      "help": "Use of the road\n \n1 Road positioning\nAs a general rule, vehicles will drive on the right and as close as possible to the edge of the road, keeping a lateral separation that is large enough to safely pass by other vehicles.\nThis regulation will be particularly applicable on curves and changes of gradient with reduced visibility. In these cases, even when there is no sign expressly delimiting directions, all drivers must leave the half of the roadway that is for the opposite direction completely free, except when overtaking.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674950000000/63cc2dd2-4ef8-4a7a-903b-714adc2a681bM.jpg",
+      "number": "1.",
+      "question": "¿Cuándo debe ceñirse especialmente al borde derecho de la calzada?\nWhen should you take special care to keep to the right-hand side of the road?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "dejando a la derecha el centro.\nkeeping the centre of the roundabout to your right."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "dejando a la izquierda el centro.\nkeeping the centre of the roundabout to your left."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "indistintamente, tanto por la derecha como por la izquierda.\neither to the right or to the left."
+        }
+      ],
+      "help": "2 Use of the road    \n \n2.2 Central refuges, isles, waiting area or guiding devices\nWhen there are pedestrian refuges, central islands or channelizing islands in the road:\nNormally vehicles must pass on the right hand side of these, in the direction of travel.\nIf these are located on a one-way road, they can be passed on either side.\nIf these are located within the part of a road assigned to traffic travelling in one direction only, vehicles can pass on either side.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676080000000/9ed29d2e-9fde-41db-a37b-fef802f8cca9M.jpg",
+      "number": "2.",
+      "question": "En las glorietas se circulará...\nAt roundabouts, traffic must travel…",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero solo si su cilindrada es igual o inferior a 125 c.c.\nYes, but only if the engine capacity is equal to or less than 125 cc."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, debe circular por la calzada.\nNo, it must travel along the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero no puede hacerlo en paralelo con otros vehículos.\nYes, but not alongside other vehicles."
+        }
+      ],
+      "help": "2 Use of the road\n \nAs a general rule, drivers of automobiles or special vehicles with a MAM over 3,500 kg will drive on the road. It is prohibited for these vehicles to drive on the hard shoulder.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636329454370000000/d862cd2d-c8fc-4a87-9dd1-8792ee584cd6M.jpg",
+      "number": "3.",
+      "question": "Como norma general, una motocicleta, ¿puede circular por el arcén?\nAs a general rule, can a motorcycle travel along the hard shoulder?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pues existe gran aglomeración y así descongestiona el tráfico.\nYes, because there is heavy traffic and it helps ease traffic."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, está prohibido.\nNo, it is prohibited."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, si tiene prisa.\nYes, if you are in a hurry."
+        }
+      ],
+      "help": "2 Use of the road\n \nAs a general rule, drivers of automobiles or special vehicles with a MAM over 3,500 kg will drive on the road. It is prohibited for these vehicles to drive on the hard shoulder.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674360000000/eda16789-26e0-43af-bf98-f6699d677b3bM.jpg",
+      "number": "4.",
+      "question": "En esta situación de aglomeración, ¿podrá circular por el arcén?\nIn this traffic situation, can you travel on the hard shoulder?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "circular por el carril que mejor convenga a su destino.\ndrive in the most suitable lane for your destination."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "circular por el carril izquierdo.\ndrive in the left-hand lane."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "circular normalmente por el carril de la derecha.\nusually drive in the right-hand lane."
+        }
+      ],
+      "help": "Use of the road\n \n1 Road positioning\nAs a general rule, vehicles will drive on the right and as close as possible to the edge of the road, keeping a lateral separation that is large enough to safely pass by other vehicles.\nThis regulation will be particularly applicable on curves and changes of gradient with reduced visibility. In these cases, even when there is no sign expressly delimiting directions, all drivers must leave the half of the roadway that is for the opposite direction completely free, except when overtaking.\n(Página 161 del manual 'Learning to drive')\n\n3 Use of lanes    \n   \n3.2 Lanes within built-up-areas\nThe drivers of automobiles and special vehicles (regardless of their weight) may use the most appropriate lane for their direction of travel that is best suited to their destination and intended route. As long as these lanes are defined by longitudinal lines and appropriately indicated and drivers do not cause inconvenience to other road users. This rule will not be applicable on motorways or dual carriageways within city limits.\n(Página 162 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637227633010000000/191759e0-a11a-435b-b8c8-6d15ca9d366aM.jpg",
+      "number": "5.",
+      "question": "En una autovía que discurre por suelo urbano, debe...\nWhen on a dual carriageway that runs through an urban area, you must…",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Los vehículos especiales con MMA superior a 3.500 kilogramos y todos los automóviles.\nSpecial purpose vehicles with a maximum authorized mass greater than 3,500 kilos and all automobiles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Los vehículos especiales con MMA no superior a 3.500 kilogramos y todos los automóviles.\nSpecial purpose vehicles with a maximum authorized mass not greater than 3,500 kilos and all automobiles."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Todos los vehículos especiales y todos los automóviles.\nAll special purpose vehicles and all automobiles."
+        }
+      ],
+      "help": "2 Use of the road\n \nAs a general rule, drivers of automobiles or special vehicles with a MAM over 3,500 kg will drive on the road. It is prohibited for these vehicles to drive on the hard shoulder.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637229726990000000/6e8e1d4e-95b2-4a24-af6b-1b54aa394f80M.jpg",
+      "number": "6.",
+      "question": "Como norma general, ¿qué vehículos deben circular por la calzada y no por el arcén?\nAs a general rule, which vehicles must circulate on the road and not on the hard shoulder?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Ocupando parte del sentido contrario, para ser visible con más facilidad.\nOccupying part of the oncoming lane, to be more easily visible."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Dejando completamente libre la mitad de la calzada que corresponda al sentido contrario.\nLeaving the oncoming half of the road completely free."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Por el carril derecho, pasando lo más cerca posible del eje de la vía.\nIn the right-hand lane, as close as possible to the centre line of the road."
+        }
+      ],
+      "help": "Use of the road\n \n1 Road positioning\nAs a general rule, vehicles will drive on the right and as close as possible to the edge of the road, keeping a lateral separation that is large enough to safely pass by other vehicles.\nThis regulation will be particularly applicable on curves and changes of gradient with reduced visibility. In these cases, even when there is no sign expressly delimiting directions, all drivers must leave the half of the roadway that is for the opposite direction completely free, except when overtaking.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480684520000000/c90d0584-449a-4f89-aa4c-38d5bf587611M.jpg",
+      "number": "7.",
+      "question": "En una curva de visibilidad reducida, ¿por dónde debe circular?\nOn a bend with reduced visibility, where should you drive?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Por su derecha o por su izquierda, indistintamente.\nEither on the right or on the left, regardless."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Por su derecha.\nOn the right."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Por su izquierda.\nOn the left."
+        }
+      ],
+      "help": "2 Use of the road    \n \n2.2 Central refuges, isles, waiting area or guiding devices\nWhen there are pedestrian refuges, central islands or channelizing islands in the road:\nNormally vehicles must pass on the right hand side of these, in the direction of travel.\nIf these are located on a one-way road, they can be passed on either side.\nIf these are located within the part of a road assigned to traffic travelling in one direction only, vehicles can pass on either side.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634890122330000000/ecd618a9-a65d-40e9-a2b9-e37e848dbb44M.jpg",
+      "number": "8.",
+      "question": "En una vía de doble sentido, ¿por qué lado de una isleta se circulará?\nOn a two-way street, on which side of the island must you drive?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "sentido único, en cualquier caso.\nin a single direction, in any event."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "los dos sentidos o en sentido único, según disponga la señalización.\nin both directions or in a single direction, as indicated by signs."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "los dos sentidos, siempre.\nin both directions, always."
+        }
+      ],
+      "help": "2 Use of the road  \n   \n2.1 Roads with several carriageways\nWhere there are three carriageways, use is as follows:\nThe central carriageway is normally used by traffic travelling in opposing directions (two-way roadway) or in one direction. The direction may be permanent or temporary and therefore it is necessary to consult the road signs and signals on this type of carriageway.\nThe lateral roads will normally be destined to one way traffic, without excluding the possibility of using the same or any of their lanes for traffic moving in the opposite direction, if duly signposted.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674350000000/a3e53c30-20d3-4b43-9011-8784c5b2097fM.jpg",
+      "number": "9.",
+      "question": "En vías divididas en tres calzadas, la central podrá estar destinada a la circulación en...\nOn roads divided into three lanes, the central lane can be used for travel...",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, porque debe circular por el carril de la derecha.\nNo, because it must drive in the right-hand lane."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, porque puede utilizar cualquier carril.\nYes, because you can use any lane."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, porque no impide el paso a otros vehículos.\nYes, because it does not prevent other vehicles from passing."
+        }
+      ],
+      "help": "3 Use of lanes  \n \n3.3 Lanes located outside built-up-areas\nOn roads located outside built-upareas, where there are more than one lane for each direction of travel, driver of automobiles and special vehicles with a MAM in excess of 3,500 kg will normally drive in the lane located furthest to the right.\nWhen traffic or road circumstances thus advise, you can use the rest of the lanes for your direction, provided that it does not obstruct another vehicle following you.\n(Página 162 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634909075270000000/830adda5-fa0e-44ad-a213-f8113d531747M.jpg",
+      "number": "10.",
+      "question": "En esta autopista, el vehículo que circula por el carril izquierdo y no está adelantando, ¿circula correctamente?\nOn this motorway, is the vehicle travelling in the left-hand lane, not overtaking, driving correctly?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "El carril central.\nThe middle lane."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "El carril situado a la derecha si está libre.\nThe furthest lane to the right, if free."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "El carril izquierdo si está libre.\nThe left lane if it is free."
+        }
+      ],
+      "help": "3 Use of lanes\n \n3.1 In general\nThe driver of an automobile or a special vehicle with a weight in excess of 3,500 kg MAM will have to comply with the following rules:\nIn two-way roadways, with three lanes –one for either direction and a centre lane, where the lanes are defined by longitudinal broken lines, you must travel in the lane located to the right and never in the lane to the far left.\nThe centre lane is a shared lane, for use by vehicles overtaking (in either direction) and for turning left.\n(Página 162 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635947588200000000/b74a9dae-f44e-4274-880d-9fc840b086feM.jpg",
+      "number": "11.",
+      "question": "En esta vía de doble sentido de circulación y tres carriles separados por marcas longitudinales discontinuas, ¿qué carril utilizará el vehículo azul para cambiar de dirección a la izquierda?\nOn this two-way road with three lanes divided by broken longitudinal lines, which lane will the blue vehicle use to change direction to the left?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Nunca.\nNever."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solamente para adelantar.\nOnly when overtaking."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Cuando los otros carriles estén ocupados y no obstaculice a los vehículos que circulan detrás.\nWhen the other lanes are full and you do not obstruct the vehicles that are driving behind."
+        }
+      ],
+      "help": "3 Use of lanes  \n \n3.3 Lanes located outside built-up-areas\nOn roads located outside built-upareas, where there are more than one lane for each direction of travel, driver of automobiles and special vehicles with a MAM in excess of 3,500 kg will normally drive in the lane located furthest to the right.\nWhen traffic or road circumstances thus advise, you can use the rest of the lanes for your direction, provided that it does not obstruct another vehicle following you.\n(Página 162 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674350000000/9d68bb3a-14f0-4db0-88b3-577067cd44e3M.jpg",
+      "number": "12.",
+      "question": "En una carretera de tres carriles en cada sentido, ¿cuándo se puede circular por el carril izquierdo?\nOn a road with three lanes in each direction, when can you drive in the left hand lane?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Cualquiera de ellos, cuando las circunstancias del tráfico o de la vía lo aconsejen y no entorpezca la marcha de otro vehículo que le siga.\nAny of them, when the traffic and road circumstances dictate and it does not hinder vehicles behind."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "El de la derecha, y el inmediato únicamente cuando las circunstancias del tráfico o de la vía lo aconsejen.\nThe right lane and the central lane, only when traffic and road circumstances dictate."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Solamente el de la derecha.\nOnly the right lane."
+        }
+      ],
+      "help": "3 Use of lanes  \n \n3.3 Lanes located outside built-up-areas\nOn roads located outside built-upareas, where there are more than one lane for each direction of travel, driver of automobiles and special vehicles with a MAM in excess of 3,500 kg will normally drive in the lane located furthest to the right.\nWhen traffic or road circumstances thus advise, you can use the rest of the lanes for your direction, provided that it does not obstruct another vehicle following you.\n(Página 162 del manual 'Learning to drive')\n\n3 Use of lanes  \n \n3.3 Lanes located outside built-up-areas\nOn roadways with three or more lanes for one direction, drivers of:\nLorries or vans with a MAM in excess of 3,500 kgs,\nSpecial vehicles that are not obligated to travel on the hard shoulder (with a MAM exceeding 3,500 kgs) and\nSets of vehicles more than 7 metres long,\nShould travel in a lane located furthest to the right and only use the second lane when circumstances require this.\nThey are not permitted to use the third or subsequent lane.\n(Página 162 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635465430760000000/87fa5a11-c180-45b3-935d-97b123f577d3M.jpg",
+      "number": "13.",
+      "question": "Una furgoneta, cuya longitud es de 7,30 metros y que tiene una MMA de 3.500 kg, circula por una vía interurbana con tres carriles por sentido de la circulación, ¿qué carriles puede utilizar?\nA van which is 7.30 metres long and which has a MAM of 3,500 kg, is driving along an intercity road with three lanes in each direction. Which lanes can it occupy?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Ninguno, solo puede circular por el de la derecha.\nNone, it can only use the right-hand lane."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "El inmediato cuando las circunstancias del tráfico o de la vía lo aconsejen.\nThe adjacent lane, when traffic and road circumstances dictate."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cualquier carril.\nAny lane."
+        }
+      ],
+      "help": "3 Use of lanes  \n \n3.3 Lanes located outside built-up-areas\nOn roadways with three or more lanes for one direction, drivers of:\nLorries or vans with a MAM in excess of 3,500 kgs,\nSpecial vehicles that are not obligated to travel on the hard shoulder (with a MAM exceeding 3,500 kgs) and\nSets of vehicles more than 7 metres long,\nShould travel in a lane located furthest to the right and only use the second lane when circumstances require this.\nThey are not permitted to use the third or subsequent lane.\n(Página 162 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675840000000/aea7da1a-722c-4c2a-b364-10334497356cM.jpg",
+      "number": "14.",
+      "question": "Un conjunto de vehículos de más de 7 metros de longitud que circula por una vía con tres carriles para el mismo sentido, además del carril derecho, ¿qué carriles puede utilizar?\nA combination vehicle measuring over 7 metres long is driving along a road with three lanes in the same direction. In addition to the right-hand lane, which lanes can it use?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Ninguno, solo puede circular por el de la derecha.\nNone, it can only use the right-hand lane."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Únicamente el inmediato cuando las circunstancias del tráfico o de la vía lo aconsejen.\nOnly the adjacent lane, when traffic and road circumstances dictate."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "El carril que mejor convenga a su destino, siempre que no sea un obstáculo a la circulación de los demás vehículos.\nThe most appropriate lane for its destination, provided it does not impede other vehicles."
+        }
+      ],
+      "help": "3 Use of lanes    \n   \n3.2 Lanes within built-up-areas\nThe drivers of automobiles and special vehicles (regardless of their weight) may use the most appropriate lane for their direction of travel that is best suited to their destination and intended route. As long as these lanes are defined by longitudinal lines and appropriately indicated and drivers do not cause inconvenience to other road users. This rule will not be applicable on motorways or dual carriageways within city limits.\n(Página 162 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676170000000/39700a77-e058-4918-bf2f-0f3e8c15a44fM.jpg",
+      "number": "15.",
+      "question": "Un conjunto de vehículos de más de 7 metros de longitud que circula por está vía de poblado con tres carriles para el mismo sentido delimitados por marcas longitudinales, además del carril derecho, ¿qué carriles puede utilizar?\nA combination vehicle measuring over 7 metres long is driving along a road in a populated area with three lanes in the same direction, marked out with longitudinal lines. In addition to the right-hand lane, which lanes can it use?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Por el que más convenga a su destino, estén o no delimitados los carriles.\nWhichever one is most suitable for your destination, whether or not the lanes are marked out."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Por el carril de la derecha, siempre.\nIn the right-hand lane, always."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Por el que más convenga a su destino, cuando los carriles estén delimitados por marcas longitudinales.\nIn the lane most suitable for your destination, when the lanes are marked."
+        }
+      ],
+      "help": "3 Use of lanes    \n   \n3.2 Lanes within built-up-areas\nThe drivers of automobiles and special vehicles (regardless of their weight) may use the most appropriate lane for their direction of travel that is best suited to their destination and intended route. As long as these lanes are defined by longitudinal lines and appropriately indicated and drivers do not cause inconvenience to other road users. This rule will not be applicable on motorways or dual carriageways within city limits.\n(Página 162 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680220000000/44b2cd87-0743-4e46-9cfd-fb534fbd666aM.jpg",
+      "number": "16.",
+      "question": "En una vía urbana con varios carriles para cada sentido, ¿por cuál de ellos circulará como norma general?\nOn an urban roads with several lanes in each direction, which lane will you drive on as a general rule?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Únicamente cuando pretenda parar o estacionar.\nOnly when you want to stop or park."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Al prepararse para cambiar de dirección, adelantar, parar o estacionar.\nWhen you prepare to turn, overtake, stop or park."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando quiera cambiar de dirección o de sentido.\nWhen you want to turn or change direction."
+        }
+      ],
+      "help": "3 Use of lanes  \n \n3.2 Lanes within built-up-areas\nOnce a lane is selected, drivers should not advocate changing lanes unnecessarily but only when they need to change, in order to turn, overtake, stop or park etc.\nThe remaining vehicles (cycles, mopeds, vehicles for people of reduced mobility, etc.) must travel (within town) normally, only in the lane located to the right.\nIf the lanes are not defined, with road markings, then you must use the lane located to the right and only use a lane located to you left when you need to overtake or the traffic situation requires this.\n(Página 162 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635932141130000000/541e8f7c-f5bf-4f09-9e84-9771b2e6ee68M.jpg",
+      "number": "17.",
+      "question": "En esta vía circula por el carril que mejor conviene a su destino, ¿cuándo puede abandonarlo?\nOn this road you are driving on the lane that is most convenient for your destination. When can you leave it?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Por el centro de la calzada.\nIn the middle of the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Por el carril que mejor convenga a su destino.\nIn the lane corresponding with the destination."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Por el carril derecho, pudiendo utilizar el resto cuando las circunstancias lo aconsejen.\nIn the right lane, with the possibility of using the rest of the road when circumstances dictate."
+        }
+      ],
+      "help": "3 Use of lanes  \n \n3.2 Lanes within built-up-areas\nOnce a lane is selected, drivers should not advocate changing lanes unnecessarily but only when they need to change, in order to turn, overtake, stop or park etc.\nThe remaining vehicles (cycles, mopeds, vehicles for people of reduced mobility, etc.) must travel (within town) normally, only in the lane located to the right.\nIf the lanes are not defined, with road markings, then you must use the lane located to the right and only use a lane located to you left when you need to overtake or the traffic situation requires this.\n(Página 162 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676390000000/e74b2668-305d-4063-a77f-1566bb7250bcM.jpg",
+      "number": "18.",
+      "question": "En una vía urbana de sentido único, si los carriles no están delimitados por marcas viales, ¿por dónde está obligado a circular el conductor de un turismo?\nOn a one-way urban road, if the lanes are not marked out, where must the driver position the vehicle?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, únicamente puedo circular por el arcén.\nNo, you can only travel on the hard shoulder."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, solo puede utilizar el derecho y el central.\nNo, you can only use the right and the middle lane."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, cuando las circunstancias del tráfico o la vía lo aconsejen.\nYes, when traffic and road circumstances dictate."
+        }
+      ],
+      "help": "3 Use of lanes  \n \n3.3 Lanes located outside built-up-areas\nOn roads located outside built-upareas, where there are more than one lane for each direction of travel, driver of automobiles and special vehicles with a MAM in excess of 3,500 kg will normally drive in the lane located furthest to the right.\nWhen traffic or road circumstances thus advise, you can use the rest of the lanes for your direction, provided that it does not obstruct another vehicle following you.\n(Página 162 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678790000000/ffc1f1f5-7a9a-4bf4-b143-95d578185141M.jpg",
+      "number": "19.",
+      "question": "Si conduce una motocicleta por esta vía, ¿le está permitido circular por el carril situado más a la izquierda?\nIf you are riding a motorbike on this road, are you allowed to ride in the left-most lane?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, cuando el carril está en vía urbana.\nYes, when the lane is on an urban road."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, para girar a la derecha.\nYes, to turn right."
+        }
+      ],
+      "help": "4 Reserved lanes for certain vehicles     \n   \n4.1 Lane reserved for specific types of vehicles\nOn sections where the longitudinal road marking delimiting the lane consists of a broken line, its use by other vehicles is permitted solely for carrying out a manoeuvre other than stopping, parking, making a U‑turn, or overtaking, while always giving priority to the vehicles authorised to use this lane.\n(Página 163 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636800317050000000/ac17a8fb-9730-4acf-be0e-2042a57c7a98M.jpg",
+      "number": "20.",
+      "question": "¿Puede circular un turismo por un carril reservado para autobuses señalizado con línea longitudinal continua?\nCan a car drive in a lane reserved for buses marked with a continuous longitudinal line?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, porque debe estar ocupado por el número mínimo de personas que se fije.\nNo, because the vehicle must be occupied by the minimum number of people established."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, si el conductor es novel.\nYes, if it is a new driver."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, si el vehículo ostenta la señal de minusválido.\nYes, if the vehicle is carrying a disabled persons sign."
+        }
+      ],
+      "help": "4 Reserved lanes for certain vehicles  \n   \n4.2 Lane for high occupancy vehicles (VAO)\nThe VAO lanes are restricted to use by:\nMotorcycles with two and three wheels.\nStandard family cars and mixed adaptable vehicles.\nNote: Anyone of these vehicles will be able to use a VAO lane, even though it is occupied by only the driver, when there is a V-15 road sign displayed that refersto use by a disabled person.\n(Página 163 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636329590390000000/7b65c268-f8c8-4247-9891-6910191299acM.jpg",
+      "number": "21.",
+      "question": "Un vehículo mixto en el que solo viaja el conductor, ¿puede, en algún caso, circular por un carril para VAO?\nIs a minivan only carrying a driver permitted to drive in a HOV lane?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "De noche, no.\nNot at night."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Únicamente si lleva más de tres ocupantes.\nOnly if it has more than three occupants."
+        }
+      ],
+      "help": "4 Reserved lanes for certain vehicles    \n   \n4.2 Lane for high occupancy vehicles (VAO)\nThe VAO lanes are restricted to use by:\nEmergency vehicles - Police vehicles, fire and rescue vehicles, civil protection vehicles and medical vehicles (ambulances) but only when on an emergency assistance call.\nRoad maintenance vehicles - equipped to maintain and service the corresponding road structure.\n(Página 163 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637184056250000000/e18af897-0d42-4f5c-92b0-d7ba030ddbceM.jpg",
+      "number": "22.",
+      "question": "Un vehículo de extinción de incendios en servicio de urgencia, ¿tiene permitido circular por un carril para VAO?\nIs a fire extinguishing vehicle on emergency service permitted to drive in a high-occupancy vehicle lane?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo si el carril no está ocupado.\nOnly if the lane is not occupied."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, siempre.\nYes, always."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "4 Reserved lanes for certain vehicles  \n   \n4.2 Lane for high occupancy vehicles (VAO)\nThe VAO lanes are restricted to use by:\nMotorcycles with two and three wheels.\nStandard family cars and mixed adaptable vehicles.\nNote: Anyone of these vehicles will be able to use a VAO lane, even though it is occupied by only the driver, when there is a V-15 road sign displayed that refersto use by a disabled person.\n(Página 163 del manual 'Learning to drive')\n\n4 Reserved lanes for certain vehicles    \n   \n4.2 Lane for high occupancy vehicles (VAO)\nCertain vehicles are therefore prohibited from using VAO roads in accordance with the road traffic laws. These are the remainder of the vehicles not appearing in the above list, such as vehicles with trailers, including cars, mopeds, cycles, vehicles pulled by animals or tractors and pedestrians.\n(Página 163 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636328627250000000/84fe64c3-7215-45f7-a345-3a94e178cae3M.jpg",
+      "number": "23.",
+      "question": "¿Podrá utilizar el carril para VAO un turismo ocupado por cuatro personas si lleva enganchado un remolque ligero?\nCan a car with four people pulling a light trailer use a high-occupancy vehicle lane?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, moderando la velocidad.\nYes, slowly."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, está prohibido.\nNo, it is prohibited."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero solo si va ocupado por una persona.\nYes, but only if ridden by one person."
+        }
+      ],
+      "help": "4 Reserved lanes for certain vehicles    \n   \n4.2 Lane for high occupancy vehicles (VAO)\nCertain vehicles are therefore prohibited from using VAO roads in accordance with the road traffic laws. These are the remainder of the vehicles not appearing in the above list, such as vehicles with trailers, including cars, mopeds, cycles, vehicles pulled by animals or tractors and pedestrians.\n(Página 163 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635168325210000000/579aa6bb-98f8-46dd-85c5-204d937add82M.jpg",
+      "number": "24.",
+      "question": "Los ciclomotores, ¿pueden utilizar un carril para VAO?\nCan mopeds use a High Occupancy Vehicle lane?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "reservados a determinados vehículos.\nlanes reserved for specific vehicles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "reversibles.\nreversible lanes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "especiales.\nspecial lanes."
+        }
+      ],
+      "help": "3 Use of lanes    \n \n3.4 Count of lanes\nWhen assessing the number of lanes, for the purposes of the provisions regarding its use, not all the lanes that physically exist on the road will be counted.\nLanes reserved for certain vehicles, and\nLanes reserved for certain manoeuvres will not be taken into account.\n(Página 163 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674330000000/d8ce09e7-8ae5-4050-ba99-66c22809a75aM.jpg",
+      "number": "25.",
+      "question": "No se tendrán en cuenta, a efectos de la normal utilización, los carriles...\nWe will not take into account for purposes of general use...",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero solo para adelantar y durante el recorrido indispensable.\nYes, but only for overtaking and only for the essential distance."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, con carácter general.\nNot in general."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, en caso de circulación muy densa.\nYes, in the event of very heavy traffic."
+        }
+      ],
+      "help": "4 Reserved lanes for certain vehicles  \n   \n4.1 Lane reserved for specific types of vehicles\nThis is a special lane intended exclusively for the circulation of certain designated types of vehicles (buses, motorcycles, three‑wheeled vehicles treated as motorcycles, taxis, cycles, etc.).\nDrivers of all other vehicles are prohibited from using it.\nIt shall be indicated by sign S‑51a, which will display the pictogram representing the authorised type or types of vehicles, together with the corresponding road marking for a reserved lane.\n(Página 163 del manual 'Learning to drive')\n\n4 Reserved lanes for certain vehicles     \n   \n4.1 Lane reserved for specific types of vehicles\nOn sections where the longitudinal road marking delimiting the lane consists of a broken line, its use by other vehicles is permitted solely for carrying out a manoeuvre other than stopping, parking, making a U‑turn, or overtaking, while always giving priority to the vehicles authorised to use this lane.\n(Página 163 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681160000000/316e07cd-8681-4a1e-8252-dc301c463f0fM.jpg",
+      "number": "26.",
+      "question": "¿Puede circular con su motocicleta por un carril reservado para autobuses?\nCan you ride your motorbike in a lane reserved for buses?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, siempre está prohibido.\nNo, it is always prohibited."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, para realizar cualquier maniobra que no sea parar, estacionar, cambiar de sentido o adelantar.\nYes, to do any manoeuvre except from stopping, parking, doing a U-turn or overtaking."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero solo para cambiar de dirección a la derecha.\nYes, but only to turn right."
+        }
+      ],
+      "help": "4 Reserved lanes for certain vehicles     \n   \n4.1 Lane reserved for specific types of vehicles\nOn sections where the longitudinal road marking delimiting the lane consists of a broken line, its use by other vehicles is permitted solely for carrying out a manoeuvre other than stopping, parking, making a U‑turn, or overtaking, while always giving priority to the vehicles authorised to use this lane.\n(Página 163 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679350000000/d8ee0548-e229-4144-bd51-925eb5e17b4bM.jpg",
+      "number": "27.",
+      "question": "¿Está permitido que un turismo utilice un tramo de carril reservado para autobuses y taxis delimitado por una línea discontinua?\nIs a private car permitted to use the stretch of lane reserved for buses and taxis limited by a dashed line?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Un ocupante.\nOne occupant."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Dos ocupantes, incluido el conductor.\nTwo occupants, including the driver."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Dos ocupantes, sin incluir al conductor.\nTwo occupants, not including the driver."
+        }
+      ],
+      "help": "4 Reserved lanes for certain vehicles      \n     \n4.2 Lane for high occupancy vehicles (VAO)\nHowever, the Directorate General of Traffic (DGT) may also allow the use of the VAO lanes by the following vehicles, even when they are only occupied by their driver:\nTaxis with an illuminated exterior sign and a current taxi licence.\nStandard family cars classified as zero-emissions vehicles, ECO, C or B. This will be indicated on the variable message signs at the entrances to the VAO lanes.\nStandard family cars classified as car-sharing (shared use vehicle).\nThe aforementioned standard family cars must be identified in all cases by the corresponding sticker.\n(Página 164 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636978312000000000/fa7c6b8f-6b0c-454b-968c-f15aa2d14125M.jpg",
+      "number": "28.",
+      "question": "Si los paneles de mensaje variable indican que los turismos con distintivo ambiental B pueden circular por un carril para VAO, ¿qué ocupación mínima debe tener el vehículo?\nIf variable message signs indicate that cars with a B environmental badge can travel in a high-occupancy vehicle lane, what is the minimum vehicle occupancy?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "reducir la velocidad a 60 km/h.\nreduce your speed to 60 kph."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "continuar por su carril hasta la salida.\ncontinue in your lane until you leave."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "cambiar al carril más próximo a la salida y entrar en el carril de deceleración lo antes posible.\nswitch to the lane closest to the exit and enter the deceleration lane as soon as possible."
+        }
+      ],
+      "help": "5 Lanes reserved for certain manoeuvres\n \n5.3 Exit or deceleration lanes\nIt is a special lane that allows drivers to exit a roadway and adjust their speed to the road they are joining and without obstructing the traffic flow on the road they are exiting. Normally this is located to the right of the roadway but in certain instances it may also be found on the left.\nIn order to leave a motorway or a dual carriageway drivers must:\nPay particular attention to the road signing and locate in advance their exit road.\nExit into the deceleration lane as soon as possible (where one is provided).\nReduce their speed within this lane, and without causing a hazard to other road users.\n(Página 164 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675620000000/3c381ba5-58c5-495c-9108-c5742731cfbfM.jpg",
+      "number": "29.",
+      "question": "Al abandonar una autovía deberá...\nWhen leaving a dual carriageway, you must…",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solo cuando su masa máxima autorizada no sea superior a 3.500 kilogramos.\nOnly when the maximum authorised mass is not greater than 3,500 kilograms."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes\n \n7.2 Reversible lanes\nRoad users using these lanes must use (both day and night) at least the lowbeam headlights.\nAs a general rule, these lanes are not limited as to who can use them and the applicable speed limits are those of the roads on which they are located.\n(Página 165 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674670000000/99a677ae-6fa8-4199-9f47-b6cc7e966294M.jpg",
+      "number": "30.",
+      "question": "Un furgón, ¿puede utilizar un carril reversible?\nCan a van use a reversible lane?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "test_id": 1001,
+  "title": "Definitions",
+  "languages": [
+    "en",
+    "es",
+    "ru"
+  ],
+  "help": {
+    "1": {
+      "en": "Definitions\n\n1. Related to people\n\n1.1 Driver\n\nThe driver is the person who has control over the operation of the vehicle, subject to the applicable exceptions. A drover is a person in charge of animals and is considered to be driving them. In vehicles used for driving instruction, the driver is the person operating the additional controls.\n\n(Página 6 del manual 'Learning to drive')",
+      "es": "Definiciones\n\n1. Definiciones relativas a las personas\n\n1.1 Conductor\n\nEl conductor es la persona que controla el funcionamiento del vehículo, con las excepciones correspondientes. También se considera conductor a quien está a cargo de animales y los guía. En los vehículos utilizados para la enseñanza de la conducción, el conductor es la persona que maneja los mandos adicionales.\n\n(Página 6 del manual «Learning to drive»)",
+      "ru": "Определения\n\n1. Определения, относящиеся к людям\n\n1.1 Водитель\n\nВодитель — это лицо, которое управляет транспортным средством, с учётом предусмотренных исключений. Погонщик — это лицо, отвечающее за животных и ведущее их. В учебном автомобиле водителем считается человек, управляющий дополнительными органами управления.\n\n(Страница 6 руководства «Learning to drive»)"
+    },
+    "2": {
+      "en": "2. Definitions relating to vehicles\n\n2.3 Automobile\n\nA motor-powered vehicle intended to transport people or goods, or both at the same time, or to tow other vehicles for that purpose. Special vehicles are excluded from this definition.\n\n(Página 7 del manual 'Learning to drive')",
+      "es": "2. Definiciones relativas a los vehículos\n\n2.3 Automóvil\n\nVehículo provisto de motor destinado al transporte de personas o mercancías, o de ambas a la vez, o a remolcar otros vehículos con ese fin. Los vehículos especiales quedan excluidos de esta definición.\n\n(Página 7 del manual «Learning to drive»)",
+      "ru": "2. Определения, относящиеся к транспортным средствам\n\n2.3 Автомобиль\n\nМеханическое транспортное средство, предназначенное для перевозки людей или грузов либо тех и других одновременно, а также для буксировки других транспортных средств с этой целью. Специальные транспортные средства в это определение не входят.\n\n(Страница 7 руководства «Learning to drive»)"
+    },
+    "3": {
+      "en": "4. Vehicles without a motor\n\n4.4 Trailer\n\nA non-self-propelled vehicle designed and constructed to be towed by a motor vehicle.\n\nLight trailers have a maximum authorised mass not exceeding 750 kg; agricultural trailers are excluded. Heavy, or non-light, trailers have a maximum authorised mass exceeding 750 kg.\n\n(Página 8 del manual 'Learning to drive')",
+      "es": "4. Vehículos sin motor\n\n4.4 Remolque\n\nVehículo no autopropulsado diseñado y construido para ser remolcado por un vehículo de motor.\n\nLos remolques ligeros tienen una masa máxima autorizada que no supera los 750 kg; los remolques agrícolas quedan excluidos. Los remolques pesados, o no ligeros, tienen una masa máxima autorizada superior a 750 kg.\n\n(Página 8 del manual «Learning to drive»)",
+      "ru": "4. Транспортные средства без двигателя\n\n4.4 Прицеп\n\nНесамоходное транспортное средство, спроектированное и изготовленное для буксировки механическим транспортным средством.\n\nЛёгким считается прицеп с разрешённой максимальной массой не более 750 кг; сельскохозяйственные прицепы сюда не относятся. У тяжёлого, то есть не относящегося к лёгким, прицепа разрешённая максимальная масса превышает 750 кг.\n\n(Страница 8 руководства «Learning to drive»)"
+    },
+    "4": {
+      "en": "4. Vehicles without a motor\n\n4.2 Cycle\n\nA vehicle with at least two wheels, propelled exclusively or primarily by the muscular energy of the person or people riding it, particularly by means of pedals.\n\n(Página 8 del manual 'Learning to drive')",
+      "es": "4. Vehículos sin motor\n\n4.2 Ciclo\n\nVehículo de al menos dos ruedas, propulsado exclusiva o principalmente por la energía muscular de la persona o personas que lo ocupan, especialmente mediante pedales.\n\n(Página 8 del manual «Learning to drive»)",
+      "ru": "4. Транспортные средства без двигателя\n\n4.2 Велосипедное транспортное средство\n\nТранспортное средство как минимум с двумя колёсами, приводимое в движение исключительно или преимущественно мускульной силой находящегося на нём человека или людей, в частности посредством педалей.\n\n(Страница 8 руководства «Learning to drive»)"
+    },
+    "5": {
+      "en": "5. Vehicles not considered motor vehicles\n\n5.4 Personal mobility vehicle\n\nA single-occupant vehicle with one or more wheels, powered exclusively by electric motors and with a maximum design speed of between 6 and 25 km/h.\n\nIt may only have a seat or saddle if it is equipped with a self-balancing system.\n\nThis definition excludes vehicles with a saddle but without a self-balancing system, competition vehicles, vehicles for people with reduced mobility, vehicles whose operating voltage exceeds 100 VDC or 240 VAC, and vehicles covered by Regulation (EU) No 168/2013, such as seated scooters and pedal-assisted bicycles.\n\n(Página 9 del manual 'Learning to drive')",
+      "es": "5. Vehículos no considerados vehículos de motor\n\n5.4 Vehículo de movilidad personal\n\nVehículo de una o más ruedas, para una sola persona, propulsado exclusivamente por motores eléctricos y con una velocidad máxima de diseño comprendida entre 6 y 25 km/h.\n\nSolo puede estar equipado con asiento o sillín si dispone de un sistema de autoequilibrado.\n\nSe excluyen de esta definición los vehículos con sillín pero sin sistema de autoequilibrado, los vehículos de competición, los destinados a personas con movilidad reducida, los que funcionen con una tensión superior a 100 V de corriente continua o 240 V de corriente alterna y los incluidos en el ámbito del Reglamento (UE) n.º 168/2013, como los patinetes con asiento y las bicicletas de pedaleo asistido.\n\n(Página 9 del manual «Learning to drive»)",
+      "ru": "5. Транспортные средства, не считающиеся механическими\n\n5.4 Средство индивидуальной мобильности\n\nОдноместное транспортное средство с одним или несколькими колёсами, приводимое в движение исключительно электродвигателями и имеющее конструктивную максимальную скорость от 6 до 25 км/ч.\n\nОно может быть оборудовано сиденьем или седлом только при наличии системы самобалансировки.\n\nК этому определению не относятся транспортные средства с седлом, но без системы самобалансировки, спортивные транспортные средства, средства для людей с ограниченной подвижностью, транспортные средства с рабочим напряжением более 100 В постоянного или 240 В переменного тока, а также транспортные средства, подпадающие под действие Регламента (ЕС) № 168/2013, например самокаты с сиденьем и велосипеды с электроприводом, помогающим при педалировании.\n\n(Страница 9 руководства «Learning to drive»)"
+    },
+    "6": {
+      "en": "6. Automobiles\n\n6.1 Motorcycles\n\n6.1.1 Two-wheeled motorcycle\n\nA two-wheeled automobile without a sidecar that has at least one of the following characteristics: an internal-combustion engine with a cylinder capacity exceeding 50 cm³, or a construction speed exceeding 45 km/h.\n\n6.1.2 Motorcycle with a sidecar\n\nAn automobile with three asymmetrically arranged wheels that has at least one of the following characteristics: an internal-combustion engine with a cylinder capacity exceeding 50 cm³, or a construction speed exceeding 45 km/h.\n\n(Página 9 del manual 'Learning to drive')",
+      "es": "6. Automóviles\n\n6.1 Motocicletas\n\n6.1.1 Motocicleta de dos ruedas\n\nAutomóvil de dos ruedas, sin sidecar, que reúne al menos una de las siguientes características: motor de combustión interna con una cilindrada superior a 50 cm³ o velocidad de construcción superior a 45 km/h.\n\n6.1.2 Motocicleta con sidecar\n\nAutomóvil de tres ruedas asimétricas que reúne al menos una de las siguientes características: motor de combustión interna con una cilindrada superior a 50 cm³ o velocidad de construcción superior a 45 km/h.\n\n(Página 9 del manual «Learning to drive»)",
+      "ru": "6. Автомобили\n\n6.1 Мотоциклы\n\n6.1.1 Двухколёсный мотоцикл\n\nДвухколёсное механическое транспортное средство без бокового прицепа, имеющее хотя бы одну из следующих характеристик: двигатель внутреннего сгорания с рабочим объёмом более 50 см³ либо конструктивную скорость более 45 км/ч.\n\n6.1.2 Мотоцикл с боковым прицепом\n\nМеханическое транспортное средство с тремя асимметрично расположенными колёсами, имеющее хотя бы одну из следующих характеристик: двигатель внутреннего сгорания с рабочим объёмом более 50 см³ либо конструктивную скорость более 45 км/ч.\n\n(Страница 9 руководства «Learning to drive»)"
+    },
+    "7": {
+      "en": "6. Automobiles\n\n6.5 Car-derived vehicle\n\nAn automobile used to provide a service or exclusively to transport goods, with bodywork derived from a passenger car and only one row of seats.\n\n(Página 10 del manual 'Learning to drive')",
+      "es": "6. Automóviles\n\n6.5 Vehículo derivado de turismo\n\nAutomóvil destinado a prestar un servicio o exclusivamente al transporte de mercancías, con carrocería derivada de un turismo y una sola fila de asientos.\n\n(Página 10 del manual «Learning to drive»)",
+      "ru": "6. Автомобили\n\n6.5 Транспортное средство на базе легкового автомобиля\n\nАвтомобиль, предназначенный для выполнения определённых работ или исключительно для перевозки грузов, с кузовом на базе легкового автомобиля и только одним рядом сидений.\n\n(Страница 10 руководства «Learning to drive»)"
+    },
+    "8": {
+      "en": "6. Automobiles\n\n6.10 Goods vehicle — van\n\nAn automobile with at least four wheels, constructed to transport goods, whose cab is integrated into the rest of the body. It has no more than nine seats, including the driver's seat.\n\n(Página 10 del manual 'Learning to drive')",
+      "es": "6. Automóviles\n\n6.10 Furgón o furgoneta\n\nAutomóvil de al menos cuatro ruedas, construido para el transporte de mercancías, cuya cabina está integrada en el resto de la carrocería. Dispone de un máximo de nueve plazas, incluida la del conductor.\n\n(Página 10 del manual «Learning to drive»)",
+      "ru": "6. Автомобили\n\n6.10 Грузовой автомобиль — фургон\n\nАвтомобиль как минимум с четырьмя колёсами, предназначенный для перевозки грузов, кабина которого объединена с остальной частью кузова. Он имеет не более девяти мест, включая место водителя.\n\n(Страница 10 руководства «Learning to drive»)"
+    },
+    "9": {
+      "en": "10. Other areas found on the roadway\n\n10.4 Change of gradient\n\nThe point at which two sections of road with different gradients meet.\n\n(Página 13 del manual 'Learning to drive')",
+      "es": "10. Otras zonas de la vía\n\n10.4 Cambio de rasante\n\nLugar en el que se encuentran dos tramos de vía con distinta inclinación.\n\n(Página 13 del manual «Learning to drive»)",
+      "ru": "10. Другие участки дороги\n\n10.4 Перелом продольного профиля\n\nМесто соединения двух участков дороги с разным уклоном.\n\n(Страница 13 руководства «Learning to drive»)"
+    },
+    "10": {
+      "en": "13. Other definitions\n\n13.2 Mass and load\n\nThe mass of the vehicle in running order: its unladen mass plus the driver, passengers and load.\n\n(Página 17 del manual 'Learning to drive')",
+      "es": "13. Otras definiciones\n\n13.2 Masa en carga\n\nLa masa del vehículo en orden de marcha: su tara más la masa del conductor, los pasajeros y la carga.\n\n(Página 17 del manual «Learning to drive»)",
+      "ru": "13. Другие определения\n\n13.2 Масса с нагрузкой\n\nМасса транспортного средства в снаряжённом состоянии: его масса без нагрузки плюс масса водителя, пассажиров и груза.\n\n(Страница 17 руководства «Learning to drive»)"
+    }
+  }
+}

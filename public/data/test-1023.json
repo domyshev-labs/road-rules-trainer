@@ -1,0 +1,709 @@
+{
+  "test_id": 1023,
+  "title": "Maneouvres 3",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-05",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, en los pasos a nivel sin barrera.\nYes, at level crossings without barriers."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, cuando las barreras no estén en movimiento.\nYes, when the barriers are not moving."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "Maneouvres          \n       \n7 ‘U’ turn    \n7.3 Circumstances when it is prohibited to undertake a ‘U’ turn\nIt is specifically prohibited to carry out a ‘U’ turn:\nAt level crossings (although it is not prohibited in their immediate surroundings).\nIn tunnels, underpasses and sections of the road affected by the signal “unnel”.\nOn motorways and dual carriageways, except in the places designated for this purpose.\nOn one-way roads and one-way sections of roads.\nIn general, in all sections of the road where overtaking is prohibited, unless a ‘’turn is expressly authorized.\n(Página 195 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635466286300000000/67cdcb82-63b8-486a-abea-434f8278e503M.jpg",
+      "number": "1.",
+      "question": "En un paso a nivel, ¿está permitido realizar un cambio de sentido?\nAt a level crossing, are you permitted to do a U-turn?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, salvo en los lugares habilitados al efecto.\nYes, except in the places provided for this purpose."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, siempre.\nYes, always."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "Maneouvres          \n       \n7 ‘U’ turn    \n7.3 Circumstances when it is prohibited to undertake a ‘U’ turn\nIt is specifically prohibited to carry out a ‘U’ turn:\nAt level crossings (although it is not prohibited in their immediate surroundings).\nIn tunnels, underpasses and sections of the road affected by the signal “unnel”.\nOn motorways and dual carriageways, except in the places designated for this purpose.\nOn one-way roads and one-way sections of roads.\nIn general, in all sections of the road where overtaking is prohibited, unless a ‘’turn is expressly authorized.\n(Página 195 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674430000000/55bde311-bf96-4ce7-ae67-d68920d34e14M.jpg",
+      "number": "2.",
+      "question": "En autopistas y autovías, ¿está prohibido el cambio de sentido?\nOn motorways and dual carriageways, is changing direction prohibited?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, salvo que esté expresamente prohibido por una señal.\nYes, unless it is expressly prohibited by a sign."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, porque está prohibido.\nNo, because it is prohibited."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, cuando estén abiertos.\nYes, when they are open."
+        }
+      ],
+      "help": "Maneouvres          \n       \n7 ‘U’ turn    \n7.3 Circumstances when it is prohibited to undertake a ‘U’ turn\nIt is specifically prohibited to carry out a ‘U’ turn:\nAt level crossings (although it is not prohibited in their immediate surroundings).\nIn tunnels, underpasses and sections of the road affected by the signal “unnel”.\nOn motorways and dual carriageways, except in the places designated for this purpose.\nOn one-way roads and one-way sections of roads.\nIn general, in all sections of the road where overtaking is prohibited, unless a ‘’turn is expressly authorized.\n(Página 195 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675040000000/a25d6cac-c7e5-480b-9ed9-b87b924a5234M.jpg",
+      "number": "3.",
+      "question": "En una autopista, ¿está permitido utilizar los pasos que hay en la mediana para hacer un cambio de sentido de la marcha?\nOn a motorway, are you permitted to use the spaces in the median strip to do a U-turn?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, pero el recorrido mínimo indispensable.\nYes, but only the minimum distance required."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero sin recorrer más de 20 metros y efectuándola lo más rápido posible.\nYes, but not exceeding 20 metres and doing so as quickly as possible."
+        }
+      ],
+      "help": "Maneouvres        \n \n8 Reversing\nAs a general rule, reversing backwards is prohibited. However, as an exception it is permissible (but only when travelling a minimum distance backwards – in reverse gear), in the following two cases:\nWhen it is not possible to continue forwards, or change direction (turn to the left or right) or complete a ‘U’ turn. For example the road ahead is blocked, or closed or there is a narrow stretch of roadway etc.).\n(Página 195 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676050000000/54c142e6-5991-4d0b-a9d4-bc2368867b7dM.jpg",
+      "number": "4.",
+      "question": "En una vía cortada no se puede cambiar de sentido, ¿está permitido salir marcha atrás?\nOn a closed-off road you cannot change direction. Can you reverse?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "como maniobra complementaria de la parada.\nas part of a stop."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "cuando no sea posible cambiar de dirección o sentido de la marcha.\nwhen it is not possible to change direction or do a U-turn."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "en autovías y autopistas que discurran por poblado.\non dual carriageways and motorways through a populated area."
+        }
+      ],
+      "help": "Maneouvres        \n \n8 Reversing\nAs a general rule, reversing backwards is prohibited. However, as an exception it is permissible (but only when travelling a minimum distance backwards – in reverse gear), in the following two cases:\nWhen reversing forms part of one of the following manoeuvre, parking, stopping or joining the traffic flow. In this instance the distance travelled in reverse gear must not be further than 15 metres and you must not invade a junction.\n(Página 195 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635460295230000000/4c0f5e70-537d-48e8-83c0-0d2e23ec8b70M.jpg",
+      "number": "5.",
+      "question": "Siempre que el recorrido hacia atrás no supere los 15 metros ni invada un cruce de vías, podrá circular marcha atrás...\nProvided that the reverse manoeuvre does not exceed 15 metres or enter a junction, you can reverse...",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "lo más rápido posible.\nas quickly as possible."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "con la máxima precaución.\nwith the utmost caution."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "advirtiéndolo previamente con la señal de emergencia.\nwith the hazard lights on."
+        }
+      ],
+      "help": "Maneouvres          \n   \n8 Reversing\nBefore starting to reverse, the driver must make sure that it is safe to do so. This may mean getting out of the vehicle and checking around the vicinity or preferably reversing under the supervision and assistance of another person, who will act to guide the driver backwards. It is always necessary to take into consideration the space you are reversing into, the circumstances and the movement of others.\nReversing must never be rushed – always reverse slowly and whilst exercising the maximum safety precautions. Observe all around the vehicle and indicate and warn others that you are reversing with the correct signalling device(s).\n(Página 195 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675820000000/fd394543-5673-4990-bd4e-321b1a67e4b9M.jpg",
+      "number": "6.",
+      "question": "La maniobra de marcha atrás debe efectuarse...\nA reversing manoeuvre must be completed...",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, si va a abandonar la vía por un carril de deceleración.\nYes, if it is going to leave the road via a deceleration lane."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, cuando por razones de accidente o avería precise de un servicio de auxilio, para dirigirse hacia la primera salida.\nYes, when due to an accident or breakdown, it requires an assistance service, to get to the first exit."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, en ningún caso.\nNo, never."
+        }
+      ],
+      "help": "Maneouvres                \n     \n9 Immobilisation: Stationary vehicles Detention (Halting)    \n9.2 Emergency detention (halting due to an emergency)  \nVehicles that have been involved in an accident or breakdown:\nIf they are able to continue their journey, they should do so immediately, ensuring they can drive safely. If the maximum authorised mass does not exceed 3,500 kilograms, and they are travelling at an abnormally low speed, seriously disrupting traffic, they will travel along the right-hand hard shoulder, if passable and wide enough, or, if not, along the essential part of the road. If travelling along a motorway or dual carriageway at an abnormally low speed, they must leave it at the first exit.   \n \n(Página 196 del manual 'Learning to drive')\n\nManeouvres                  \n       \n9 Immobilisation: Stationary vehicles Detention (Halting)      \n9.2 Emergency detention (halting due to an emergency)  \nVehicles that have been involved in an accident or breakdown:\nIf they are able to continue their journey but need an assistance service, they should leave the traffic lanes as soon as possible and head to the first available exit using the right-hand hard shoulder, regardless of maximum authorised mass.\nIf they are unable to continue their journey, they must stop on the right-hand hard shoulder or at the place where they cause the least obstruction to traffic, using the left-hand hard shoulder or central reservation if needed.\n(Página 196 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680560000000/af6087d9-e62f-4c6c-8a55-b78ffe60b583M.jpg",
+      "number": "7.",
+      "question": "¿Le está permitido a un turismo con remolque circular por el arcén de una autopista?\nIs a car with a trailer allowed to drive on the hard shoulder of a motorway?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Permanecerán en el habitáculo con el cinturón abrochado.\nThey will remain in the cabin with their seatbelt fastened."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Intentar por todos los medios salir al exterior del vehículo para pedir auxilio.\nTry to leave the vehicle through any means to ask for help."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Permanecerán en el habitáculo con el cinturón desabrochado y las puertas abiertas.\nThey will remain in the cabin with the seatbelt unfastened and the doors open."
+        }
+      ],
+      "help": "Maneouvres                  \n       \n9 Immobilisation: Stationary vehicles Detention (Halting)      \n9.2 Emergency detention (halting due to an emergency)\nIn the event of an accident or breakdown, as a general rule, if the vehicle is stopped without the possibility of restarting, the occupants should leave the vehicle, provided that there is a safe place off the road and, in any case, they must leave the vehicle on the opposite side to the flow of traffic without crossing or remaining on the road or hard shoulders. If the traffic conditions do not allow the occupants to leave the vehicle safely, they will remain inside the vehicle with their seatbelt fastened.\n(Página 197 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674530000000/ae60ba30-5f1a-4ccb-ba54-857dcd9784a9M.jpg",
+      "number": "8.",
+      "question": "En el caso de accidente o avería, si el vehículo está inmovilizado sin posibilidad de reemprender la marcha y las condiciones de circulación no permitieran a los ocupantes abandonar el vehículo con seguridad, ¿qué deben hacer estos?\nIn the event of an accident or breakdown, if the vehicle is stopped without the possibility of restarting, and the traffic conditions do not allow the occupants to leave the vehicle safely, what should they do?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "autopistas y autovías solamente.\nmotorways and dual carriageways only."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "vías urbanas.\nurban roads."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "vías interurbanas.\nintercity roads."
+        }
+      ],
+      "help": "Maneouvres              \n   \n9 Immobilisation: Stationary vehicles Detention (Halting)  \n9.2 Emergency detention (halting due to an emergency)\nDrivers of cars, buses, automobiles for the transport of goods, mixed and combination non-special vehicles, if they are going to occupy the roadway or hard shoulder of an interurban road, they must don a high-visibility reflective vest before getting out of the vehicle, which is obligatory equipment.\n(Página 197 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636832420340000000/4006a4f9-f1db-4e73-9065-363e2cbdca24M.jpg",
+      "number": "9.",
+      "question": "El chaleco reflectante es obligatorio ponérselo antes de salir del vehículo y ocupar la calzada o el arcén en…\nThe hi-vis jacket must be put on before leaving the vehicle and occupying the road or the hard shoulder on...",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, siempre que no se recorran de esta forma más de 5 kilómetros.\nYes, provided that you do not drive more than 5 kilometres like this."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, pero solo hasta el lugar más próximo donde pueda quedar convenientemente inmovilizado.\nYes, but only to the nearest location where it can be properly immobilised."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "Maneouvres              \n   \n9 Immobilisation: Stationary vehicles Detention (Halting)  \n9.2 Emergency detention (halting due to an emergency)\nBroken down vehicles or vehicles involved in accidents must be towed by vehicles specially designed for this purpose (assistance vehicles on public roads).\n(Página 197 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636718410020000000/da066d2c-0ac9-44f6-a71c-96f22e5f5f81M.jpg",
+      "number": "10.",
+      "question": "En condiciones de seguridad, en vías que no sean autopistas o autovías, ¿se permite el arrastre de un vehículo por otro no destinado a este fin?\nIn safe conditions, on roads other than motorways or dual carriageways, is it permitted to tow a vehicle with another not intended for this purpose?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, en ningún caso.\nNo, never."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, para atender una llamada urgente de teléfono.\nYes, to answer an urgent phone call."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, para programar el sistema de navegación del vehículo.\nYes, to program the vehicle navigation system."
+        }
+      ],
+      "help": "Maneouvres        \n   \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.2 Localities where this is permissible\nOn interurban roads, stopping and parking must be done always on the right side of the road, off the carriageway and leaving the passable part of the hard shoulder free.\n(Página 198 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675550000000/23b026e2-826b-44e3-b3d6-0318561bb8b3M.jpg",
+      "number": "11.",
+      "question": "En una vía interurbana de doble sentido de la circulación, ¿está permitido realizar una parada o estacionamiento en el lado izquierdo?\nOn a two-way interurban road, are you permitted to stop or park on the left hand side?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solamente estacionar.\nOnly parking is prohibited."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, tanto parar como estacionar.\nYes, both stopping and parking."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Solamente parar.\nOnly stopping is prohibited."
+        }
+      ],
+      "help": "Maneouvres        \n   \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.2 Localities where this is permissible\nOn interurban roads, stopping and parking must be done always on the right side of the road, off the carriageway and leaving the passable part of the hard shoulder free.\n(Página 198 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636800319690000000/6d56bef4-6bed-4344-a81f-ce2d8b7d270eM.jpg",
+      "number": "12.",
+      "question": "¿Está prohibido parar o estacionar en la parte transitable del arcén de una vía interurbana?\nIs it prohibited to stop or park on the passable part of the hard shoulder of an interurban road?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Parar sí, estacionar no.\nYou can stop, but you cannot park."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "Maneouvres        \n   \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.2 Localities where this is permissible\nIn urban routes (within a built-uparea) and in town highways it is permissible to stop or park on the roadway or the hard shoulder.\nWhere the roadway is two-way then the vehicle should be placed as close as possible to the right hand side of the road (in the direction that you are travelling in).\nIn a one way road it is permitted to park or stop on either side of the roadway.\nIn all situations local municipal rules must be complied with.\n(Página 198 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635460279140000000/2dbb33bb-2909-473d-b082-b4f8737908baM.jpg",
+      "number": "13.",
+      "question": "¿Se permite parar o estacionar en el arcén transitable de una travesía insuficientemente iluminada?\nIs it allowed to stop or park in the passable hard shoulder of a poorly lit through-road?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "derecho.\nthe right-hand side."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "derecho o izquierdo.\nthe right or left-hand side."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "derecho o izquierdo, fuera de la calzada o el arcén.\nthe right or left-hand side, off the road or on the hard shoulder."
+        }
+      ],
+      "help": "Maneouvres        \n   \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.2 Localities where this is permissible\nIn urban routes (within a built-uparea) and in town highways it is permissible to stop or park on the roadway or the hard shoulder.\nWhere the roadway is two-way then the vehicle should be placed as close as possible to the right hand side of the road (in the direction that you are travelling in).\nIn a one way road it is permitted to park or stop on either side of the roadway.\nIn all situations local municipal rules must be complied with.\n(Página 198 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634636146960000000/ad44c7fe-670f-4a13-bb04-6889bd17302cM.jpg",
+      "number": "14.",
+      "question": "En una vía urbana de sentido único, está permitido estacionar en el lado...\nOn a one-way urban road, parking is permitted on...",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Fuera de la calzada, dejando libre la parte transitable del arcén de la derecha.\nOff the road, leaving the passable part of the right-hand hard shoulder free."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Fuera de la calzada, en la parte transitable del arcén derecho.\nOff the road, on the passable part of the right-hand hard shoulder."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Fuera de la calzada, dejando libre la parte transitable del arcén derecho o izquierdo.\nOff the road, leaving the passable part of the left-hand or right-hand hard shoulder free."
+        }
+      ],
+      "help": "Maneouvres        \n   \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.2 Localities where this is permissible\nOn interurban roads, stopping and parking must be done always on the right side of the road, off the carriageway and leaving the passable part of the hard shoulder free.\n(Página 198 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636299209780000000/07eaa615-035e-45e3-abf6-e7feb862fed1M.jpg",
+      "number": "15.",
+      "question": "¿En qué parte de esta vía interurbana se podrá parar o estacionar una motocicleta?\nOn what part of this intercity road can a motorcycle stop or park?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "De manera que permita la mejor utilización del espacio disponible.\nIn such a way that it permits the best use of the available space."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Es indiferente, siempre que pare el motor y accione el freno de estacionamiento.\nAnyhow, provided that I stop the engine and put on the parking brake."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Colocando el vehículo en paralelo a la vía, siempre.\nAlways by placing the vehicle parallel to the road."
+        }
+      ],
+      "help": "Maneouvres          \n     \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.3 Positioning of the vehicle\nIn general, the vehicle should be located parallel to the edge of the roadway.\nExceptionally it is permissible to park or stop at another angle – as indicated by road markings or as determined by the road layout.\nIn any case, all drivers who stop or park must do so, so as to allow the best possible use to be made of the remaining space by other users.\n(Página 198 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634671539830000000/2c8dafd3-b8cf-487f-9068-254568953550M.jpg",
+      "number": "16.",
+      "question": "¿Cómo debe colocar su vehículo al parar o estacionar?\nHow should I place my vehicle when stopping or parking?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "tomar las precauciones necesarias para impedir su uso sin autorización.\ntake the necessary precautions to prevent unauthorised use."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "colocar siempre en la caja de cambios la posición de estacionamiento.\nalways put the gearbox in park."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "colocar calzos o bien apoyar las ruedas en la acera.\nplace wedge blocks under the wheels or angle the wheels against the kerb."
+        }
+      ],
+      "help": "Maneouvres          \n     \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.3 Positioning of the vehicle\nWhen the driver of a vehicle, a motor vehicle or moped parks or leaves his vehicle he must:\nTurn off the engine and not have connected the starter motor.\n(Remembering also to adopt any precautions necessary to prevent the vehicles unauthorised use / theft.).\nPut on the parking brake.\n(Página 198 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677070000000/ff61a05f-5c20-40ed-918e-e58bb09a9288M.jpg",
+      "number": "17.",
+      "question": "Si se estaciona un turismo en llano y el conductor se aleja, entre otras medidas debe...\nIf parking a car on the flat and the driver gets out, amongst other measures they should...",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "calzar el vehículo con cualquier elemento que sirva para ello.\nplace any element under the wheels that serves this purpose."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "accionar el freno de mano, únicamente.\nonly activate the hand brake."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "colocar calzos o apoyar las ruedas directrices en el bordillo.\nplace wedge blocks under the wheels or angle the front wheels so they are supported against the kerb."
+        }
+      ],
+      "help": "Maneouvres            \n       \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking      \n10.3 Positioning of the vehicle\nThe driver of the following vehicles:\nA vehicle of more than 3,500 kilograms MAM,\nA bus, or\nA set of vehicles\nwhen leaving their vehicle on a steep gradient, in addition, to the above, must also:\nSecure the vehicle by using chocks (wedges) placed under the wheels.\n(Página 198 del manual 'Learning to drive')\n\nManeouvres              \n         \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking        \n10.3 Positioning of the vehicle\nWhen leaving their vehicle on a steep gradient, in addition, to the above, must also:\nSecure the vehicle by using chocks (wedges) placed under the wheels.\nNote: It is not permissible to use stones or other objects.\nWhen the driver continues, the wedges must be taken with the driver, for possible future use, or\nTurn the front wheel as indicated:\nOn uphill inclines the wheels should be positioned towards the centre of the road and on downhill inclines the wheels should be turned in towards the pavement.\n(Página 198 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675790000000/fb8fa4ed-aeb1-46f2-82df-b00b0dc22fb0M.jpg",
+      "number": "18.",
+      "question": "Si estaciona un turismo con un remolque ligero en una pendiente sensible, debe...\nIf you park a car with a light trailer on a gradient, you must...",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "delante de los vados señalizados correctamente.\nin front of correctly identified dropped kerbs."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "donde se ocasione riesgo para el resto de usuarios.\nif endangering other users."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "en curvas y cambios de rasante.\non bends and changes in road level."
+        }
+      ],
+      "help": "Maneouvres              \n         \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.4 Parking and stopping / waiting – unacceptable practises\nParking and stopping (waiting), must not interfere or obstruct other road users and prevent, restrict or cause a danger to the free movement of others.\nOn urban roads, tow trucks are permitted to stop for the necessary time in order to remove broken-down or damaged vehicles, provided that this does not create danger or obstruct the traffic.\n(Página 198 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635076815560000000/252725a6-72d7-4a8c-b4fc-bb9a7f58274cM.jpg",
+      "number": "19.",
+      "question": "Está prohibido parar...\nIt is prohibited to stop...",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo para cargar o descargar mercancías.\nOnly to load or unload goods."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, está prohibido.\nNo, it is prohibited."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, porque la línea es discontinua.\nYes, because it is a broken line."
+        }
+      ],
+      "help": "Maneouvres        \n   \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.2 Localities where this is permissible\nOn interurban roads, stopping and parking must be done always on the right side of the road, off the carriageway and leaving the passable part of the hard shoulder free.\n(Página 198 del manual 'Learning to drive')\n\nManeouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nOn tramlines or so close to them that it affects their circulation.\nIn places when visibility of signalling is prevented to users who are affected or obligated to perform manoeuvres.\nOn motorways and dual carriageways – except in places authorised.\n(Página 199 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680400000000/8ac0976d-2316-4eb0-b508-89cfd721e9b4M.jpg",
+      "number": "20.",
+      "question": "La línea de borde de la calzada de la imagen es discontinua, ¿está permitido estacionar en la parte transitable del arcén?\nThe line at the edge of the road in the image is broken. Is it permitted to park on the passable part of the hard shoulder?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, siempre que se trate de una parada.\nYes, provided it is only stopping."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, ya que está correctamente señalizada y no obstaculiza el paso.\nYes, as it is correctly marked and is not obstructing the road."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, ya que entre la furgoneta y la marca continua hay una distancia inferior a 3 metros.\nNo, since there is a distance of less than 3 metres between the van and the continuous line."
+        }
+      ],
+      "help": "Maneouvres              \n         \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.4 Parking and stopping / waiting – unacceptable practises\nIn this respect, stopping (waiting) and parking in the following places are considered particularly dangerous or would be such as to prevent the circulation of others and constitute an obvious hazard and obstruction to others:\nWhen the distance between the vehicle and the opposite edge of the roadway (or a solid line) is less than 3 metres or the gap is such that it does not allow other vehicles to pass.\nWhen the vehicle is stopped or parked in such a manner as to prevent other vehicles entering onto the road and into the circulation of the traffic.\nWhen the vehicle is stopped or parked so as to prevent normal and regular access and passage to people or animal entering or exiting a building.\n(Página 199 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677750000000/a77182e1-ba8d-4cdb-b073-ebb4dcc8ad2dM.jpg",
+      "number": "21.",
+      "question": "¿Está correctamente inmovilizada esta furgoneta?\nIs this stationary van properly positioned?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "En una zona reservada a carga y descarga, fuera de las horas de utilización.\nIn an area reserved for loading and unloading, outside working hours."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Cuando se efectúa en las medianas, separadores, isletas u otros elementos de canalización del tráfico.\nWhen a vehicle is parked on a central reservation, a separation, a traffic island or another element for channelling traffic."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando la distancia entre el vehículo y el borde opuesto de la calzada sea inferior a 5 metros.\nWhen the distance between the vehicle and the opposite edge of the road is less than 5 metres."
+        }
+      ],
+      "help": "Maneouvres              \n         \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.4 Parking and stopping / waiting – unacceptable practises\nIn this respect, stopping (waiting) and parking in the following places are considered particularly dangerous or would be such as to prevent the circulation of others and constitute an obvious hazard and obstruction to others:\nWhen the distance between the vehicle and the opposite edge of the roadway (or a solid line) is less than 3 metres or the gap is such that it does not allow other vehicles to pass.\nWhen the vehicle is stopped or parked in such a manner as to prevent other vehicles entering onto the road and into the circulation of the traffic.\nWhen the vehicle is stopped or parked so as to prevent normal and regular access and passage to people or animal entering or exiting a building.\n(Página 199 del manual 'Learning to drive')\n\nManeouvres              \n         \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.4 Parking and stopping / waiting – unacceptable practises\nIn this respect, stopping (waiting) and parking in the following places are considered particularly dangerous or would be such as to prevent the circulation of others and constitute an obvious hazard and obstruction to others:\nWhen obstructing vehicles the normal use of a properly signalled garage entrance.\nWhen the vehicle is parked or stopped so as to cause an obstruction to an access or passage used by a disabled person.\nWhen they vehicle is parked or stopped in the centre reservation, or on a traffic channelling element, such as within ‘atch markings’ or on a road island etc.\n(Página 199 del manual 'Learning to drive')\n\nManeouvres                \n           \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.4 Parking and stopping / waiting – unacceptable practises\nAdditionally parking is considered to be either dangerous or a serious obstruction to others and create both a risk and hazard in the following places:\nWhen the vehicle is in a zone reserved for loading and unloading, during the hours when loading and unloading occur.\nWhen the vehicle is in a double row –without a driver present.\n(Página 199 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674290000000/a2a2d1b4-7096-4009-944f-7b96bea452b4M.jpg",
+      "number": "22.",
+      "question": "¿En qué caso el estacionamiento perturba gravemente la circulación?\nIn which case does parking seriously obstruct traffic?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "se efectúa en doble fila.\na vehicle is double parked."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "se obstaculiza la utilización normal de los pasos rebajados para disminuidos físicos.\nramps for disabled people cannot be used properly."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "se realiza en una vía pública calificada de atención preferente.\nthis takes place on a public road rated for preferential attention."
+        }
+      ],
+      "help": "Maneouvres              \n         \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.4 Parking and stopping / waiting – unacceptable practises\nIn this respect, stopping (waiting) and parking in the following places are considered particularly dangerous or would be such as to prevent the circulation of others and constitute an obvious hazard and obstruction to others:\nWhen obstructing vehicles the normal use of a properly signalled garage entrance.\nWhen the vehicle is parked or stopped so as to cause an obstruction to an access or passage used by a disabled person.\nWhen they vehicle is parked or stopped in the centre reservation, or on a traffic channelling element, such as within ‘atch markings’ or on a road island etc.\n(Página 199 del manual 'Learning to drive')\n\nManeouvres                \n           \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.4 Parking and stopping / waiting – unacceptable practises\nAdditionally parking is considered to be either dangerous or a serious obstruction to others and create both a risk and hazard in the following places:\nWhen the vehicle is in a zone reserved for loading and unloading, during the hours when loading and unloading occur.\nWhen the vehicle is in a double row –without a driver present.\n(Página 199 del manual 'Learning to drive')\n\nManeouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.4 Parking and stopping / waiting – unacceptable practises\nAdditionally parking is considered to be either dangerous or a serious obstruction to others and create both a risk and hazard in the following places:\nWhen they are parked in a place delimited and signed accordingly as an area for public transport.\nWhen they are in a space specifically reserved for emergency and safety /security reasons.\nWhen done in specifically-signalled prohibited spaces on public roads rated for preferential attention.\nWhen they are parked in the middle of the road.\n(Página 199 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674450000000/8aa06655-9a6e-4ae9-8f76-257700d92782M.jpg",
+      "number": "23.",
+      "question": "Se considera que una parada o estacionamiento obstaculiza gravemente la circulación cuando...\nIt is considered that stopping or a parking is a serious obstacle for the traffic when...",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Cuando está estacionado en doble fila sin conductor.\nWhen it is double parked without a driver."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Cuando esté estacionado en una zona reservada a carga y descarga, fuera de las horas de utilización.\nWhen it is parked in a loading and unloading zone, outside working hours."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando esté estacionado fuera del arcén transitable en vía interurbana.\nWhen it is parked off the passable hard shoulder on an interurban road."
+        }
+      ],
+      "help": "Maneouvres                \n           \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.4 Parking and stopping / waiting – unacceptable practises\nAdditionally parking is considered to be either dangerous or a serious obstruction to others and create both a risk and hazard in the following places:\nWhen the vehicle is in a zone reserved for loading and unloading, during the hours when loading and unloading occur.\nWhen the vehicle is in a double row –without a driver present.\n(Página 199 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485837690000000/0968c7cb-c4e8-49f4-9f22-f1b13e9109e0M.jpg",
+      "number": "24.",
+      "question": "¿En qué caso se considera que un vehículo estacionado obstruye gravemente la circulación?\nWhen is it considered that a parked vehicle seriously obstructs the traffic?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, siempre.\nYes, always."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, en ningún caso.\nNo, never."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, cuando se dificulta el giro a otros vehículos.\nYes, when it hinders other vehicles from moving."
+        }
+      ],
+      "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nAt junctions and there proximity, where it is difficult for other vehicles to turn and on roads outside of town (interurban roads) if stopping would be dangerous to others and reduce visibility.\n(Página 199 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636479958360000000/f4029b2c-3fb7-4617-865a-3ad7375e9992M.jpg",
+      "number": "25.",
+      "question": "¿Está prohibido parar en una intersección en vía urbana?\nIs it forbidden to stop at an intersection on an urban road?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, pero solo 2 minutos.\nYes, but only for 2 minutes."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nWhere signalling exists that state it is prohibited.\nIn bends and gradient changes (and the general proximity) where there is reduced visibility and vision.\nIn tunnels, underpasses and on roads signed with the ‘unnel’sign.\nOn crossings (railway crossings, cycle crossings and pedestrian crossings) and routes reserved for cyclists and pedestrians.\nIn lanes or parts of roads reserved exclusively for driving or service of specific users.    \n(Página 199 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634636147960000000/fe85be79-fa63-4631-a7af-cfa63a9d4f25M.jpg",
+      "number": "26.",
+      "question": "En un paso para peatones, ¿está permitido estacionar?\nIs parking permitted on a pedestrian crossing?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, en cualquier caso.\nYes, always."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero solo fuera de las horas de utilización.\nYes, but only when it is not in use."
+        }
+      ],
+      "help": "Maneouvres                    \n               \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.5 Prohibited Places  \nParking is prohibited in the following places:\nWhere there are signs that prohibit parking.\nOn pavements, boulevards and other areas allocated for pedestrians to walk.\nNonetheless, municipalities—y municipal ordinance—ay regulate the stopping and parking of two-wheeled vehicles on pavements and boulevards, provided that it does not damage or obstruct pedestrian traffic, attending to the needs of those who may be carrying voluminous objects and, especially, those persons with disabilities.\nIn areas designated for loading and unloading.\n(Página 200 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676940000000/fa047e2e-1e8f-4396-9f1a-0854cc30ad59M.jpg",
+      "number": "27.",
+      "question": "En una zona señalizada para carga y descarga, ¿está permitido estacionar?\nCan you park in a loading and unloading zone?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Estacionar.\nParking."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Parar.\nStopping."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Parar y estacionar.\nStopping and parking."
+        }
+      ],
+      "help": "Maneouvres                      \n                 \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.5 Prohibited Places    \nParking is prohibited in the following places:\nIn sites enabled by the municipal authority as parking with time limits, pursuant to the regulation of the system they employ, without having the permit that authorises it or when, having a permit, the vehicle is parked for more than the maximum time permitted by this authorisation.\nIn front of areas (gates and access) that have signs forbidding parking.\nIn double rows.\nStopping (waiting) in double rows is only permitted when there are no free spaces in the proximity and only when to do so does not cause an obstruction.\n(Página 200 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674450000000/bf717ee7-7afd-4b9c-8122-08646d0c8bc9M.jpg",
+      "number": "28.",
+      "question": "En doble fila, ¿qué está prohibido?\nWhen another vehicle is parked at the side of the road, what is not allowed?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "en los pasos para ciclistas.\non bicycle crossings."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "delante de los vados señalizados correctamente.\nin front of correctly identified dropped kerbs."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "en los carriles reservados para bicicletas.\nin bicycle lanes."
+        }
+      ],
+      "help": "Maneouvres                      \n                 \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.5 Prohibited Places    \nParking is prohibited in the following places:\nIn sites enabled by the municipal authority as parking with time limits, pursuant to the regulation of the system they employ, without having the permit that authorises it or when, having a permit, the vehicle is parked for more than the maximum time permitted by this authorisation.\nIn front of areas (gates and access) that have signs forbidding parking.\nIn double rows.\nStopping (waiting) in double rows is only permitted when there are no free spaces in the proximity and only when to do so does not cause an obstruction.\n(Página 200 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678870000000/59d50d9d-ca92-496b-b35c-34f8847a8d13M.jpg",
+      "number": "29.",
+      "question": "Está permitido parar...\nIt is permitted to stop...",
+      "local_image": "images/q29.jpg"
+    }
+  ]
+}

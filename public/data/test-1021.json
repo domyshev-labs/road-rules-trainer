@@ -1,0 +1,733 @@
+{
+  "test_id": 1021,
+  "title": "Maneouvres 1",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-05",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No es obligatorio, pero sí muy recomendable.\nIt is not compulsory, but it is highly recommended."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, las maniobras deben advertirse a todos los usuarios.\nYes, road manoeuvres must be signalled to all road users."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, solo debe advertirse a otros vehículos.\nNo, you only need to warn other vehicles."
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nAfter verifying that it is possible to undertake the manoeuvre without danger, the driver must warn other road users of his intended manoeuvre.\nIf a driver doesn’t indicate his intention to undertake a manoeuvre, then other drivers and road users, will not be aware of a potential change of course, alteration of speed of the other vehicle.\n(Página 182 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674200000000/b3fffd1a-85bb-4047-ae7c-814f89a60a0fM.jpg",
+      "number": "1.",
+      "question": "Cuando se circula por una vía donde solo hay peatones, ¿debe advertir la maniobra de girar a la derecha?\nWhen travelling on a road where there are only pedestrians, should you indicate a right turn?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, con la luz indicadora de dirección del lado donde va a parar.\nYes, with the direction indicator light on the side where you are going to stop."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No es necesario.\nNo, it is not necessary."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, con las luces de posición o las de estacionamiento.\nYes, with the position lamps or parking lights."
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nGenerally, these warnings are made using the visual optical signals on the vehicle. If for any reasons the lighting signals are defective, (or as a reinforcement to the illuminated, optical signal) an arm signal should be given.\nExceptionally, and only where permitted, an acoustic, audible signal may be used to make the warning.\n(Página 182 del manual 'Learning to drive')\n\nManeouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nThe brake lights advise and warn that a vehicle is reducing speed and potentially coming to a stop (temporary or permanent). The corresponding arm sign that warns of the same, consists of the arm being extended and moved up and down, in short and fast movements.\nIf the intention is to stop or to park, then in addition to the brake light, the directional indicators will be used that correspond to the side where the vehicle is moving to and where it will be stopped.\n(Página 183 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636693300050000000/bba276b1-0913-44a3-ac12-d99fa8080160M.jpg",
+      "number": "2.",
+      "question": "Al realizar la maniobra de parada, ¿debe señalizarlo de alguna manera?\nWhen stopping, do you have to indicate this in any way?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Depende de la circulación.\nIt depends on the traffic."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La señal luminosa.\nThe indicator light."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "La realizada con el brazo.\nThe arm signal."
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nThe validity of arm signals depends on:\nThe signal being seen and understood by other road users.\nBeing accurately given and indicated in sufficient time.\n(Página 182 del manual 'Learning to drive')\n\nManeouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nIf these requirements are fulfilled, any arm signals takes precedence over illuminated signals.\nThe driver must use optical signals to warn of manoeuvres that involve a turn (a change of direction or ‘U’ turn) any sideways movement or backwards movement (reversing) as well as, the intention to stop the vehicle or lose speed (by means of braking).\n(Página 183 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676010000000/6e95e0bb-7f66-434d-8f34-ad633b8a7f42M.jpg",
+      "number": "3.",
+      "question": "Si un vehículo tiene el intermitente derecho encendido, pero su conductor le señaliza claramente con el brazo que va a girar a la izquierda, ¿qué señal tendrá en cuenta?\nIf a vehicle has the right indicator on but the driver clearly indicates with their arm that they are going to turn left, which sign should you follow?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No es obligatorio, pero es aconsejable.\nIt is not compulsory, but it is recommended."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, obligatoriamente.\nYes, it must."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, puede encenderlo cuando reanude la marcha.\nNo, they can turn it on when resuming driving."
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nIf the optical warning signs are used (lighting devices) they must remain functional until such time as the manoeuvre is complete. If manoeuvres are signalled using arm gestures, you must finish before starting the operation in question. They must be done with enough advance notice in all cases.\n(Página 183 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674970000000/854969ef-579b-4f65-af1c-b3e86bb7f200M.jpg",
+      "number": "4.",
+      "question": "El vehículo detenido en el semáforo pretende girar a la izquierda, ¿debe mantener encendido el indicador de dirección?\nThe vehicle stopped at the traffic light intends to turn left, should their indicator be switched on?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Con el indicador de dirección izquierdo o con el brazo izquierdo extendido en posición horizontal y la palma de la mano hacia abajo.\nWith the left indicator or with the left arm extended horizontally and the palm of the hand facing downwards."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Con el brazo izquierdo doblado hacia arriba.\nWith the left arm bent upwards."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Con el indicador de dirección izquierdo o con el brazo izquierdo doblado hacia arriba.\nWith the left indicator or with the left arm bent upwards."
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nAll sideways movements, change of direction or ‘U’ turns must be warned of by the following means:\nUsing the directional indicator (lighting signal) that corresponds to the direction that the vehicle will be turning, or\nWith the arm horizontally extended and the palm of the hand indicating that the movement (change of course) is towards the side shown –i.e. left (for a left hand drive car –this is the correct method of indicating a movement to the left).\nWith the arm horizontally extended and bent upwards, and with the palm of the hand facing upwards and indicating that the movement (change of course) is to the opposite side –normally to the right. (Again this is normal practise for a left hand drive car / motor vehicle).\n(Página 183 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636329559670000000/8ba01014-ac1b-424e-a972-a94039945083M.jpg",
+      "number": "5.",
+      "question": "El conductor de una motocicleta que va a girar a la izquierda, ¿cómo señalizará la maniobra?\nHow does a motorcyclist turning left signal the manoeuvre?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Cuando haya terminado el desplazamiento lateral.\nOnce you have shifted lanes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Cuando haya rebasado al vehículo y antes de volver a la derecha.\nWhen you have gone past the vehicle and before returning to the right."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando vuelva al carril derecho.\nWhen you return to the right lane."
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nIf the manoeuvre involves a side movement (for example an overtake) then the warning must be concluded as soon as the vehicle has adopted its new course.\n(Página 183 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673760000000/dd2cff13-b4ce-43fc-9272-73dfb4bbdc8eM.jpg",
+      "number": "6.",
+      "question": "¿Cuándo debe apagar el indicador de dirección un vehículo que se desplaza lateralmente para adelantar?\nWhen should you turn off your indicator when manoeuvring to overtake?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Que va a circular marcha atrás.\nThat they will reverse."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Que tiene intención de inmovilizar el vehículo o de frenar su marcha de modo considerable.\nThat they intend to stop the vehicle or slow down considerably."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Que va a girar a la izquierda.\nThat they will turn left."
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nThe reversing light advises and warns that the vehicle is, or is about to, reverse back and that reverse gear has been selected. If an arm signal is used to convey this warning then the driver must extend his arm horizontally and turn the palm of his hand backwards.\n(Página 183 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674810000000/72cef70d-923e-4589-a637-203418c08350M.jpg",
+      "number": "7.",
+      "question": "El conductor de un vehículo extiende el brazo horizontalmente con la palma de la mano hacia atrás, ¿qué indica?\nThe driver of a vehicle extends their arm horizontally with their palm facing backwards. What does this indicate?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Que va a seguir de frente.\nThat they will continue forwards."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Que va a girar a la izquierda.\nThat they will turn left."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Que va a girar a la derecha.\nThat they will turn right."
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nAll sideways movements, change of direction or ‘U’ turns must be warned of by the following means:\nUsing the directional indicator (lighting signal) that corresponds to the direction that the vehicle will be turning, or\nWith the arm horizontally extended and the palm of the hand indicating that the movement (change of course) is towards the side shown –i.e. left (for a left hand drive car –this is the correct method of indicating a movement to the left).\nWith the arm horizontally extended and bent upwards, and with the palm of the hand facing upwards and indicating that the movement (change of course) is to the opposite side –normally to the right. (Again this is normal practise for a left hand drive car / motor vehicle).\n(Página 183 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635399944640000000/cde360e9-c532-4b61-9b1c-9dda3b67fa07M.jpg",
+      "number": "8.",
+      "question": "¿Qué está indicando este conductor?\nWhat is this driver indicating?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo si va a adelantar a un vehículo de grandes dimensiones.\nOnly if overtaking a large vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.3 Carrying out a manoeuvre\nAfter signalling the manoeuvre, and confirming that it is safe to undertake it – the next stage is to carry it out (execute the manoeuvre). This means adopting the correct position, the correct speed, and continually observing in order to ensure that no danger is caused to other road users.\nIt is necessary to bear in mind, that as a general rule, signals inform and warn of a manoeuvre only and indicate an intention to carry out a manoeuvre.\nThey do not grant right of way or priority to commence the manoeuvre or during its execution stage.\nEach manoeuvre involves variations although the basic principles are the same, dependant upon the manoeuvre there are differences in the execution stage.\n(Página 184 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636978283580000000/ba207188-4a7c-490f-8b3b-9fd2c5286fa6M.jpg",
+      "number": "9.",
+      "question": "Un conductor que señaliza un cambio de carril, ¿tiene preferencia sobre los conductores de los vehículos que circulan por el carril al que se pretende desplazar?\nIf a driver is indicating a lane change, do they have priority over vehicles already travelling in that lane?",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Cediendo el paso y a una velocidad que permita detenerse en el acto.\nBy giving way and at a speed that permits it to stop immediately."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Cediendo el paso a los vehículos de la derecha.\nBy giving way to the vehicles on the right."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Acelerando para alcanzar la velocidad máxima de la vía.\nBy accelerating in order to reach the maximum speed of the road."
+        }
+      ],
+      "help": "Maneouvres  \n \n3 Joining the traffic flow\n3.2.3 Execution\nWhen joining the ‘traffic stream’ that is – the ‘flow of traffic’ it should be undertaken:\nAt a suitable speed.\nWithout causing danger to the other users to whom you must give way.\nAnd always without becoming a ‘azard’and obstruction to other road users, which requires them to change their course.\n(Página 184 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676070000000/8118adf3-626e-4bd8-bca4-1b7de969e80aM.jpg",
+      "number": "10.",
+      "question": "¿Cómo debe incorporarse a la vía el vehículo que sale del camino sin pavimentar?\nHow must the vehicle that is leaving the unpaved road merge into the road?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Cuando se incorpore por la derecha o por la izquierda.\nWhen entering from the right or from the left."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Cuando se incorpora por la izquierda.\nWhen entering from the left."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando se incorpora por la derecha.\nWhen entering from the right."
+        }
+      ],
+      "help": "Maneouvres  \n \n3 Joining the traffic flow\n3.2.3 Execution\nWhen joining the ‘traffic stream’ that is – the ‘flow of traffic’ it should be undertaken:\nAt a suitable speed.\nWithout causing danger to the other users to whom you must give way.\nAnd always without becoming a ‘azard’and obstruction to other road users, which requires them to change their course.\n(Página 184 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675160000000/64e9771f-22ad-48ba-9819-e4811ecc3f75M.jpg",
+      "number": "11.",
+      "question": "El turismo amarillo sale de una gasolinera para incorporarse a la circulación, en caso necesario, ¿cuándo tiene que ceder el paso?\nThe yellow car is leaving a petrol station to join the traffic. When does it have to give way, if necessary?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo si el vehículo rojo está destinado al servicio público.\nOnly if the red vehicle is a public vehicle."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, porque se incorpora por la derecha.\nYes, because they are joining from the right."
+        }
+      ],
+      "help": "Maneouvres  \n \n3 Joining the traffic flow\n3.2.3 Execution\nWhen joining the ‘traffic stream’ that is – the ‘flow of traffic’ it should be undertaken:\nAt a suitable speed.\nWithout causing danger to the other users to whom you must give way.\nAnd always without becoming a ‘azard’and obstruction to other road users, which requires them to change their course.\n(Página 184 del manual 'Learning to drive')\n\nManeouvres    \n   \n3 Joining the traffic flow\n3.2.3 Execution\nIf a driver pulls out onto a public road from an exclusively private road, it must do so at a speed that allows the driver to stop in the middle of the operation, giving way to vehicles driving on the public road in either direction.\n(Página 185 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636979328850000000/d4497196-b04a-437d-85c5-a4104a6b6091M.jpg",
+      "number": "12.",
+      "question": "El vehículo rojo se quiere incorporar a la circulación proveniente del garaje particular de una vivienda, ¿debe cederle el paso?\nThe red vehicle intends to join traffic from a home's private garage, do you need to give way?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "disminuir la velocidad y detenerse al final del carril, obligatoriamente.\nreduce speed and stop at the end of the lane."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "acelerar hasta alcanzar la velocidad adecuada al final del carril.\naccelerate until he reaches the right speed at the end of the lane."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "acelerar hasta alcanzar obligatoriamente 120 km/h al final del carril.\naccelerate until he reaches 120 km/h at the end of the lane."
+        }
+      ],
+      "help": "Maneouvres    \n   \n3 Joining the traffic flow  \n3.2.3 Execution\nIf a vehicle joins the traffic stream, using an acceleration lane, then their speed should be adapted, to a suitable speed that allows them to fit into the flow of traffic.\nIf there is a need to stop on the acceleration lane, because it is not possible to fit into the traffic stream, and the driver needs to give-way to the traffic on the road he wishes to join, then he should wait at the beginning of the acceleration lane.\nThis allows the vehicle to build up the necessary speed, using all the length of the acceleration lane, when a suitable opportunity becomes available.\nRemember: Sometimes, it is sensible to build up the speed on the acceleration lane in order than you can join the principle road ahead of the vehicles using it.\n(Página 185 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674500000000/539ebf76-92f0-4646-8b7c-18874eae3f8dM.jpg",
+      "number": "13.",
+      "question": "Al incorporarse a la autopista por el carril de aceleración, debe...\nWhen a driver merges into traffic on a motorway from the acceleration lane, he must...",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Detenerse y cederle el paso.\nStop and yield the right of way."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Facilitarle la incorporación.\nMake it easier for it to pull away."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Continuar la marcha, ya que el conductor del autobús debe cederles el paso.\nContinue driving, as the bus driver must give way."
+        }
+      ],
+      "help": "Maneouvres    \n   \n3 Joining the traffic flow\n3.3 Obligation to assist this manoeuvre\nAlthough drivers that wish to join into the flow of traffic, must give way to other motorists, if at all possible, other drivers have the obligation to help to facilitate the manouevre .i.e. assist others to join the traffic flow.\nMotorists are obliged to help public transport vehicles that have stopped at an official stop, and need to remerge into the traffic flow.\n(Página 185 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480652020000000/244ab13d-77d8-4e28-8d13-2d9381ba39c6M.jpg",
+      "number": "14.",
+      "question": "Cuando un autobús pretende incorporarse desde una parada señalizada, ¿qué deben hacer los demás conductores?\nWhen a bus intends to pull away from a signalled stop, what should other drivers do?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "El vehículo que circula por el carril que se pretende ocupar.\nThe vehicle that is driving in the lane you plan to enter."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "El vehículo que realiza el cambio.\nThe vehicle making the change."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Siempre los turismos.\nCars, always."
+        }
+      ],
+      "help": "Maneouvres      \n   \n4 Sideways movements – lateral movements  \n4.2 Undertaking the manoeuvre\nAfter checking that the manoeuvre can be commenced safely and also correctly signalling the manoeuvre, the driver must:\nMove sideways at the correct time –tart the side movement at a sufficient distance from the hazard or other reason that motivated this change of course.\nCarry the manoeuvre out progressively and gradually.\nUndertake the manoeuvre without hindering other vehicles that is vehicles that are travelling in either direction. Be cautious when the manoeuvre involves entering into another lane including the lane where vehicle are travelling in the opposite direction (2 way traffic flow).\n(Página 185 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635458643910000000/9a537daf-230c-489c-b458-5ea54ea2cbb3M.jpg",
+      "number": "15.",
+      "question": "En los cambios de carril en un mismo sentido, ¿quién tiene prioridad?\nWhen changing lanes in the same direction, who has right-of-way?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, por la derecha.\nYes, on the right."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "Maneouvres    \n   \n5 Overtaking  \n5.2 General rules and exceptions\nWhen driving inside a town, within a built-up-area, you are permitted to overtake on the right when the carriageway has at least two lanes for one direction of travel that are clearly marked and indicated by longitudinal lines and as previously advised, ensuring that all overtakes are carried out, without causing danger to other road users.\n(Página 186 del manual 'Learning to drive')\n\nManeouvres        \n       \n5 Overtaking  \n5.8 Situations when you must not overtake\nAt junctions or there proximities, except in the following situations, when overtaking is permissible:\n- When it is a roundabout.\n- When the overtake occurs through the right hand side.\n- When the road layout at the junction permits this and expresses the right of priority and it is signalled accordingly.\n- When overtaking 2 wheeled vehicles.\n(Página 192 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674350000000/6a303989-16ef-4160-b4e8-32f7e9fba6a2M.jpg",
+      "number": "16.",
+      "question": "¿Está permitido adelantar en una glorieta?\nCan you overtake on a roundabout?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, está prohibido adelantar en esta vía.\nNo, it is prohibited to overtake on this road."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, porque está indicando claramente su propósito de girar a la izquierda.\nYes, because it is clearly showing it will be turning left."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, porque lo correcto es adelantar por la izquierda.\nNo, because you must overtake on the left."
+        }
+      ],
+      "help": "Maneouvres  \n \n5 Overtaking\n5.2 General rules and exceptions\nAs an exception, and if there is sufficient space and implementing the maximum safety precautions an overtake must be carried out, obligatorily, to the right:\nWhen the driver of the vehicle, which you proposed overtaking, clearly indicates their intention to change direction to the left or to stop on the left side of the roadway.\nAnd exceptionally the hard shoulder may be used (i.e. for fluidity reasons) when there is serious congestion on the lane that flows in the opposite direction that does not permit the turn or parking on the left hand side of the roadway to be easily carried out.\n(Página 186 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635091365630000000/3f9f5365-55ba-4b78-b3aa-dabdd06585f6M.jpg",
+      "number": "17.",
+      "question": "Este vehículo va a girar a la izquierda, ¿está permitido adelantarle por la derecha?\nThis vehicle is going to turn left, is it permitted to overtake it on the right?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, a un vehículo que circule a una velocidad reducida.\nYes, to overtake a vehicle driving at a reduced speed."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, si no se supera la velocidad máxima permitida.\nYes, if the maximum permitted speed is not exceeded."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "Maneouvres  \n \n5 Overtaking\n5.2 General rules and exceptions\nAs a general rule the overtake must be carried out to the left of the vehicle that is to be overtaken and without invading the zones and area excluded to traffic or reserved for certain types of vehicles.\n(Página 186 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636964568570000000/e187f78c-c69a-4805-8f3f-2af76377a58eM.jpg",
+      "number": "18.",
+      "question": "Como norma general, ¿se puede adelantar por la derecha en una autopista?\nAs a general rule, can you overtake on the right on a motorway?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, porque se puede entorpecer la marcha de otros vehículos.\nNo, because you may obstruct other vehicles."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, porque la vía cuenta con dos carriles delimitados en el mismo sentido de la marcha.\nYes, because the road has two lanes separated by lines going in the same direction."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, se debe adelantar por la izquierda.\nNo, you must overtake from the left."
+        }
+      ],
+      "help": "Maneouvres    \n   \n5 Overtaking  \n5.2 General rules and exceptions\nWhen driving inside a town, within a built-up-area, you are permitted to overtake on the right when the carriageway has at least two lanes for one direction of travel that are clearly marked and indicated by longitudinal lines and as previously advised, ensuring that all overtakes are carried out, without causing danger to other road users.\n(Página 186 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634898786690000000/7116d4bf-358f-4172-851b-542da49e780eM.jpg",
+      "number": "19.",
+      "question": "En esta vía urbana, ¿está permitido adelantar por la derecha?\nOn this urban road, are you permitted to overtake from the right?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Por la derecha.\nFrom the right."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Tanto por la derecha como por la izquierda.\nBoth from the right and from the left."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Por la izquierda.\nFrom the left."
+        }
+      ],
+      "help": "Maneouvres  \n \n5 Overtaking\n5.2 General rules and exceptions\nAs an exception, and if there is sufficient space and implementing the maximum safety precautions an overtake must be carried out, obligatorily, to the right:\nTo overtake a tram that travels in the centre of the roadway in twoway roads.\n(Página 186 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675620000000/e11eedce-ad2d-496e-8b0b-e491a7c450f4M.jpg",
+      "number": "20.",
+      "question": "En esta vía de doble sentido de circulación, ¿por dónde adelantará al tranvía?\nOn this stretch of two way road, how will you overtake the tram?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo si los que circulan más rápido son los del carril izquierdo.\nOnly if the fastest traffic is in the left-hand lane."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, salvo que los que circulen más rápido sean los del carril derecho.\nYes, unless the ones moving faster are in the right-hand lane."
+        }
+      ],
+      "help": "Maneouvres    \n   \n5 Overtaking\n5.3 Manoeuvres that are not considered overtakes\n5.3.1 Congested traffic\nWhen the traffic density is so high and the vehicles occupy the entire width of the carriageway and travel is reduced to a lower speed because of the congestion and sheer volume of traffic, - if a vehicle in another lane moves faster and passes other vehicles in a slower moving lane; then this is not considered an overtake.\n(Página 186 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637229314920000000/be8bfdde-27ed-49c5-b1f9-91aed552a385M.jpg",
+      "number": "21.",
+      "question": "A la vista de la fotografía, ¿se considera adelantamiento el hecho de que los vehículos de un carril circulen más rápidamente que los de otro?\nBased on the photograph, it is considered overtaking if the vehicles in one lane are moving more quickly than the others?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "cuando el conductor del vehículo al que se pretende adelantar está indicando claramente su propósito de girar a la izquierda.\nwhen the driver of the vehicle you want to overtake is clearly showing they will be turning left."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "siempre que se adelante a un vehículo articulado.\nprovided you are overtaking an articulated vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "en vías con más de un carril en el mismo sentido.\non roads with more than one lane in the same direction."
+        }
+      ],
+      "help": "Maneouvres  \n \n5 Overtaking\n5.2 General rules and exceptions\nAs an exception, and if there is sufficient space and implementing the maximum safety precautions an overtake must be carried out, obligatorily, to the right:\nWhen the driver of the vehicle, which you proposed overtaking, clearly indicates their intention to change direction to the left or to stop on the left side of the roadway.\nAnd exceptionally the hard shoulder may be used (i.e. for fluidity reasons) when there is serious congestion on the lane that flows in the opposite direction that does not permit the turn or parking on the left hand side of the roadway to be easily carried out.\n(Página 186 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485872500000000/fbfa9185-beb0-484f-9dcf-bf77ae354533M.jpg",
+      "number": "22.",
+      "question": "El adelantamiento se efectuará por la derecha y adoptando las máximas precauciones...\nYou can overtake on the right, with the utmost vigilance...",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "girar a la derecha.\nturn right."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "salir de la calzada.\nleave the road."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "adelantar.\novertake."
+        }
+      ],
+      "help": "Maneouvres    \n   \n5 Overtaking\n5.3 Manoeuvres that are not considered overtakes\n5.3.1 Congested traffic\nNote: In this situation, it is prohibited to change lanes in order to advance or pass other vehicles except in order to exit the road or to prepare to turn left or right or to take a predetermined route (as indicated by road signalling).\n(Página 186 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680400000000/336e3ac9-ee38-4af6-86f7-973cfed82336M.jpg",
+      "number": "23.",
+      "question": "Si circula en esta vía con tráfico denso, no puede cambiar de carril para...\nIf you are driving on this road with dense traffic, you are not permitted to change lanes to…",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, porque en autopistas no es obligatorio.\nNo, because on motorways it is not compulsory."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, siempre.\nYes, always."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, pero solamente cuando circulen vehículos detrás a más velocidad.\nYes, but only when vehicles are driving behind at faster speeds."
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking\n5.4 Special circumstances\n5.4.2 Overtaking – where the left side must not be entered into\nOn roadways that have at least two lanes reserved for his or her driving direction, drivers who are going to overtake may remain in the lane that they use for said overtaking, after assuring that they can do so without unduly bothering the vehicle drivers driving behind them more quickly.\n(Página 187 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676290000000/0d5f6a84-162d-45cf-96b7-5fc4c05d6f8fM.jpg",
+      "number": "24.",
+      "question": "Después de adelantar al camión y al turismo, el turismo rojo desea seguir adelantando a otros vehículos. ¿Debe regresar antes al carril derecho?\nAfter overtaking the lorry and the car, the red car wants to continue overtaking other vehicles. Should it return to the right lane first?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, porque el vehículo está en movimiento y no puedo atravesar la línea longitudinal continua.\nNo, because the vehicle is moving and it is forbidden to cross the solid longitudinal line."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, porque es un obstáculo para los demás vehículos.\nYes, because it is an obstacle for other vehicles."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, si tengo suficiente visibilidad y no se aproxima ningún vehículo en sentido contrario.\nYes, if I have enough visibility and no vehicle is approaching in the opposite direction."
+        }
+      ],
+      "help": "6 Road marks                    \n                   \n6.2 Longitudinal road markings    \nContinuous longitudinal markings\nA continuous longitudinal marking means that no driver, whether operating a vehicle or leading an animal, must:\nCross it.\nDrive on it.\nDrive to the left of the marking when it separates opposing directions of traffic (except in cases provided for in the traffic regulations).\nA longitudinal marking formed by two continuous parallel lines has the same meaning as one formed by a single continuous line.\n(Página 153 del manual 'Learning to drive')\n\nManeouvres  \n \n5 Overtaking\n5.1 Concept\nOvertaking is the manoeuvre that consists of moving ahead by passing a vehicle or vehicles that travel in front of you at a slower speed.\nNote: This also includes passing a vehicle in the same lane as you are travelling in and /or when it doesn’t involve a sideways movement.\n(Página 186 del manual 'Learning to drive')\n\nManeouvres      \n     \n5 Overtaking  \n5.3 Manoeuvres that are not considered overtakes\n5.3.4 Surpassing\nIf a vehicle that becomes immobilised for reasons beyond the needs of traffic is completely or partly occupying the lane of the direction of travel, you may pass it (without this operation defined as overtaking) after assuring that you can do so without danger, even when it is prohibited to overtake on the section of road in question and you must occupy part of the roadway reserved for traffic going the opposite direction.\n(Página 187 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675820000000/7b8bd06b-a841-4fd2-9df7-5c2c6302b2c4M.jpg",
+      "number": "25.",
+      "question": "El camión que circula delante lo hace muy lentamente obstaculizando la circulación, ¿se le puede adelantar?\nThe lorry ahead is driving very slowly and obstructing traffic. Can you overtake it?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, salvo las motocicletas.\nNo, except in the case of motorcycles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, se estaría realizando un adelantamiento por la derecha.\nNo, this would be overtaking from the right."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking  \n5.3 Manoeuvres that are not considered overtakes\n5.3.2 Special lanes\nIt is not considered to be overtaking, when a vehicle travels faster in either an acceleration lane – in order to enter a road; or on a deceleration lane - in order to exit a road and in doing so, passes vehicles. Additionally, this is also the case, in a lane that is marked for a specific route and direction or, a lane for certain predetermined vehicles.\nHowever it is considered to be an overtake, when a vehicle enters into an acceleration or deceleration lane purely in order to pass another vehicle or enters into special lane, whose function is to facilitate slower moving traffic.\n(Página 187 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674500000000/539ebf76-92f0-4646-8b7c-18874eae3f8dM.jpg",
+      "number": "26.",
+      "question": "En una autopista, ¿se puede circular por el carril de aceleración a mayor velocidad que los vehículos que circulan por el carril normal?\nOn an autopista, can you drive on the acceleration lane at a faster speed than vehicles that are driving on the normal lane?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero dejando una separación lateral mayor que en otros adelantamientos, aproximadamente el doble.\nYes, but leaving a bigger side-by-side distance than during other overtakes, approximately double."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, advirtiéndolo previamente con las señales acústicas u ópticas.\nYes, signalling in advance with sound and visual signals."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, tendrá que esperar en todo caso a que realice el adelantamiento, o apague el intermitente.\nNo, they will need to wait for the overtake or the indicator light to be switched off."
+        }
+      ],
+      "help": "Maneouvres          \n         \n5.5 Overtaking  \n5.5.2 Prior checks\nBefore overtaking, the driver must check ahead:\nThat the driver in front of them in the same lane has not also indicated their intention to move in the same direction, in which case they have priority. However, if after a reasonable period this driver has not moved, the driver can start to overtake, although they should be suitably warned in advance with the corresponding sound and visual signals.\n(Página 188 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675750000000/43ff0fe8-59ac-4fc2-8e7b-ca2cb6b98399M.jpg",
+      "number": "27.",
+      "question": "El conductor del vehículo blanco quiere adelantar, pero el conductor del azul ya ha encendido el intermitente izquierdo. Si después de un tiempo prudencial no adelanta, ¿puede el conductor del vehículo blanco iniciar el adelantamiento?\nThe driver of the white vehicle wants to overtake, but the driver of the blue vehicle has already switched on the left indicator. If they do not start to overtake after a reasonable amount of time, can the driver of the white vehicle overtake?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, porque al señalizar tiene preferencia.\nNo, because as it is signalling, it has preference."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, si lo advierte con señales ópticas o acústicas.\nYes, if I warn it with optical or acoustic signs."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, en ningún caso.\nNo, never."
+        }
+      ],
+      "help": "Maneouvres          \n         \n5.5 Overtaking  \n5.5.2 Prior checks\nBefore overtaking, the driver must check ahead:\nThat the driver in front of them in the same lane has not also indicated their intention to move in the same direction, in which case they have priority. However, if after a reasonable period this driver has not moved, the driver can start to overtake, although they should be suitably warned in advance with the corresponding sound and visual signals.\n(Página 188 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675810000000/629947f3-69df-445b-b441-4e554923eef7M.jpg",
+      "number": "28.",
+      "question": "El vehículo gris al que pretende adelantar señaliza su propósito de desplazarse para adelantar, ¿puede adelantarle?\nThe grey vehicle you want to overtake is signalling its aim to overtake. Can you overtake it?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "existe espacio suficiente para volver al carril derecho cuando termine la maniobra.\nthere is enough space to return to the right lane when the manoeuvre is finished."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "el vehículo de delante reduce su velocidad para facilitar la maniobra.\nthe vehicle in front has reduced its speed to facilitate the manoeuvre."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "los vehículos que circulan detrás mantienen la distancia de seguridad.\nthe vehicles driving behind are maintaining a stopping distance."
+        }
+      ],
+      "help": "Maneouvres            \n           \n5.5 Overtaking    \n5.5.2 Prior checks\nBefore overtaking, the driver must check ahead:\nThat they can return to the right after the manoeuvre with no risk to other road users.\n(Página 188 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674950000000/22e8ad8f-7e3b-43d8-a897-15c8b43b4299M.jpg",
+      "number": "29.",
+      "question": "No deberá iniciar un adelantamiento sin comprobar previamente que...\nYou must not start to overtake without first checking that...",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "en vías interurbanas, solamente.\nonly on interurban roads."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "por cualquier vía, fuera o dentro de poblado.\non any street, inside or outside a built-up area."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "por poblado, exclusivamente.\nonly inside a built-up area."
+        }
+      ],
+      "help": "Maneouvres                  \n                 \n5.5 Overtaking      \n5.5.4 Performing the overtake\nThe driver should keep a side-byside distance of at least 1.50 metres when, outside of a populated area:\nThe driver of a two-wheeled vehicle is overtaking another vehicle.\nThe driver of any vehicle is overtaking pedestrians, animals, animal transport vehicles, two-wheeled motor vehicles, vehicles stopped on the road or assistance vehicles when providing an assistance or rescue service. Moreover, provided that the conditions are suitable for the manoeuvre, they move partially or fully into the next or opposite lane.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636595720200000000/e82f67b4-c72d-4fc4-9d56-7c7e24a4aee3M.jpg",
+      "number": "30.",
+      "question": "Al adelantar a un peatón, es obligatorio dejar una separación lateral mínima de 1,50 metros cuando circule...\nWhen you overtake a pedestrian, it is mandatory to leave a minimum lateral separation of 1.50 metres when you are driving...",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

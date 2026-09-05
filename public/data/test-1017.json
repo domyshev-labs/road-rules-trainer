@@ -1,0 +1,733 @@
+{
+  "test_id": 1017,
+  "title": "Use of the road 2",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-05",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "debe circular como máximo a 100 km/h y como mínimo a 60 km/h.\nyou must keep your speed between 60 km/h and 100 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "no debe cambiar nunca de carril salvo para adelantar.\nyou must never change lane apart from to overtake."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "debe llevar encendida la luz de cruce, siempre.\nyou must keep your dipped beam on, always."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes\n \n7.2 Reversible lanes\nRoad users using these lanes must use (both day and night) at least the lowbeam headlights.\nAs a general rule, these lanes are not limited as to who can use them and the applicable speed limits are those of the roads on which they are located.\n(Página 165 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679030000000/70d95dfa-df9f-4b92-961d-ad7833c0a3d0M.jpg",
+      "number": "1.",
+      "question": "En un carril reversible...\nIn a reversible lane...",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "A 80 kilómetros por hora.\n80 kilometres per hour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "A la genérica de la vía.\nThe road's usual speed limit."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A 60 kilómetros por hora.\n60 kilometres per hour."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)\n7.3.1 For traffic flow reasons\nThe users of these lanes (that have been set up for the opposite direction to normal) must:\nUse during the day and at night, at least low beam headlights.\nTravel at a speed at or above the minimum speed of 60 km/h and not in excess of the maximum speed of 80 km/h (or as otherwise specified on the signs).\nNot move to the side invading the lane or lanes destined for the normal direction of movement, not even to overtake.\n(Página 166 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635270203320000000/8e68a6f1-9398-4a97-8334-74443d795e1eM.jpg",
+      "number": "2.",
+      "question": "En una autovía hay un carril abierto para circular en sentido contrario al habitual para mejorar la fluidez, ¿a qué velocidad máxima se puede circular en ese carril?\nOn a dual carriageway, there is a lane open for driving in the opposite direction to normal, to improve traffic flow. What is the speed limit for this lane?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, cuando el carril se ha abierto por obras en la calzada.\nYes, when the lane has been opened due to roadworks."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, siempre que circulen con la luz de cruce encendida.\nYes, provided that they are driving with their dipped-beam headlights on."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, nunca.\nNo, never."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)\n7.3.1 For traffic flow reasons\nIn this case use of the lane, set up for traffic to flow in the opposite direction to normal, is limited to motorcycles and cars, however cars with trailers and all other vehicles are prohibited.\n(Página 166 del manual 'Learning to drive')\n\n7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n   \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)  \n7.3.2 Enabled in a contrary direction due to road works\nWhere a contra-flow exists due to road works and a lane has been enabled for travel in the opposite direction, then, all types of vehicles are eligible to use the lane(s) – unless expressly prohibited by road signs. The same conditions, as above, are still applicable.\n(Página 166 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678490000000/1e1f1752-c5bf-4e46-91b5-79a64096249cM.jpg",
+      "number": "3.",
+      "question": "Los camiones, ¿pueden utilizar un carril abierto a la circulación en sentido contrario al normal?\nCan lorries use a lane open to traffic travelling in the opposite direction?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, excepto en caso de obras en la calzada.\nYes, except in the event of roadworks."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, cuando haya sido habilitado por razones de fluidez de la circulación.\nNo, when it has been set up to improve traffic flow."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)\n7.3.1 For traffic flow reasons\nIn this case use of the lane, set up for traffic to flow in the opposite direction to normal, is limited to motorcycles and cars, however cars with trailers and all other vehicles are prohibited.\n(Página 166 del manual 'Learning to drive')\n\n7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n   \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)  \n7.3.2 Enabled in a contrary direction due to road works\nWhere a contra-flow exists due to road works and a lane has been enabled for travel in the opposite direction, then, all types of vehicles are eligible to use the lane(s) – unless expressly prohibited by road signs. The same conditions, as above, are still applicable.\n(Página 166 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634607539980000000/0227ece3-4714-4fa8-988f-2f9f94348c54M.jpg",
+      "number": "4.",
+      "question": "Un turismo con remolque, ¿puede circular por un carril habilitado para la circulación en sentido contrario al habitual?\nCan a car pulling a trailer use a lane set up for travel in the opposite direction to usual?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "La luz de cruce.\nThe dipped beams."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La luz de posición, solamente.\nThe position lamp only."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "La luz de carretera.\nThe full beams."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)\n7.3.1 For traffic flow reasons\nThe users of these lanes (that have been set up for the opposite direction to normal) must:\nUse during the day and at night, at least low beam headlights.\nTravel at a speed at or above the minimum speed of 60 km/h and not in excess of the maximum speed of 80 km/h (or as otherwise specified on the signs).\nNot move to the side invading the lane or lanes destined for the normal direction of movement, not even to overtake.\n(Página 166 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636329496600000000/61ed1165-399c-4ea7-94e0-17ea26943ce5M.jpg",
+      "number": "5.",
+      "question": "Circula de día por un carril habilitado en sentido contrario al habitual, ¿qué luces debe encender, al menos?\nYou are driving during the day in a lane authorised for traffic in the opposite direction to usual. Which lights should you use?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Solo turismos y motocicletas.\nOnly cars and motorcycles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Automóviles que superen los 3.500 kg de MMA y motocicletas.\nCars with an MAM of more than 3,500 kg and motorcycles."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Automóviles y vehículos con remolque hasta 750 kg de MMA.\nCars and vehicles with a trailer with an MAM of up to 750 kg."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)\n7.3.1 For traffic flow reasons\nIn this case use of the lane, set up for traffic to flow in the opposite direction to normal, is limited to motorcycles and cars, however cars with trailers and all other vehicles are prohibited.\n(Página 166 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636304418540000000/932d0c46-7d5f-4e80-8fb0-4d10fa62fb85M.jpg",
+      "number": "6.",
+      "question": "¿Qué vehículos tienen permitido circular por un carril habilitado, por razones de fluidez, en sentido contrario al habitual?\nWhich vehicles are allowed to travel on a lane that is enabled for travel in the opposite direction to usual, to help traffic flow?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Todos los vehículos que estén autorizados a circular por la vía en obras, salvo prohibición expresa.\nAll vehicles that are authorised to travel on a road undergoing works, unless expressly prohibited."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Únicamente turismos sin remolque y motocicletas.\nOnly cars without trailers and motorcycles."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Turismos sin remolque, vehículos mixtos adaptables y motocicletas.\nCars without trailers, multipurpose vehicles and motorcycles."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n   \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)  \n7.3.2 Enabled in a contrary direction due to road works\nWhere a contra-flow exists due to road works and a lane has been enabled for travel in the opposite direction, then, all types of vehicles are eligible to use the lane(s) – unless expressly prohibited by road signs. The same conditions, as above, are still applicable.\n(Página 166 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680230000000/d15f41be-7e79-4655-ae65-6d5b29c8507cM.jpg",
+      "number": "7.",
+      "question": "Por obras en la calzada se habilita un carril para la circulación en sentido contrario al habitual, ¿qué vehículos pueden utilizarlo?\nDue to road works, a lane is set up for transit in the opposite direction to usual. Which vehicles can use it?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, porque solo pueden circular turismos y motocicletas.\nNo, because only cars and motorcycles can drive on it."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, pero solo cuando transporte pasajeros.\nYes, but only when transporting passengers."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n   \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)  \n7.3.2 Enabled in a contrary direction due to road works\nWhere a contra-flow exists due to road works and a lane has been enabled for travel in the opposite direction, then, all types of vehicles are eligible to use the lane(s) – unless expressly prohibited by road signs. The same conditions, as above, are still applicable.\n(Página 166 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677000000000/f9b8e217-cf44-4811-a7aa-34b1f31f0a73M.jpg",
+      "number": "8.",
+      "question": "Si por obras en la vía, se ha abierto un carril en sentido contrario al habitual, ¿puede circular por este carril un vehículo mixto?\nIf, due to roadworks, a lane is opened in a different direction to the normal one, can a multipurpose vehicle use this lane?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, únicamente cuando el remolque sea ligero.\nYes, only when the trailer is light."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.4 Additional circulation lane\nThis means that vehicles will be travelling within the hard shoulder, close to the edge of the roadway.\n(Página 166 del manual 'Learning to drive')\n\n7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.4 Additional circulation lane\nAll vehicles that travel in any of the lanes must:\nTake special care to avoid colliding with the cones and other safety elements placed to create the change or road layout.\nTravel at a maximum speed of 80 km/h and a minimum speed of 60 km/h.\nUse during daylight hours and at night, at least low beam headlights.\nNot enter into a lane where traffic is travelling in an opposite direction.\n(Página 166 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636855634180000000/59f60c78-cdd9-4ab1-acf6-544c9370705aM.jpg",
+      "number": "9.",
+      "question": "Un turismo con remolque, ¿tiene permitido circular por un carril adicional circunstancial?\nIs a passenger car with a trailer allowed to drive in an additional lane opened in special circumstances?",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, solamente durante la noche.\nYes, only during the night."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, a cualquier hora del día.\nYes, at any time of the day."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.4 Additional circulation lane\nAll vehicles that travel in any of the lanes must:\nTake special care to avoid colliding with the cones and other safety elements placed to create the change or road layout.\nTravel at a maximum speed of 80 km/h and a minimum speed of 60 km/h.\nUse during daylight hours and at night, at least low beam headlights.\nNot enter into a lane where traffic is travelling in an opposite direction.\n(Página 166 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674340000000/10dd1388-f7ff-43b1-8163-b5b7a15d154aM.jpg",
+      "number": "10.",
+      "question": "Al circular por un carril adicional circunstancial, ¿es obligatorio encender, al menos, la luz de cruce?\nWhen driving in an additional lane, is it compulsory to turn on at least the dipped beams?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, en todo caso.\nYes, always."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, si se estaciona.\nYes, if you park."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "8 Travelling on motorways and dual carriageways  \n \nDrivers of vehicles on motorways and dual carriageways, must not stop to pick up hitch hikers. This includes those that wait at the toll booths.\n(Página 167 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674500000000/b56f4b76-b848-42b9-ba9c-68d870565adeM.jpg",
+      "number": "11.",
+      "question": "En una explanada de peaje de una autopista, ¿está permitido recoger a una persona que hace autostop?\nAre you allowed to pick up a person hitchhiking at a motorway toll station?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "por cualquier carril, indistintamente.\nany lane."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "por el carril que indica el aspa roja.\nthe lane under the red cross."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "por el carril que indica la flecha verde.\nthe lane which the green arrow is pointing to."
+        }
+      ],
+      "help": "8 Travelling on motorways and dual carriageways  \n     \n8.1 Toll motorways\nSometimes, when you enter onto or exit from a motorway there will be booths located across the roadway. This is an area that regulates the payment, for use of a section or, all of a  motorway.\nThese are tollbooths where you must pay to use the motorway. This area is regulated by traffic lights. A green traffic light or arrow, indicates when the booth is open, whilst a red one indicates which are closed.\n(Página 167 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635447297710000000/383acdf1-4e11-406c-a675-bc0d89135082M.jpg",
+      "number": "12.",
+      "question": "Para pagar en un puesto de peaje, debe pasar...\nTo pay at a toll gate, you must drive through…",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "las motocicletas.\nmotorcycles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "los camiones de más de 3.500 kg de MMA.\nlorries with a MAM exceeding 3,500 kg."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "los ciclomotores.\nmopeds."
+        }
+      ],
+      "help": "8 Travelling on motorways and dual carriageways  \n \nThe following are prohibited from travelling on a motorway or a dual carriageway:\nAnimals.\nVehicles pulled by animals.\nBicycles.\nMopeds.\nVehicles for people with reduced mobility.\nPersonal mobility vehicles.\n(Página 167 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634909075270000000/830adda5-fa0e-44ad-a213-f8113d531747M.jpg",
+      "number": "13.",
+      "question": "No pueden circular por autopista...\nA motorway cannot be used by...",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "a vehículos de tracción animal.\nanimal-drawn vehicles."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "a conductores de bicicletas mayores de 14 años.\nto drivers of bicycles over 14 years of age."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "a peatones.\npedestrians."
+        }
+      ],
+      "help": "8 Travelling on motorways and dual carriageways\n \nHowever: riders of pedal cycles, who are older than 14 years of age will be able to ride on the hard shoulder of an autovia, unless for justified reasons where, in the interests of road safety this is prohibited. In this instance a road sign will be displayed to this effect together with a complementary information panel that informs of an alternative route.\n(Página 167 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675040000000/a25d6cac-c7e5-480b-9ed9-b87b924a5234M.jpg",
+      "number": "14.",
+      "question": "Salvo que exista señal que lo prohíba, por los arcenes de las autovías se permite circular...\nUnless there is a sign that prohibits it, it is permitted to use the hard shoulder of dual carriageways for...",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Las motocicletas y los ciclomotores.\nMotorcycles and mopeds."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Los vehículos de movilidad personal.\nPersonal mobility vehicles."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Los vehículos especiales.\nSpecial vehicles."
+        }
+      ],
+      "help": "8 Travelling on motorways and dual carriageways  \n \nThe following are prohibited from travelling on a motorway or a dual carriageway:\nAnimals.\nVehicles pulled by animals.\nBicycles.\nMopeds.\nVehicles for people with reduced mobility.\nPersonal mobility vehicles.\n(Página 167 del manual 'Learning to drive')\n\n8 Travelling on motorways and dual carriageways\n \nHowever: riders of pedal cycles, who are older than 14 years of age will be able to ride on the hard shoulder of an autovia, unless for justified reasons where, in the interests of road safety this is prohibited. In this instance a road sign will be displayed to this effect together with a complementary information panel that informs of an alternative route.\n(Página 167 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636566348950000000/2387cf26-9554-49e2-8a05-cb8c34d4850cM.jpg",
+      "number": "15.",
+      "question": "¿Qué vehículos tienen prohibido circular por las autopistas?\nWhich vehicles are prohibited from driving on motorways?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Hacer una parada.\nMake a stop"
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Inmovilizar el vehículo por emergencia o avería.\nImmobilizing the vehicle due to an emergency or a breakdown."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Estacionar.\nParking."
+        }
+      ],
+      "help": "8 Travelling on motorways and dual carriageways  \n     \n8.2 Emergencies\nIf due to accident, breakdown, physical illness of occupants or another emergency, a vehicle must be unexpectedly stopped on a motorway or dual carriageway and it is necessary to request help, the closest emergency phone should be used. If the road in question is not equipped with this service, they may request assistance from other users, although none of the vehicle’s occupants may walk on the road. To park the vehicle in an emergency, the hard shoulder or central reservation may be used if necessary.\n(Página 168 del manual 'Learning to drive')\n\nManeouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.4 Parking and stopping / waiting – unacceptable practises\nAdditionally parking is considered to be either dangerous or a serious obstruction to others and create both a risk and hazard in the following places:\nWhen they are parked in a place delimited and signed accordingly as an area for public transport.\nWhen they are in a space specifically reserved for emergency and safety /security reasons.\nWhen done in specifically-signalled prohibited spaces on public roads rated for preferential attention.\nWhen they are parked in the middle of the road.\n(Página 199 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674940000000/e8372688-d4a9-4a80-9bc1-5e00bc7b1b27M.jpg",
+      "number": "16.",
+      "question": "En el arcén de esta autovía, ¿qué está permitido?\nWhat is permitted on the hard shoulder of this autovia?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero podrían hacerlo ocupando todo el carril derecho.\nYes, but they could ride occupying the whole of the right-hand lane."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "9 Hard shoulders  \n \nOn some roadways there is an area that runs parallel to the main carriageway, this is called the ‘hard shoulder.’\nThe following must travel on the hard shoulder, on the right going with the traffic flow, (unless there is a road or part of it specifically designated for their use:\nVehicles pulled by animals.\nSpecial vehicles with a MAM not exceeding 3,500 kg’.\nCycles.\nVehicles following cyclists.\nMopeds.\nVehicles for people with reduced mobility.\nHowever the hard shoulder must be useable. When the road does not have a hard shoulder or it is not useable or sufficient, for instance it is not wide enough, these users must travel as close as possible to the right edge of the roadway, occupying as little as possible of the roadway.\n(Página 168 del manual 'Learning to drive')\n\n9 Hard shoulders  \n \nVehicles permitted to travel on the hard shoulder, must not travel side by side, in pairs. The exception to this rule is that cyclists may travel in pairs but only when circumstances permit, and they must use the far right of the hard shoulder and take care not to impede other road users. When cyclists are permitted to ride on an autovia then they must ride only on the hard shoulder and never enter into the roadway.\n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634957526040000000/28ad7d1e-ef01-4e9a-b180-329fb3edae5aM.jpg",
+      "number": "17.",
+      "question": "Este conjunto de ciclistas circula junto al borde derecho de la calzada y en fila. ¿Es correcto?\nThis group of cyclists is riding next to the right-hand edge of the road and in a line. It this correct?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "no debería circular por esa vía, pues no tiene arcén.\nshould not travel along this road, because it does not have a hard shoulder."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "debería circular lo más cerca posible del eje central de la calzada.\nshould travel as close as possible to the centre of the road."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "circula correctamente.\nis travelling correctly."
+        }
+      ],
+      "help": "9 Hard shoulders  \n \nOn some roadways there is an area that runs parallel to the main carriageway, this is called the ‘hard shoulder.’\nThe following must travel on the hard shoulder, on the right going with the traffic flow, (unless there is a road or part of it specifically designated for their use:\nVehicles pulled by animals.\nSpecial vehicles with a MAM not exceeding 3,500 kg’.\nCycles.\nVehicles following cyclists.\nMopeds.\nVehicles for people with reduced mobility.\nHowever the hard shoulder must be useable. When the road does not have a hard shoulder or it is not useable or sufficient, for instance it is not wide enough, these users must travel as close as possible to the right edge of the roadway, occupying as little as possible of the roadway.\n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636832422170000000/4b467ff5-d1f7-43bc-8885-6e9efcce5f28M.jpg",
+      "number": "18.",
+      "question": "Este ciclista...\nThis cyclist...",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, manteniendo entre ellas una distancia mínima de 1,5 metros.\nYes, keeping a minimum distance of 1.5 metres between them."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, en ningún caso.\nNo, never."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, aproximándose todo lo posible a la parte derecha de la vía, excepto en los tramos sin visibilidad y cuando formen aglomeraciones de tráfico.\nYes, as close as possible to the right-hand side of the road, except on stretches where there is no visibility and when traffic is heavy."
+        }
+      ],
+      "help": "9 Hard shoulders  \n \nVehicles permitted to travel on the hard shoulder, must not travel side by side, in pairs. The exception to this rule is that cyclists may travel in pairs but only when circumstances permit, and they must use the far right of the hard shoulder and take care not to impede other road users. When cyclists are permitted to ride on an autovia then they must ride only on the hard shoulder and never enter into the roadway.\n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674440000000/3638b6e5-5563-44e9-85e4-ee187f015654M.jpg",
+      "number": "19.",
+      "question": "¿Tienen permitido las bicicletas circular en posición paralela?\nAre bicycles allowed to ride parallel to each other?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Podrán utilizar toda la calzada.\nThey can use the entire roadway."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, siempre utilizarán el arcén.\nNo, they must always keep to the edge of the road."
+        }
+      ],
+      "help": "9 Hard shoulders\n \nOn long downhill sections with bends, cyclists are allowed to leave the hard shoulder and travel on the right hand side of the carriageway, if safety permits this.\n \n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482508960000000/6cfa29f8-bcfd-4257-8662-8dd131e04d5cM.jpg",
+      "number": "20.",
+      "question": "En un descenso prolongado con curvas y cuando razones de seguridad lo permitan, ¿podrán circular los ciclistas por la parte derecha de la calzada que necesiten?\nOn a prolonged descent with bends and where safety reasons permit, may cyclists ride on the right-hand side of the roadway as needed?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, pueden circular por el arcén cuando lo crean conveniente.\nNo, they can drive on the hard shoulder when they consider it necessary."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, dependerá de las indicaciones de los agentes y del tipo de vía.\nNo, it will depend on the instructions of the officers and the type of road."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, en el caso de que no exista vía o parte de la misma que les esté especialmente destinada.\nYes, if there is no road or part of the road that is specially designated for them."
+        }
+      ],
+      "help": "9 Hard shoulders  \n \nOn some roadways there is an area that runs parallel to the main carriageway, this is called the ‘hard shoulder.’\nThe following must travel on the hard shoulder, on the right going with the traffic flow, (unless there is a road or part of it specifically designated for their use:\nVehicles pulled by animals.\nSpecial vehicles with a MAM not exceeding 3,500 kg’.\nCycles.\nVehicles following cyclists.\nMopeds.\nVehicles for people with reduced mobility.\nHowever the hard shoulder must be useable. When the road does not have a hard shoulder or it is not useable or sufficient, for instance it is not wide enough, these users must travel as close as possible to the right edge of the roadway, occupying as little as possible of the roadway.\n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676650000000/7ebe443c-39e5-4648-af0e-9fe02ae88e2dM.jpg",
+      "number": "21.",
+      "question": "Los vehículos para personas de movilidad reducida, ¿están obligados a circular por el arcén?\nAre vehicles for persons with reduced mobility required to drive on the edge of the road?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, si el arcén es bastante ancho.\nYes, if the hard shoulder is wide enough."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, puede circular en paralelo pero no podrá adelantar.\nYes, it can travel alongside, but it cannot overtake."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, está prohibido.\nNo, it is prohibited."
+        }
+      ],
+      "help": "9 Hard shoulders  \n \nVehicles permitted to travel on the hard shoulder, must not travel side by side, in pairs. The exception to this rule is that cyclists may travel in pairs but only when circumstances permit, and they must use the far right of the hard shoulder and take care not to impede other road users. When cyclists are permitted to ride on an autovia then they must ride only on the hard shoulder and never enter into the roadway.\n(Página 168 del manual 'Learning to drive')\n\n9 Hard shoulders\n \nExceptionally, when the hard shoulder is deemed useable and of sufficient width, mopeds may also travel side by side. However they must never invade the roadway.\nAll vehicles that travel on the hard shoulder, with the exception of cycles, must not travel side by side for more than 15 seconds or more than 200 metres when carrying out an overtake.\n \n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677260000000/52de071d-804b-459d-9383-9f374a713576M.jpg",
+      "number": "22.",
+      "question": "Circulando por el arcén, ¿tiene permitido un vehículo de tracción animal circular en paralelo con otro vehículo?\nIs it permitted for animal-drawn vehicles travelling on the hard shoulder to travel alongside another vehicle?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, en este caso no se puede circular.\nNo, in this case you must not drive."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, por la derecha, ocupando la parte imprescindible de la calzada.\nYes, on the right-hand side, occupying as little of the road as possible."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, por el centro del carril derecho.\nYes, in the centre of the right-hand lane."
+        }
+      ],
+      "help": "9 Hard shoulders  \n \nOn some roadways there is an area that runs parallel to the main carriageway, this is called the ‘hard shoulder.’\nThe following must travel on the hard shoulder, on the right going with the traffic flow, (unless there is a road or part of it specifically designated for their use:\nVehicles pulled by animals.\nSpecial vehicles with a MAM not exceeding 3,500 kg’.\nCycles.\nVehicles following cyclists.\nMopeds.\nVehicles for people with reduced mobility.\nHowever the hard shoulder must be useable. When the road does not have a hard shoulder or it is not useable or sufficient, for instance it is not wide enough, these users must travel as close as possible to the right edge of the roadway, occupying as little as possible of the roadway.\n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636330321800000000/4523af8e-dda6-4b17-be84-f4f02c2fecbdM.jpg",
+      "number": "23.",
+      "question": "¿Puede circular conduciendo un vehículo de tracción animal por una vía interurbana sin arcén?\nAre you permitted to drive an animal-drawn vehicle on an intercity road without a hard shoulder?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, porque debe circular por el carril derecho.\nNo, because it must drive in the right hand lane."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero solamente en caso de avería.\nYes, but only if it has a mechanical problem."
+        }
+      ],
+      "help": "9 Hard shoulders  \n \nOn some roadways there is an area that runs parallel to the main carriageway, this is called the ‘hard shoulder.’\nThe following must travel on the hard shoulder, on the right going with the traffic flow, (unless there is a road or part of it specifically designated for their use:\nVehicles pulled by animals.\nSpecial vehicles with a MAM not exceeding 3,500 kg’.\nCycles.\nVehicles following cyclists.\nMopeds.\nVehicles for people with reduced mobility.\nHowever the hard shoulder must be useable. When the road does not have a hard shoulder or it is not useable or sufficient, for instance it is not wide enough, these users must travel as close as possible to the right edge of the roadway, occupying as little as possible of the roadway.\n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676260000000/741e3c0a-340b-4d7b-8c39-7c07097c6e2aM.jpg",
+      "number": "24.",
+      "question": "El tractor de menos de 3.500 kg de MMA, ¿circula correctamente por el arcén?\nIs this tractor with under 3,500 kg of MAM driving correctly on the hard shoulder?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, en este caso no se puede circular.\nNo, in this case you must not ride."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, por la derecha, ocupando la parte imprescindible de la calzada.\nYes, on the right hand side, occupying as little of the road as possible."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, por el centro del carril derecho.\nYes, in the centre of the right hand lane."
+        }
+      ],
+      "help": "9 Hard shoulders  \n \nOn some roadways there is an area that runs parallel to the main carriageway, this is called the ‘hard shoulder.’\nThe following must travel on the hard shoulder, on the right going with the traffic flow, (unless there is a road or part of it specifically designated for their use:\nVehicles pulled by animals.\nSpecial vehicles with a MAM not exceeding 3,500 kg’.\nCycles.\nVehicles following cyclists.\nMopeds.\nVehicles for people with reduced mobility.\nHowever the hard shoulder must be useable. When the road does not have a hard shoulder or it is not useable or sufficient, for instance it is not wide enough, these users must travel as close as possible to the right edge of the roadway, occupying as little as possible of the roadway.\n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636307116040000000/0c3431ba-be6e-4239-9266-d96c7686784bM.jpg",
+      "number": "25.",
+      "question": "¿Puede circular conduciendo un ciclomotor por una vía interurbana sin arcén?\nAre you permitted to ride a scooter on an interurban road without a hard shoulder?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, nunca.\nNo, never."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, siempre.\nYes, always."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, de forma excepcional, cuando el arcén sea transitable y suficiente.\nYes, in exceptional cases, when the hard shoulder is passable and wide enough."
+        }
+      ],
+      "help": "9 Hard shoulders\n \nExceptionally, when the hard shoulder is deemed useable and of sufficient width, mopeds may also travel side by side. However they must never invade the roadway.\nAll vehicles that travel on the hard shoulder, with the exception of cycles, must not travel side by side for more than 15 seconds or more than 200 metres when carrying out an overtake.\n \n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637229293190000000/896e5a2f-ec52-4aa7-aa8a-ce22e936e1c4M.jpg",
+      "number": "26.",
+      "question": "Los ciclomotores, ¿pueden circular por el arcén en columna de a dos?\nCan mopeds drive on the hard shoulder in a line two abreast?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, siempre que el recorrido en paralelo no supere los 200 metros o los 15 segundos.\nYes, provided that the parallel route does not exceed 200 metres or 15 seconds."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, los vehículos que circulan por el arcén no se pueden adelantar.\nNo, the vehicles that drive on the hard shoulder cannot be overtaken."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero solo de día.\nYes, but only during the day."
+        }
+      ],
+      "help": "9 Hard shoulders\n \nExceptionally, when the hard shoulder is deemed useable and of sufficient width, mopeds may also travel side by side. However they must never invade the roadway.\nAll vehicles that travel on the hard shoulder, with the exception of cycles, must not travel side by side for more than 15 seconds or more than 200 metres when carrying out an overtake.\n \n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676630000000/d173c1fd-7545-4c76-a67b-63d566a97a9aM.jpg",
+      "number": "27.",
+      "question": "En una vía interurbana, ¿puede adelantar un ciclomotor a un tractor agrícola que circula por el arcén?\nOn an interurban road, is a scooter permitted to overtake an agricultural tractor that is driving on the hard shoulder?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Los vehículos con MMA no superior a 3.500 kg que circulen a velocidad anormalmente reducida.\nVehicles with a gross vehicle mass (GVM) not exceeding 3,500 kg travelling at abnormally low speed."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Los vehículos especiales con MMA superior a 3.500 kg.\nSpecial vehicles with a gross vehicle mass (GVM) exceeding 3,500 kg."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Los ciclos, ciclomotores y vehículos para personas de movilidad reducida.\nCycles, mopeds and vehicles for persons with reduced mobility."
+        }
+      ],
+      "help": "9 Hard shoulders  \n \nOn some roadways there is an area that runs parallel to the main carriageway, this is called the ‘hard shoulder.’\nThe following must travel on the hard shoulder, on the right going with the traffic flow, (unless there is a road or part of it specifically designated for their use:\nVehicles pulled by animals.\nSpecial vehicles with a MAM not exceeding 3,500 kg’.\nCycles.\nVehicles following cyclists.\nMopeds.\nVehicles for people with reduced mobility.\nHowever the hard shoulder must be useable. When the road does not have a hard shoulder or it is not useable or sufficient, for instance it is not wide enough, these users must travel as close as possible to the right edge of the roadway, occupying as little as possible of the roadway.\n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637229320530000000/d75784af-44de-40c5-86e0-4f8ad9525b5aM.jpg",
+      "number": "28.",
+      "question": "El arcén de la derecha es transitable y suficiente. ¿Qué vehículos deben circular por él, como norma general?\nThe hard shoulder on the right-hand side of the road is adequate for traffic to travel on. Which vehicles must, as a general rule, travel on the hard shoulder?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero solo cuando circulen otros vehículos por la calzada, para no entorpecerlos.\nYes, but only when other vehicles are driving along the road, so as not to obstruct them."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, pero reduciendo considerablemente la velocidad.\nYes, but at a much lower speed."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, circulará por la calzada, lo más cerca posible del borde derecho.\nNo, it should drive on the road, as close as possible to the right edge."
+        }
+      ],
+      "help": "9 Hard shoulders  \n \nOn some roadways there is an area that runs parallel to the main carriageway, this is called the ‘hard shoulder.’\nThe following must travel on the hard shoulder, on the right going with the traffic flow, (unless there is a road or part of it specifically designated for their use:\nVehicles pulled by animals.\nSpecial vehicles with a MAM not exceeding 3,500 kg’.\nCycles.\nVehicles following cyclists.\nMopeds.\nVehicles for people with reduced mobility.\nHowever the hard shoulder must be useable. When the road does not have a hard shoulder or it is not useable or sufficient, for instance it is not wide enough, these users must travel as close as possible to the right edge of the roadway, occupying as little as possible of the roadway.\n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636981862760000000/1309349f-8ea3-4f30-84bc-a31f5c8fdd64M.jpg",
+      "number": "29.",
+      "question": "El arcén de esta carretera no está pavimentado, ¿debe circular por él un ciclomotor?\nThe hard shoulder of this road is not paved, should a moped use it?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Por el centro de la calzada.\nIn the centre of the carriageway."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Por el carril derecho para proteger a los ciclistas.\nIn the right lane to protect the cyclists."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Por el arcén.\nOn the hard shoulder."
+        }
+      ],
+      "help": "9 Hard shoulders  \n \nOn some roadways there is an area that runs parallel to the main carriageway, this is called the ‘hard shoulder.’\nThe following must travel on the hard shoulder, on the right going with the traffic flow, (unless there is a road or part of it specifically designated for their use:\nVehicles pulled by animals.\nSpecial vehicles with a MAM not exceeding 3,500 kg’.\nCycles.\nVehicles following cyclists.\nMopeds.\nVehicles for people with reduced mobility.\nHowever the hard shoulder must be useable. When the road does not have a hard shoulder or it is not useable or sufficient, for instance it is not wide enough, these users must travel as close as possible to the right edge of the roadway, occupying as little as possible of the roadway.\n(Página 168 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677620000000/021f3fe7-c528-4465-a202-eda450d8c3c6M.jpg",
+      "number": "30.",
+      "question": "Un vehículo de acompañamiento de ciclistas en una calzada con arcén transitable y suficiente, ¿por dónde circulará?\nA vehicle is escorting cyclists on a roadway with an adequate hard shoulder that is usable by traffic. Where should it travel?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

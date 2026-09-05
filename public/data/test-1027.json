@@ -1,0 +1,733 @@
+{
+  "test_id": 1027,
+  "title": "Safe driving 1",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-05",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el radio de la curva es grande.\nit a wide bend."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "el radio de la curva es pequeño.\nit is a tight bend."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "se toma a velocidad reducida.\nyou drive slowly."
+        }
+      ],
+      "help": "Safe driving\n \n2 Bends\nThere is more likelihood of encountering the dangerous effects of centrifugal force and leaving the road, when:\nThe speed of the vehicle is too high and disproportionate to the angle of the bend being negotiated.\nThe curve is very sharp –that is it is a closed bend (the curve has a shorter radius).\nThe vehicle has a high mass or / and carrying a heavy cargo.\nThe degree of the bend and therefore the potential danger is indicated by the number of direction panels at the entrance into the bend. One panel indicates a low level bend, two panels, indicates a moderate bend and three panels warn of a higher potential danger bend.\n(Página 223 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636612942580000000/6950a6e2-6703-48b4-bff9-b3b101ead20dM.jpg",
+      "number": "1.",
+      "question": "En una curva hay más riesgo de accidente cuando...\nIn a bend, there is a higher risk of an accident when...",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "inferior a la mitad de la genérica permitida en la vía.\nless than half the speed limit."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "que permita no tener que frenar en todo su desarrollo.\nthat allows you to not have to brake on the bend."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "que permita no tener que acelerar en todo su desarrollo.\nthat allows you to not have to speed up on the bend."
+        }
+      ],
+      "help": "Safe driving\n \n2 Bends\nIt is therefore necessary to plan and prepare in order to negotiate a bend successfully:\n On the approach and before entering the bend:\n- Adapt the speed of your vehicle, changing, if necessary to a lower gear that is appropriate for the bend.\n- If it necessary to brake do so before entering the curve, never when negotiating the bend.\n- Place the vehicle, as close as possible to the right hand side of the roadway.\n(Página 223 del manual 'Learning to drive')\n\nSafe driving\n \n2 Bends\nWhilst driving around the bend / inside the curve:\n- Turn the steering wheel softly, without crossing the hands, and ensuring that the steering is proportionate to the degree and angle of the bend.\n- Avoid coarse or hurried movements of the steering wheel. Don’ accelerate harshly or fiercely and avoid hurried or abrupt braking. If necessary for any reason, to brake whilst in the curve you should to so softly, thus trying to avoid the potential to skid.\n- Accelerate softly and progressively from the start of the curve to help the tyre grip and adhere to the road surface. This action helps the vehicle recover its course and maintain traction.\n(Página 223 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635476657660000000/8ea7b4f1-c801-435f-8447-1ef193d96638M.jpg",
+      "number": "2.",
+      "question": "Para tomar una curva adecuadamente, siempre que sea posible, durante el desarrollo de la curva, se debe circular a una velocidad…\nTo take a bend properly, whenever possible, when driving through the bend, you must drive at a speed...",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A esa velocidad tan lenta no es necesario tomar ninguna precaución.\nNo precautions are required at such a slow speed."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No frenar con el freno delantero porque la rueda puede bloquearse y producirse una caída.\nDo not brake with the front brake, because the wheel could lock and you could fall."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Debe compensar el efecto giroscópico con el peso del cuerpo.\nYou must compensate for the gyroscopic effect using your body weight."
+        }
+      ],
+      "help": "Safe driving\n \n2 Bends\nIt is therefore necessary to plan and prepare in order to negotiate a bend successfully:\n On the approach and before entering the bend:\n- Adapt the speed of your vehicle, changing, if necessary to a lower gear that is appropriate for the bend.\n- If it necessary to brake do so before entering the curve, never when negotiating the bend.\n- Place the vehicle, as close as possible to the right hand side of the roadway.\n(Página 223 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636300194430000000/cd7b6191-2b13-42a7-a451-3c3c1f470ac5M.jpg",
+      "number": "3.",
+      "question": "Si realiza con su motocicleta un giro muy cerrado a una velocidad lenta, ¿qué precaución debe tener?\nIf you make a very tight turn with your motorcycle at a slow speed, what precautions should you take?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Dejar de acelerar y no tocar el pedal del freno, para conseguir más adherencia.\nStop accelerating and do not touch the brake pedal, for more grip."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Aumentar el ángulo de viraje para conseguir un mayor agarre.\nIncrease the turning angle to improve grip."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Pisar el pedal de freno con fuerza y corregir la trayectoria.\nBrake heavily and correct your path."
+        }
+      ],
+      "help": "Safe driving  \n   \n2 Bends\n2.1 Skids\nSkids occur mostly in bends and are as a result of the ‘forces’ that act on the vehicle to produce a loss of adhesion (grip) between the tyre(s) and the road, thus provoking a sideways displacement and / or change of direction from the intended course, with an involuntary movement that is difficult to control.\n(Página 224 del manual 'Learning to drive')\n\nSafe driving    \n     \n2 Bends  \n2.1 Skids\nTo correct a skid:\nIf the front axle goes into a skid: Stop accelerating and straighten out the steering (if possible) until you notice that the front wheel assembly stops skidding.\n(Página 224 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635448245600000000/407804f1-694d-4e67-bc54-45cd51174c1bM.jpg",
+      "number": "4.",
+      "question": "Al tomar una curva nota que su vehículo no gira tanto como debería porque los neumáticos delanteros han perdido cierta adherencia, ¿qué es lo primero que debe hacer?\nWhen driving through a bend, you note that your vehicle is not turning as much as it should because the front tyres have lost some grip, what should you do first?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, si se frena bruscamente los neumáticos pueden perder la adherencia sobre el pavimento.\nYes, in the event of sudden braking tyres can lose grip with the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, si los neumáticos tienen la presión de inflado recomendada.\nNo, if the tyres are at the recommended inflation pressure."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, si las ruedas están perfectamente alineadas y equilibradas.\nNo, if the wheels are perfectly aligned and balanced."
+        }
+      ],
+      "help": "Safe driving      \n \n6 Driving in snow\n6.1 Adhesion (grip)\nIn order to improve the adhesion and road grip, and to prevent the risk of sliding and skidding, the following action is recommended:\nWhen, descending (downhill) an incline, use a lower gear than normal and using the engine as a brake. Descend slowly.\nDrive at a reduced speed.\nIncrease the safety distance.\nUse the brakes smoothly but don’ over brake.\nEnsure that tyres are in perfect condition –correctly inflated and with sufficient tread.\nFollow in the tracks of other vehicles (where the road surface has less snow).\n(Página 229 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636350314770000000/49adbc75-e3be-44c6-aed3-731e50281d3dM.jpg",
+      "number": "5.",
+      "question": "En una calzada con nieve, ¿el uso brusco e inadecuado de los frenos puede ser causa de derrape?\nOn a snowy road, can the sudden and inappropriate use of brakes cause skidding?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "tienen el mismo significado que las usadas en tramos sin obras.\nhave the same meaning as those used in sections without roadworks."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "establecen para los tramos de obras una reducción de la velocidad máxima en 10 km/h.\nestablish a 10 km/h reduction in the maximum speed."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "tienen distinto símbolo y tamaño que las usadas en tramos sin obras.\nhave different symbols and sizes than those used in sections without roadworks."
+        }
+      ],
+      "help": "Safe driving      \n       \n3 Road works  \n3.1 Signage in Sections Undergoing Roadworks or Maintenance Tasks\nWhere danger and regulatory signs are installed in these sections and their conventional background colour is white, they shall instead have a yellow background.\nWhere lane signs are installed, the background shall be yellow instead of blue, and the symbols shall be black instead of white.\nIf new direction signs are required due to roadworks or maintenance tasks, they shall have a yellow background with black characters, regardless of the type of road.\nIf new road markings are used in sections undergoing roadworks, they shall be yellow in colour.\n(Página 225 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681470000000/db99cbed-bd78-4b6a-9c2c-d65de4a89349M.jpg",
+      "number": "6.",
+      "question": "Las señales de obras...\nRoadworks signs...",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Amarillo.\nYellow."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Naranja.\nOrange."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Blanco.\nWhite."
+        }
+      ],
+      "help": "Safe driving      \n       \n3 Road works  \n3.1 Signage in Sections Undergoing Roadworks or Maintenance Tasks\nWhere danger and regulatory signs are installed in these sections and their conventional background colour is white, they shall instead have a yellow background.\nWhere lane signs are installed, the background shall be yellow instead of blue, and the symbols shall be black instead of white.\nIf new direction signs are required due to roadworks or maintenance tasks, they shall have a yellow background with black characters, regardless of the type of road.\nIf new road markings are used in sections undergoing roadworks, they shall be yellow in colour.\n(Página 225 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673960000000/06bf5027-fc50-4f43-9c67-78398df46b71M.jpg",
+      "number": "7.",
+      "question": "En tramos de obras, ¿de qué color serán las marcas viales?\nAt sections of road works, what colour will road markings be?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Que se termina el carril izquierdo y que hay obras.\nThat the left lane is ending and that there are ongoing roadworks."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Que hay una salida obligatoria a la derecha.\nThere is a mandatory exit to the right."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Que hay un carril para circulación lenta.\nThere is a lane for slow circulation."
+        }
+      ],
+      "help": "5 Vertical Signs                  \n             \n5.4 Indication Road Signs    \n5.4.3 Lane signs  \nS-52e End of traffic lane\nIndicates, on a three-lane carriageway with one-way traffic, the termination of the lefthand lane and the required lane change.\n(Página 137 del manual 'Learning to drive')\n\nSafe driving      \n       \n3 Road works  \n3.1 Signage in Sections Undergoing Roadworks or Maintenance Tasks\nWhere danger and regulatory signs are installed in these sections and their conventional background colour is white, they shall instead have a yellow background.\nWhere lane signs are installed, the background shall be yellow instead of blue, and the symbols shall be black instead of white.\nIf new direction signs are required due to roadworks or maintenance tasks, they shall have a yellow background with black characters, regardless of the type of road.\nIf new road markings are used in sections undergoing roadworks, they shall be yellow in colour.\n(Página 225 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677420000000/55784462-6866-4f9f-a4b5-b9c9aff7bc2dM.jpg",
+      "number": "8.",
+      "question": "Esta señal, ¿qué indica?\nWhat does this sign indicate?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "solo de día.\nonly during the day."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "tanto de día como de noche.\nduring the day and at night."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "solo de noche.\nonly at night."
+        }
+      ],
+      "help": "Safe driving    \n     \n3 Road works\n3.1 Signage in Sections Undergoing Roadworks or Maintenance Tasks\nAreas of road works can present a potential danger due to the modification and change of traffic direction or routes. Any changes must be signalled and signed accordingly, normally by using cones and deviation, routemarking panels. These serve not only to mark the intended course but to also identify the area where the work is being carried out. It is important both for the drivers and work personnel that the route indicated is followed, so as not to endanger the safety of either.\nDuring night time and adverse meteorological conditions the road works are marked and indicated by lights and reflective devices.\n(Página 225 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673780000000/cd798f79-113f-4c55-865d-144f75e1f136M.jpg",
+      "number": "9.",
+      "question": "Es obligatorio que las obras que dificulten la circulación estén señalizadas...\nIt is compulsory for road works that hinder traffic to be signposted…",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, porque evita deslumbramiento.\nNo, because it prevents glare."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, porque descansa la vista.\nNo, because it gives your eyesight a rest."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, porque veo peor.\nYes, because I see less."
+        }
+      ],
+      "help": "Safe driving\n \n4 Night time driving\nVision, the ability to see, is always reduced during the hours of darkness, compared with during the day light hours. Therefore driving at night is much more dangerous than driving during the day. This is because:\nThe main beam or dipped (low beam) headlights illuminate a smaller zone compared with what you are able to see during the day and with the natural daylight.\nDistances, people, objects and vehicles are appraised wrongly and interpreted and perceived differently during the hours of darkness as compared with during the daylight hours.\nThere is increased glare –which in itself is hazardous and increases the potential for danger.   \n \n(Página 226 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675720000000/e8d0ca4d-70e1-40c4-9c5a-046faee70386M.jpg",
+      "number": "10.",
+      "question": "Circula de noche con el alumbrado interior encendido. ¿Es peligroso?\nYou are driving at night with the interior lighting on. Is it dangerous?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, si el peso está distribuido uniformemente.\nNo, if the weight is evenly distributed."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, normalmente las luces se adaptan a la carga.\nNo, the lights are usually adapted to the load."
+        }
+      ],
+      "help": "Safe driving\n \n4 Night time driving\n4.2 Glare\nTo avoid dazzling others, it is necessary:\nEnsure that any load carried is correctly distributed within your vehicle and / or your lights are suitably adjusted to take into account a heavier load.\nFailure to do this will cause the beam of your headlights to be raised, potentially higher, than is legally permitted. Excess weight at the rear causes the back to be lowered and the front (lights) to be raised.\n(Página 226 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634913521220000000/36840c60-ab7d-4d1d-9148-eac6a8ef0ad5M.jpg",
+      "number": "11.",
+      "question": "Si la furgoneta dispone de un mando para regular las luces, ¿debe su conductor, si es necesario, regular las luces cuando transporte carga pesada?\nIf the van has a control to adjust the lights, should the driver adjust the lights when carrying heavy loads, if necessary?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "aumenta.\nincreases."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "se reduce.\nis reduced."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "no varía.\ndoes not change."
+        }
+      ],
+      "help": "Safe driving\n \n4 Night time driving\nDriving during the hours of darkness requires the driver to adopt more safety precautions and particularly to ensure that all the transparent elements of his vehicle, such as the windows, lights and mirrors are in perfect working order, correctly adjusted and are clean. This means that the driver must ensure that he can see and be seen by other.\nDrivers must be extremely careful when moving from a well-lit road to a dark one. The eyes slowly adapt to the darkness and things are therefore more difficult to perceive.\n(Página 226 del manual 'Learning to drive')\n\nDISTRACTIONS  \n \n6.1 Road and environmental circumstances\nDistractions can occur due to:\nOver familiarity of the road can which may lead to an excess of confidence and, therefore, a reduction in attention.\nLow lighting of the environment (e.g. at night) and light and brightness variations, (such as glare) which can result in some important information not being detected. During the night visual acuity is reduced by 70% and the visual field of distance becomes 7 times less effective.\n(Página 34 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482411260000000/cfbea416-adf1-4d24-bc32-379b68b0b8b3M.jpg",
+      "number": "12.",
+      "question": "Por la noche, la agudeza visual...\nAt night, visual sharpness…",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, por el reflejo de la calzada.\nYes, because of the glare from the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, solo se deslumbra a los que encuentre de frente.\nNo, only oncoming traffic is dazzled."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, a través de los espejos retrovisores, por lo que debe cambiar a la luz de corto alcance.\nYes, through the rear-view mirrors, so you must switch to the low-beam headlights."
+        }
+      ],
+      "help": "Safe driving  \n   \n4 Night time driving  \n4.2 Glare\nSpecial care must be taken not to dazzle drivers of vehicles travelling in the opposite direction, even if they have not changed from full beam to dipped lights and full beam lights should not be used again until the other vehicle has passed completely.\nThe same care must be taken with regard to vehicles travelling in the same direction whose drivers may be dazzled through their rear-view mirror.\n(Página 227 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636595733570000000/dcb30f7a-8256-485b-b384-cff4cb87af01M.jpg",
+      "number": "13.",
+      "question": "¿Puede deslumbrar con la luz de largo alcance a los vehículos que circulan delante por su mismo carril?\nCan you dazzle vehicles in front of you in the same lane with your mainbeam headlights?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "debe apagar las luces para no deslumbrar al conductor del vehículo verde.\nmust turn its lights off so as not to dazzle the driver of the green vehicle."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "debe cambiar la luz larga por la corta al cruzarse con el vehículo verde.\nmust change the main beam to the dipped beam when crossing paths with the green vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "debe seguir circulando con la luz larga en la curva.\nmust continue to use the main beam throughout the bend."
+        }
+      ],
+      "help": "Safe driving    \n     \n4 Night time driving\n4.4 Bends\nWhen two vehicles meet within a bend, both of which have their high beam headlights on, it is necessary for the vehicle that is taking the bend – as a right hand bend, to change to low beam headlights first.\nThis is because of the angle that the headlights are set. The driver negotiating a bend to the right will produce a beam of light that crosses the path of the approaching vehicle, (who is negotiating a bend to the left). The beam of light goes to the offside, centre of the roadway, consequently, he will therefore cause glare and discomfort to the approaching vehicle, hence the necessity to lower his beam first.\n(Página 227 del manual 'Learning to drive')\n\nSafe driving    \n     \n4 Night time driving\n4.4 Bends\nThe driver negotiating the bend to the left will be able to keep his main beam headlights on longer, as his beam of light is projected off the roadway, to the nearside.\n(Página 227 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634908235000000000/7e0c366d-3350-4097-90c3-20669999d303M.jpg",
+      "number": "14.",
+      "question": "El vehículo rojo...\nThe red vehicle...",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "encender las luces largas para aumentar la visibilidad.\nturn on the full beams to increase visibility."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "reducir la velocidad lo necesario, llegando incluso a detenerse.\nslow down and stop, if needed."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "acelerar para que el tiempo de deslumbramiento sea el menor posible.\nspeed up to ensure you are dazzled for as little time as possible."
+        }
+      ],
+      "help": "Safe driving  \n   \n4 Night time driving  \n4.2 Glare\nA driver who has been dazzled must reduce speed, even stopping completely if necessary, to avoid hitting vehicles travelling in the same direction or pedestrians using the road.\nDrivers must slow down or stop, with due care, in the same lane in which they are travelling, without turning left or right, so as not to endanger other road users.\n(Página 227 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485972620000000/9ae3349f-5f12-45c1-9222-8fbfaef53f2eM.jpg",
+      "number": "15.",
+      "question": "Ante este deslumbramiento debe...\nIf dazzled like this, you should...",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Circular siempre con la luz corta.\nAlways drive with your headlights on low beam."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Cambiar la luz larga por la corta cuando me acerco a otro vehículo en carretera.\nSwitch from main-beam headlights to low-beam headlights when approaching another vehicle on the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Circular con la luz corta en carretera y con la de posición en ciudad.\nUse your low-beam headlights on the road and your parking lights in urban areas."
+        }
+      ],
+      "help": "Safe driving  \n \n4 Night time driving\n4.2 Glare\nTo avoid dazzling others, it is necessary:\nReplace your main beam lights with low beam headlights as soon as possible you anticipate, meet or cross the path of other road users.\n(Página 227 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676110000000/30e92a2d-fd15-4a6d-9870-743d20534a7eM.jpg",
+      "number": "16.",
+      "question": "De noche, ¿qué debe hacer para no deslumbrar?\nAt night, what should you do to avoid causing glare?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero solamente en los tramos rectos.\nYes, but only on straight sections."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No es necesario.\nNo, it is not necessary."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, para no deslumbrar.\nYes, in order not to cause glare."
+        }
+      ],
+      "help": "Safe driving  \n \n4 Night time driving\n4.2 Glare\nTo avoid dazzling others, it is necessary:\nReplace your main beam lights with low beam headlights as soon as possible you anticipate, meet or cross the path of other road users.\n(Página 227 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480761810000000/3a175bd3-4e9b-4972-8761-205ebe2698e0M.jpg",
+      "number": "17.",
+      "question": "Circula de noche con las luces largas encendidas. Ve peatones en el arcén. ¿Está obligado a cambiar la luz la larga por la corta?\nYou are driving at night with your main-beam headlights on. You see pedestrians at the roadside. Are you required to switch from main beam to low beam?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "circular igual que lo está haciendo, con la luz larga encendida.\ndrive in the same way as before, with its main-beam headlights on."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "reducir la velocidad obligatoriamente.\nslow down compulsorily."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "cambiar la luz larga por la luz corta.\nswitch from main beam to low beam."
+        }
+      ],
+      "help": "Safe driving    \n   \n4 Night time driving  \n4.3 Overtaking\nThe vehicle being overtaken, if using high beam headlights, should maintain these in order to assist the other (overtaking) driver.\nHowever he must drop down to low beam headlights just before the overtaking vehicle pulls past him and should not return to high beam headlights until the vehicle has moved sufficiently ahead of him.\n(Página 227 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676690000000/360e3136-d165-411e-9fd4-55e37180eeeeM.jpg",
+      "number": "18.",
+      "question": "Cuando termine el adelantamiento, el vehículo adelantado deberá...\nWhen a vehicle is overtaken it must…",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, porque mejora la visibilidad al limpiar el parabrisas.\nNo, it improves visibility because it cleans the windscreen."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, ya que los neumáticos pueden perder su adherencia.\nYes, because tyres can lose grip."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Solo mientras caen las primeras gotas, luego no es necesario tomar precauciones.\nOnly when it starts to rain, then it is not necessary to take precautions."
+        }
+      ],
+      "help": "Safe driving\n \n5 Driving in rain\nRain, (depending on the intensity):\nReduces the adhesion (grip) of the tyres on the road. This is the reason why the braking distance increases, and in actual fact it may, double on wet roads.\nReduces the visibility.   \n \n(Página 228 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674980000000/139ee4fd-7eb2-4c00-bcdf-d20401b90388M.jpg",
+      "number": "19.",
+      "question": "La lluvia, ¿exige al conductor tomar más precauciones de las habituales?\nDoes rain require a driver to take more precautions than usual?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "una pérdida de visibilidad en caso de lluvia.\na loss of visibility when raining."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "una pérdida de adherencia en caso de lluvia.\na loss of grip when raining."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "un aumento de adherencia en caso de lluvia.\nincreased grip when raining."
+        }
+      ],
+      "help": "Safe driving      \n     \n5 Driving in rain\n5.1.1 Aquaplaning\nAquaplaning (also referred to occasionally as ‘hydroplaning’) is a frightening phenomenon whereby a wedge (or film) of water builds up between the tyres and the road surface. The depth of water on the road may be excessive for the grooves of the tyre to suitably displace it, which may also be heightened because of an inadequate depth of tyre tread.  \nThis causes the vehicle to feel like it is “gliding or sliding on the water”. The result is complete loss of normal control by the driver.\n(Página 228 del manual 'Learning to drive')\n\nSafe driving      \n       \n5 Driving in rain\n5.1.1 Aquaplaning\nAquaplaning is caused by the accumulation of water on the road and by irregularities in its surface. Therefore, when it rains, it is necessary to pay special attention to potholes and areas in which puddles may occur.\nThis effect is more likely to occur with inappropriate speed and very wide or badly worn tyres.\nOne of the best solutions to avoid aquaplaning is to reduce the speed in the first instance, so that the tyres can displace the water and the wheels can retain contact with the road surface.\n(Página 228 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675270000000/5c29a1dd-2f1f-4cb8-987a-15a999b0725dM.jpg",
+      "number": "20.",
+      "question": "El aquaplaning produce...\nAquaplaning causes...",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Disminuir la velocidad antes de llegar y mantener la motocicleta vertical al pasar sobre ella.\nReduce speed before you reach it and keep the motorcycle vertical when you pass over it."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Frenar en la zona para controlar la trayectoria.\nBrake in this area in order to keep to your route."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Acelerar para pasar por la zona en el menor tiempo posible.\nAccelerate in order to pass over the area as fast as possible."
+        }
+      ],
+      "help": "Safe driving    \n     \n5 Driving in rain  \n5.1 Adhesion - Grip\nIf riding a motorcycle in an area that may be especially slippery, it is necessary to decrease the speed before reaching that area and to keep the motorcycle vertical when passing through it, without any sharp acceleration or braking.\n(Página 228 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681180000000/b2f50d05-2f77-447b-a5f5-73b9d30c37f9M.jpg",
+      "number": "21.",
+      "question": "Si tiene que circular con su motocicleta por una zona especialmente deslizante, ¿qué precauciones debe tomar?\nIf you have to ride your motorcycle in an especially slippery area, what precautions should you take?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "frenando para disminuir el peligro.\nwhilst braking to reduce the danger."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "con la motocicleta perpendicular al suelo y sin acelerar o frenar bruscamente.\nwith the motorcycle perpendicular to the ground and without accelerating or braking quickly."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "aumentando la velocidad para pasar rápidamente.\nby increasing your speed to get over the relevant area quickly."
+        }
+      ],
+      "help": "Safe driving    \n     \n5 Driving in rain  \n5.1 Adhesion - Grip\nIf riding a motorcycle in an area that may be especially slippery, it is necessary to decrease the speed before reaching that area and to keep the motorcycle vertical when passing through it, without any sharp acceleration or braking.\n(Página 228 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675130000000/69c7df70-a363-4ffc-87c0-62a319b3afcdM.jpg",
+      "number": "22.",
+      "question": "Si conduciendo una motocicleta tiene que atravesar una zona con poca adherencia, debe hacerlo...\nIf you are driving a motorbike and need to go over an area with little grip, you must do so...",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A que se puede mojar el motor.\nYour motorcycle might get wet."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "A las marcas viales que son muy resbaladizas.\nRoad markings, because they are slippery."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A que disminuye el tiempo de reacción.\nYour reaction time decreases."
+        }
+      ],
+      "help": "Safe driving      \n     \n5 Driving in rain    \n5.1 Adhesion - Grip\nAlways be cautious when the first drops of rain fall. Water mixed with dust, or other dirt from the road causes a layer of grease to be formed. This makes the road surface extremely slippery. When it rains heavier the road may be cleaned but this potentially may lead to further problems being caused, due to excess water on the road.\nMotorcycle riders must pay special attention to road markings, as they may be very slippery.\n(Página 228 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636307108510000000/61d2d9b3-f3a7-4b70-8ef4-0d5f945a963eM.jpg",
+      "number": "23.",
+      "question": "Si está lloviendo, ¿a qué prestará especial atención si conduce una motocicleta?\nIf it is raining, what should you pay special attention to if you are riding a motorcycle?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "debe aumentar la distancia de seguridad con el vehículo que circula delante.\nyou must increase the safety distance between the vehicle driving in front."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "la distancia de frenado disminuye.\nthe braking distance decreases."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la distancia de reacción aumenta.\nthe reaction distance increases."
+        }
+      ],
+      "help": "Safe driving  \n   \n5 Driving in rain\n5.1 Adhesion - Grip\nIn order to maintain the best possible adherence (grip) between your vehicle and the road surface – you should:\nIncrease the safety distance.\nReduce the speed.\n(Página 228 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635106894190000000/1cf2c004-c65d-4843-b31c-04c004b51839M.jpg",
+      "number": "24.",
+      "question": "Si conduce con lluvia...\nIf you are driving in rain...",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "debe acelerar para atravesarlos lo antes posible.\nyou must accelerate in order to cross them as fast as possible."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "debe moderar la velocidad en todo caso.\nyou must always slow down."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "no es aconsejable tomar ninguna precaución.\nit is not advisable to take any precaution."
+        }
+      ],
+      "help": "Safe driving      \n       \n5 Driving in rain\n5.1.1 Aquaplaning\nAquaplaning is caused by the accumulation of water on the road and by irregularities in its surface. Therefore, when it rains, it is necessary to pay special attention to potholes and areas in which puddles may occur.\nThis effect is more likely to occur with inappropriate speed and very wide or badly worn tyres.\nOne of the best solutions to avoid aquaplaning is to reduce the speed in the first instance, so that the tyres can displace the water and the wheels can retain contact with the road surface.\n(Página 228 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676450000000/804f169d-76d9-444a-bb95-54a356bb2d87M.jpg",
+      "number": "25.",
+      "question": "Si hay charcos de agua en la calzada...\nIf there are puddles of water in the road...",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "comprobar de vez en cuando los frenos.\nto check your brakes from time to time."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "aumentar la presión de los neumáticos.\nto increase tyre pressure."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "no pisar el pedal del embrague.\nnot to apply your clutch pedal."
+        }
+      ],
+      "help": "Safe driving  \n   \n5 Driving in rain\n5.1 Adhesion - Grip\nIn order to maintain the best possible adherence (grip) between your vehicle and the road surface – you should:\nBrake smoothly and early, as the wheels can be blocked more easily.\nRemember that if you drive through excessive water, there is the possibility that after passing through it, that the brakes (shoes or brake-linings) may be wet and momentarily ineffective. Check your brakes. Step lightly on the brakes so that they make contact with the drums or discs. This will enable the humidity to be eliminated –through the heat (drying effect) produced by friction.\n(Página 228 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679490000000/10fb22e0-1078-445d-855b-89c8e5a38b2aM.jpg",
+      "number": "26.",
+      "question": "Cuando llueve es importante...\nWhen it rains it is important...",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Que se estropean y deben cambiarse las zapatas o pastillas.\nThey become damaged and the pads or blocks need to be changed."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Que pueden perder temporalmente su eficacia.\nThey may temporarily lose their effectiveness."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Que se reduce la distancia de frenado.\nBraking distance decreases."
+        }
+      ],
+      "help": "Safe driving  \n   \n5 Driving in rain\n5.1 Adhesion - Grip\nIn order to maintain the best possible adherence (grip) between your vehicle and the road surface – you should:\nBrake smoothly and early, as the wheels can be blocked more easily.\nRemember that if you drive through excessive water, there is the possibility that after passing through it, that the brakes (shoes or brake-linings) may be wet and momentarily ineffective. Check your brakes. Step lightly on the brakes so that they make contact with the drums or discs. This will enable the humidity to be eliminated –through the heat (drying effect) produced by friction.\n(Página 228 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635104388800000000/8f001b7f-c9cb-4dd7-86bd-f1066efb8ef2M.jpg",
+      "number": "27.",
+      "question": "¿Qué puede ocurrir si, al atravesar un charco de agua, los frenos se mojan?\nWhat can happen if the brakes become wet when crossing a puddle of water?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Que las ruedas se desgasten.\nThe wheels become worn."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Que las ruedas se bloqueen y el vehículo derrape.\nThe wheels lock and the vehicle skids."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No hay peligro.\nThere is no danger."
+        }
+      ],
+      "help": "Safe driving  \n   \n5 Driving in rain\n5.1 Adhesion - Grip\nIn order to maintain the best possible adherence (grip) between your vehicle and the road surface – you should:\nBrake smoothly and early, as the wheels can be blocked more easily.\nRemember that if you drive through excessive water, there is the possibility that after passing through it, that the brakes (shoes or brake-linings) may be wet and momentarily ineffective. Check your brakes. Step lightly on the brakes so that they make contact with the drums or discs. This will enable the humidity to be eliminated –through the heat (drying effect) produced by friction.\n(Página 228 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679100000000/26b7fbf0-376b-4278-86a8-c012c86427b1M.jpg",
+      "number": "28.",
+      "question": "El suelo está mojado y se ve obligado a frenar por emergencia. ¿Qué peligro hay?\nThe floor is wet and you need to carry out an emergency stop. What dangers are there?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "El estado de los neumáticos y los limpiaparabrisas.\nThe condition of your tyres and windscreen wipers."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Nada, no es necesaria ninguna revisión.\nNothing, you do not have to make any checks."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "El líquido de frenos y la presión de los neumáticos.\nBrake fluid and tyre pressure."
+        }
+      ],
+      "help": "Safe driving  \n \n5 Driving in rain\n5.1 Adhesion - Grip\nIn order to maintain the best possible adherence (grip) between your vehicle and the road surface – you should:\nMaintain the tyres. This means the condition, (making sure there are no cuts, bulges, irregular tyre pattern etc.,) and the correct inflation pressure.\n(Página 228 del manual 'Learning to drive')\n\nSafe driving          \n         \n5 Driving in rain\n5.2 Visibility\nTherefore, to improve visibility, it is necessary to:\nSwitch on the appropriate lights; low beam (dipped) headlights or the front fog lights and if the weather is particularly severe and warrants the use, the rear fog light(s).\nUse the windscreen wipers and if necessary, the washers.\nUse the vehicle ventilation systems –demister and rear (and front) heated screens, in order to prevent moisture and ‘og’from forming inside and reducing the driver’ visibility.\nRemember to ensure that you have good visibility both inside and out. Use a clean, chamois leather or a cloth to ensure that good visibility is maintained outside.\n(Página 229 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482518430000000/335047e7-ca54-4c51-9b16-03e0574d1bd0M.jpg",
+      "number": "29.",
+      "question": "¿Qué debe revisar si prevé que puede llover?\nWhat should you check if you are expecting rain?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "debe estacionar en un lugar permitido y seguro, manteniendo encendidas las luces de posición.\nyou must park in a permitted and safe place, keeping your position lights on."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "debe acelerar para pasar la tormenta.\nyou must speed up to get through the storm."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "debe parar en todo caso, aunque sea en la calzada.\nyou must stop in any case, even on the road."
+        }
+      ],
+      "help": "Safe driving          \n         \n5 Driving in rain\n5.2 Visibility\nWhen there is torrential rain, the best advice is to stop in a safe place and keep the position lights switched on.\n(Página 229 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634971350660000000/d1bd4729-30eb-44c8-bff8-026bc89cce7aM.jpg",
+      "number": "30.",
+      "question": "Si conduciendo le sorprende una lluvia torrencial...\nIf you are caught in torrential rain while driving…",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}
