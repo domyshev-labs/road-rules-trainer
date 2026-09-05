@@ -1,7 +1,8 @@
 # Road Rules Trainer
 
-A bilingual Spanish and English driving-test trainer with 19 thematic tickets,
-557 questions, original illustrations and answer explanations.
+A Spanish and English driving-test trainer with 19 thematic tickets,
+557 questions and original illustrations. Answer explanations are available in
+English, Spanish and Russian.
 
 ## Local development
 
