@@ -1,0 +1,733 @@
+{
+  "test_id": 1013,
+  "title": "Road signalling 1",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "girar a la izquierda o seguir de frente.\nto turn left or continue straight ahead."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "seguir de frente o girar a la derecha.\nto continue straight ahead or turn right."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "girar a la izquierda, solamente.\nto turn left, only."
+        }
+      ],
+      "help": "Road signalling             1 General rules   1.3 ComplianceIf there are traffic lights or vertical traffic signs with different instructions on the left and the right, those planning to turn left or continue straight must only heed those located immediately to their left.(Página 109 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677660000000/85e4b159-f9e7-47b2-b164-f8ecfb1d69c3M.jpg",
+      "number": "1.",
+      "question": "En esta vía deben obedecer las indicaciones del semáforo situado a la izquierda los vehículos que pretendan...\nOn this road, the traffic light to the left must be obeyed by vehicles intending...",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Obedecer la señal de stop.\nObey the stop sign."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Obedecer al semáforo, pero debo ceder el paso.\nObey the traffic light, but I must give way to other traffic."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Obedecer al semáforo, que tiene prioridad sobre la señal de stop.\nObey the traffic light, which has priority over the stop sign."
+        }
+      ],
+      "help": "Road signalling                 1 General rules  1.4 Order of priority amongst the signalling devices  1 Signals and orders given by agents of the authority in charge of traffic surveillance exercising the functions of their jobs.  2 Circumstantial signage and beaconing that alters the normal use of the road, delimiting devices, and beaconing signals.3 Traffic lights.  4 Traffic road signs.   5 Road markings.    (Página 109 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638858624770000000/1f2e4e85-4d46-4717-bf33-87780e3d3c42M.jpg",
+      "number": "2.",
+      "question": "Cuando el semáforo se ponga verde, ¿qué debe hacer?\nWhen the traffic light turns green, what should you do?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A los vehículos que se aproximen tanto por delante como por detrás.\nVehicles approaching from both the front and rear."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Únicamente al camión naranja que llega por detrás.\nOnly the orange lorry approaching from behind."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "A los usuarios de la vía hacia los que dirige la luz.\nRoad users towards whom the officer directs the light."
+        }
+      ],
+      "help": "2 Police Officers and corresponding signalling     2.2 Signals with the arm2.2.3 Officer waving red or yellow lightRoad users towards whom the officer directs the light must stop.(Página 110 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635531254710000000/9352bacb-a9d7-4b8f-aba0-a46aeffdce0fM.jpg",
+      "number": "3.",
+      "question": "El agente de la imagen balancea una luz roja, ¿a quién ordena detenerse?\nThe officer in the image is waving a red light. Who is he telling to stop?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Detención para los vehículos que se acerquen de frente al agente.\nFor all vehicles approaching the agent from the front to stop."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Detención para todos los usuarios que se acerquen al agente.\nFor all users approaching the agent to stop."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Detención para todos los usuarios que se acerquen de frente.\nFor all road users approaching from the front to stop."
+        }
+      ],
+      "help": "2 Police Officers and corresponding signalling   2.2 Signals with the arm 2.2.1 Arm raised verticallyAll road users approaching the officer must stop, except drivers who cannot do so safely.If this signal is given at an intersection, drivers who have already entered it are not required to stop.  (Página 110 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673930000000/d3ce60ec-d37b-407b-9861-3b5870386dc2M.jpg",
+      "number": "4.",
+      "question": "¿Qué indica este agente?\nWhat is this agent signalling?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "que se detengan los vehículos a quienes se dirija.\nthe vehicles it is pointing at to stop."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "que se reanude la marcha.\nthat you must resume driving."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "que se inmovilice el vehículo fuera de la calzada.\nthe vehicle to stop off of the road."
+        }
+      ],
+      "help": "2 Police Officers and corresponding signalling       2.2 Signals with the arm2.3 Audible signalsThe police will use a whistle in the following manner:To stop a vehicle: A series or short and frequent blows of the whistle.To make a vehicle continue its course: A long whistle blow. (Página 111 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674830000000/6ce47ca1-7dc9-47d5-8f62-bbea9d6a1a2fM.jpg",
+      "number": "5.",
+      "question": "Un agente, con toques de silbato cortos y frecuentes, ordena...\nAn agent, with short and frequent whistle blows, is ordering...",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Detenerse y permanecer en el interior del vehículo.\nStop and remain inside the vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Señalizar la inmovilización con las luces de emergencia y detener el vehículo inmediatamente.\nSignal the stop with hazard lights and stop the vehicle immediately."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Inmovilizar su vehículo inmediatamente.\nStop the vehicle immediately."
+        }
+      ],
+      "help": "2 Police Officers and corresponding signalling                 2.4 Signals from a vehicle  2.4.5 Intermittent or flashing yellow or red lightsThe driver of the vehicle must:Stop, on the right hand side, in front of the police vehicle, in a place where it does not cause a risk to other road users and with consideration to all aspects of road safety.Remain inside the vehicle, unless the police officer indicates differently.Follow the instructions that the police officer explains through the megaphone system or other system that the police may use.(Página 111 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635701352180000000/f9c904c6-b269-4688-ad61-b3a7c14c2541M.jpg",
+      "number": "6.",
+      "question": "Desde un vehículo policial un agente hace señales al vehículo que circula delante para que se detenga, ¿qué debe hacer su conductor?\nFrom a police vehicle, a police officer makes signals to the vehicle that is driving in front for it to stop. What must the driver do?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Que es necesario circular con precaución.\nThat you must drive carefully."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La necesidad de extremar la precaución ante la proximidad de un vehículo especial.\nYou must take extra care when approaching a special vehicle."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Que la calzada queda temporalmente cerrada al tráfico.\nThat the road is temporarily closed to traffic."
+        }
+      ],
+      "help": "2 Police Officers and corresponding signalling         2.4 Signals from a vehicle2.4.1 Red flagMeans that, after passing the vehicle carrying it, the roadway is temporarily closed to traffic for all vehicles and users, except those accompanied or guarded by the authorised traffic agents.(Página 111 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675180000000/6d065a7f-e9fb-4d68-9cbb-468bed346db7M.jpg",
+      "number": "7.",
+      "question": "¿Qué indica este agente de tráfico?\nWhat is this traffic officer signalling?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "que indican lo mismo que las señales horizontales y en el orden de prioridad ocupan el mismo lugar.\nwhich indicate the same as horizontal signs and have the same priority."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "de balizamiento y tienen prioridad sobre el resto de las señales, excepto las realizadas por los agentes de circulación.\nacting as markers which have priority over other signs, except those indicated by traffic officers."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "que únicamente indican el principio de un nuevo carril.\nwhich solely indicate the start of a new lane."
+        }
+      ],
+      "help": "Road signalling                 1 General rules  1.4 Order of priority amongst the signalling devices  1 Signals and orders given by agents of the authority in charge of traffic surveillance exercising the functions of their jobs.  2 Circumstantial signage and beaconing that alters the normal use of the road, delimiting devices, and beaconing signals.3 Traffic lights.  4 Traffic road signs.   5 Road markings.    (Página 109 del manual 'Learning to drive')3 Circumstantial signalling, beaconing elements and vehicle restraint systems               3.2 Beaconing elements    3.2.1 Delimiting devices  3.2.1.4 Temporary edge beacons, cones or similar devicesForbids road users from crossing the area identified or highlighted by the presence of these devices and draws an imaginary line to unite the individual devices that cannot be crossed.(Página 112 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675230000000/fb74b061-8c7f-44fa-9ac9-bece071e7434M.jpg",
+      "number": "8.",
+      "question": "Los conos de la imagen son elementos...\nThe cones in the image are elements...",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "una curva, el sentido de la misma y el nivel de peligrosidad.\na bend, its direction and its level of danger."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "únicamente una curva y el sentido de la misma.\na bend and its direction only."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "una curva y su nivel de peligrosidad, únicamente.\na bend and its level of danger, only."
+        }
+      ],
+      "help": "3 Circumstantial signals and signalling used for traffic guidance               3.2 Barrier and guiding devices     3.2.2 Guiding devices    3.2.2.3 Permanent directional panelsElements intended to mark the layout of a curve in relation to the speed reduction required to navigate it more safely, while also indicating the direction of traffic and aiding the driver’s perception.The number of panels indicates the severity of the bend or curve and the degree of danger:Single panel: moderate danger.Double panel: medium danger.Triple panel: high danger.(Página 113 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675240000000/0b0bd207-fb06-46f0-bdcb-3e349e7a14aaM.jpg",
+      "number": "9.",
+      "question": "Los paneles direccionales permanentes indican...\nPermanent directional panels indicate...",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "permiten el paso con precaución.\nallows you to proceed with caution."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "prohíben temporalmente el paso.\ntemporarily prohibits passage."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "obligan a moderar la velocidad antes de pasar.\nmeans that you must reduce your speed before proceeding."
+        }
+      ],
+      "help": "4 Traffic lights   4.2 Traffic lights for vehicles4.2.2 Intermittent red light or two alternatively intermittent red lights (flashing)The temporarily passage and access is prohibited to all vehicles.This type of traffic light is normally located:Before a railway crossing, an entrance to a moving bridge or pontoon bridge.In the proximity of a fire station or the location where fire engines exit.On the approach to an airfield or where airplanes may fly at a low altitude.(Página 115 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638035939120000000/41b16bf7-ad44-47b7-9ea3-bba668c0d325M.jpg",
+      "number": "10.",
+      "question": "Una luz roja intermitente o dos luces rojas alternativamente intermitentes de un semáforo...\nA flashing red light or two red lights flashing in alternation at a traffic light...",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, puede continuar la marcha con precaución.\nNo, they can keep driving carefully."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, debe obedecer las indicaciones del semáforo.\nYes, they must obey the traffic light."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, las indicaciones del semáforo solo le afectan si pretende seguir de frente.\nNo, the traffic light only applies if you intend to drive straight ahead."
+        }
+      ],
+      "help": "4 Traffic lights   4.2 Traffic lights for vehicles4.2.1 Non intermittent red light (steady red)If the traffic light is within the intersection or on the opposite side, vehicles must not enter the intersection or pass, if it exists, the stop line located before it.Note: Failure to stop at a red light could result in 4 points being deducted.(Página 115 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676340000000/c686c108-d100-4aa3-810e-54de35f97596M.jpg",
+      "number": "11.",
+      "question": "El vehículo de la imagen quiere cambiar de dirección a la derecha. ¿Está obligado a detenerse?\nThe vehicle in the image wants to turn right. Do they need to stop?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Detener el vehículo.\nStop the vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Extremar la precaución y, en su caso, ceder el paso a ambos lados.\nExercise extreme caution and, where appropriate, give way to both sides."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Continuar con precaución, el semáforo en amarillo intermitente exime de cumplir la señal vertical.\nProceed with caution, the flashing yellow traffic light overrides the vertical sign."
+        }
+      ],
+      "help": "4 Traffic lights   4.2 Traffic lights for vehicles4.2.4 Intermittent yellow light or two alternatively intermittent yellow lights (flashing)This obligates the driver to take extreme care, proceeding only when it is safe, and where necessary giving way:Vehicles that approach on the cross street, both from the left and from the right.To pedestrians who are crossing the road, if it applies.Note: They do not exempt drivers from obeying other road signs that may require them to stop.(Página 115 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638858617950000000/64369a4f-3b3b-47fd-8580-b11f797a8cbdM.jpg",
+      "number": "12.",
+      "question": "En esta intersección con un semáforo en amarillo intermitente, ¿qué debe hacer?\nWhat should you do at this intersection where there is a flashing yellow light?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Pasar antes de que se encienda la luz roja.\nProceed before the red light shows."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Detenerme, siempre y cuando pueda hacerlo sin peligro.\nStop, if safe."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Ceder el paso y después pasar.\nGive way and then proceed."
+        }
+      ],
+      "help": "4 Traffic lights   4.2 Traffic lights for vehicles4.2.3 Non intermittent yellow light (steady amber)This has the same meaning as a red light. It is necessary to stop unless to stop may cause an accident or there is not sufficient room to stop safely before the traffic light and stop line.(Página 115 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636613848100000000/7082e0b2-98ef-4f55-b9c5-56435f1c1e09M.jpg",
+      "number": "13.",
+      "question": "En el semáforo se enciende la luz amarilla no intermitente, ¿qué debe hacer?\nThere is a non-flashing amber traffic light. What should you do?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "la dirección de la flecha, y tienen prioridad en la intersección.\nin the direction of the arrow, and they have right of way at the intersection."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "cualquier dirección.\nin any direction."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "la dirección de la flecha, dejando pasar a los vehículos que circulen por la vía transversal.\nin the direction of the arrow, giving way to oncoming vehicles from the crossing road."
+        }
+      ],
+      "help": "4 Traffic lights         4.2 Traffic lights for vehicles4.2.7 Green arrowA green arrow that is illuminated on a black background means that the vehicles can proceed in the direction indicated. (Página 116 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676310000000/96f55344-7d8e-4854-9a27-28407670e286M.jpg",
+      "number": "14.",
+      "question": "La luz verde en forma de flecha del semáforo significa que los vehículos pueden pasar en...\nThe green light in an arrow shape on a traffic light means that vehicles can proceed...",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Seguir de frente.\nContinue forwards."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Girar a la derecha.\nTurn right."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Esperar a que el semáforo cambie para seguir recto.\nWait until the traffic light changes to continue straight."
+        }
+      ],
+      "help": "4 Traffic lights           4.2 Traffic lights for vehicles 4.2.7 Green arrowIf a vehicle is in a lane that is not reserved when the green arrow activates, but is the lane that vehicles must use that want to follow the arrow, the vehicle must advance in this direction only if a vehicle behind it wants to follow this direction.If there is no vehicle behind that wants to follow the direction of the arrow, the vehicle may remain in the lane until it is permitted to go in the direction it wishes to take.(Página 116 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673850000000/b936b8d6-4fcc-4977-8559-7984087a3542M.jpg",
+      "number": "15.",
+      "question": "El conductor de este turismo pretende seguir recto pero los vehículos situados detrás de él quieren girar a la derecha, ¿qué debe hacer?\nThe driver of this car wants to continue straight, but the vehicles behind want to turn right. What should they do?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "obliga a continuar por donde indica la flecha.\nmeans that you must proceed in the direction of the arrow."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "permite seguir circulando extremando la precaución.\nmeans that you can proceed exercising caution."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "prohíbe circular por donde indica la flecha.\nprohibits driving in the direction of the arrow."
+        }
+      ],
+      "help": "4 Traffic lights       4.2 Traffic lights for vehicles4.2.6 Black arrowA black arrow on a red light (background) or on a yellow background (intermittent or not) has the same meaning as if were a red or amber light (without the arrow). The difference in this instance is that the arrow, limits the meaning exclusively to the direction shown.  (Página 116 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634913485420000000/afa7fc58-8cb3-42fb-aa03-a6f424d2ebc1M.jpg",
+      "number": "16.",
+      "question": "Un semáforo con una flecha negra sobre una luz roja fija...\nA traffic light with a black arrow on a fixed red light...",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "debe ceder el paso a los demás vehículos.\nyou must give way to the other vehicles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "puede pasar, cediendo el paso a los peatones\nyou may pass, giving way to pedestrians."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "está permitido el paso y con preferencia de paso.\nyou are permitted to pass and you have priority."
+        }
+      ],
+      "help": "4 Traffic lights     4.2 Traffic lights for vehicles 4.2.5 Non intermittent green light (steady green) It permits vehicles to proceed and grants priority to them at the junction. (Página 116 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674590000000/630e61f5-c627-4ee2-a940-e2b9adb74178M.jpg",
+      "number": "17.",
+      "question": "La luz verde de un semáforo circular para vehículos indica que...\nThe green light on a circular traffic light for vehicles indicates that...",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Que está prohibido ocupar el carril sobre el que se encuentra situado.\nThat you cannot drive in the lane under the sign."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Que, temporalmente, no se puede circular por la vía así señalizada.\nThat, temporarily, you cannot drive on the road indicated."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Que la calzada está cerrada al tráfico.\nThat the road is closed to traffic."
+        }
+      ],
+      "help": "4 Traffic lights   4.3 Square traffic lights for vehicles or lanes4.3.1 Red x-shaped lightThe red x-shaped light forbids drivers from travelling in this lane.Drivers who are in this lane, when the x-shaped light illuminates must leave this lane immediately, but must keep in mind their safety and the safety of others when changing lanes.(Página 117 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674670000000/99a677ae-6fa8-4199-9f47-b6cc7e966294M.jpg",
+      "number": "18.",
+      "question": "Un semáforo de carril con una luz roja en forma de aspa, ¿qué indica?\nWhat does a red traffic light in a cross shape mean?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, porque el semáforo tiene prioridad sobre las señales verticales.\nNo, because traffic lights have priority over vertical signs."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, porque la flecha verde da prioridad de paso.\nNo, because the green arrow gives you right of way."
+        }
+      ],
+      "help": "4 Traffic lights   4.3 Square traffic lights for vehicles or lanes4.3.2 Green illuminated arrowThe green arrow does not exempt the driver from complying with the following:The obligation to stop at a red traffic light.The obligation to obey any other sign or signal that requires the driver to stop or to give-way.Complying with the general rules on traffic priority in the absence of signals regulating it.(Página 117 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674990000000/d75063fb-358f-4fde-9566-e901dad4679dM.jpg",
+      "number": "19.",
+      "question": "Si sobre su carril hay un semáforo cuadrado con una flecha verde, ¿debe obedecer una señal de stop o de ceda el paso?\nIf there is a square traffic light over your lane with a green arrow, should you obey a stop sign or give way sign?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Ciclomotores.\nMopeds."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Motocicletas y ciclomotores.\nMotorcycles and mopeds."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Bicicletas.\nBicycles."
+        }
+      ],
+      "help": "4 Traffic lights     4.4 Traffic lights reserved for specific vehicles 4.4.1 Traffic lights reserved for cyclesWhen the traffic lights show the illuminated picture of a cycle, then it refers exclusively to cycles.These traffic lights have the same meaning as the corresponding colours for normal circular traffic lights.(Página 117 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635452576090000000/6853be19-d556-4587-afc2-a81cb15593d3M.jpg",
+      "number": "20.",
+      "question": "¿Qué usuarios de la vía deben obedecer este semáforo?\nWhich road users should obey this traffic light?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Intersección con prioridad sobre incorporación por la derecha.\nJunction with priority over vehicles merging from the right."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Intersección donde se debe ceder el paso.\nJunction where you must give way."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cruce con prioridad de la derecha.\nCrossroads with right of way to the right."
+        }
+      ],
+      "help": "5 Vertical Signs      5.2 Signs that warn of danger P-1c Junction with priority over merging traffic from the rightDanger due to the proximity of a junction with merging traffic from the right, whose users must give way.(Página 119 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635071533150000000/9e546dd9-f38a-45ba-95a9-50df78ad62e8M.jpg",
+      "number": "21.",
+      "question": "Esta señal, ¿qué indica?\nWhat does this sign mean?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Paso a nivel provisto de barreras o semibarreras.\nLevel crossing with barriers or half-barriers."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Paso a nivel sin barreras.\nLevel crossing without barriers."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cruce de tranvía.\nTram crossing."
+        }
+      ],
+      "help": "5 Vertical Signs        5.2 Signs that warn of danger  P-7 Level crossing with barriersDanger due to the proximity of a level crossing with barriers or half-barriers.(Página 120 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676430000000/363c3a59-36d7-4e7e-9300-da054724f8e1M.jpg",
+      "number": "22.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "una curva peligrosa hacia la izquierda.\na dangerous bend to the left."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "una sucesión de curvas peligrosas, la primera a la izquierda.\na succession of dangerous bends, the first of which is to the left."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "dos curvas peligrosas seguidas.\ntwo dangerous bends, one after the other."
+        }
+      ],
+      "help": "5 Vertical Signs                  5.2 Signs that warn of danger  P-14b Series of bends, first to the leftDanger due to the proximity of a series of closely spaced dangerous curves, the first of which bends to the left.(Página 121 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674930000000/88694a8d-f7b5-45ab-8370-1aa4996288abM.jpg",
+      "number": "23.",
+      "question": "Esta señal anuncia la proximidad de...\nThis sign announces that you are approaching...",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Peligro por pendiente descendente.\nHazard due to a descending slope."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Peligro por pendiente ascendente.\nHazard due to an ascending slope."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Peligro por escalón lateral.\nHazard due to a raised step."
+        }
+      ],
+      "help": "5 Vertical Signs                    5.2 Signs that warn of danger P-16a Steep hill - downwardsDanger due to a sharp descent. The figure indicates the slope as a percentage (on a stretch of 100 meters the vehicle drops 10 meters). (Página 121 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638858621350000000/6af4ac65-1d54-451e-8008-b5753df7a018M.jpg",
+      "number": "24.",
+      "question": "¿Qué indica la señal?\nWhat does this sign indicate?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "una calzada con pavimento en mal estado.\na road with the surface in bad condition."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "un paso para peatones elevado.\nan elevated pedestrian crossing."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "un cambio de rasante.\na change of gradient."
+        }
+      ],
+      "help": "5 Vertical Signs                  5.2 Signs that warn of danger  P-15 Uneven surfaceDanger due to the proximity of a projection or pothole in the road or pavement in poor condition. The sign advises you to reduce your speed, as the hazard to be encountered could result in damage to your vehicle, such as the suspension etc., if it is negotiated too fast.(Página 121 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638240682800000000/33078e6d-fa95-4f39-811f-042655efc6d4M.jpg",
+      "number": "25.",
+      "question": "Esta señal advierte de la proximidad de...\nThis sign warns of the approach of...",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Peligro por la proximidad de una zona de la calzada cuyo pavimento puede resultar deslizante.\nDanger to the proximity of an area of the road where the surface may be slippery."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Peligro por la proximidad de un tramo cuyo pavimento puede resultar deslizante a causa del hielo o la nieve.\nDanger to the proximity of a stretch of road where the surface may be slippery due to ice or snow."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Peligro por la posible existencia de obstáculos en la vía.\nDanger due to possible obstacles on the road."
+        }
+      ],
+      "help": "5 Vertical Signs                        5.2 Signs that warn of danger P-19 Slippery RoadDanger due to the proximity of a road, that maybe slippery.(Página 121 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675140000000/52097e7a-0b0c-481d-9e90-8789a8123951M.jpg",
+      "number": "26.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Prioridad de paso en sentido contrario.\nPriority right-of-way in the opposite direction."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Circulación en los dos sentidos.\nTwo-way traffic."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Vía con dos carriles para el mismo sentido.\nA road with two lanes in the same direction."
+        }
+      ],
+      "help": "5 Vertical Signs                              5.2 Signs that warn of danger  P-25 Two-way trafficDanger due to the proximity of an area where traffic moves in both directions.(Página 122 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638618271230000000/f3387ed1-c953-4218-b371-289fe7ea9faeM.jpg",
+      "number": "27.",
+      "question": "¿Qué indica la señal?\nWhat does this sign indicate?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "una pendiente con pavimento en mal estado.\na slope with paving in poor condition."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "un muelle o en una corriente de agua.\na dock or stretch of water."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "una zona que hay obras.\nan area with roadworks."
+        }
+      ],
+      "help": "5 Vertical Signs                              5.2 Signs that warn of danger P-27 Quayside or PierDanger because the path leads to a quay or a water flow.At night or in rainy weather the driver may mistake the surface of the water for the roadway. (Página 122 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675690000000/5915abfc-18c4-4d8d-93ca-ed941edbca94M.jpg",
+      "number": "28.",
+      "question": "La señal indica, peligro debido a que la vía desemboca en...\nThe sign indicates danger as the road leads to...",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Obstrucción de la calzada.\nAn obstruction on the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Pavimento deslizante.\nA slippery surface."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Escalón lateral.\nA raised step."
+        }
+      ],
+      "help": "5 Vertical Signs                              5.2 Signs that warn of danger P-32 Obstruction in the roadDanger due to the proximity of a place where vehicles may obstruct the roadway, due to a breakdown, accident, or other cause.(Página 123 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673970000000/266e0b96-dcfc-4bb9-bde5-a3372d261562M.jpg",
+      "number": "29.",
+      "question": "¿De qué peligro nos advierte esta señal?\nWhat hazard is this sign indicating?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "en toda la población.\nthroughout the built-up area."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "desde la vertical de la señal hasta la próxima intersección.\nfrom the sign until the next intersection."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "en la travesía.\non the road through the built-up area."
+        }
+      ],
+      "help": "5 Vertical Signs     5.3 Regulation road signs5.3.1 Common objective, classes and rulesRegulation signs placed next to or vertically to a sign bearing the name of a town means that the regulation applies throughout the town, except if there is later another different regulation indicated via other signs on different sections of the road.(Página 123 del manual 'Learning to drive')5 Vertical Signs                                                                     5.3 Regulation road signs      5.3.5 Other signs relating to prohibition or restriction  R-308 No parkingNo parking on the side of the roadway where the road sign is located. Unless otherwise indicated, the prohibition starts at the vertical position of the road sign and ends at the next junction.Does not forbid stopping.(Página 127 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638859317850000000/84e6e2ec-f4b9-4960-893f-7dc5f8a89944M.jpg",
+      "number": "30.",
+      "question": "Esta señalización prohíbe estacionar...\nThis sign prohibits parking...",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

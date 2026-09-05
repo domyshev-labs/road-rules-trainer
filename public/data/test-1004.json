@@ -1,0 +1,733 @@
+{
+  "test_id": 1004,
+  "title": "The driver 2",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Las últimas horas de la mañana.\nThe final hours of the morning."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Las últimas horas de la tarde y las primeras de la mañana.\nThe final hours of the afternoon and the first hours of the morning."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Las horas de la madrugada y las primeras horas de la tarde.\nThe final hours of the early morning and the first hours of the afternoon."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES 11.1 Causes of drowsinessThe most common factors that facilitate the onset of sleep and lead to drowsiness are:The time of day. The early hours of the morning (especially between 3 and 5 a.m.) and early afternoon (roughly between 2 and 4 p.m.) are especially favourable for the onset of drowsiness, even if the driver has slept enough.(Página 38 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634662921770000000/e7c95cde-55d9-45ad-8e96-515801f2e70bM.jpg",
+      "number": "1.",
+      "question": "¿Cuáles son las horas especialmente propicias para la aparición del sueño en el conductor?\nWhen are drivers most likely to become tired?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "el sueño puede aparecer de un momento a otro.\ntiredness can come on suddenly."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "los efectos de la fatiga hacen que el conductor dé positivo en un control de alcoholemia.\nthe effects of fatigue on the driver make them test positive on a breathalyser test."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la agudeza visual aumenta y se ven los objetos borrosos.\nvisual acuity increases and objects appear blurry."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES    11 DrowsinessThe associated factor of drowsiness appears with fatigue: feeling tired and sleepy occurs frequently with the onset of fatigue.One of the greatest dangers when driving is tiredness (drowsiness) leading to falling asleep at the wheel. This accounts, either directly or indirectly, in between 15 and 30% of traffic collisions.(Página 38 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482414400000000/b134b79d-fe84-48d1-a332-aba35079e898M.jpg",
+      "number": "2.",
+      "question": "Para evitar un accidente, un conductor con fatiga al volante debe parar a descansar de forma adecuada cuanto antes porque...\nTo avoid an accident, a driver who is tired at the wheel must stop to rest in a suitable location as soon as possible because...",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, puede resultar útil porque ayudan a mantener la atención del conductor a largo plazo.\nYes, it can be useful because it helps the driver to remain attentive in the long term."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, en ningún caso.\nNo, never."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, puede resultar útil a corto plazo, pero lo más recomendable para evitar el sueño es descansar.\nYes, it can be useful in the short term, but the most advisable way to avoid drowsiness is to rest."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES 11.1 Causes of drowsinessThe use of stimulants and sedatives. Some substances, like alcohol or certain medicines, can have a sedative effect. Large meals thatare rich in fats may also promote the need for sleep. Light stimulants (coffee, tea, some energy drinks etc.,) may be useful in the short term, but the effects can wear off suddenly, catching the driver off guard.Individual differences. Some people are more awake in the morning and may become sleepier in the afternoon, whilst others are not so affected by the lack of sleep, medication or monotony when driving.(Página 39 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677210000000/ccc8af15-1902-4d27-a12e-c41406db51daM.jpg",
+      "number": "3.",
+      "question": "El uso de sustancias estimulantes como el café, ¿resulta útil para vencer el sueño?\nIs the use of stimulants such as coffee useful in overcoming drowsiness?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, 20-30 minutos cada 2 horas de conducción o cada 200 kilómetros.\nYes, for 20-30 minutes every 2 hours or every 200 kilometres."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, si el viaje es por vías interurbanas.\nNo, if the journey is on interurban roads."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, porque se alarga el tiempo del viaje y aumenta la fatiga del conductor.\nNo, because it lengthens journeys and increases driver fatigue."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES  12 Remedies to counteract fatigue and drowsinessThe recommendations to prevent accidents due to fatigue or lack of sleep can be summarised by three simple rules:At least every 2 hours or every 200 kilometres take a rest of at least 20 or 30 minutes. These intervals should be shortened if the driver shows any signs or symptoms of fatigue and sleepiness.If the signs for fatigue or sleepiness appear locate a convenient place to park and sleep for a period of time (20 or 30 minutes are usually sufficient). Continuing without resting multiplies the risk of a traffic collision occurring.(Página 40 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678660000000/13db8cf9-9def-4bf9-a893-667e6de099a1M.jpg",
+      "number": "4.",
+      "question": "¿Es recomendable descansar durante los viajes?\nIs it advisable to rest when travelling?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, solamente realiza un seguimiento de varios aspectos de la cara y los combina con datos de circulación.\nNo, it only monitors several aspects of the face and combines them with traffic data."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, utiliza un sistema de sensores situados en el volante que miden la temperatura corporal del conductor.\nNo, it uses a system of sensors located on the steering wheel that measure the driver's body temperature."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES     13 Driver Distraction and Drowsiness Recognition (DDR) The system assesses the driver’s level of attention in situations where he/she may lose concentration at the wheel, because of fatigue, sleepiness or other reasons.The system monitors several aspects of the driver’s face, including how open his/her eyes are. It also analyses driving patterns and the driver’s reactions, combining them with driving speed data, the time and the use of indicators. If it detects that the driver is tired, it warns him/her by an acoustic or visual alert (displaying a coffee cup on the dashboard) or by making the steering wheel or seat vibrate, indicating the need for a break.(Página 40 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634855494910000000/8db58fcc-89c6-4e67-a1d4-18786d97daa9M.jpg",
+      "number": "5.",
+      "question": "El sistema de detección de fatiga, ¿analiza los patrones de conducción y las reacciones del conductor para detectar si hay cansancio en el conductor?\nDoes the fatigue detection system analyse driving patterns and the driver's reactions to detect tiredness in the driver?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "alerta al conductor antes de que ocurra un accidente para que se tome un descanso.\nalerts the driver before an accident occurs so that the driver can take a break."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "alerta al conductor de que el sistema procederá a detener el vehículo para que estacione correctamente.\nalerts the driver that the system will stop the vehicle so they can park correctly."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "detiene automáticamente el vehículo para así evitar accidentes.\nautomatically stops the vehicle to prevent accidents."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES     13 Driver Distraction and Drowsiness Recognition (DDR) The system assesses the driver’s level of attention in situations where he/she may lose concentration at the wheel, because of fatigue, sleepiness or other reasons.The system monitors several aspects of the driver’s face, including how open his/her eyes are. It also analyses driving patterns and the driver’s reactions, combining them with driving speed data, the time and the use of indicators. If it detects that the driver is tired, it warns him/her by an acoustic or visual alert (displaying a coffee cup on the dashboard) or by making the steering wheel or seat vibrate, indicating the need for a break.(Página 40 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637105328500000000/902d072a-9d22-4675-ad30-48739afff899M.jpg",
+      "number": "6.",
+      "question": "En situaciones en las que el conductor pierde la concentración al volante, ya sea por fatiga o sueño, el sistema de advertencia de somnolencia y distracción (DDR)...\nIn situations where the driver loses concentration at the wheel, whether due to fatigue or sleepiness, the system Driver Distraction and Drowsiness Recognition (DDR)...",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Un periodo de unos segundos durante el cual el conductor sueña mientras está conduciendo.\nA period of a few seconds during which the driver is dreaming while driving."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Un periodo de unos segundos durante el cual el conductor queda ligeramente dormido sin darse cuenta.\nA period of a few seconds during which the driver falls asleep without realising it."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Un periodo corto de descanso que el conductor realiza cuando siente fatiga.\nA short period of rest that the driver takes when experiencing fatigue."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES       11.1 Causes of drowsinessCauses periods of napping, falling off asleep for only a few seconds, without the driver really being aware of this but during which time they were also unaware of what was happening around them.This may last for about four or five seconds, which at 90 kilometres per hour means a vehicle has travelled more than 100 metres, for enough to suffer a fatal accident.(Página 40 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678620000000/bc539b5f-a175-498d-95a2-1308f6b0287bM.jpg",
+      "number": "7.",
+      "question": "¿Qué es un microsueño?\nWhat is a microsleep?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "aunque sea consumido en pequeñas cantidades.\neven when consumed in small amounts."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "salvo para quienes están habituados a su consumo.\nexcept for those who are used to consuming alcohol."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "excepto si se consume en pequeñas cantidades.\nexcept when consumed in small amounts."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS 15 The effects of alcohol in road traffic collisionsAlcohol is a psycho-depressive drug, that, even in small doses, negatively affects driving, disrupting the driver’s skills and abilities. It goes into the bloodstream and spreads throughout the body, affecting mainly the brain and the eyes.(Página 40 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480636840000000/f1b97252-546e-497b-ae66-64877e890487M.jpg",
+      "number": "8.",
+      "question": "El alcohol es siempre peligroso para la seguridad vial...\nAlcohol is always dangerous for road safety…",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "0,5 gramos por litro.\n0.5 grams per litre."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "0,8 gramos por litro.\n0.8 grams per litre."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "0,3 gramos por litro.\n0.3 grams per litre."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS        16 Alcohol limits Legal limits  Vehicles: All vehicles, including bicycles and personal mobility vehicles (except those listed below).BrAC: 0,25 mg/l  BAC: 0,5 g/l(Página 41 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635458708750000000/b2c6b18c-2e90-4540-b453-99bf43787c73M.jpg",
+      "number": "9.",
+      "question": "Como norma general, está prohibido conducir turismos con una tasa de alcohol en sangre superior a...\nAs a general rule, it is prohibited to drive a car with a blood alcohol concentration exceeding…",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "0,25 miligramos por litro de aire espirado.\n0.25 milligrams per litre of exhaled air."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "0,15 miligramos por litro de aire espirado.\n0.15 milligrams per litre of exhaled air."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "0,3 miligramos por litro de aire espirado.\n0.3 milligrams per litre of exhaled air."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS        16 Alcohol limits Legal limits Vehicles: Vehicles used for carrying: passengers with more than nine seats, school pupils and minors, dangerous goods, public service vehicles that carry passengers, emergency service vehicles and special transport vehicles.  BrAC: 0,15 mg/l BAC: 0,3 g/l(Página 41 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679270000000/9bea4f99-ea19-4c80-80aa-978505fff18aM.jpg",
+      "number": "10.",
+      "question": "¿Cuál es la tasa de alcohol en aire espirado que no podrá superar el conductor de un vehículo que realiza transporte escolar?\nWhat is the limit of alcohol in exhaled air that must not be exceeded by the driver of a school transport vehicle?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "0,15 miligramos de alcohol por litro de aire espirado.\n0.15 milligrams of alcohol per litre of exhaled air."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "0,30 miligramos de alcohol por litro de aire espirado.\n0.30 milligrams of alcohol per litre of exhaled air."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "0,25 miligramos de alcohol por litro de aire espirado.\n0.25 milligrams of alcohol per litre of exhaled air."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS        16 Alcohol limits Legal limits  Vehicles: All vehicles, including bicycles and personal mobility vehicles (except those listed below).BrAC: 0,25 mg/l  BAC: 0,5 g/l(Página 41 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636299201120000000/b7cbb049-52ff-4600-85a0-5e95fbd3eea1M.jpg",
+      "number": "11.",
+      "question": "Tiene el permiso A1 desde hace dos años y acaba de obtener el B, ¿cuál será la tasa máxima de alcohol permitida cuando conduzca un turismo?\nYou have held an A1 license for two years and you have just obtained your B license. What is the maximum alcohol concentration level permitted when you are driving a private car?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A los hombres.\nMen."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Los efectos del alcohol no dependen del sexo de la persona.\nThe effects of alcohol do not depend on the person's gender."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "A las mujeres.\nWomen."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS   16.1 Factors affecting alcohol limitsAlcohol does not affect everyone equally. The main factors affecting alcohol limits are:The weight of the person. Having consumed the same amount, a slimmer person will suffer the greater effects of alcohol than a person who is of a thicker set. The sex of the person. Even if a person is of the same weight and has consumed the same volume and strength of drink, there is more likelihood that a woman will reach a higher level of blood alcohol content than a man due to physiological differences between the sexes. (Página 41 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636298420570000000/c4b8ddc9-23cf-43ab-845b-d8c59dc03208M.jpg",
+      "number": "12.",
+      "question": "En general, ¿a quiénes afecta más el alcohol?\nIn general, who is most affected by alcohol?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "0,30 miligramos por litro.\n0.30 milligrams per litre."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "0,25 miligramos por litro.\n0.25 milligrams per litre."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "0,15 miligramos por litro.\n0.15 milligrams per litre."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS        16 Alcohol limits Legal limits  Vehicles: All vehicles, including bicycles and personal mobility vehicles (except those listed below).BrAC: 0,25 mg/l  BAC: 0,5 g/l(Página 41 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449589940000000/b39d9d1e-2022-4742-a655-50f21ee1df6dM.jpg",
+      "number": "13.",
+      "question": "Para conducir un camión de menos de 3.500 kg de MMA, la tasa máxima autorizada de alcohol en aire espirado es...\nTo drive a lorry with a gross vehicle weight of less than 3,500 kg, the maximum authorised alcohol content in exhaled air is...",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "0,10 mg/l en aire espirado = 0,2 g/l en sangre.\n0.10 mg/l in exhaled air = 0.2 g/l in blood."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "0,25 mg/l en aire espirado = 0,5 g/l en sangre.\n0.25 mg/l in exhaled air = 0.5 g/l in blood."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "0,15 mg/l en aire espirado = 0,3 g/l en sangre.\n0.15 mg/l in exhaled air = 0.3 g/l in blood."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS        16 Alcohol limits Legal limits Vehicles: Vehicles used for carrying: passengers with more than nine seats, school pupils and minors, dangerous goods, public service vehicles that carry passengers, emergency service vehicles and special transport vehicles.  BrAC: 0,15 mg/l BAC: 0,3 g/l(Página 41 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634297490240000000/f4eab680-ed61-430f-9349-16a1f30b1310M.jpg",
+      "number": "14.",
+      "question": "Los dos primeros años de su primer permiso, ¿cuál es la tasa máxima de alcohol si es mayor de edad?\nFor the first two years of your first licence, what is the maximum alcohol limit if you are of legal age?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "0,30 miligramos por litro de aire espirado.\n0.30 milligrams per litre of exhaled air."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "0,15 miligramos por litro de aire espirado.\n0.15 milligrams per litre of exhaled air."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "0,25 miligramos por litro de aire espirado.\n0.25 milligrams per litre of exhaled air."
+        }
+      ],
+      "help": "2 Driver documentation       2.5 Novice driversA person who obtains their first driving licence (permission to drive) will be considered a novice driver during the first year of holding their licence, as long as this period is not interrupted i.e. due to suspension etc. If a licence is reissued within this year, then the period is extended to take in to account the period of suspension.(Página 22 del manual 'Learning to drive')ALCOHOL AND OTHER DRUGS        16 Alcohol limits Legal limits  Vehicles: All vehicles, including bicycles and personal mobility vehicles (except those listed below).BrAC: 0,25 mg/l  BAC: 0,5 g/l(Página 41 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485848100000000/08865bbd-72eb-4625-82c0-693509f914f8M.jpg",
+      "number": "15.",
+      "question": "Un conductor con tres años de antigüedad en el permiso AM acaba de obtener el permiso B. ¿Cuál es su tasa máxima permitida de alcohol?\nA driver has had an AM licence for three years just obtained their B licence. What is their maximum permitted alcohol concentration level?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "pierde entre 4 y 6 puntos de su permiso de conducir.\nloses between 4 and 6 points on their driving licence."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "pierde 2 puntos de su permiso de conducir.\nloses 2 points on their driving licence."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "solo puede ser sancionado con una multa de hasta 600 euros.\ncan only be penalised with a fine of up to 600 euros."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS            16 Alcohol limits  Driving with a BrAC greater than 0.50 milligrams per litre (more than 0.30 milligrams per litre for professional drivers and licence holders with less than two years experience) could result in the deduction of 6 points.More than 0.25 and up to 0.50 milligrams per litre of breath (greater than 0.15 and up to 0.30 milligrams per litre for professional drivers and licence holders with less than two years experience) could result in the loss of 4 points.Driving over the limit of 1.2 grams per litre in the blood or 0.60 milligrams per litre in a breathalyser test is an offence punishable by the Criminal Code.(Página 41 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634799425430000000/b53ec9dd-e709-4237-8aec-7058f7a1e3a8M.jpg",
+      "number": "16.",
+      "question": "Un conductor que tenga un resultado positivo en una prueba de detección de alcoholemia...\nA driver who has a positive result on a breathalyser test...",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "depende de la masa máxima autorizada del vehículo con el que se realice el transporte.\ndepends on the maximum authorized mass of the vehicle transporting the merchandise."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "es de 0,15 miligramos por litro en aire espirado.\nis 0.15 milligrams per litre of exhaled air."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "es de 0,3 miligramos por litro en aire espirado.\nis 0.3 milligrams per litre of exhaled air."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS        16 Alcohol limits Legal limits Vehicles: Vehicles used for carrying: passengers with more than nine seats, school pupils and minors, dangerous goods, public service vehicles that carry passengers, emergency service vehicles and special transport vehicles.  BrAC: 0,15 mg/l BAC: 0,3 g/l(Página 41 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677970000000/07a0c247-fd17-429b-a603-81e8aeb41fbcM.jpg",
+      "number": "17.",
+      "question": "La tasa máxima de alcohol en aire espirado para conducir vehículos que transportan mercancías peligrosas...\nThe maximum limit of alcohol in exhaled air permitted when driving vehicles transporting dangerous merchandise...",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Los conductores de vehículos de movilidad personal no tienen tasa máxima de alcoholemia.\nThere is no maximum level of alcohol for drivers of personal mobility vehicles."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "0,25 miligramos por litro de aire espirado.\n0.25 milligrams per litre of exhaled air."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "0,15 miligramos por litro de aire espirado.\n0.15 milligrams per litre of exhaled air."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS        16 Alcohol limits Legal limits  Vehicles: All vehicles, including bicycles and personal mobility vehicles (except those listed below).BrAC: 0,25 mg/l  BAC: 0,5 g/l(Página 41 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637545112530000000/1f56c99d-4ab0-4659-b151-9c3225f3fe36M.jpg",
+      "number": "18.",
+      "question": "Para una persona mayor de edad, ¿cuál es la tasa máxima de alcohol permitida para poder conducir un vehículo de movilidad personal?\nFor a person of legal age, what is the maximum permitted level of alcohol to drive a personal mobility vehicle?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "entre 30 y 90 minutos después de haber ingerido el alcohol.\nbetween 30 and 90 minutes after you have drunk the alcohol."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "inmediatamente después de tomar la última copa.\nimmediately after you have your last drink."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "dos horas después de tomar la última copa.\ntwo hours after you have your last drink."
+        }
+      ],
+      "help": "Alcohol concentration in the blood does not reach its maximum immediately after the last drink. It normally peaks between 30 and 90 minutes after drinking, although the exact time varies depending on factors such as whether food has been eaten, the type of drink, body characteristics and the speed of consumption.",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636299227240000000/867fe0a5-3b56-4e6e-b96f-12de65a9f3f9M.jpg",
+      "number": "19.",
+      "question": "El efecto de la alcoholemia alcanza su máximo nivel...\nThe concentration of alcohol in your blood reaches its maximum level…",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, si se duerme un par de horas.\nYes, if you sleep a couple of hours."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, cuando se duerme bien.\nYes, when you sleep well."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS       16.1 Factors affecting alcohol limitsThe state of vigilance. Alcohol is eliminated more slowly when the person sleeps than when they are awake, so it is possible that if someone goes to sleep having consumed a large amount of alcohol, when they wake, they will, in addition to having a potential hangover, still be over the legal limit. Therefore, it may not be enough to sleep for a few hours and then drive. The following diagram demonstrates that the blood alcohol content begins to rise after the first drink, reaching an ultimate peak. It then shows the time it takes to reduce this level after having reached a maximum rate just over 2 g/l.The speed at which the drink is consumed. If consumption occurs over a period of time, the body may remove a portion of alcohol before receiving the next dose, thereby achieving the peak blood alcohol limit at a somewhat lower level than if the same amount of alcohol is taken in a shorter time.(Página 42 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676750000000/7777ce6c-665e-467d-98bf-6a72d57e0b28M.jpg",
+      "number": "20.",
+      "question": "Durmiendo un poco, ¿se consigue eliminar más rápidamente el alcohol?\nDoes getting a little sleep help to eliminate alcohol more quickly?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, la absorción se realiza por el organismo a un ritmo constante, independientemente de la bebida.\nNo, absorption is carried out by the body at a constant rate regardless of the drink."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, se absorbe más rápidamente el alcohol de las bebidas destiladas.\nYes, alcohol from distilled drinks is absorbed faster."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, se absorbe más rápidamente el alcohol de las bebidas fermentadas.\nYes, alcohol from fermented drinks is absorbed faster."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS       16.1 Factors affecting alcohol limitsThe time that has elapsed since the alcohol was consumed. It is possible to detect alcohol 5 minutes after consuming it. Over time this increases and a maximum is reached (called peak blood alcohol content) about an hour later. (Note: This may vary between 30 and 90 minutes) The level starts to fall below this maximum level very slowly with the effects lasting for    several hours and it will not completely disappear for a further period of time.The type of drink and method of ingestion. Alcohol is absorbed more quickly in distilled beverages (such as whiskey or gin) than through fermented drinks (such as beer or wine). In addition, hot drinks or carbonated drinks (fizzy ones such as tonics or other soft drinks) accelerate the absorption of alcohol.(Página 42 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674720000000/32980a69-50dd-4734-8e5c-4864c3e32bd4M.jpg",
+      "number": "21.",
+      "question": "El tiempo de absorción del alcohol, ¿depende de la bebida ingerida?\nDoes the absorption time for alcohol depend on the drink ingested?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, la aumenta.\nYes, it increases it."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, en ningún caso.\nNo, never."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, la disminuye.\nYes, it reduces it."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS         16.2 Effects of AlcoholChanges that alcohol produces in the driver’s perception of the traffic environment:Drivers wrongly perceive traffic signals and the lights at traffic lights or other vehicles.Drivers incorrectly judge distances and the speed of other vehicles.Increases sensitivity to glare.Drivers suffer a reduction of the field of vision (tunnel vision).(Página 43 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681370000000/4e731150-c73f-4048-9c72-4d7a7e9f91e3M.jpg",
+      "number": "22.",
+      "question": "El consumo de alcohol, ¿altera la posibilidad de deslumbramiento de un conductor?\nDoes alcohol consumption affect the likelihood of a driver being dazzled?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "la ampliación del campo visual.\nan increase in the visual field."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "la incorrecta percepción del tiempo y del espacio.\nan incorrect perception of time and space."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la disminución de la distancia de detención.\na decrease in the stopping distance."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS       17 Influence of drugs in road traffic collisionsThe consumption of illegal drugs is related to many of the most serious accidents. A person driving under the influence of drugs puts all those around him/her at serious risk of accidents.One of the effects of drugs is that risk perception decreases and some drugs can cause the driver to have an incorrect perception of time and space. The consumption of drugs will never improve reaction time. For people who take drugs and drive, the probability of having an accident is greater. It is forbidden to drive any vehicle with presence of drugs in the body. Substances excluded are those used under medical prescription and for therapeutic purposes, provided that the driver is able to manage the vehicle and drive with diligence, precaution and without distractions.Driving with drugs present in the body may result in the loss of 6 points.(Página 43 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634438255020000000/b06d4f5e-acf1-4618-a906-3094772cf3f8M.jpg",
+      "number": "23.",
+      "question": "Uno de los efectos que algunas drogas pueden producir en el conductor es...\nOne of the effects that some drugs may produce on a driver is...",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "proporcionan un estado de relajación.\ncreate a state of relaxation."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "son muy breves, pero pueden reaparecer por sorpresa algún tiempo después.\nare brief but may reappear unexpectedly some time later."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "pueden llegar a prolongarse de 10 a 12 horas desde su consumo.\nmay continue for 10 to 12 hours after its consumption."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS         17.1 Effects of the most common drugs  17.1.4 LSDIt causes severe distortions in perception and hallucinations.It can cause emotional disturbances and aggressive reactions to the events experienced when driving, as well as anxiety or even panic.Such reactions can last about 10-12 hours.It causes flashbacks whilst driving.(Página 44 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636294880140000000/db9c8a77-2608-4e73-9f77-1a4427c24a82M.jpg",
+      "number": "24.",
+      "question": "Los efectos que provoca el LSD en el comportamiento del conductor...\nThe effects that LSD has on the behaviour of the driver...",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Disminuye su capacidad de concentración.\nIt decreases the driver's ability to concentrate."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Provoca un agotamiento físico y mental mientras que están presentes los síntomas.\nIt causes physical and mental exhaustion while symptoms are present."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Reduce su sensibilidad al deslumbramiento.\nIt reduces their sensitivity to glare."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS       17.1 Effects of the most common drugs 17.1.3 Ecstasy (MDMA)It can cause optical illusions (for example, flashes to the periphery of the visual field) leading to the driver driving dangerously and making evasive manoeuvres.It can cause the user to experience periods of increased sensitivity to light (and therefore a greater tendency to be affected by glare), or episodes of blurred vision.It reduces the ability to concentrate on the traffic and surroundings, which can lead to an increase risk of distraction.It can cause episodes of depression or anxiety, both of which maybe very dangerous while driving.It can cause physical and mental exhaustion after the symptoms disappear.It can cause flashbacks whilst driving (this revives the effects of the drug several hours after use).(Página 44 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677420000000/5ce25e2e-5e25-4af2-a990-9ef6449524a9M.jpg",
+      "number": "25.",
+      "question": "El consumo de éxtasis, ¿cómo afecta en el comportamiento del conductor?\nHow does taking Ecstasy affect driver behaviour?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Aumento de la capacidad de concentración.\nAn increase in the ability to concentrate."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Episodios de depresión o ansiedad.\nMoments of depression or anxiety."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Disminución del tiempo de reacción.\nA decrease in reaction time."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS       17.1 Effects of the most common drugs 17.1.3 Ecstasy (MDMA)It can cause optical illusions (for example, flashes to the periphery of the visual field) leading to the driver driving dangerously and making evasive manoeuvres.It can cause the user to experience periods of increased sensitivity to light (and therefore a greater tendency to be affected by glare), or episodes of blurred vision.It reduces the ability to concentrate on the traffic and surroundings, which can lead to an increase risk of distraction.It can cause episodes of depression or anxiety, both of which maybe very dangerous while driving.It can cause physical and mental exhaustion after the symptoms disappear.It can cause flashbacks whilst driving (this revives the effects of the drug several hours after use).(Página 44 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676770000000/c5a0bd06-9f7d-44a4-b0ff-bdceb5f1475fM.jpg",
+      "number": "26.",
+      "question": "¿Qué efectos puede producir en el conductor el consumo de éxtasis?\nWhat effects could the consumption of ecstasy produce on a driver?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "estabilidad emocional.\nmental stability."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "fatiga.\nfatigue."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "alucinaciones y distorsiones en la percepción.\nhallucinations and distortion in perception."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS         17.1 Effects of the most common drugs  17.1.4 LSDIt causes severe distortions in perception and hallucinations.It can cause emotional disturbances and aggressive reactions to the events experienced when driving, as well as anxiety or even panic.Such reactions can last about 10-12 hours.It causes flashbacks whilst driving.(Página 44 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677410000000/a39951fc-4217-4d3d-aa0a-71fcc2930c15M.jpg",
+      "number": "27.",
+      "question": "El consumo de LSD produce en el conductor…\nThe consumption of LSD produces in the driver…",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Disminuye la capacidad de concentración del conductor.\nIt decreases the driver's ability to concentrate."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La percepción del conductor no varía.\nThe driver's perception does not change."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "El conductor desarrolla un comportamiento menos agresivo.\nThe driver develops less aggressive behaviour."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS       17.1 Effects of the most common drugs 17.1.2 CocaineIt may cause competitive behaviour or even aggressive behaviour towards other drivers.It may cause more impulsive behaviours, which increases the likelihood of a serious error whilst driving.It causes drivers to overestimate their abilities behind the wheel and take more risks.It leads to more traffic offences being committed and generally to dangerous driving.It alters the driver’s perception of the surroundings (road etc).It reduces the ability to maintain concentration, thus increasing the likelihood of distractions.(Página 44 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636294993830000000/b345a251-def8-407b-9e3c-680b202442bbM.jpg",
+      "number": "28.",
+      "question": "¿Cómo afecta el consumo de cocaína a la conducción?\nHow does consuming cocaine affect driving?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "alteración de la percepción del entorno.\nIt alters your perception of your surroundings."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "menor dificultad para calcular las distancias.\nYou find it harder to calculate distances."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "conducta más agresiva.\nYou behave more aggressively."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS     17.1 Effects of the most common drugs17.1.1 CannabisIt alters the perception of the surroundings (for example, the driver’ vision, colours).It alters the perception of time and space, so it becomes more difficult to calculate distances.It reduces the driver’ ability to concentrate, so there is a greater likelihood of suffering a distraction whilst driving.It increases the reaction time.It may provoke a strong feeling of drowsiness whilst driving.(Página 44 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677400000000/faf1571f-c484-40bc-8be9-a81f26b6f64eM.jpg",
+      "number": "29.",
+      "question": "Los efectos del cannabis afectan a la conducción por una...\nThe effects of cannabis affects driving in the following way:",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "cualquier usuario de la vía o conductor de vehículo.\nany road user or vehicle driver."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "cualquier usuario de la vía con síntomas de estar bajo sus efectos.\nany road users appearing to be under the influence."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "los conductores que sean denunciados por alguna infracción.\ndrivers who are reported for any violation."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS         18 Screening for blood alcohol or drugsIn order to detect this antisocial behaviour, tests to detect alcohol or drugs will be used. These tests are mandatory for:All road users or drivers of vehicles directly involved as possible persons responsible for a traffic accident.Any driver of a vehicle showing symptoms of being under the effects of these substances.(Página 45 del manual 'Learning to drive')ALCOHOL AND OTHER DRUGS     18.1 Tests to detect alcohol and drugs All drivers who have been reported for a traffic offence and other road users when they have committed an offence.All drivers who are requested to carry out a test at a police traffic control.Refusal to comply with the obligation to submit to an alcohol detection test or a drug detection test may result in the loss of 6 points.Refusal to do an alcohol detection test or a drug detection test is an offense publishable under the Criminal Code. (Página 45 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636295041120000000/139eb8fe-1f3d-4a7b-b1b5-fecda0737eabM.jpg",
+      "number": "30.",
+      "question": "Los agentes podrán someter a la prueba de detección de estupefacientes, psicotrópicos u otras sustancias análogas a...\nPolice officers are allowed to submit to a test to detect the presence of narcotics, psychotropic drugs and similar substances...",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

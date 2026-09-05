@@ -1,0 +1,733 @@
+{
+  "test_id": 1005,
+  "title": "The driver 3",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Todos los usuarios de la vía.\nAll road users."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Únicamente los conductores de vehículos a motor.\nOnly motor vehicle drivers."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Los conductores de bicicletas.\nCyclists."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS         18 Screening for blood alcohol or drugsIn order to detect this antisocial behaviour, tests to detect alcohol or drugs will be used. These tests are mandatory for:All road users or drivers of vehicles directly involved as possible persons responsible for a traffic accident.Any driver of a vehicle showing symptoms of being under the effects of these substances.(Página 45 del manual 'Learning to drive')ALCOHOL AND OTHER DRUGS     18.1 Tests to detect alcohol and drugs All drivers who have been reported for a traffic offence and other road users when they have committed an offence.All drivers who are requested to carry out a test at a police traffic control.Refusal to comply with the obligation to submit to an alcohol detection test or a drug detection test may result in the loss of 6 points.Refusal to do an alcohol detection test or a drug detection test is an offense publishable under the Criminal Code. (Página 45 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634774303030000000/370a8270-44cc-4685-9f6a-3ced248c9ba1M.jpg",
+      "number": "1.",
+      "question": "En un control preventivo, ¿quiénes están obligados a someterse a las pruebas que se establezcan para la detección de alcoholemia?\nAt a sobriety checkpoint, who is required to take a test to detect the presence of alcohol?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero la segunda prueba solo se podrá realizar mediante análisis de sangre.\nYes, but the second test can only be done by blood testing."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, pero debe transcurrir entre la realización de la primera y la segunda prueba un tiempo mínimo de 10 minutos.\nYes, but a minimum of 10 minutes must pass between the first and second test."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No y además los agentes procederán a inmovilizar el vehículo.\nNo, and the officers will immobilise the vehicle."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS     18.1 Tests to detect alcohol and drugs  If the test result is positive or even negative and the person presents obvious symptoms of being under the influence of alcohol, the investigating official will require a second test of exhaled air to test for alcohol. This provides further factual evidence and acts to compare the first test.Under these circumstances, the ‘official’ (police officer) shall inform the person concerned that there is a requirement for the second controlled test and that they have the right to inform other appropriate parties of this, so that witnesses can be present. There is a minimum time set of ten minutes between these tests.(Página 45 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634795895240000000/dd11c790-a01b-4ae8-bad9-4ed9af14fa04M.jpg",
+      "number": "2.",
+      "question": "Si a un conductor se le detecta una tasa de 0,3 miligramos por litro de aire espirado, ¿puede el agente solicitar una segunda prueba?\nIf a driver returns a rate of 0.3 milligrams per litre of exhaled air, can a traffic officer request a second test?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo cuando el conductor sea responsable de un accidente con víctimas mortales.\nOnly when the driver is responsible for an accident involving fatalities."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, las sanciones son exclusivamente económicas.\nNo, the penalties are only financial."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS 18 Screening for blood alcohol or drugsDriving under the influence of alcohol or drugs is punishable by increasingly stricter penalties, including prison sentences.(Página 45 del manual 'Learning to drive')ALCOHOL AND OTHER DRUGS    18.2 Test resultsIf the outcome of the test is positive, the offence is deemed as being very serious, the driver is punished by way of a fine, withdrawal of between 4 and 6 points and, as it is considered a crime against traffic safety, it is also punishable by judicial imprisonment, community service work and / or removal of the right to drive for several years.If the results are negative but the driver displayed obvious symptoms of being under the influence of alcohol or drugs, law enforcement officers can relay this to the Courts by way of other evidence and data.(Página 45 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635400800110000000/88a3bc91-8c58-448c-9317-6bd7a8b8afdcM.jpg",
+      "number": "3.",
+      "question": "La conducción bajo los efectos del alcohol o de las drogas, ¿está considerada delito en el código penal?\nIs driving under the effects of alcohol or drugs considered a criminal offence?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Cuando desaparezca la causa que la motivó.\nWhen the reason for immobilisation ends."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Cuando el agente entregue al conductor el boletín de denuncia.\nWhen the officer gives the ticket to the driver."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando el conductor viaje con menores de edad.\nIf the driver is travelling with children."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS 18.3 Immobilisation of the vehicleIf the result of tests for alcohol or drugs were positive, the official (police officer) also has the power to prevent the vehicle from continuing any further. They also may detain the vehicle where the driver has refused to carry out such tests. As soon as the driver is fit to drive or another person is able to drive the vehicle on the driver’s behalf the detention ceases to have effect and the vehicle is eligible to continue.(Página 45 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634708725280000000/ba815be5-6cfd-4f5e-8f22-6687b1d74b27M.jpg",
+      "number": "4.",
+      "question": "Los agentes de tráfico inmovilizan un vehículo cuando su conductor tiene una tasa de alcohol mayor de la permitida. ¿Cuándo se dejará sin efecto dicha inmovilización?\nTraffic officers immobilise a vehicle when the driver presents an alcohol level higher than permitted. When will this immobilisation end?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero solo cuando el conductor esté implicado en un accidente.\nYes, but only when the driver is involved in an accident."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, las únicas pruebas obligatorias son las de alcoholemia.\nNo, the only mandatory tests are breathalyser tests."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, igual que las pruebas de investigación de alcoholemia.\nYes, just like breathalyser tests."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS         18 Screening for blood alcohol or drugsIn order to detect this antisocial behaviour, tests to detect alcohol or drugs will be used. These tests are mandatory for:All road users or drivers of vehicles directly involved as possible persons responsible for a traffic accident.Any driver of a vehicle showing symptoms of being under the effects of these substances.(Página 45 del manual 'Learning to drive')ALCOHOL AND OTHER DRUGS     18.1 Tests to detect alcohol and drugs All drivers who have been reported for a traffic offence and other road users when they have committed an offence.All drivers who are requested to carry out a test at a police traffic control.Refusal to comply with the obligation to submit to an alcohol detection test or a drug detection test may result in the loss of 6 points.Refusal to do an alcohol detection test or a drug detection test is an offense publishable under the Criminal Code. (Página 45 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677160000000/a8846284-bc3c-43cd-a830-332f47765175M.jpg",
+      "number": "5.",
+      "question": "Las pruebas de detección de sustancias estupefacientes, ¿son obligatorias?\nAre tests for narcotic substances mandatory?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "una menor capacidad para mantener la concentración en el tráfico.\nreduced ability to maintain concentration in traffic."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "un retraso en la aparición del sueño.\na delay in the onset of drowsiness."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "una disminución del tiempo de reacción.\na decrease in reaction time."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION  20 Some illnesses that can affect driving20.1 Respiratory allergiesAllergic rhinitis can reduce the psycho-physical fitness to drive by up to 42%, causing alterations such as the loss of efficiency, lack of attention, a lower concentration level and decreased ability of visual coordination. It reduces the ability to judge stopping distance, thus increasing the risk of a collision.The most common symptoms of this illness are very similar to those of a simple cold: Runny nose, watery eyes, blurred vision, bouts of sneezing (sometimes up to 20 in a row), fatigue, headache, and so on.(Página 46 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676780000000/58357d62-d6db-4c62-827e-302b664444a0M.jpg",
+      "number": "6.",
+      "question": "Los síntomas de las alergias respiratorias pueden producir...\nSymptoms of respiratory allergies may lead to…",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero resultan tan familiares que no es necesario tomar precauciones especiales.\nYes, but they are so common that it is not necessary to take any special precautions."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, apenas tienen efectos negativos.\nNo, they cause hardly any negative effects."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, y resultan tan familiares que a veces se olvidan sus síntomas.\nYes, and they are so common that sometimes we forget about their symptoms."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION       19 The consequences of illnesses and drugs in traffic collisionsTo drive a vehicle requires certain conditions relating to the physical and mental aptitude of the driver to be initially satisfied and thereafter maintained. It is therefore necessary to go to a designated medical centre for drivers who will verify whether there is a serious impediment to the applicant or driver, which will prevent them performing this task safely.A mild illness does not have to exclude driving, although it can reduce the ability to drive safely (for example, a common cold can cause sleepiness and loss of concentration). Therefore, you should always ask your doctor about the precautions to be taken before driving, especially if you have a chronic illness.(Página 46 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482397580000000/f59ac644-d5b2-4a5c-ad80-0fc734636fd6M.jpg",
+      "number": "7.",
+      "question": "Las gripes, resfriados y alergias, ¿afectan a la conducción?\nDo colds, allergies or the flu, have an affect on driving?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, todas las enfermedades son igual de peligrosas.\nYes, all illnesses are as dangerous as each other."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, las enfermedades crónicas no son peligrosas.\nNo, chronic illnesses are not dangerous."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, algunos trastornos neurológicos y enfermedades mentales son más peligrosas.\nNo, some neurological conditions and mental illnesses are more dangerous."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION   19 The consequences of illnesses and drugs in traffic collisionsNeurological disorders and mental illnesses are illnesses that are associated with an increased risk of being involved in a traffic collision. They are followed by drug addictions and diabetes, and to a lesser degree, cardiovascular diseases, disorders of the musculoskeletal system / arthritis, hearing problems and eye problems.Patients with psychiatric illness, if they follow the appropriate treatment, need not present a risk to road safety.(Página 46 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480714280000000/659ed537-4502-48bd-a93c-fc2f90d99467M.jpg",
+      "number": "8.",
+      "question": "Todas las enfermedades, ¿son igual de peligrosas para la conducción?\nAre all illnesses as dangerous as each other when driving?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, siempre.\nYes, always."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, porque no se consideran medicamentos.\nNo, because they are not considered medicines."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, en determinados casos.\nYes, in certain cases."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION 19 The consequences of illnesses and drugs in traffic collisionsSooner or later, everybody suffers from an illness that requires medication to treat it. Not all illnesses, or medications that are prescribed, present the potential risk that the driver will become involved in a road traffic collision due to the nature of the medicine or their state of health.In Spain, more than 75% of people who are in treatment claim not to have received any information as to the possible side effects of the medication they are taking, despite the fact that the package contains information within it relating to its effects and especially the effects when driving.This situation is unsatisfactory and extremely dangerous since it is estimated that the consumption of drugs is responsible, directly or indirectly,for 10% of traffic collisions, whereby the basic skills of the driver have been affected.(Página 46 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676930000000/bf267101-a560-47ca-8cf0-77c86b0b1f16M.jpg",
+      "number": "9.",
+      "question": "Las medicinas alternativas o naturales, ¿pueden producir efectos negativos en la conducción?\nCan alternative or natural medicines have negative effects on driving?",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Disminución de la fatiga y el sueño.\nReduced fatigue and sleepiness."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Comportamientos excesivamente prudentes.\nExcessively cautious behaviour."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "La toma de decisiones al volante puede ser más lenta.\nTheir decision-making at the wheel can be slower."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION      20 Some illnesses that can affect driving  20.2 StressStress can have the following effects on the driver:An increase in the level of aggressiveness, competitiveness and hostility toward other drivers.Behaviour that may become reckless and where there is the possibility of taking high level risks when driving.An increase in the tendency to disregard road signs and traffic rules.A reduction in the ability to make decisions. It takes more time to think and reactions become slower with the potential for more errors.A lower level of concentration whilst driving in traffic, which increases the likelihood of being distracted.The speeding up and emergence of fatigue when driving.(Página 47 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482520410000000/7ad1ec82-0dc6-4d62-9da9-f160771cd36bM.jpg",
+      "number": "10.",
+      "question": "El estrés, ¿qué efectos puede tener sobre el conductor?\nWhat effects can stress have on a driver?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "sea más hostil con los demás usuarios.\nbe more hostile to other road users."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "asuma menos riesgos.\ntake fewer risks."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "respete más la señalización.\nbe more respectful of road signs."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION      20 Some illnesses that can affect driving  20.2 StressStress can have the following effects on the driver:An increase in the level of aggressiveness, competitiveness and hostility toward other drivers.Behaviour that may become reckless and where there is the possibility of taking high level risks when driving.An increase in the tendency to disregard road signs and traffic rules.A reduction in the ability to make decisions. It takes more time to think and reactions become slower with the potential for more errors.A lower level of concentration whilst driving in traffic, which increases the likelihood of being distracted.The speeding up and emergence of fatigue when driving.(Página 47 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674740000000/16ada24c-c4bf-45df-aa77-4a01743f39ddM.jpg",
+      "number": "11.",
+      "question": "El estrés hace que el conductor...\nStress leads drivers to…",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "que está totalmente prohibido conducir si se toma algún medicamento.\ndriving is absolutely prohibited if you are taking any kind of medicine."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "que los medicamentos recetados por el médico, no influyen en la capacidad para conducir.\nmedicaments prescribed by doctors do not affect the capacity to drive."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "que hay medicamentos que influyen negativamente en la atención y el tiempo de reacción.\nthere are medicaments that have a negative effect on concentration and reaction time."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION 21 Some drugs that can affect drivingMedicines are used to cure and treat illnesses, but a misuse of these substances can lead under certain circumstances to a high number of road traffic collisions.Not all drugs negatively affect the abilities needed to drive safely, although it is important to know what affect they may have on the driver. Some drugs are considered safe, such as painkillers; whilst others can cause euphoria, sedation, dizziness, impaired concentration and cognitive ability, passiveness, etc.(Página 48 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636693288680000000/92403f3a-20e8-4755-906a-35a3188202ccM.jpg",
+      "number": "12.",
+      "question": "Si conduce, y se encuentra en tratamiento médico con medicamentos, debe saber...\nIf you drive, and you are under medical treatment and taking medicaments, you must know that...",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, algunos pueden tener efectos negativos.\nYes, some can have negative effects."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, todos los medicamentos afectan a la conducción.\nYes, all medicines affect driving."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION 21 Some drugs that can affect drivingMedicines are used to cure and treat illnesses, but a misuse of these substances can lead under certain circumstances to a high number of road traffic collisions.Not all drugs negatively affect the abilities needed to drive safely, although it is important to know what affect they may have on the driver. Some drugs are considered safe, such as painkillers; whilst others can cause euphoria, sedation, dizziness, impaired concentration and cognitive ability, passiveness, etc.(Página 48 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634438255020000000/b06d4f5e-acf1-4618-a906-3094772cf3f8M.jpg",
+      "number": "13.",
+      "question": "Los medicamentos que no necesitan receta médica, ¿afectan a la conducción?\nDoes non-prescription medication affect driving?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "no es recomendable conducir de noche o por entornos monótonos o durante muchas horas.\ndriving at night, in monotonous environments or for many hours in a row is not recommendable."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "no debemos conducir hasta pasada al menos una hora de habernos medicado.\nyou should not drive until at least one hour after taking medication."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "si no nos medicamos no tiene efectos sobre la conducción.\nif you are not taking medication, it does not affect your driving."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION     20 Some illnesses that can affect driving 20.3 DepressionIt is the most common form of mental suffering. The principal symptoms are: a sad mood, anxious or empty feeling, listlessness, lack of energy and feelings of hopelessness and pessimism. If suffering from depression, it is best to get specialist assistance as soon as possible.(Página 48 del manual 'Learning to drive')ILLNESS AND MEDICATION     20 Some illnesses that can affect driving  20.3 DepressionDepression affects the capabilities of the driver:Increasing distractions. The driver focuses all his attention on his thoughts and neglects the surroundings.Making valuable information become lost or irrelevant. The driver fails to detect significant information needed for safety and requiring driver reaction, especially in more complex situations.Increasing insecurity. Depression interferes in the decision-making process, so the driver can make mistakes or act unpredictably.Increasing the propensity for sleepiness and fatigue. It is advisable not to drive at night or in environments where road monotony may occur or for long periods of time.Increasing irritability and anxiety. A trivial event can provoke a disproportionate reaction by the driver.In addition, there is usually the need for psychotropic drugs, which can directly affect the ability to drive.(Página 48 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635143251330000000/bb169760-80fa-4a36-a8f1-b6a9a459e3c6M.jpg",
+      "number": "14.",
+      "question": "La depresión es una grave enfermedad que se sufre cada vez con más frecuencia. Si se padece debemos saber que…\nDepression is a serious illness that is on the rise. If you suffer from it, you should know that...",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "tiene un claro efecto sobre nuestras capacidades para conducir un vehículo con seguridad.\nit has a clear effect on your ability to drive a vehicle safely."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "no debemos conducir hasta pasada al menos una hora de habernos medicado.\nyou should not drive until at least one hour after taking medication."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "si no nos medicamos no tiene efectos sobre la conducción.\nif you are not taking medication, it does not affect your driving."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION     20 Some illnesses that can affect driving 20.3 DepressionIt is the most common form of mental suffering. The principal symptoms are: a sad mood, anxious or empty feeling, listlessness, lack of energy and feelings of hopelessness and pessimism. If suffering from depression, it is best to get specialist assistance as soon as possible.(Página 48 del manual 'Learning to drive')ILLNESS AND MEDICATION     20 Some illnesses that can affect driving  20.3 DepressionDepression affects the capabilities of the driver:Increasing distractions. The driver focuses all his attention on his thoughts and neglects the surroundings.Making valuable information become lost or irrelevant. The driver fails to detect significant information needed for safety and requiring driver reaction, especially in more complex situations.Increasing insecurity. Depression interferes in the decision-making process, so the driver can make mistakes or act unpredictably.Increasing the propensity for sleepiness and fatigue. It is advisable not to drive at night or in environments where road monotony may occur or for long periods of time.Increasing irritability and anxiety. A trivial event can provoke a disproportionate reaction by the driver.In addition, there is usually the need for psychotropic drugs, which can directly affect the ability to drive.(Página 48 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634872842580000000/e0ff339a-fe95-43ab-b876-bf1f77861334M.jpg",
+      "number": "15.",
+      "question": "La depresión es una grave enfermedad que se sufre cada vez con más frecuencia. Si se padece debemos saber que…\nDepression is a serious illness that is on the rise. If you suffer from it, you should know that...",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "se tiene más seguridad.\nyou are safer."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "disminuyen las distracciones.\nyou are distracted less."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "se pierde información del entorno.\nyou lose information about your surroundings."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION     20 Some illnesses that can affect driving  20.3 DepressionDepression affects the capabilities of the driver:Increasing distractions. The driver focuses all his attention on his thoughts and neglects the surroundings.Making valuable information become lost or irrelevant. The driver fails to detect significant information needed for safety and requiring driver reaction, especially in more complex situations.Increasing insecurity. Depression interferes in the decision-making process, so the driver can make mistakes or act unpredictably.Increasing the propensity for sleepiness and fatigue. It is advisable not to drive at night or in environments where road monotony may occur or for long periods of time.Increasing irritability and anxiety. A trivial event can provoke a disproportionate reaction by the driver.In addition, there is usually the need for psychotropic drugs, which can directly affect the ability to drive.(Página 48 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449597510000000/8b7e0358-ac8d-45f7-878d-571c9ba8a02cM.jpg",
+      "number": "16.",
+      "question": "Bajo los efectos de la depresión...\nUnder the effects of a depression...",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Ninguno.\nNone."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Ansiedad y tranquilidad.\nAnxiety and tranquillity."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Distracciones y somnolencia.\nDistractions and sleepiness."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION     20 Some illnesses that can affect driving  20.3 DepressionDepression affects the capabilities of the driver:Increasing distractions. The driver focuses all his attention on his thoughts and neglects the surroundings.Making valuable information become lost or irrelevant. The driver fails to detect significant information needed for safety and requiring driver reaction, especially in more complex situations.Increasing insecurity. Depression interferes in the decision-making process, so the driver can make mistakes or act unpredictably.Increasing the propensity for sleepiness and fatigue. It is advisable not to drive at night or in environments where road monotony may occur or for long periods of time.Increasing irritability and anxiety. A trivial event can provoke a disproportionate reaction by the driver.In addition, there is usually the need for psychotropic drugs, which can directly affect the ability to drive.(Página 48 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636301957280000000/a4d9010a-6fe7-40bc-821b-f7003ad3e5b4M.jpg",
+      "number": "17.",
+      "question": "La depresión, ¿qué efectos produce en la conducción?\nWhat effects does depression have on driving?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, ya que pueden mezclarse sin problemas con otros medicamentos.\nYes, as they can be mixed without problems with other medicaments."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, producen somnolencia como todos los antihistamínicos.\nNo, they cause drowsiness like all antihistamines."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, pero no deben mezclarse con alcohol o con otros medicamentos.\nYes, but they must not be mixed with alcohol or with other medicines."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION      21 Some drugs that can affect driving  21.1 AntihistaminesThese are drugs used to combat allergies.  The most dangerous ones to affect driving are the socalled ‘first generation’ type. The risk of an accident under the influence of these drugs is similar to that of driving with a blood alcohol content between 0.5 g/l and 0.8 g/l.The most modern (third generation) do usually cause drowsiness, but can produce adverse effects when mixed alcohol or other drugs.Many antihistamines do not require a prescription, so there may be people who take these drugs without knowing their side effects. As always, if in doubt consult the doctor or pharmacist.(Página 48 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485962900000000/9b2c15d1-2d94-442b-a48c-50b0a5f5df08M.jpg",
+      "number": "18.",
+      "question": "Los antihistamínicos modernos, ¿son más seguros para la conducción?\nAre modern antihistamines safer for driving?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, ya que los medicamentos siempre producen los mismos efectos.\nYes, because medications always produce the same effects."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, ya que circunstancias individuales como la fatiga o estar en ayunas pueden variar los efectos.\nNo, because individual circumstances such as fatigue or not having anything in your stomach may vary the effects."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, depende únicamente del estado físico.\nNo, it only depends on a person’s physical condition."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION   22 General Precautions Not everyone responds well or the same to medication. The age, the habit of use, physical condition of the user or other circumstances may vary the effects of the drugs.It is therefore necessary to adopt a series of precautions:Always consult the doctor or pharmacist.Use medications properly.Never self-medicate.Never mix drugs with alcohol.Consult the package insert for each drug to see the affects when driving. Any medications that may reduce the ability to drive or operate machinery must be identified on the outside of the box with the symbol shown, with the aim of alerting the consumer to read the package insert.(Página 49 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636294963530000000/4812233d-3e5b-4acd-829d-01f662f2b668M.jpg",
+      "number": "19.",
+      "question": "Ante un tratamiento farmacológico, ¿reaccionan todas las personas de igual forma?\nDoes everybody react the same to pharmaceutical treatment?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Los que afecten a la conducción.\nThose that affect driving."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Únicamente los antihistamínicos.\nOnly antihistamines."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Los que son inofensivos para la conducción.\nThose that are safe for driving."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION   22 General Precautions Not everyone responds well or the same to medication. The age, the habit of use, physical condition of the user or other circumstances may vary the effects of the drugs.It is therefore necessary to adopt a series of precautions:Always consult the doctor or pharmacist.Use medications properly.Never self-medicate.Never mix drugs with alcohol.Consult the package insert for each drug to see the affects when driving. Any medications that may reduce the ability to drive or operate machinery must be identified on the outside of the box with the symbol shown, with the aim of alerting the consumer to read the package insert.(Página 49 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637436295790000000/7b913f74-4b18-4a44-849c-b0e051fc4e81M.jpg",
+      "number": "20.",
+      "question": "¿Qué medicamentos deben llevar el símbolo de la imagen?\nWhat medicines should display the symbol in the image?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "debe leer las indicaciones del prospecto y, en caso de duda, consultar al médico o al farmacéutico.\nyou must read the indications on the prospectus and, if you have any doubts, ask your doctor or chemist."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "no es necesario tomar ninguna precaución cuando no se necesita receta médica para poder comprarlos.\nit isn’t necessary to take any special precautions if you do not need a medical prescription to buy it."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "debe esperar al menos dos horas antes de conducir.\nyou must wait at least two hours before driving."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION   22 General Precautions Not everyone responds well or the same to medication. The age, the habit of use, physical condition of the user or other circumstances may vary the effects of the drugs.It is therefore necessary to adopt a series of precautions:Always consult the doctor or pharmacist.Use medications properly.Never self-medicate.Never mix drugs with alcohol.Consult the package insert for each drug to see the affects when driving. Any medications that may reduce the ability to drive or operate machinery must be identified on the outside of the box with the symbol shown, with the aim of alerting the consumer to read the package insert.(Página 49 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636141236960000000/392c9a93-444f-45da-8657-73e745d3dc3fM.jpg",
+      "number": "21.",
+      "question": "Si está tomando medicamentos y va a conducir…\nIf you are taking medication and you are going to drive…",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "disminuye.\ndecreases."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "no varía.\ndoes not change."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "aumenta.\nincreases."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION          21 Some drugs that can affect driving  21.2 The psychoactive (psychotropic) drugsThe effects of psychiatric drugs on driving are:Anxiolytics, sedatives and hypnoticsIncreased sensitivity to sleepiness.More difficulty in maintaining concentration.Increased reaction time.Reflexes and movements slower.Difficulty coordinating movements.Periods of blurred vision and eye fatigue.A magnification of these effects when combined with alcohol. (Página 49 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673830000000/acf21c3e-f919-4e4d-9292-e922935b80f9M.jpg",
+      "number": "22.",
+      "question": "Después de ingerir medicamentos tranquilizantes, el tiempo de reacción...\nAfter ingesting tranquillising drugs, the reaction time...",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el aumento de la agudeza visual.\nincreased visual sharpness."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "la aparición de periodos de somnolencia.\nthe occurrence of periods of sleepiness."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la disminución de la sensibilidad al deslumbramiento.\nreduced sensitivity to glare."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION          21 Some drugs that can affect driving  21.2 The psychoactive (psychotropic) drugsThe effects of psychiatric drugs on driving are:Anxiolytics, sedatives and hypnoticsIncreased sensitivity to sleepiness.More difficulty in maintaining concentration.Increased reaction time.Reflexes and movements slower.Difficulty coordinating movements.Periods of blurred vision and eye fatigue.A magnification of these effects when combined with alcohol. (Página 49 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675240000000/a1362a92-52f1-46a1-999f-254ecc86c2c1M.jpg",
+      "number": "23.",
+      "question": "Uno de los efectos que pueden producir los ansiolíticos es...\nOne of the effects that anxiolytics can produce is...",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "disminuya el tiempo de reacción.\na decrease in reaction time."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "aumente el campo visual.\nan increase in the visual field."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "aumente el tiempo de reacción.\nan increase in reaction time."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION          21 Some drugs that can affect driving  21.2 The psychoactive (psychotropic) drugsThe effects of psychiatric drugs on driving are:Anxiolytics, sedatives and hypnoticsIncreased sensitivity to sleepiness.More difficulty in maintaining concentration.Increased reaction time.Reflexes and movements slower.Difficulty coordinating movements.Periods of blurred vision and eye fatigue.A magnification of these effects when combined with alcohol. (Página 49 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449599590000000/74472ec4-a830-4b29-b39d-c64452d65482M.jpg",
+      "number": "24.",
+      "question": "Los fármacos hipnóticos hacen que...\nSedatives cause...",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, sus efectos son idénticos para todas las personas.\nYes, its effects are identical for all people."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, pueden variar por diversos factores, como el hábito de consumo o el estado físico del conductor.\nNo, they may vary for different reasons, such as consumption habits or the driver's physical condition."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Solo si el tratamiento médico se prolonga en el tiempo.\nOnly if the medical treatment is prolonged over time."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION   22 General Precautions Not everyone responds well or the same to medication. The age, the habit of use, physical condition of the user or other circumstances may vary the effects of the drugs.It is therefore necessary to adopt a series of precautions:Always consult the doctor or pharmacist.Use medications properly.Never self-medicate.Never mix drugs with alcohol.Consult the package insert for each drug to see the affects when driving. Any medications that may reduce the ability to drive or operate machinery must be identified on the outside of the box with the symbol shown, with the aim of alerting the consumer to read the package insert.(Página 49 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482492290000000/578f97d8-c972-4cbf-b4ee-397485644a5dM.jpg",
+      "number": "25.",
+      "question": "Los efectos secundarios de los medicamentos que alteran la capacidad de conducción, ¿se manifiestan de la misma manera en todas las personas?\nDo the side effects of medicines that alter driving ability appear the same in all people?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el llamado efecto rebote.\nthe so-called 'rebound effect'."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "nerviosismo.\nnervousness."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "somnolencia.\ntiredness."
+        }
+      ],
+      "help": "OTHER FACTORS 24 FoodA large meal, which is not easily digested can cause drowsiness and increase driver fatigue. Conversely, if little food is consumed or the period between meals is too long dizziness may occur, which will adversely affect the driver.The advice is to eat light meals or several snacks and to wait some time after a main meal before driving.It is advisable to drink a lot, although you may not feel thirsty, in order to ensure proper hydration and thereby reduce the potential for increased fatigue and sleepiness.The drinking of water or juices is recommended and of course, alcoholic beverages must not be drunk.(Página 50 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636295005330000000/33681aa4-b9c3-4c8b-9932-853e432aa962M.jpg",
+      "number": "26.",
+      "question": "Las comidas copiosas pueden provocar en el conductor...\nLarge meals can cause...",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "muy amplio y suelto porque lo más importante es la estética y la comodidad.\nvery large and loose because what is most important is fashion and comfort."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "de piel u otro material similar que proteja de lesiones en caso de accidente.\nof made of leather or a similar material that protects from injuries in the event of an accident."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "poco vistoso y de colores apagados, para no distraer a los demás conductores.\nvery plain with dark colours, so as not to distract other drivers."
+        }
+      ],
+      "help": "OTHER FACTORS        25 Clothing  25.1 The clothing of motorcyclistA motorcycle does not provide the rider with a secure and protective shell. This makes the rider vulnerable in road traffic collisions; to the elements, such as, in the cold, wind, rain, and so on. The body of the rider and any passenger realises the force of all of these external elements, the weather and any possible impact. It is therefore absolutely essential to use a dress code that adequately protects them all of the time regardless of the time of year.The motorcyclist’s outfit has to be colourful and eye-catching, and should be made of leather or other similar material. It should have contrasting colours and design, with reflective bands that allow it to be distinguished from a distance.A ‘set of leathers’ (a leather jacket and trousers) is advocated, as it will:Does not flap with the air.Protects against the wind during the trip.Provide protection from possible damage, scrapes and consequent rubbing or contact sores to the rider. In the event of falling off abrasive wounds are minimised.(Página 50 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636328623940000000/3d7638d7-da7f-4b22-a65a-f79255853c85M.jpg",
+      "number": "27.",
+      "question": "Es conveniente que el traje del conductor o pasajero de una motocicleta sea...\nIt is recommendable that the suit of the rider or passenger of a motorcycle is...",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "ser resistente a los golpes y a la abrasión en caso de caída.\nresistant to impact and abrasion, in the event of a fall."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "estar muy ajustado al cuerpo para mejorar la estética.\ntight on the body to look as fashionable as possible."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "tener colores oscuros.\ndark in colour."
+        }
+      ],
+      "help": "OTHER FACTORS        25 Clothing  25.1 The clothing of motorcyclistA motorcycle does not provide the rider with a secure and protective shell. This makes the rider vulnerable in road traffic collisions; to the elements, such as, in the cold, wind, rain, and so on. The body of the rider and any passenger realises the force of all of these external elements, the weather and any possible impact. It is therefore absolutely essential to use a dress code that adequately protects them all of the time regardless of the time of year.The motorcyclist’s outfit has to be colourful and eye-catching, and should be made of leather or other similar material. It should have contrasting colours and design, with reflective bands that allow it to be distinguished from a distance.A ‘set of leathers’ (a leather jacket and trousers) is advocated, as it will:Does not flap with the air.Protects against the wind during the trip.Provide protection from possible damage, scrapes and consequent rubbing or contact sores to the rider. In the event of falling off abrasive wounds are minimised.(Página 50 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680830000000/d836ad4c-dfc4-4e7e-8ad7-c0ea06668894M.jpg",
+      "number": "28.",
+      "question": "Un traje adecuado para conducir una motocicleta, debe...\nA suitable suit for riding a motorcycle should be...",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "tengan protector y la máxima cantidad de masa posible.\nof the maximum quality possible and include protection."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "sean de piel y sin dibujo.\nmade from leather and without any pattern."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "sean de piel y con dibujo.\nmade from leather and with a pattern."
+        }
+      ],
+      "help": "OTHER FACTORS      25 Clothing 25.1 The clothing of motorcyclistWhen riding a motorcycle it is recommendable to wear gloves. If the rider falls or slips off typically the hands receive the force and impact as the rider automatically responds with the hands. Inevitably grazes and wounds, subject to the risk also of serious infection, will occur to the hands without gloves. The most suitable type are leather gloves that should not be too restrictive and allow for a firm grip to be maintained. They should be lined and have protective areas, with ventilation whilst also being light in weight.Strong, protective boots are another must for the rider. These protect the feet and ankles (it is advisable that they are higher in length, to also protect the legs). Ideally they should be leather, with small heels, so as to hold well in the stirrups or rests.Always avoid using sandals, sports shoes or other unsuitable footwear that offer only minimal protection.(Página 50 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681010000000/06613cd8-c054-4e05-9838-d1e1fe986095M.jpg",
+      "number": "29.",
+      "question": "Es recomendable que los guantes que se utilicen para conducir una motocicleta...\nIt is recommended that motorcycle riding gloves are...",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Es indiferente, el calzado no influye en la conducción de motocicletas.\nIt does not matter, footwear has no influence on riding a motorcycle."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "OTHER FACTORS      25 Clothing 25.1 The clothing of motorcyclistWhen riding a motorcycle it is recommendable to wear gloves. If the rider falls or slips off typically the hands receive the force and impact as the rider automatically responds with the hands. Inevitably grazes and wounds, subject to the risk also of serious infection, will occur to the hands without gloves. The most suitable type are leather gloves that should not be too restrictive and allow for a firm grip to be maintained. They should be lined and have protective areas, with ventilation whilst also being light in weight.Strong, protective boots are another must for the rider. These protect the feet and ankles (it is advisable that they are higher in length, to also protect the legs). Ideally they should be leather, with small heels, so as to hold well in the stirrups or rests.Always avoid using sandals, sports shoes or other unsuitable footwear that offer only minimal protection.(Página 50 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480645380000000/f8ca0353-c43f-4592-bd2a-8800f492756cM.jpg",
+      "number": "30.",
+      "question": "¿Es adecuado conducir una motocicleta llevando como calzado unas sandalias?\nIs it acceptable to ride a motorcycle wearing sandals?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

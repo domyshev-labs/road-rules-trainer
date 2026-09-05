@@ -1,0 +1,733 @@
+{
+  "test_id": 1007,
+  "title": "Vehicle safety devices 1",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "puede reducir la probabilidad de sufrir un accidente.\ncan reduce the probability of having an accident."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "elimina la probabilidad de sufrir un accidente.\neliminates the probability of having an accident."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "no reduce nunca la probabilidad de sufrir un accidente.\ndoes not reduce the probability of having an accident."
+        }
+      ],
+      "help": "1 Influence of the vehicle in traffic collisions Two factors can effect how the vehicle responds in the event of a traffic collision:Periodic revision and a vehicle maintenance programme; both of which, can prevent deterioration due to lack of care that could cause a traffic collision.The vehicle safety systems that are installed within the car can help to avoid a collision or minimise the impact of severity should it occurs.(Página 61 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635076818210000000/eefad204-c2a6-49c2-b59d-0b9963420ce0M.jpg",
+      "number": "1.",
+      "question": "Un mantenimiento adecuado del vehículo...\nCorrect maintenance of the vehicle...",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, cuando no se hace un uso adecuado.\nYes, when it is not employed properly."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, porque la tecnología no aumenta la seguridad, sino la comodidad en la conducción.\nYes, because technology does not increase safety, just driving comfort."
+        }
+      ],
+      "help": "1 Influence of the vehicle in traffic collisions 1.2 Vehicle safety featuresToday many vehicles incorporate safety features as a standard matter of course. These provide the driver, occupants and other road users with a high level of safety and security when travelling. However, statistics show that new vehicles with greater technological advances, suffer proportionately more accidents than older vehicles, when it would have been logical for the reverse to apply; namely, older vehicles to suffer more collisions.One of the reasons might be that very few drivers know how the new technology works and what the systems provide for their vehicles so that such features, rather than being advantageous, become an inconvenience and sometimes a danger.(Página 61 del manual 'Learning to drive')1 Influence of the vehicle in traffic collisions 1.2 Vehicle safety featuresWhilst, on the other hand, there are many drivers who, knowing that their vehicles have these latest developments installed, feel more secure and, consciously or unconsciously, take more risks, unaware and oblivious to the fact that any security system always operates within certain limits.For a safety system to be effective the driver must know how to operate it and how it works and, above all, how to drive accordingly. It is therefore very important to read carefully the technical manual of the car and learn how to properly use the safety systems installed.(Página 61 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676850000000/38f2bf19-eb8b-4ef8-ae04-9457f3e80a7fM.jpg",
+      "number": "2.",
+      "question": "Un vehículo que dispone de la última tecnología, ¿puede sufrir un accidente?\nCan a vehicle equipped with the latest technology encounter an accident?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "confort.\ncomfort element."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "seguridad activa.\nactive safety element."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "seguridad pasiva.\npassive safety element."
+        }
+      ],
+      "help": "1 Influence of the vehicle in traffic collisions   1.2 Vehicle safety features Passive safety or secondary safety, aim to minimise the damage caused by an accident to those involved, at all times it works to protect the physical body of the individual.Passive safety systems (such as seat belts, airbags or headrests) activate automatically in the event of an accident, without requiring the intervention of the driver.Although its function is to minimise injuries that might occur in an accident, misuse can completely nullify its action. Such misuse could also be dangerous (for example, a head restraint too low could aggravate or cause an injury rather than avoid it).(Página 62 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675050000000/1c297f39-a825-4d71-ac91-23e943ccdaf1M.jpg",
+      "number": "3.",
+      "question": "El reposacabezas es un elemento de...\nThe headrest is a...",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, únicamente de la seguridad activa.\nYes, just an active safety system."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, de seguridad pasiva.\nYes, it is a passive safety system."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "1 Influence of the vehicle in traffic collisions   1.2 Vehicle safety features Passive safety or secondary safety, aim to minimise the damage caused by an accident to those involved, at all times it works to protect the physical body of the individual.Passive safety systems (such as seat belts, airbags or headrests) activate automatically in the event of an accident, without requiring the intervention of the driver.Although its function is to minimise injuries that might occur in an accident, misuse can completely nullify its action. Such misuse could also be dangerous (for example, a head restraint too low could aggravate or cause an injury rather than avoid it).(Página 62 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636329435230000000/5230c6e8-3556-4b47-aca0-ac5b22ab8fefM.jpg",
+      "number": "4.",
+      "question": "El casco, ¿se puede incluir entre los elementos de seguridad?\nIs a helmet part of a safety system?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, son un sistema mecánico del vehículo.\nNo, they are a mechanical system in the vehicle."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, son un elemento de seguridad pasiva.\nNo, they are a passive safety element."
+        }
+      ],
+      "help": "1 Influence of the vehicle in traffic collisions   1.2 Vehicle safety features Active safety is also called primary safety as it is any activity whose purpose is to prevent an accident, acting before it occurs and including preventive measures such as control of the tyres, brakes, etc.Advanced driving assistance systems (ADAS) significantly improve the active safety of the vehicle.Some security features require active intervention by the driver.Lighting, tyres and brakes are active safety systems.(Página 62 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679740000000/7c238d58-4e6c-4b69-80ad-1caaf4eac765M.jpg",
+      "number": "5.",
+      "question": "Los frenos, ¿son un dispositivo de seguridad activa?\nAre brakes an active safety device?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, únicamente sirve para ver y ser visto.\nNo, it only serves to see and be seen."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, de seguridad pasiva.\nYes, it is a passive safety system."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, de seguridad activa.\nYes, it is an active safety system."
+        }
+      ],
+      "help": "1 Influence of the vehicle in traffic collisions   1.2 Vehicle safety features Active safety is also called primary safety as it is any activity whose purpose is to prevent an accident, acting before it occurs and including preventive measures such as control of the tyres, brakes, etc.Advanced driving assistance systems (ADAS) significantly improve the active safety of the vehicle.Some security features require active intervention by the driver.Lighting, tyres and brakes are active safety systems.(Página 62 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636328654130000000/02034b96-102e-4847-9ac9-5aac895c3873M.jpg",
+      "number": "6.",
+      "question": "El alumbrado, ¿se considera un sistema de seguridad del vehículo?\nIs lighting considered a vehicle safety system?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Nada, porque cualquier obstáculo sobre la calzada se verá perfectamente.\nNothing, because any obstacle on the road will be perfectly visible."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Que el conductor tarde más tiempo en percibir cualquier obstáculo que pueda haber en la calzada.\nThe driver takes longer to see any obstacle that may be in the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Que el conductor necesite menos tiempo para percibir los obstáculos que se encuentren en la calzada.\nThe driver needs less time to see obstacles found on the road."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES 2 Lighting systemsThe functions of the lights on the vehicle are to see and be seen.The lighting system allows the driver, in low lighting conditions, to illuminate the roadway in order to view the road and monitor the traffic. In doing so the driver can see any potential hazard in time to react. For this reason, there is a need to frequently check the lighting system so as to ensure compliance with the lighting regulations and operational use. (Lights and bulbs should be checked to ensure they are working correctly. Make sure that the lights are not dirty or broken, etc.)The duration of the bulbs (both conventional and halogen) depends on the evaporation of the filament. That’s why it is recommended, that if one needs replacing, the other one should be changed, too.(Página 62 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675940000000/64b1e70a-ed39-4f6b-8597-613eb5d9122aM.jpg",
+      "number": "7.",
+      "question": "Cuando la luz que proyecta el sistema de alumbrado de un vehículo es demasiado baja, ¿qué puede ocurrir?\nWhen the light projected by the vehicle's lighting system is too low, what can happen?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Mediante un ordenador que analiza la hora y la estación del año.\nUsing a computer that analyses the time and the season of the year."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Mediante un sensor que mide la luminosidad interior.\nUsing a sensor that measures the interior light levels."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Mediante un sensor que mide la luminosidad exterior.\nUsing a sensor that measures the external light levels."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES       2 Lighting systems   2.1 Improvements in lighting systems2.1.3 Automatically activated lightsThis system works by means of a sensor that measures the level of external light and switches dipped-beam lights on and off at a certain level of illumination.It can currently be combined with automatic main-beam lights.  (Página 63 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676730000000/cec3bab7-1663-4d6c-bd6a-8a6356db30b4M.jpg",
+      "number": "8.",
+      "question": "¿Cómo gestiona el sistema de activación automática de alumbrado el encendido y apagado de las luces del vehículo?\nHow does the automatic lighting system turn on and switch off the vehicle's lights?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el interior y el exterior de la trayectoria.\nthe inside and outside of the path."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "el exterior de la trayectoria.\nthe outside of the path."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "el interior de la trayectoria.\nthe inside of the path."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES         2 Lighting systems    2.1 Improvements in lighting systems 2.1.4 Adaptative lightsCorner lampsWhen taking a bend, corner lamps (additional cornering lights or directional lights) light up or turn illuminating the inside of the trajectory.The white light emitted to the sides is especially useful in windy roads. In some vehicles you can combine them with fog lights.They are automatically deactivated when driving at high speed or reversing.They improve visibility in bends, but not in straights. The identification of corner lamps in roundabouts helps predict the vehicle’s trajectory.(Página 63 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480658820000000/501605c7-39fd-4936-8598-dd369710d8b3M.jpg",
+      "number": "9.",
+      "question": "Cuando se realiza un giro, las luces angulares se encienden o giran iluminando...\nWhen taking a bend, corner lamps light up or turn illuminating...",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, son obligatorias.\nYes, they are mandatory."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, están prohibidas.\nNo, they are prohibited."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES       2 Lighting systems   2.1 Improvements in lighting systems2.1.4 Adaptative lightsAutomatically manage the intensity and direction of dipped beams or high beams depending on the distance at which the other vehicle is driving in the opposite lane and on the conditions (bends, slopes, speed, etc.).They include cornering lamps and automatic main-beam lights.(Página 63 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677630000000/090864d7-25ef-4001-a65c-2475d4369497M.jpg",
+      "number": "10.",
+      "question": "¿Puede emplear en su vehículo luces adaptativas?\nAre you permitted to use cornering lights in your vehicle?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "adaptan su luminosidad a la visibilidad existente.\nadapt the amount of light to the current visibility."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "mejoran la visibilidad en determinadas situaciones, como una curva o una intersección.\nimprove visibility in certain situations, like on a bend or at an intersection."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "emiten más luz que las luces convencionales.\nemit more light than conventional headlights."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES       2 Lighting systems   2.1 Improvements in lighting systems2.1.4 Adaptative lightsAutomatically manage the intensity and direction of dipped beams or high beams depending on the distance at which the other vehicle is driving in the opposite lane and on the conditions (bends, slopes, speed, etc.).They include cornering lamps and automatic main-beam lights.(Página 63 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636595733570000000/dcb30f7a-8256-485b-b384-cff4cb87af01M.jpg",
+      "number": "11.",
+      "question": "Las luces adaptativas...\nAdaptive headlights...",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Controlando la velocidad con el freno y el embrague.\nControlling your speed with the brake and clutch."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Con marchas cortas para utilizar poco el freno.\nIn a low gear and using the brake sparingly."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Circulando en punto muerto.\nIn neutral gear."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES     3 Brakes3.3 Engine brakingWhen an automobile is not under acceleration, the engine helps to hold back the vehicle. This restraint is all the greater when a lower ratio gear is used. This is known as “engine braking.”Engine braking passively reduces wear on brakes. It is recommended, when braking over a prolonged period of time, so as not to excessively use the service brake and should be used for example, when it is necessary to control speed while driving down very steep and long slopes. Modern engines have a system that cuts the injection, (the injection of fuel) during which no fuel is consumed and pollution therefore becomes less.When the engine acts as a brake it does so on the drive wheels.(Página 64 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675120000000/8656cb85-4e01-4e10-97d6-ef6f7f4067e5M.jpg",
+      "number": "12.",
+      "question": "En una pendiente descendente prolongada, ¿cómo es recomendable conducir?\nHow should you drive on a long downward slope?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "la adherencia de los neumáticos al suelo es mayor.\ntyre grip is greater."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "se pisa el pedal de embrague al mismo tiempo que el pedal de freno.\nthe clutch pedal is pressed at the same time as the brake pedal."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la masa del vehículo es mayor, ya que a mayor masa menor distancia de frenado.\nthe vehicle mass is greater, as the braking distance decreases at higher mass."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES     3 Brakes3.4 Braking performanceThe braking performance depends upon:The correct state of maintenance and care of the braking system.The correct pressure (application) being applied on the brake pedal that ultimately leads to the necessary pressure being transmitted to the brakes. The greater the force applied to the pedal, the greater the pressure that is exerted on the drum shoes or the disc pads of the brakes and therefore the result is more effective braking.The condition of the tyres and adhesion quality of the tyres onto the road surface.The condition of the road surface, the speed and the mass of the vehicle and its load.The proper distribution of brake action on all wheels.(Página 65 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480703840000000/cbbe555d-e322-4dc0-9684-1f7ea6bfb060M.jpg",
+      "number": "13.",
+      "question": "La eficacia del frenado aumenta, entre otras circunstancias, cuando...\nBraking efficiency increases, among other circumstances, when...",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "hace que el vehículo mantenga su trayectoria.\nkeeps the vehicle driving in the right direction."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "en la mayoría de los casos permite reducir la distancia de frenado.\nin most cases, allows the braking distance to be reduced."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "reduce la distancia de frenado en todos los casos.\nalways reduces the braking distance."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES       3 Brakes 3.5 Improvements in braking systems 3.5.1 Anti-lock braking system (ABS)ABS is an important advancement in the field of active vehicle safety, since:It allows the driver to maintain control over the steering. (If the wheels are locked the vehicle will not respond to the way the driver turns the steering wheel).In most cases, ABS reduces the braking distance for the average driver.The effectiveness of ABS is limited by the capacity of the adhesion of the tyres to the road surface. Defective tyres or shock absorbers will reduce the effectiveness of ABS and will extend the braking length.(Página 65 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449602570000000/9b4d9bd2-93f4-40ae-9810-e15a9bf150d6M.jpg",
+      "number": "14.",
+      "question": "El sistema antibloqueo de frenos ABS...\nThe ABS anti-lock braking system...",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Avisando al conductor, únicamente.\nWarns the driver only."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Realizando inmediatamente una frenada de emergencia, sin avisar al conductor.\nImmediately activates the emergency braking system, without warning the driver."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Avisando al conductor y, en caso de que este haga caso omiso a la advertencia, realizando una frenada de emergencia.\nWarns the driver and, if they ignore the warning, activates the emergency braking system."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES           3 Brakes   3.5 Improvements in braking systems3.5.3 Active emergency braking (AEB)With the aid of a radar, placed on the front of the vehicle, the system calculates the distance to the vehicle in front and warns the driver if there is a risk of a rear-end collision by emitting an acoustic signal and lighting up a warning lamp on the instrumentation panel.If the driver steps on the brake pedal and the system still tdetects a risk of collision, the braking force will be increased.If the driver does not react to the warning and a collision is imminent, the system will activate the emergency braking system.  (Página 65 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637227561550000000/edb04113-9a3a-4912-8eb6-79010f7cb11dM.jpg",
+      "number": "15.",
+      "question": "Cuando el sistema de frenado autónomo de emergencia (AEB) detecta peligro de colisión, ¿cómo actúa?\nWhen the autonomous emergency braking system (AEB) detects an imminent collision, what does it do?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "trasera.\na rear collision."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "lateral.\na side collision."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "por alcance.\na rear-end shunt."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES           3 Brakes   3.5 Improvements in braking systems3.5.3 Active emergency braking (AEB)With the aid of a radar, placed on the front of the vehicle, the system calculates the distance to the vehicle in front and warns the driver if there is a risk of a rear-end collision by emitting an acoustic signal and lighting up a warning lamp on the instrumentation panel.If the driver steps on the brake pedal and the system still tdetects a risk of collision, the braking force will be increased.If the driver does not react to the warning and a collision is imminent, the system will activate the emergency braking system.  (Página 65 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674270000000/88795dec-2e00-42c6-ae0e-06a348f1a476M.jpg",
+      "number": "16.",
+      "question": "El sistema de frenado autónomo de emergencia (AEB) es capaz de detectar un peligro inminente de colisión...\nThe autonomous emergency braking system (AEB) is capable of detecting an imminent collision which is...",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "pisar el pedal de forma intermitente.\nstep on the pedal intermittently."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "seguir frenando a fondo.\ncontinue breaking heavily."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "soltar el pedal para no bloquear las ruedas.\nrelease the pedal so the wheels do not lock."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES                 3 Brakes 3.7 Emergency braking  Vehicles with ABSIn an emergency situation a driver of a vehicle fitted with ABS should step firmly on to the brake pedal and keep constant pressure applied. The foot should not be lifted until the vehicle has stopped or the emergency has passed. The activation of ABS will be felt by the driver under his foot. The driver will feel, under the brake pedal, a slight pulsation due to the fact that the system applies and releases the pressure on the brakes very quickly.ABS is a major improvement in the active safety features fitted to a vehicle. However, it is preferable to avoid emergency braking and to maintain a safe distance, implementing a system of defensive (planned) driving.(Página 66 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675870000000/3a7fb45d-0532-4c25-ab04-ec93c7f37f27M.jpg",
+      "number": "17.",
+      "question": "En una frenada de emergencia con ABS, si el pedal de freno vibra debe...\nWhen you perform an emergency brake with ABS, if the brake pedal vibrates, you must...",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, en cualquier caso.\nYes, always."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Únicamente si el vehículo dispone de sistema ABS.\nOnly if the vehicle has an ABS system."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES               3 Brakes3.7 Emergency braking Vehicles without ABSIf an unplanned emergency occurs to an automobile braking without ABS, the driver should apply maximum force on the brake without locking the wheels. If the wheels lock the braking distance is increased and directional control is lost. The vehicle stability could also become affected. Normally, if you lock the rear wheels and the car skids, it can result in the car spinning; if the front wheels lock the car will continue in a straight line, with a loss of directional control.Therefore, the brakes should be applied firmer and stronger than normal, until just before the wheels lock. The principle is to apply more pressure than normal but the pressure must be reduced before the wheels lock and then reapplied until the vehicle stops or the need to take evasive action has passed.(Página 66 del manual 'Learning to drive')ACTIVE SAFETY FEATURES                 3 Brakes 3.7 Emergency braking  Vehicles with ABSIn an emergency situation a driver of a vehicle fitted with ABS should step firmly on to the brake pedal and keep constant pressure applied. The foot should not be lifted until the vehicle has stopped or the emergency has passed. The activation of ABS will be felt by the driver under his foot. The driver will feel, under the brake pedal, a slight pulsation due to the fact that the system applies and releases the pressure on the brakes very quickly.ABS is a major improvement in the active safety features fitted to a vehicle. However, it is preferable to avoid emergency braking and to maintain a safe distance, implementing a system of defensive (planned) driving.(Página 66 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636486694160000000/c2bc0295-7d72-4c59-a07f-7fe5443bf36cM.jpg",
+      "number": "18.",
+      "question": "En caso de emergencia, ¿es conveniente pisar el pedal de freno a fondo y mantener la máxima presión hasta el final?\nIn the event of an emergency, is it advisable to press the brake pedal fully and maintain maximum pressure to the end?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el peso se desplaza hacia la parte trasera.\nthe weight moves towards the rear."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "es más difícil que se bloquee la rueda trasera.\nit is harder for the back wheel to lock."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "aumenta el desequilibrio.\nyour balance is decreased."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES               3 Brakes 3.6 Use of brakesThe higher the mass on an axle the harder to block its wheels. Thus, when carrying a passenger on a motorcycle it is more difficult to lock the rear wheel when braking.(Página 66 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680790000000/f5412af8-59fa-4340-99b8-ab573f7fccacM.jpg",
+      "number": "19.",
+      "question": "Si lleva a un pasajero en la motocicleta, al frenar…\nIf you take a pillion passenger on a motorcycle, when you brake...",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Dirigir el vehículo hacia un obstáculo para detenerlo.\nSteer the vehicle towards an obstacle to stop it."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Soltar el acelerador y reducir la velocidad con el freno motor.\nCome off the accelerator and reduce speed with engine braking."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Tirar bruscamente de la palanca del freno de mano.\nPull the handbrake abruptly."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES                   3 Brakes3.8 Failure of brakesBrake failure is worse, if it occurs on a descending hill, for a long period of time or if the hill is particularly steep.If the driver encounters this situation he should:Not accelerate.Drive as close as possible to the right hand edge of the road or use the hard shoulder, if it exists and is practicable and feasible. In any case, the driver should steer away from oncoming traffic.Change, in sequence, down the gears (lower gears) using the engine as a brake. If the speed is not reduced, then it may be necessary to use the handbrake but in a progressive and gentle motion, never abruptly or hurriedly(Página 67 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678960000000/0eec9ab1-d23e-460a-80a2-68c862a2fdbeM.jpg",
+      "number": "20.",
+      "question": "Mientras circula se produce un fallo en el sistema de frenado, ¿qué debe hacer?\nWhile driving, there is a failure in the braking system, what should you do?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "se produce un aviso sonoro.\na sound warning."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "se enciende la señal de emergencia.\nthe hazard lights coming on."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "se produce un rápido parpadeo de las luces de frenado.\nthe brake lights flashing quickly."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES                 3 Brakes 3.7.1 Emergency Braking Display (EBD)This system helps drivers who are driving behind the vehicle with the system installed to detect when the driver is braking in an emergency. When the driver of a vehicle press the brake pedal down quickly and hard, the brake lights flash quickly, which immediately alerts the driver following the vehicle that are braking sharply, thus giving the driver more time to react and avoid running into the vehicle or at least reduce the effect of a collision.(Página 67 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674140000000/b4f20f7e-ee3c-403e-8ca3-a6ab05577207M.jpg",
+      "number": "21.",
+      "question": "El aviso de frenada de emergencia o EBD consiste en que cuando el conductor pisa el pedal del freno de manera potente y rápida...\nThe emergency braking display or EBD consists of the driver pressing the brake pedal firmly and quickly and...",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Los frenos.\nThe brakes."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Los neumáticos.\nThe tyres."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "La amortiguación.\nThe suspension."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES     4 Wheels4.2 TyresThe tread of the tyre is the part that is in contact with the road surface. The adhesion depends largely on the type and condition of the tyre, (composition, tread pattern, wear, etc.) the weight of the vehicle transmitted through to the tyres and the composition and state of the road surface. Favourable adherence is provided by road surfaces, which are in good condition made either of tarmarcadum, asphalt or concrete. Whilst adhesion is reduced on roads that are in bad condition, or made out of cobblestones, or are wet, covered in snow, ice, leaves, oil, etc.Faults associated with the tyres are the main cause of road traffic collisions attributable to the vehicle, they account for more casualties than all other vehicle systems put together.(Página 68 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681040000000/b0b3c259-d698-4d35-a7d3-fa641208f905M.jpg",
+      "number": "22.",
+      "question": "¿Qué elementos del vehículo requieren una mayor supervisión por parte del conductor?\nWhat elements of the vehicle require greater supervision from the driver?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Únicamente se pueden montar con distinto código de velocidad, el índice de carga nunca se puede variar.\nThey can only be fitted with a different speed rating, the load rating can never be different."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, cuando el índice y el código sean superiores al recomendado por el fabricante.\nYes, when the ratings are higher than those recommended by the manufacturer."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, está prohibido en cualquier caso.\nNo, it is prohibited."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES             4 Wheels    4.2 Tyres  4.2.2 Tyre markingsThe sides of the tyres contain information relating to their characteristics. The main ones are:It is prohibited to mount tyres with a load index or a code below the speed of the tyres that were originally mounted on the vehicle or as recommended by the manufacturer. However, you can mount tyres that are greater than those recommended. Type of tyres: At present, most tyres are tubeless. Date of manufacture: Identifies the date of manufacture of the tyre by the use of four digits. The first two represent the week of the year and the last two the year of manufacture. For example, “1520” means week 15 (mid-April) of 2020. These figures may be within an oval.Location indicator for wear: Tread wear indicators can be found within the grooves of the tyre. Tyre manufacturers mould tread wear indicators (T.W.I) into the design of the tyres tread pattern. This may be indicated by the symbol TWI (Tread Wear Indicator), or a triangle, arrow or other symbol indicated by the manufacturer.(Página 69 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679140000000/6da9456b-e175-4bff-ba79-2aea340e2acaM.jpg",
+      "number": "23.",
+      "question": "¿Está permitido montar neumáticos con índice de carga o un código de velocidad distinto al que recomienda el fabricante?\nIs it permitted to install tyres with a load or speed rating different to that recommended by the manufacturer?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Que es un neumático adecuado para utilizarlo cuando la calzada tenga agua.\nThat it is a suitable tyre to use when there is water on the road."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Que es un neumático preparado para ser montado sin cámara.\nThat the tyre is prepared to be fitted without a chamber."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Que es un neumático adecuado para colocarlo en un autobús.\nThat the tyre can be used on a bus."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES             4 Wheels    4.2 Tyres  4.2.2 Tyre markingsThe sides of the tyres contain information relating to their characteristics. The main ones are:It is prohibited to mount tyres with a load index or a code below the speed of the tyres that were originally mounted on the vehicle or as recommended by the manufacturer. However, you can mount tyres that are greater than those recommended. Type of tyres: At present, most tyres are tubeless. Date of manufacture: Identifies the date of manufacture of the tyre by the use of four digits. The first two represent the week of the year and the last two the year of manufacture. For example, “1520” means week 15 (mid-April) of 2020. These figures may be within an oval.Location indicator for wear: Tread wear indicators can be found within the grooves of the tyre. Tyre manufacturers mould tread wear indicators (T.W.I) into the design of the tyres tread pattern. This may be indicated by the symbol TWI (Tread Wear Indicator), or a triangle, arrow or other symbol indicated by the manufacturer.(Página 69 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678130000000/12a4ba3f-6be7-43ab-b484-e1cfb474c702M.jpg",
+      "number": "24.",
+      "question": "¿Qué indica la palabra \"tubeless\" escrita en el lateral del neumático?\nWhat does the word 'tubeless' on the side of a tyre indicate?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "no afecta al consumo de combustible.\nit does not affect fuel consumption."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "el vehículo consume más combustible.\nthe vehicle consumes more fuel."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "el vehículo consume menos combustible.\nthe vehicle consumes less fuel."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES             4 Wheels    4.2 Tyres4.2.4 Inflation pressureIf the inflation pressure is lower than that recommended:The tyre undergoes heating and suffers deformities, wearing down more, mainly on the edges, with an increased risk of suffering a blow out.There is an increase in fuel consumption.The vehicle loses stability.There is a reduction of grip and an increase risk of sliding in the wet.(Página 70 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636935124650000000/a5b0a6e6-8c24-484e-8e0d-78a8c146b8c8M.jpg",
+      "number": "25.",
+      "question": "Cuando la presión de inflado de los neumáticos es inferior a la recomendada...\nIf the tyres are below the recommended inflation pressure....",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Se desgasta más por los lados.\nIt wears more on the sides."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Se agarra peor a la calzada.\nIts grip on the road is worse."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Se agarra mejor a la calzada.\nIt grips the road better."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES               4 Wheels     4.2 Tyres 4.2.4 Inflation pressureIf the inflation pressure is greater than that recommended:There is a reduction of the surface area in contact with the road surface and therefore reduced adhesion.The wear is more pronounced through the centre of the tread.The irregularities of the ground are not absorbed, thus producing vehicle vibrations.The suspension elements undergo greater deterioration.(Página 70 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675640000000/cbeff68b-7bf4-4740-b54f-1c35f96c5266M.jpg",
+      "number": "26.",
+      "question": "Cuando un neumático tiene mucho aire, ¿qué ocurre?\nWhen a tyre is overinflated, what happens?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "2 milímetros.\n2 millimetres."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "1,4 milímetros.\n1.4 millimetres."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "1,6 milímetros.\n1.6 millimetres."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES             4 Wheels    4.2 Tyres  4.2.3 The tread patternThe tread pattern is the set of grooves in the tread of a tire. In addition to gripping the road surface, it must guarantee good drainage away of the surface water from the tyre. The adhesion between the tyre and the road is reduced when the tyre is worn.All tyres, (including retreads) must always comply with the legal requirements. This includes, not only the tyre tread and depth of pattern but also other abnormalities relating to the tyre-wall and tread, inflation pressure, bulges, exposed cords, cuts and other signs of irregular wear, and also the mixing of tyres etc. Basically the carcass (housing) must comply with all legal requirements.The tyres of the vehicles within categories M1, N1, O1 and O2 (See Unit 1, article 14) must, when used on the public roads (or places recognised as public thorough fares), have a minimum depth of tread, of 1.6 mm, in a continuous band in the main grooves of the contact surface.Note: There are other requirements relating to the depth of tread and pattern.(Página 70 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635464605320000000/fb0b392f-51a0-44e9-a06a-71bada473947M.jpg",
+      "number": "27.",
+      "question": "La profundidad mínima de las ranuras principales de la banda de rodamiento de los neumáticos de un turismo debe ser de…\nThe minimum depth of tyres permitted on a passenger car is ...",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el interior de los surcos y hacia delante.\ninside the grooves and forward."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "el interior de los surcos y por los laterales.\ninside the grooves and the sides."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "atrás y por los laterales.\nthe back and side."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES             4 Wheels    4.2 Tyres  4.2.3 The tread patternThe tread pattern is the set of grooves in the tread of a tire. In addition to gripping the road surface, it must guarantee good drainage away of the surface water from the tyre. The adhesion between the tyre and the road is reduced when the tyre is worn.All tyres, (including retreads) must always comply with the legal requirements. This includes, not only the tyre tread and depth of pattern but also other abnormalities relating to the tyre-wall and tread, inflation pressure, bulges, exposed cords, cuts and other signs of irregular wear, and also the mixing of tyres etc. Basically the carcass (housing) must comply with all legal requirements.The tyres of the vehicles within categories M1, N1, O1 and O2 (See Unit 1, article 14) must, when used on the public roads (or places recognised as public thorough fares), have a minimum depth of tread, of 1.6 mm, in a continuous band in the main grooves of the contact surface.Note: There are other requirements relating to the depth of tread and pattern.(Página 70 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637178782070000000/67d9d910-bbe1-4493-a95b-2063cf3458cfM.jpg",
+      "number": "28.",
+      "question": "Los surcos que hay en la banda de rodadura de los neumáticos del vehículo deben garantizar un buen drenaje del agua hacia...\nThe grooves in the tread of the vehicle's tyres must ensure good water drainage towards...",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "16 milímetros.\n16 millimetres."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Las motocicletas no están obligadas a tener una profundidad mínima en sus ruedas, pero se aconseja 1,6 milímetros como mínimo.\nMotorcycles are not required to have a minimum tread depth, but it is recommended that they have a minimum of 1.6 millimetres."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "1,6 milímetros.\n1.6 millimetres."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES             4 Wheels    4.2 Tyres  4.2.3 The tread patternThe main grooves are defined as, the wide grooves located in the central zone of the tread band that covers the central three-quarters of the tread width.There is no obligation for a motorcycle to have a minimum depth of tyre tread; but the recommendation is that, it should be at least 1.6 millimetres.(Página 70 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680830000000/82c699ab-f228-4df7-ba6b-7ac560f55d24M.jpg",
+      "number": "29.",
+      "question": "¿Cuál es la profundidad mínima en las ranuras principales de la banda de rodamiento de una motocicleta?\nWhat is the minimum tread depth of a motorcycle?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "al menos cada 10 años.\nat least every 10 years."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "cada 5 años únicamente si no tienen dibujo suficiente.\nevery 5 years only if they do not have sufficient tread."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "al menos cada 5 años.\nat least every 5 years."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES                     4 Wheels        4.2 Tyres4.2.5 Tyre wearOver time the rubber on the tyre ages, it becomes brittle and whereby the tyre can not meet the minimum legal requirements. If the tyre has not needed replacing before it should be replaced when it is 5 years old regardless of use, for reasons of safety.    (Página 71 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635465421690000000/fc4627a5-80d5-4945-a205-20d312283628M.jpg",
+      "number": "30.",
+      "question": "Es aconsejable cambiar los neumáticos del vehículo...\nIt is advisable to change a vehicle's tyres...",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

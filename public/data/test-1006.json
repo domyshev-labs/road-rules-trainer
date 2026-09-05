@@ -1,0 +1,733 @@
+{
+  "test_id": 1006,
+  "title": "The users of the road",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "cortar la circulación en todo caso.\nalways stop the traffic."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "retirarla lo antes posible y adoptar entre tanto las medidas necesarias para avisar al resto de usuarios.\nremove as much of it as possible and take the necessary measures to warn other road users."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "proseguir la marcha y avisar del accidente a las autoridades pertinentes.\ncontinue driving and notify the pertinent authorities"
+        }
+      ],
+      "help": "1 Users of the road     All road users are prohibited from:Throwing onto the road or the environment any object that could lead to a fire or, in general, would jeopardise the road safety of others.Anybody who has created an obstacle or danger in the road must remove it as quickly as possible and, in the meantime, adopt the necessary measures to warn the other users and prevent hindering the flow of traffic.(Página 52 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634928208730000000/deb76a47-f181-40fa-aba0-34ad1609f86eM.jpg",
+      "number": "1.",
+      "question": "En caso de caída de la carga en la calzada, el conductor deberá...\nIf the load falls onto the road, the driver will...",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, puesto que dificultan el cruce de los pasos de peatones.\nYes, as they obstruct the crossing of pedestrian crossings."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, cuando son metálicos.\nYes, when they are metallic."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, siempre que se garantice la seguridad vial de los usuarios y especialmente de los ciclistas.\nNo, provided that they guarantee the road safety of the users and especially cyclists."
+        }
+      ],
+      "help": "1 Users of the road Humps on pedestrian crossings are not considered to be obstacles on the road, provided that they guarantee road safety for users and especially cyclists.(Página 52 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679300000000/6af099f6-d06a-4661-adfc-2ce897cb8cacM.jpg",
+      "number": "2.",
+      "question": "Los resaltos en los pasos para peatones, ¿se consideran obstáculos en la calzada?\nAre raised pedestrian crossings considered to be obstacles on the road?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "que puedan deteriorar la vía o sus instalaciones.\nthat may deteriorate the road or its installations."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "solamente si pueden deteriorar la vía.\nonly if they can deteriorate the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "únicamente si pueden entorpecer la libre circulación.\nonly if these may obstruct the traffic."
+        }
+      ],
+      "help": "1 Users of the road All road users are prohibited from:Throwing, depositing or leaving on the road and public highways objects or material that can:- Obstruct the free movement, restrict parking or stopping or is otherwise deemed dangerous.- Lead to deterioration of the roads, highways and routes.- Effect the environment or that causes alterations to the road conditions that would lead to interference of other road users who travel on the roadway or are stopping or parking on the roadway.(Página 52 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679470000000/1379c6b0-358a-410c-8006-3c6cf691642bM.jpg",
+      "number": "3.",
+      "question": "Está prohibido arrojar a la vía objetos...\nIt is prohibited to throw objects onto the road...",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, y además conlleva pérdida de puntos.\nYes, and you will lose points."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, pero no se debe hacer.\nNo, but you must not do this."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero no conlleva pérdida de puntos.\nYes, but you will not lose any points."
+        }
+      ],
+      "help": "1 Users of the road     All road users are prohibited from:Throwing onto the road or the environment any object that could lead to a fire or, in general, would jeopardise the road safety of others.Anybody who has created an obstacle or danger in the road must remove it as quickly as possible and, in the meantime, adopt the necessary measures to warn the other users and prevent hindering the flow of traffic.(Página 52 del manual 'Learning to drive')1 Users of the road      Throwing objects that can cause fires or accidents onto the road or in the vicinity can cost 6 points.(Página 52 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480745530000000/54ad915c-4a9d-4be2-9160-f5aab1e472d1M.jpg",
+      "number": "4.",
+      "question": "Arrojar un cigarro encendido por la ventanilla de un turismo, ¿puede suponer una infracción?\nCan throwing a lit cigarette out of the window of a car be an offence?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo en las zonas de coexistencia.\nOnly in coexistence zones."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "1 Users of the road The roads and highways are shared by different users each one having their rights and their obligations to comply with the road traffic regulations thus ensuring both their safety and that of others and the free movement of the roadways. It is thus necessary therefore to ensure that each road user shows respect and understanding of other users.(Página 52 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636964527220000000/596ebb56-1a47-4071-aee0-8e995b7d7fd4M.jpg",
+      "number": "5.",
+      "question": "Los peatones, ¿tienen los mismos derechos que los conductores para utilizar las vías públicas?\nDo pedestrians have the same rights as drivers to use the public roads?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, están obligados todos los conductores de vehículos.\nYes, all drivers are compelled to do this."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, pero únicamente cuando pase la ITV.\nYes, but only when the car takes its ITV."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, únicamente está obligado a colaborar en las pruebas de alcoholemia.\nNo, you only need to collaborate on breathalyser tests."
+        }
+      ],
+      "help": "2 Drivers    2.1 ProhibitionsYou are prohibited to drive or use a vehicle:That emits electromagnetic disturbances or noise levels (for emission purposes) above the legal and established limits.That emits gas or smoke vapours in excess of the legal and established limits.That has had fitted an object or undergone an adaptation that has not been authorised.Note: All drivers of vehicles must submit their vehicles to inspection tests in order to detect possible offences.(Página 53 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634799478230000000/d0c7716e-fc30-4c33-866b-a6e35f623a9fM.jpg",
+      "number": "6.",
+      "question": "Un conductor, ¿está obligado a colaborar en las pruebas de detección de emisión de ruidos de su vehículo?\nAs the driver, are you obliged to collaborate in the noise detection tests of your vehicle?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, por la contaminación acústica que produce.\nNo, due to the noise pollution that it causes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, solamente en carretera.\nYes, only on an interurban road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, pero las motos y ciclomotores pueden circular sin él.\nNo, but motorcycles and scooters can drive without one."
+        }
+      ],
+      "help": "2 Drivers    2.1 ProhibitionsYou are prohibited to drive or use a vehicle:On all public city roads and interurban roads, it is prohibited to drive a motor vehicle or moped in which the exhaust system is not fitted out with a silencer, or when the gases expelled by engines, instead of moving through an effective silencer, leave the engine by a silencer that is incomplete, inadequate, worn down or equipped with a resonator exhaust pipe.(Página 53 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679630000000/d8294326-fecc-49f7-a8d4-1fb0743fee4aM.jpg",
+      "number": "7.",
+      "question": "Un vehículo tiene el silenciador del escape estropeado. ¿Está permitido circular así?\nA vehicle has a broken silencer. Is it permitted to drive in this state?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, excepto en los vehículos destinados al transporte de mercancías.\nNo, except in vehicles intended for the transport of goods."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Las puertas no, pero sí el maletero si está sujeto de forma que no pueda caer la carga.\nNot the doors, but the boot may be open if it is secured in such a way that the load cannot fall out."
+        }
+      ],
+      "help": "2 Drivers      2.1 ProhibitionsIt is prohibited to drive with the vehicle’s doors open or to open the vehicle’s doors before it is fully stopped and to open them or get out of the vehicle without first assuring that this does not involve any danger or obstruction to other users, particularly with regard to bicycle riders.(Página 53 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675380000000/1e042387-cd80-4cfe-8bd8-4c642aec14faM.jpg",
+      "number": "8.",
+      "question": "¿Está permitido llevar las puertas o el maletero abiertos para aumentar la capacidad de carga?\nAre you allowed to have the car doors or the boot open to carry a larger load?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "apagar las luces y subir las ventanillas.\nto turn off the lights and close the windows."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "parar el motor y encender la señal de emergencia.\nto turn off the engine and turn on the hazard lights."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "apagar las luces y los sistemas eléctricos como la radio.\nto turn off the lights and electrical systems such as the radio."
+        }
+      ],
+      "help": "2 Drivers            2.1 ProhibitionsIt is prohibited to load fuel in the tank of a vehicle without it being:With the engine stopped.With the lights off.With electrical systems, such as radio, disconnected.With devices emitting electromagnetic radiation, such as mobile phones, turned off.(Página 54 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636564494200000000/2856f026-788a-4406-a26a-000fd1bc2df3M.jpg",
+      "number": "9.",
+      "question": "Al cargar combustible en el vehículo es obligatorio...\nWhen fuelling a vehicle, it is mandatory...",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, siempre que adopte las debidas precauciones.\nYes, provided that they take appropriate precautions."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Solo en vías urbanas.\nOnly on urban roads."
+        }
+      ],
+      "help": "5 Pedestrians   5.1 Travelling in a pedestrian zoneAs a general rule, it is prohibited for any class of vehicle to drive on pavements or other pedestrian areas.Pedestrians should walk in areas particularly highlighted for them, such as pedestrian zones, walkways and pavements (paths). When these areas do not exist or are not practicable, then the pedestrians should use the hard shoulder (if one exists) or as a last resort, the roadway towards the outside edge and furthest away from traffic as possible.(Página 55 del manual 'Learning to drive')5 Pedestrians   5.1 Travelling in a pedestrian zoneHowever, even if there is a pedestrian zone, provided that the necessary precautions are taken, the following may use the hard shoulder or, if it does not exist or is not passable, the road:Any pedestrian group led by a person or forming a cortege.A disabled person who travels in a wheelchair with or without a motor, at walking pace.(Página 55 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480735200000000/a6715236-9f0a-42ad-b51a-66af346c8ef3M.jpg",
+      "number": "10.",
+      "question": "¿Está permitido que una persona en silla de ruedas se desplace por el arcén?\nIs a person in a wheelchair allowed to travel in the road?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "tienen prohibido circular por las zonas peatonales.\nare prohibited from travelling in pedestrian areas."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "en ningún caso tienen permitido ser arrastrados por otros vehículos.\nmay not be towed by other vehicles under any circumstances."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "deben circular por la calzada para evitar atropellos a los peatones.\nmust travel on the road to avoid running into pedestrians."
+        }
+      ],
+      "help": "5 Pedestrians       5.1 Travelling in a pedestrian zoneHowever, even if there is a pedestrian zone, provided that the necessary precautions are taken, the following may use the hard shoulder or, if it does not exist or is not passable, the road:Pedestrians who use skateboards, roller skates or similar devices must not travel on the road, except in areas that are specially designed for them. They can only move at walking pace on pavements or streets duly indicated, without under any circumstances being allowed to be towed by other vehicles.(Página 55 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637227556110000000/a8bc361e-4a00-47f4-b987-fe887379ec2cM.jpg",
+      "number": "11.",
+      "question": "Los usuarios de monopatines, patines o similares...\nUsers of skateboards, scooters, roller skates and the like…",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "no pueden transitar por las carreteras.\ncannot use roads."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "pueden transitar por el arcén.\ncan walk on the hard shoulder."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "deben transitar por la calzada.\nmust walk along the road."
+        }
+      ],
+      "help": "5 Pedestrians   5.1 Travelling in a pedestrian zoneAs a general rule, it is prohibited for any class of vehicle to drive on pavements or other pedestrian areas.Pedestrians should walk in areas particularly highlighted for them, such as pedestrian zones, walkways and pavements (paths). When these areas do not exist or are not practicable, then the pedestrians should use the hard shoulder (if one exists) or as a last resort, the roadway towards the outside edge and furthest away from traffic as possible.(Página 55 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676310000000/9e732185-84f1-4cfd-9c30-7158225e62e4M.jpg",
+      "number": "12.",
+      "question": "Cuando no existe zona peatonal o esta no es practicable, los peatones...\nWhen there is no pedestrian area, or the pedestrian area cannot be used, pedestrians…",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Perpendicularmente al eje de la calzada.\nPerpendicular to the centreline of the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Siguiendo siempre las indicaciones de los semáforos para peatones.\nAlways following the indications of the traffic lights for pedestrians."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cruzando en diagonal para tener mayor visibilidad.\nCrossing diagonally for greater visibility."
+        }
+      ],
+      "help": "5 Pedestrians   5.4 Pedestrian crossings and crossing roadsWhen crossing the road, pedestrians must walk perpendicular to the axis of the road, not delay or stop on the road unnecessarily and not hinder the passage of others.(Página 56 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681330000000/bdc319b4-9447-438e-a8c2-0f0c142058a3M.jpg",
+      "number": "13.",
+      "question": "Si no existe paso para peatones, ¿cómo deben cruzar la calzada los peatones?\nIf there is no pedestrian crossing, how should pedestrians cross the roadway?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "un elemento luminoso o retrorreflectante visible a una distancia mínima de 150 metros.\na luminous or retro-reflective element visible at a distance of at least 150 metres."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "ropa clara que sea visible desde una distancia de 150 metros.\nlight-coloured clothing that is visible from a distance of 150 metres."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "una luz blanca hacia delante y roja hacia atrás.\na white light facing forward and a red light facing backwards."
+        }
+      ],
+      "help": "5 Pedestrians 5.3 Walking at nightOutside built-up-areas, between sunset and sunrise or in meteorological or environmental conditions that significantly reduce visibility, all pedestrians, when moving along the road or hard shoulder, must be equipped with a luminous or retro reflective homologated element which is visible at a minimum distance of 150 metres for drivers approaching them.(Página 56 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480761810000000/3a175bd3-4e9b-4972-8761-205ebe2698e0M.jpg",
+      "number": "14.",
+      "question": "Si un peatón circula de noche por una vía interurbana, está obligado a utilizar...\nIf a pedestrian goes along an interurban road at night, they are required to use…",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, los peatones siempre circularán por su derecha en este tipo de vías.\nYes, pedestrians will always walk on the right on this type of road."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Solo excepcionalmente si existen razones de mayor seguridad.\nOnly exceptionally if safer."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, en ningún caso.\nNo, never."
+        }
+      ],
+      "help": "5 Pedestrians 5.2 Walking on the road or the hard shoulderOn interurban roads and main roads that do not have a pedestrian area, pedestrians will walk on the left-hand side in order to see the oncoming vehicles and to be warned of their presence, even though they are permitted to walk on the right when, for safety reasons, it is more suitable.(Página 56 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485801190000000/923640f8-20ba-438a-b8f3-1c45ef538536M.jpg",
+      "number": "15.",
+      "question": "En vías fuera de poblado que no dispongan de espacio especialmente reservado para ellos, a los peatones, ¿les está permitido circular por su derecha?\nOn roads outside populated areas which do not have a space specifically reserved for them, are pedestrians permitted to walk on the right-hand side?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "con unos triángulos de preseñalización de peligro.\nwith hazard warning triangles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "con una señal manual de stop.\nwith a handheld stop sign."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "con una luz blanca o amarilla que ilumine hacia adelante y otra roja hacia atrás.\nwith a white or yellow light at the front and a red light at the back."
+        }
+      ],
+      "help": "5 Pedestrians 5.3 Walking at nightOutside built-up-areas, between sunset and sunrise or in meteorological or environmental conditions that significantly reduce visibility, all pedestrians, when moving along the road or hard shoulder, must be equipped with a luminous or retro reflective homologated element which is visible at a minimum distance of 150 metres for drivers approaching them.(Página 56 del manual 'Learning to drive')5 Pedestrians 5.3 Walking at nightGroups of pedestrians led by a person or forming a cortege should also have, on the side closest to the centre of the roadway, the lights needed to determine their location and dimensions, which should be white or yellow at the front and red at the back and, where appropriate, may constitute a single set.(Página 56 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636693291510000000/f2a3237c-e274-440c-9708-54f1dce507d9M.jpg",
+      "number": "16.",
+      "question": "Los peatones, cuando circulen de noche en grupo, deben señalizar su posición...\nWhen walking as part of a group at night, pedestrians must indicate their position...",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "indistintamente, por cualquiera de los dos lados.\neither side, interchangeably."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "por el lado izquierdo.\non the left-hand side."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "por el lado derecho.\non the right-hand side."
+        }
+      ],
+      "help": "5 Pedestrians   5.2 Walking on the road or the hard shoulderIn built-up-areas, pedestrians may walk either on the right or the left of the road, depending on the specific circumstances of traffic, road or visibility.The following pedestrians should always move on the right side of the road, both inside and outside of town:Those who push or drag a twowheeled cycle or moped, handcarts or similar apparatuses.Any pedestrian group led by a person or forming a cortege.A disabled person who travels in a wheelchair.All of the above must obey the signals addressed to the drivers of vehicles: those of the agents and traffic lights, always; the others, as far as they are applicable.(Página 56 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681520000000/e1beacaf-368a-4977-bb34-02d0edcf32e8M.jpg",
+      "number": "17.",
+      "question": "En vía urbana, las personas que empujen un ciclomotor por la calzada o el arcén están obligadas a circular...\nOn an urban road, people who push a moped down the road or the hard shoulder must travel...",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Por el lado derecho de la calzada.\nOn the right side of the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Por el lado izquierdo, como los peatones.\nOn the left side, like pedestrians."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "En este caso no se puede circular.\nIn this case, it cannot be moved."
+        }
+      ],
+      "help": "5 Pedestrians   5.2 Walking on the road or the hard shoulderIn built-up-areas, pedestrians may walk either on the right or the left of the road, depending on the specific circumstances of traffic, road or visibility.The following pedestrians should always move on the right side of the road, both inside and outside of town:Those who push or drag a twowheeled cycle or moped, handcarts or similar apparatuses.Any pedestrian group led by a person or forming a cortege.A disabled person who travels in a wheelchair.All of the above must obey the signals addressed to the drivers of vehicles: those of the agents and traffic lights, always; the others, as far as they are applicable.(Página 56 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634508212980000000/16cc2588-fa94-42b8-b258-31ec1102d16aM.jpg",
+      "number": "18.",
+      "question": "Si tiene que empujar a pie un ciclomotor de dos ruedas por una vía interurbana sin arcén, ¿por dónde circulará?\nIf you have to push a two-wheel moped along an intercity road without a hard shoulder, where should you walk?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Por el lado derecho.\nOn the right-hand side."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Por el lado izquierdo.\nOn the left-hand side."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Indistintamente, por cualquiera de los dos lados.\nThey can walk on either side."
+        }
+      ],
+      "help": "5 Pedestrians 5.2 Walking on the road or the hard shoulderOn interurban roads and main roads that do not have a pedestrian area, pedestrians will walk on the left-hand side in order to see the oncoming vehicles and to be warned of their presence, even though they are permitted to walk on the right when, for safety reasons, it is more suitable.(Página 56 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636305332450000000/41073091-31f3-4459-9857-1829236b2838M.jpg",
+      "number": "19.",
+      "question": "En una vía interurbana que no dispone de zona peatonal, ¿por qué lado deben circular los peatones?\nOn an interurban road without an area for pedestrians, on which side should pedestrians walk?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, pero únicamente fuera de poblado.\nYes, but only outside built-up areas."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, cuando el vehículo es descapotable.\nYes, if the vehicle is a convertible."
+        }
+      ],
+      "help": "6 Vehicles of two and three weels       6.1 Mopeds, motorcycles and vehicles of three wheels   Drivers and passengers of: Motorcycles (with or without sidecars)motor tricycles and heavy quadricyclesmopedsquad-ATVmust suitably use, that is, properly positioned and buckled, approved or certified helmets according to current legislation, when they drive in both urban and interurban roads.An exemption exists if the person has an approved certificate issued for serious medical reasons.(Página 57 del manual 'Learning to drive')6 Vehicles of two and three weels       6.1 Mopeds, motorcycles and vehicles of three wheelsWhen motorcycles, motor tricycles or heavy quadricycles and mopeds have self-protection structures and are equipped with seat belts and are recorded on the corresponding technical inspection card or characteristics certificate, their drivers and passengers will be exempt from wearing the protective helmet, being obliged to use the aforementioned seat belt when they travel on both urban and interurban roads.Driving without using a seatbelt, helmet or other mandatory protection elements, or not using them properly, can cost 4 points.(Página 57 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636479953900000000/95ec2bf7-1f05-4ea0-bb62-9d1e78de8c5eM.jpg",
+      "number": "20.",
+      "question": "Si un cuadriciclo ligero tiene cinturones de seguridad, ¿es obligatorio ponerse el casco?\nIf a light quadricycle has seat belts, is it compulsory to wear a helmet?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, solo es obligatorio para las motocicletas y los ciclomotores.\nNo, it is only mandatory for motorcycles and mopeds."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, en estos vehículos solo es obligatorio para el pasajero.\nNo, in these vehicles it is only mandatory for the passenger."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "6 Vehicles of two and three weels       6.1 Mopeds, motorcycles and vehicles of three wheels   Drivers and passengers of: Motorcycles (with or without sidecars)motor tricycles and heavy quadricyclesmopedsquad-ATVmust suitably use, that is, properly positioned and buckled, approved or certified helmets according to current legislation, when they drive in both urban and interurban roads.An exemption exists if the person has an approved certificate issued for serious medical reasons.(Página 57 del manual 'Learning to drive')6 Vehicles of two and three weels       6.1 Mopeds, motorcycles and vehicles of three wheelsWhen motorcycles, motor tricycles or heavy quadricycles and mopeds have self-protection structures and are equipped with seat belts and are recorded on the corresponding technical inspection card or characteristics certificate, their drivers and passengers will be exempt from wearing the protective helmet, being obliged to use the aforementioned seat belt when they travel on both urban and interurban roads.Driving without using a seatbelt, helmet or other mandatory protection elements, or not using them properly, can cost 4 points.(Página 57 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634381158990000000/567a3173-b28c-4088-8c0b-6c6015c05efdM.jpg",
+      "number": "21.",
+      "question": "El condutor de un quad-ATV, como el de la imagen, ¿debe utilizar casco?\nDoes the driver of a quad-ATV, like in the image, have to wear a helmet?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, si no existe zona peatonal.\nYes, if there is no pedestrian area."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, atravesándolas perpendicularmente, ya que se trata del recorrido más corto.\nYes, they can cross them perpendicularly, as this is the shortest route."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, deben rodearlas, utilizando el arcén o, en su defecto, la calzada si no existe zona peatonal.\nNo, they must walk around them on the pavement, or, if there is no pavement or pedestrian zone, on the road."
+        }
+      ],
+      "help": "5 Pedestrians   5.4 Pedestrian crossings and crossing roadsA vehicle stationary in front of a pedestrian crossing may indicate that some pedestrians are crossing the road. Before overtaking that vehicle, the driver must be sure that this is not the case.The driver should not signal pedestrians to cross, because there may be other drivers who are unaware of their presence.Pedestrians may not cross rotating circulation squares or traffic roundabouts on the road, and must go around them.(Página 57 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676080000000/9ed29d2e-9fde-41db-a37b-fef802f8cca9M.jpg",
+      "number": "22.",
+      "question": "Los peatones, ¿pueden atravesar las plazas y glorietas por su calzada?\nCan pedestrians walk over squares and roundabouts, crossing the road?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, cuando llevan alguna prenda reflectante.\nNo, not if they are wearing reflective clothing."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, siempre.\nYes, always."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, cuando la vía está iluminada.\nNo, not when the road is lit."
+        }
+      ],
+      "help": "6 Vehicles of two and three weels  6.2 BicyclesA bicycle must be fitted with reflectors in accordance with the regulations.When the use of lighting is compulsory, bicycle riders, in addition to having their position lights turned on, must also wear a reflective garment that allows drivers and other users to distinguish them at a distance of 150 metres, if they travel by an interurban road.(Página 57 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634855565140000000/c2bddb48-c921-4de5-8566-2bdcdef0aa68M.jpg",
+      "number": "23.",
+      "question": "Los ciclistas, ¿están obligados a encender el alumbrado cuando circulan de noche?\nAre cyclists obliged to turn on their lights when riding at night?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo en rampas ascendentes prolongadas.\nOnly on long upward slopes."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "En caso de rampas ascendentes prolongadas, en condiciones extremas de calor o por razones médicas.\nIn the case of long upward slopes, in extreme heat conditions or for medical reasons."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "6 Vehicles of two and three weels    6.2 BicyclesIt is mandatory for cyclists and, where appropriate, passengers of bicycles and cycles to wear a helmet on urban and interurban roads and in roads that pass through towns, in cases and under conditions that are determined by law.The use of a helmet is always mandatory for persons under sixteen years of age and also for cyclists who travel on interurban roads. Outside a built-up-area, the riders of bicycles and their passengers must wear an approved cycle safety helmet. Except when:Travelling up hill for a considerable distance. (Continuous ascent).There is a medical reason, as certified by an exemption certificate.There are extreme conditions of heat.(Página 57 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637227558960000000/624da359-e065-4e75-9f02-e3b129651e7eM.jpg",
+      "number": "24.",
+      "question": "El ciclista, ¿puede quitarse el casco en vías interurbanas?\nCan cyclists remove their helmets on intercity roads?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Por el arcén derecho o el izquierdo, indistintamente.\nEither the left-hand or right-hand hard shoulder."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Lo más cerca posible del borde derecho de la vía en el sentido de su marcha y de forma que nunca ocupen más de la mitad derecha de la calzada.\nAs close as possible to the right edge of the road in the direction of travel, and without occupying more than half of the right-hand side of the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Por el arcén de la izquierda en el sentido de su marcha.\nOn the left-hand hard shoulder in the direction of travel."
+        }
+      ],
+      "help": "9 Animals    Animal drivers must take care to not enter pedestrian zones.Loose livestock and working or saddled animals and beasts of burden will also travel on the right-hand hard shoulder. If they have to use the roadway, they must travel as close as possible to its right edge.Flocks of animals or herded animals must be kept, as far as possible to the right hand edge of the roadway (that is, in the direction of travel) andit must be ensured that they never occupy more than the right hand side of the roadway.Animals are prohibited on motorways or dual carriageways. Said prohibition includes animal traction vehicles.It is prohibited to leave animals unattended on any type or road or its immediate surroundings, always assuring that they cannot invade the road.(Página 59 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635104460620000000/b6f36a83-a185-4d2b-bf4d-d8bc08e1d266M.jpg",
+      "number": "25.",
+      "question": "¿Por dónde deben circular los animales conducidos en manada o rebaño?\nWhere should animals led in flocks or herds be positioned?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, los animales nunca pueden utilizar vías públicas.\nNo, animals can never use public roads."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, excepto por autovías y autopistas.\nYes, except for dual carriageways and motorways."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, en todo caso.\nYes, always."
+        }
+      ],
+      "help": "9 Animals  Working animals, beasts of burden, with saddles and livestock (individual, in herds or flocks) are only permitted on roads when there is no other route available via a livestock trail and always watched over by a person. Said travel will be done on the alternative road with the least vehicle traffic.(Página 59 del manual 'Learning to drive')9 Animals    Animal drivers must take care to not enter pedestrian zones.Loose livestock and working or saddled animals and beasts of burden will also travel on the right-hand hard shoulder. If they have to use the roadway, they must travel as close as possible to its right edge.Flocks of animals or herded animals must be kept, as far as possible to the right hand edge of the roadway (that is, in the direction of travel) andit must be ensured that they never occupy more than the right hand side of the roadway.Animals are prohibited on motorways or dual carriageways. Said prohibition includes animal traction vehicles.It is prohibited to leave animals unattended on any type or road or its immediate surroundings, always assuring that they cannot invade the road.(Página 59 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676250000000/c42efed9-d898-491c-a4d4-cbfba28aa059M.jpg",
+      "number": "26.",
+      "question": "Cuando no exista vía pecuaria, ¿se permite a los animales transitar por las vías públicas?\nWhere there is no livestock track, are animals allowed to go along public roads?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "no superior a 40 km/h, solamente de noche.\nnot over 40 km/h, only at night."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "no superior a 40 km/h.\nnot over 40 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "superior a 40 km/h.\nover 40 km/h."
+        }
+      ],
+      "help": "10 Special vehicles  Also, the drivers of special vehicles or whilst engaged in special transport purposes, will have to use the illuminated light, both day and night, whenever they travel on public roads at a speed that does not exceed 40 Km/h. Should this light fail, then the dipped headlight will have to be used along with the hazard warning lights.(Página 59 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634671466310000000/61586376-2862-448e-abca-bfe0a9976804M.jpg",
+      "number": "27.",
+      "question": "Los vehículos especiales que circulan por una vía de uso público deben utilizar la luz rotativa amarillo auto cuando circulen a una velocidad...\nSpecial vehicles driving on a public road must use their flashing yellow light when they travel at a speed...",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, solo señaliza su situación.\nNo, the light only signals their position."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, en cualquier caso.\nYes, always."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero cuando circulan con ella encendida.\nYes, but when they are driving with the light flashing."
+        }
+      ],
+      "help": "10 Special vehicles  The rotating light yellow only signals the location and presence of the vehicle, it does not grant it special priority or give preference over other traffic.Road recovery vehicles (grúas), will also use the rotating amber light, when they are recovering a vehicle and need to warn of this purpose to other road users (i.e. an obstruction in the carriageway).(Página 59 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634662924560000000/92fc0c96-2f20-4f25-bfe6-0638195716bdM.jpg",
+      "number": "28.",
+      "question": "La luz rotativa que llevan los vehículos especiales, ¿les concede prioridad frente a los demás conductores?\nDoes the flashing light on special vehicles give them priority over other vehicles?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, una luz rotativa que puede ser de cualquier color.\nYes, a revolving light in any colour."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, una luz rotativa de color azul.\nYes, a blue revolving light."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, una luz rotativa de color amarillo auto.\nYes, a yellow revolving light."
+        }
+      ],
+      "help": "10 Special vehicles   The drivers of vehicles, that are used for works and service purposes (road maintenance and repair duties) will use a rotating light, yellow in colour, to indicate their presence and warn of the potential danger.If they are used on a motorway or a dual carriageway, then the lights must be used from the time of entrance onto the roadway until they arrive at their destination and the need to use it ceases.(Página 59 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678720000000/4383f5c0-0d09-49e6-9d36-09ffa85c8347M.jpg",
+      "number": "29.",
+      "question": "Los vehículos destinados a obras y servicios, ¿deberán llevar algún tipo de distintivo luminoso cuando están realizando obras de reparación en una calzada y puedan suponer un peligro para los demás usuarios?\nDo vehicles used for road works and services have to display any kind of illuminated sign when they are carrying out repair work on a road and may pose a danger to other road users?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, la luz de cruce.\nYes, the dipped beams."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, la luz de cruce junto con la señal de emergencia.\nYes, the dipped beams and the hazard lights."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, la señal de emergencia.\nYes, the hazard lights."
+        }
+      ],
+      "help": "10 Special vehicles  Also, the drivers of special vehicles or whilst engaged in special transport purposes, will have to use the illuminated light, both day and night, whenever they travel on public roads at a speed that does not exceed 40 Km/h. Should this light fail, then the dipped headlight will have to be used along with the hazard warning lights.(Página 59 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674270000000/72e810fa-b8a8-4956-8736-9f9d3d09a86cM.jpg",
+      "number": "30.",
+      "question": "En caso de avería de la luz rotativa amarillo auto que utilizan los vehículos especiales, ¿se debe utilizar algún alumbrado?\nShould any other lights be used if the automatic rotating yellow light used by special vehicles stops working?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

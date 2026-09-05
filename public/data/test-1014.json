@@ -1,0 +1,733 @@
+{
+  "test_id": 1014,
+  "title": "Road signalling 2",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Inmediatamente antes de la intersección, aun cuando se rebase la línea de detención.\nImmediately before the junction, even if you go over the stop line."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Antes de la señal.\nBefore the sign."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Ante la línea de detención, sin rebasarla.\nBefore the stop line, without going over it."
+        }
+      ],
+      "help": "5 Vertical Signs               5.3 Regulation road signs   5.3.2 ‘Priority’ signs R-2 StopObligation for all drivers to stop their vehicle before the stop-line or, if one is not on the road surface or visible, immediately before the junction, giving way to vehicles that travel on the road they are approaching.  (Página 124 del manual 'Learning to drive')5 Vertical Signs               5.3 Regulation road signs   5.3.2 ‘Priority’ signs R-2 StopIf, for exceptional circumstances, a driver stops in a place where there is not enough visibility, the driver must re-stop in a place where he has proper visibility before committing himself to entering the new road. Consideration must always be given to safety.Note: Failing to comply with the requirement to stop at a stop sign or give way sign will result in the loss of 4 points.(Página 124 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638138050770000000/54f68e9d-0a8d-4000-b9fe-d75d2c4d9ea0M.jpg",
+      "number": "1.",
+      "question": "¿Dónde hay que detenerse para cumplir la señal de stop?\nWhere should we stop to comply with the stop signal?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "que no se puede pasar cuando se obligue a los vehículos que vengan en sentido contrario a detenerse.\nyou cannot proceed if oncoming vehicles are required to stop."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "que hay que detenerse siempre.\nyou must always stop."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "prioridad respecto al sentido contrario.\npriority over oncoming traffic."
+        }
+      ],
+      "help": "5 Vertical Signs                 5.3 Regulation road signs    5.3.2 ‘Priority’ signs R-6 Priority over the opposite directionIndicates to drivers that they have the right of way over vehicles that approach from the opposite direction.Although having priority, drivers must still be prepared to give way on occasions, since the road way is narrow and other vehicles may be slow and may not have not passed through this section.(Página 124 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673980000000/fe5cf1f2-4c43-4b77-9d6f-2bf8bfbc09b5M.jpg",
+      "number": "2.",
+      "question": "Esta señal indica...\nThis sign indicates...",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Circulación prohibida en ambos sentidos para toda clase de vehículos.\nTraffic prohibited in both directions for all types of vehicles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Entrada prohibida solo a vehículos a motor.\nEntry prohibited only for motor vehicles."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Entrada prohibida a toda clase de vehículos.\nEntry prohibited for all vehicles."
+        }
+      ],
+      "help": "5 Vertical Signs                                           5.3 Regulation road signs            5.3.3 Prohibition of entry signs - ‘No entry’ R-101 No entryAccess forbidden to all types of vehicles.(Does not forbid access from the opposite direction.)(Página 124 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675680000000/98c83f48-24ab-436c-92fd-ed4bf16370daM.jpg",
+      "number": "3.",
+      "question": "Esta señal, ¿qué indica?\nWhat does this sign mean?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, porque no es un vehículo a motor.\nYes, because it is not a motor vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, porque la señal solo prohíbe el paso a automóviles.\nYes, because the sign only prohibits the passage of cars."
+        }
+      ],
+      "help": "5 Vertical Signs                                           5.3 Regulation road signs            5.3.3 Prohibition of entry signs - ‘No entry’ R-100 Driving forbiddenProhibited to drive (ride etc) all types of vehicles in either direction. (Página 124 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673980000000/30fe5370-cdd2-438f-a03b-410687b90df1M.jpg",
+      "number": "4.",
+      "question": "A la vista de esta señal, ¿puede pasar conduciendo un ciclo?\nCan you ride a bicycle if you see this sign?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "vehículos a motor, excepto a motocicletas de dos ruedas y a vehículos de tres ruedas asimilados a motocicletas.\nmotor vehicles, except for two-wheeled motorcycles or three-wheeled vehicles classified as motorcycles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "vehículos automóviles.\nautomobiles."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "turismos.\nprivate cars."
+        }
+      ],
+      "help": "5 Vertical Signs                                                   5.3 Regulation road signs                5.3.3 Prohibition of entry signs - ‘No entry’    R-103 No entry for motor vehicles, except two-wheeled motorcyclesProhibits access to motor vehicles. Does not prohibit access to two-wheeled motorcycles or three-wheeled vehicles classified as motorcycles.(Página 124 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637297155240000000/a683dbb0-577f-47df-b3db-0a361becd824M.jpg",
+      "number": "5.",
+      "question": "Esta señal indica entrada prohibida a...\nThis sign means that entry is prohibited to...",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A los de más de 3.500 kg de MMA solo cuando llevan carga.\nThose of more than 3,500 kg gross vehicle mass (GVM) only when carrying a load."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "A los de menos de 3.500 kg de MMA.\nThose with a gross vehicle mass (GVM) of less than 3,500 kg."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "A los de más de 3.500 kg de MMA con carga o sin carga.\nThose over 3,500 kg gross vehicle mass (GVM) with or without a load."
+        }
+      ],
+      "help": "5 Vertical Signs                                                     5.3 Regulation road signs                 5.3.3 Prohibition of entry signs - ‘No entry’   R-107 No entry for goods transport vehicles exceeding the indicated authorized massProhibits access to all types of vehicles intended for transporting goods if their maximum authorized mass exceeds the value indicated on the sign—understood as lorries, tractor units, vans, and panel vans. Access is prohibited even if the vehicle is empty.(Página 125 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638044588540000000/0278d940-ae44-4735-aac0-8e27b46a764fM.jpg",
+      "number": "6.",
+      "question": "¿A qué vehículos de transporte de mercancías prohíbe pasar esta señal?\nWhich goods vehicles are prohibited from passing by this sign?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el paso a vehículos que transporten más de 500 litros de productos capaces de contaminar el agua.\nthe passage of vehicles transporting more than 500 litres of substances capable of contaminating water."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "el paso a vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua.\nthe passage of vehicles transporting more than 1,000 litres of substances capable of contaminating water."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "el paso a vehículos cisternas.\nthe passage of tanker vehicles."
+        }
+      ],
+      "help": "5 Vertical Signs                                                         5.3 Regulation road signs                   5.3.3 Prohibition of entry signs - ‘No entry’  R-110 No entry for vehicles carrying waterpolluting substancesProhibits passage of any vehicle transporting more than 1,000 liters of substances capable of contaminating water.(Página 125 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673990000000/fd3a7c26-cef7-49ff-b759-a1fd7990a65dM.jpg",
+      "number": "7.",
+      "question": "Esta señal prohíbe...\nThis sign prohibits...",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, en cualquier caso.\nYes, always."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Solo si la masa máxima del camión no supera las 2 toneladas.\nOnly if the lorry's maximum mass does not exceed 2 tonnes."
+        }
+      ],
+      "help": "5 Vertical Signs                                                         5.3 Regulation road signs                   5.3.3 Prohibition of entry signs - ‘No entry’  R-112 No entry for motor vehicles with trailers (except single-axle)Prohibits access to motor vehicles with trailers, except those with a single axle. If a tonnage figure is shown on the trailer silhouette or on a supplementary panel, the restriction only applies when the trailer’s maximum authorized mass exceeds that figure.(Página 125 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679160000000/43bd8d8a-bb30-47bc-9e5a-45e26761bb47M.jpg",
+      "number": "8.",
+      "question": "Esta señal, ¿prohíbe la entrada a los camiones?\nDoes this sign prohibit entry to lorries?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "todos los tractores.\nall tractors."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "tractores y otras máquinas de obras autopropulsadas.\ntractors and other self-propelled works machinery."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "los vehículos agrícolas autopropulsados.\nself-propelled agricultural vehicles."
+        }
+      ],
+      "help": "5 Vertical Signs                                                         5.3 Regulation road signs                   5.3.3 Prohibition of entry signs - ‘No entry’  R-111 No entry for agricultural motor vehiclesProhibits access to tractors and other self-propelled agricultural machines.(Página 125 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638862664930000000/8f458a7a-1e36-412a-bd4a-67ecac3f73a4M.jpg",
+      "number": "9.",
+      "question": "La señal de la imagen prohíbe el acceso a...\nThe sign in the image prohibits access to...",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Prohibición de paso a los vehículos cuya anchura entre ejes supere la indicada.\nNo vehicles whose axle width exceeds the indicated measurement."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Limitación de longitud por eje.\nLength limit per axle."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Limitación de masa por eje.\nMass limit per axle."
+        }
+      ],
+      "help": "5 Vertical Signs                                                           5.3 Regulation road signs 5.3.4 Signs restricting access R-202 Mass limitation per axleAccess forbidden to vehicles whose total mass, per axle, exceeds the one indicated in tonnes.(Página 126 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678820000000/5dd30b6d-0260-4494-a676-33fdb5ae6b75M.jpg",
+      "number": "10.",
+      "question": "¿Qué significa esta señal?\nWhat does this sign mean?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Circulación prohibida.\nYou cannot drive here."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Prohibición de pasar sin detenerse.\nYou cannot proceed without stopping."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Entrada prohibida.\nEntrance prohibited."
+        }
+      ],
+      "help": "5 Vertical Signs                                                           5.3 Regulation road signs 5.3.4 Signs restricting access R-200 No passing without stoppingIndicates the location of a mandatory stop.Information is detailed on the sign and explains the reason for stopping, i.e. a customs post, police post, toll or other reason and purpose. Detention may be controlled by various measures, such as a mechanical barrier etc.Drivers and road users cannot begin driving again until they have completed the stop and complied with any required formality, such as payment at a toll booth etc.(Página 126 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674650000000/e34a15a0-9f58-4156-bf69-f5ffc1c238f4M.jpg",
+      "number": "11.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign indicate?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Al llegar a la intersección.\nWhen you reach the junction."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Al rebasar la vertical de la próxima señal de \"fin de prohibiciones\".\nWhen you go past the vertical sign indicating the limit no longer applies."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Al rebasar la intersección.\nAfter passing the junction."
+        }
+      ],
+      "help": "5 Vertical Signs                                                           5.3 Regulation road signs 5.3.5 Other signs relating to prohibition or restriction R-301 Maximum speedProhibits travelling a speed higher than the one indicated on the road sign, in kilometres per hour.It is mandatory from the place it is located until the next “End of speed limit”, “End of prohibitions” or another “Maximum speed limit” road sign, except when it is posted on the same signpost or board as a danger warning road sign. In such cases the prohibition ends when the posted danger ends.(Página 126 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674000000000/48d2f399-9193-484b-8fbc-92d5f823641eM.jpg",
+      "number": "12.",
+      "question": "¿Cuándo finaliza la prohibición de circular a velocidad superior a la indicada?\nWhen does the speed limit indicated cease to apply?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Cuando salga del estrechamiento.\nWhen the road widens again."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Cuando rebase la vertical de la señal de \"fin de la prohibición de adelantamiento\".\nWhen you go past the sign indicating that you can overtake again."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando llegue al estrechamiento.\nWhen you reach the narrowing of the road."
+        }
+      ],
+      "help": "5 Vertical Signs                                                             5.3 Regulation road signs  5.3.5 Other signs relating to prohibition or restriction  R-305 No OvertakingThe prohibition is in force starting where the sign is located and until the next ‘End of No Overtaking’ or ‘End of Prohibitions’ sign.If it is located in a site where overtaking is prohibited by general rules, remember the generic prohibition of performing this operation.(Página 126 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674010000000/efcf3374-af78-41cc-9d38-a6fdd33cef06M.jpg",
+      "number": "13.",
+      "question": "¿Cuándo termina la prohibición de adelantar?\nWhen does the no overtaking enforcement end?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "A partir de las 9 horas del día 1 y hasta las 9 horas del día 16.\nFrom 9am on day 1 to 9am on day 16."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "A partir de las 9 horas del día 16 y hasta las 9 horas del día 1.\nFrom 9am on day 16 to 9am on day 1."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Nunca, ya que esta señal prohíbe el estacionamiento permanentemente.\nNever, as this sign prohibits parking permanently."
+        }
+      ],
+      "help": "5 Vertical Signs                                                                     5.3 Regulation road signs      5.3.5 Other signs relating to prohibition or restriction  R-308d No parking during the last two weeks of the monthNo parking on the side of the roadway where the road sign is located, from 9.00 AM on the 16th day of the month until 9.00 AM on the 1st day of the following month. Unless otherwise indicated, the prohibition starts at the vertical position of the road sign and ends at the next junction. Does not forbid stopping.(Página 127 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680980000000/a2fefca4-e2aa-4324-86a2-120490b4449eM.jpg",
+      "number": "14.",
+      "question": "¿Cuándo puede estacionar a la vista de esta señal?\nWhen can you park in view of this sign?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "la parada y el estacionamiento.\nstopping and parking."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "únicamente la parada.\nstopping only."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "solamente el estacionamiento.\nparking only."
+        }
+      ],
+      "help": "5 Vertical Signs                                                                     5.3 Regulation road signs      5.3.5 Other signs relating to prohibition or restriction  R-308e No parking in front of a dropped kerbProhibits parking in front of a dropped kerb (vehicle access point).(Página 127 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638862799560000000/55146b68-8e7c-4fa0-9128-5b7344c1abb7M.jpg",
+      "number": "15.",
+      "question": "Delante de un vado, esta señal prohíbe...\nWhere this is a dropped kerb, this sign prohibits...",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "parar, pero permite estacionar.\nstopping, but it permits parking."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "parar y estacionar.\nstopping and parking."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "estacionar, pero permite parar.\nparking, but it permits stopping."
+        }
+      ],
+      "help": "5 Vertical Signs                                                                   5.3 Regulation road signs     5.3.5 Other signs relating to prohibition or restriction  R-307 No stopping or parkingProhibition to stop and park on the side of the roadway where the road sign is located. Unless indicated to the contrary, the prohibition commences at the vertical signal and concludes at the next junction.(Página 127 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674020000000/4785d17b-15fd-4de8-83bd-d9ad71d0f4bdM.jpg",
+      "number": "16.",
+      "question": "Esta señal prohíbe...\nThis sign prohibits...",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Los lados del refugio por donde está prohibido pasar.\nThe sides of the refuge where it is forbidden to pass."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Los lados del refugio por donde los vehículos han de pasar.\nThe sides of the refuge where vehicles should pass."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Los lados de la calzada en los que está permitido estacionar.\nThe sides of the road where it is permitted to park."
+        }
+      ],
+      "help": "5 Vertical Signs                                                                         5.3 Regulation road signs    5.3.6 Obligation road signs  R-401a, b and c Mandatory passageThe arrows indicates the side or sides of the pedestrian refuge, traffic island or other obstruction through which vehicles must pass.(Página 128 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674020000000/a6529f7e-6a45-4df0-847e-435f0e40d14aM.jpg",
+      "number": "17.",
+      "question": "¿Qué indica esta señal situada sobre un refugio?\nWhat does this sign on a refuge mean?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "La dirección y el sentido del movimiento giratorio que los vehículos deben seguir.\nThe direction of movement that vehicles must follow."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La obligación de girar a la izquierda en la intersección.\nThat you must turn left at the intersection."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "La obligación de girar a la derecha en la intersección.\nThat you must turn right at the intersection."
+        }
+      ],
+      "help": "5 Vertical Signs                                                                         5.3 Regulation road signs    5.3.6 Obligation road signs  R-402 Compulsory direction on a roundaboutThe arrows indicate the direction of the rotating movement that the vehicles must follow.(Página 128 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674020000000/23ff9077-14b4-4b0c-8d57-8ad9b907708dM.jpg",
+      "number": "18.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Los ciclos y las bicicletas.\nCycles and bicycles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Los ciclos y los ciclomotores.\nBicycles and mopeds."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Los ciclomotores, únicamente.\nMopeds only."
+        }
+      ],
+      "help": "5 Vertical Signs                                                                               5.3 Regulation road signs       5.3.6 Obligation road signs  R-407b Reserved and compulsory road for mopedsDrivers of mopeds must use the road at whose entrance the sign is placed, and other road users are prohibited from using it.(Página 128 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638864402310000000/1675b608-2724-4294-9e80-2b91ea9e4410M.jpg",
+      "number": "19.",
+      "question": "¿Qué vehículos están obligados a circular por una vía con esta señal?\nWhich vehicles are required to travel along a road with this sign?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "es recomendable.\nis advisable."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "está prohibido.\nis prohibited."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "es obligatorio.\nis compulsory."
+        }
+      ],
+      "help": "5 Vertical Signs                                                                                 5.3 Regulation road signs        5.3.6 Obligation road signs R-411 Minimum speedObligation to travel at least at the speed indicated by the number on the road sign, in kilometres per hour.It goes into effect from the place where it is located until another different “Minimum speed”, or “End of minimum speed” or “Maximum speed” road sign showing the same or less value.(Página 129 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637183221660000000/6fdcec8a-9291-4b26-bbee-7ae58eb4793bM.jpg",
+      "number": "20.",
+      "question": "A partir de esta señal, circular como mínimo a 30 kilómetros por hora...\nAfter this sign, driving at at least 30 kilometres per hour...",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "fin de todas las obligaciones de carácter local para vehículos en movimiento.\nends all local obligations for moving vehicles."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "fin de esta obligación.\nends this obligation."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "fin de todas las obligaciones para vehículos en movimiento.\nends all obligations for moving vehicles."
+        }
+      ],
+      "help": "5 Vertical Signs                                                                                     5.3 Regulation road signs          5.3.6 Obligation road signs R-413 Short range lights (Low beam headlights)Drivers must travel at least with the low-beam headlights (short range/dipped lights) regardless of the road visibility or lighting conditions, from the place where the road sign is located until the next “End of short range lights obligation” road sign.(Página 129 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674040000000/a0eb18a0-dd30-4691-a1cc-81b55c538c83M.jpg",
+      "number": "21.",
+      "question": "La señal indica la obligación para los conductores de circular con el alumbrado de corto alcance al menos desde el lugar en que esté situada la señal hasta otra de…\nThis sign means that drivers must use their dipped-beam headlights at least from the location where this sign is located until another which...",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "pagar, exclusivamente, mediante el sistema de peaje dinámico o telepeaje.\npay exclusively using the dynamic or electronic toll system."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "utilizarlo, aunque el vehículo no esté equipado con el sistema de telepeaje operativo.\nuse it, even if the vehicle is not equipped with an electronic toll system."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "pagar mediante el sistema de telepeaje o con otros medios.\npay using the electronic toll system or by other methods."
+        }
+      ],
+      "help": "5 Vertical Signs                                                                                       5.3 Regulation road signs           5.3.6 Obligation road signs  R-418 Road reserved for vehicles equipped with a telepass systemVehicles travelling in the lane or lanes indicated must be equipped with a telepass (telepeaje) device and must use this system to pay the toll. (The device must be in working order.).(Página 129 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638623571900000000/7ea73a10-c2c0-40c2-91b8-7f00a70cb050M.jpg",
+      "number": "22.",
+      "question": "Esta señal, en un carril de entrada a un peaje, obliga a quienes circulen por él a...\nThis sign, at a toll entrance lane, obliges drivers travelling in this lane to…",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Fin de todas las prohibiciones anteriores de carácter local referidas a los camiones.\nEnd of all previous local prohibitions regarding lorries."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Fin de circulación paralela.\nEnd of parallel traffic."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Fin de prohibición de adelantamiento para camiones.\nEnd of overtaking prohibition for lorries."
+        }
+      ],
+      "help": "5 Vertical Signs                                                                                             5.3 Regulation road signs    5.3.7 Signs indicating the end of a prohibition, restriction or obligationR-503 End of overtaking prohibition for lorries / trucksIt indicates the place where a previous “No overtaking for lorries” road sign loses effect.(Página 130 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638041270420000000/a16bd89a-7643-4d6d-8e76-d2887ec8a4beM.jpg",
+      "number": "23.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign indicate?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "velocidad máxima.\nspeed limit."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "velocidad mínima.\nminimum speed."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "prohibición de adelantamiento.\nprohibition to overtake."
+        }
+      ],
+      "help": "5 Vertical Signs                                                                                             5.3 Regulation road signs    5.3.7 Signs indicating the end of a prohibition, restriction or obligation R-501 End of speed limitIt indicates the place where a previous “maximum speed” road sign loses effect.(Página 129 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638862831080000000/475f5013-bf96-4b85-aa65-b883f9f0fc8dM.jpg",
+      "number": "24.",
+      "question": "Esta señal indica el lugar desde donde deja de ser aplicable una anterior señal de...\nThis sign indicates the place from which the following sign is no longer applicable:",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "obligatorio de velocidades, siempre que las condiciones sean favorables.\nthat is mandatory for speeds, provided that the conditions are favourable"
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "aconsejado de velocidades, aunque las condiciones sean desfavorables.\nrecommended for speeds, even when the conditions are unfavourable."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "aconsejado de velocidades, siempre que las condiciones sean favorables.\nrecommended for speeds, provided that the conditions are favourable."
+        }
+      ],
+      "help": "5 Vertical Signs                 5.4 Indication Road Signs     5.4.2 General indication road signs  S-9 Speed interval recommendationIt recommends maintaining your speed between the speeds indicated, as long as meteorological and environmental road and traffic conditions are good. When it is posted below a danger warning sign, the recommendation refers to the road section in which the fore-mentioned danger exists.(Página 132 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637297170160000000/0be58dc9-4c31-4c96-a95f-300bb2ff427dM.jpg",
+      "number": "25.",
+      "question": "Esta señal significa intervalo...\nThis sign means the interval...",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, indica únicamente el principio de un túnel.\nNo, it only indicates the beginning of a tunnel."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, indica el final de un túnel o paso inferior.\nNo, it indicates the end of a tunnel or underpass."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, y también el principio de un túnel o de un tramo equiparado a túnel.\nYes, and also the beginning of a tunnel or a stretch of road similar to a tunnel."
+        }
+      ],
+      "help": "5 Vertical Signs               5.4 Indication Road Signs    5.4.2 General indication road signs  S-5 TunnelIt indicates the beginning of a tunnel, an underpass or a similar section of road.The name of the section of road is shown on the sign and the length of the tunnel in metres.(Página 132 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675920000000/04d91063-3bc2-4ab4-9085-3db7dc440b86M.jpg",
+      "number": "26.",
+      "question": "Esta señal, ¿puede indicar el principio de un paso inferior?\nCan this sign indicate the beginning of an underpass?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Una parada de taxis.\nA taxi rank."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Un lugar reservado al estacionamiento.\nA place reserved for parking."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Un parada de autobuses.\nA bus stop."
+        }
+      ],
+      "help": "5 Vertical Signs                 5.4 Indication Road Signs     5.4.2 General indication road signs  S-17 ParkingIndicates a place where parking is authorised. A sign or symbol representing specificd classes of vehicles means that parking is reserved for these classes. A sign with indications of the time limit for the signalled parking.(Página 133 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680630000000/1a04db58-ac13-4812-ba76-3fdcd6e65ce6M.jpg",
+      "number": "27.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "permite cambiar de dirección pero no de sentido.\nallows a change in direction but not a U-turn."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "indica sentido obligatorio en una vía de uno o más carriles.\nindicates the road's mandatory direction of travel for one or more lanes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "prohíbe cambiar de dirección y de sentido.\nprohibits a change in direction or U-turn."
+        }
+      ],
+      "help": "5 Vertical Signs                 5.4 Indication Road Signs     5.4.2 General indication road signs  S-11 One-way single-lane carriagewayIndicates that on the single-lane carriageway extending in the direction of the arrow, vehicles must travel in the indicated direction, and driving in the opposite direction is prohibited.(Página 132 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638870004870000000/d54269ca-908f-4e09-af87-a259cf1c0e8bM.jpg",
+      "number": "28.",
+      "question": "Esta señal...\nThis sign...",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Cambio de sentido a distinto nivel a 300 metros.\nThere is a U turn on a different level in 300 metres."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Cambio de sentido al mismo nivel a 300 metros.\nThere is a U turn on the same level in 300 metres."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cambio de dirección al mismo nivel a 300 metros.\nTurn left on the same level in 300 metres."
+        }
+      ],
+      "help": "5 Vertical Signs                       5.4 Indication Road Signs        5.4.2 General indication road signs  S-22 U-turnIt indicates the proximity of a section where you can carry out a U-turn on the same level.(Página 133 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681430000000/1cf0d0aa-948b-4330-bbee-1374f8cebf5cM.jpg",
+      "number": "29.",
+      "question": "¿Qué indica la señal?\nWhat does this sign indicate?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Que en el carril de la derecha no se debe sobrepasar la velocidad de 70 km/hora.\nThat in the right-hand lane you must not exceed a speed of 70 kph."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Que en el carril central y en el izquierdo está prohibido circular a más de 70 km/hora.\nThat you are not allowed to drive at more than 70 kph in the middle and left lanes."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Que en el carril central y en el izquierdo se deberá circular a 70 km/hora como mínimo.\nThat in the middle and left lanes your speed must be at least 70 kph."
+        }
+      ],
+      "help": "5 Vertical Signs                                     5.4 Indication Road Signs       5.4.3 Lane signs   S-50e Lanes reserved according to indicated speedIndicates, on a one-way carriageway, that the lanes over which the minimum speed signs are placed may only be used by vehicles travelling at a speed equal to or greater than that indicated. However, if circumstances permit, vehicles should travel in the right-hand lane. For signs S-50a to S-50e, the end of the minimum speed requirement shall be indicated by sign R-506 or the corresponding S-52 type sign.(Página 136 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-638626859770000000/41d472c3-68a4-4503-9721-07f61fdc10a3M.jpg",
+      "number": "30.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign indicate?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

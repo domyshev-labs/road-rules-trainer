@@ -1,0 +1,733 @@
+{
+  "test_id": 1029,
+  "title": "Mechanics and maintenance",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo si se circula por caminos polvorientos.\nOnly if driving on dusty roads."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, periódicamente.\nYes, periodically."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, no es necesario.\nNo, it is not necessary."
+        }
+      ],
+      "help": "Mechanics and maintenance  3 The fuel supply system – fuel to engine3.1 MaintenanceTo maintain an efficient engine it is fundamental that the fuel system is satisfactorily maintained. This means ensuring that:The air filter is kept clean and adequately maintained. The more obstructed it becomes the higher the fuel consumption. It is necessary to periodically check the air filter, more frequently during the summer than during the winter and more so when travel has occurred in dusty locations or within cities. It should be replaced when it is excessively dirty or in accordance with the manufacturers guidelines.(Página 235 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676120000000/51336246-07e6-4346-bcf6-56a3cd018f8dM.jpg",
+      "number": "1.",
+      "question": "¿Es necesario revisar el filtro del aire?\nIs it necessary to check the air filter?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, solo en las baterías con mantenimiento.\nYes, only on maintainable batteries."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, en todas las baterías.\nYes, on all batteries."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, solo en las baterías sin mantenimiento.\nYes, only on maintenance-free batteries."
+        }
+      ],
+      "help": "Mechanics and maintenance       4 The electrical system 4.1 The battery4.1.1 MaintenanceThe primary maintenance consists in checking the contacts and terminals on the battery. Always ensure that the battery is fitted properly, mounting bolts and brackets should hold the battery firmly in place. The contacts and the terminals of the battery should be free from corrosion and covered with Vaseline or grease to avoid them becoming corroded by the battery acid. The battery should be maintained clean, dry, and well anchored in position.Periodically observe the degree of charge of the battery but always with the engine off.(Página 236 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675760000000/7b90ccec-8c64-4552-ac4d-80b6c4271281M.jpg",
+      "number": "2.",
+      "question": "Los bornes de la batería, ¿deben mantenerse limpios?\nDo the battery terminals need to be kept clean?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Agua y aceite.\nWater and oil."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Agua destilada.\nDistilled water."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Agua y anticongelante.\nWater and antifreeze."
+        }
+      ],
+      "help": "Mechanics and maintenance       4 The electrical system 4.1 The battery4.1.1 MaintenanceThat there are three types of battery: those that require maintenance, low maintenance and maintenance free.In batteries that require maintenance it is necessary to periodically check the electrolyte level. This should be checked with the vehicle horizontal (level and flat) to see if the liquid is on top of the plates; if it is not then distilled water should be added until it covers them but with out passing the maximum level indicated.(Página 236 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679510000000/821df3d0-8e53-4f1d-ab71-9757398082e2M.jpg",
+      "number": "3.",
+      "question": "Cuando una batería necesita líquido, ¿qué líquido se debe poner?\nWhen a battery needs fluid, what fluid must you use?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, porque solo es un problema de refrigeración que suele desaparecer.\nNo, because it is only a cooling problem that usually disappears."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, porque en este caso puede deberse a una mala combustión.\nYes, because it may be due to inefficient combustion."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, porque el motor puede estar quemando aceite.\nYes, because the engine might be burning oil."
+        }
+      ],
+      "help": "Mechanics and maintenance      3 The fuel supply system – fuel to engine  3.2 Breakdowns Symptom Black smoke from the exhaust.Cause - The fuel is too rich / excessive fuel in the mix.- Air filter is obstructed or dirty.(Página 236 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635990830140000000/de8c6147-2628-4574-b6ea-775ac5753eecM.jpg",
+      "number": "4.",
+      "question": "¿Es conveniente hacer una revisión exhaustiva del estado del vehículo si el humo que despide el tubo de escape es de color negro?\nShould you carry out a thorough review of the vehicle's condition if the smoke coming from the exhaust is black?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "en cuanto disminuya su intensidad luminosa.\nwhen the intensity of their light decreases."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "antes de pasar la inspección técnica del vehículo.\nbefore carrying out the technical inspection of the vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "solamente en caso de rotura.\nonly in the case of breakage."
+        }
+      ],
+      "help": "Mechanics and maintenance                         4 The electrical system     4.5 Lighting circuit and other electrical parts 4.5.1 MaintenanceIf required, always replace lights and bulbs to ensure that the vehicle complies with the lighting regulations. Remember – see and be seen.(Página 238 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675110000000/d1448fdb-eab9-40db-8ed9-feaea690d6c2M.jpg",
+      "number": "5.",
+      "question": "Las lámparas del automóvil deben sustituirse...\nThe lights of the automobile must be substituted...",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Con el motor apagado y frío.\nWith the engine turned off and cold."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Con el motor caliente.\nWith the engine hot."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Con el motor funcionando.\nWith the engine running."
+        }
+      ],
+      "help": "Mechanics and maintenance               6 Lubrication system      6.2 MaintenanceIt is possible to check the oil by physical checks and by observing whether there are oil deposits left on the ground.It is necessary to periodically check the oil level by means of the indicating rod (dip stick).  Note: You should never just rely on the instrument panel.Checking the oil should be carried out with the vehicle situated on flat, level ground (and the car in a horizontal position) and with a cold engine. The oil level must be between the minimum and maximum marks. (Página 240 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678940000000/485b8cef-678d-4819-a549-c8077cbf0d24M.jpg",
+      "number": "6.",
+      "question": "El nivel de aceite del motor, ¿cómo se debe comprobar?\nHow do you check the oil level in the engine?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Cuando cambio el aceite.\nWhen I change the oil."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Cuando lo indique el manual del vehículo.\nWhen indicated in the vehicle manual."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cada mil kilómetros.\nEvery thousand kilometres."
+        }
+      ],
+      "help": "Mechanics and maintenance                   6 Lubrication system        6.2 MaintenancePeriodically the oil filter should also be changed. This should be also in accordance with the recommendations of the manufacturer. The frequency of this will depend upon the use of the vehicle (the purpose and nature of the journeys undertaken) the quality of the oil, the kilometres and duration of use.Clean oil that is in good condition keeps the engine running for longer and reduces part wear.(Página 241 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678940000000/27020695-bb90-4a58-96f3-fae9efeefc4aM.jpg",
+      "number": "7.",
+      "question": "El filtro de aceite, ¿cuándo hay que cambiarlo?\nWhen do you have to change the oil filter?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Tirarlo en tierra.\nDump it on the ground."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Tirarlo en una alcantarilla o desagüe.\nPour it into a sewer or drain."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Entregarlo en un contenedor de recuperación de aceite.\nPut it in an oil recovery container."
+        }
+      ],
+      "help": "Mechanics and maintenance                 6 Lubrication system       6.2 MaintenanceThe oil must be changed with the vehicle in a horizontal position, without the engine running but with the motor warmed up slightly. When replacing the oil make sure that no oil falls on to the ground. It should be collected in a suitable container and disposed of correctly, as oil is a pollutant.(Página 241 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635464612560000000/346a5035-c378-4ff6-9894-849f98d01951M.jpg",
+      "number": "8.",
+      "question": "¿Qué se debe hacer con el aceite usado del vehículo?\nWhat should you do with the used oil from the vehicle?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Enfriar el motor del vehículo.\nTo cool the vehicle engine."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Que el vehículo tenga aire acondicionado.\nTo give the vehicle air conditioning."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Que el vehículo tenga calefacción.\nTo heat up the vehicle."
+        }
+      ],
+      "help": "Mechanics and maintenance     7 Cooling systemThe purpose of the cooling system is to ensure that the engine stays within the optimum operating temperature.The cooling system removes excess heat from the engine and ensures that the engine gets up to the correct temperature as soon as possible after starting.A cooling system is also required to prevent the internal engine parts from melting from the heat of the burning fuel.(Página 241 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674580000000/49f1fcd9-7f38-41d5-971e-6bd823b2fb1cM.jpg",
+      "number": "9.",
+      "question": "¿Cuál es la misión principal del líquido refrigerante?\nWhat is the main purpose of coolant?",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Las ruedas traseras.\nThe rear wheels."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Las ruedas delanteras.\nThe front wheels."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Pueden ser las ruedas delanteras o las ruedas traseras según el tipo de vehículo.\nIt can be the front wheels or rear wheels depending on the vehicle type."
+        }
+      ],
+      "help": "Mechanics and maintenance      8 Transmission systemVehicles can have various drive arrangements:Front wheel drive: The driving wheels are located at the front. The advantage of front wheel drive is that all the main components are accommodated under the bonnet thus allowing maximum space within the car for the occupants, without floor bulges for the rear passengers. Using the front wheels for steering allows the driving force to act in the same direction as the wheel is pointing. Mostly, the engine is mounted transversely. This simplifies the transmission, with the clutch and the gearbox mounted in the main unit on the front axle.Rear wheel drive: The driving wheels are at the back. The normal layout in a rear wheel drive vehicle is, the engine and gearbox at the front and the differential behind.Four-wheel drive: The drive is distributed to all four wheels. (Also referred to as “x4” vehicles).(Página 242 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636137799490000000/55579f0e-dd6e-4fde-b147-d51f037a9005M.jpg",
+      "number": "10.",
+      "question": "Las ruedas motrices, ¿cuáles son?\nWhat are the drive wheels?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "hace que la dirección se endurezca.\ncauses steering to stiffen."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "permite un control más preciso del vehículo.\nallows for more precise control of the vehicle."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "reduce al mínimo el esfuerzo necesario para mover el volante.\nminimises the effort needed to move the steering wheel."
+        }
+      ],
+      "help": "Mechanics and maintenance 9 The steering system9.1 Improvements in steering systems9.1.2 Progressive power steeringThis type of steering complements the previous one, adapting the stiffness of the steering to the vehicle’s speed.By means of a series of sensors, the system is able to register the driver’s behaviour on the steering wheel, the vehicle’s running speed and the engine speed. Based on these parameters, an electrical control unit instantly calculates the torque assist level required at any given time.When the car is stopped or moves very slowly, the effort required to move the steering wheel is reduced to a minimum. However, at higher speeds, the steering will be slightly stiffer, which provides a more precise control of the vehicle.(Página 243 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635464578630000000/f0fd2cdd-ff4b-428e-a622-9bdd85b99417M.jpg",
+      "number": "11.",
+      "question": "A baja velocidad, la dirección asistida progresiva...\nAt low speeds, progressive power steering…",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el volante no vibra entre las manos a altas velocidades.\nthe steering wheel does not vibrate in your hands at high speeds."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "las ruedas rebotan en los baches.\nthe wheels bounce off potholes."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "se desvía a un lado al soltar el volante en terreno llano.\nit veers to one side when releasing the steering wheel on flat ground."
+        }
+      ],
+      "help": "Mechanics and maintenance   9 The steering system 9.2 Maintenance9.2.1 Symptoms that require attention - The steering becomes too difficult or too loose.- Whilst travelling on a flat and uniform surface, the vehicle wanders to one side when the steering wheel is held loosely.- The tyres wear becomes irregular.- The steering wheel vibrates at certain speeds.(Página 243 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679160000000/69b47e19-8aa6-4546-975f-422ee5efff57M.jpg",
+      "number": "12.",
+      "question": "Es recomendable revisar la dirección del vehículo cuando...\nIt is advisable to check the vehicle's steering when…",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "la parte trasera del vehículo se levanta excesivamente.\nthe rear of the vehicle lifts up excessively."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "la parte trasera del vehículo se inclina excesivamente.\nthe rear of the vehicle tilts excessively."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la parte delantera del vehículo se levanta excesivamente.\nthe front of the vehicle lifts up excessively."
+        }
+      ],
+      "help": "Mechanics and maintenance 10 Suspension system10.1 Symptoms that the suspension is in poor conditionWhen braking, the vehicle tilts forward and the back lifts excessively.When driving, the stability of the vehicle is reduced on roads in a good condition and on negotiating a bend the vehicle leans excessively.When travelling, passenger comfort is reduced, as the occupants notice changes in the road to a greater extent, such as potholes as well as side winds etc.(Página 244 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634474524610000000/977d66da-79d3-4d15-97cd-433a7788cb93M.jpg",
+      "number": "13.",
+      "question": "Si la amortiguación está en malas condiciones, al frenar...\nIf shock absorbers are in bad condition, when braking...",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "la parte trasera del vehículo baje excesivamente.\nthe rear of the vehicle lowers excessively."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "la parte delantera del vehículo se levante excesivamente.\nthe front of the vehicle lifts up excessively."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "el vehículo se incline hacia delante.\nthe vehicle tilts forward."
+        }
+      ],
+      "help": "Mechanics and maintenance 10 Suspension system10.1 Symptoms that the suspension is in poor conditionWhen braking, the vehicle tilts forward and the back lifts excessively.When driving, the stability of the vehicle is reduced on roads in a good condition and on negotiating a bend the vehicle leans excessively.When travelling, passenger comfort is reduced, as the occupants notice changes in the road to a greater extent, such as potholes as well as side winds etc.(Página 244 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635460299160000000/56935c3a-4286-442c-bc15-afe8a88f4ac0M.jpg",
+      "number": "14.",
+      "question": "La amortiguación en malas condiciones hace que, al frenar...\nIf the shock absorbers are in bad condition, when braking...",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, porque la distancia de frenado disminuirá, especialmente con el firme irregular o mojado.\nYes, because the braking distance will decrease, especially when the road is uneven or wet."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, sin embargo, los cambios de marcha se realizarán con mayor dificultad debido a las oscilaciones del vehículo.\nNo, however gear changes will be more difficult due to vehicle oscillations."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, porque el vehículo puede experimentar una inclinación excesiva al tomar las curvas.\nYes, because the vehicle can experience excessive tilting when driving through bends."
+        }
+      ],
+      "help": "Mechanics and maintenance 10 Suspension system10.2 Consequences of having a suspension system in poor conditionThe vehicle loses stability, especially when negotiating bends or in a side wind and there is an increased risk of aquaplaning.The stopping distance is increased, especially on irregular or wet road surfaces.The effectiveness of the ABS is reduced.Increased wear, causing more breakdowns to other parts of the vehicle.The height of the lights will vary when driving and can dazzle other drivers.There is a general reduction of comfort while driving and driver fatigue increases.(Página 244 del manual 'Learning to drive')Mechanics and maintenance 10 Suspension system10.4 BreakdownsSymptomExcessive movement in bends and corners.Cause- Defective torsion bar, hydraulic dampers etc.(Página 244 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635076818210000000/eefad204-c2a6-49c2-b59d-0b9963420ce0M.jpg",
+      "number": "15.",
+      "question": "¿Puede perder el control del vehículo si circula con los amortiguadores en mal estado?\nCan you lose control of your vehicle if you are driving with shock absorbers in poor condition?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Que las luces oscilen durante la marcha y puedan deslumbrar.\nThe lights will flicker when driving and may dazzle other road users."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Que disminuya la distancia de frenado.\nBraking distance may decrease."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Que el vehículo gane estabilidad.\nThe vehicle will gain stability."
+        }
+      ],
+      "help": "Mechanics and maintenance 10 Suspension system10.1 Symptoms that the suspension is in poor conditionUneven tyre wear.When driving at night the lights oscillate at the point they hit the road.(Página 244 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675430000000/7d7f1589-4dbe-4655-8c40-1a8e2dc7e13dM.jpg",
+      "number": "16.",
+      "question": "Un amortiguador en malas condiciones, ¿qué consecuencias puede tener?\nWhat are the consequences of a damper in poor condition?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "mantener inmovilizado el vehículo.\nkeep the vehicle immobile."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "transmitir el giro del motor a las ruedas.\ntransmit the turning of the engine to the wheels."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "mantener el vehículo siempre en contacto con el suelo.\nkeep the vehicle always in contact with the ground."
+        }
+      ],
+      "help": "Mechanics and maintenance 10 Suspension systemThe purpose of the suspension system is to ensure that the wheels are in constant contact with the road surface, thus providing maximum road adherence and stability and ensuring passenger comfort by preventing the irregularities of the road being felt by the occupants. The system maintains the desired course steered and allows for the fluctuating weight of passengers and cargo.(Página 244 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635164827340000000/a5cb5139-56c7-4621-ae2c-0a2c37aeb7e1M.jpg",
+      "number": "17.",
+      "question": "Una correcta suspensión del vehículo sirve para...\nThe correct suspension of a vehicle is necessary to…",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "para frenar es necesario ejercer menos presión en el pedal de freno.\nin order to stop it is necessary to apply less pressure to the brake pedal."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "aumenta la distancia de frenado peligrosamente.\nthe braking distance increases dangerously."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "se reduce la distancia de frenado en más del 50 por ciento.\nthe braking distance is reduced by over 50 per cent."
+        }
+      ],
+      "help": "Mechanics and maintenance 10 Suspension system10.2 Consequences of having a suspension system in poor conditionThe vehicle loses stability, especially when negotiating bends or in a side wind and there is an increased risk of aquaplaning.The stopping distance is increased, especially on irregular or wet road surfaces.The effectiveness of the ABS is reduced.Increased wear, causing more breakdowns to other parts of the vehicle.The height of the lights will vary when driving and can dazzle other drivers.There is a general reduction of comfort while driving and driver fatigue increases.(Página 244 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636329527030000000/ae76fce2-32ed-4a92-8ac9-c89221c76503M.jpg",
+      "number": "18.",
+      "question": "Si los amortiguadores están defectuosos...\nIf the brake pads are defective...",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "únicamente porque la suspensión esté en malas condiciones.\nonly because the suspension is in poor condition."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "porque la suspensión o la amortiguación estén en malas condiciones.\nbecause the suspension or dampers are in poor condition."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "únicamente porque la amortiguación esté en malas condiciones.\nonly because the dampers are in poor condition."
+        }
+      ],
+      "help": "Mechanics and maintenance 10 Suspension system10.1 Symptoms that the suspension is in poor conditionUneven tyre wear.When driving at night the lights oscillate at the point they hit the road.(Página 244 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637188353280000000/af91a8d8-c8b7-4e7c-add6-553531444fceM.jpg",
+      "number": "19.",
+      "question": "Cuando los neumáticos del vehículo se desgastan irregularmente puede ser...\nWhen the vehicle's tyres wear unevenly it may be…",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Revisar el nivel del líquido de frenos.\nCheck the level of the brake fluid."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Engrasar los discos periódicamente.\nGrease the disks periodically."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Pisar a fondo el pedal de freno para comprobar su eficacia.\nFully apply the brake pedal to check its effectiveness."
+        }
+      ],
+      "help": "Mechanics and maintenance 11 Braking system11.1 MaintenanceSome maintenance actions can be performed by the driver; but for others, it is preferable to have a professional mechanic carry these out.Check the brake fluid levels frequently as indicated in the owner’ manual. It must be between the maximum and minimum level allowed.A decrease in the level indicates a leak in the system. This will be visible by marks left on the floor under the vehicle.(Página 245 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675610000000/ed615d31-7859-4fe8-afc6-f23563cbc250M.jpg",
+      "number": "20.",
+      "question": "Para el buen mantenimiento del sistema de frenos, ¿qué se debe hacer?\nFor good maintenance of the brake system, what should you do?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "falta de líquido en los frenos.\nlack of brake fluid."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "que los manguitos de freno estén agarrotados.\nthe brake lines are rigid."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "que el servofreno haya cristalizado.\nthe brake assist system has become glazed."
+        }
+      ],
+      "help": "Mechanics and maintenance   11 Braking system 11.2 BreakdownsSymptomThe braking is not efficient.Cause- Lack of brake fluid.- Worn brake pads or shoes.(Página 245 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636613837380000000/3b9e11df-9f9b-42a6-93a0-91aec3ff0b4fM.jpg",
+      "number": "21.",
+      "question": "Si observa que en el momento de pisar el pedal del freno este no actúa con eficacia puede ser debido a...\nIf you notice that the brake does not work effectively when stepping on the pedal, it might be because...",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "hay fugas en el circuito.\nthere are leaks in the circuit."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "hay aire en el sistema hidráulico.\nthere is air in the hydraulic system."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "las pastillas están muy desgastadas.\nthe brake pads are very worn out."
+        }
+      ],
+      "help": "Mechanics and maintenance   11 Braking system 11.2 BreakdownsSymptomSpongy pedal.Cause- Air in the hydraulic system.- Inadequate liquid.- Weakened hose.(Página 245 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635464618780000000/be3a1dbb-8dd5-4d17-902e-e8778ca11a9fM.jpg",
+      "number": "22.",
+      "question": "Si el pedal de freno tiene un tacto esponjoso puede ser porque...\nIf the brake pedal feels spongy, this could be because...",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, y sustituirlo completamente en los plazos indicados por el fabricante.\nYes, and it must be replaced within the period specified by the manufacturer."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, aunque no es necesario sustituirlo.\nYes, although there is no need to replace it."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, ya que no se gasta con el uso.\nNo, because the level does not vary with use."
+        }
+      ],
+      "help": "Mechanics and maintenance 11 Braking system11.1 MaintenanceSome maintenance actions can be performed by the driver; but for others, it is preferable to have a professional mechanic carry these out.Check the brake fluid levels frequently as indicated in the owner’ manual. It must be between the maximum and minimum level allowed.A decrease in the level indicates a leak in the system. This will be visible by marks left on the floor under the vehicle.(Página 245 del manual 'Learning to drive')Mechanics and maintenance   11 Braking system 11.1 MaintenanceCheck the travel of the handbrake lever and its effectiveness. An increase in the play means the cable has stretched or the shoes have worn.Completely replace the brake fluid within the period specified by the vehicle manufacturer. Brake fluid is hydroscopic (also known as hygroscopic) so it inevitably absorbs water. During sharp braking bubbles of steam can form, resulting in the threat of a failure in the braking system.(Página 245 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635990830140000000/de8c6147-2628-4574-b6ea-775ac5753eecM.jpg",
+      "number": "23.",
+      "question": "¿Es necesario revisar con frecuencia el nivel del líquido de frenos?\nMust the level of brake fluid in a vehicle be checked regularly?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "El estado de las pastillas sí, los discos no se estropean.\nYes, you should check the pads, but the discs do not deteriorate."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "Mechanics and maintenance 11 Braking system11.1 MaintenanceCheck the brake pipes through which the brake fluid passes, for cracks, stains or leaks.Periodically check the condition of the discs and brake pads, as well as the condition of the entire system. Check the brake shoes and pads are well adjusted and are not worn. If noise is heard during braking then the system must be checked and any worn or damaged parts replaced.(Página 245 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679880000000/7c3440ea-2e08-4d59-a8da-3544b0554a40M.jpg",
+      "number": "24.",
+      "question": "¿Hay que revisar periódicamente el estado de las pastillas y los discos de freno?\nShould you regularly check the condition of brake discs and pads?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, porque aumenta la adherencia de los neumáticos y mejorará la seguridad de circulación.\nYes, because it increases tyre grip and will improve traffic safety."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, ya que aumenta la seguridad de circulación y así se evitan los derrapes.\nYes, as it improves traffic safety and avoids skids."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, ya que una mayor presión de inflado no contribuye a aumentar la seguridad de circulación.\nNo, as increased inflation does not help improve traffic safety."
+        }
+      ],
+      "help": "Mechanics and maintenance 12 Wheels and tyres12.1 MaintenanceCheck the tyre pressures using a properly approved and tested tyre gauge at least once or twice a month. These can be found at public and private locations.This is particularly important prior to commencing a journey where the vehicle will be travelling at high speed or where it will be heavily loaded. A tyre with badly adjusted pressure will wear unevenly as well as presenting an increased risk of a puncture or blow out. Fuel consumption is also increased.(Página 245 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681070000000/1c01d7c9-4918-40c7-8054-b1026ea543caM.jpg",
+      "number": "25.",
+      "question": "Si conduce una motocicleta y la calzada está mojada, ¿es necesario incrementar la presión de inflado de los neumáticos por encima de la recomendada por el fabricante?\nIf you are riding a motorcycle and the road is wet, do you need to increase the tyre inflation pressure above manufacturer recommendations?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Una o dos veces al mes, con los neumáticos en caliente.\nOnce or twice a month, with the tyres warmed up."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solo cuando vaya a realizar un viaje largo.\nOnly when you are going to make a long trip."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Una o dos veces al mes, con los neumáticos en frío.\nOnce or twice a month, with the tyres cold."
+        }
+      ],
+      "help": "Mechanics and maintenance 12 Wheels and tyres12.1 MaintenanceCheck the tyre pressures using a properly approved and tested tyre gauge at least once or twice a month. These can be found at public and private locations.This is particularly important prior to commencing a journey where the vehicle will be travelling at high speed or where it will be heavily loaded. A tyre with badly adjusted pressure will wear unevenly as well as presenting an increased risk of a puncture or blow out. Fuel consumption is also increased.(Página 245 del manual 'Learning to drive')Mechanics and maintenance   12 Wheels and tyres 12.1 MaintenanceThe pressure should be checked with the tyres cold, or after having driven 2 or 3 kilometres at a moderate speed.(Página 245 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485836300000000/8399831b-a6b9-4d86-a1a3-d25cb0e0874fM.jpg",
+      "number": "26.",
+      "question": "¿Cada cuánto tiempo debe controlar la presión de los neumáticos de su vehículo?\nHow often should you check your vehicle's tyre pressure?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Los neumáticos.\nTyres."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Las luces.\nLights."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "El líquido de frenos.\nBrake fluid."
+        }
+      ],
+      "help": "Mechanics and maintenance 12 Wheels and tyres12.1 MaintenanceCheck the tyre pressures using a properly approved and tested tyre gauge at least once or twice a month. These can be found at public and private locations.This is particularly important prior to commencing a journey where the vehicle will be travelling at high speed or where it will be heavily loaded. A tyre with badly adjusted pressure will wear unevenly as well as presenting an increased risk of a puncture or blow out. Fuel consumption is also increased.(Página 245 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635449028010000000/10613b2c-77cb-45c5-888f-4c4a74969abfM.jpg",
+      "number": "27.",
+      "question": "¿Qué elemento del vehículo es importante revisar con más frecuencia?\nWhich element of the vehicle is it important to check most frequently?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, solamente cada 5 años como máximo.\nNo, only every 5 years at the latest."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, excepto si los neumáticos son sin cámara.\nYes, except if the tyres do not have an inner tube."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, con el fin de que no se ponga en riesgo nuestra seguridad.\nYes, in order to avoid endangering our safety."
+        }
+      ],
+      "help": "Mechanics and maintenance 12 Wheels and tyres12.1 MaintenanceIt is necessary to periodically check that the rims do not show / display signs of oxidation or corrosion. Additionally, that there are no deformations or dents around the rim, caused by striking the pavement or other objects. It is also necessary to check the wheel bolts (nuts) are secure.(Página 245 del manual 'Learning to drive')Mechanics and maintenance 12 Wheels and tyres12.1 MaintenanceCheck the tyre pressures using a properly approved and tested tyre gauge at least once or twice a month. These can be found at public and private locations.This is particularly important prior to commencing a journey where the vehicle will be travelling at high speed or where it will be heavily loaded. A tyre with badly adjusted pressure will wear unevenly as well as presenting an increased risk of a puncture or blow out. Fuel consumption is also increased.(Página 245 del manual 'Learning to drive')Mechanics and maintenance     12 Wheels and tyres  12.1 MaintenancePeriodically inspect the tyre. Check that the tread depth is above the tread wear indicators and verify that there are no foreign bodies in the tread (nails, stones, etc.) Also, check for irregular wear, cuts, cracks or deformation – if these are found the tyre may need to be replaced.Consult a professional if abnormalities in the tyre(s) are found or the vehicle responds in an unexplained manner.(Página 246 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635465421690000000/fc4627a5-80d5-4945-a205-20d312283628M.jpg",
+      "number": "28.",
+      "question": "¿Es conveniente revisar con frecuencia el estado de los neumáticos?\nIs it advisable to regularly check tyre condition?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "La más alta de las recomendadas por el fabricante.\nThe highest recommended by the manufacturer."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La misma que recomienda el fabricante para el resto de las ruedas.\nThe same as recommended by the manufacturer for the other wheels."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "La más baja de las recomendadas por el fabricante.\nThe lowest recommended by the manufacturer."
+        }
+      ],
+      "help": "Mechanics and maintenance   12 Wheels and tyres 12.1 MaintenanceThe pressure should be checked with the tyres cold, or after having driven 2 or 3 kilometres at a moderate speed.(Página 245 del manual 'Learning to drive')Mechanics and maintenance     12 Wheels and tyres  12.1 MaintenancePressures recommended by the manufacturer must be adhered to. If, after checking the tyre pressure with the tyre hot, it is noted that it exceeds the recommended pressure it should not reduced, because it is normal for the pressure to rise due to the air inside the tyre being warm.The spare wheel must not be forgotten when carrying out tyre pressure checks. This should be set at the highest pressure recommended by the manufacturer.(Página 246 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637188348970000000/a1a45c88-1182-4393-bffc-99ac0984cf2cM.jpg",
+      "number": "29.",
+      "question": "Si la rueda de repuesto es igual al resto de las ruedas del vehículo, ¿qué presión de inflado debe llevar?\nIf the spare wheel is the same as the other vehicle wheels, what should be its inflation pressure?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "A la recomendada en cada caso por el fabricante del vehículo.\nThe pressure recommended by the vehicle manufacturer."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Un 15 % por debajo de la recomendada por el fabricante del vehículo.\n15 % below the pressure recommended by the vehicle manufacturer."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Un 10 % por encima de la recomendada por el fabricante del vehículo.\n10 % above the pressure recommended by the vehicle manufacturer."
+        }
+      ],
+      "help": "Mechanics and maintenance     12 Wheels and tyres  12.1 MaintenancePressures recommended by the manufacturer must be adhered to. If, after checking the tyre pressure with the tyre hot, it is noted that it exceeds the recommended pressure it should not reduced, because it is normal for the pressure to rise due to the air inside the tyre being warm.The spare wheel must not be forgotten when carrying out tyre pressure checks. This should be set at the highest pressure recommended by the manufacturer.(Página 246 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674270000000/d618b110-780b-4705-8ccc-3b5ff3a154b2M.jpg",
+      "number": "30.",
+      "question": "¿A qué presión de inflado se deben llevar los neumáticos de un vehículo?\nWhat is the recommended tyre pressure?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

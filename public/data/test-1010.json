@@ -1,0 +1,709 @@
+{
+  "test_id": 1010,
+  "title": "Controls, visibility and accommodation",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "ruedas motrices.\nthe drive wheels."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "ruedas delanteras.\nthe front wheels."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "cuatro ruedas.\nall four wheels."
+        }
+      ],
+      "help": "CONTROLS AND ELEMENTS OF THE VEHICLE 1 Foot controls1.2 Brake PedalThe brake pedal, when applied, works on the service brake to slow down and/or stop the vehicle. Under normal driving conditions is should be applied smoothly and progressively, thus reducing the speed as required or until the vehicle is stopped safely.The foot brake acts on all four wheels of the vehicle.Note: This brake pedal also operates the emergency braking system, that automatically works, should the service brake fail.(Página 84 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635460299160000000/56935c3a-4286-442c-bc15-afe8a88f4ac0M.jpg",
+      "number": "1.",
+      "question": "El freno de pie en un turismo actúa sobre las...\nA car's foot brake works on...",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, solo se debe utilizar en los casos de inmovilización del vehículo.\nNo, it should only be used when the vehicle is stopped."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, siempre que el vehículo tenga ABS.\nYes, provided the vehicle has ABS."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, se debe utilizar en curvas cerradas.\nYes, it should be used on tight bends."
+        }
+      ],
+      "help": "CONTROLS AND ELEMENTS OF THE VEHICLE      2 Hand controls2.2 Hand brake / parking brakeThe parking brake is also referred to as the hand brake, since it is activated by use of the hand.Keep the vehicle immobilised, with action generally taken on the rear wheels.It is normally operated by a hand lever located between the front seats or on the dashboard.The hand brake must be applied after parking to ensure the vehicle remains stationary. It is applied by pulling the hand lever (handle) upwards. (Página 85 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635464579220000000/4dd9171e-977f-4a6f-87de-b3e7b0c20832M.jpg",
+      "number": "2.",
+      "question": "¿Es correcto el uso frecuente del freno de mano cuando se conduce?\nIs it advisable to use the handbrake a lot when driving?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sobre las ruedas traseras.\nThe rear wheels."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sobre las ruedas delanteras.\nThe front wheels."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sobre todas.\nAll wheels."
+        }
+      ],
+      "help": "CONTROLS AND ELEMENTS OF THE VEHICLE      2 Hand controls2.2 Hand brake / parking brakeThe parking brake is also referred to as the hand brake, since it is activated by use of the hand.Keep the vehicle immobilised, with action generally taken on the rear wheels.It is normally operated by a hand lever located between the front seats or on the dashboard.The hand brake must be applied after parking to ensure the vehicle remains stationary. It is applied by pulling the hand lever (handle) upwards. (Página 85 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634610949680000000/84a34bbd-e42a-42b8-8fe6-46439f6454beM.jpg",
+      "number": "3.",
+      "question": "El freno de estacionamiento, más conocido como freno de mano, ¿sobre qué ruedas actúa generalmente?\nWhich wheels does the parking brake (better known as the handbrake) control?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el pie derecho.\nthe right foot."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "la mano derecha.\nthe right hand."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la mano izquierda.\nthe left hand."
+        }
+      ],
+      "help": "CONTROLS AND ELEMENTS OF THE VEHICLE      5 Controls for motorcycles5.1 Hand controls5.1.1 Right handlebar and leverFront brake: It is a lever that operates the brake on the front wheel.Accelerator: It is situated on the right handle bar grip and is operated by twisting the grip.5.1.2 Left handlebar and leverClutch: Operated by means of a lever.Horn (audible warning device).Light switches.(Página 87 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680790000000/90f3de46-bf59-4482-b9d4-0113dee97ff5M.jpg",
+      "number": "4.",
+      "question": "En la disposición más generalizada en los mandos de una motocicleta, el acelerador se acciona con...\nOn most motorcycle controls, the accelerator is operated with...",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "El cambio de velocidades de una motocicleta no se acciona con el pie.\nMotorcycle gears are not changed with the feet."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Con el pie derecho.\nThe right foot."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Con el pie izquierdo.\nThe left foot."
+        }
+      ],
+      "help": "CONTROLS AND ELEMENTS OF THE VEHICLE      5 Controls for motorcycles5.2 Foot controlsBrake pedal: This controls the brake on the rear wheel and is usually located on the right side.Pedal for changing gear: This allows the selection of the gear appropriate for the circumstances and is usually located on the left side.(Página 87 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636326138990000000/ae2b5599-7e23-4e27-83e2-00bd5a1fa21cM.jpg",
+      "number": "5.",
+      "question": "Como norma general, el pedal de cambio de velocidades de una motocicleta, ¿con qué pie se acciona?\nAs a general rule, which foot operates the pedal to adjust motorcycle speed?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "El freno trasero no se acciona con el pie, se acciona con la mano izquierda.\nThe rear brake is not operated with the foot, it is operated with the left hand."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Con el pie derecho.\nThe right foot."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Con el pie izquierdo.\nThe left foot."
+        }
+      ],
+      "help": "CONTROLS AND ELEMENTS OF THE VEHICLE      5 Controls for motorcycles5.2 Foot controlsBrake pedal: This controls the brake on the rear wheel and is usually located on the right side.Pedal for changing gear: This allows the selection of the gear appropriate for the circumstances and is usually located on the left side.(Página 87 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636595732060000000/b3667096-45f8-480e-a720-6aed92327645M.jpg",
+      "number": "6.",
+      "question": "En una motocicleta, generalmente, ¿con qué pie se acciona el freno trasero?\nOn a motorcycle, which foot is generally used to apply the rear brake?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, mientras sea posible la visibilidad diáfana del conductor sobre toda la vía.\nYes, provided that the road is clearly visible for the driver."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, está prohibido.\nNo, it is prohibited."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, si no han sido previamente homologados.\nNo, unless they have been previously authorised."
+        }
+      ],
+      "help": "VISIBILITY   7 Transparent elements around the cockpitThe glass and mirrors enables the driver to obtain and retain the maximum vision possible:They must not:- Cause the images seen to be deformed or altered. Or - Cause colours to be distorted. (For example this could cause confusion by changing colours on road signs etc.)Note: It is prohibited to use nonaccredited tinted or coloured glass.(Página 88 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485942870000000/28247807-9cd5-4e9e-b23e-16508bad890bM.jpg",
+      "number": "7.",
+      "question": "¿Está permitido colocar adhesivos en el parabrisas de un turismo?\nAre stickers allowed on the windscreen of a private car?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero solamente en las ventanillas delanteras.\nYes, but only in the front windows."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, están prohibidos.\nNo, it is prohibited."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, puesto que no son elementos que influyan en la seguridad vial.\nYes, since it does not affect road safety."
+        }
+      ],
+      "help": "VISIBILITY   7 Transparent elements around the cockpitThe glass and mirrors enables the driver to obtain and retain the maximum vision possible:They must not:- Cause the images seen to be deformed or altered. Or - Cause colours to be distorted. (For example this could cause confusion by changing colours on road signs etc.)Note: It is prohibited to use nonaccredited tinted or coloured glass.(Página 88 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482409570000000/c25005e5-f0df-4fc9-8283-f55a765a7f62M.jpg",
+      "number": "8.",
+      "question": "¿Está permitida la colocación en un turismo de vidrios tintados no homologados?\nAre you allowed to fit non-approved tinted glass in a passenger car?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Observar únicamente lo que está detrás del vehículo.\nTo observe only what is behind the vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Evitar los ángulos muertos.\nTo avoid blind spots."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Observar en todo momento lo que rodea al vehículo.\nTo observe what is happening around the vehicle at all times."
+        }
+      ],
+      "help": "VISIBILITY 8 Rear-view8.1 Obligatory requirements regarding rear-view mirrorsThe purpose of the rear view mirrors is to provide visibility at the back and sides of the vehicle. This is in compliance with the requirements regarding the necessary field of vision, as defined in the corresponding regulation.(Página 89 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635168355760000000/b4038cb9-b795-4bf1-8cdf-28ae0dd867a0M.jpg",
+      "number": "9.",
+      "question": "¿Qué le permiten los espejos retrovisores?\nWhat do rear mirrors permit you to do?",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "necesita que se vigile el nivel del circuito de refrigeración de donde toma el agua.\nneeds the level of the cooling circuit from which it draws its water to be monitored."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "necesita que se vigile el nivel de agua de su propio depósito.\nneeds the level of its own water tank to be monitored."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "no necesita ningún mantenimiento.\ndoes not require any maintenance."
+        }
+      ],
+      "help": "VISIBILITY                 7 Transparent elements around the cockpit      7.3 Windscreen washerAlways make sure the washers are working and keep the reservoir filled. Although it is possible to use water mixed with a little neutral detergent it is better to use a special liquid for this purpose. ‘Additives’ contain chemicals that are designed to aid cleaning of the windscreen and ensure that the connector pipes also remain unblocked. Importantly additives are designed to prevent the water from freezing at the normal water freezing point - 0°C.(Página 89 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635464584450000000/db0ff681-cabe-49cd-9ca2-cb5b12948cbfM.jpg",
+      "number": "10.",
+      "question": "El lavaparabrisas del vehículo...\nThe vehicle's windscreen wiper system…",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo si la lluvia es ligera, ya que siempre se conecta automáticamente cuando es intensa.\nOnly if the rain is light, as it always connects automatically when it is heavy."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, es un sistema que está conectado permanentemente.\nNo, it is a system that is permanently connected."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, poniendo la palanca del limpiaparabrisas en la posición automática.\nYes, by putting the windscreen wiper lever in the automatic position."
+        }
+      ],
+      "help": "VISIBILITY             7 Transparent elements around the cockpit    7.2 Windscreen wipers7.2.1 Automatic wipersIt is one of the most common and best-known systems. By means of a sensor on the windscreen, in front of the rear-view mirror, and with the automatic position selected on the lever, the system is able to detect the presence of water, automatically activate the wipers and adjust their frequency according to the intensity of the rain.The driver can activate or deactivate this function whenever he so desires.(Página 89 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675250000000/d0f49d9c-b4a9-496b-89c0-9363cb8bcad9M.jpg",
+      "number": "11.",
+      "question": "El conductor, ¿puede activar el limpiaparabrisas automático cuando lo desee?\nCan the driver activate the automatic windscreen wiper system when they want?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, pero es obligatorio llevar los dos espejos retrovisores exteriores.\nYes, but it is compulsory to have both outside rear-view mirrors."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, están prohibidas porque dificultan la visibilidad.\nNo, they are banned because they make visibility difficult."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, porque el conductor es novel.\nNo, because the driver is a beginner."
+        }
+      ],
+      "help": "VISIBILITY     8 Rear-view  8.1 Obligatory requirements regarding rear-view mirrorsIt is only permissible to use a vehicle with laminated, plastic sheeting on the windows or curtains, (that are designed to protect against the effects of the sun) when the vehicle has two exterior rear view mirrors.(Página 90 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199673800000000/eb03a01d-8922-43b2-bdd3-8c4bf4ec4571M.jpg",
+      "number": "12.",
+      "question": "¿Este vehículo puede llevar cortinillas en la parte trasera?\nCan this vehicle be fitted with a rear sunblind?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, cualquiera de los dos, siempre que conserve el otro.\nYes, either of the two, provided that the other is kept."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, ninguno de los dos.\nNo, neither."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Únicamente el derecho, y solo cuando su uso no sea obligatorio por las condiciones del vehículo o del conductor.\nOnly the right-wing mirror, and only when its use is not mandatory due to the vehicle or driver's conditions."
+        }
+      ],
+      "help": "VISIBILITY     8 Rear-view  8.1 Obligatory requirements regarding rear-view mirrorsThe following are obligatory requirements for vehicles within categories M1 and N1:A rear-view interior mirror. This must comply with the field of vision in accordance with the regulations. Should the rear-view interior mirror not accord the required vision through it, that allows viewing of the roadway, when on flat ground of the horizon to a distance of 60 metres behind the vehicle and a width of 20 metres then the rear view mirrors becomes optional but the vehicle must have a second exterior, side mirror, on the right hand side that is the nearside (the side closest to the pavement.An exterior mirror fitted on the left hand side (that is the offside of the vehicle) allowing the minimum vision of the horizon to a distance of 10 metres behind it and a width of 2.50 metres.An exterior mirror on the right hand side (nearside, closest to the pavement) remains optional, unless fitted for the reasons as stated above. When fitted it must give a field of vision as prescribed within the regulations.(Página 90 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637181352270000000/5da2b384-d965-45e9-b4d7-fca45f143409M.jpg",
+      "number": "13.",
+      "question": "En un turismo, ¿está permitido eliminar uno de los espejos retrovisores exteriores si coloca uno interior panorámico?\nIs it permitted to remove one of the car's wing mirrors if there is an interior rear-view mirror?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "A tener instalados dos espejos retrovisores exteriores, uno a cada lado del vehículo.\nTo have two outside rear-view mirrors fitted, one on each side of the vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "A tener instalados el espejo retrovisor interior y el exterior izquierdo.\nTo have the inside rear-view mirror and the outside left rear-view mirror fitted."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "En ningún caso la carga puede disminuir la visibilidad.\nUnder no circumstances may your load reduce visibility."
+        }
+      ],
+      "help": "VISIBILITY     8 Rear-view  8.1 Obligatory requirements regarding rear-view mirrorsThe following are obligatory requirements for vehicles within categories M1 and N1:A rear-view interior mirror. This must comply with the field of vision in accordance with the regulations. Should the rear-view interior mirror not accord the required vision through it, that allows viewing of the roadway, when on flat ground of the horizon to a distance of 60 metres behind the vehicle and a width of 20 metres then the rear view mirrors becomes optional but the vehicle must have a second exterior, side mirror, on the right hand side that is the nearside (the side closest to the pavement.An exterior mirror fitted on the left hand side (that is the offside of the vehicle) allowing the minimum vision of the horizon to a distance of 10 metres behind it and a width of 2.50 metres.An exterior mirror on the right hand side (nearside, closest to the pavement) remains optional, unless fitted for the reasons as stated above. When fitted it must give a field of vision as prescribed within the regulations.(Página 90 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676580000000/69ad837e-84da-4e20-8b6e-646be5180cb2M.jpg",
+      "number": "14.",
+      "question": "Si el equipaje disminuye la visibilidad por el espejo interior, ¿a qué está obligado?\nIf luggage impairs visibility through the interior mirror, what are you required to do?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, solo son obligatorios el espejo interior y el exterior derecho.\nNo, only the interior and the exterior right hand side mirror are mandatory."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, también debe llevar el espejo exterior derecho.\nNo, it must also have a right hand exterior rear view mirror."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "VISIBILITY     8 Rear-view  8.1 Obligatory requirements regarding rear-view mirrorsThe following are obligatory requirements for vehicles within categories M1 and N1:A rear-view interior mirror. This must comply with the field of vision in accordance with the regulations. Should the rear-view interior mirror not accord the required vision through it, that allows viewing of the roadway, when on flat ground of the horizon to a distance of 60 metres behind the vehicle and a width of 20 metres then the rear view mirrors becomes optional but the vehicle must have a second exterior, side mirror, on the right hand side that is the nearside (the side closest to the pavement.An exterior mirror fitted on the left hand side (that is the offside of the vehicle) allowing the minimum vision of the horizon to a distance of 10 metres behind it and a width of 2.50 metres.An exterior mirror on the right hand side (nearside, closest to the pavement) remains optional, unless fitted for the reasons as stated above. When fitted it must give a field of vision as prescribed within the regulations.(Página 90 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637181355140000000/06699dbb-41b5-4617-acf1-6677f382bb1aM.jpg",
+      "number": "15.",
+      "question": "Un turismo, ¿puede llevar solo el espejo exterior izquierdo y el interior?\nIs a private car permitted to have only an exterior left hand rear view mirror and an interior rear view mirror?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, cuando tiene el espejo exterior derecho y el interior.\nYes, if you have a right-hand wing mirror and rear-view mirror."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, cuando tiene espejo exterior derecho.\nYes, if you have a right-hand wing mirror."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, porque el espejo exterior izquierdo es obligatorio.\nNo, because the left-hand wing mirror is compulsory."
+        }
+      ],
+      "help": "VISIBILITY     8 Rear-view  8.1 Obligatory requirements regarding rear-view mirrorsThe following are obligatory requirements for vehicles within categories M1 and N1:A rear-view interior mirror. This must comply with the field of vision in accordance with the regulations. Should the rear-view interior mirror not accord the required vision through it, that allows viewing of the roadway, when on flat ground of the horizon to a distance of 60 metres behind the vehicle and a width of 20 metres then the rear view mirrors becomes optional but the vehicle must have a second exterior, side mirror, on the right hand side that is the nearside (the side closest to the pavement.An exterior mirror fitted on the left hand side (that is the offside of the vehicle) allowing the minimum vision of the horizon to a distance of 10 metres behind it and a width of 2.50 metres.An exterior mirror on the right hand side (nearside, closest to the pavement) remains optional, unless fitted for the reasons as stated above. When fitted it must give a field of vision as prescribed within the regulations.(Página 90 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636800339540000000/ad533efc-c5e0-4802-8cc5-f8b12455a673M.jpg",
+      "number": "16.",
+      "question": "El espejo exterior izquierdo de su turismo está roto, ¿está permitido circular así?\nYour car's left-hand wing mirror is broken. Are you allowed to continue driving?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "es optativo el espejo retrovisor del lado izquierdo y obligatorio el del lado derecho.\nthe left-hand mirror is optional and the right-hand mirror is compulsory."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "son obligatorios dos espejos retrovisores exteriores, uno al lado izquierdo y otro al lado derecho.\ntwo mirrors are compulsory, one on the left and one on the right."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "es obligatorio el espejo retrovisor del lado izquierdo y optativo el del lado derecho.\nthe left-hand mirror is compulsory and the right-hand mirror is optional."
+        }
+      ],
+      "help": "VISIBILITY           8 Rear-view     8.1 Obligatory requirements regarding rear-view mirrorsFor mopeds (with two wheels) it is an obligatory requirement to have a rear-view mirror fitted to the left side. A mirror on the right side remains optional.(Página 90 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480650910000000/d135ac0f-10e6-4370-ac00-1608505a0b8bM.jpg",
+      "number": "17.",
+      "question": "En los ciclomotores de dos ruedas...\nOn two-wheel mopeds...",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Dos, el interior y el exterior izquierdo.\nTwo, the interior rear-view mirror and a left wing mirror."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solo el exterior derecho.\nJust the right wing mirror."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Solo el exterior izquierdo.\nJust the left wing mirror."
+        }
+      ],
+      "help": "VISIBILITY     8 Rear-view  8.1 Obligatory requirements regarding rear-view mirrorsThe following are obligatory requirements for vehicles within categories M1 and N1:A rear-view interior mirror. This must comply with the field of vision in accordance with the regulations. Should the rear-view interior mirror not accord the required vision through it, that allows viewing of the roadway, when on flat ground of the horizon to a distance of 60 metres behind the vehicle and a width of 20 metres then the rear view mirrors becomes optional but the vehicle must have a second exterior, side mirror, on the right hand side that is the nearside (the side closest to the pavement.An exterior mirror fitted on the left hand side (that is the offside of the vehicle) allowing the minimum vision of the horizon to a distance of 10 metres behind it and a width of 2.50 metres.An exterior mirror on the right hand side (nearside, closest to the pavement) remains optional, unless fitted for the reasons as stated above. When fitted it must give a field of vision as prescribed within the regulations.(Página 90 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677140000000/d94f2068-cfcf-431e-83ab-508d248bae4fM.jpg",
+      "number": "18.",
+      "question": "¿Cuántos espejos retrovisores debe de llevar este cuadriciclo pesado?\nHow many rear-view mirrors should be fitted to this heavy quadricycle?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Siempre deben llevar dos espejos, uno en cada lado.\nA motorcycle must always have two mirrors, one on either side."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Un espejo exterior izquierdo si no superan los 100 km/h y dos, uno en cada lado, si la velocidad es mayor.\nA left hand exterior mirror if the vehicle does not exceed 100 km/h and two, one on either side if the speed is greater."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Obligatoriamente uno en el lado derecho, pero pueden llevar dos.\nA rear mirror is mandatory on the right hand side, but two are permitted."
+        }
+      ],
+      "help": "VISIBILITY           8 Rear-view     8.1 Obligatory requirements regarding rear-view mirrorsFor motorcycles, with or without sidecar the requirements are as follows:If the maximum design speed is less than or equal to 100 km/h they must have an obligatory rear-view mirror fitted on the left side. A mirror on the right side remains optional.If the maximum design speed is greater than 100 km/h they must have rear view mirrors fitted to both sides.(Página 90 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199681040000000/9ff4eb55-b21d-4939-9762-7232b81c05b1M.jpg",
+      "number": "19.",
+      "question": "¿Cuántos espejos retrovisores tienen que llevar instalados las motocicletas?\nHow many rear mirrors must be fitted onto motorcycles?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Uno exterior, en el lado izquierdo.\nOne left wing mirror."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Uno interior y otro exterior izquierdo.\nOne interior rear-view mirror and a left-wing mirror."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Dos exteriores, uno en cada lado.\nTwo wing mirrors, one on each side."
+        }
+      ],
+      "help": "VISIBILITY           8 Rear-view     8.1 Obligatory requirements regarding rear-view mirrorsFor motorcycles, with or without sidecar the requirements are as follows:If the maximum design speed is less than or equal to 100 km/h they must have an obligatory rear-view mirror fitted on the left side. A mirror on the right side remains optional.If the maximum design speed is greater than 100 km/h they must have rear view mirrors fitted to both sides.(Página 90 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480806050000000/1a63fae4-df90-43a6-add3-3fff29136c5bM.jpg",
+      "number": "20.",
+      "question": "¿Cuántos espejos retrovisores tiene que llevar instalados una motocicleta con estructura de autoprotección, si su velocidad máxima no supera los 100 km/h?\nHow many mirrors must a motorcycle with a protective structure have fitted if its speed does not exceed 100 km/h?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Para hacer más cómodos los asientos traseros.\nTo make the rear seats more comfortable."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Para que el cinturón de seguridad me sujete mejor.\nTo ensure that the seat belt holds me securely."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Para colocarme a la distancia adecuada de los mandos.\nTo position me at the right distance from the controls."
+        }
+      ],
+      "help": "Accommodation    10 Settings10.1 Driving seat adjustmentIt is necessary to ensure that the seat is correctly positioned to suit the driver.It may be necessary to alter the height (if facilities are provided to do this). The seat will move forwards or backwards to ensure that the pedals and controls can be reached comfortably. There is a handle normally located at the bottom of the seat for this purpose.  (Página 90 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634671515610000000/ad6e8593-f68c-419a-b264-3cb8811c10e3M.jpg",
+      "number": "21.",
+      "question": "Las palancas del asiento del conductor, ¿para qué sirven?\nWhat are the levers on the driver's seat used for?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "aumentar su tiempo de reacción.\nto increase their reaction time."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "relajar su atención.\nto relax their attention."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "actuar mejor y más rápido ante cualquier imprevisto.\nto act better and faster in the face of any unforeseen event."
+        }
+      ],
+      "help": "Accommodation        10 Settings  10.1 Driving seat adjustmentThe correct seating positioning, in relation to the steering wheel, enables the driver to respond better and faster. Sitting too close to the steering wheel causes an increase of fatigue, since any movements will be very limited due to the incorrect positioning.This enhances the danger of not being able to react quickly in case of an unexpected occurrence.(Página 91 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634297366120000000/4bfe26de-40db-4f96-8498-ad24362f1a95M.jpg",
+      "number": "22.",
+      "question": "Una adecuada posición al volante permite al conductor...\nA suitable position at the steering wheel allows the driver...",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Con el coche en movimiento para ver mejor.\nWhilst the car is moving so you can see better."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Parado o en movimiento, es igual.\nStationary or in movement, either is fine."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Con el coche parado en calzada recta.\nWith the car stationary on a straight road."
+        }
+      ],
+      "help": "Accommodation          10 Settings10.2 Setting the rear-view mirrorsIt is necessary to set the rear view mirrors prior to commencing driving. The vehicle must be stationary and, if it is possible, on level and flat ground.   (Página 91 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674170000000/54f3d5a1-c05a-43a1-8d6f-f7490e29b6e0M.jpg",
+      "number": "23.",
+      "question": "¿Cómo se deben colocar los espejos?\nWhen should your mirrors be set up?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Cuando llevo las piernas rectas y el cuerpo hacia atrás.\nWhen I have my legs straight and my body leaning back."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Cuando llevo las piernas un poco dobladas y el cuerpo recto.\nWhen I have my legs slightly bent and my body straight."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando llevo las piernas dobladas y el cuerpo hacia adelante.\nWhen I have my legs bent and my body leaning forward."
+        }
+      ],
+      "help": "Accommodation    10 Settings10.1 Driving seat adjustmentThe ‘rake’ – the angle of the seat should also be adjusted accordingly and a control is normally found at the side of the seat.The seat is adjusted properly when the driver can reach the pedals comfortably and is not over stretching his ankles. The legs must not be extended fully but should be slightly bent.Also make sure that the seat is firmly locked in position after it has been altered.On some vehicles it is possible to adjust the steering column.This may be of assistance in ensuring that the driver is seated comfortably at the controls.The height of the seat must always allow good visibility over the steering wheel, not through it.(Página 91 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675620000000/455feec4-e834-4b2e-9c5d-506c527da0ecM.jpg",
+      "number": "24.",
+      "question": "¿Cuándo está bien colocado en el asiento para conducir?\nWhen are you properly positioned in the driving seat?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Circulando a una velocidad lenta.\nWhen driving at slow speed."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Cuando el vehículo circule en terreno llano y recto.\nWhen the vehicle is travelling on flat straight ground."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Antes de iniciar la marcha en terreno llano y recto.\nBefore setting off, on flat straight ground."
+        }
+      ],
+      "help": "Accommodation          10 Settings10.2 Setting the rear-view mirrorsIt is necessary to set the rear view mirrors prior to commencing driving. The vehicle must be stationary and, if it is possible, on level and flat ground.   (Página 91 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449616410000000/ebab119f-c356-450e-912a-051479c9b27eM.jpg",
+      "number": "25.",
+      "question": "¿Cuándo debe comprobar el reglaje de los espejos retrovisores?\nWhen should you check the adjustment of the rear-view mirrors?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "lo más aerodinámica posible, encorvando el cuerpo cuanto más mejor.\nas aerodynamic as possible, hunching the body as much as possible."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "suelta y no forzada, sin encorvar el cuerpo más de lo necesario.\nloose and not forced, without hunching the body more than necessary."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "un poco forzada, para evitar relajamientos.\na little bit forced, to avoid slouching."
+        }
+      ],
+      "help": "11 Motorcycle - seating A proper body position on the motorcycle is more comfortable and leads to safer driving. The rider will be able to react more quickly to any eventuality that may arise.The golden rule is that the body should be in a natural position, relaxed and not tense.The body should be slightly crouched, just enough to reach the handlebars, with the arms and hands relaxed to reduce fatigue. Unnatural positions, such as being in an over or under crouching position will result in the elbows being up too high or having over stretched arms, this will lead to an increase of fatigue and reduce control of the vehicle.(Página 92 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680790000000/373dbcb0-892b-4f01-bc96-bdbebc64d4d3M.jpg",
+      "number": "26.",
+      "question": "En las motocicletas, la postura del conductor ha de ser...\nWhen riding motorbikes, the rider's posture should be…",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "al detener el vehículo.\nwhen stopping the vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "al encender la pantalla multifunción.\nwhen turning on the multifunction screen."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "al poner la marcha atrás.\nwhen reversing."
+        }
+      ],
+      "help": "DRIVING ASSIST SYSTEMS       16 Reverse camera, 360° camera and rear travel detector (REV)When reversing, a camera located on the rear part of the car transmits a view of the vehicle’s rear surroundings to the multifunction screen with one or two auxiliary lines, which can be mobile to show the vehicle’s trajectory and fixed to indicate the distance. The fixed auxiliary lines include several colours that indicate the distance behind the vehicle up to the obstacle. The driver chooses whether to activate or deactivate the rear-view camera.(Página 93 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637106199940000000/3686a4a6-334c-4c90-8c33-e6c6b001622eM.jpg",
+      "number": "27.",
+      "question": "La cámara de marcha atrás transmite una vista del entorno trasero del vehículo...\nThe reversing camera transmits a view of the vehicle's rear environment...",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "revoluciona fuertemente el motor para facilitar la salida del vehículo.\nrevs the engine more strongly to help the vehicle to start."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "libera más rápido la presión del circuito de frenos para que el vehículo arranque fácilmente.\nreleases the brake circuit pressure more quickly so the vehicle starts more easily."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "mantiene la presión del circuito de frenos durante unos instantes, impidiendo que el vehículo se vaya hacia atrás.\nmaintains the brake circuit pressure for a few moments, preventing the vehicle from rolling back."
+        }
+      ],
+      "help": "DRIVING ASSIST SYSTEMS   18 Hill Holder assistance systemThis system has a sensor that measures the inclination of the vehicle to detect, during the start-up phase, whether it is on a slope that exceeds a certain gradient.If this is the case, when the driver moves his/her foot from the brake to the accelerator to start moving, the system continues to apply pressure to the brake circuit for a few moments, preventing the vehicle from going backwards.(Página 94 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676200000000/a5aa7835-dede-4b19-a58a-e5529e79a4e2M.jpg",
+      "number": "28.",
+      "question": "Cuando el vehículo está en una cuesta arriba y el conductor cambia el pie del freno al acelerador para iniciar la marcha, el sistema de ayuda de salida en pendiente...\nWhen the vehicle is on an upward slope and the driver moves their foot from the brake to the accelerator to start driving, the hill assist system...",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "todo el tráfico en sentido transversal.\nall crossing traffic."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "el tráfico delantero en sentido transversal.\nfront crossing traffic."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "el tráfico trasero en sentido transversal.\nrear crossing traffic."
+        }
+      ],
+      "help": "DRIVING ASSIST SYSTEMS   20 Rear Cross Traffic Alert (RCTA)The system monitors traffic crossing behind the vehicle when it reverses out of a parallel parking space. Vehicles approaching on either side can be detected with radar or ultrasonic sensors. If the system detects a vehicle approaching and there is a risk of collision, a sound is emitted or a visual warning is shown.Some manufacturers have incorporated a system that fully applies the brakes automatically in the event of an imminent collision, if the driver does not react to the warning, provided that the vehicle is travelling at less than 15 km/h.(Página 94 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637199572830000000/a96205f3-13f2-4088-a677-544012018451M.jpg",
+      "number": "29.",
+      "question": "El sistema de alerta de tráfico cruzado (RCTA) supervisa...\nThe rear cross traffic alert system (RCTA) monitors...",
+      "local_image": "images/q29.jpg"
+    }
+  ]
+}

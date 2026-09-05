@@ -7,6 +7,11 @@ button { font:inherit; }
 .app-shell { width:min(1380px,calc(100% - 40px)); margin:0 auto; padding:28px 0 52px; }
 .topbar { display:flex; align-items:end; justify-content:space-between; gap:24px; margin-bottom:22px; }
 .topbar h1 { margin:3px 0 0; font-family:Georgia,serif; font-size:clamp(2rem,4vw,3.6rem); font-weight:500; letter-spacing:-.04em; }
+.title-block { min-width:0; }
+.header-tools { display:flex; align-items:center; gap:12px; }
+.ticket-picker { display:grid; gap:4px; }
+.ticket-picker span { color:var(--muted); font-size:.7rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+.ticket-picker select { width:min(390px,38vw); height:48px; padding:0 42px 0 15px; border:1px solid rgba(13,107,77,.18); border-radius:14px; color:var(--ink); background:rgba(255,255,255,.82); font-weight:700; cursor:pointer; box-shadow:0 8px 28px rgba(24,39,31,.05); }
 .eyebrow { margin:0; color:var(--green); font-size:.76rem; font-weight:800; letter-spacing:.15em; text-transform:uppercase; }
 .score { display:flex; align-items:center; gap:12px; border:1px solid rgba(13,107,77,.18); border-radius:999px; background:rgba(255,255,255,.72); padding:8px 10px 8px 18px; box-shadow:0 8px 28px rgba(24,39,31,.06); }
 .score span { color:var(--muted); font-size:.82rem; }
@@ -44,6 +49,7 @@ button { font:inherit; }
 .help-languages button { min-width:42px; padding:6px 10px; border:1px solid rgba(13,107,77,.2); border-radius:999px; color:var(--green-dark); background:rgba(255,255,255,.58); cursor:pointer; font-size:.72rem; font-weight:850; letter-spacing:.04em; }
 .help-languages button:hover { border-color:var(--green); }
 .help-languages button.active { border-color:var(--green); color:white; background:var(--green); }
+.translation-status { width:max-content; margin:14px 0 0 16px; padding:6px 10px; border-radius:999px; color:var(--green-dark); background:rgba(255,255,255,.58); font-size:.72rem; font-weight:850; letter-spacing:.04em; }
 .help-content { max-height:240px; overflow:auto; margin-top:14px; padding:2px 18px 6px 16px; border-left:3px solid rgba(13,107,77,.22); color:#4f5e56; scrollbar-gutter:stable; }
 .help-heading { margin:15px 0 6px; color:var(--green-dark); font-size:.83rem; line-height:1.35; font-weight:850; letter-spacing:.015em; }
 .help-heading:first-child { margin-top:0; }
@@ -67,6 +73,6 @@ button { font:inherit; }
 .result-card h1 { font-family:Georgia,serif; font-size:2.2rem; font-weight:500; }
 .result-card>p:not(.eyebrow) { color:var(--muted); }
 .result-actions { display:flex; justify-content:center; gap:12px; margin-top:28px; }
-@media (max-width:900px) { .quiz-card{grid-template-columns:1fr}.visual-panel{min-height:auto;padding:48px 30px}.visual-panel img{max-height:460px} }
-@media (max-width:560px) { .app-shell{width:min(100% - 22px,1380px);padding-top:18px}.topbar{align-items:center}.topbar h1{font-size:1.75rem}.quiz-card{border-radius:20px}.visual-panel{padding:42px 18px 28px}.visual-panel::after{inset:10px}.question-number{top:18px;left:18px}.question-panel{padding:25px 18px}.answer{grid-template-columns:42px 1fr;padding-right:12px}.answer-letter{width:40px;height:40px}.controls{align-items:stretch;flex-direction:column-reverse}.next{width:100%}.result-actions{flex-direction:column} }
+@media (max-width:900px) { .topbar{align-items:stretch;flex-direction:column}.header-tools{justify-content:space-between}.ticket-picker{flex:1}.ticket-picker select{width:100%}.quiz-card{grid-template-columns:1fr}.visual-panel{min-height:auto;padding:48px 30px}.visual-panel img{max-height:460px} }
+@media (max-width:560px) { .app-shell{width:min(100% - 22px,1380px);padding-top:18px}.topbar h1{font-size:1.75rem}.header-tools{align-items:stretch;flex-direction:column}.score{align-self:flex-end}.quiz-card{border-radius:20px}.visual-panel{padding:42px 18px 28px}.visual-panel::after{inset:10px}.question-number{top:18px;left:18px}.question-panel{padding:25px 18px}.answer{grid-template-columns:42px 1fr;padding-right:12px}.answer-letter{width:40px;height:40px}.controls{align-items:stretch;flex-direction:column-reverse}.next{width:100%}.result-actions{flex-direction:column} }
 @media (prefers-reduced-motion:reduce) { *{scroll-behavior:auto!important;transition:none!important} }

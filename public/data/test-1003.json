@@ -1,0 +1,733 @@
+{
+  "test_id": 1003,
+  "title": "The driver 1",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Tiempo de frenado.\nBraking time."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Tiempo de reacción.\nReaction time."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Tiempo de detención.\nStopping time."
+        }
+      ],
+      "help": "Physical condition of the driver      4 Reaction timeThe reaction time is defined as the time that passes from when a driver sees a hazard (for example an obstacle etc; or hears a noise) until he responds to it.The reaction time is not constant, although under normal conditions, it is approximately 0,75 second.(Página 32 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635995994710000000/8e2be74e-69f8-423e-92c5-01238de80fd4M.jpg",
+      "number": "1.",
+      "question": "El tiempo desde que ve un peligro hasta que actúa, ¿cómo se llama?\nWhat is the time from when you see a hazard until you act called?",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, porque el tiempo de reacción aumenta.\nYes, because the reaction time increases."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, porque el vehículo siempre recorre los mismos metros.\nNo, because the vehicle always covers the same distance."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, porque el tiempo de reacción no varía.\nNo, because the reaction time does not vary."
+        }
+      ],
+      "help": "Physical condition of the driver      4 Reaction timeThe reaction time is defined as the time that passes from when a driver sees a hazard (for example an obstacle etc; or hears a noise) until he responds to it.The reaction time is not constant, although under normal conditions, it is approximately 0,75 second.(Página 32 del manual 'Learning to drive')Physical condition of the driver      4 Reaction timeThe reaction time can be increased by:fatigue or tiredness,drowsiness, sleepiness,the advancement of age,the loss of vision and poor hearing,poor state of health,the use of medications,the intake of alcohol, drugs or other narcotics substances,heavy and excessive meals,the excessive heat in the cockpit of the vehicle,the emotional state.the attention level of the driver.All these listed factors have the serious potential consequence of reducing the driver’s ability to react and therefore the result is an increase in the reaction time.(Página 32 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636141242100000000/c104cf74-f470-409c-b4a2-be8195982e9aM.jpg",
+      "number": "2.",
+      "question": "¿Puede aumentar la distancia de reacción si ha consumido alcohol?\nCan reaction distance increase if you have consumed alcohol?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, aumentándola.\nYes, by increasing it."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, disminuyéndola.\nYes, by reducing it."
+        }
+      ],
+      "help": "Physical condition of the driver      4 Reaction timeThe reaction time can be increased by:fatigue or tiredness,drowsiness, sleepiness,the advancement of age,the loss of vision and poor hearing,poor state of health,the use of medications,the intake of alcohol, drugs or other narcotics substances,heavy and excessive meals,the excessive heat in the cockpit of the vehicle,the emotional state.the attention level of the driver.All these listed factors have the serious potential consequence of reducing the driver’s ability to react and therefore the result is an increase in the reaction time.(Página 32 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634671550590000000/e565f326-352a-4503-b980-08c85f5ebdedM.jpg",
+      "number": "3.",
+      "question": "El consumo de drogas, ¿afecta a la capacidad de reacción?\nDoes the consumption of drugs affect reaction ability?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "después de una fuerte discusión.\nafter a major argument."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "después de una comida ligera.\nafter a small meal."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "si usamos gafas graduadas.\nwhen wearing graded glasses."
+        }
+      ],
+      "help": "Physical condition of the driver      4 Reaction timeThe reaction time is defined as the time that passes from when a driver sees a hazard (for example an obstacle etc; or hears a noise) until he responds to it.The reaction time is not constant, although under normal conditions, it is approximately 0,75 second.(Página 32 del manual 'Learning to drive')Physical condition of the driver      4 Reaction timeThe reaction time can be increased by:fatigue or tiredness,drowsiness, sleepiness,the advancement of age,the loss of vision and poor hearing,poor state of health,the use of medications,the intake of alcohol, drugs or other narcotics substances,heavy and excessive meals,the excessive heat in the cockpit of the vehicle,the emotional state.the attention level of the driver.All these listed factors have the serious potential consequence of reducing the driver’s ability to react and therefore the result is an increase in the reaction time.(Página 32 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680040000000/7474f681-0413-4940-aacb-12753214eb38M.jpg",
+      "number": "4.",
+      "question": "El tiempo de reacción puede verse incrementado...\nReaction time may be increased...",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "disminuye el campo visual y se retrasa la aparición de la fatiga.\nyour visual field decreases and the appearance of fatigue is delayed."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "disminuye el campo visual y se acelera la aparición de la fatiga.\nyour visual field decreases and fatigue appears sooner."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "aumenta el campo visual y se acelera la aparición de la fatiga.\nyour visual field increases and fatigue appears sooner."
+        }
+      ],
+      "help": "Physical condition of the driver         2 EyesightThe consumption of alcohol or certain drugs, as well as fatigue, reduces the field of vision of the driver, with the risks that this entails.Speed is another factor that reduces the field of vision.In order to aid driver safety and that of other road users, it is necessary to see exactly what is located to the front, the sides and behind a vehicle. The interior rear view mirror and the exterior side mirror(s) assist the driver to see a percentage of movement and vision to the side of the vehicle and behind it.(Página 32 del manual 'Learning to drive')FACTORS THAT AFFECT PHYSICAL CAPABILITIES  10.1 Circumstances that cause fatigue10.1.3 Driver circumstancesDriving for long periods of time without rest breaks or sufficient breaks is the major cause of driver fatigue. Ideally you should plan a journey and include the necessary breaks. Never hurry to reach a destination.Maintaining a high speed for a long time (requires more concentration).A change of the driver’ state of health and well being, such as driving when sleepy or fatigued, under the influence of alcohol or when ill.(Página 37 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449634520000000/d0666a79-aacf-4483-a639-728518b3f63cM.jpg",
+      "number": "5.",
+      "question": "A medida que aumenta la velocidad...\nAs you increase speed…",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "En carreteras con trazado sinuoso.\nOn winding roads."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "En autopistas y autovías.\nOn motorways and dual carriageways."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "En vías urbanas.\nOn urban roads."
+        }
+      ],
+      "help": "DISTRACTIONS       5.2 Characteristics of collisions caused by being distractedCollisions occur most frequently, as a result of distractions:During the summer months, on day trips and outings, at weekends and during the day.On roads than in urban areas.On motorways and dual carriageways due to the monotony, which can affect the driver.(Página 33 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636693189600000000/1cc0c307-03dc-4607-b052-440013ddabfeM.jpg",
+      "number": "6.",
+      "question": "En general, ¿dónde suelen producirse más accidentes por distracción?\nIn general, where do most accidents due to distraction tend to occur?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "durante el día y los fines de semana.\nduring the day and at the weekends."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "durante la tarde.\nduring the afternoon."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "en los meses de invierno.\nduring the winter months."
+        }
+      ],
+      "help": "DISTRACTIONS       5.2 Characteristics of collisions caused by being distractedCollisions occur most frequently, as a result of distractions:During the summer months, on day trips and outings, at weekends and during the day.On roads than in urban areas.On motorways and dual carriageways due to the monotony, which can affect the driver.(Página 33 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635076809900000000/8f46e6a9-1940-43ce-8731-94d61b97dcfdM.jpg",
+      "number": "7.",
+      "question": "Los accidentes debidos a distracciones suceden más...\nAccidents caused by distractions occur more frequently...",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "factores externos al conductor, únicamente.\nonly factors unrelated to the driver."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "el estado y el comportamiento del propio conductor.\nthe driver's own condition and behaviour."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "el comportamiento del conductor, únicamente.\nonly the driver's behaviour."
+        }
+      ],
+      "help": "DISTRACTIONS              5 Collisions due to distractionsTo drive safely requires the driver to focus all of their attention on driving. Diverted attention results in the driver not receiving all of the necessary information on time, which ultimately leads to wrong decisions or delayed reactions.Distractions can be caused by internal factors within the vehicle (such as GPS or smoking), or by external elements (such as advertising, road works or the views and landscape). Additionally, the driver may become distracted due to his state or mind (for example, preoccupied due to work).(Página 33 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675240000000/a1362a92-52f1-46a1-999f-254ecc86c2c1M.jpg",
+      "number": "8.",
+      "question": "Las distracciones suelen estar relacionadas con...\nDistractions are usually related to…",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, el vehículo y la vía pero no su entorno.\nThe vehicle and the road can, but not its surroundings."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, la vía pero no su entorno.\nThe road can, but not its surroundings."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "DISTRACTIONS              5 Collisions due to distractionsTo drive safely requires the driver to focus all of their attention on driving. Diverted attention results in the driver not receiving all of the necessary information on time, which ultimately leads to wrong decisions or delayed reactions.Distractions can be caused by internal factors within the vehicle (such as GPS or smoking), or by external elements (such as advertising, road works or the views and landscape). Additionally, the driver may become distracted due to his state or mind (for example, preoccupied due to work).(Página 33 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674600000000/d733c096-c3f7-4492-a949-fb346ece2895M.jpg",
+      "number": "9.",
+      "question": "La vía, su entorno y el propio vehículo, ¿pueden favorecer la aparición de distracciones al volante?\nCan the road, its surroundings and the vehicle itself contribute to distractions at the wheel?",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "en los conductores entre 30 y 45 años.\namong drivers between 30 and 45 years old."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "en los mayores de 50 años.\namong those over 50 years old."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "en los jóvenes entre 18 y 25 años y en los mayores de 70.\namong young people between 18 and 25 years of age and those over 70 years of age."
+        }
+      ],
+      "help": "DISTRACTIONS       5.2 Characteristics of collisions caused by being distractedCollisions occur most frequently, as a result of distractions:In young people between 18 and 25 and those older than 70.When the driver is accompanied rather than driving on their own. For example, children can be a major source of distraction when they are behaving badly in the vehicle.(Página 33 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637227553250000000/dad4682f-69ee-48d6-bd4e-d548e50aae59M.jpg",
+      "number": "10.",
+      "question": "Los accidentes por distracción son más frecuentes...\nAccidents caused by distraction are more frequent…",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "la alta luminosidad del ambiente.\nhigh levels of light in the surroundings."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "una situación de tráfico excesivamente sencilla.\na particularly simple traffic situation."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "la baja luminosidad del ambiente.\nlow levels of light in the surroundings."
+        }
+      ],
+      "help": "DISTRACTIONS     6.1 Road and environmental circumstancesDistractions can occur due to:Over familiarity of the road can which may lead to an excess of confidence and, therefore, a reduction in attention.Low lighting of the environment (e.g. at night) and light and brightness variations, (such as glare) which can result in some important information not being detected. During the night visual acuity is reduced by 70% and the visual field of distance becomes 7 times less effective.(Página 34 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635458657760000000/708852da-3429-458b-8640-7118fd6992edM.jpg",
+      "number": "11.",
+      "question": "Un factor que favorece la distracción del conductor es...\nA factor that encourages driver distraction is...",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Una carretera excesivamente familiar.\nAn overly familiar road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Una situación de tráfico compleja.\nA complex traffic situation."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Conducir durante la noche por vías bien iluminadas.\nDriving at night on well-lit roads."
+        }
+      ],
+      "help": "DISTRACTIONS     6.1 Road and environmental circumstancesDistractions can occur due to:Over familiarity of the road can which may lead to an excess of confidence and, therefore, a reduction in attention.Low lighting of the environment (e.g. at night) and light and brightness variations, (such as glare) which can result in some important information not being detected. During the night visual acuity is reduced by 70% and the visual field of distance becomes 7 times less effective.(Página 34 del manual 'Learning to drive')DISTRACTIONS     6.1 Road and environmental circumstancesDistractions can occur due to:Locating signals, road signs, etc. These maybe difficult to detect if they are partially hidden or on the edge of the visual field.An overly complex traffic situation (an accumulation or signs, vehicles, pedestrians and other elements) can cause the driver to be unable to adequately and effectively respond to important situations.Perceptual characteristics of signals, such as colour, brightness, size or lighting may result in difficulty in accurately assessing the information conveyed on time.(Página 34 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480740600000000/bfd444b9-1038-4cef-9f0c-3e55f2128278M.jpg",
+      "number": "12.",
+      "question": "¿Cuál de las siguientes situaciones favorece la distracción al conducir?\nWhich of the following situations contributes to distraction while driving?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, especialmente en situaciones complejas.\nYes, especially in complex situations."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, si la tasa de alcoholemia es inferior a la máxima permitida.\nNo, if your alcohol level is less than the legal limit."
+        }
+      ],
+      "help": "DISTRACTIONS    6.2 Circumstances related to the driverFactors related to the driver may result in distraction:Fatigue and drowsiness, since they affect the ability to concentrate.Stress, anxiety or depression.Older drivers may tend to lose concentration if proper precautions are not taken.The consumption of alcohol, drugs or other substances.Certain characteristics / personality, which may have the propensity to cause distraction.Behaviour that interferes with driving.(Página 34 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634478061660000000/678edb01-a379-4142-8e25-c47f10b4f9ceM.jpg",
+      "number": "13.",
+      "question": "¿Se pueden sufrir más distracciones por los efectos del alcohol?\nCan you become more distracted due to the effects of alcohol?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo si las emisoras de radio no están guardadas en memoria.\nOnly if the radio stations are not stored in the memory."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, aumentando el riesgo de accidente.\nYes, increasing the risk of an accident."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "DISTRACTIONS        6.3 Behaviour that interferes with drivingThis is behaviour that requires the driver’s attention for too long a period of time and that therefore, exposes him to the increased risk of being involved in a road traffic collision:Looking at a map or at directions.Locating a specific point on the road, such as a monument, a hotel or a place to park.Attending to the music player (radio, CD player, etc.)Thinking about things unrelatedto traffic.  (Página 34 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485849240000000/8a188135-d870-4fae-9705-d98539933c60M.jpg",
+      "number": "14.",
+      "question": "Buscar una emisora de radio o manipular el reproductor de música, ¿puede distraer al conductor?\nCan searching for a radio station or using the music player distract the driver?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, porque distrae y se pierde capacidad de maniobra.\nYes, because it distracts you and you lose your ability to manoeuvre."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, y además relaja.\nNo, and it also relaxes you."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, además está prohibido.\nYes, and it is also prohibited."
+        }
+      ],
+      "help": "DISTRACTIONS 7 SmokingSmoking, besides being harmful to health, affects driving because, amongst other factors, it causes distractions when searching and lighting the cigarette, makes one of the hands useless or generates vision problems due to smoke.Smoking also causes excessive carbon monoxide to build up in the smoker’s body and therefore, alters the capabilities needed to drive safely causing a decrease in the level of attention needed at the wheel.(Página 35 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676920000000/7eae7ea5-8612-4ce8-a4f2-86041e004b04M.jpg",
+      "number": "15.",
+      "question": "Fumar mientras conduce, ¿puede afectar a la conducción?\nCan smoking when driving affect your driving ability?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "tiene un cierto riesgo debido a la pérdida de atención.\ncreates a certain risk due to loss of attention."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "permite mantener sin riesgo largas conversaciones al volante.\nallows long conversations at the wheel without risk."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "está prohibido.\nis prohibited."
+        }
+      ],
+      "help": "DISTRACTIONS       8 The mobile phoneCarrying a mobile phone in the car can be very useful in case of breakdown or emergency, but their misuse causes a significant increase in road traffic collisions due to distraction.The danger of having a collision when using a mobile phone, is four times higher than if not used, so it becomes comparable to the risk of driving with alcohol at a rate of 1 g/l in blood.In Spain the use of a manually held telephone whilst driving is forbidden, due to the hazardous nature of its use. However, the use of hands-free devices is permissible but it does not eliminate the danger of an accident, because the mere act of using the phone leads to the driver’s attention being reduced. (Página 35 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636347577280000000/2252c13b-3bad-4d42-aaf6-03863080a5b5M.jpg",
+      "number": "16.",
+      "question": "Hablar por un teléfono móvil con dispositivo de manos libres durante la conducción...\nTalking on a mobile phone with a hands-free device while driving...",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el choque frontolateral.\na front-side collision."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "la salida de la vía.\ndriving off the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "el alcance.\na collision with the vehicle in front."
+        }
+      ],
+      "help": "DISTRACTIONS   8.1 Circumstances of collisions due to phone useThe most frequent accident caused by using mobile telephones is running off the road.Using a mobile phone while driving can cause:Concentration difficulties. Looking at, or using the phone and responding to conversations results in distraction and a diversion of attention.Increase in traffic offences, as up to 50% of information maybe lost through failure to see and respond to traffic signals and perceive distances correctly.Difficulty in maintaining an appropriate speed, leading to sharp variations.(Página 35 del manual 'Learning to drive')DISTRACTIONS     8.1 Circumstances of collisions due to phone useUsing a mobile phone while driving can cause:Frequent change of direction and swerving of the vehicle, with the possibility of lane invasion.Problems in manoeuvring due to holding the phone in the hand or on the shoulder.Disorientation and loss of perception of time, which can result in dangerous manoeuvres and excessive speed in order to regain lost time. When talking on the phone is combined with other dangerous behaviour, like smoking or making notes, the risk of a traffic collision multiplies.(Página 35 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676940000000/6b6089b7-8de7-49dd-80ac-da287849cf1aM.jpg",
+      "number": "17.",
+      "question": "El accidente más frecuente por el uso del teléfono móvil, mientras se conduce, es...\nThe most frequent accident due to using a mobile phone while driving is...",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "La velocidad media aumenta, incluso con el dispositivo de manos libres.\nThe average speed increases, even when using the hands free device."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "El conductor deja de percibir una parte importante de las señales, incluso con el dispositivo de manos libres.\nThe driver often misses traffic signs, even when he is using the hands free device."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "El conductor no deja de percibir las señales si usa el dispositivo de manos libres.\nThe driver doesn’t miss any traffic signs if he is using the hands free device."
+        }
+      ],
+      "help": "DISTRACTIONS         8.1 Circumstances of collisions due to phone useResearch indicates that there are four moments especially dangerous when using a mobile phone whilst driving:Whilst speaking. Even with a hand free set, the first minute and a half of the conversation requires a high degree of focus and attention. After this time the driver fails to receive 40% of road signals and information and their average speed is reduced by 12% however they also take longer to react to a hazard or event.When terminating a call. The effect is worsened when the driver continues to think about the conversation. Normally, it takes some time for the driver’ concentration to return fully to driving and monitoring the traffic and environment.(Página 36 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676910000000/78bf9403-8604-44a0-ad49-456fccf6180fM.jpg",
+      "number": "18.",
+      "question": "¿Qué efectos tiene en la conducción una conversación por el móvil que supere el minuto y medio?\nWhat effect does a conversation by mobile phone lasting one and a half minutes have on driving?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "colgar y guardar el móvil.\nhanging up and putting your phone away."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "recibir una llamada y detenerse en un lugar seguro para hablar.\nreceiving a call and stopping in a safe place to talk."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "no utilizar el teléfono móvil.\nnot using your mobile phone."
+        }
+      ],
+      "help": "DISTRACTIONS       8.1 Circumstances of collisions due to phone useResearch indicates that there are four moments especially dangerous when using a mobile phone whilst driving:When a call is received, as the sound of the phone may surprise the driver and when attempts are made to answer both cause distractions. Therefore it is desirable to turn off or silence the phone whilst driving.When dialling or sending a message. To dial a phone number takes between 5 and 10 seconds and sending a long message takes a greater time during which control of the vehicle and attention is reduced or lost.(Página 36 del manual 'Learning to drive')DISTRACTIONS         8.1 Circumstances of collisions due to phone useResearch indicates that there are four moments especially dangerous when using a mobile phone whilst driving:Whilst speaking. Even with a hand free set, the first minute and a half of the conversation requires a high degree of focus and attention. After this time the driver fails to receive 40% of road signals and information and their average speed is reduced by 12% however they also take longer to react to a hazard or event.When terminating a call. The effect is worsened when the driver continues to think about the conversation. Normally, it takes some time for the driver’ concentration to return fully to driving and monitoring the traffic and environment.(Página 36 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449585210000000/534ea01a-b501-4d7e-aa8c-238abeadf202M.jpg",
+      "number": "19.",
+      "question": "Entre los momentos de peligro en el uso del teléfono móvil se encuentran...\nThe moments when a hazard is present when using a mobile phone behind the wheel include:",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, cuando produce distracciones.\nYes, when it causes distractions."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, cuando nos lleva por una ruta distinta a la habitual.\nYes, when it directs us on a route which is different to the normal route."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, es de gran ayuda a la conducción.\nNo, it is a great help when driving."
+        }
+      ],
+      "help": "DISTRACTIONS     9 GPS - navigation aidsThe GPS is one of the best-known driver assist systems.By means of stored maps and GPS navigation, the system calculates the route in real time and progressively indicates, while driving, the instructions to follow. If the driver makes a mistake, it automatically calculates a new route.A navigator is a valuable aid for the driver, but if it is not sensible if it becomes a significant cause of distraction.(Página 36 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676750000000/6301e398-0d1a-4855-bb8c-76e8ac5e7674M.jpg",
+      "number": "20.",
+      "question": "El navegador GPS, ¿puede ser peligroso para la conducción?\nCan the GPS navigator be dangerous for driving?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A una distancia de entre 10 y 25 centímetros.\nAt a distance of between 10 and 25 centimetres."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Delante del volante.\nIn front of the steering wheel."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Donde no entorpezca la visión y nunca cerca de un airbag.\nWhere it does not impede your vision and never close to an airbag."
+        }
+      ],
+      "help": "DISTRACTIONS         9 GPS - navigation aids  9.1 Suggestions for a correct utilization For portable navigation systems:Place the device in the correct position:- At a correct height, that doesn’t impede the view of the road.- In a place where the driver is not forced to look away from the road to consult it.- In a place that does not interfere with the activation of an airbag.(Página 36 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449586080000000/f354c087-302a-4720-a334-70d2f0ab91dcM.jpg",
+      "number": "21.",
+      "question": "¿Cómo debe colocar el navegador GPS portátil en el vehículo?\nWhere should a portable GPS navigator be positioned in the vehicle?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, ya que es incompatible con la obligatoria atención a la conducción.\nNo, as it is incompatible with mandatory attention to driving."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, mientras que no entorpezca el manejo del vehículo.\nYes, as long as it does not hinder the handling of the vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, ya que no supone ningún peligro.\nYes, as it does not pose any danger."
+        }
+      ],
+      "help": "DISTRACTIONS         9 GPS - navigation aids  9.1 Suggestions for a correct utilization In all navigation systems:Programme the device before starting to drive; never do this whilstdriving.During the journey it is usually not necessary to view the display as the voice-over provides the driver with adequate information.While the GPS usually advises the most favourable route, the driver must evaluate this information. For example the driver must consider road signs and signals, which must always take priority over the information supplied by the GPS system.The navigation system can be used as a second speed controller, although the main source of information must be always the speedometer.(Página 36 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676750000000/6301e398-0d1a-4855-bb8c-76e8ac5e7674M.jpg",
+      "number": "22.",
+      "question": "Con el vehículo en movimiento, ¿puede el conductor poner en marcha un navegador GPS?\nWhen the vehicle is in motion, can the driver start a GPS navigator?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "las instrucciones del navegador deben prevalecer en todo momento.\nthe GPS instructions must prevail at all times."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "el criterio del conductor debe prevalecer en todo momento.\ndriver discretion must prevail at all times."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "debe mirar siempre al mapa de la pantalla.\nyou must always look at the on-screen map."
+        }
+      ],
+      "help": "DISTRACTIONS         9 GPS - navigation aids  9.1 Suggestions for a correct utilization In all navigation systems:Programme the device before starting to drive; never do this whilstdriving.During the journey it is usually not necessary to view the display as the voice-over provides the driver with adequate information.While the GPS usually advises the most favourable route, the driver must evaluate this information. For example the driver must consider road signs and signals, which must always take priority over the information supplied by the GPS system.The navigation system can be used as a second speed controller, although the main source of information must be always the speedometer.(Página 36 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677030000000/31614066-7fb0-418a-8999-e0e118343f8cM.jpg",
+      "number": "23.",
+      "question": "Si lleva instalado un navegador GPS debe tener en cuenta que...\nIf you have a GPS navigator set up, you must bear in mind that...",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "aumentar la aparición de la fatiga.\nincrease the onset of fatigue."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "prevenir la aparición de la fatiga.\nprevent the onset of fatigue."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "aumentar las distracciones.\nincrease distractions."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES        10.1 Circumstances that cause fatigue 10.1.2 Vehicle circumstancesDriving at night with insufficient lighting.Driving with a vehicle in a poor or noisy condition (for example, having defects in the suspension or steering system).Poor design of the seat or other interior elements. An ergonomic seat helps to prevent fatigue.(Página 37 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636299302270000000/ebb500b8-da48-4a66-94c9-9f944f3dafedM.jpg",
+      "number": "24.",
+      "question": "Un asiento ergonómico contribuye a…\nAn ergonomic seat helps...",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Una vía en perfecto estado.\nA road in perfect condition."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Un buen diseño de los elementos interiores del vehículo.\nWell-designed interior features of the vehicle."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "La existencia de defectos en la dirección o suspensión del vehículo.\nThe presence of defects in the vehicle's steering or suspension."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES        10.1 Circumstances that cause fatigue 10.1.2 Vehicle circumstancesDriving at night with insufficient lighting.Driving with a vehicle in a poor or noisy condition (for example, having defects in the suspension or steering system).Poor design of the seat or other interior elements. An ergonomic seat helps to prevent fatigue.(Página 37 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449588130000000/09ae6a83-a267-475c-87b0-4ac05ddd5933M.jpg",
+      "number": "25.",
+      "question": "¿Qué puede favorecer la aparición de fatiga?\nWhich of these can contribute to tiredness?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "la aparición de la fatiga.\nthe onset of fatigue."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "una pérdida de orientación.\na loss of orientation."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "el efecto submarino.\nthe submarine effect."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES  10.1 Circumstances that cause fatigue10.1.3 Driver circumstancesDriving for long periods of time without rest breaks or sufficient breaks is the major cause of driver fatigue. Ideally you should plan a journey and include the necessary breaks. Never hurry to reach a destination.Maintaining a high speed for a long time (requires more concentration).A change of the driver’ state of health and well being, such as driving when sleepy or fatigued, under the influence of alcohol or when ill.(Página 37 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678510000000/de50f71d-bf9e-459e-b316-edcf2d203213M.jpg",
+      "number": "26.",
+      "question": "Conducir a una velocidad elevada puede producir en el conductor...\nDriving at high speed can lead to the following in the driver...",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, por ello se debe descansar con mayor frecuencia.\nYes, which is why you should rest more often."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solo en los viajes largos.\nOnly on long trips."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES      10.1 Circumstances that cause fatigue  10.1.1 Road and environmental circumstancesDriving on a road with heavy traffic or with many curves.Driving on a poorly maintained road.Driving an unfamiliar route.Driving with adverse weather conditions (like fog, rain, snow or excessive heat).It is necessary to rest more often when driving in unfavourable conditions (for example, a lot of traffic, or in bad weather etc.)(Página 37 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635476665690000000/24e2a6ab-635d-4fe7-9ac7-f36e753b0022M.jpg",
+      "number": "27.",
+      "question": "Conducir con mal tiempo, ¿puede favorecer la fatiga?\nCan driving in bad weather lead to fatigue?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Resulta más fácil mantener la concentración.\nBetter concentration."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "La sensibilidad auditiva puede disminuir.\nHearing sensitivity may decrease."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Aumenta el campo visual.\nThe visual field increases."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES 10.3 Effects of FatigueFatigue can produce the following effects:10.3.1 Sensory and perceptual alterationThe vision can become blurred, making hazard perception difficult.Hearing sensitivity may decrease, hindering the perception of traffic and vehicle sounds.Reactions can be harsh and exaggerated and sudden sounds can be disturbing.Frequent uncomfortable and unpleasant sensations, such as stiffness in the back of the neck and back pain, migraines, headaches, cramps, etc.(Página 38 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480704770000000/e7da23e4-297b-4cb5-b04d-5e64137568d4M.jpg",
+      "number": "28.",
+      "question": "¿Qué efecto produce la fatiga?\nWhat is a result of fatigue?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "se asuman menos riesgos al volante.\ntaking fewer risks when driving."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "se conduzca de manera mucho más pasiva.\ndriving much more passively."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "disminuyan las conductas hostiles o agresivas.\na reduction in hostile or aggressive behaviour."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES     10.3 Effects of FatigueFatigue can produce the following effects:10.3.4 Behavioural disorderDriving, which becomes more automated and passive, results in less attention being accorded to road and environment.Dangerous behaviour can result in more risks being taken when driving.When the driver is more nervous or irritable, there is an increase of hostility or aggressive behaviour towards other road users.(Página 38 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635168377840000000/2a99479c-3c9f-4862-a534-b187e2958985M.jpg",
+      "number": "29.",
+      "question": "La fatiga hace que...\nFatigue leads to…",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sensación unas veces de frío y otras de calor.\nIntermittent feelings of heat and cold."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Movimientos constantes en el asiento.\nConstant movement in the seat."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Disminución del tiempo de reacción.\nA decrease in reaction time."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES   10.2 Symptoms of fatigueThe main symptoms of fatigue are:Difficulty concentrating on the road.Blinking constantly, heaviness of the eyes and visual disturbance.A reduction of hearing.Feeling of having dead and heavy arms.Continuous movement in the seat and changes of posture.A feeling of pressure in the head.(Página 38 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637105328500000000/902d072a-9d22-4675-ad30-48739afff899M.jpg",
+      "number": "30.",
+      "question": "Entre otros, ¿qué síntoma es indicio de fatiga?\nAmong others, which of these is a symptom of tiredness?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

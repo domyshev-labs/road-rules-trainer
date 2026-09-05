@@ -1,0 +1,733 @@
+{
+  "test_id": 1009,
+  "title": "Vehicle safety devices 3",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el apoyacabezas está mal regulado.\nthe headrest is poorly adjusted."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "la distancia con el airbag es incorrecta.\nthe distance to the airbag is incorrect."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "el cinturón de seguridad no es capaz de retener adecuadamente durante un accidente y el cuerpo se desliza por debajo de él.\nthe seat belt is not able to restrain the person properly during an accident and the body slides underneath it."
+        }
+      ],
+      "help": "7 Seat belts    7.5 The submarine effectThis submarine effect occurs when, due to misuse of the seat belt or seat of the vehicle, the body slips beneath the abdominal belt as the belt is not able to restrain the occupant sufficiently.(Página 78 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637178852930000000/f6e1ae21-a4c6-44c1-8701-938810a0cae7M.jpg",
+      "number": "1.",
+      "question": "El efecto submarino se produce cuando...\nThe submarine effect occurs when...",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, porque la altura mejora el campo de visión del conductor.\nYes, because the extra height improves the driver's field of vision."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, porque puede limitar la eficacia del cinturón de seguridad.\nNo, because it can limit the effectiveness of the seat belt."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, porque el conductor va más cómodo.\nYes, because the driver is more comfortable."
+        }
+      ],
+      "help": "7 Seat belts      7.5 The submarine effectTo prevent this from happening is very important to:Avoid placing inappropriate items on the seat: The material on the seats prevents slippage, but when a seat pad, pillow, cushion or so on is used, the effectiveness is lost and slippage is more likely to occur.Drive with a proper posture: The seat should never tilt back (avoid driving in a lying down or laid back position). A proper posture at the wheel, amongst other advantages, facilitates the proper functioning of seat belts.(Página 78 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676630000000/7462b0cc-2097-4679-a1a8-5c204d0af4e6M.jpg",
+      "number": "2.",
+      "question": "¿Es correcto que el conductor de un turismo utilice un cojín en su asiento?\nIs it acceptable for the driver of a passenger car to use a seat cushion?",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "es recomendable, sobre todo en verano, para proteger el asiento.\nis recommendable, especially in the summer, to protect the seat."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "no representa ningún peligro.\ndoes not represent any type of danger."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "puede favorecer el efecto submarino.\ncould cause the submarine effect."
+        }
+      ],
+      "help": "7 Seat belts      7.5 The submarine effectTo prevent this from happening is very important to:Avoid placing inappropriate items on the seat: The material on the seats prevents slippage, but when a seat pad, pillow, cushion or so on is used, the effectiveness is lost and slippage is more likely to occur.Drive with a proper posture: The seat should never tilt back (avoid driving in a lying down or laid back position). A proper posture at the wheel, amongst other advantages, facilitates the proper functioning of seat belts.(Página 78 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677000000000/0c84e571-5093-4350-928a-c9b34f544a1aM.jpg",
+      "number": "3.",
+      "question": "Cuando se conduce, poner una toalla sobre el asiento...\nWhen you are driving, putting a towel on the seat...",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "sobre el abdomen para que sea realmente eficaz.\ngo across your abdomen to be truly effective."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "bien ceñido para evitar el efecto submarino.\nfit snugly to avoid the submarine effect."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "holgado para que la conducción sea cómoda y no aparezca la fatiga.\nbe loose-fitting to make driving comfortable and prevent fatigue."
+        }
+      ],
+      "help": "7 Seat belts    7.5 The submarine effectThis submarine effect occurs when, due to misuse of the seat belt or seat of the vehicle, the body slips beneath the abdominal belt as the belt is not able to restrain the occupant sufficiently.(Página 78 del manual 'Learning to drive')7 Seat belts    7.5 The submarine effectTo prevent this from happening is very important to:Correctly put the seat belt on: A belt badly placed of the abdominal band makes it more likely that the body will slip below it.Remove any slack in the belt: It is easier to produce the submarine effect if the belt is not properly fitted against the body. Avoid travelling in too bulky clothing and never use pre-tensioner devices, pillows or something similar that can result in a slackening of the belt.(Página 78 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676150000000/99a11531-9ed3-47ef-b38d-4bbf2446e3c7M.jpg",
+      "number": "4.",
+      "question": "El cinturón de seguridad deber ir...\nThe seat belt must…",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "En tráfico urbano no, debido a las bajas velocidades a las que se circula.\nNot in urban traffic, due to the slow speed of the vehicles on these roads."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solo es peligroso no abrocharse el cinturón en los asientos delanteros.\nIt is only dangerous not to fasten your seat belt in the rear seats."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, porque incluso en un choque a baja velocidad no siempre es posible mantenerse sujeto al asiento.\nYes, because even in a collision at slow speed, it is not always possible to remain in your seat."
+        }
+      ],
+      "help": "7 Seat belts 7.1 Purpose and effectivenessThe purpose of a seat belt is to retain and protect the driver and occupants in the event of sudden stopping, collision or the vehicle rolling over. The seat belt prevents the occupants of a vehicle from being catapulted out of it and absorbs part of the energy of an impact.During a frontal collision against an indeformable object, a vehicle stops in a tenth of a second, but due to inertia, the occupants will continue moving at the same speed as the vehicle was travelling at. Therefore, there is the likelihood of colliding with the steering wheel or the windshield, which will result in serious injuries being sustained.To avoid this, the seat belt slows the movement of the body by stretching out, as if is made of an elastic material, by an extensible action.(Página 75 del manual 'Learning to drive')7 Seat belts                 7.6 Misconceptions of safety belts\"In town, a seat belt is not necessary, as the speed is low”At only 30 or 40 kilometres per hour an accident can be fatal if the head hits the sun visor, dash board or steering wheel.In an impact at low-speed, the safety belt will normally ensure that the occupants escape unhurt or suffer minor injury.     \"In short journeys seat belts aren’tneeded”Most accidents involving casualties occur within a few kilometres from the place of departure, so it’s important to use seat belts on all journeys.(Página 78 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674310000000/23afcffb-9510-4c8a-a116-c7fa26dc7e10M.jpg",
+      "number": "5.",
+      "question": "¿Es peligroso no abrocharse el cinturón de seguridad?\nIs it dangerous not to fasten your seat belt?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, mientras que el cinturón esté totalmente ceñido.\nNo, not when the seatbelt is tightly fastened."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, no es recomendable inclinar el asiento demasiado hacia atrás.\nYes, it is not recommendable to lean your seat too far back."
+        }
+      ],
+      "help": "7 Seat belts      7.5 The submarine effectTo prevent this from happening is very important to:Avoid placing inappropriate items on the seat: The material on the seats prevents slippage, but when a seat pad, pillow, cushion or so on is used, the effectiveness is lost and slippage is more likely to occur.Drive with a proper posture: The seat should never tilt back (avoid driving in a lying down or laid back position). A proper posture at the wheel, amongst other advantages, facilitates the proper functioning of seat belts.(Página 78 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675620000000/455feec4-e834-4b2e-9c5d-506c527da0ecM.jpg",
+      "number": "6.",
+      "question": "¿Puede la postura del asiento influir en la eficacia del cinturón de seguridad?\nCan posture have an effect on the effectiveness of the seatbelt?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "es importante, pero solo en vías interurbanas.\nis important, but on intercity roads only."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "puede salvar la vida de sus ocupantes y evita que estos provoquen graves lesiones en los demás.\ncan save the lives of its occupants and prevents them from causing serious injuries to others."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "es responsabilidad única de sus ocupantes, ya que en un accidente serían los únicos perjudicados.\nis the sole responsibility of its occupants, as in an accident they would be the only injured parties."
+        }
+      ],
+      "help": "7 Seat belts 7.1 Purpose and effectivenessThe purpose of a seat belt is to retain and protect the driver and occupants in the event of sudden stopping, collision or the vehicle rolling over. The seat belt prevents the occupants of a vehicle from being catapulted out of it and absorbs part of the energy of an impact.During a frontal collision against an indeformable object, a vehicle stops in a tenth of a second, but due to inertia, the occupants will continue moving at the same speed as the vehicle was travelling at. Therefore, there is the likelihood of colliding with the steering wheel or the windshield, which will result in serious injuries being sustained.To avoid this, the seat belt slows the movement of the body by stretching out, as if is made of an elastic material, by an extensible action.(Página 75 del manual 'Learning to drive')7 Seat belts           7.6 Misconceptions of safety belts“It is dangerous to use a seat belt during pregnancy”The use of seat belts is compulsory for pregnant women, as they have proved that if you are not wearing it, the foetus can suffer major damage in the event of an accident.The abdominal belt must go as low as possible on the hips, to wear it higher could potentially harm the baby. There are devices on the market that adequately prevent the belt from going up onto the abdomen.“The belt is only necessary for front seat passengers. In the rear seats it isn’ necessary”If passengers in the rear seats fail to wear a seat belt there is the probability that, in the event of a frontal collision, they will be fired forwards towards the occupants in the front seats and serious injury will be caused.The likelihood for an occupant in the rear seats to cause the death of another passenger in the front seats due to the fact that they are launched forward is up to 8 times greater than if the seat belt is worn.(Página 78 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634671511820000000/8a88aebb-6c9d-4e8b-a1ff-db4c3b74e52aM.jpg",
+      "number": "7.",
+      "question": "El cinturón de seguridad en los asientos traseros...\nOn rear seats, the seat belt...",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, es obligatorio usar un sistema de retención infantil.\nNo, you must use a child restraint system."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solo si se circula a una velocidad igual o inferior a 30 km/h.\nOnly if driving at a speed of 30 km/h or less."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, cuando todo el recorrido transcurre por vías urbanas.\nYes, when the whole journey is along urban roads."
+        }
+      ],
+      "help": "8 Child safety restraining devices Generally, seat belts and other safety systems of the vehicles are not suited to children. Therefore, in order to travel safely with a child, it is compulsory to use a restraining device suitable for children and designed specifically for their use.A child should never be held in a person’s arms in a vehicle. With sudden braking it may be difficult to hold them and prevent them from being catapulted through the air.(Página 79 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636979322350000000/fcf3d234-b8a3-4421-bc63-4752ab6314a7M.jpg",
+      "number": "8.",
+      "question": "Si el recorrido que va a realizar con su vehículo es corto, ¿está permitido llevar a un niño pequeño en brazos?\nIf your journey is going to be short, is it permitted to carry a small child in your arms?",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Solo cuando el airbag se ha desconectado previamente.\nOnly when the airbag has been disabled in advance."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, es algo que nunca debe hacerse.\nNo, it should never be done."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, para proteger al niño en caso de impacto frontal.\nYes, to protect the child in the event of a head-on collision."
+        }
+      ],
+      "help": "8 Child safety restraining devices In addition, it is important to consider the following recommendations:A child safety seat should never be placed into the front of the car where there is an airbag unless it has been disconnected.It is generally safer for a small child to be facing backwards, in the opposite direction to the movement of the vehicle.The rear seats (especially the central seat) are generally the safest place to travel, and are less affected by side impacts.The ISOFIX system (“nternational Standards Organisation FIX” ensures a standard that is simple and quick for installing child seats into cars, therefore it aims to reduce the risk of incorrect fitting. It also stands to provide strength and resilience.It is important that any restraining device is approved, otherwise it will not have passed the necessary tests and safety requirements and it may therefore, not be able to adequately protect a child.(Página 79 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635076816470000000/20cfc6e6-a348-4858-94b0-86695738bf09M.jpg",
+      "number": "9.",
+      "question": "Colocar una sillita para niños en una plaza con airbag frontal, ¿es correcto?\nShould you place a child car seat on a vehicle seat with a front airbag?",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "cualquiera de los asientos traseros laterales.\nany of the lateral rear seats."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "el asiento trasero central, ya que resulta menos afectado por los impactos laterales.\nthe central rear seat, as it is less affected by lateral impacts."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "el asiento delantero, para que el conductor pueda vigilar al niño.\nthe front seat, so that the driver can watch the child."
+        }
+      ],
+      "help": "8 Child safety restraining devices In addition, it is important to consider the following recommendations:A child safety seat should never be placed into the front of the car where there is an airbag unless it has been disconnected.It is generally safer for a small child to be facing backwards, in the opposite direction to the movement of the vehicle.The rear seats (especially the central seat) are generally the safest place to travel, and are less affected by side impacts.The ISOFIX system (“nternational Standards Organisation FIX” ensures a standard that is simple and quick for installing child seats into cars, therefore it aims to reduce the risk of incorrect fitting. It also stands to provide strength and resilience.It is important that any restraining device is approved, otherwise it will not have passed the necessary tests and safety requirements and it may therefore, not be able to adequately protect a child.(Página 79 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674870000000/35d2a5ac-9502-4d5f-8361-abd5798d19a9M.jpg",
+      "number": "10.",
+      "question": "La colocación de los dispositivos de retención infantil resulta más segura en...\nThe position of a child retention device is safer in...",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "del asiento del vehículo que ofrezca mejor ubicación.\nthe vehicle seat in the best location."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "del peso y talla del niño.\nthe weight and height of the child."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "de la comodidad y adaptación al niño.\nthe child's comfort and suitability."
+        }
+      ],
+      "help": "8 Child safety restraining devices  Rather than basing an appropriate safety device on age, the weight and height of the child must be taken into account. The most appropriate device is one that is suited to that child; it should be tried out by the child to make sure the size is correct and the child finds it comfortable.For example, you are recommended to use booster seats from the age of three and booster seats with a backrest for children from 15 to 25 kg.Fastening systems for minors installed correctly could prevent three out of every four, child deaths that occur in road traffic collisions.(Página 79 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480690520000000/cccab60c-0936-4e59-8e28-6fcf875f904dM.jpg",
+      "number": "11.",
+      "question": "Los dispositivos de retención infantil hay que seleccionarlos fundamentalmente en función...\nChild restraint devices must be selected primarily according to...",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, puesto que los sistemas de airbag actuales son muy precisos a la hora de determinar cuándo deben hincharse.\nNo, as modern airbag systems are very precise when determining when they should inflate."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, un airbag puede ponerse en funcionamiento en cualquier momento.\nYes, an airbag can operate at any time."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Este tipo de cuestiones dependerá de la marca del automóvil.\nThis will depend on the car's brand."
+        }
+      ],
+      "help": "9 Airbags An airbag is an inflatable pillow that inflates in just a few thousandths of a second on impact. In conjunction with seat belts, it can reduce a 20% likelihood of suffering a fatal injury.Current systems are very precise in determining when to inflate the airbag, so it is very unlikely that a device will fire inadequately or in an inappropriate situation. Some vehicles have systems capable of either detecting the presence or absence of occupants in the seats, whilst other systems assess the type of collision and can activate the airbags only where and when necessary.(Página 80 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635464609160000000/2f7c1e1a-03bf-4e95-8537-b16cc48bee39M.jpg",
+      "number": "12.",
+      "question": "Mientras se realiza un estacionamiento, ¿es fácil que el dispositivo del airbag se dispare?\nWhen parking, can the airbag system be deployed easily?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el efecto submarino.\nthe submarine effect."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "lesiones abdominales.\nabdominal injuries."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "lesiones cervicales y de impactos contra elementos del interior del vehículo.\nneck injuries and collision with elements inside the vehicle."
+        }
+      ],
+      "help": "9 Airbags  The main functions of the airbag are to:Gently cushion the movement of the occupants colliding against it and consume part of the kinetic energy.Prevent the occupants impacting and hitting against the inside of the vehicle and thereby reducing the risk of injury.Protect the face and eyes from any fragmented glass or other materials that could occur in a collision.(Página 80 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637178890810000000/51778929-c1cc-4767-8949-afd3225e9b05M.jpg",
+      "number": "13.",
+      "question": "Los airbags, entre otras funciones, protegen de...\nAmong other functions, airbags protect against...",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Evitar el efecto submarino.\nAvoiding the submarining effect."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Evitar que la columna de dirección golpee al conductor.\nPreventing the steering column from hitting the driver."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Reducir el riesgo de heridas en la cara producidas por fragmentos de cristal procedentes del parabrisas.\nReducing the risk of facial injuries caused by glass fragments from the windscreen."
+        }
+      ],
+      "help": "9 Airbags  The main functions of the airbag are to:Gently cushion the movement of the occupants colliding against it and consume part of the kinetic energy.Prevent the occupants impacting and hitting against the inside of the vehicle and thereby reducing the risk of injury.Protect the face and eyes from any fragmented glass or other materials that could occur in a collision.(Página 80 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637178885460000000/e5236e97-658c-4b75-bbcd-7afce04b0ad5M.jpg",
+      "number": "14.",
+      "question": "¿Cuál de las siguientes es una de las principales funciones del airbag en caso de accidente?\nWhich of the following is one of the main functions of the airbag in the event of an accident?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, los laterales y los de techo o cortina entre otros.\nYes, side airbags and curtain airbags among others."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, los laterales.\nYes, side airbags."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "9 Airbags  9.1 Types of airbagAirbags for driver and front passenger: These are the most common and are usually located on the steering wheel and dashboard. They work best when there is a frontal collision.Side Airbags: They tend to hide in the sides of the seats or the trim on the doors. They protect the occupants during side impacts, mainly avoiding injuries to the chest.(Página 80 del manual 'Learning to drive')9 Airbags  9.1 Types of airbagAirbags in the roof or material: They tend to be located on the sides of the roof, above the windows. Their purpose is to protect the head in case of side impact or in case the vehicle rolls over.(Página 80 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635031839740000000/1b8af715-7738-4de6-82d9-6e32f5889ce7M.jpg",
+      "number": "15.",
+      "question": "Además del airbag frontal, ¿existen otros tipos de airbag?\nIn addition to the front airbag, are there other types of airbag?",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, cuando se utilizan sin el cinturón de seguridad; en caso contrario, es aconsejable desconectar el airbag.\nNo, if worn without a seat belt; otherwise, it is advisable to disconnect the airbag."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "9 Airbags  9.2 Cautions regarding airbagsGlasses worn usually do not present a danger. The airbag helps to absorb the impact of the moving occupant, which has already been slowed by a seat belt. However, glasses, like other objects that are loose in the vehicle, may move at the moment of impact, but the probability of being broken is quite low.(Página 80 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635993426750000000/3b2bc296-14db-4e24-b6e9-0a4249dd6531M.jpg",
+      "number": "16.",
+      "question": "Cuando un vehículo lleva airbag, ¿las gafas suelen ser peligrosas para el conductor si este salta debido a un impacto?\nIf a vehicle has an airbag, are glasses usually dangerous for the driver if the airbag is triggered by an impact?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "10 cm.\n10 cm."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "25 cm.\n25 cm."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "La distancia que le permita conducir en una postura cómoda.\nThe distance that allows the driver to sit comfortably."
+        }
+      ],
+      "help": "9 Airbags  9.2 Cautions regarding airbagsAlways use safety belts, so that both devices can operate in a complementary manner.Always ensure that the occupants are at the correct distance from the front airbag. The separation distance should be at least 25 centimetres from the chest of the driver to the steering wheel, so that the airbag does not hit the driver whilst inflating.Always disconnect the passenger airbag if a child safety seat is going to be placed in the front passenger seat.(Página 80 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676370000000/2281b806-d457-41a8-9079-d320cef6da66M.jpg",
+      "number": "17.",
+      "question": "¿Cuál es la distancia ideal a la que debe colocarse con respecto al airbag?\nWhat is the ideal distance between you and the airbag?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "En las colisiones por alcance.\nRear-end collisions."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Es especialmente frecuente en los atropellos.\nIt is particularly common in collisions."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Es la lesión más frecuente que se da en los accidentes en solitario.\nIt is the most common injury in accidents not involving other road users."
+        }
+      ],
+      "help": "10 Head restraints  Head restraints are very effective in the event of a collision, avoiding or reducing the severity of injuries to the neck or vertebrates caused by the sudden movement, forward and back, of the head (whiplash). It is therefore imperative to properly use them, both in front and back seats. Whiplash occurs when a person’s head moves backward and then forward suddenly with great force. It is particularly frequent in rear- ending collisions.As well as muscle and head pain it can cause decreased neck mobility, vertigo or dizziness, among other symptoms.(Página 80 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636141203740000000/9b36d4dd-d3bf-4f53-82b6-18261fb4c112M.jpg",
+      "number": "18.",
+      "question": "¿En qué tipo de accidentes es más frecuente que se produzca el latigazo cervical?\nIn which types of accident is whiplash most common?",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Los frenos ABS.\nABS brakes."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "El reposacabezas, ajustado de forma apropiada.\nThe headrest, properly adjusted."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "El cinturón de seguridad.\nThe seat belt."
+        }
+      ],
+      "help": "10 Head restraints  Head restraints are very effective in the event of a collision, avoiding or reducing the severity of injuries to the neck or vertebrates caused by the sudden movement, forward and back, of the head (whiplash). It is therefore imperative to properly use them, both in front and back seats. Whiplash occurs when a person’s head moves backward and then forward suddenly with great force. It is particularly frequent in rear- ending collisions.As well as muscle and head pain it can cause decreased neck mobility, vertigo or dizziness, among other symptoms.(Página 80 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636613795460000000/f4ac8456-3b2f-4b71-9778-52b46cfb3b99M.jpg",
+      "number": "19.",
+      "question": "En un automóvil, ¿cuál de los siguientes elementos reduce el riesgo de lesiones de cuello en una colisión?\nIn a car, which of the following reduces the risk of neck injury in a collision?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Los airbags y los reposacabezas.\nThe airbags and the headrests."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La suspensión y los amortiguadores.\nThe suspension and the shock absorbers."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Los frenos y el ABS.\nThe brakes and the ABS."
+        }
+      ],
+      "help": "9 Airbags  However, the airbag is not effective unless it is used with a seat belt. In the event of a collision, unless the seat belt is fastened, (buckled) there is a high risk that the head will hit the airbag when it is still inflating and, because of the force exerted in this inflation process, serious injuries can occur, which can even be fatal.(Página 80 del manual 'Learning to drive')10 Head restraints  10.1 Head restraints – correct usageTo ensure optimum safety, the top of the restraint must be at the same height as the top of the head. There must be very little distance between the head and the restraint: it should be as close as possible, bearing in mind the need to maintain freedom of movement of the head and comfort (approximately 4 cm’s is advised).If the head restraint is adjusted below the nape of neck there is the increased risk of suffering cervical vertebrate (spinal)/neck injury.(Página 81 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485877240000000/33ac6676-f78c-46f5-94bd-0ef34dbcd2e9M.jpg",
+      "number": "20.",
+      "question": "¿Qué sistemas de seguridad pueden perder eficacia si no se lleva abrochado el cinturón de seguridad?\nWhich safety systems may lose their efficiency if your seat belt is not fastened?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "la mínima posible y nunca superior a 4 cm.\nthe minimum possible and never over 4 cm."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "superior a 4 cm.\nover 4 cm."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la que resulte más cómoda para el conductor.\nthat which is most comfortable for the driver."
+        }
+      ],
+      "help": "10 Head restraints  10.1 Head restraints – correct usageTo ensure optimum safety, the top of the restraint must be at the same height as the top of the head. There must be very little distance between the head and the restraint: it should be as close as possible, bearing in mind the need to maintain freedom of movement of the head and comfort (approximately 4 cm’s is advised).If the head restraint is adjusted below the nape of neck there is the increased risk of suffering cervical vertebrate (spinal)/neck injury.(Página 81 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635464645930000000/a1ecf58f-4c79-4e15-9fbb-3b37d9e4c144M.jpg",
+      "number": "21.",
+      "question": "Para que el apoyacabezas esté regulado correctamente, la distancia respecto a la cabeza debe ser...\nIn order for the headrest to be adjusted correctly, the distance from the head must be...",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "El borde debe quedar situado entre el límite inferior de la cabeza y la altura de los ojos.\nThe edge must be situated between the lower limit of the head and at the height of the eyes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "En función de la comodidad del conductor.\nAccording to what is most comfortable for the driver."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "El borde debe quedar situado entre el límite superior de la cabeza y la altura de los ojos.\nThe edge must be situated between the top of the head and at the height of the eyes."
+        }
+      ],
+      "help": "10 Head restraints  10.1 Head restraints – correct usageTo ensure optimum safety, the top of the restraint must be at the same height as the top of the head. There must be very little distance between the head and the restraint: it should be as close as possible, bearing in mind the need to maintain freedom of movement of the head and comfort (approximately 4 cm’s is advised).If the head restraint is adjusted below the nape of neck there is the increased risk of suffering cervical vertebrate (spinal)/neck injury.(Página 81 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636299301470000000/9d049257-80b7-4e10-b61a-24896987197dM.jpg",
+      "number": "22.",
+      "question": "¿Cómo se debe regular adecuadamente la altura del apoyacabezas?\nHow must you correctly adjust the height of the headrest?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, debe ir ajustado a la cabeza y abrochado.\nNo, it must be worn fitting close to the head and fastened."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, si circula a poca velocidad.\nYes, if driving slowly."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, si circula a poca velocidad y por ciudad.\nYes, if driving slowly and in the city."
+        }
+      ],
+      "help": "11 Crash helmets 11.1 Tips for buying a crash helmetSize of the helmet:The helmet must be properly fitted to the head. Where there is doubt between two sizes, it is important to choose the one that is more fitted and can be adjusted correctly, since the interior padding usually stretches a little with use. If the rider wears glasses, it is important to try these with the helmet too.(Página 81 del manual 'Learning to drive')11 Crash helmets   11.1 Tips for buying a crash helmet Fastening the helmet:It is important to ensure and verify that the helmet has been fastened correctly. The helmet must stay affixed to the rider’s head in the event of the rider being involved in a collision, or falling off his machine. If the helmet is not properly buckled it will invariably come off during an impact.(Página 82 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676600000000/d32319c1-34a1-40d1-95fe-346b50ba963cM.jpg",
+      "number": "23.",
+      "question": "El conductor de una motocicleta circula con el casco desabrochado, ¿es correcto?\nA motorcyclist is riding with an unfastened helmet, is this correct?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, y preferiblemente de cristal.\nYes, and preferably glass ones."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, pero sí es muy aconsejable.\nNo, but it is highly recommended."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, no es obligatorio ni aconsejable.\nNo, it is not compulsory or recommended."
+        }
+      ],
+      "help": "11 Crash helmets   11.1 Tips for buying a crash helmet Visors:Visors are strongly recommended. However, it is important to ensure that these do not mist up; therefore, special covers are available that increase the anti-mist properties. When the helmet does not include eye protection it is highly recommended that safety glasses are used, although this use is not mandatory. Without eye protection, there is obviously the risk that something may enter the eye (an insect, a particle of sand or dust, etc.,) which may cause the rider to become distracted; however, the cold and/or the wind constantly in the eyes also increases visual fatigue.(Página 82 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637227576280000000/5f39892e-a786-4504-ae58-a82ca52371e9M.jpg",
+      "number": "24.",
+      "question": "Si el casco no lleva visera, ¿es obligatorio que los pasajeros de motocicletas utilicen gafas de seguridad?\nIf a helmet does not have a visor, is it compulsory for motorcycle passengers to wear goggles?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "La cara y la cabeza.\nThe face and the head."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Únicamente la parte trasera del cráneo.\nOnly the back of the skull."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sólo la parte superior del cráneo.\nOnly the front of the skull."
+        }
+      ],
+      "help": "11 Crash helmets 11.1 Tips for buying a crash helmetTypes of helmet:Helmets that leave the face exposed do not offer protection to the face.In the event of an accident the face, particularly the eyes are very vulnerable, whilst other models do not adequately protect the nape of the neck. Therefore, it is advisable to use an integral model, which protects the bottom of the face, jaw and also the neck.Manufacturing material:The different materials have a number of advantages and disadvantages, which need to be to be assessed and evaluated before making a decision and prior to purchase. For example, helmets made of polycarbonate last for only a few years and can lose their property if painted or if stickers are placed on the surface area.(Página 81 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680920000000/cde5b1d6-cec6-4d96-ba37-d6b5457dda64M.jpg",
+      "number": "25.",
+      "question": "¿Qué protege un casco integral?\nWhat does a full face helmet protect?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "sufra algún golpe, ya que puede haberse dañado.\nit has received an impact, as it might have been damaged."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "cambie de motocicleta.\nyou change your motorcycle."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "los colores hayan pasado de moda.\nthe colours are no longer fashionable."
+        }
+      ],
+      "help": "11 Crash helmets   11.1 Tips for buying a crash helmetApproval:Approval is the guarantee of quality, so it is important to be wary of helmets that have not been properly approved. If a helmet does not have a label of approval, it is because it has not successfully passed some tests to ensure minimum safety, and therefore its effectiveness is unknown.The structure of the helmet can be damaged without being externally noticed. If a blow to a helmet is received, possibly during a collision or, the helmet is even simply dropped from a height of more than 1.50 metres, it should be changed as soon as possible.(Página 82 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674310000000/5b3399f3-fca8-4ace-9d75-47acbc02773fM.jpg",
+      "number": "26.",
+      "question": "El casco debe cambiarse cuando...\nThe helmet must be replaced when...",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Únicamente que esté homologado.\nOnly that it is approved."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La marca.\nThe brand."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Que esté homologado, además de su talla y el material con que esté fabricado.\nThat it is approved, as well as its size and the material it is made of."
+        }
+      ],
+      "help": "11 Crash helmets 11.1 Tips for buying a crash helmetTypes of helmet:Helmets that leave the face exposed do not offer protection to the face.In the event of an accident the face, particularly the eyes are very vulnerable, whilst other models do not adequately protect the nape of the neck. Therefore, it is advisable to use an integral model, which protects the bottom of the face, jaw and also the neck.Manufacturing material:The different materials have a number of advantages and disadvantages, which need to be to be assessed and evaluated before making a decision and prior to purchase. For example, helmets made of polycarbonate last for only a few years and can lose their property if painted or if stickers are placed on the surface area.(Página 81 del manual 'Learning to drive')11 Crash helmets 11.1 Tips for buying a crash helmetSize of the helmet:The helmet must be properly fitted to the head. Where there is doubt between two sizes, it is important to choose the one that is more fitted and can be adjusted correctly, since the interior padding usually stretches a little with use. If the rider wears glasses, it is important to try these with the helmet too.(Página 81 del manual 'Learning to drive')11 Crash helmets   11.1 Tips for buying a crash helmetApproval:Approval is the guarantee of quality, so it is important to be wary of helmets that have not been properly approved. If a helmet does not have a label of approval, it is because it has not successfully passed some tests to ensure minimum safety, and therefore its effectiveness is unknown.The structure of the helmet can be damaged without being externally noticed. If a blow to a helmet is received, possibly during a collision or, the helmet is even simply dropped from a height of more than 1.50 metres, it should be changed as soon as possible.(Página 82 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636329624230000000/3cd8c5f6-95ba-453d-bde8-5573cf4d9388M.jpg",
+      "number": "27.",
+      "question": "Al comprar un casco, ¿qué debe tener en cuenta?\nWhen buying a helmet, what should you consider?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Una pantalla antivaho.\nAn anti-fog shield."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Una pantalla oscura.\nA dark shield."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Una pantalla polarizada.\nA polarised shield."
+        }
+      ],
+      "help": "11 Crash helmets   11.1 Tips for buying a crash helmet Visors:Visors are strongly recommended. However, it is important to ensure that these do not mist up; therefore, special covers are available that increase the anti-mist properties. When the helmet does not include eye protection it is highly recommended that safety glasses are used, although this use is not mandatory. Without eye protection, there is obviously the risk that something may enter the eye (an insect, a particle of sand or dust, etc.,) which may cause the rider to become distracted; however, the cold and/or the wind constantly in the eyes also increases visual fatigue.(Página 82 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676510000000/2c21ab82-2572-451c-abc7-afadb3f7d8fbM.jpg",
+      "number": "28.",
+      "question": "En un casco, ¿qué pantalla es la más recomendable?\nOn a helmet, which face shield is the most recommended?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, son más seguros los colores oscuros.\nYes, dark colours are safer."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, los más seguros son los de colores claros.\nYes, light colours are safer."
+        }
+      ],
+      "help": "11 Crash helmets   11.1 Tips for buying a crash helmet Colour:Crash helmets that are bright, distinctive and reflective are safer because they identify the rider to other road users, making the rider (and passengers) prominent and visible.(Página 82 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636693298170000000/6f42997a-65be-4e76-b888-2e9fae73858cM.jpg",
+      "number": "29.",
+      "question": "El color del casco, ¿influye en la seguridad del motorista?\nDoes the colour of the helmet affect the rider's safety?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Que se pueda sujetar sin tener que llevarlo abrochado.\nThat it stays in place without having to be fastened."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Que aisle completamente de los ruidos.\nThat it is fully soundproof."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Que tenga buena ventilación para que no se empañe la visera.\nThat it has good ventilation so that the face shield does not fog up."
+        }
+      ],
+      "help": "11 Crash helmets   11.1 Tips for buying a crash helmetVentilation:A helmet with good ventilation will be more comfortable and safer, so it’s important to have a sufficient number of ventilation holes allowing for the entry and exit of air. (Página 82 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485831260000000/b21638c3-a450-4b23-a86f-17b58c354fc3M.jpg",
+      "number": "30.",
+      "question": "Al elegir un casco para conducir una motocicleta, ¿qué debe tener en cuenta?\nWhen choosing a helmet to ride a motorcycle, what should you take into account?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

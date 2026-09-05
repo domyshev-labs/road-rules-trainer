@@ -1,0 +1,733 @@
+{
+  "test_id": 1011,
+  "title": "Lighting and signalling 1",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "cuando se circule por carriles para VAO.\nwhen driving on VAO lanes."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "cuando se circule por pasos inferiores o tramos de vía afectados por la señal túnel.\nwhen driving on subways or stretches of road affected by the tunnel signal."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "solo cuando existan condiciones que disminuyan la visibilidad.\nonly when there are conditions that reduce visibility."
+        }
+      ],
+      "help": "3 General rules regarding use of the lighting system Vehicles must use the correct lights during the following situations:When driving during any hour of the day:- In tunnels, underpasses or any section of the road that has a “unnel” sign displayed.- When the weather or atmospheric conditions are such that visibility is reduced.- When driving in a ‘reversible lane’, or a lane set up for travelling in the opposite direction to the usual one or in an additional circulation lane.(Página 97 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674290000000/63e898ee-07bb-4374-b7c4-f8fca4a2d98bM.jpg",
+      "number": "1.",
+      "question": "De día es obligatorio encender el alumbrado que corresponda...\nDuring the day, it is compulsory to switch on the appropriate lighting...",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "no puede distinguirse un vehículo a 20 metros de distancia.\nyou cannot distinguish a vehicle at a distance of 20 metres."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "no puede leerse la matrícula a 10 metros o no se distingue un vehículo oscuro a 50 metros de distancia.\nyou cannot read a registration plate at 10 metres or you cannot distinguish a dark vehicle at a distance of 50 metres."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "no puede leerse la matrícula a 50 metros o no se distingue un vehículo oscuro a 10 metros de distancia.\nyou cannot read a registration plate at 50 metres or cannot distinguish a dark vehicle at a distance of 10 metres."
+        }
+      ],
+      "help": "3 General rules regarding use of the lighting system An insufficiently illuminated road is a road where the vision is reduced and it is not possible to:Read a vehicle registration plate (licence plate) at a distance of 10 metres. OrSee a dark coloured vehicle at a distance of 50 metres.(Página 97 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482425520000000/91f7c228-edb7-4934-91eb-e987b2aa5645M.jpg",
+      "number": "2.",
+      "question": "Se entiende por vía insuficientemente iluminada aquella en la que...\nAn insufficiently lit road is understood to be that on which...",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "cuando circule por un carril para vehículos con alta ocupación (VAO).\nwhen using a High-Occupancy Vehicle (HOV) lane."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "en los puentes y pasos a nivel.\non bridges and level crossings."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "entre la puesta y la salida del sol.\nbetween dusk and dawn."
+        }
+      ],
+      "help": "3 General rules regarding use of the lighting system Vehicles must use the correct lights during the following situations:When driving between sunset and sunrise.(Página 97 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634528912850000000/5f0a8fff-1913-4968-8be8-23187544dc89M.jpg",
+      "number": "3.",
+      "question": "El conductor de un turismo debe circular con el alumbrado de su vehículo encendido...\nThe car driver must travel with the vehicle's lights on...",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, pero deberá reducir la velocidad hasta la que permita detener el vehículo dentro de la zona iluminada.\nYes, but you must reduce your speed until the vehicle can be stopped within the illuminated area."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, no podrá continuar el viaje.\nNo, you will not be able to continue the trip."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, puede continuar hasta el taller más próximo.\nYes, you can continue until the nearest garage."
+        }
+      ],
+      "help": "3 General rules regarding use of the lighting system  For safety reasons, to make the vehicle more visible, it is advisable to use lights before and during dusk and dawn.If a light becomes damaged, or the intensity is reduced during a journey, then the light must be repaired or the bulb replaced immediately, if however this is not possible the speed must be  reduced to a suitable speed, whereby the vehicle can be stopped within the area illuminated.(Página 97 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485971290000000/3b1a8a47-9e87-4785-aafb-b666fb6eec49M.jpg",
+      "number": "4.",
+      "question": "En caso de avería de uno de los dispositivos de alumbrado del vehículo, ¿puede circular de noche con un alumbrado de intensidad inferior?\nIf one of a vehicle's lights breaks, can you drive at night with lower intensity lighting?",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Que el vehículo está circulando.\nThat the vehicle is moving."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Que el vehículo está parado.\nThat the vehicle is stationary."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "El lugar que ocupa en la calzada y la anchura del vehículo.\nThe space occupied on the road and the width of the vehicle."
+        }
+      ],
+      "help": "4 Position lights The front and rear position lights are used to indicate the presence and the width of the vehicle, when viewed from these respective views.The side marker lights (position lights on the side of the vehicle) – if fitted, indicate the presence of the vehicle when seen from the side.(Página 97 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674250000000/8c83ef01-4ca5-408f-8230-40e0eed76b78M.jpg",
+      "number": "5.",
+      "question": "La luz de posición de los vehículos, ¿qué indica?\nWhat does the position light of a vehicle indicate?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, entre el ocaso y la salida del sol.\nYes, between dusk and dawn."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, porque es retrorreflectante.\nNo, because it is retro-reflective."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, porque únicamente deberá estar iluminada obligatoriamente la del vehículo tractor.\nNo, because only the towing vehicle's licence plate must be illuminated."
+        }
+      ],
+      "help": "4 Position lights    4.3 Use of the ‘position’ lights – when travellingAll vehicles must use the correct lights depending on the circumstances.However, position lights together with headlights (main beam or low beam) or fog lights, must be used when driving:Between sunset and sunrise.In reduced visibility due to adverse atmospheric or weather conditions, such as fog, intense rain, smoke, dust etc.In tunnels, underpasses or sections road, where the sign for a ‘unnel’ is displayed.Note: It is not permissible to use only the position lights.(Página 98 del manual 'Learning to drive')13 Vehicle registration number plate lights It is optional for mopeds and special vehicles that are not entitled to travel during the hours of darkness.(Página 104 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636758035670000000/9dcf6e07-7bab-4a2c-989d-99b48f00e97bM.jpg",
+      "number": "6.",
+      "question": "¿Deberá estar iluminada la placa de matrícula posterior de un remolque?\nShould the rear licence plate of a trailer be illuminated?",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, en vías de poblado suficientemente iluminadas.\nYes, on a sufficiently well-lit urban road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, en cualquier vía suficientemente iluminada.\nYes, on any sufficiently well-lit road."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, debe utilizarse además el alumbrado de cruce o el de carretera.\nNo, dipped beam or main beam must also be used."
+        }
+      ],
+      "help": "4 Position lights    4.3 Use of the ‘position’ lights – when travellingAll vehicles must use the correct lights depending on the circumstances.However, position lights together with headlights (main beam or low beam) or fog lights, must be used when driving:Between sunset and sunrise.In reduced visibility due to adverse atmospheric or weather conditions, such as fog, intense rain, smoke, dust etc.In tunnels, underpasses or sections road, where the sign for a ‘unnel’ is displayed.Note: It is not permissible to use only the position lights.(Página 98 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674250000000/8fdbc3fc-6c91-4054-8d11-a93e2e900d0aM.jpg",
+      "number": "7.",
+      "question": "¿Está permitido circular utilizando solamente el alumbrado de posición del vehículo entre la puesta y la salida del sol?\nAre you allowed to drive using only the vehicle's position lights between sunset and sunrise?",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "mantener encendidas las luces de posición.\nkeep their position lights on."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "mantener encendidas siempre las luces de emergencia.\nalways keep their emergency lights on."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "apagar el alumbrado para evitar el desgaste de la batería.\nturn off their lights to prevent the battery from going flat."
+        }
+      ],
+      "help": "4 Position lights 4.4 Usage in immobilizationsAs a general rule, all vehicles must have their position lights turned on that, between sundown and sunrise or in environmental or weather conditions that noticeably decrease visibility, unexpectedly have to stop for any reason on the roadway or the hard shoulder of a road (whether or not it is sufficiently lighted and both in and outside towns).(Página 99 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675950000000/11514391-dabd-4e37-a5c9-3a5ea408a8dcM.jpg",
+      "number": "8.",
+      "question": "El conductor de un vehículo inmovilizado en la calzada o arcén de una vía interurbana entre la puesta y la salida del sol está obligado a...\nThe driver of a stationary vehicle in the road or by the roadside on an intercity route, between sunset and sunrise, must...",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, cuando la iluminación permita distinguirlos a una distancia suficiente.\nNo, when the street lighting enables them to be seen at a sufficient distance."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, cuando la vía forma intersección con una travesía.\nYes, when the road intersects with a junction."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, cuando la vía solo tiene un carril de circulación.\nYes, when the road only has one lane of traffic."
+        }
+      ],
+      "help": "4 Position lights 4.4 Usage in immobilizationsAs an exception vehicles parked in towns and cities, within built-up-areas (but not on major roads – in town highways, that cross through the towns) are permitted to park on the roads without lights, if the street is sufficiently illuminated to allow other road users to see the vehicle (that is, the road is not classed as being poorly or insufficiently illuminated).(Página 99 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675350000000/4fae9f18-4541-4b84-817f-63c3ce083eb7M.jpg",
+      "number": "9.",
+      "question": "En vías urbanas que no sean travesías ¿es obligatorio que los vehículos estacionados tengan encendido el alumbrado de posición?\nOn urban roads other than main roads, is it compulsory for parked vehicles to have their parking lights switched on? a. Yes, when the road only has one lane of traffic. b. Yes, when the road intersects with a junction. c. No, when the street lighting enables them to be seen at a sufficient distance.",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "La luz de posición, que podrá sustituirse por la de estacionamiento cuando el vehículo se halle estacionado en línea.\nThe position light, which may be replaced by the parking lamp when the vehicle is parked parallel."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La luz de posición con la de cruce o la de largo alcance.\nThe position light with the dipped beam or main beam."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Ninguna.\nNone."
+        }
+      ],
+      "help": "4 Position lights 4.4 Usage in immobilizationsAny vehicle stopped or parked between sunset and sunrise, either on any road or on the hard shoulder of an in town highway – which is insufficiently illuminated, must display position lights. However under these circumstances it is possible to replace the position lights with parking lights. Two position lights or two parking lights must be illuminated and these must correspond to the side of the vehicle closest to the road.(Página 99 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680970000000/b954c46e-6023-424e-9b01-264d026ec557M.jpg",
+      "number": "10.",
+      "question": "Si estaciona en una travesía insuficientemente iluminada, ¿qué luces debe dejar encendidas?\nIf you park on a poorly lit road, which lights should you leave on?",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "2 o más metros de ancho y 6 o más metros de largo.\n2 or more metres wide and 6 or more metres long."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "más de 4 metros de alto.\nmore than 4 metres high."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "más de 2,10 metros de ancho.\nmore than 2.10 metres wide."
+        }
+      ],
+      "help": "6 End outline marker lights They are obligatory on automobiles, (except for motorcycles and vehicles with three wheels) trailers and semitrailers where the width exceeds 2.10 metres and optional on automobiles (except for motorcycles and three-wheeled vehicles) with a width between 1.80 metres and 2.10 metres. (These lights are also optional on vehicles with cabs.)(Página 100 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679220000000/d36e8772-6b34-4877-ac6c-b1497670d3cdM.jpg",
+      "number": "11.",
+      "question": "Un vehículo debe llevar encendida la luz de gálibo si mide...\nA vehicle must have its clearance lamp lit if it measures…",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sólo cuando circule por un túnel insuficientemente iluminado.\nOnly when you are driving in an insufficiently lit tunnel."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sólo cuando circule por un túnel entre la puesta y la salida del sol.\nOnly when you are driving in a tunnel between dusk and dawn."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Cuando circule por un túnel a cualquier hora del día.\nWhen you are driving in a tunnel at any time of the day."
+        }
+      ],
+      "help": "4 Position lights    4.3 Use of the ‘position’ lights – when travellingAll vehicles must use the correct lights depending on the circumstances.However, position lights together with headlights (main beam or low beam) or fog lights, must be used when driving:Between sunset and sunrise.In reduced visibility due to adverse atmospheric or weather conditions, such as fog, intense rain, smoke, dust etc.In tunnels, underpasses or sections road, where the sign for a ‘unnel’ is displayed.Note: It is not permissible to use only the position lights.(Página 98 del manual 'Learning to drive')6 End outline marker lights  These must be the same colour as position lights: 2 lights, white in colour to the front and 2 lights, red in colour to the rear.For vehicles that must also have end outline marker lights, they must also be turned on in the same cases as the position lights.(Página 100 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199680350000000/4f544861-b772-46db-ba66-84de036eb13cM.jpg",
+      "number": "12.",
+      "question": "Un vehículo tiene una anchura superior a 2,10 metros, ¿cuándo es obligatorio encender la luz de gálibo?\nA vehicle has a width of over 2.10 meters. When is it mandatory to turn on the clearance lights?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, una o dos luces.\nYes, one or two lights."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, si llevan sidecar; en caso contrario no.\nYes, if they have a sidecar; otherwise, no."
+        }
+      ],
+      "help": "7 Headlights – main beam / high beam / long range      7.1 Obligatory fitment of lightsHeadlights – main beam are:Obligatory for all automobiles, which must be fitted with two or four lights –an even number.Obligatory on motorcycles with or without a sidecar, vehicles of three wheels and heavy quadricycles,  which must be fitted with one or two lights.(Página 100 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636329492830000000/e5359462-bb33-4651-82d9-b9a918bbe6b3M.jpg",
+      "number": "13.",
+      "question": "Las motocicletas cuya cilindrada no supera los 125 centímetros cúbicos, ¿están obligadas a llevar instalada la luz de largo alcance o carretera?\nAre motorcycles under 125 cc required to have full-beam headlights?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "En cualquier tipo de vía, siempre que sea necesario.\nOn any type of road, whenever it is necessary."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "En las vías interurbanas insuficientemente iluminadas.\nOn poorly lit interurban roads."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "En las vías urbanas, incluidas las travesías.\nOn urban roads, including through roads."
+        }
+      ],
+      "help": "7 Headlights – main beam / high beam / long range  7.2 Use of main beam / high beam / long range headlightsExcept when using dipped (low beam) headlight, all vehicles (required to have main beam headlights fitted) must use them when travelling, outside a built-uparea and at more than 40 km/h: Between the hours of sunset and sunrise when driving on an insufficiently illuminated road.(Página 100 del manual 'Learning to drive')7 Headlights – main beam / high beam / long range    7.2 Use of main beam / high beam / long range headlights Except when using dipped (low beam) headlight, all vehicles (required to have main beam headlights fitted) must use them when travelling, outside a built-uparea and at more than 40 km/h:During any time of the day, when driving in tunnels, underpasses and sections of road where the “unnel” sign is displayed and there is insufficient lighting.It is optional to use main beam headlights, outside a built-up-area, when travelling at or below 40 km/h.  Remember: Main beam headlights may cause dazzle and discomfort to other road users and must be substituted to dipped, low beam lights when the situation requires this.(Página 100 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636449628130000000/967cbe2b-84a5-41cb-87b2-1fe2e6698e68M.jpg",
+      "number": "14.",
+      "question": "¿En qué vías puede emplear las luces de largo alcance?\nOn which roads can you use main-beam headlights?",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "40 kilómetros por hora por una vía interurbana insuficientemente iluminada.\n40 kilometres per hour on a poorly lit intercity road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "20 km/h por una vía interurbana o travesía insuficientemente iluminada.\n20 km/h on a poorly lit intercity road or through road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "20 km/h por una vía interurbana insuficientemente iluminada.\n20 km/h on an intercity road that is poorly lit."
+        }
+      ],
+      "help": "7 Headlights – main beam / high beam / long range  7.2 Use of main beam / high beam / long range headlightsExcept when using dipped (low beam) headlight, all vehicles (required to have main beam headlights fitted) must use them when travelling, outside a built-uparea and at more than 40 km/h: Between the hours of sunset and sunrise when driving on an insufficiently illuminated road.(Página 100 del manual 'Learning to drive')7 Headlights – main beam / high beam / long range          7.2 Use of main beam / high beam / long range headlights  You must not flash your headlights for any other purpose other than those legally permitted.The use of full-beam headlights is prohibited:If the vehicle is stopped or parked.Within city limits.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636486699330000000/b9d5edb1-7c25-4e60-b9c1-044cf270b56aM.jpg",
+      "number": "15.",
+      "question": "Es obligatorio utilizar el alumbrado de largo alcance o carretera al circular a más de...\nYou must use full-beam headlights when travelling at over...",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Únicamente utilizando el claxon para que no salga.\nSounding your horn so they do not attempt to join."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Encendiendo la luz de largo alcance y utilizando el claxon de forma simultánea.\nTurning on the full-beam headlights and sounding your horn at the same time."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Utilizando de forma intermitente los alumbrados de corto o largo alcance sin deslumbrar.\nFlashing your dipped-beam and full-beam headlights, without dazzling others."
+        }
+      ],
+      "help": "7 Headlights – main beam / high beam / long range        7.2 Use of main beam / high beam / long range headlights  It is permissible to use the main beam headlights, including inside a built-uparea, for the same purposes as the audible warning instrument – horn (See article 21). When used in this manner, they are used as quick intermittent, ‘flashes’, so as not to cause glare or dazzle to other road users.(Página 100 del manual 'Learning to drive')8 Headlights - Low beam / dipped beam / short range               8.2 Use of the low beam headlights Remember: Low beam headlights should be used during daylight hours when lighting is reduced due to adverse meteorological conditions or environmental conditions.Headlights can be used in substitution of the audible warning device (horn).(Página 102 del manual 'Learning to drive')21 Audible warning instrument - horn The horn can only be used in certain circumstances, as a warning to:Avoid a possible accident; such as in narrow roads, hump back bridges or roads with bends with little or no visibility.To warn, on roads outside of a built-up-area, that the vehicle behind is overtaking or planning to do so.To warn other road users, that the vehicle is being used as a highpriority vehicle –normally reserved for emergency service vehicles.(Página 106 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636800337710000000/c836c636-e186-4754-918f-da6d82790706M.jpg",
+      "number": "16.",
+      "question": "Circulando por vía urbana, para evitar un posible accidente, ¿cómo indicará su presencia a otro vehículo que pretende incorporarse a la circulación?\nWhen travelling along an urban road, to avoid a potential accident, how should you indicate your presence to another vehicle which wants to join traffic?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, cuando la vía está insuficientemente iluminada.\nYes, when the road is insufficiently lit."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, está prohibido.\nNo, it is prohibited."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, en vías interurbanas.\nYes, on interurban roads."
+        }
+      ],
+      "help": "7 Headlights – main beam / high beam / long range          7.2 Use of main beam / high beam / long range headlights  You must not flash your headlights for any other purpose other than those legally permitted.The use of full-beam headlights is prohibited:If the vehicle is stopped or parked.Within city limits.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482403260000000/8a81d0d3-9932-4f43-8fd2-2fd610e20b4cM.jpg",
+      "number": "17.",
+      "question": "¿Puede mantener encendida la luz de largo alcance cuando efectúe una parada?\nAre you permitted to keep the main beam headlights on when you stop the vehicle?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "si el vehículo está parado o estacionado.\nif the vehicle is stopped or stationary."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "en túneles y tramos de vía afectados por señal de túnel.\nin tunnels and sections of road affected by the tunnel sign."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "para avisar a otros usuarios de un posible peligro.\nto warn other users of a possible danger."
+        }
+      ],
+      "help": "7 Headlights – main beam / high beam / long range          7.2 Use of main beam / high beam / long range headlights  You must not flash your headlights for any other purpose other than those legally permitted.The use of full-beam headlights is prohibited:If the vehicle is stopped or parked.Within city limits.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636534269470000000/a638a7ed-ef00-4130-b25e-8d34ce9eaf67M.jpg",
+      "number": "18.",
+      "question": "No está permitido utilizar la luz de largo alcance...\nIt is not permitted to use the main beam headlamps…",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, siempre que no se deslumbre a ningún usuario.\nYes, provided that you don’t dazzle any other user."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, cuando la vía esté insuficientemente iluminada.\nYes, when the road is insufficiently lit."
+        }
+      ],
+      "help": "7 Headlights – main beam / high beam / long range          7.2 Use of main beam / high beam / long range headlights  You must not flash your headlights for any other purpose other than those legally permitted.The use of full-beam headlights is prohibited:If the vehicle is stopped or parked.Within city limits.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635460279140000000/2dbb33bb-2909-473d-b082-b4f8737908baM.jpg",
+      "number": "19.",
+      "question": "¿Está permitido circular en poblado con la luz de largo alcance?\nAre you permitted to drive in a built-up area with the main beam headlamps on?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Una o dos delante.\nOne or two in front."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Dos, obligatoriamente, una delante y otra detrás.\nTwo are mandatory, one on front and one at the rear."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Solo una delante.\nOnly a front light."
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range     8.1 Obligatory fitment of low beam headlightsIt is obligatory for all automobiles to be fitted with low beam headlights.They are required to have two lights - except motorcycles with or without a sidecar, vehicles of three wheels and heavy quadricycles that must have either one or two lights.It is obligatory for mopeds (with either two or three wheels and light quadricycles), to have one or two lights.It is also obligatory for special selfpropelled vehicles that travel at night to have two lights.     (Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636964552650000000/b12d59e6-abeb-4862-a20f-8b77dbe7451bM.jpg",
+      "number": "20.",
+      "question": "Las motocicletas sin sidecar, ¿cuántas luces de corto alcance deben llevar instaladas?\nHow many dipped beam headlamps must a motorcycle without a sidecar be fitted with?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solo el alumbrado de posición.\nOnly the sidelights."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solo el alumbrado de carretera.\nOnly the main beam headlights."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "El alumbrado de posición y el de cruce.\nThe sidelights and the dipped beam headlights."
+        }
+      ],
+      "help": "4 Position lights 4.1 Technical specificationsWhen the position lights are used, all the vehicles positioning lights will be illuminated. This normally consists of:two front lights and two rear lights on a car and occasionally side marker lights also.The front position lights will be illuminated whenever the headlights are used (low beam or high beam) and must be used when the front fog lights are legally used.The rear position lights turn on automatically whenever the vehicle displays headlights (low beam or high beam, but not when just the stalk control is used, to flash the high beam headlight; warning of your presence etc). When the position lights are used the number plate light(s) are also illuminated. The rear fog light can only be used when the position lights are used.(Página 98 del manual 'Learning to drive')8 Headlights - Low beam / dipped beam / short range 8.2 Use of the low beam headlightsAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:Between the hours of sunset and sunrise:- Inside and outside towns and cities on roads that are sufficiently illuminated.- On roads inside town and cities that are insufficiently illuminated.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199675010000000/b325a1ac-267a-4f66-9b97-08c32d51ba46M.jpg",
+      "number": "21.",
+      "question": "Un turismo circula por una travesía insuficientemente iluminada, ¿qué alumbrado debe llevar?\nA private car is driving on an insufficiently illuminated highway. Which lights must it use?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "El de posición y el de corto alcance.\nThe position lamps and the dipped-beam headlamps."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No es necesario que utilice ningún alumbrado.\nIt isn’t necessary to use any lights."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Únicamente el alumbrado de posición.\nOnly the position lamps."
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range 8.2 Use of the low beam headlightsAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:Between the hours of sunset and sunrise:- Inside and outside towns and cities on roads that are sufficiently illuminated.- On roads inside town and cities that are insufficiently illuminated.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674140000000/b4f20f7e-ee3c-403e-8ca3-a6ab05577207M.jpg",
+      "number": "22.",
+      "question": "¿Qué alumbrado debe utilizar si circula antes de la salida del sol, pero con buena visibilidad?\nWhich lights must you use if you are driving before dawn, but with good visibility?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "el alumbrado de corto alcance y el de largo alcance.\nthe low-beam and the main-beam headlights."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "el alumbrado de corto alcance.\nthe low-beam headlights."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "el alumbrado de corto alcance o el de largo alcance indistintamente.\neither the low-beam or the main-beam headlights."
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range 8.2 Use of the low beam headlightsAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:Between the hours of sunset and sunrise:- Inside and outside towns and cities on roads that are sufficiently illuminated.- On roads inside town and cities that are insufficiently illuminated.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636349457630000000/99004a6a-cb1f-4da2-a2b6-057bdec556e0M.jpg",
+      "number": "23.",
+      "question": "Si circula de noche por una vía urbana y no puede ver un vehículo pintado de oscuro a 50 metros, debe utilizar la luz de posición y...\nIf you are driving at night on an urban road and you cannot see a darkpainted vehicle 50 metres away, you must use your position light and…",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Solamente la luz de posición.\nOnly the position lamp."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La luz de posición y la de carretera, si no hay riesgo de producir deslumbramiento.\nThe position lamp and full beams, if there is no risk of dazzling other road users."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "La luz de posición y la de cruce.\nThe position lamp and dipped beams."
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range 8.2 Use of the low beam headlightsAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:Between the hours of sunset and sunrise:- Inside and outside towns and cities on roads that are sufficiently illuminated.- On roads inside town and cities that are insufficiently illuminated.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636328636390000000/3ce9963a-6c72-4f6d-97a5-ac7f7440fc88M.jpg",
+      "number": "24.",
+      "question": "Cuando circule de noche por una vía urbana bien iluminada, ¿qué luces debe llevar encendidas en su motocicleta?\nWhen travelling at night on a well-lit urban road, which lights should you use on your motorcycle?",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Ante la duda, apagar las luces para no provocar deslumbramientos.\nWhen in doubt, turn off the lights so as not to dazzle any other drivers."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Ante la duda, encender las luces de cruce.\nWhen in doubt, turn on the dipped beam headlamps."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Ante la duda, encender las luces de carretera.\nWhen in doubt, turn on the high beam headlamps."
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range 8.2 Use of the low beam headlightsAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:Between the hours of sunset and sunrise:- Inside and outside towns and cities on roads that are sufficiently illuminated.- On roads inside town and cities that are insufficiently illuminated.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674740000000/1c6383f0-9c12-4877-85b5-6183eea5ffdfM.jpg",
+      "number": "25.",
+      "question": "Si circula y tiene dudas sobre las condiciones de luminosidad, ¿qué debe hacer?\nIf you are driving and you have doubts on the light conditions, what should you do?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, porque con la iluminación de la vía es suficiente.\nNo, because the illumination of the road is sufficient."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, el alumbrado de posición y el de corto alcance.\nYes, the position lamps and the dipped-beam headlamps."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, el alumbrado de posición, para advertir mi presencia a los demás usuarios.\nYes, the position lamps, to warn other users of my presence."
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range   8.2 Use of the low beam headlightsAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:Any hour of the day, when driving:- In tunnels, underpasses and other sections of road that display the applicable, “unnel”road sign – even when there appears to be sufficient lighting. And additionally, inside built-up-areas where these sections are insufficiently illuminated.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674990000000/bbe5d783-8eb7-418d-a0d9-fb2bd3384e36M.jpg",
+      "number": "26.",
+      "question": "Circulando por un paso inferior suficientemente iluminado, ¿es necesario encender algún alumbrado?\nWhen driving through a sufficiently lit underpass, is it necessary to turn on any lights?",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, es obligatorio.\nYes, it is compulsory."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, porque está iluminado.\nNo, because it is lit up."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, debe encender la luz de largo alcance.\nNo, you should switch on the main-beam headlights."
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range   8.2 Use of the low beam headlightsAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:Any hour of the day, when driving:- In tunnels, underpasses and other sections of road that display the applicable, “unnel”road sign – even when there appears to be sufficient lighting. And additionally, inside built-up-areas where these sections are insufficiently illuminated.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676090000000/2a77ec60-4dbe-48a8-87d9-2a05ef2df0e4M.jpg",
+      "number": "27.",
+      "question": "¿Debe encender la luz de corto alcance en un túnel suficientemente iluminado?\nShould you switch on your low-beam headlights in a well-lit tunnel?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Cuando circulo por un carril reversible o por un carril abierto a la circulación en sentido contrario.\nWhen driving in a reversible lane or in a lane open to traffic travelling in the opposite direction."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Cuando necesite frenar bruscamente.\nWhen you need to brake suddenly."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando circulo por vías estrechas y con muchas curvas.\nWhen driving on narrow and winding roads."
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range     8.2 Use of the low beam headlightsAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:Any hour of the day, when driving:- On any lane of a road in which an additional circumstantial lane has been enabled.- In a lane that has been enabled in a contrary direction to normal, that is, the use is exclusively reserved for certain users or due to exceptional circumstances, the direction for use has been changed.- On the lane for the normal driving direction, adjacent to the one enabled for driving in the opposite direction than normal.- In a reversible lane.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634606804640000000/84246ca9-cdd1-4ede-b3d5-a4716930f749M.jpg",
+      "number": "28.",
+      "question": "Durante el día, con tiempo claro, ¿cuándo es obligatorio encender la luz corta?\nDuring the day, in clear weather, when is it compulsory to switch on lowbeam lights?",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Las de corto alcance y las de posición.\nThe low beam and the position lamps."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Ninguna.\nNone."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Solo las de posición, porque se ve bien.\nOnly the position lamps, because you can see clearly."
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range 8.2 Use of the low beam headlightsAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:Between the hours of sunset and sunrise:- Inside and outside towns and cities on roads that are sufficiently illuminated.- On roads inside town and cities that are insufficiently illuminated.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678350000000/408d341d-1e24-4243-81ac-7342bdccab38M.jpg",
+      "number": "29.",
+      "question": "Si está amaneciendo y aún no ha salido el sol, ¿qué luces debe llevar encendidas en su turismo?\nIf you are driving at dawn and the sun has not yet risen, which lights should you have on?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Al circular por un carril para VAO.\nWhen driving in a high-occupancy vehicle lane."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Cuando llueve.\nWhen it is raining."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Al circular por un carril reversible.\nWhen driving in a reversible lane."
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range     8.2 Use of the low beam headlightsAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:Any hour of the day, when driving:- On any lane of a road in which an additional circumstantial lane has been enabled.- In a lane that has been enabled in a contrary direction to normal, that is, the use is exclusively reserved for certain users or due to exceptional circumstances, the direction for use has been changed.- On the lane for the normal driving direction, adjacent to the one enabled for driving in the opposite direction than normal.- In a reversible lane.(Página 101 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199678810000000/b83385cc-d511-4780-b9d1-ab9bfd988aceM.jpg",
+      "number": "30.",
+      "question": "¿Cuándo es obligatorio utilizar el alumbrado de corto alcance durante el día?\nWhen is it compulsory to use low-beam headlights during daylight hours?",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}

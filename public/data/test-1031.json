@@ -1,0 +1,733 @@
+{
+  "test_id": 1031,
+  "title": "Road traffic collisions 2",
+  "collection": "Thematic Test",
+  "source": "https://elportaldelalumno.com/Test/",
+  "captured_at": "2026-09-04",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "no habían cometido ninguna infracción.\nnot committing any traffic violations."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "atravesaban la calzada sin respetar las indicaciones del semáforo.\ncrossing the road without obeying traffic lights."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "atravesaban la calzada por un lugar no destinado al paso de peatones.\ncrossing the road in a location not intended for pedestrian crossing."
+        }
+      ],
+      "help": "Road traffic collisions     RISK GROUPS 5 PedestriansAlthough, according to road traffic and accident databases, most victims of pedestrian accidents have not committed an infringement, pedestrian negligence can be a contributing factor. The most common factors contributing to pedestrian negligence are:Stepping onto the roadway or crossing the road in contravention of the rules.Not being correctly situated on the roadway or the hard shoulder or walking unlawfully on them.Not utilising the areas assigned for pedestrians or respecting the traffic lights at crossings etc.Waiting in the road.Crossing the road without looking.Crossing between parked vehicles (& also not checking if they are moving off).(Página 251 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636613744170000000/f1599cc1-495f-4d12-8ecd-fc577d510896M.jpg",
+      "number": "1.",
+      "question": "Según los datos de accidentalidad, la mayoría de los peatones víctimas de atropello...\nAccording to accident data, most pedestrians are victims when...",
+      "local_image": "images/q01.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "no respetar los semáforos.\nnot respecting traffic lights."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "evaluar bien los riesgos de la circulación.\nproperly identifying traffic risks."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "valorar correctamente la velocidad de los vehículos.\ncorrectly calculating the speed of vehicles."
+        }
+      ],
+      "help": "Road traffic collisions     RISK GROUPS 5 PedestriansAlthough, according to road traffic and accident databases, most victims of pedestrian accidents have not committed an infringement, pedestrian negligence can be a contributing factor. The most common factors contributing to pedestrian negligence are:Stepping onto the roadway or crossing the road in contravention of the rules.Not being correctly situated on the roadway or the hard shoulder or walking unlawfully on them.Not utilising the areas assigned for pedestrians or respecting the traffic lights at crossings etc.Waiting in the road.Crossing the road without looking.Crossing between parked vehicles (& also not checking if they are moving off).(Página 251 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637188420410000000/8acb7493-42a7-484a-8829-8e4a72190ba4M.jpg",
+      "number": "2.",
+      "question": "Los peatones suelen cometer muchas infracciones, entre ellas...\nPedestrians often commit many offences, including...",
+      "local_image": "images/q02.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No respetar la prioridad en los pasos para peatones.\nNot respecting right of way on pedestrian crossings."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No mantener la distancia de seguridad con el vehículo que circula delante.\nNot maintaining a stopping distance from the vehicle in front."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Circular por una autovía en sentido contrario al establecido.\nTravelling along a dual carriageway in the wrong direction."
+        }
+      ],
+      "help": "Road traffic collisions     RISK GROUPS 5 PedestriansThe main offences committed by drivers, which put pedestrians at risk are:Failing to obey traffic lights, the yellow or red light.Not respecting the priority of way of pedestrians.Parking on the pavement and forcing pedestrians to enter the road.Parking in areas assigned for pedestrians, particularly on pedestrian crossings.(Página 251 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636485801190000000/923640f8-20ba-438a-b8f3-1c45ef538536M.jpg",
+      "number": "3.",
+      "question": "¿Cuál es una de las infracciones que cometen los conductores con mayor riesgo para los peatones?\nWhat is one of the most dangerous offences committed by drivers for pedestrians?",
+      "local_image": "images/q03.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "no utilizar los cinturones de seguridad.\nnot wearing seat belts."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "el exceso de velocidad en autopistas.\nspeeding on motorways."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "incumplir las indicaciones de los semáforos en amarillo o en rojo.\nfailing to comply with yellow or red traffic lights."
+        }
+      ],
+      "help": "Road traffic collisions     RISK GROUPS 5 PedestriansThe main offences committed by drivers, which put pedestrians at risk are:Failing to obey traffic lights, the yellow or red light.Not respecting the priority of way of pedestrians.Parking on the pavement and forcing pedestrians to enter the road.Parking in areas assigned for pedestrians, particularly on pedestrian crossings.(Página 251 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637188422160000000/fd9ca860-5abe-4c8a-9915-989eb6be5fc3M.jpg",
+      "number": "4.",
+      "question": "Una de las infracciones de los conductores que implica más riesgo para los peatones es...\nOne of the offences by drivers that poses the greatest risk to pedestrians is…",
+      "local_image": "images/q04.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Deslumbrar.\nCausing glare."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Parar en doble fila.\nDouble parking."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Estacionar en los pasos para peatones.\nParking at pedestrian crossings."
+        }
+      ],
+      "help": "Road traffic collisions     RISK GROUPS 5 PedestriansThe main offences committed by drivers, which put pedestrians at risk are:Failing to obey traffic lights, the yellow or red light.Not respecting the priority of way of pedestrians.Parking on the pavement and forcing pedestrians to enter the road.Parking in areas assigned for pedestrians, particularly on pedestrian crossings.(Página 251 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635458659370000000/9d2dd928-0539-4731-815a-629616bb1f75M.jpg",
+      "number": "5.",
+      "question": "¿Qué infracción de los conductores está relacionada con los atropellos a peatones?\nWhich driver offence is related to collisions with pedestrians?",
+      "local_image": "images/q05.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "mayor que el de los adultos.\nmore than that of adults."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "menor que el de los adultos.\nless than that of adults."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "igual que el de los adultos.\nthe same as adults."
+        }
+      ],
+      "help": "Road traffic collisions           RISK GROUPS    5 Pedestrians5.1 Children Some of these limitations of children are:Limiting the field of vision. When a child walks between parked cars the visual field can become 40% lower than that of an adult, due to their short stature. In addition, they also have problems with peripheral vision, which requires them to turn their head in order to see properly.Hearing problems. The under seven’ are not adequately able to locate sound by direction, so they have problems locating a vehicle and judging the direction it is approaching from. This requires the child to look both ways and to turn their head in order to locate the sound.(Página 252 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482510840000000/df9eb449-bf58-4240-a09f-7b1f34d87d8dM.jpg",
+      "number": "6.",
+      "question": "El campo visual de los niños es...\nThe visual field of children is...",
+      "local_image": "images/q06.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "su campo visual es mayor.\nthey have a bigger visual field."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "no conocen todos los comportamientos adecuados para circular.\nthey are unaware of all traffic rules."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "su visión periférica es mayor.\nthey have better peripheral vision."
+        }
+      ],
+      "help": "Road traffic collisions           RISK GROUPS    5 Pedestrians 5.1 ChildrenSome of these limitations of children are:Lower level of attention. Those under the age of ten do not usually pay sufficient attention to the aspect of safety, so they can be easily distracted near roads.They tend to confuse “ee”with “e seen.”When they see a vehicle, they may automatically think that the driver has also seen them.Unaware of traffic regulations. Children are often not aware of relevant road signs or the proper behaviour required when near or travelling on the road.Children are especially vulnerable, since their small and developing stature is likely to be adversely affected by an impact, particularly in the region of the head or other vital parts of the body.(Página 252 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-637188424180000000/7b1a4799-3147-4b39-9f8c-e375314beb89M.jpg",
+      "number": "7.",
+      "question": "Los niños suelen tener problemas en el tráfico porque...\nChildren often have problems in traffic because...",
+      "local_image": "images/q07.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "que pueden tener dificultad para distinguir los colores de los semáforos.\nhaving problems distinguishing traffic light colours."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "el desconocimiento de las normas de tráfico.\nnot knowing traffic rules."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "que no miran para cruzar la vía.\nnot looking when crossing the road."
+        }
+      ],
+      "help": "Road traffic collisions               RISK GROUPS      5 Pedestrians   5.2 The elderlyThe main problems that are encountered as a pedestrian are:Too much noise in the environment, which may prevent them from accurately assessing if a vehicle is approaching.Difficulty in assessing the speed of approaching vehicles.Difficulty in distinguishing the colours of traffic lights.There are very few areas assigned as pedestrian zones.The excessive width of some roads together with poor lighting makes it difficult to cross them.(Página 252 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199676880000000/6f09b3a5-1fae-4101-b2e2-afc69ce12fd7M.jpg",
+      "number": "8.",
+      "question": "Una de las posibles causas de los accidentes de las personas mayores como peatones es...\nOne of the possible causes of accidents involving older people as pedestrians is...",
+      "local_image": "images/q08.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, y le puede impedir oír y darse cuenta si se acerca un vehículo.\nYes, and it can prevent them from hearing a vehicle and realising that it is approaching."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, el exceso de ruido afecta a cualquier tipo de peatón por igual.\nYes, excess noise affects all pedestrians equally."
+        }
+      ],
+      "help": "Road traffic collisions               RISK GROUPS      5 Pedestrians   5.2 The elderlyThe main problems that are encountered as a pedestrian are:Too much noise in the environment, which may prevent them from accurately assessing if a vehicle is approaching.Difficulty in assessing the speed of approaching vehicles.Difficulty in distinguishing the colours of traffic lights.There are very few areas assigned as pedestrian zones.The excessive width of some roads together with poor lighting makes it difficult to cross them.(Página 252 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674930000000/237efeb8-11c9-491b-b1b5-3f32c6d2c48fM.jpg",
+      "number": "9.",
+      "question": "A un peatón de edad avanzada, ¿le afecta el exceso de ruido?\nDoes excess noise affect elderly pedestrians?",
+      "local_image": "images/q09.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "la dificultad de apreciar la velocidad de los vehículos.\nthe difficulty in appreciating the speed of vehicles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "el reconocer mejor los sonidos e identificar su procedencia.\nrecognising sounds and identifying where they are coming from."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la mayor capacidad de orientación.\nsense of direction."
+        }
+      ],
+      "help": "Road traffic collisions               RISK GROUPS      5 Pedestrians   5.2 The elderlyThe main problems that are encountered as a pedestrian are:Too much noise in the environment, which may prevent them from accurately assessing if a vehicle is approaching.Difficulty in assessing the speed of approaching vehicles.Difficulty in distinguishing the colours of traffic lights.There are very few areas assigned as pedestrian zones.The excessive width of some roads together with poor lighting makes it difficult to cross them.(Página 252 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634541852120000000/84590204-b109-45f3-8d90-b45cdc7801d9M.jpg",
+      "number": "10.",
+      "question": "Entre los principales problemas que encuentran las personas mayores como peatones en las vías públicas se encuentra...\nThe main problems encountered by elderly people as pedestrians on public roads include...",
+      "local_image": "images/q10.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Cuando van acompañando a niños.\nWhen they are accompanied by children."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Cuando van acompañadas de otra persona mayor.\nWhen they are accompanied by another elderly person."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando van solas.\nWhen they are alone."
+        }
+      ],
+      "help": "Road traffic collisions             RISK GROUPS     5 Pedestrians  5.2 The elderlyThere is more probability that an elderly person will die in a traffic collision than a younger adult. On the whole they tend to have more accidents when they are alone than when they are accompanying children in their care. In the latter case it has been shown that they exercise more caution and are much more careful when accompanying children who they are protecting and setting a good example to.(Página 252 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636482546120000000/e5cc6b5e-3852-41ac-9736-5fc98dc83e43M.jpg",
+      "number": "11.",
+      "question": "¿En qué situación suelen tener menos accidentes las personas mayores como peatones?\nIn which situation do the elderly tend to have fewer accidents as pedestrians?",
+      "local_image": "images/q11.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Prestando atención a los peatones que vayan hablando por el móvil.\nBy paying attention to pedestrians who are talking on their mobile phone."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Haciéndoles señales para que crucen la calzada.\nBy signalling to them to cross the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Modificando las partes exteriores de su vehículo, especialmente las delanteras.\nBy modifying the exterior of your vehicle, especially at the front."
+        }
+      ],
+      "help": "Road traffic collisions                   RISK GROUPS        5 Pedestrians  5.3 Recommendations to driversModerate the speed, especially in built up areas. Driving over 50 kilometres per hour is deadly.Use extreme caution when approaching places frequented by pedestrians (areas where pedestrians cross, bus stops, especially near areas for school transport, etc.) Also, when approaching stationary vehicles, especially when people are still inside them. It is possible that the occupants will open the door and get out.Pay special attention to pedestrians who are talking on the phone, since in many cases they are not paying attention to the traffic.Watch out for pedestrians on (or near) the road or near places of celebration or entertainment.Exercise extreme care at the exits to garages, especially if there is a ramp. Drivers should reduce speed and ensure that there is no danger to any pedestrian.(Página 252 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480660150000000/dc33d133-3b94-469a-9aef-03bca0c218cdM.jpg",
+      "number": "12.",
+      "question": "¿Cómo puede evitar el atropello de peatones?\nHow can you avoid colliding with pedestrians?",
+      "local_image": "images/q12.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Únicamente porque lo prohíben las normas.\nOnly because it is against the law."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Porque el vehículo pierde velocidad punta.\nBecause the vehicle loses peak speed."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Porque suele estar diseñada para evitar lesiones a los peatones.\nBecause it is usually designed to prevent injuries to pedestrians."
+        }
+      ],
+      "help": "Road traffic collisions                     RISK GROUPS         5 Pedestrians   5.3 Recommendations to driversDo not alter the exterior of the vehicle, especially the front. Cars are designed to prevent injuries to pedestrians in the event of hitting them.When approaching a bus stop, especially if school transport, reduce speed and exercise extreme care.Do not beckon pedestrians across the road. Other drivers may not have seen them.Exercise extreme caution in adverse weather, such as in rain. Pedestrians are more likely to commit errors and be more careless on these types of days.(Página 253 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199674230000000/1472e76d-e53c-4964-a179-8357777b6e5cM.jpg",
+      "number": "13.",
+      "question": "La parte delantera del vehículo, ¿por qué no debe modificarse?\nWhy should you not modify the front of your vehicle?",
+      "local_image": "images/q13.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "en autopistas.\non motorways."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "durante la noche.\nat night."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "cuando los vehículos circulan marcha atrás.\nwhen vehicles reverse."
+        }
+      ],
+      "help": "Road traffic collisions                     RISK GROUPS         5 Pedestrians   5.3 Recommendations to driversDo not park on the pavement, as pedestrian are more likely to walk out into the road.Use extreme caution when reversing; many incidents occur when vehicles are reversing because the driver has not seen the pedestrian.(Página 253 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635460261070000000/b9d2ccfa-a19a-43a2-859a-0776d8ef7445M.jpg",
+      "number": "14.",
+      "question": "Muchos atropellos a peatones se producen...\nMany accidents involving pedestrians take place...",
+      "local_image": "images/q14.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "los niños.\nchildren."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "las personas mayores de 65 años.\npeople over 65 years old."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "los jóvenes de entre 15 y 29 años de edad.\nyoung people between 15 and 29 years of age."
+        }
+      ],
+      "help": "Road traffic collisions                         6. Groups of drivers most at risk of a collision 6.1 The young 6.1.1 The primary cause of juvenile mortality  Young drivers generally have a number of advantages over the remainder of drivers, as generally they are in a better condition of physical fitness, have better reflexes and skills that are more suited to driving. However, these favourable conditions do not help if the driver is not aware of his limitations, including lack of experience or the tendency to take more risks.There are many young people who drive safely and therefore have no increased risk of being involved in a collision than other older drivers.However, in Spain each year hundreds of young people die in road traffic collisions, which are the leading cause of death in the 15 to 29 year age group. Therefore the problem of road collisions is even more worrying for young people in this age group than for others outside it.  (Página 253 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635476726670000000/b5ed1c57-3176-4d50-9389-11ff7fa83ff0M.jpg",
+      "number": "15.",
+      "question": "Los accidentes de tráfico son la principal causa de mortalidad para...\nTraffic accidents are the main cause of death for…",
+      "local_image": "images/q15.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "A que aumenta la cifra de atropellos en las ciudades de individuos de esa edad.\nIn cities, more people of this age are run over."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "A que esa edad coincide con la aparición de los primeros conductores de ciclomotores.\nThe age coincides with the first moped riders."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "A que aumenta la cifra de accidentes dónde han intervenido ciclistas de esa edad.\nThe number of accidents involving cyclists of this age is higher."
+        }
+      ],
+      "help": "Road traffic collisions                           6. Groups of drivers most at risk of a collision  6.1 The young  6.1.1 The primary cause of juvenile mortality  The number of people killed in traffic collisions rises rapidly from the age of 15 years (coinciding with the entitlement to ride mopeds) and again from the age of 18. This situation is continuous until the age of 29 years, at which time the number of deaths starts to drop.(Página 253 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636833271300000000/22b1001b-07ef-4994-97f3-15f92135902aM.jpg",
+      "number": "16.",
+      "question": "¿A qué se debe que el número de muertos en accidente de tráfico aumente rápidamente a partir de los 15 años?\nWhy does the number of deaths in traffic accidents increase rapidly above the age of 15?",
+      "local_image": "images/q16.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "La falta de reflejos.\nThe lack of reflexes."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No respetar las normas de circulación.\nNot respecting the road rules."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "La mayor percepción del riesgo.\nA greater perception of risk."
+        }
+      ],
+      "help": "Road traffic collisions                             6. Groups of drivers most at risk of a collision   6.1 The young  6.1.3 Major causes of youth collisionsThe main risk behaviours that are often associated with youths are:Speeding.The consumption of alcohol and/or drugs.Not respecting/complying with the traffic laws.Taking too many risks.The lack of experience.(Página 254 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634671456450000000/119f9cbe-8bb1-4c1c-92d3-9d98b5c1c418M.jpg",
+      "number": "17.",
+      "question": "¿Cuál es una de las causas que originan los accidentes de tráfico en los conductores jóvenes?\nWhat is one of the causes of traffic accidents involving young drivers?",
+      "local_image": "images/q17.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "tanto cuando van solos como cuando van acompañados.\nwhen they are alone and when they are accompanied as well."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "cuando van solos.\nwhen they are alone."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "cuando van acompañados.\nwhen they are accompanied."
+        }
+      ],
+      "help": "Road traffic collisions                               6. Groups of drivers most at risk of a collision    6.1 The young   6.1.3 Major causes of youth collisionsAdditionally, there are a number of personal characteristics that appear to be related to the propensity of certain young people to suffer a road collision, including:Exhibitionist behaviour in groups, which leads them to perform manoeuvres that puts them at risk.The acceptance of excessive risk, such as competitiveness (competing with other vehicles/drivers).The excessive influence of advertising, chiefly those ads that clearly incite risk behaviour.The limited ability to adequately assess the consequences of dangerous behaviour when driving and inappropriate behaviour are the main risks that cause traffic collisions amongst young people.(Página 254 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636964632660000000/8e8a4b26-0cb7-451e-80a4-97d05180327eM.jpg",
+      "number": "18.",
+      "question": "Los jóvenes suelen realizar más maniobras de riesgo…\nYoung people usually carry out risky manoeuvres…",
+      "local_image": "images/q18.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Hacer destellos con la luz de largo alcance para avisarle de su presencia.\nFlash your full beams to warn them of your presence."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No iniciar ni continuar un adelantamiento.\nDo not start or continue an overtake."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Avisar al ciclista con el claxon para que se aparte al arcén.\nWarn the cyclist with your horn so they move over to the hard shoulder."
+        }
+      ],
+      "help": "Road traffic collisions                                           6. Groups of drivers most at risk of a collision         6.3 Drivers of two-wheeled vehicles     6.3.1 Bicycles To prevent collisions involving cyclists, the following is recommended:Leave sufficient lateral safety clearance when overtaking, especially if driving a large vehicle (due to the air shocks it can cause), on slopes (since due to the effort and pedalling cyclists can have oscillating trajectories), on windy days (when they can easily be destabilised) or if the cyclist is carrying a passenger.(Página 256 del manual 'Learning to drive')Road traffic collisions                                             6. Groups of drivers most at risk of a collision          6.3 Drivers of two-wheeled vehicles      6.3.1 Bicycles To prevent collisions involving cyclists, the following is recommended:Do not start or continue an overtake if there is a cyclists approaching in the opposite direction.Exercise extreme caution in bad weather or poor visibility, because there is the increased likelihood of the rider falling or becoming unstable.Avoid using the warning device (horn) near cyclists. It should only be used when there is sufficient distance to avoid scaring or alarming them.Be careful when you are parking a vehicle or are near parked cars or other obstacles, as cyclists are able to make sudden movements and change their course quickly.Exercise caution in housing estates and leisure areas, especially in the summer and school holidays.(Página 256 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199679480000000/bf6df04b-03e3-4294-bcbd-708be376eac5M.jpg",
+      "number": "19.",
+      "question": "Si se encuentra con un ciclista circulando en sentido contrario, ¿qué debe hacer?\nIf you encounter a cyclist travelling in the opposite direction, what should you do?",
+      "local_image": "images/q19.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "En las vías interurbanas.\nOn interurban roads."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "En las travesías.\nOn main roads."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "En las vías urbanas.\nOn urban roads."
+        }
+      ],
+      "help": "Road traffic collisions                                       6. Groups of drivers most at risk of a collision       6.3 Drivers of two-wheeled vehicles   6.3.1 BicyclesCyclist accidents usually occur at weekends, especially with the arrival of good weather, when more cyclists are on the road, and mostly on urban roads. However, the highest number of cyclist fatalities occurred on interurban roads, mainly on conventional roads, and especially on straight roads and at intersections, most of them due to collisions with another vehicle, although there are also accidents where cyclists leave the road, are run over and even fall off the road.(Página 256 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635476728450000000/3b485e38-177e-431e-9aa3-b449644249f9M.jpg",
+      "number": "20.",
+      "question": "¿En qué tipos de vías se producen más accidentes mortales de ciclistas?\nOn which type of roads do most fatal accidents involving cyclists occur?",
+      "local_image": "images/q20.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "En verano, puesto que con la llegada del buen tiempo hay más ciclistas en las carreteras.\nIn summer, as there are more cyclists on the roads when the weather is good."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "En invierno, porque las condiciones meteorológicas adversas los provocan.\nIn winter, because they are caused by adverse weather conditions."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Es indiferente.\nIt makes no difference."
+        }
+      ],
+      "help": "Road traffic collisions                                       6. Groups of drivers most at risk of a collision       6.3 Drivers of two-wheeled vehicles   6.3.1 BicyclesCyclist accidents usually occur at weekends, especially with the arrival of good weather, when more cyclists are on the road, and mostly on urban roads. However, the highest number of cyclist fatalities occurred on interurban roads, mainly on conventional roads, and especially on straight roads and at intersections, most of them due to collisions with another vehicle, although there are also accidents where cyclists leave the road, are run over and even fall off the road.(Página 256 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634199677240000000/1e606a8d-6718-41a5-a0cd-9e8e7f559d7cM.jpg",
+      "number": "21.",
+      "question": "¿Cuándo se producen más accidentes de ciclistas, en verano o en invierno?\nWhen do cyclists have more accidents, in summer or in winter?",
+      "local_image": "images/q21.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, en los accidentes de los ciclistas afectan otro tipo de causas.\nNo, there are other causes of accidents involving cyclists."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, las distracciones por parte de los propios ciclistas tienen relación de forma directa.\nYes, there is a direct relationship between accidents and cases where cyclists themselves are distracted."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, los ciclistas son un grupo de conductores con un índice muy bajo de distracciones.\nNo, cyclists are a group of road users who are very rarely distracted."
+        }
+      ],
+      "help": "Road traffic collisions                                         6. Groups of drivers most at risk of a collision        6.3 Drivers of two-wheeled vehicles    6.3.1 Bicycles  The most frequent causes of accidents are offences committed by both cyclists and other drivers.The cyclist: the most common causes are:Being distracted.Travelling the wrong way or where prohibited.Turning incorrectly (e.g. into a junction).Not respecting the general rule regarding priority or at a stop sign etc.Joining the traffic without proper caution (e.g. at a junction).(Página 256 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636480642140000000/70041722-9f72-4fed-80bf-0d2e526d0cf7M.jpg",
+      "number": "22.",
+      "question": "Las distracciones, ¿influyen en los accidentes sufridos por los ciclistas?\nDo distractions play a role in accidents involving cyclists?",
+      "local_image": "images/q22.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Los atropellos.\nBeing run over."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Las salidas de vía.\nBeing pushed off the road."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "La colisión frontal con otro vehículo.\nHead-on collision with another vehicle."
+        }
+      ],
+      "help": "Road traffic collisions                                       6. Groups of drivers most at risk of a collision       6.3 Drivers of two-wheeled vehicles   6.3.1 BicyclesCyclist accidents usually occur at weekends, especially with the arrival of good weather, when more cyclists are on the road, and mostly on urban roads. However, the highest number of cyclist fatalities occurred on interurban roads, mainly on conventional roads, and especially on straight roads and at intersections, most of them due to collisions with another vehicle, although there are also accidents where cyclists leave the road, are run over and even fall off the road.(Página 256 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634855565140000000/c2bddb48-c921-4de5-8566-2bdcdef0aa68M.jpg",
+      "number": "23.",
+      "question": "¿Cuál es el accidente más frecuente que sufren los ciclistas?\nWhat is the most frequent accident suffered by cyclists?",
+      "local_image": "images/q23.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "son siempre de menor importancia que los de otros vehículos.\nare always less serious than accidents involving other vehicles."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "resultan fácilmente mortales para sus ocupantes.\ncan often be fatal for the occupants."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "producen lesiones de menor gravedad para sus ocupantes que los de otros vehículos.\ncause injuries that are less serious for the occupants than those of other vehicles."
+        }
+      ],
+      "help": "Road traffic collisions                                                   6. Groups of drivers most at risk of a collision             6.3 Drivers of two-wheeled vehicles      6.3.2 Motorcycles and mopedsRecently, the presence of mopeds and motorcycles on the roads has increased considerably, especially in large cities, mostly due to the agility, comfort, ease of use and the small size of these vehicles.From a negative perspective there has been an increase in the number of collisions involving these, again due to the characteristics of these vehicles. Unfortunately the consequences for the occupants can be severe and most often fatal.(Página 256 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636833272970000000/72776a39-c870-4605-9bb5-8dcdf1d911d6M.jpg",
+      "number": "24.",
+      "question": "Los accidentes de motocicletas…\nMotorcycle accidents…",
+      "local_image": "images/q24.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Estacionar en las aceras y ocupar el sentido contrario.\nParking on pavements and being on the wrong side of the road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No respetar la prioridad de paso.\nNot respecting the right of way."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Invadir el sentido contrario y conducir de forma distraída.\nBeing on the wrong side of the road and being distracted when driving."
+        }
+      ],
+      "help": "Road traffic collisions                                                 6. Groups of drivers most at risk of a collision            6.3 Drivers of two-wheeled vehicles     6.3.2 Motorcycles and mopedsThe most frequent causes of such collisions are traffic offences committed by the riders of motorcycles and the other drivers involved.The most frequent offences committed by riders of motorcycles are:Entering the carriageway for vehicles travelling in the opposite direction.Becoming distracted/ otherwise occupied.(Página 257 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635076817350000000/ed895d0a-2ebf-4761-9ba4-6c40819ca8b9M.jpg",
+      "number": "25.",
+      "question": "En los accidentes de motocicleta, ¿cuáles son las infracciones más frecuentes cometidas por sus conductores?\nIn motorcycle accidents, what are the most frequent offences committed by drivers?",
+      "local_image": "images/q25.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "circular en paralelo con estos vehículos.\nto drive parallel to these vehicles."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "reducir la distancia de seguridad para ver mejor a la motocicleta.\nto reduce the safety distance to be able to see the motorcycle better."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "no circular en paralelo con los vehículos de dos ruedas.\nnot to drive parallel to two-wheeled vehicles."
+        }
+      ],
+      "help": "Road traffic collisions                                                   6. Groups of drivers most at risk of a collision             6.3 Drivers of two-wheeled vehicles      6.3.2 Motorcycles and mopedsTo avoid collisions involving motorcycles or mopeds the following is recommended:Do not travel in parallel (adjacent) to a twowheeled vehicle.Maintain an adequate and safe separation distance, especially in town, where the two wheeled vehicle will travel easier and may advance quicker than anticipated.Respect the rights of way (priorities).Exercise extreme caution in bad weather or poor visibility; it is more likely that the riders of two-wheeled vehicles will make sudden changes of movement and there is more likelihood that they will become unstable or fall off.Technological advances in safety have also been made to two-wheeled vehicles, both to reduce the risk of accident as to minimise injury to occupants of these vehicles in the event of collisions. Motorcycles can also be equipped with stability systems, ABS and airbags.(Página 257 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636595735670000000/63f6c0a9-61fb-4f74-908a-5eb6277b2c6aM.jpg",
+      "number": "26.",
+      "question": "Para evitar los accidentes con motocicletas es recomendable...\nIn order to avoid motorcycle accidents, it is recommendable...",
+      "local_image": "images/q26.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Atropello.\nBeing run over."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Salida de la vía.\nComing off the road."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Colisión con otro vehículo.\nColliding with another vehicle."
+        }
+      ],
+      "help": "Road traffic collisions                                                     6. Groups of drivers most at risk of a collision              6.3 Drivers of two-wheeled vehicles       6.3.2 Motorcycles and mopedsOne of the main causes of mortality in such incidents is the lack of use of helmets by the occupants of such twowheeled vehicles.The most common type of collision for these types of vehicles is frontal/lateral impacts, particularly when overtaking especially in urban road. The weekend counted for about half of collisions.(Página 257 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-636298486600000000/69f62a37-497b-4bdc-bfeb-c1542aa3ff07M.jpg",
+      "number": "27.",
+      "question": "En los accidentes de motocicletas, ¿qué tipo es el más frecuente?\nWhat is the most frequent type of motorcycle accident?",
+      "local_image": "images/q27.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "a las cuatro horas del accidente.\nfour hours after the accident."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "durante la primera hora tras el accidente, llamada \"hora de oro\".\nduring the first hour after the accident, known as the \"golden hour\"."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "al día siguiente del accidente.\nthe day after the accident."
+        }
+      ],
+      "help": "Road traffic collisions             7 Obligations after a collisionAfter an accident, there are three times when the lives of the victims are in serious danger:The first moment occurs during the first seconds or minutes after the accident (immediate death).The second moment occurs during the first or second hour after the accident, when 75% of deaths usually occur. In this period, resuscitation and stabilization measures are of maximum benefit to the victims. This period is called the “olden hour”The last important moment occurs days or weeks after the accident (late mortality).(Página 257 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635104417590000000/c4835825-3e78-4f8c-b2b2-1702f16b6df4M.jpg",
+      "number": "28.",
+      "question": "La mayoría de las muertes en accidentes de tráfico se producen...\nMost traffic accident deaths occur...",
+      "local_image": "images/q28.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Entre el 15 y el 20 %.\nBetween 15 % and 20 %."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Cerca del 75 %.\nClose to 75 %."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Aproximadamente el 10 %.\nApproximately 10 %."
+        }
+      ],
+      "help": "Road traffic collisions             7 Obligations after a collisionAfter an accident, there are three times when the lives of the victims are in serious danger:The first moment occurs during the first seconds or minutes after the accident (immediate death).The second moment occurs during the first or second hour after the accident, when 75% of deaths usually occur. In this period, resuscitation and stabilization measures are of maximum benefit to the victims. This period is called the “olden hour”The last important moment occurs days or weeks after the accident (late mortality).(Página 257 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-634829614190000000/96f037fc-79f7-408e-935c-fa5cf90cbfe1M.jpg",
+      "number": "29.",
+      "question": "¿Qué porcentaje de mortalidad tiene lugar durante la llamada hora de oro?\nHow many deaths occur during the so-called golden hour?",
+      "local_image": "images/q29.jpg"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Muerte inmediata, hora de oro y muerte tardía.\nImmediate death, golden hour and late death."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Muerte inmediata, momento crítico y hora de oro.\nImmediate death, critical moment and golden hour."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Momento de alarma, momento crítico y muerte tardía.\nAlarm, critical moment and late death."
+        }
+      ],
+      "help": "Road traffic collisions             7 Obligations after a collisionAfter an accident, there are three times when the lives of the victims are in serious danger:The first moment occurs during the first seconds or minutes after the accident (immediate death).The second moment occurs during the first or second hour after the accident, when 75% of deaths usually occur. In this period, resuscitation and stabilization measures are of maximum benefit to the victims. This period is called the “olden hour”The last important moment occurs days or weeks after the accident (late mortality).(Página 257 del manual 'Learning to drive')",
+      "image_url": "https://elportaldelalumno.com/Datafiles/ImagesNova/1/v-635270222980000000/5d751d2f-edea-4303-bc89-1bbdaf8a85d5M.jpg",
+      "number": "30.",
+      "question": "Tras un accidente, hay tres momentos en los que la vida de las personas implicadas se encuentra en grave peligro. Estos son:\nAfter an accident, there are three times when the lives of the victims are in serious danger. These are:",
+      "local_image": "images/q30.jpg"
+    }
+  ]
+}
