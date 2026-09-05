@@ -4,6 +4,9 @@ A Spanish and English driving-test trainer with 33 thematic tickets,
 956 questions and original illustrations. Answer explanations are available in
 English, Spanish and Russian.
 
+Each ticket keeps its active round, score and answered-question count in the
+browser's local storage, so an unfinished attempt resumes after a reload.
+
 ## Local development
 
 ```bash
