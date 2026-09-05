@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 20
     env:
       APP_NAME: road-rules-trainer
-      APP_PORT: ${{ vars.ROAD_RULES_PORT || '3000' }}
+      APP_PORT: ${{ vars.ROAD_RULES_PORT || '5050' }}
       BIND_ADDRESS: ${{ vars.ROAD_RULES_BIND_ADDRESS || '127.0.0.1' }}
       IMAGE_NAME: road-rules-trainer:${{ github.sha }}
 
