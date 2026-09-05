@@ -1,0 +1,78 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: road-rules-trainer-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    timeout-minutes: 20
+    env:
+      APP_NAME: road-rules-trainer
+      APP_PORT: ${{ vars.ROAD_RULES_PORT || '3000' }}
+      BIND_ADDRESS: ${{ vars.ROAD_RULES_BIND_ADDRESS || '127.0.0.1' }}
+      IMAGE_NAME: road-rules-trainer:${{ github.sha }}
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Build image
+        run: docker build --tag "$IMAGE_NAME" .
+
+      - name: Verify image
+        shell: bash
+        run: |
+          docker rm --force "${APP_NAME}-check" 2>/dev/null || true
+          docker run --detach --name "${APP_NAME}-check" "$IMAGE_NAME"
+
+          for attempt in {1..20}; do
+            status="$(docker inspect --format='{{.State.Health.Status}}' "${APP_NAME}-check")"
+            if [ "$status" = healthy ]; then
+              docker rm --force "${APP_NAME}-check"
+              exit 0
+            fi
+            if [ "$status" = unhealthy ]; then
+              docker logs "${APP_NAME}-check"
+              docker rm --force "${APP_NAME}-check"
+              exit 1
+            fi
+            sleep 1
+          done
+
+          docker logs "${APP_NAME}-check"
+          docker rm --force "${APP_NAME}-check"
+          exit 1
+
+      - name: Replace production container
+        shell: bash
+        run: |
+          docker rm --force "$APP_NAME" 2>/dev/null || true
+          docker run \
+            --detach \
+            --restart unless-stopped \
+            --name "$APP_NAME" \
+            --publish "${BIND_ADDRESS}:${APP_PORT}:80" \
+            "$IMAGE_NAME"
+
+      - name: Verify deployment
+        shell: bash
+        run: |
+          for attempt in {1..20}; do
+            status="$(docker inspect --format='{{.State.Health.Status}}' "$APP_NAME")"
+            if [ "$status" = healthy ]; then
+              exit 0
+            fi
+            sleep 1
+          done
+
+          docker logs "$APP_NAME"
+          exit 1
