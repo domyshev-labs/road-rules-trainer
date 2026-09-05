@@ -24,9 +24,12 @@ type SavedProgress = {
   finished: boolean;
   roundMode: RoundMode;
   ticketAnswered: number;
+  ticketCorrect?: number;
+  ticketWrong?: number;
   updatedAt: string;
 };
 type ProgressStore = Record<string, SavedProgress>;
+type TicketStats = { answered: number; correct: number; wrong: number };
 
 const catalog = catalogData as CatalogEntry[];
 const progressStorageKey = 'road-rules-trainer-progress-v1';
@@ -130,6 +133,95 @@ function HelpContent({ text }: { text: string }) {
   );
 }
 
+function TicketMenu({
+  value,
+  entries,
+  getStats,
+  onSelect,
+  onRestart,
+}: {
+  value: number;
+  entries: CatalogEntry[];
+  getStats: (entry: CatalogEntry) => TicketStats;
+  onSelect: (testId: number) => void;
+  onRestart: (testId: number) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const active = entries.find((entry) => entry.id === value) ?? entries[0];
+  const activeStats = getStats(active);
+
+  return (
+    <div className="ticket-menu-shell">
+      <span className="ticket-menu-label">Билет</span>
+      <button
+        type="button"
+        className="ticket-menu-trigger"
+        aria-expanded={open}
+        onClick={() => setOpen((current) => !current)}
+      >
+        <span className="ticket-menu-trigger-copy">
+          <strong>Test {active.id}</strong>
+          <span>{active.title}</span>
+        </span>
+        <span className="ticket-menu-trigger-progress">{activeStats.answered}/{active.questions}</span>
+        <span className="ticket-menu-chevron" aria-hidden="true">⌄</span>
+      </button>
+
+      {open && (
+        <>
+          <button className="ticket-menu-backdrop" type="button" aria-label="Закрыть список билетов" onClick={() => setOpen(false)} />
+          <section className="ticket-menu-panel" aria-label="Список билетов">
+            <header>
+              <div>
+                <p>Билеты</p>
+                <strong>Выберите билет или начните его заново</strong>
+              </div>
+              <button type="button" aria-label="Закрыть" onClick={() => setOpen(false)}>×</button>
+            </header>
+            <div className="ticket-menu-list">
+              {entries.map((entry) => {
+                const stats = getStats(entry);
+                const hasProgress = stats.answered > 0;
+                return (
+                  <article className={`ticket-menu-row ${entry.id === value ? 'active' : ''}`} key={entry.id}>
+                    <button
+                      type="button"
+                      className="ticket-menu-choice"
+                      onClick={() => {
+                        onSelect(entry.id);
+                        setOpen(false);
+                      }}
+                    >
+                      <span className="ticket-menu-number">{entry.id}</span>
+                      <span className="ticket-menu-title">{entry.title}</span>
+                      <span className="ticket-menu-stats">
+                        <span className="ticket-menu-done">{stats.answered}/{entry.questions}</span>
+                        <span className="ticket-menu-correct">✓ {stats.correct}</span>
+                        <span className="ticket-menu-wrong">× {stats.wrong}</span>
+                      </span>
+                    </button>
+                    <button
+                      type="button"
+                      className="ticket-menu-restart"
+                      disabled={!hasProgress}
+                      onClick={() => {
+                        onRestart(entry.id);
+                        setOpen(false);
+                      }}
+                    >
+                      Заново
+                    </button>
+                  </article>
+                );
+              })}
+            </div>
+          </section>
+        </>
+      )}
+    </div>
+  );
+}
+
 export default function App() {
   const [testId, setTestId] = useState(1015);
   const [savedProgress, setSavedProgress] = useState<ProgressStore>(() => readProgress());
@@ -144,6 +236,8 @@ export default function App() {
   const [finished, setFinished] = useState(false);
   const [roundMode, setRoundMode] = useState<RoundMode>('full');
   const [ticketAnswered, setTicketAnswered] = useState(0);
+  const [ticketCorrect, setTicketCorrect] = useState(0);
+  const [ticketWrong, setTicketWrong] = useState(0);
   const [attemptReady, setAttemptReady] = useState(false);
   const [helpLanguage, setHelpLanguage] = useState<HelpLanguage>('ru');
 
@@ -171,6 +265,16 @@ export default function App() {
           setFinished(saved.finished);
           setRoundMode(saved.roundMode);
           setTicketAnswered(saved.ticketAnswered);
+          setTicketCorrect(
+            Number.isInteger(saved.ticketCorrect)
+              ? saved.ticketCorrect!
+              : saved.roundMode === 'full' ? saved.score : 0,
+          );
+          setTicketWrong(
+            Number.isInteger(saved.ticketWrong)
+              ? saved.ticketWrong!
+              : saved.roundMode === 'full' ? saved.mistakes.length : 0,
+          );
         } else {
           setOrder(shuffle(loaded.questions.map((_, index) => index)));
           setPosition(0);
@@ -180,6 +284,8 @@ export default function App() {
           setFinished(false);
           setRoundMode('full');
           setTicketAnswered(0);
+          setTicketCorrect(0);
+          setTicketWrong(0);
         }
         setAttemptReady(true);
 
@@ -208,11 +314,13 @@ export default function App() {
       finished,
       roundMode,
       ticketAnswered,
+      ticketCorrect,
+      ticketWrong,
       updatedAt: new Date().toISOString(),
     };
 
     writeProgress({ ...readProgress(), [String(testId)]: progress });
-  }, [attemptReady, finished, mistakes, order, position, roundMode, score, selected, test, testId, ticketAnswered]);
+  }, [attemptReady, finished, mistakes, order, position, roundMode, score, selected, test, testId, ticketAnswered, ticketCorrect, ticketWrong]);
 
   function selectTest(nextTestId: number) {
     const entry = catalog.find((item) => item.id === nextTestId);
@@ -229,6 +337,8 @@ export default function App() {
     setFinished(false);
     setRoundMode('full');
     setTicketAnswered(0);
+    setTicketCorrect(0);
+    setTicketWrong(0);
     setHelpLanguage(entry?.translated ? 'ru' : 'en');
   }
 
@@ -247,8 +357,13 @@ export default function App() {
     if (answered) return;
     setSelected(letter);
     if (roundMode === 'full') setTicketAnswered(Math.min(position + 1, questions.length));
-    if (letter === correct?.letter) setScore((value) => value + 1);
-    else setMistakes((items) => items.includes(questionIndex) ? items : [...items, questionIndex]);
+    if (letter === correct?.letter) {
+      setScore((value) => value + 1);
+      if (roundMode === 'full') setTicketCorrect((value) => value + 1);
+    } else {
+      setMistakes((items) => items.includes(questionIndex) ? items : [...items, questionIndex]);
+      if (roundMode === 'full') setTicketWrong((value) => value + 1);
+    }
   }
 
   function nextQuestion() {
@@ -269,17 +384,36 @@ export default function App() {
     setMistakes([]);
     setFinished(false);
     setRoundMode(mode);
-    if (mode === 'full') setTicketAnswered(0);
+    if (mode === 'full') {
+      setTicketAnswered(0);
+      setTicketCorrect(0);
+      setTicketWrong(0);
+    }
   }
 
-  function resetCurrentProgress() {
-    setSavedProgress((current) => {
-      const next = { ...current };
-      delete next[String(testId)];
-      writeProgress(next);
-      return next;
-    });
-    startRound(questions.map((_, index) => index));
+  function resetTicketProgress(resetTestId: number) {
+    const next = readProgress();
+    delete next[String(resetTestId)];
+    writeProgress(next);
+    setSavedProgress(next);
+
+    if (resetTestId === testId) {
+      startRound(questions.map((_, index) => index));
+    }
+  }
+
+  function getTicketStats(entry: CatalogEntry): TicketStats {
+    if (entry.id === testId && attemptReady) {
+      return { answered: ticketAnswered, correct: ticketCorrect, wrong: ticketWrong };
+    }
+
+    const saved = savedProgress[String(entry.id)];
+    if (!saved) return { answered: 0, correct: 0, wrong: 0 };
+    return {
+      answered: saved.ticketAnswered,
+      correct: saved.ticketCorrect ?? (saved.roundMode === 'full' ? saved.score : 0),
+      wrong: saved.ticketWrong ?? (saved.roundMode === 'full' ? saved.mistakes.length : 0),
+    };
   }
 
   if (loadError) return <main className="loading error-message">{loadError}</main>;
@@ -296,17 +430,15 @@ export default function App() {
           </div>
           <h1>{percent >= 90 ? 'Отличный результат' : percent >= 70 ? 'Хорошая работа' : 'Продолжим тренировку'}</h1>
           <p>Ошибок: {mistakes.length}. Вопросы можно пройти заново в другом порядке.</p>
-          <label className="result-ticket-picker">
-            <span>Перейти к билету</span>
-            <select value={testId} onChange={(event) => selectTest(Number(event.target.value))}>
-              {catalog.map((item) => {
-                const done = item.id === testId
-                  ? ticketAnswered
-                  : savedProgress[String(item.id)]?.ticketAnswered ?? 0;
-                return <option value={item.id} key={item.id}>{item.id} · {item.title} · {done}/{item.questions}</option>;
-              })}
-            </select>
-          </label>
+          <TicketMenu
+            value={testId}
+            entries={catalog}
+            getStats={getTicketStats}
+            onSelect={(nextTestId) => {
+              if (nextTestId !== testId) selectTest(nextTestId);
+            }}
+            onRestart={resetTicketProgress}
+          />
           <div className="result-actions">
             {mistakes.length > 0 && <button className="primary" onClick={() => startRound(mistakes, 'mistakes')}>Повторить ошибки</button>}
             <button className="secondary" onClick={() => startRound(questions.map((_, index) => index))}>Новый раунд</button>
@@ -328,21 +460,22 @@ export default function App() {
           <h1>{test.title}</h1>
         </div>
         <div className="header-tools">
-          <label className="ticket-picker">
-            <span>Билет</span>
-            <select value={testId} onChange={(event) => selectTest(Number(event.target.value))}>
-              {catalog.map((item) => {
-                const done = item.id === testId
-                  ? ticketAnswered
-                  : savedProgress[String(item.id)]?.ticketAnswered ?? 0;
-                return <option value={item.id} key={item.id}>{item.id} · {item.title} · {done}/{item.questions}</option>;
-              })}
-            </select>
-          </label>
+          <TicketMenu
+            value={testId}
+            entries={catalog}
+            getStats={getTicketStats}
+            onSelect={(nextTestId) => {
+              if (nextTestId !== testId) selectTest(nextTestId);
+            }}
+            onRestart={resetTicketProgress}
+          />
           <div className="ticket-progress" aria-label={`Пройдено ${ticketAnswered} из ${questions.length}`}>
             <span>Пройдено</span><strong>{ticketAnswered}/{questions.length}</strong>
           </div>
-          <div className="score" aria-label={`Счёт ${score}`}><span>Верно</span><strong>{score}</strong></div>
+          <div className="answer-stats">
+            <div className="score" aria-label={`Верно ${score}`}><span>Верно</span><strong>{score}</strong></div>
+            <div className="score score-wrong" aria-label={`Неверно ${mistakes.length}`}><span>Неверно</span><strong>{mistakes.length}</strong></div>
+          </div>
         </div>
       </header>
 
@@ -421,7 +554,7 @@ export default function App() {
           )}
 
           <div className="controls">
-            <button className="shuffle-button" onClick={resetCurrentProgress}>↻ Начать заново</button>
+            <button className="shuffle-button" onClick={() => resetTicketProgress(testId)}>↻ Начать заново</button>
             <button className="primary next" onClick={nextQuestion} disabled={!answered}>
               {position === order.length - 1 ? 'Результат' : 'Следующий вопрос'} →
             </button>
