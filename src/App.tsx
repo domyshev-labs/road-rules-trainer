@@ -1,5 +1,3 @@
-'use client';
-
 import { useEffect, useMemo, useState } from 'react';
 import catalogData from './catalog.json';
 
@@ -71,7 +69,7 @@ function HelpContent({ text }: { text: string }) {
   );
 }
 
-export default function Home() {
+export default function App() {
   const [testId, setTestId] = useState(1015);
   const [test, setTest] = useState<TestRecord | null>(null);
   const [translations, setTranslations] = useState<HelpTranslations | null>(null);
@@ -87,16 +85,6 @@ export default function Home() {
   useEffect(() => {
     let active = true;
     const entry = catalog.find((item) => item.id === testId);
-    setTest(null);
-    setLoadError('');
-    setTranslations(null);
-    setOrder([]);
-    setPosition(0);
-    setSelected(null);
-    setScore(0);
-    setMistakes([]);
-    setFinished(false);
-    setHelpLanguage(entry?.translated ? 'ru' : 'en');
 
     async function loadTest() {
       try {
@@ -119,6 +107,21 @@ export default function Home() {
     loadTest();
     return () => { active = false; };
   }, [testId]);
+
+  function selectTest(nextTestId: number) {
+    const entry = catalog.find((item) => item.id === nextTestId);
+    setTestId(nextTestId);
+    setTest(null);
+    setLoadError('');
+    setTranslations(null);
+    setOrder([]);
+    setPosition(0);
+    setSelected(null);
+    setScore(0);
+    setMistakes([]);
+    setFinished(false);
+    setHelpLanguage(entry?.translated ? 'ru' : 'en');
+  }
 
   const questions = test?.questions ?? [];
   const questionIndex = order[position] ?? 0;
@@ -193,7 +196,7 @@ export default function Home() {
         <div className="header-tools">
           <label className="ticket-picker">
             <span>Билет</span>
-            <select value={testId} onChange={(event) => setTestId(Number(event.target.value))}>
+            <select value={testId} onChange={(event) => selectTest(Number(event.target.value))}>
               {catalog.map((item) => (
                 <option value={item.id} key={item.id}>
                   {item.id} · {item.title} ({item.questions})
