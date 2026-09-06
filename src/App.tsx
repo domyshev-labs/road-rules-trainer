@@ -15,6 +15,19 @@ type CatalogEntry = { id: number; title: string; questions: number; translated: 
 type HelpLanguage = 'ru' | 'es' | 'en';
 type HelpTranslations = { help: Record<string, Record<HelpLanguage, string>> };
 type RoundMode = 'full' | 'mistakes';
+type AnswerHistory = Record<string, boolean>;
+type AttemptHistory = {
+  id: string;
+  startedAt: string;
+  endedAt: string;
+  completed: boolean;
+  mode: RoundMode;
+  answered: number;
+  correct: number;
+  wrong: number;
+  total: number;
+  answers: AnswerHistory;
+};
 type SavedProgress = {
   order: number[];
   position: number;
@@ -26,6 +39,11 @@ type SavedProgress = {
   ticketAnswered: number;
   ticketCorrect?: number;
   ticketWrong?: number;
+  attemptId?: string;
+  startedAt?: string;
+  answers?: AnswerHistory;
+  history?: AttemptHistory[];
+  pendingRestart?: boolean;
   updatedAt: string;
 };
 type ProgressStore = Record<string, SavedProgress>;
@@ -49,6 +67,48 @@ function writeProgress(progress: ProgressStore) {
   } catch {
     // Training still works when storage is unavailable or full.
   }
+}
+
+function createAttemptId() {
+  return `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
+}
+
+function deriveAnswers(progress: SavedProgress): AnswerHistory {
+  if (progress.answers && typeof progress.answers === 'object') return progress.answers;
+  const answeredInRound = progress.finished
+    ? progress.order.length
+    : Math.min(progress.position + (progress.selected ? 1 : 0), progress.order.length);
+  const mistakes = new Set(progress.mistakes);
+  return Object.fromEntries(
+    progress.order.slice(0, answeredInRound).map((questionIndex) => [String(questionIndex), !mistakes.has(questionIndex)]),
+  );
+}
+
+function makeAttemptHistory(
+  progress: Pick<SavedProgress, 'attemptId' | 'startedAt' | 'updatedAt' | 'finished' | 'roundMode' | 'order' | 'answers' | 'position' | 'selected' | 'mistakes'>,
+): AttemptHistory | null {
+  const compatible = progress as SavedProgress;
+  const answers = deriveAnswers(compatible);
+  const values = Object.values(answers);
+  if (!values.length) return null;
+  return {
+    id: progress.attemptId ?? createAttemptId(),
+    startedAt: progress.startedAt ?? progress.updatedAt,
+    endedAt: new Date().toISOString(),
+    completed: progress.finished,
+    mode: progress.roundMode,
+    answered: values.length,
+    correct: values.filter(Boolean).length,
+    wrong: values.filter((correct) => !correct).length,
+    total: progress.order.length,
+    answers,
+  };
+}
+
+function appendAttempt(history: AttemptHistory[], attempt: AttemptHistory | null) {
+  if (!attempt) return history;
+  const withoutSameAttempt = history.filter((item) => item.id !== attempt.id);
+  return [...withoutSameAttempt, attempt].slice(-100);
 }
 
 function isValidProgress(value: unknown, questionCount: number): value is SavedProgress {
@@ -133,6 +193,119 @@ function HelpContent({ text }: { text: string }) {
   );
 }
 
+function StatsGlyph() {
+  return <span className="stats-glyph" aria-hidden="true"><i /><i /><i /></span>;
+}
+
+function Modal({
+  title,
+  eyebrow,
+  className = '',
+  onClose,
+  children,
+}: {
+  title: string;
+  eyebrow?: string;
+  className?: string;
+  onClose: () => void;
+  children: React.ReactNode;
+}) {
+  useEffect(() => {
+    function closeOnEscape(event: KeyboardEvent) {
+      if (event.key === 'Escape') onClose();
+    }
+    document.addEventListener('keydown', closeOnEscape);
+    return () => document.removeEventListener('keydown', closeOnEscape);
+  }, [onClose]);
+
+  return (
+    <div className="modal-overlay" role="presentation" onMouseDown={(event) => {
+      if (event.target === event.currentTarget) onClose();
+    }}>
+      <section className={`modal-card ${className}`} role="dialog" aria-modal="true" aria-label={title}>
+        <header className="modal-header">
+          <div>
+            {eyebrow && <p>{eyebrow}</p>}
+            <h2>{title}</h2>
+          </div>
+          <button type="button" className="modal-close-icon" aria-label="Закрыть" onClick={onClose}>×</button>
+        </header>
+        <div className="modal-body">{children}</div>
+        <footer className="modal-footer">
+          <button type="button" className="secondary" onClick={onClose}>Закрыть</button>
+        </footer>
+      </section>
+    </div>
+  );
+}
+
+function StatisticsContent({ attempts, questionCount }: { attempts: AttemptHistory[]; questionCount: number }) {
+  const totals = attempts.reduce(
+    (result, attempt) => ({
+      answered: result.answered + attempt.answered,
+      correct: result.correct + attempt.correct,
+      wrong: result.wrong + attempt.wrong,
+    }),
+    { answered: 0, correct: 0, wrong: 0 },
+  );
+  const accuracy = totals.answered ? Math.round((totals.correct / totals.answered) * 100) : 0;
+  const questionStats = Array.from({ length: questionCount }, (_, questionIndex) => {
+    const results = attempts
+      .map((attempt) => attempt.answers[String(questionIndex)])
+      .filter((result): result is boolean => typeof result === 'boolean');
+    const correct = results.filter(Boolean).length;
+    return { question: questionIndex + 1, attempts: results.length, correct, wrong: results.length - correct };
+  });
+
+  if (!attempts.length) {
+    return <div className="empty-statistics"><StatsGlyph /><h3>Пока нет ответов</h3><p>Статистика появится после первого ответа в этом билете.</p></div>;
+  }
+
+  return (
+    <>
+      <div className="statistics-summary">
+        <div><span>Прохождений</span><strong>{attempts.length}</strong></div>
+        <div><span>Ответов</span><strong>{totals.answered}</strong></div>
+        <div className="positive"><span>Верно</span><strong>{totals.correct}</strong></div>
+        <div className="negative"><span>Неверно</span><strong>{totals.wrong}</strong></div>
+        <div><span>Точность</span><strong>{accuracy}%</strong></div>
+      </div>
+
+      <section className="statistics-section">
+        <h3>Прохождения</h3>
+        <div className="attempt-list">
+          {[...attempts].reverse().map((attempt, index) => (
+            <article key={attempt.id}>
+              <div>
+                <strong>Попытка {attempts.length - index}</strong>
+                <span>{attempt.mode === 'mistakes' ? 'Работа над ошибками' : attempt.completed ? 'Завершена' : 'Не завершена'}</span>
+              </div>
+              <time dateTime={attempt.endedAt}>{new Intl.DateTimeFormat('ru-RU', { dateStyle: 'short', timeStyle: 'short' }).format(new Date(attempt.endedAt))}</time>
+              <span className="attempt-progress">{attempt.answered}/{attempt.total}</span>
+              <span className="attempt-correct">👍 {attempt.correct}</span>
+              <span className="attempt-wrong">👎 {attempt.wrong}</span>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="statistics-section">
+        <h3>По вопросам</h3>
+        <div className="question-statistics">
+          {questionStats.map((item) => (
+            <article className={item.attempts ? '' : 'empty'} key={item.question}>
+              <strong>#{item.question}</strong>
+              <span>{item.attempts ? `${item.attempts} отв.` : '—'}</span>
+              <span className="attempt-correct">👍 {item.correct}</span>
+              <span className="attempt-wrong">👎 {item.wrong}</span>
+            </article>
+          ))}
+        </div>
+      </section>
+    </>
+  );
+}
+
 function TicketMenu({
   value,
   entries,
@@ -152,7 +325,6 @@ function TicketMenu({
 
   return (
     <div className="ticket-menu-shell">
-      <span className="ticket-menu-label">Билет</span>
       <button
         type="button"
         className="ticket-menu-trigger"
@@ -160,8 +332,10 @@ function TicketMenu({
         onClick={() => setOpen((current) => !current)}
       >
         <span className="ticket-menu-trigger-copy">
-          <strong>Test {active.id}</strong>
-          <span>{active.title}</span>
+          <span className="ticket-menu-trigger-label">Билет</span>
+          <span className="ticket-menu-trigger-title" title={active.title}>
+            <strong>{active.id}</strong><i>—</i><span>{active.title}</span>
+          </span>
         </span>
         <span className="ticket-menu-trigger-progress">{activeStats.answered}/{active.questions}</span>
         <span className="ticket-menu-chevron" aria-hidden="true">⌄</span>
@@ -222,6 +396,45 @@ function TicketMenu({
   );
 }
 
+function MobileStatusBar({
+  testId,
+  stats,
+  total,
+  hint,
+  getStats,
+  onSelect,
+  onRestart,
+  onHint,
+  onStatistics,
+}: {
+  testId: number;
+  stats: TicketStats;
+  total: number;
+  hint: string;
+  getStats: (entry: CatalogEntry) => TicketStats;
+  onSelect: (testId: number) => void;
+  onRestart: (testId: number) => void;
+  onHint: (message: string) => void;
+  onStatistics: () => void;
+}) {
+  return (
+    <nav className="mobile-status-bar" aria-label="Статус билета">
+      <TicketMenu value={testId} entries={catalog} getStats={getStats} onSelect={onSelect} onRestart={onRestart} />
+      <button type="button" className="mobile-metric mobile-progress" aria-label={`Пройдено ${stats.answered} из ${total}`} onClick={() => onHint(`Пройдено ${stats.answered} из ${total}`)}>
+        <span>{stats.answered}/{total}</span>
+      </button>
+      <button type="button" className="mobile-metric mobile-correct" aria-label={`Верно ${stats.correct}`} onClick={() => onHint(`Верно: ${stats.correct}`)}>
+        <span aria-hidden="true">👍</span><strong>{stats.correct}</strong>
+      </button>
+      <button type="button" className="mobile-metric mobile-wrong" aria-label={`Неверно ${stats.wrong}`} onClick={() => onHint(`Неверно: ${stats.wrong}`)}>
+        <span aria-hidden="true">👎</span><strong>{stats.wrong}</strong>
+      </button>
+      <button type="button" className="mobile-statistics-button" aria-label="Статистика билета" onClick={onStatistics}><StatsGlyph /></button>
+      {hint && <output className="mobile-status-hint">{hint}</output>}
+    </nav>
+  );
+}
+
 export default function App() {
   const [testId, setTestId] = useState(1015);
   const [savedProgress, setSavedProgress] = useState<ProgressStore>(() => readProgress());
@@ -238,8 +451,15 @@ export default function App() {
   const [ticketAnswered, setTicketAnswered] = useState(0);
   const [ticketCorrect, setTicketCorrect] = useState(0);
   const [ticketWrong, setTicketWrong] = useState(0);
+  const [attemptId, setAttemptId] = useState(() => createAttemptId());
+  const [attemptStartedAt, setAttemptStartedAt] = useState(() => new Date().toISOString());
+  const [attemptAnswers, setAttemptAnswers] = useState<AnswerHistory>({});
+  const [attemptHistory, setAttemptHistory] = useState<AttemptHistory[]>([]);
   const [attemptReady, setAttemptReady] = useState(false);
   const [helpLanguage, setHelpLanguage] = useState<HelpLanguage>('ru');
+  const [helpOpen, setHelpOpen] = useState(false);
+  const [statisticsOpen, setStatisticsOpen] = useState(false);
+  const [mobileHint, setMobileHint] = useState('');
 
   useEffect(() => {
     let active = true;
@@ -255,8 +475,9 @@ export default function App() {
         const saved = persisted[String(testId)];
         setTest(loaded);
         setSavedProgress(persisted);
+        setAttemptHistory(Array.isArray(saved?.history) ? saved.history : []);
 
-        if (isValidProgress(saved, loaded.questions.length)) {
+        if (isValidProgress(saved, loaded.questions.length) && !saved.pendingRestart) {
           setOrder(saved.order);
           setPosition(saved.position);
           setSelected(saved.selected);
@@ -275,6 +496,9 @@ export default function App() {
               ? saved.ticketWrong!
               : saved.roundMode === 'full' ? saved.mistakes.length : 0,
           );
+          setAttemptId(saved.attemptId ?? createAttemptId());
+          setAttemptStartedAt(saved.startedAt ?? saved.updatedAt);
+          setAttemptAnswers(deriveAnswers(saved));
         } else {
           setOrder(shuffle(loaded.questions.map((_, index) => index)));
           setPosition(0);
@@ -286,7 +510,13 @@ export default function App() {
           setTicketAnswered(0);
           setTicketCorrect(0);
           setTicketWrong(0);
+          setAttemptId(createAttemptId());
+          setAttemptStartedAt(new Date().toISOString());
+          setAttemptAnswers({});
         }
+        setHelpOpen(false);
+        setStatisticsOpen(false);
+        setMobileHint('');
         setAttemptReady(true);
 
         if (entry?.translated) {
@@ -316,11 +546,16 @@ export default function App() {
       ticketAnswered,
       ticketCorrect,
       ticketWrong,
+      attemptId,
+      startedAt: attemptStartedAt,
+      answers: attemptAnswers,
+      history: attemptHistory,
+      pendingRestart: false,
       updatedAt: new Date().toISOString(),
     };
 
     writeProgress({ ...readProgress(), [String(testId)]: progress });
-  }, [attemptReady, finished, mistakes, order, position, roundMode, score, selected, test, testId, ticketAnswered, ticketCorrect, ticketWrong]);
+  }, [attemptAnswers, attemptHistory, attemptId, attemptReady, attemptStartedAt, finished, mistakes, order, position, roundMode, score, selected, test, testId, ticketAnswered, ticketCorrect, ticketWrong]);
 
   function selectTest(nextTestId: number) {
     const entry = catalog.find((item) => item.id === nextTestId);
@@ -339,6 +574,10 @@ export default function App() {
     setTicketAnswered(0);
     setTicketCorrect(0);
     setTicketWrong(0);
+    setAttemptAnswers({});
+    setHelpOpen(false);
+    setStatisticsOpen(false);
+    setMobileHint('');
     setHelpLanguage(entry?.translated ? 'ru' : 'en');
   }
 
@@ -355,9 +594,11 @@ export default function App() {
 
   function chooseAnswer(letter: string) {
     if (answered) return;
+    const isCorrect = letter === correct?.letter;
     setSelected(letter);
+    setAttemptAnswers((current) => ({ ...current, [String(questionIndex)]: isCorrect }));
     if (roundMode === 'full') setTicketAnswered(Math.min(position + 1, questions.length));
-    if (letter === correct?.letter) {
+    if (isCorrect) {
       setScore((value) => value + 1);
       if (roundMode === 'full') setTicketCorrect((value) => value + 1);
     } else {
@@ -374,9 +615,23 @@ export default function App() {
     }
     setPosition((value) => value + 1);
     setSelected(null);
+    setHelpOpen(false);
   }
 
   function startRound(nextOrder: number[], mode: RoundMode = 'full') {
+    const archived = makeAttemptHistory({
+      attemptId,
+      startedAt: attemptStartedAt,
+      updatedAt: new Date().toISOString(),
+      finished,
+      roundMode,
+      order,
+      answers: attemptAnswers,
+      position,
+      selected,
+      mistakes,
+    });
+    setAttemptHistory((current) => appendAttempt(current, archived));
     setOrder(shuffle(nextOrder));
     setPosition(0);
     setSelected(null);
@@ -384,6 +639,12 @@ export default function App() {
     setMistakes([]);
     setFinished(false);
     setRoundMode(mode);
+    setAttemptId(createAttemptId());
+    setAttemptStartedAt(new Date().toISOString());
+    setAttemptAnswers({});
+    setHelpOpen(false);
+    setStatisticsOpen(false);
+    setMobileHint('');
     if (mode === 'full') {
       setTicketAnswered(0);
       setTicketCorrect(0);
@@ -392,37 +653,118 @@ export default function App() {
   }
 
   function resetTicketProgress(resetTestId: number) {
-    const next = readProgress();
-    delete next[String(resetTestId)];
-    writeProgress(next);
-    setSavedProgress(next);
-
     if (resetTestId === testId) {
       startRound(questions.map((_, index) => index));
+      return;
     }
+
+    const next = readProgress();
+    const saved = next[String(resetTestId)];
+    if (!saved) return;
+    const history = appendAttempt(saved.history ?? [], makeAttemptHistory(saved));
+    next[String(resetTestId)] = {
+      ...saved,
+      selected: null,
+      score: 0,
+      mistakes: [],
+      finished: false,
+      roundMode: 'full',
+      ticketAnswered: 0,
+      ticketCorrect: 0,
+      ticketWrong: 0,
+      attemptId: createAttemptId(),
+      startedAt: new Date().toISOString(),
+      answers: {},
+      history,
+      pendingRestart: true,
+      updatedAt: new Date().toISOString(),
+    };
+    writeProgress(next);
+    setSavedProgress(next);
   }
 
   function getTicketStats(entry: CatalogEntry): TicketStats {
-    if (entry.id === testId && attemptReady) {
+    if (entry.id === testId && attemptReady && ticketAnswered > 0) {
       return { answered: ticketAnswered, correct: ticketCorrect, wrong: ticketWrong };
     }
 
     const saved = savedProgress[String(entry.id)];
     if (!saved) return { answered: 0, correct: 0, wrong: 0 };
-    return {
-      answered: saved.ticketAnswered,
-      correct: saved.ticketCorrect ?? (saved.roundMode === 'full' ? saved.score : 0),
-      wrong: saved.ticketWrong ?? (saved.roundMode === 'full' ? saved.mistakes.length : 0),
-    };
+    if (!saved.pendingRestart && saved.ticketAnswered > 0) {
+      return {
+        answered: saved.ticketAnswered,
+        correct: saved.ticketCorrect ?? (saved.roundMode === 'full' ? saved.score : 0),
+        wrong: saved.ticketWrong ?? (saved.roundMode === 'full' ? saved.mistakes.length : 0),
+      };
+    }
+
+    const previous = saved.history?.at(-1);
+    if (previous) return { answered: previous.answered, correct: previous.correct, wrong: previous.wrong };
+    return { answered: 0, correct: 0, wrong: 0 };
+  }
+
+  function getStatisticsAttempts() {
+    const current = makeAttemptHistory({
+      attemptId,
+      startedAt: attemptStartedAt,
+      updatedAt: new Date().toISOString(),
+      finished,
+      roundMode,
+      order,
+      answers: attemptAnswers,
+      position,
+      selected,
+      mistakes,
+    });
+    return appendAttempt(attemptHistory, current);
+  }
+
+  function showMobileHint(message: string) {
+    setMobileHint((current) => current === message ? '' : message);
+  }
+
+  function openStatistics() {
+    setMobileHint('');
+    setStatisticsOpen(true);
   }
 
   if (loadError) return <main className="loading error-message">{loadError}</main>;
   if (!test || !question || !order.length) return <main className="loading">Загружаем билет…</main>;
 
+  const currentEntry = catalog.find((entry) => entry.id === testId) ?? catalog[0];
+  const currentStats = getTicketStats(currentEntry);
+  const mobileStatusBar = (
+    <MobileStatusBar
+      testId={testId}
+      stats={currentStats}
+      total={questions.length}
+      hint={mobileHint}
+      getStats={getTicketStats}
+      onSelect={(nextTestId) => {
+        if (nextTestId !== testId) selectTest(nextTestId);
+      }}
+      onRestart={resetTicketProgress}
+      onHint={showMobileHint}
+      onStatistics={openStatistics}
+    />
+  );
+  const statisticsModal = statisticsOpen && (
+    <Modal
+      eyebrow={`Test ${test.test_id}`}
+      title="Статистика билета"
+      className="statistics-modal"
+      onClose={() => setStatisticsOpen(false)}
+    >
+      <StatisticsContent attempts={getStatisticsAttempts()} questionCount={questions.length} />
+    </Modal>
+  );
+
   if (finished) {
     const percent = Math.round((score / order.length) * 100);
     return (
-      <main className="result-page">
+      <>
+        {mobileStatusBar}
+        <main className="result-page">
         <section className="result-card">
           <p className="eyebrow">Test {test.test_id} · раунд завершён</p>
           <div className="result-ring" style={{ '--score': `${percent * 3.6}deg` } as React.CSSProperties}>
@@ -440,11 +782,14 @@ export default function App() {
             onRestart={resetTicketProgress}
           />
           <div className="result-actions">
+            <button className="secondary result-statistics-button" onClick={openStatistics}><StatsGlyph /> Статистика</button>
             {mistakes.length > 0 && <button className="primary" onClick={() => startRound(mistakes, 'mistakes')}>Повторить ошибки</button>}
             <button className="secondary" onClick={() => startRound(questions.map((_, index) => index))}>Новый раунд</button>
           </div>
         </section>
-      </main>
+        </main>
+        {statisticsModal}
+      </>
     );
   }
 
@@ -453,11 +798,13 @@ export default function App() {
     question.help;
 
   return (
-    <main className="app-shell">
+    <>
+      {mobileStatusBar}
+      <main className="app-shell">
       <header className="topbar">
         <div className="title-block">
           <p className="eyebrow">Thematic Test {test.test_id}</p>
-          <h1>{test.title}</h1>
+          <h1 title={test.title}>{test.title}</h1>
         </div>
         <div className="header-tools">
           <TicketMenu
@@ -469,13 +816,14 @@ export default function App() {
             }}
             onRestart={resetTicketProgress}
           />
-          <div className="ticket-progress" aria-label={`Пройдено ${ticketAnswered} из ${questions.length}`}>
-            <span>Пройдено</span><strong>{ticketAnswered}/{questions.length}</strong>
+          <div className="ticket-progress" aria-label={`Пройдено ${currentStats.answered} из ${questions.length}`}>
+            <span>Пройдено</span><strong>{currentStats.answered}/{questions.length}</strong>
           </div>
           <div className="answer-stats">
-            <div className="score" aria-label={`Верно ${score}`}><span>Верно</span><strong>{score}</strong></div>
-            <div className="score score-wrong" aria-label={`Неверно ${mistakes.length}`}><span>Неверно</span><strong>{mistakes.length}</strong></div>
+            <div className="score" aria-label={`Верно ${currentStats.correct}`}><span>Верно</span><strong>{currentStats.correct}</strong></div>
+            <div className="score score-wrong" aria-label={`Неверно ${currentStats.wrong}`}><span>Неверно</span><strong>{currentStats.wrong}</strong></div>
           </div>
+          <button type="button" className="statistics-button" aria-label="Статистика билета" title="Статистика билета" onClick={openStatistics}><StatsGlyph /></button>
         </div>
       </header>
 
@@ -495,7 +843,10 @@ export default function App() {
         </div>
 
         <div className="question-panel">
-          <h2><BilingualText text={question.question} /></h2>
+          <div className="question-heading-row">
+            <h2><BilingualText text={question.question} /></h2>
+            <button type="button" className="help-button" aria-label="Открыть объяснение" title="Ayuda · объяснение" onClick={() => setHelpOpen(true)}>?</button>
+          </div>
           <div className="answers">
             {question.answers.map((answer) => {
               const state = answered
@@ -525,31 +876,6 @@ export default function App() {
                 <strong>{selectedIsCorrect ? 'Верно' : `Неверно · правильный ответ ${correct?.letter}`}</strong>
                 <span>{selectedIsCorrect ? '✓' : '!'}</span>
               </div>
-              <details open>
-                <summary>Ayuda · объяснение</summary>
-                {translations ? (
-                  <div className="help-languages" aria-label="Язык объяснения">
-                    {([
-                      ['ru', 'RU'],
-                      ['es', 'ES'],
-                      ['en', 'EN'],
-                    ] as const).map(([language, label]) => (
-                      <button
-                        key={language}
-                        type="button"
-                        className={helpLanguage === language ? 'active' : ''}
-                        onClick={() => setHelpLanguage(language)}
-                        aria-pressed={helpLanguage === language}
-                      >
-                        {label}
-                      </button>
-                    ))}
-                  </div>
-                ) : (
-                  <p className="translation-status">EN · оригинал сайта</p>
-                )}
-                <HelpContent text={helpText} />
-              </details>
             </aside>
           )}
 
@@ -561,6 +887,40 @@ export default function App() {
           </div>
         </div>
       </section>
-    </main>
+      </main>
+
+      {helpOpen && (
+        <Modal
+          eyebrow={`Test ${test.test_id} · вопрос ${questionIndex + 1}`}
+          title="Ayuda · объяснение"
+          className="help-modal"
+          onClose={() => setHelpOpen(false)}
+        >
+          {translations ? (
+            <div className="help-languages" aria-label="Язык объяснения">
+              {([
+                ['ru', 'RU'],
+                ['es', 'ES'],
+                ['en', 'EN'],
+              ] as const).map(([language, label]) => (
+                <button
+                  key={language}
+                  type="button"
+                  className={helpLanguage === language ? 'active' : ''}
+                  onClick={() => setHelpLanguage(language)}
+                  aria-pressed={helpLanguage === language}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          ) : (
+            <p className="translation-status">EN · оригинал сайта</p>
+          )}
+          <HelpContent text={helpText} />
+        </Modal>
+      )}
+      {statisticsModal}
+    </>
   );
 }
