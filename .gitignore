@@ -11,28 +11,33 @@
 # testing
 /coverage
 
-# next.js
+# generated frontend output
 /.next/
 /.vinext/
 /out/
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# local environment
-.env*
-
-# deployment and generated files
-.vercel
-next-env.d.ts
 /dist/
 /.wrangler/
 /outputs/
 /work/
+next-env.d.ts
+
+# Go and SQLite development output
+/.cache/
+/data/
+/server
+*.db
+*.db-shm
+*.db-wal
+
+# local environment
+.env*
+!.env.example
+
+# misc
+.DS_Store
+*.pem
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*

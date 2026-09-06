@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
-import catalogData from './catalog.json';
 
-type Answer = { letter: string; text: string; correct: boolean };
+type Answer = { letter: string; text: string; correct?: boolean };
 type Question = {
   number: string;
   question: string;
@@ -10,7 +9,8 @@ type Question = {
   image_url: string | null;
   local_image: string | null;
 };
-type TestRecord = { test_id: number; title: string; questions: Question[] };
+type TestRecord = { test_id: number; title: string; questions: Question[]; translations?: HelpTranslations };
+type AuthUser = { id: string; email: string };
 type CatalogEntry = { id: number; title: string; questions: number; translated: boolean };
 type HelpLanguage = 'ru' | 'es' | 'en';
 type HelpTranslations = { help: Record<string, Record<HelpLanguage, string>> };
@@ -44,13 +44,28 @@ type SavedProgress = {
   answers?: AnswerHistory;
   history?: AttemptHistory[];
   pendingRestart?: boolean;
+  serverAttemptId?: string | null;
+  correctLetters?: Record<string, string>;
   updatedAt: string;
 };
 type ProgressStore = Record<string, SavedProgress>;
 type TicketStats = { answered: number; correct: number; wrong: number };
 
-const catalog = catalogData as CatalogEntry[];
 const progressStorageKey = 'road-rules-trainer-progress-v1';
+
+async function api<T>(path: string, init?: RequestInit): Promise<T> {
+  const response = await fetch(path, {
+    ...init,
+    headers: init?.body ? { 'Content-Type': 'application/json', ...init.headers } : init?.headers,
+    credentials: 'same-origin',
+  });
+  if (!response.ok) {
+    const payload = await response.json().catch(() => ({})) as { error?: string };
+    throw new Error(payload.error ?? `HTTP ${response.status}`);
+  }
+  if (response.status === 204) return undefined as T;
+  return response.json() as Promise<T>;
+}
 
 function readProgress(): ProgressStore {
   try {
@@ -92,7 +107,7 @@ function makeAttemptHistory(
   const values = Object.values(answers);
   if (!values.length) return null;
   return {
-    id: progress.attemptId ?? createAttemptId(),
+    id: progress.attemptId ?? `${progress.startedAt ?? progress.updatedAt}:${progress.order.join('-')}`,
     startedAt: progress.startedAt ?? progress.updatedAt,
     endedAt: new Date().toISOString(),
     completed: progress.finished,
@@ -398,6 +413,7 @@ function TicketMenu({
 
 function MobileStatusBar({
   testId,
+  entries,
   stats,
   total,
   hint,
@@ -406,8 +422,11 @@ function MobileStatusBar({
   onRestart,
   onHint,
   onStatistics,
+  user,
+  onLogout,
 }: {
   testId: number;
+  entries: CatalogEntry[];
   stats: TicketStats;
   total: number;
   hint: string;
@@ -416,10 +435,12 @@ function MobileStatusBar({
   onRestart: (testId: number) => void;
   onHint: (message: string) => void;
   onStatistics: () => void;
+  user: AuthUser;
+  onLogout: () => void;
 }) {
   return (
     <nav className="mobile-status-bar" aria-label="Статус билета">
-      <TicketMenu value={testId} entries={catalog} getStats={getStats} onSelect={onSelect} onRestart={onRestart} />
+      <TicketMenu value={testId} entries={entries} getStats={getStats} onSelect={onSelect} onRestart={onRestart} />
       <button type="button" className="mobile-metric mobile-progress" aria-label={`Пройдено ${stats.answered} из ${total}`} onClick={() => onHint(`Пройдено ${stats.answered} из ${total}`)}>
         <span>{stats.answered}/{total}</span>
       </button>
@@ -430,13 +451,71 @@ function MobileStatusBar({
         <span aria-hidden="true">👎</span><strong>{stats.wrong}</strong>
       </button>
       <button type="button" className="mobile-statistics-button" aria-label="Статистика билета" onClick={onStatistics}><StatsGlyph /></button>
+      <button type="button" className="mobile-account-button" aria-label={`Выйти из ${user.email}`} title={user.email} onClick={onLogout}>⇥</button>
       {hint && <output className="mobile-status-hint">{hint}</output>}
     </nav>
   );
 }
 
-export default function App() {
+function LoginScreen({ onAuthenticated }: { onAuthenticated: (user: AuthUser) => void }) {
+  const [email, setEmail] = useState('');
+  const [code, setCode] = useState('');
+  const [step, setStep] = useState<'email' | 'code'>('email');
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+
+  async function requestCode(event: React.FormEvent) {
+    event.preventDefault();
+    setBusy(true);
+    setError('');
+    try {
+      await api('/api/auth/request-code', { method: 'POST', body: JSON.stringify({ email }) });
+      setStep('code');
+    } catch (requestError) {
+      setError(requestError instanceof Error ? requestError.message : 'Не удалось отправить код');
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function verifyCode(event: React.FormEvent) {
+    event.preventDefault();
+    setBusy(true);
+    setError('');
+    try {
+      const user = await api<AuthUser>('/api/auth/verify-code', { method: 'POST', body: JSON.stringify({ email, code }) });
+      onAuthenticated(user);
+    } catch (requestError) {
+      setError(requestError instanceof Error ? requestError.message : 'Не удалось войти');
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <main className="auth-page">
+      <section className="auth-card">
+        <p className="eyebrow">Road Rules Trainer</p>
+        <h1>{step === 'email' ? 'Войти или зарегистрироваться' : 'Введите код из письма'}</h1>
+        <p>{step === 'email' ? 'Пароль не нужен — пришлём одноразовый код на email.' : `Мы отправили шестизначный код на ${email}`}</p>
+        <form onSubmit={step === 'email' ? requestCode : verifyCode}>
+          {step === 'email' ? (
+            <label>Email<input type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@example.com" /></label>
+          ) : (
+            <label>Код<input className="code-input" inputMode="numeric" autoComplete="one-time-code" pattern="[0-9]{6}" maxLength={6} required value={code} onChange={(event) => setCode(event.target.value.replace(/\D/g, ''))} placeholder="000000" autoFocus /></label>
+          )}
+          {error && <p className="auth-error" role="alert">{error}</p>}
+          <button className="primary" disabled={busy}>{busy ? 'Подождите…' : step === 'email' ? 'Получить код' : 'Войти'}</button>
+          {step === 'code' && <button type="button" className="auth-back" onClick={() => { setStep('email'); setCode(''); setError(''); }}>← Изменить email</button>}
+        </form>
+      </section>
+    </main>
+  );
+}
+
+function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }) {
   const [testId, setTestId] = useState(1015);
+  const [catalog, setCatalog] = useState<CatalogEntry[]>([]);
   const [savedProgress, setSavedProgress] = useState<ProgressStore>(() => readProgress());
   const [test, setTest] = useState<TestRecord | null>(null);
   const [translations, setTranslations] = useState<HelpTranslations | null>(null);
@@ -460,24 +539,63 @@ export default function App() {
   const [helpOpen, setHelpOpen] = useState(false);
   const [statisticsOpen, setStatisticsOpen] = useState(false);
   const [mobileHint, setMobileHint] = useState('');
+  const [serverAttemptId, setServerAttemptId] = useState<string | null>(null);
+  const [correctLetters, setCorrectLetters] = useState<Record<string, string>>({});
+  const [submittingAnswer, setSubmittingAnswer] = useState(false);
+  const [answerError, setAnswerError] = useState('');
+  const [serverStatistics, setServerStatistics] = useState<AttemptHistory[] | null>(null);
+  const [serverProgress, setServerProgress] = useState<Record<string, TicketStats>>({});
+  const [migrationReady, setMigrationReady] = useState(() => Object.values(readProgress()).every((progress) => {
+    return !(progress.history?.length) && makeAttemptHistory(progress) === null;
+  }));
 
   useEffect(() => {
-    let active = true;
-    const entry = catalog.find((item) => item.id === testId);
+    const batches = Object.entries(readProgress()).map(([storedTestID, progress]) => {
+      const current = makeAttemptHistory(progress);
+      const attempts = appendAttempt(progress.history ?? [], current).map((attempt) => ({
+        source_id: `${storedTestID}:${attempt.id}`,
+        test_id: Number(storedTestID),
+        mode: attempt.mode,
+        total: attempt.total,
+        started_at: attempt.startedAt,
+        ended_at: attempt.endedAt,
+        completed: attempt.completed,
+        answers: attempt.answers,
+      }));
+      return attempts;
+    });
+    if (!batches.some((attempts) => attempts.length)) {
+      return;
+    }
+    void Promise.all(batches.filter((attempts) => attempts.length).map((attempts) => (
+      api('/api/progress/import', { method: 'POST', body: JSON.stringify({ attempts }) })
+    )))
+      .then(() => api<Record<string, TicketStats>>('/api/progress'))
+      .then(setServerProgress)
+      .catch(() => undefined)
+      .finally(() => setMigrationReady(true));
+  }, [user.id]);
 
+  useEffect(() => {
+    if (!migrationReady) return;
+    let active = true;
     async function loadTest() {
       try {
-        const response = await fetch(`/data/test-${testId}.json`);
-        if (!response.ok) throw new Error('Test data unavailable');
-        const loaded = (await response.json()) as TestRecord;
+        const [loaded, remoteProgress, remoteCatalog] = await Promise.all([
+          api<TestRecord>(`/api/tests/${testId}`),
+          api<Record<string, TicketStats>>('/api/progress'),
+          api<CatalogEntry[]>('/api/catalog'),
+        ]);
         if (!active) return;
         const persisted = readProgress();
         const saved = persisted[String(testId)];
         setTest(loaded);
         setSavedProgress(persisted);
+        setServerProgress(remoteProgress);
+        setCatalog(remoteCatalog);
         setAttemptHistory(Array.isArray(saved?.history) ? saved.history : []);
 
-        if (isValidProgress(saved, loaded.questions.length) && !saved.pendingRestart) {
+        if (isValidProgress(saved, loaded.questions.length) && !saved.pendingRestart && saved.serverAttemptId) {
           setOrder(saved.order);
           setPosition(saved.position);
           setSelected(saved.selected);
@@ -499,6 +617,8 @@ export default function App() {
           setAttemptId(saved.attemptId ?? createAttemptId());
           setAttemptStartedAt(saved.startedAt ?? saved.updatedAt);
           setAttemptAnswers(deriveAnswers(saved));
+          setServerAttemptId(saved.serverAttemptId ?? null);
+          setCorrectLetters(saved.correctLetters ?? {});
         } else {
           setOrder(shuffle(loaded.questions.map((_, index) => index)));
           setPosition(0);
@@ -513,16 +633,16 @@ export default function App() {
           setAttemptId(createAttemptId());
           setAttemptStartedAt(new Date().toISOString());
           setAttemptAnswers({});
+          setServerAttemptId(null);
+          setCorrectLetters({});
         }
         setHelpOpen(false);
         setStatisticsOpen(false);
         setMobileHint('');
+        setAnswerError('');
+        setServerStatistics(null);
         setAttemptReady(true);
-
-        if (entry?.translated) {
-          const helpResponse = await fetch(`/data/test-${testId}-help.json`);
-          if (helpResponse.ok && active) setTranslations((await helpResponse.json()) as HelpTranslations);
-        }
+        setTranslations(loaded.translations ?? null);
       } catch {
         if (active) setLoadError('Не удалось загрузить билет. Обновите страницу.');
       }
@@ -530,7 +650,7 @@ export default function App() {
 
     loadTest();
     return () => { active = false; };
-  }, [testId]);
+  }, [migrationReady, testId]);
 
   useEffect(() => {
     if (!attemptReady || !test || !order.length) return;
@@ -551,11 +671,13 @@ export default function App() {
       answers: attemptAnswers,
       history: attemptHistory,
       pendingRestart: false,
+      serverAttemptId,
+      correctLetters,
       updatedAt: new Date().toISOString(),
     };
 
     writeProgress({ ...readProgress(), [String(testId)]: progress });
-  }, [attemptAnswers, attemptHistory, attemptId, attemptReady, attemptStartedAt, finished, mistakes, order, position, roundMode, score, selected, test, testId, ticketAnswered, ticketCorrect, ticketWrong]);
+  }, [attemptAnswers, attemptHistory, attemptId, attemptReady, attemptStartedAt, correctLetters, finished, mistakes, order, position, roundMode, score, selected, serverAttemptId, test, testId, ticketAnswered, ticketCorrect, ticketWrong]);
 
   function selectTest(nextTestId: number) {
     const entry = catalog.find((item) => item.id === nextTestId);
@@ -575,6 +697,10 @@ export default function App() {
     setTicketCorrect(0);
     setTicketWrong(0);
     setAttemptAnswers({});
+    setServerAttemptId(null);
+    setCorrectLetters({});
+    setAnswerError('');
+    setServerStatistics(null);
     setHelpOpen(false);
     setStatisticsOpen(false);
     setMobileHint('');
@@ -584,26 +710,51 @@ export default function App() {
   const questions = test?.questions ?? [];
   const questionIndex = order[position] ?? 0;
   const question = questions[questionIndex];
-  const correct = question?.answers.find((answer) => answer.correct);
   const answered = selected !== null;
-  const selectedIsCorrect = selected === correct?.letter;
+  const selectedIsCorrect = attemptAnswers[String(questionIndex)] ?? false;
+  const correctLetter = correctLetters[String(questionIndex)];
   const progress = useMemo(
     () => order.length ? Math.round(((position + (answered ? 1 : 0)) / order.length) * 100) : 0,
     [answered, order.length, position],
   );
 
-  function chooseAnswer(letter: string) {
-    if (answered) return;
-    const isCorrect = letter === correct?.letter;
-    setSelected(letter);
-    setAttemptAnswers((current) => ({ ...current, [String(questionIndex)]: isCorrect }));
-    if (roundMode === 'full') setTicketAnswered(Math.min(position + 1, questions.length));
-    if (isCorrect) {
-      setScore((value) => value + 1);
-      if (roundMode === 'full') setTicketCorrect((value) => value + 1);
-    } else {
-      setMistakes((items) => items.includes(questionIndex) ? items : [...items, questionIndex]);
-      if (roundMode === 'full') setTicketWrong((value) => value + 1);
+  async function chooseAnswer(letter: string) {
+    if (answered || submittingAnswer) return;
+    setSubmittingAnswer(true);
+    setAnswerError('');
+    try {
+      let activeAttempt = serverAttemptId;
+      if (!activeAttempt) {
+        const created = await api<{ id: string }>('/api/attempts', {
+          method: 'POST',
+          body: JSON.stringify({ test_id: testId, mode: roundMode, total: order.length }),
+        });
+        activeAttempt = created.id;
+        setServerAttemptId(created.id);
+      }
+      const result = await api<{ correct: boolean; correct_letter: string }>(`/api/attempts/${activeAttempt}/answers`, {
+        method: 'POST',
+        body: JSON.stringify({ question: questionIndex + 1, selected_letter: letter }),
+      });
+      setSelected(letter);
+      setCorrectLetters((current) => ({ ...current, [String(questionIndex)]: result.correct_letter }));
+      setAttemptAnswers((current) => ({ ...current, [String(questionIndex)]: result.correct }));
+      if (roundMode === 'full') setTicketAnswered(Math.min(position + 1, questions.length));
+      if (result.correct) {
+        setScore((value) => value + 1);
+        if (roundMode === 'full') setTicketCorrect((value) => value + 1);
+      } else {
+        setMistakes((items) => items.includes(questionIndex) ? items : [...items, questionIndex]);
+        if (roundMode === 'full') setTicketWrong((value) => value + 1);
+      }
+      setServerProgress((current) => {
+        const previous = current[String(testId)] ?? { answered: 0, correct: 0, wrong: 0 };
+        return { ...current, [String(testId)]: { answered: previous.answered + 1, correct: previous.correct + (result.correct ? 1 : 0), wrong: previous.wrong + (result.correct ? 0 : 1) } };
+      });
+    } catch (requestError) {
+      setAnswerError(requestError instanceof Error ? requestError.message : 'Не удалось сохранить ответ');
+    } finally {
+      setSubmittingAnswer(false);
     }
   }
 
@@ -611,6 +762,7 @@ export default function App() {
     if (position >= order.length - 1) {
       if (roundMode === 'full') setTicketAnswered(questions.length);
       setFinished(true);
+      if (serverAttemptId) void api(`/api/attempts/${serverAttemptId}/complete`, { method: 'POST' }).catch(() => undefined);
       return;
     }
     setPosition((value) => value + 1);
@@ -642,6 +794,11 @@ export default function App() {
     setAttemptId(createAttemptId());
     setAttemptStartedAt(new Date().toISOString());
     setAttemptAnswers({});
+    if (serverAttemptId && Object.keys(attemptAnswers).length) void api(`/api/attempts/${serverAttemptId}/complete`, { method: 'POST' }).catch(() => undefined);
+    setServerAttemptId(null);
+    setCorrectLetters({});
+    setAnswerError('');
+    setServerStatistics(null);
     setHelpOpen(false);
     setStatisticsOpen(false);
     setMobileHint('');
@@ -677,6 +834,8 @@ export default function App() {
       answers: {},
       history,
       pendingRestart: true,
+      serverAttemptId: null,
+      correctLetters: {},
       updatedAt: new Date().toISOString(),
     };
     writeProgress(next);
@@ -687,6 +846,9 @@ export default function App() {
     if (entry.id === testId && attemptReady && ticketAnswered > 0) {
       return { answered: ticketAnswered, correct: ticketCorrect, wrong: ticketWrong };
     }
+
+    const remote = serverProgress[String(entry.id)];
+    if (remote?.answered) return remote;
 
     const saved = savedProgress[String(entry.id)];
     if (!saved) return { answered: 0, correct: 0, wrong: 0 };
@@ -703,22 +865,6 @@ export default function App() {
     return { answered: 0, correct: 0, wrong: 0 };
   }
 
-  function getStatisticsAttempts() {
-    const current = makeAttemptHistory({
-      attemptId,
-      startedAt: attemptStartedAt,
-      updatedAt: new Date().toISOString(),
-      finished,
-      roundMode,
-      order,
-      answers: attemptAnswers,
-      position,
-      selected,
-      mistakes,
-    });
-    return appendAttempt(attemptHistory, current);
-  }
-
   function showMobileHint(message: string) {
     setMobileHint((current) => current === message ? '' : message);
   }
@@ -726,16 +872,21 @@ export default function App() {
   function openStatistics() {
     setMobileHint('');
     setStatisticsOpen(true);
+    setServerStatistics(null);
+    void api<{ attempts: AttemptHistory[] }>(`/api/tests/${testId}/statistics`)
+      .then((response) => setServerStatistics(response.attempts))
+      .catch(() => setServerStatistics([]));
   }
 
   if (loadError) return <main className="loading error-message">{loadError}</main>;
-  if (!test || !question || !order.length) return <main className="loading">Загружаем билет…</main>;
+  if (!test || !question || !order.length || !catalog.length) return <main className="loading">Загружаем билет…</main>;
 
   const currentEntry = catalog.find((entry) => entry.id === testId) ?? catalog[0];
   const currentStats = getTicketStats(currentEntry);
   const mobileStatusBar = (
     <MobileStatusBar
       testId={testId}
+      entries={catalog}
       stats={currentStats}
       total={questions.length}
       hint={mobileHint}
@@ -746,6 +897,8 @@ export default function App() {
       onRestart={resetTicketProgress}
       onHint={showMobileHint}
       onStatistics={openStatistics}
+      user={user}
+      onLogout={onLogout}
     />
   );
   const statisticsModal = statisticsOpen && (
@@ -755,7 +908,9 @@ export default function App() {
       className="statistics-modal"
       onClose={() => setStatisticsOpen(false)}
     >
-      <StatisticsContent attempts={getStatisticsAttempts()} questionCount={questions.length} />
+      {serverStatistics === null
+        ? <div className="statistics-loading">Загружаем статистику…</div>
+        : <StatisticsContent attempts={serverStatistics} questionCount={questions.length} />}
     </Modal>
   );
 
@@ -824,6 +979,7 @@ export default function App() {
             <div className="score score-wrong" aria-label={`Неверно ${currentStats.wrong}`}><span>Неверно</span><strong>{currentStats.wrong}</strong></div>
           </div>
           <button type="button" className="statistics-button" aria-label="Статистика билета" title="Статистика билета" onClick={openStatistics}><StatsGlyph /></button>
+          <button type="button" className="account-button" aria-label="Выйти" title={`${user.email} · выйти`} onClick={onLogout}>⇥</button>
         </div>
       </header>
 
@@ -850,7 +1006,7 @@ export default function App() {
           <div className="answers">
             {question.answers.map((answer) => {
               const state = answered
-                ? answer.correct
+                ? answer.letter === correctLetter
                   ? 'correct'
                   : answer.letter === selected
                     ? 'wrong'
@@ -861,7 +1017,7 @@ export default function App() {
                   key={answer.letter}
                   className={`answer ${state}`}
                   onClick={() => chooseAnswer(answer.letter)}
-                  disabled={answered}
+                  disabled={answered || submittingAnswer}
                 >
                   <span className="answer-letter">{answer.letter}</span>
                   <BilingualText text={answer.text} />
@@ -870,10 +1026,12 @@ export default function App() {
             })}
           </div>
 
+          {answerError && <p className="answer-error" role="alert">{answerError}</p>}
+
           {answered && (
             <aside className={`feedback ${selectedIsCorrect ? 'success' : 'error'}`} aria-live="polite">
               <div className="feedback-title">
-                <strong>{selectedIsCorrect ? 'Верно' : `Неверно · правильный ответ ${correct?.letter}`}</strong>
+                <strong>{selectedIsCorrect ? 'Верно' : `Неверно · правильный ответ ${correctLetter}`}</strong>
                 <span>{selectedIsCorrect ? '✓' : '!'}</span>
               </div>
             </aside>
@@ -923,4 +1081,25 @@ export default function App() {
       {statisticsModal}
     </>
   );
+}
+
+export default function App() {
+  const [user, setUser] = useState<AuthUser | null>(null);
+  const [checkingSession, setCheckingSession] = useState(true);
+
+  useEffect(() => {
+    api<AuthUser>('/api/auth/me')
+      .then(setUser)
+      .catch(() => setUser(null))
+      .finally(() => setCheckingSession(false));
+  }, []);
+
+  async function logout() {
+    await api('/api/auth/logout', { method: 'POST' }).catch(() => undefined);
+    setUser(null);
+  }
+
+  if (checkingSession) return <main className="loading">Проверяем сессию…</main>;
+  if (!user) return <LoginScreen onAuthenticated={setUser} />;
+  return <TrainerApp user={user} onLogout={logout} />;
 }
