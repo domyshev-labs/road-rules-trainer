@@ -21,6 +21,7 @@ jobs:
       APP_PORT: ${{ vars.ROAD_RULES_PORT || '5050' }}
       BIND_ADDRESS: ${{ vars.ROAD_RULES_BIND_ADDRESS || '127.0.0.1' }}
       IMAGE_NAME: road-rules-trainer:${{ github.sha }}
+      DATA_VOLUME: road-rules-trainer-data
 
     steps:
       - uses: actions/checkout@v6
@@ -60,7 +61,12 @@ jobs:
             --detach \
             --restart unless-stopped \
             --name "$APP_NAME" \
-            --publish "${BIND_ADDRESS}:${APP_PORT}:80" \
+            --publish "${BIND_ADDRESS}:${APP_PORT}:8080" \
+            --volume "${DATA_VOLUME}:/app/data" \
+            --env "SESSION_SECRET=${{ secrets.ROAD_RULES_SESSION_SECRET }}" \
+            --env "EMAIL_MODE=resend" \
+            --env "RESEND_API_KEY=${{ secrets.RESEND_API_KEY }}" \
+            --env "EMAIL_FROM=${{ vars.ROAD_RULES_EMAIL_FROM || 'Road Rules Trainer <login@driving.domyshev.com>' }}" \
             "$IMAGE_NAME"
 
       - name: Verify deployment
