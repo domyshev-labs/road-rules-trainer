@@ -1201,10 +1201,12 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
       <section className="quiz-card">
         <div className="visual-panel">
           <div className="question-number">#{questionIndex + 1}</div>
-          <img
-            src={`/tests/${test.test_id}/q${String(questionIndex + 1).padStart(2, '0')}.jpg`}
-            alt={`Иллюстрация к вопросу ${questionIndex + 1}`}
-          />
+          <div className="visual-media">
+            <img
+              src={`/tests/${test.test_id}/q${String(questionIndex + 1).padStart(2, '0')}.jpg`}
+              alt={`Иллюстрация к вопросу ${questionIndex + 1}`}
+            />
+          </div>
         </div>
 
         <div className="question-panel" ref={questionPanelRef}>
