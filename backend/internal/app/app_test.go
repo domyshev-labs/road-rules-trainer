@@ -104,6 +104,26 @@ func TestPasswordlessQuizFlow(t *testing.T) {
 	if response.Code != http.StatusOK || !strings.Contains(response.Body.String(), `"wrong":1`) || !strings.Contains(response.Body.String(), `"answers":{"0":false}`) {
 		t.Fatalf("statistics: status=%d body=%s", response.Code, response.Body.String())
 	}
+
+	legacyImport := `{"attempts":[{"source_id":"1015:legacy-attempt","test_id":1015,"mode":"full","total":18,"started_at":"2026-09-01T10:00:00Z","ended_at":"2026-09-01T10:05:00Z","completed":false,"answers":{"0":true,"1":false}}]}`
+	response = request(t, handler, http.MethodPost, "/api/progress/import", legacyImport, cookie)
+	if response.Code != http.StatusOK || !strings.Contains(response.Body.String(), `"imported":1`) {
+		t.Fatalf("legacy import: status=%d body=%s", response.Code, response.Body.String())
+	}
+	response = request(t, handler, http.MethodPost, "/api/progress/import", legacyImport, cookie)
+	if response.Code != http.StatusOK || !strings.Contains(response.Body.String(), `"imported":0`) {
+		t.Fatalf("idempotent legacy import: status=%d body=%s", response.Code, response.Body.String())
+	}
+	var importedAttempts, importedAnswers int
+	if err := application.db.QueryRow(`SELECT count(*) FROM attempts WHERE source_id='1015:legacy-attempt'`).Scan(&importedAttempts); err != nil {
+		t.Fatal(err)
+	}
+	if err := application.db.QueryRow(`SELECT count(*) FROM attempt_answers aa JOIN attempts a ON a.id=aa.attempt_id WHERE a.source_id='1015:legacy-attempt'`).Scan(&importedAnswers); err != nil {
+		t.Fatal(err)
+	}
+	if importedAttempts != 1 || importedAnswers != 2 {
+		t.Fatalf("imported legacy data: attempts=%d answers=%d", importedAttempts, importedAnswers)
+	}
 }
 
 func TestProtectedRoutesRequireSession(t *testing.T) {
