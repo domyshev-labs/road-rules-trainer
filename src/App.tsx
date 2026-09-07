@@ -16,6 +16,7 @@ type HelpLanguage = 'ru' | 'es' | 'en';
 type HelpTranslations = { help: Record<string, Record<HelpLanguage, string>> };
 type RoundMode = 'full' | 'mistakes';
 type AnswerHistory = Record<string, boolean>;
+type AttemptAnswerDetail = { selectedLetter: string | null; correctLetter: string; correct: boolean };
 type AttemptHistory = {
   id: string;
   startedAt: string;
@@ -27,6 +28,7 @@ type AttemptHistory = {
   wrong: number;
   total: number;
   answers: AnswerHistory;
+  answerDetails?: Record<string, AttemptAnswerDetail>;
 };
 type SavedProgress = {
   order: number[];
@@ -49,7 +51,14 @@ type SavedProgress = {
   updatedAt: string;
 };
 type ProgressStore = Record<string, SavedProgress>;
-type TicketStats = { answered: number; correct: number; wrong: number };
+type TicketStats = {
+  answered: number;
+  correct: number;
+  wrong: number;
+  total?: number;
+  startedAt?: string;
+  completed?: boolean;
+};
 type LegacyImportAttempt = {
   source_id: string;
   test_id: number;
@@ -173,6 +182,39 @@ function saveMigrationMarker(userID: string) {
   } catch {
     // A completed server import is still safe even if the local marker cannot be saved.
   }
+}
+
+function timestamp(value: string | undefined) {
+  const parsed = value ? Date.parse(value) : Number.NaN;
+  return Number.isFinite(parsed) ? parsed : 0;
+}
+
+function chooseInitialTest(entries: CatalogEntry[], remote: Record<string, TicketStats>, saved: ProgressStore) {
+  const available = new Set(entries.map((entry) => entry.id));
+  const unfinishedLocal = Object.entries(saved)
+    .filter(([storedTestID, progress]) => {
+      if (!available.has(Number(storedTestID)) || progress.pendingRestart || progress.finished || !progress.serverAttemptId) return false;
+      const answered = Object.keys(deriveAnswers(progress)).length;
+      return answered > 0 && answered < progress.order.length;
+    })
+    .sort(([, left], [, right]) => timestamp(right.updatedAt) - timestamp(left.updatedAt))[0];
+  const latestRemote = entries
+    .filter((entry) => (remote[String(entry.id)]?.answered ?? 0) > 0)
+    .sort((left, right) => timestamp(remote[String(right.id)]?.startedAt) - timestamp(remote[String(left.id)]?.startedAt))[0];
+
+  if (unfinishedLocal && timestamp(unfinishedLocal[1].updatedAt) >= timestamp(remote[String(latestRemote?.id)]?.startedAt)) {
+    return Number(unfinishedLocal[0]);
+  }
+  if (latestRemote) {
+    const progress = remote[String(latestRemote.id)];
+    const completed = progress.completed || progress.answered >= (progress.total ?? latestRemote.questions);
+    if (!completed) return latestRemote.id;
+    const completedIndex = entries.findIndex((entry) => entry.id === latestRemote.id);
+    return entries[completedIndex + 1]?.id ?? latestRemote.id;
+  }
+  if (unfinishedLocal) return Number(unfinishedLocal[0]);
+
+  return entries[0]?.id ?? 1001;
 }
 
 function isValidProgress(value: unknown, questionCount: number): value is SavedProgress {
@@ -303,7 +345,62 @@ function Modal({
   );
 }
 
-function StatisticsContent({ attempts, questionCount }: { attempts: AttemptHistory[]; questionCount: number }) {
+function QuestionHistoryDetail({ questionIndex, question, attempts, onClose }: {
+  questionIndex: number;
+  question: Question;
+  attempts: AttemptHistory[];
+  onClose: () => void;
+}) {
+  const panelRef = useRef<HTMLElement>(null);
+  const histories = attempts.flatMap((attempt, index) => {
+    const detail = attempt.answerDetails?.[String(questionIndex)];
+    return detail ? [{ attempt, attemptNumber: index + 1, detail }] : [];
+  });
+  const [attemptID, setAttemptID] = useState(() => histories.at(-1)?.attempt.id ?? '');
+  const selected = histories.find((history) => history.attempt.id === attemptID) ?? histories.at(-1);
+
+  useEffect(() => {
+    panelRef.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }, []);
+
+  if (!selected) return null;
+  return (
+    <section className="question-history-detail" ref={panelRef} aria-label={`Детали вопроса ${questionIndex + 1}`}>
+      <header>
+        <div><span>Вопрос {questionIndex + 1}</span><strong>{selected.detail.correct ? 'Ответ верный' : 'Допущена ошибка'}</strong></div>
+        <button type="button" aria-label="Закрыть детали вопроса" onClick={onClose}>×</button>
+      </header>
+      {histories.length > 1 && (
+        <div className="question-attempt-tabs" aria-label="Выбор прохождения">
+          {[...histories].reverse().map((history) => (
+            <button key={history.attempt.id} type="button" className={history.attempt.id === selected.attempt.id ? 'active' : ''} onClick={() => setAttemptID(history.attempt.id)}>
+              Попытка {history.attemptNumber} {history.detail.correct ? '✓' : '!'}
+            </button>
+          ))}
+        </div>
+      )}
+      <h4><BilingualText text={question.question} /></h4>
+      <div className="question-history-answers">
+        {question.answers.map((answer) => {
+          const isCorrect = answer.letter === selected.detail.correctLetter;
+          const isSelected = answer.letter === selected.detail.selectedLetter;
+          return (
+            <div className={`${isCorrect ? 'correct' : ''} ${isSelected && !isCorrect ? 'selected-wrong' : ''}`} key={answer.letter}>
+              <span className="question-history-letter">{answer.letter}</span>
+              <BilingualText text={answer.text} />
+              {(isCorrect || isSelected) && <em>{isCorrect ? isSelected ? 'Ваш ответ · верно' : 'Правильный ответ' : 'Ваш ответ'}</em>}
+            </div>
+          );
+        })}
+      </div>
+      {selected.detail.selectedLetter === null && <p className="legacy-answer-note">Для этого импортированного ответа выбранный вариант не сохранился. Правильный вариант показан выше.</p>}
+    </section>
+  );
+}
+
+function StatisticsContent({ attempts, questions }: { attempts: AttemptHistory[]; questions: Question[] }) {
+  const [selectedQuestion, setSelectedQuestion] = useState<number | null>(null);
+  const questionCount = questions.length;
   const totals = attempts.reduce(
     (result, attempt) => ({
       answered: result.answered + attempt.answered,
@@ -357,14 +454,23 @@ function StatisticsContent({ attempts, questionCount }: { attempts: AttemptHisto
         <h3>По вопросам</h3>
         <div className="question-statistics">
           {questionStats.map((item) => (
-            <article className={item.attempts ? '' : 'empty'} key={item.question}>
+            <button type="button" disabled={!item.attempts} onClick={() => setSelectedQuestion(item.question - 1)} className={item.attempts ? '' : 'empty'} key={item.question}>
               <strong>#{item.question}</strong>
               <span>{item.attempts ? `${item.attempts} отв.` : '—'}</span>
               <span className="attempt-correct">👍 {item.correct}</span>
               <span className="attempt-wrong">👎 {item.wrong}</span>
-            </article>
+            </button>
           ))}
         </div>
+        {selectedQuestion !== null && (
+          <QuestionHistoryDetail
+            key={selectedQuestion}
+            questionIndex={selectedQuestion}
+            question={questions[selectedQuestion]}
+            attempts={attempts}
+            onClose={() => setSelectedQuestion(null)}
+          />
+        )}
       </section>
     </>
   );
@@ -646,6 +752,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   const [answerError, setAnswerError] = useState('');
   const [serverStatistics, setServerStatistics] = useState<AttemptHistory[] | null>(null);
   const [serverProgress, setServerProgress] = useState<Record<string, TicketStats>>({});
+  const [initialTestReady, setInitialTestReady] = useState(false);
 
   useEffect(() => {
     document.documentElement.classList.add('trainer-viewport');
@@ -653,6 +760,26 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   }, []);
 
   useEffect(() => {
+    let active = true;
+    void Promise.all([
+      api<CatalogEntry[]>('/api/catalog'),
+      api<Record<string, TicketStats>>('/api/progress'),
+    ]).then(([remoteCatalog, remoteProgress]) => {
+      if (!active) return;
+      const persisted = readProgress();
+      setCatalog(remoteCatalog);
+      setServerProgress(remoteProgress);
+      setSavedProgress(persisted);
+      setTestId(chooseInitialTest(remoteCatalog, remoteProgress, persisted));
+      setInitialTestReady(true);
+    }).catch(() => {
+      if (active) setLoadError('Не удалось загрузить прогресс. Обновите страницу.');
+    });
+    return () => { active = false; };
+  }, []);
+
+  useEffect(() => {
+    if (!initialTestReady) return;
     let active = true;
     async function loadTest() {
       try {
@@ -672,8 +799,9 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
 
         if (isValidProgress(saved, loaded.questions.length) && !saved.pendingRestart && saved.serverAttemptId) {
           setOrder(saved.order);
-          setPosition(saved.position);
-          setSelected(saved.selected);
+          const advancePastAnswered = saved.selected !== null && saved.position < saved.order.length - 1;
+          setPosition(advancePastAnswered ? saved.position + 1 : saved.position);
+          setSelected(advancePastAnswered ? null : saved.selected);
           setScore(saved.score);
           setMistakes(saved.mistakes);
           setFinished(saved.finished);
@@ -725,7 +853,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
 
     loadTest();
     return () => { active = false; };
-  }, [testId]);
+  }, [initialTestReady, testId]);
 
   useEffect(() => {
     if (!attemptReady || !test || !order.length) return;
@@ -991,7 +1119,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
     >
       {serverStatistics === null
         ? <div className="statistics-loading">Загружаем статистику…</div>
-        : <StatisticsContent attempts={serverStatistics} questionCount={questions.length} />}
+        : <StatisticsContent attempts={serverStatistics} questions={questions} />}
     </Modal>
   );
 

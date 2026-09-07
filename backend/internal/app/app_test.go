@@ -101,7 +101,7 @@ func TestPasswordlessQuizFlow(t *testing.T) {
 	}
 
 	response = request(t, handler, http.MethodGet, "/api/tests/1015/statistics", "", cookie)
-	if response.Code != http.StatusOK || !strings.Contains(response.Body.String(), `"wrong":1`) || !strings.Contains(response.Body.String(), `"answers":{"0":false}`) {
+	if response.Code != http.StatusOK || !strings.Contains(response.Body.String(), `"wrong":1`) || !strings.Contains(response.Body.String(), `"answers":{"0":false}`) || !strings.Contains(response.Body.String(), `"selectedLetter":"A"`) || !strings.Contains(response.Body.String(), `"correctLetter":"C"`) {
 		t.Fatalf("statistics: status=%d body=%s", response.Code, response.Body.String())
 	}
 
@@ -121,11 +121,18 @@ func TestPasswordlessQuizFlow(t *testing.T) {
 		t.Fatalf("correction attempt leaked into statistics: status=%d body=%s", response.Code, response.Body.String())
 	}
 	response = request(t, handler, http.MethodGet, "/api/progress", "", cookie)
-	var progress map[string]map[string]int
+	var progress map[string]struct {
+		Answered  int    `json:"answered"`
+		Correct   int    `json:"correct"`
+		Wrong     int    `json:"wrong"`
+		Total     int    `json:"total"`
+		StartedAt string `json:"startedAt"`
+		Completed bool   `json:"completed"`
+	}
 	if response.Code != http.StatusOK || json.Unmarshal(response.Body.Bytes(), &progress) != nil {
 		t.Fatalf("progress after correction: status=%d body=%s", response.Code, response.Body.String())
 	}
-	if got := progress["1015"]; got["answered"] != 1 || got["correct"] != 0 || got["wrong"] != 1 {
+	if got := progress["1015"]; got.Answered != 1 || got.Correct != 0 || got.Wrong != 1 || got.Total != 18 || got.StartedAt == "" || got.Completed {
 		t.Fatalf("correction attempt changed progress: %#v", got)
 	}
 

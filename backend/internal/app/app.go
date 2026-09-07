@@ -405,17 +405,23 @@ func (app *App) statistics(w http.ResponseWriter, r *http.Request) {
 		app.writeError(w, 400, "Некорректный билет")
 		return
 	}
+	type attemptAnswerDetail struct {
+		SelectedLetter *string `json:"selectedLetter"`
+		CorrectLetter  string  `json:"correctLetter"`
+		Correct        bool    `json:"correct"`
+	}
 	type attemptStatistics struct {
-		ID        string          `json:"id"`
-		Mode      string          `json:"mode"`
-		Total     int             `json:"total"`
-		StartedAt string          `json:"startedAt"`
-		EndedAt   string          `json:"endedAt"`
-		Completed bool            `json:"completed"`
-		Answered  int             `json:"answered"`
-		Correct   int             `json:"correct"`
-		Wrong     int             `json:"wrong"`
-		Answers   map[string]bool `json:"answers"`
+		ID            string                         `json:"id"`
+		Mode          string                         `json:"mode"`
+		Total         int                            `json:"total"`
+		StartedAt     string                         `json:"startedAt"`
+		EndedAt       string                         `json:"endedAt"`
+		Completed     bool                           `json:"completed"`
+		Answered      int                            `json:"answered"`
+		Correct       int                            `json:"correct"`
+		Wrong         int                            `json:"wrong"`
+		Answers       map[string]bool                `json:"answers"`
+		AnswerDetails map[string]attemptAnswerDetail `json:"answerDetails"`
 	}
 	rows, err := app.db.Query(`SELECT at.id,at.mode,at.total,at.started_at,at.completed_at,count(aa.question_id),coalesce(sum(aa.correct),0) FROM attempts at LEFT JOIN attempt_answers aa ON aa.attempt_id=at.id WHERE at.user_id=? AND at.test_id=? AND at.mode='full' GROUP BY at.id ORDER BY at.started_at`, current.ID, testID)
 	if err != nil {
@@ -437,13 +443,13 @@ func (app *App) statistics(w http.ResponseWriter, r *http.Request) {
 		if endedAt == "" {
 			endedAt = started
 		}
-		attempts = append(attempts, attemptStatistics{ID: id, Mode: mode, Total: total, StartedAt: started, EndedAt: endedAt, Completed: completed.Valid, Answered: answered, Correct: correct, Wrong: answered - correct, Answers: make(map[string]bool)})
+		attempts = append(attempts, attemptStatistics{ID: id, Mode: mode, Total: total, StartedAt: started, EndedAt: endedAt, Completed: completed.Valid, Answered: answered, Correct: correct, Wrong: answered - correct, Answers: make(map[string]bool), AnswerDetails: make(map[string]attemptAnswerDetail)})
 	}
 	rows.Close()
 	for index := range attempts {
 		attemptByID[attempts[index].ID] = &attempts[index]
 	}
-	answerRows, err := app.db.Query(`SELECT aa.attempt_id,q.ordinal,aa.correct FROM attempt_answers aa JOIN attempts at ON at.id=aa.attempt_id JOIN questions q ON q.id=aa.question_id WHERE at.user_id=? AND at.test_id=? AND at.mode='full'`, current.ID, testID)
+	answerRows, err := app.db.Query(`SELECT aa.attempt_id,q.ordinal,aa.selected_letter,correct_answer.letter,aa.correct FROM attempt_answers aa JOIN attempts at ON at.id=aa.attempt_id JOIN questions q ON q.id=aa.question_id JOIN answers correct_answer ON correct_answer.question_id=q.id AND correct_answer.correct=1 WHERE at.user_id=? AND at.test_id=? AND at.mode='full'`, current.ID, testID)
 	if err != nil {
 		app.serverError(w, err)
 		return
@@ -451,14 +457,22 @@ func (app *App) statistics(w http.ResponseWriter, r *http.Request) {
 	for answerRows.Next() {
 		var attemptID string
 		var ordinal int
+		var selectedLetter, correctLetter string
 		var correct bool
-		if err := answerRows.Scan(&attemptID, &ordinal, &correct); err != nil {
+		if err := answerRows.Scan(&attemptID, &ordinal, &selectedLetter, &correctLetter, &correct); err != nil {
 			answerRows.Close()
 			app.serverError(w, err)
 			return
 		}
 		if attempt := attemptByID[attemptID]; attempt != nil {
-			attempt.Answers[strconv.Itoa(ordinal-1)] = correct
+			questionKey := strconv.Itoa(ordinal - 1)
+			attempt.Answers[questionKey] = correct
+			var selected *string
+			if selectedLetter != "?" {
+				selectedValue := selectedLetter
+				selected = &selectedValue
+			}
+			attempt.AnswerDetails[questionKey] = attemptAnswerDetail{SelectedLetter: selected, CorrectLetter: correctLetter, Correct: correct}
 		}
 	}
 	answerRows.Close()
@@ -482,20 +496,30 @@ func (app *App) statistics(w http.ResponseWriter, r *http.Request) {
 
 func (app *App) progress(w http.ResponseWriter, r *http.Request) {
 	current := r.Context().Value(userContextKey).(user)
-	rows, err := app.db.Query(`SELECT at.test_id,count(aa.question_id),coalesce(sum(aa.correct),0) FROM attempts at LEFT JOIN attempt_answers aa ON aa.attempt_id=at.id WHERE at.user_id=? AND at.mode='full' AND at.started_at=(SELECT max(newest.started_at) FROM attempts newest WHERE newest.user_id=at.user_id AND newest.test_id=at.test_id AND newest.mode='full') GROUP BY at.id`, current.ID)
+	rows, err := app.db.Query(`SELECT at.test_id,at.total,at.started_at,at.completed_at IS NOT NULL,count(aa.question_id),coalesce(sum(aa.correct),0) FROM attempts at LEFT JOIN attempt_answers aa ON aa.attempt_id=at.id WHERE at.user_id=? AND at.mode='full' AND at.started_at=(SELECT max(newest.started_at) FROM attempts newest WHERE newest.user_id=at.user_id AND newest.test_id=at.test_id AND newest.mode='full') GROUP BY at.id`, current.ID)
 	if err != nil {
 		app.serverError(w, err)
 		return
 	}
 	defer rows.Close()
-	items := make(map[string]map[string]int)
+	type progressItem struct {
+		Answered  int    `json:"answered"`
+		Correct   int    `json:"correct"`
+		Wrong     int    `json:"wrong"`
+		Total     int    `json:"total"`
+		StartedAt string `json:"startedAt"`
+		Completed bool   `json:"completed"`
+	}
+	items := make(map[string]progressItem)
 	for rows.Next() {
-		var id, answered, correct int
-		if err := rows.Scan(&id, &answered, &correct); err != nil {
+		var id, total, answered, correct int
+		var startedAt string
+		var completed bool
+		if err := rows.Scan(&id, &total, &startedAt, &completed, &answered, &correct); err != nil {
 			app.serverError(w, err)
 			return
 		}
-		items[strconv.Itoa(id)] = map[string]int{"answered": answered, "correct": correct, "wrong": answered - correct}
+		items[strconv.Itoa(id)] = progressItem{Answered: answered, Correct: correct, Wrong: answered - correct, Total: total, StartedAt: startedAt, Completed: completed}
 	}
 	app.writeJSON(w, http.StatusOK, items)
 }
