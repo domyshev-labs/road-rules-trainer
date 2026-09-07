@@ -417,7 +417,7 @@ func (app *App) statistics(w http.ResponseWriter, r *http.Request) {
 		Wrong     int             `json:"wrong"`
 		Answers   map[string]bool `json:"answers"`
 	}
-	rows, err := app.db.Query(`SELECT at.id,at.mode,at.total,at.started_at,at.completed_at,count(aa.question_id),coalesce(sum(aa.correct),0) FROM attempts at LEFT JOIN attempt_answers aa ON aa.attempt_id=at.id WHERE at.user_id=? AND at.test_id=? GROUP BY at.id ORDER BY at.started_at`, current.ID, testID)
+	rows, err := app.db.Query(`SELECT at.id,at.mode,at.total,at.started_at,at.completed_at,count(aa.question_id),coalesce(sum(aa.correct),0) FROM attempts at LEFT JOIN attempt_answers aa ON aa.attempt_id=at.id WHERE at.user_id=? AND at.test_id=? AND at.mode='full' GROUP BY at.id ORDER BY at.started_at`, current.ID, testID)
 	if err != nil {
 		app.serverError(w, err)
 		return
@@ -443,7 +443,7 @@ func (app *App) statistics(w http.ResponseWriter, r *http.Request) {
 	for index := range attempts {
 		attemptByID[attempts[index].ID] = &attempts[index]
 	}
-	answerRows, err := app.db.Query(`SELECT aa.attempt_id,q.ordinal,aa.correct FROM attempt_answers aa JOIN attempts at ON at.id=aa.attempt_id JOIN questions q ON q.id=aa.question_id WHERE at.user_id=? AND at.test_id=?`, current.ID, testID)
+	answerRows, err := app.db.Query(`SELECT aa.attempt_id,q.ordinal,aa.correct FROM attempt_answers aa JOIN attempts at ON at.id=aa.attempt_id JOIN questions q ON q.id=aa.question_id WHERE at.user_id=? AND at.test_id=? AND at.mode='full'`, current.ID, testID)
 	if err != nil {
 		app.serverError(w, err)
 		return
@@ -462,7 +462,7 @@ func (app *App) statistics(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 	answerRows.Close()
-	questionRows, err := app.db.Query(`SELECT q.ordinal,count(aa.question_id),coalesce(sum(aa.correct),0) FROM questions q LEFT JOIN attempt_answers aa ON aa.question_id=q.id AND EXISTS(SELECT 1 FROM attempts own WHERE own.id=aa.attempt_id AND own.user_id=?) WHERE q.test_id=? GROUP BY q.id ORDER BY q.ordinal`, current.ID, testID)
+	questionRows, err := app.db.Query(`SELECT q.ordinal,count(aa.question_id),coalesce(sum(aa.correct),0) FROM questions q LEFT JOIN attempt_answers aa ON aa.question_id=q.id AND EXISTS(SELECT 1 FROM attempts own WHERE own.id=aa.attempt_id AND own.user_id=? AND own.mode='full') WHERE q.test_id=? GROUP BY q.id ORDER BY q.ordinal`, current.ID, testID)
 	if err != nil {
 		app.serverError(w, err)
 		return
@@ -482,7 +482,7 @@ func (app *App) statistics(w http.ResponseWriter, r *http.Request) {
 
 func (app *App) progress(w http.ResponseWriter, r *http.Request) {
 	current := r.Context().Value(userContextKey).(user)
-	rows, err := app.db.Query(`SELECT at.test_id,count(aa.question_id),coalesce(sum(aa.correct),0) FROM attempts at LEFT JOIN attempt_answers aa ON aa.attempt_id=at.id WHERE at.user_id=? AND at.started_at=(SELECT max(newest.started_at) FROM attempts newest WHERE newest.user_id=at.user_id AND newest.test_id=at.test_id) GROUP BY at.id`, current.ID)
+	rows, err := app.db.Query(`SELECT at.test_id,count(aa.question_id),coalesce(sum(aa.correct),0) FROM attempts at LEFT JOIN attempt_answers aa ON aa.attempt_id=at.id WHERE at.user_id=? AND at.mode='full' AND at.started_at=(SELECT max(newest.started_at) FROM attempts newest WHERE newest.user_id=at.user_id AND newest.test_id=at.test_id AND newest.mode='full') GROUP BY at.id`, current.ID)
 	if err != nil {
 		app.serverError(w, err)
 		return

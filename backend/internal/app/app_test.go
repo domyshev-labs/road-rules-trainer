@@ -105,6 +105,30 @@ func TestPasswordlessQuizFlow(t *testing.T) {
 		t.Fatalf("statistics: status=%d body=%s", response.Code, response.Body.String())
 	}
 
+	response = request(t, handler, http.MethodPost, "/api/attempts", `{"test_id":1015,"mode":"mistakes","total":1}`, cookie)
+	var correctionAttempt struct {
+		ID string `json:"id"`
+	}
+	if response.Code != http.StatusCreated || json.Unmarshal(response.Body.Bytes(), &correctionAttempt) != nil || correctionAttempt.ID == "" {
+		t.Fatalf("create correction attempt: status=%d body=%s", response.Code, response.Body.String())
+	}
+	response = request(t, handler, http.MethodPost, "/api/attempts/"+correctionAttempt.ID+"/answers", `{"question":1,"selected_letter":"C"}`, cookie)
+	if response.Code != http.StatusOK || !strings.Contains(response.Body.String(), `"correct":true`) {
+		t.Fatalf("correction answer: status=%d body=%s", response.Code, response.Body.String())
+	}
+	response = request(t, handler, http.MethodGet, "/api/tests/1015/statistics", "", cookie)
+	if response.Code != http.StatusOK || strings.Contains(response.Body.String(), `"mode":"mistakes"`) || !strings.Contains(response.Body.String(), `"answered":1,"correct":0,"wrong":1`) {
+		t.Fatalf("correction attempt leaked into statistics: status=%d body=%s", response.Code, response.Body.String())
+	}
+	response = request(t, handler, http.MethodGet, "/api/progress", "", cookie)
+	var progress map[string]map[string]int
+	if response.Code != http.StatusOK || json.Unmarshal(response.Body.Bytes(), &progress) != nil {
+		t.Fatalf("progress after correction: status=%d body=%s", response.Code, response.Body.String())
+	}
+	if got := progress["1015"]; got["answered"] != 1 || got["correct"] != 0 || got["wrong"] != 1 {
+		t.Fatalf("correction attempt changed progress: %#v", got)
+	}
+
 	legacyImport := `{"attempts":[{"source_id":"1015:legacy-attempt","test_id":1015,"mode":"full","total":18,"started_at":"2026-09-01T10:00:00Z","ended_at":"2026-09-01T10:05:00Z","completed":false,"answers":{"0":true,"1":false}}]}`
 	response = request(t, handler, http.MethodPost, "/api/progress/import", legacyImport, cookie)
 	if response.Code != http.StatusOK || !strings.Contains(response.Body.String(), `"imported":1`) {

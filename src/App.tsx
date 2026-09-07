@@ -648,6 +648,11 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   const [serverProgress, setServerProgress] = useState<Record<string, TicketStats>>({});
 
   useEffect(() => {
+    document.documentElement.classList.add('trainer-viewport');
+    return () => document.documentElement.classList.remove('trainer-viewport');
+  }, []);
+
+  useEffect(() => {
     let active = true;
     async function loadTest() {
       try {
@@ -821,10 +826,12 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
         setMistakes((items) => items.includes(questionIndex) ? items : [...items, questionIndex]);
         if (roundMode === 'full') setTicketWrong((value) => value + 1);
       }
-      setServerProgress((current) => {
-        const previous = current[String(testId)] ?? { answered: 0, correct: 0, wrong: 0 };
-        return { ...current, [String(testId)]: { answered: previous.answered + 1, correct: previous.correct + (result.correct ? 1 : 0), wrong: previous.wrong + (result.correct ? 0 : 1) } };
-      });
+      if (roundMode === 'full') {
+        setServerProgress((current) => {
+          const previous = current[String(testId)] ?? { answered: 0, correct: 0, wrong: 0 };
+          return { ...current, [String(testId)]: { answered: previous.answered + 1, correct: previous.correct + (result.correct ? 1 : 0), wrong: previous.wrong + (result.correct ? 0 : 1) } };
+        });
+      }
     } catch (requestError) {
       setAnswerError(requestError instanceof Error ? requestError.message : 'Не удалось сохранить ответ');
     } finally {
