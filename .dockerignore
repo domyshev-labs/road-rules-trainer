@@ -1,8 +1,15 @@
 .git
 .github
+.cache
 .next
+.vinext
 .wrangler
+data
 dist
 node_modules
+server
+*.db
+*.db-shm
+*.db-wal
 npm-debug.log*
 .DS_Store
