@@ -553,7 +553,7 @@ func (app *App) importProgress(w http.ResponseWriter, r *http.Request) {
 		if attempt.Completed {
 			completed = endedAt.Format(time.RFC3339Nano)
 		}
-		result, err := tx.Exec(`INSERT INTO attempts(id,source_id,user_id,test_id,mode,total,started_at,completed_at) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(user_id,source_id) DO NOTHING`, id, attempt.SourceID, current.ID, attempt.TestID, attempt.Mode, attempt.Total, startedAt.Format(time.RFC3339Nano), completed)
+		result, err := tx.Exec(`INSERT INTO attempts(id,source_id,user_id,test_id,mode,total,started_at,completed_at) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(user_id,source_id) WHERE source_id IS NOT NULL DO NOTHING`, id, attempt.SourceID, current.ID, attempt.TestID, attempt.Mode, attempt.Total, startedAt.Format(time.RFC3339Nano), completed)
 		if err != nil {
 			app.serverError(w, err)
 			return
