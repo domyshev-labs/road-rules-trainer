@@ -1104,11 +1104,17 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
           {answered && (
             <aside className={`feedback ${selectedIsCorrect ? 'success' : 'error'}`} aria-live="polite">
               <div className="feedback-title">
-                <strong>{selectedIsCorrect ? 'Верно' : `Неверно · правильный ответ ${correctLetter}`}</strong>
-                <div className="feedback-actions">
-                  <button type="button" className="feedback-help-button" aria-label="Открыть объяснение" title="Ayuda · объяснение" onClick={() => setHelpOpen(true)}>?</button>
+                <div className="feedback-outcome">
                   <span>{selectedIsCorrect ? '✓' : '!'}</span>
+                  <strong>{selectedIsCorrect ? 'Верно' : `Неверно · правильный ответ ${correctLetter}`}</strong>
                 </div>
+                <button type="button" className="feedback-help-button" aria-label="Открыть объяснение" title="Ayuda · объяснение" onClick={() => setHelpOpen(true)}>
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="9" />
+                    <path d="M12 10.8v6" />
+                    <path d="M12 7.4h.01" />
+                  </svg>
+                </button>
               </div>
             </aside>
           )}
