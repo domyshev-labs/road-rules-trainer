@@ -247,15 +247,6 @@ function isValidProgress(value: unknown, questionCount: number): value is SavedP
   );
 }
 
-function shuffle(values: number[]) {
-  const copy = [...values];
-  for (let i = copy.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
-
 function BilingualText({ text }: { text: string }) {
   const [spanish = '', ...englishParts] = text.split('\n');
   return (
@@ -798,10 +789,14 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
         setAttemptHistory(Array.isArray(saved?.history) ? saved.history : []);
 
         if (isValidProgress(saved, loaded.questions.length) && !saved.pendingRestart && saved.serverAttemptId) {
-          setOrder(saved.order);
-          const advancePastAnswered = saved.selected !== null && saved.position < saved.order.length - 1;
-          setPosition(advancePastAnswered ? saved.position + 1 : saved.position);
-          setSelected(advancePastAnswered ? null : saved.selected);
+          const answers = deriveAnswers(saved);
+          const normalizedOrder = saved.roundMode === 'mistakes'
+            ? [...saved.order].sort((left, right) => left - right)
+            : loaded.questions.map((_, index) => index);
+          const firstUnanswered = normalizedOrder.findIndex((questionIndex) => !(String(questionIndex) in answers));
+          setOrder(normalizedOrder);
+          setPosition(saved.finished ? normalizedOrder.length - 1 : firstUnanswered >= 0 ? firstUnanswered : normalizedOrder.length - 1);
+          setSelected(null);
           setScore(saved.score);
           setMistakes(saved.mistakes);
           setFinished(saved.finished);
@@ -819,11 +814,11 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
           );
           setAttemptId(saved.attemptId ?? createAttemptId());
           setAttemptStartedAt(saved.startedAt ?? saved.updatedAt);
-          setAttemptAnswers(deriveAnswers(saved));
+          setAttemptAnswers(answers);
           setServerAttemptId(saved.serverAttemptId ?? null);
           setCorrectLetters(saved.correctLetters ?? {});
         } else {
-          setOrder(shuffle(loaded.questions.map((_, index) => index)));
+          setOrder(loaded.questions.map((_, index) => index));
           setPosition(0);
           setSelected(null);
           setScore(0);
@@ -920,9 +915,10 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   const answered = selected !== null;
   const selectedIsCorrect = attemptAnswers[String(questionIndex)] ?? false;
   const correctLetter = correctLetters[String(questionIndex)];
+  const hasNextQuestion = order.some((candidate, index) => index > position && !(String(candidate) in attemptAnswers));
   const progress = useMemo(
-    () => order.length ? Math.round(((position + (answered ? 1 : 0)) / order.length) * 100) : 0,
-    [answered, order.length, position],
+    () => order.length ? Math.round((Object.keys(attemptAnswers).length / order.length) * 100) : 0,
+    [attemptAnswers, order.length],
   );
 
   async function chooseAnswer(letter: string) {
@@ -968,13 +964,14 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   }
 
   function nextQuestion() {
-    if (position >= order.length - 1) {
+    const nextPosition = order.findIndex((questionIndex, index) => index > position && !(String(questionIndex) in attemptAnswers));
+    if (nextPosition < 0) {
       if (roundMode === 'full') setTicketAnswered(questions.length);
       setFinished(true);
       if (serverAttemptId) void api(`/api/attempts/${serverAttemptId}/complete`, { method: 'POST' }).catch(() => undefined);
       return;
     }
-    setPosition((value) => value + 1);
+    setPosition(nextPosition);
     setSelected(null);
     setHelpOpen(false);
   }
@@ -993,7 +990,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
       mistakes,
     });
     setAttemptHistory((current) => appendAttempt(current, archived));
-    setOrder(shuffle(nextOrder));
+    setOrder([...nextOrder].sort((left, right) => left - right));
     setPosition(0);
     setSelected(null);
     setScore(0);
@@ -1135,7 +1132,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
             <strong>{score}/{order.length}</strong><span>{percent}%</span>
           </div>
           <h1>{percent >= 90 ? 'Отличный результат' : percent >= 70 ? 'Хорошая работа' : 'Продолжим тренировку'}</h1>
-          <p>Ошибок: {mistakes.length}. Вопросы можно пройти заново в другом порядке.</p>
+          <p>Ошибок: {mistakes.length}. Билет можно пройти ещё раз.</p>
           <TicketMenu
             value={testId}
             entries={catalog}
@@ -1259,7 +1256,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
           <div className="controls">
             <button className="shuffle-button" onClick={() => resetTicketProgress(testId)}>↻ Начать заново</button>
             <button className="primary next" onClick={nextQuestion} disabled={!answered}>
-              {position === order.length - 1 ? 'Результат' : 'Следующий вопрос'} →
+              {hasNextQuestion ? 'Следующий вопрос' : 'Результат'} →
             </button>
           </div>
         </div>
