@@ -482,7 +482,6 @@ function TicketMenu({
 }) {
   const [open, setOpen] = useState(false);
   const active = entries.find((entry) => entry.id === value) ?? entries[0];
-  const activeStats = getStats(active);
 
   return (
     <div className="ticket-menu-shell">
@@ -498,7 +497,6 @@ function TicketMenu({
             <strong>{active.id}</strong><i>—</i><span>{active.title}</span>
           </span>
         </span>
-        <span className="ticket-menu-trigger-progress">{activeStats.answered}/{active.questions}</span>
         <span className="ticket-menu-chevron" aria-hidden="true">⌄</span>
       </button>
 
