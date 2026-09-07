@@ -66,7 +66,7 @@ jobs:
             --env "SESSION_SECRET=${{ secrets.ROAD_RULES_SESSION_SECRET }}" \
             --env "EMAIL_MODE=resend" \
             --env "RESEND_API_KEY=${{ secrets.RESEND_API_KEY }}" \
-            --env "EMAIL_FROM=${{ vars.ROAD_RULES_EMAIL_FROM || 'Road Rules Trainer <login@driving.domyshev.com>' }}" \
+            --env "EMAIL_FROM=${{ vars.ROAD_RULES_EMAIL_FROM || 'Road Rules Trainer <login@mail.domyshev.com>' }}" \
             "$IMAGE_NAME"
 
       - name: Verify deployment

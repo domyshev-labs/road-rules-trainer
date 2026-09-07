@@ -15,6 +15,11 @@ In production, codes are transactional emails sent through Resend. The free
 plan currently permits 3,000 emails per month and 100 per day. Development uses
 the local log sender and never calls an external service.
 
+Legacy browser history is never uploaded silently. If meaningful LocalStorage
+attempts exist, the frontend blocks access after login until the user explicitly
+confirms the transfer. Successful imports are marked per user and browser;
+`source_id` makes retries idempotent, and local data is not deleted.
+
 ## Main API
 
 | Method | Endpoint | Purpose |
