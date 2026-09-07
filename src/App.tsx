@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 type Answer = { letter: string; text: string; correct?: boolean };
 type Question = {
@@ -614,6 +614,7 @@ function MigrationGate({ user, onLogout }: { user: AuthUser; onLogout: () => voi
 }
 
 function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }) {
+  const questionPanelRef = useRef<HTMLDivElement>(null);
   const [testId, setTestId] = useState(1015);
   const [catalog, setCatalog] = useState<CatalogEntry[]>([]);
   const [savedProgress, setSavedProgress] = useState<ProgressStore>(() => readProgress());
@@ -747,6 +748,10 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
 
     writeProgress({ ...readProgress(), [String(testId)]: progress });
   }, [attemptAnswers, attemptHistory, attemptId, attemptReady, attemptStartedAt, correctLetters, finished, mistakes, order, position, roundMode, score, selected, serverAttemptId, test, testId, ticketAnswered, ticketCorrect, ticketWrong]);
+
+  useEffect(() => {
+    questionPanelRef.current?.scrollTo({ top: 0 });
+  }, [position, roundMode, testId]);
 
   function selectTest(nextTestId: number) {
     const entry = catalog.find((item) => item.id === nextTestId);
@@ -1067,10 +1072,9 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
           />
         </div>
 
-        <div className="question-panel">
+        <div className="question-panel" ref={questionPanelRef}>
           <div className="question-heading-row">
             <h2><BilingualText text={question.question} /></h2>
-            <button type="button" className="help-button" aria-label="Открыть объяснение" title="Ayuda · объяснение" onClick={() => setHelpOpen(true)}>?</button>
           </div>
           <div className="answers">
             {question.answers.map((answer) => {
@@ -1101,7 +1105,10 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
             <aside className={`feedback ${selectedIsCorrect ? 'success' : 'error'}`} aria-live="polite">
               <div className="feedback-title">
                 <strong>{selectedIsCorrect ? 'Верно' : `Неверно · правильный ответ ${correctLetter}`}</strong>
-                <span>{selectedIsCorrect ? '✓' : '!'}</span>
+                <div className="feedback-actions">
+                  <button type="button" className="feedback-help-button" aria-label="Открыть объяснение" title="Ayuda · объяснение" onClick={() => setHelpOpen(true)}>?</button>
+                  <span>{selectedIsCorrect ? '✓' : '!'}</span>
+                </div>
               </div>
             </aside>
           )}
