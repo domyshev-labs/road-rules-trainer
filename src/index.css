@@ -79,11 +79,12 @@ button { font:inherit; }
 .feedback { margin-top:18px; padding:18px 20px; border-radius:17px; }
 .feedback.success { background:#e9f7f0; border:1px solid #acd7c2; }
 .feedback.error { background:#fff1ef; border:1px solid #edbbb5; }
-.feedback-title { display:flex; align-items:center; justify-content:space-between; }
-.feedback-title span { display:grid; place-items:center; width:26px; height:26px; border-radius:50%; color:white; background:var(--green); font-weight:900; }
-.feedback.error .feedback-title span { background:var(--red); }
-.feedback-actions { display:flex; align-items:center; gap:9px; }
-.feedback-help-button { display:grid; place-items:center; width:34px; height:34px; padding:0; border:1px solid rgba(169,86,63,.38); border-radius:11px; color:#7e3e2d; background:linear-gradient(145deg,#f5ddbf,var(--sand)); cursor:pointer; font-family:Georgia,serif; font-size:1.05rem; font-weight:900; box-shadow:0 5px 13px rgba(126,62,45,.14); }
+.feedback-title { display:flex; align-items:center; justify-content:space-between; gap:14px; }
+.feedback-outcome { display:flex; align-items:center; gap:10px; min-width:0; }
+.feedback-outcome>span { display:grid; place-items:center; flex:none; width:26px; height:26px; border-radius:50%; color:white; background:var(--green); font-weight:900; }
+.feedback.error .feedback-outcome>span { background:var(--red); }
+.feedback-help-button { display:grid; place-items:center; flex:none; width:36px; height:36px; padding:0; border:1px solid rgba(147,65,42,.58); border-radius:11px; color:#713522; background:linear-gradient(145deg,#f1c894,#dda171); cursor:pointer; box-shadow:0 6px 15px rgba(126,62,45,.2); }
+.feedback-help-button svg { width:21px; height:21px; fill:none; stroke:currentColor; stroke-width:2.25; stroke-linecap:round; }
 .feedback-help-button:hover { color:white; border-color:var(--red-sand); background:var(--red-sand); }
 .answer-error { margin:14px 0 0; padding:10px 13px; border-radius:12px; color:var(--red); background:#fff0ee; font-size:.82rem; font-weight:700; }
 .help-languages { display:flex; gap:6px; margin:0 0 16px; }
@@ -274,7 +275,7 @@ button { font:inherit; }
   .result-page { padding-top:calc(82px + env(safe-area-inset-top)); }
   .result-card>.ticket-menu-shell { display:none; }
   .quiz-card { grid-template-columns:1fr; grid-template-rows:210px minmax(0,1fr); border-radius:22px; }
-  .visual-panel { height:210px; padding:13px 16px; }
+  .visual-panel { height:210px; padding:13px 16px; border-bottom:1px solid #3e9c73; }
   .visual-panel img { width:100%; height:100%; max-height:none; }
   .question-panel { overflow-y:auto; }
   .question-number { top:16px; left:16px; padding:7px 10px; }
