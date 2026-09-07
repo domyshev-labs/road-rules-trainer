@@ -50,6 +50,16 @@ type SavedProgress = {
 };
 type ProgressStore = Record<string, SavedProgress>;
 type TicketStats = { answered: number; correct: number; wrong: number };
+type LegacyImportAttempt = {
+  source_id: string;
+  test_id: number;
+  mode: RoundMode;
+  total: number;
+  started_at: string;
+  ended_at: string;
+  completed: boolean;
+  answers: AnswerHistory;
+};
 
 const progressStorageKey = 'road-rules-trainer-progress-v1';
 
@@ -124,6 +134,45 @@ function appendAttempt(history: AttemptHistory[], attempt: AttemptHistory | null
   if (!attempt) return history;
   const withoutSameAttempt = history.filter((item) => item.id !== attempt.id);
   return [...withoutSameAttempt, attempt].slice(-100);
+}
+
+function buildLegacyMigrationBatches(): LegacyImportAttempt[][] {
+  return Object.entries(readProgress()).flatMap(([storedTestID, progress]) => {
+    const testID = Number(storedTestID);
+    if (!Number.isInteger(testID)) return [];
+    const current = makeAttemptHistory(progress);
+    const attempts = appendAttempt(progress.history ?? [], current).map((attempt) => ({
+      source_id: `${storedTestID}:${attempt.id}`,
+      test_id: testID,
+      mode: attempt.mode,
+      total: attempt.total,
+      started_at: attempt.startedAt,
+      ended_at: attempt.endedAt,
+      completed: attempt.completed,
+      answers: attempt.answers,
+    }));
+    return attempts.length ? [attempts] : [];
+  });
+}
+
+function migrationMarkerKey(userID: string) {
+  return `road-rules-trainer-migration-v1:${userID}`;
+}
+
+function hasMigrationMarker(userID: string) {
+  try {
+    return localStorage.getItem(migrationMarkerKey(userID)) === 'done';
+  } catch {
+    return false;
+  }
+}
+
+function saveMigrationMarker(userID: string) {
+  try {
+    localStorage.setItem(migrationMarkerKey(userID), 'done');
+  } catch {
+    // A completed server import is still safe even if the local marker cannot be saved.
+  }
 }
 
 function isValidProgress(value: unknown, questionCount: number): value is SavedProgress {
@@ -513,6 +562,57 @@ function LoginScreen({ onAuthenticated }: { onAuthenticated: (user: AuthUser) =>
   );
 }
 
+function MigrationGate({ user, onLogout }: { user: AuthUser; onLogout: () => void }) {
+  const [batches] = useState<LegacyImportAttempt[][]>(() => buildLegacyMigrationBatches());
+  const [complete, setComplete] = useState(() => batches.length === 0 || hasMigrationMarker(user.id));
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+
+  const attempts = batches.reduce((sum, batch) => sum + batch.length, 0);
+  const answers = batches.reduce(
+    (sum, batch) => sum + batch.reduce((batchSum, attempt) => batchSum + Object.keys(attempt.answers).length, 0),
+    0,
+  );
+
+  async function migrate() {
+    setBusy(true);
+    setError('');
+    try {
+      await Promise.all(batches.map((batch) => (
+        api('/api/progress/import', { method: 'POST', body: JSON.stringify({ attempts: batch }) })
+      )));
+      saveMigrationMarker(user.id);
+      setComplete(true);
+    } catch (migrationError) {
+      setError(migrationError instanceof Error ? migrationError.message : 'Не удалось перенести историю');
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  if (complete) return <TrainerApp user={user} onLogout={onLogout} />;
+
+  return (
+    <main className="auth-page migration-page">
+      <section className="auth-card migration-card">
+        <p className="eyebrow">Найдена история на этом устройстве</p>
+        <h1>Перенесём результаты в ваш аккаунт</h1>
+        <p>До появления аккаунта результаты сохранялись только в Safari. Перенос нужен, чтобы они были доступны после входа на других устройствах.</p>
+        <div className="migration-summary" aria-label="История для переноса">
+          <div><strong>{attempts}</strong><span>прохождений</span></div>
+          <div><strong>{answers}</strong><span>ответов</span></div>
+        </div>
+        <p className="migration-note">Локальная копия останется на телефоне. Повторный запрос безопасен и не создаст дубликаты.</p>
+        {error && <p className="auth-error" role="alert">Перенос не завершён: {error}. Проверьте соединение и повторите.</p>}
+        <button type="button" className="primary migration-button" disabled={busy} onClick={migrate}>
+          {busy ? 'Переносим…' : 'Перенести историю'}
+        </button>
+        <button type="button" className="auth-back" disabled={busy} onClick={onLogout}>Выйти и использовать другой email</button>
+      </section>
+    </main>
+  );
+}
+
 function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }) {
   const [testId, setTestId] = useState(1015);
   const [catalog, setCatalog] = useState<CatalogEntry[]>([]);
@@ -545,39 +645,8 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   const [answerError, setAnswerError] = useState('');
   const [serverStatistics, setServerStatistics] = useState<AttemptHistory[] | null>(null);
   const [serverProgress, setServerProgress] = useState<Record<string, TicketStats>>({});
-  const [migrationReady, setMigrationReady] = useState(() => Object.values(readProgress()).every((progress) => {
-    return !(progress.history?.length) && makeAttemptHistory(progress) === null;
-  }));
 
   useEffect(() => {
-    const batches = Object.entries(readProgress()).map(([storedTestID, progress]) => {
-      const current = makeAttemptHistory(progress);
-      const attempts = appendAttempt(progress.history ?? [], current).map((attempt) => ({
-        source_id: `${storedTestID}:${attempt.id}`,
-        test_id: Number(storedTestID),
-        mode: attempt.mode,
-        total: attempt.total,
-        started_at: attempt.startedAt,
-        ended_at: attempt.endedAt,
-        completed: attempt.completed,
-        answers: attempt.answers,
-      }));
-      return attempts;
-    });
-    if (!batches.some((attempts) => attempts.length)) {
-      return;
-    }
-    void Promise.all(batches.filter((attempts) => attempts.length).map((attempts) => (
-      api('/api/progress/import', { method: 'POST', body: JSON.stringify({ attempts }) })
-    )))
-      .then(() => api<Record<string, TicketStats>>('/api/progress'))
-      .then(setServerProgress)
-      .catch(() => undefined)
-      .finally(() => setMigrationReady(true));
-  }, [user.id]);
-
-  useEffect(() => {
-    if (!migrationReady) return;
     let active = true;
     async function loadTest() {
       try {
@@ -650,7 +719,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
 
     loadTest();
     return () => { active = false; };
-  }, [migrationReady, testId]);
+  }, [testId]);
 
   useEffect(() => {
     if (!attemptReady || !test || !order.length) return;
@@ -1101,5 +1170,5 @@ export default function App() {
 
   if (checkingSession) return <main className="loading">Проверяем сессию…</main>;
   if (!user) return <LoginScreen onAuthenticated={setUser} />;
-  return <TrainerApp user={user} onLogout={logout} />;
+  return <MigrationGate key={user.id} user={user} onLogout={logout} />;
 }

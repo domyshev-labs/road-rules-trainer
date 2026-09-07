@@ -71,8 +71,21 @@ The feature branch is not deployed: GitHub Actions deploys only pushes to
 - secret `ROAD_RULES_SESSION_SECRET`: at least 24 random characters;
 - secret `RESEND_API_KEY`;
 - optional variable `ROAD_RULES_EMAIL_FROM`, defaulting to
-  `Road Rules Trainer <login@driving.domyshev.com>`;
-- verify the chosen sending domain in Resend by adding its DKIM/SPF DNS records.
+  `Road Rules Trainer <login@mail.domyshev.com>`.
+
+Email setup:
+
+1. Create a free Resend account and add `mail.domyshev.com` as a sending domain.
+2. Add the DKIM and SPF records shown by Resend to Cloudflare DNS. Keep those
+   records in `DNS only` mode; using a dedicated mail subdomain avoids a conflict
+   with the `driving.domyshev.com` tunnel hostname.
+3. Create a sending-only Resend API key restricted to that domain and save it
+   as the `RESEND_API_KEY` repository secret. The key is displayed only once.
+
+No mailbox at `login@mail.domyshev.com` is required for sending login codes.
+After authentication, browsers with legacy LocalStorage results show a mandatory
+confirmation screen. The user must explicitly transfer those attempts before
+opening the trainer; the endpoint is idempotent and the local copy is retained.
 
 The deploy workflow creates the persistent Docker volume
 `road-rules-trainer-data` and keeps the existing host binding

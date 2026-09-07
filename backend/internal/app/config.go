@@ -25,7 +25,7 @@ func LoadConfig() (Config, error) {
 		SessionSecret: envOr("SESSION_SECRET", "development-only-change-me"),
 		EmailMode:     strings.ToLower(envOr("EMAIL_MODE", "log")),
 		ResendAPIKey:  os.Getenv("RESEND_API_KEY"),
-		EmailFrom:     envOr("EMAIL_FROM", "Road Rules Trainer <login@driving.domyshev.com>"),
+		EmailFrom:     envOr("EMAIL_FROM", "Road Rules Trainer <login@mail.domyshev.com>"),
 		CookieSecure:  strings.EqualFold(envOr("COOKIE_SECURE", "false"), "true"),
 	}
 	if cfg.EmailMode != "log" && cfg.EmailMode != "resend" {

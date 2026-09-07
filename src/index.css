@@ -161,6 +161,21 @@ button { font:inherit; }
 .auth-card .primary { width:100%; }
 .auth-error { margin:0; color:var(--red); font-size:.82rem; font-weight:700; }
 .auth-back { border:0; color:var(--muted); background:transparent; cursor:pointer; font-weight:700; }
+.migration-card { width:min(560px,100%); }
+.migration-summary { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin:26px 0 18px; }
+.migration-summary div { display:grid; gap:3px; padding:17px 18px; border:1px solid rgba(13,107,77,.14); border-radius:17px; background:var(--mint); }
+.migration-summary strong { color:var(--green-dark); font-family:Georgia,serif; font-size:2rem; font-weight:500; }
+.migration-summary span { color:var(--muted); font-size:.77rem; font-weight:800; letter-spacing:.035em; text-transform:uppercase; }
+.auth-card .migration-note { padding:12px 14px; border-radius:13px; color:var(--green-dark); background:#edf5f1; font-size:.86rem; line-height:1.45; }
+.migration-button { width:100%; margin-top:8px; }
+.migration-card>.auth-back { display:block; width:100%; margin-top:14px; padding:10px; }
+.migration-card>.auth-back:disabled { opacity:.45; cursor:not-allowed; }
+
+@media (max-width:520px) {
+  .migration-page { align-items:start; padding:calc(20px + env(safe-area-inset-top)) 14px calc(20px + env(safe-area-inset-bottom)); }
+  .migration-card { padding:28px 22px; border-radius:22px; }
+  .migration-card h1 { font-size:2.25rem; }
+}
 
 @media (max-width:1100px) and (min-width:821px) {
   .topbar { gap:12px; }
