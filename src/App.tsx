@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 
 type Answer = { letter: string; text: string; correct?: boolean };
 type Question = {
@@ -722,14 +722,19 @@ function ticketTitle(entry: { id: number; title: string }) {
   return entry.id >= 100000 ? `Экзаменационный билет ${sourceTicket(entry.id)}` : thematicTitles[entry.id - 1001] || entry.title;
 }
 function TopicHeading({ section, title }: { section: string; title: string }) {
-  return <><p className="section-heading"><small>Раздел</small>{section}</p><div className="theme-heading"><small>Тема</small><h1>{title}</h1></div></>;
+  return <><p className="section-heading">{section}<small>Раздел</small></p><div className="theme-heading"><h1>{title}</h1><small>Тема</small></div></>;
 }
-function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, onLogout, getStats }: {
+type LibraryView = { search: string; expanded: string[]; scrollTop: number; collection: TicketCollection | null };
+
+function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, onLogout, getStats, view, onRemember }: {
   catalog: CatalogEntry[]; library: LibraryData; onOpen: (id: number, index?: number) => void; onOpenTopic: (id: string, question?: string) => void;
-  onLogout: () => void; getStats: (entry: CatalogEntry) => TicketStats;
+  onLogout: () => void; getStats: (entry: CatalogEntry) => TicketStats; view: LibraryView; onRemember: (snapshot: LibraryView) => void;
 }) {
-  const [search, setSearch] = useState('');
-  const [collection, setCollection] = useState<TicketCollection | null>(null);
+  const root = useRef<HTMLElement>(null);
+  const scroll = useRef<HTMLDivElement>(null);
+  const [search, setSearch] = useState(view.search);
+  const [expanded, setExpanded] = useState(view.expanded);
+  const [collection, setCollection] = useState<TicketCollection | null>(view.collection);
   const [summaries, setSummaries] = useState<Record<string, TopicSummary> | null>(null);
   const [progressError, setProgressError] = useState('');
   useEffect(() => {
@@ -737,6 +742,21 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, onLogout, getS
     void api<Record<string, TopicSummary>>('/api/topics/progress').then((data) => { if (active) setSummaries(data); }).catch(() => { if (active) setProgressError('Не удалось загрузить прогресс. Обновите страницу, чтобы продолжить тему.'); });
     return () => { active = false; };
   }, []);
+  // Restore after mounting and after progress counts finish changing row heights.
+  useLayoutEffect(() => {
+    if (scroll.current) scroll.current.scrollTop = view.scrollTop;
+  }, [summaries, view.scrollTop]);
+  function toggleBranch(id: string, open: boolean) {
+    setExpanded((current) => open ? current.includes(id) ? current : [...current, id] : current.includes(id) ? current.filter((item) => item !== id) : current);
+  }
+  function rememberView() {
+    onRemember({
+      search, collection, scrollTop: scroll.current?.scrollTop ?? 0,
+      expanded: Array.from(root.current?.querySelectorAll<HTMLDetailsElement>('details[data-library-id][open]') ?? []).map((node) => node.dataset.libraryId!),
+    });
+  }
+  function openTopic(id: string, question?: string) { rememberView(); onOpenTopic(id, question); }
+  function openTicket(id: number, index?: number) { rememberView(); onOpen(id, index); }
   const query = search.trim().toLocaleLowerCase();
   const matches = (q: LibraryQuestion) => !query || `${q.source_test_id} ${q.source_ordinal} ${q.question} ${q.question_ru || ''} ${q.topic_ids.map((id) => library.nodes.find((n) => n.id === id)?.label_ru || '').join(' ')}`.toLocaleLowerCase().includes(query);
   function questionList(items: LibraryQuestion[], unique = false, node?: TopicNode) {
@@ -746,7 +766,7 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, onLogout, getS
     if (node) items = [...items].sort((a, b) => a.canonical_id.localeCompare(b.canonical_id));
     return <div className="library-questions">{items.map((q, index) => ({ q, index })).filter(({ q }) => matches(q)).map(({ q, index }) => {
       const result = node ? summaries?.[node.id]?.results[q.canonical_id] : undefined;
-      return <button type="button" key={q.question_id} disabled={!q.verified} onClick={() => node ? onOpenTopic(node.id, q.canonical_id) : onOpen(q.test_id, q.index ?? undefined)}>
+      return <button type="button" key={q.question_id} disabled={!q.verified} onClick={() => node ? openTopic(node.id, q.canonical_id) : openTicket(q.test_id, q.index ?? undefined)}>
         <span className={`library-question-id ${node ? 'topic-question-row' : ''}`}>{node ? <><b className="topic-list-number">{index + 1}</b><span className="library-question-title">{q.question_ru || q.question.split('\n').filter(Boolean).at(-1)}</span><i className={result === false ? 'wrong-mark' : ''}>{result === undefined ? '' : result ? '✓' : '×'}</i></> : `${q.test_id >= 100000 ? 'Экзамен' : 'Тематический билет'} ${q.source_test_id} / ${String(q.source_ordinal).padStart(2, '0')}`}</span>
         {!node && <span>{q.question_ru || q.question.split('\n').filter(Boolean).at(-1)}</span>}{!q.verified && <small>Отложен · ответ не подтверждён</small>}
       </button>;
@@ -760,11 +780,11 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, onLogout, getS
     const count = new Set(items.filter((q) => q.verified).map((q) => q.canonical_id)).size;
     const stats = summaries?.[node.id];
     if (query && !items.some(matches) && !node.label_ru.toLocaleLowerCase().includes(query)) return null;
-    return <details className="library-branch" key={node.id} open={query ? true : undefined}><summary><span className="library-node-title"><small>{children.length ? 'Раздел' : 'Тема'}</small>{node.label_ru}</span><span className="topic-counts"><span>Всего: {count}</span>{!children.length && <><span>Выполнено: {stats?.answered ?? '…'}</span><span>✓ {stats?.correct ?? '…'}</span><span className="wrong-mark">× {stats?.wrong ?? '…'}</span></>}</span></summary>
-      <div className="library-children">{!children.length && count > 0 && <button type="button" className="primary library-start" disabled={!summaries} onClick={() => onOpenTopic(node.id)}>{stats?.answered ? stats.answered === count ? 'Повторить тему' : 'Продолжить тему' : 'Начать тему'}{stats && stats.answered > 0 && stats.answered < count && <small>с вопроса {stats.next_question}</small>}</button>}{children.map(topic)}{!children.length && questionList(own, true, node)}{!count && <p className="library-empty">Вопросы появятся по мере пополнения коллекции.</p>}</div>
+    return <details className="library-branch" key={node.id} data-library-id={node.id} open={!!query || expanded.includes(node.id)} onToggle={(event) => { if (!query) toggleBranch(node.id, event.currentTarget.open); }}><summary><span className="library-node-title">{node.label_ru}<small>{children.length ? 'Раздел' : 'Тема'}</small></span><span className="topic-counts"><span>Всего: {count}</span>{!children.length && <><span>Выполнено: {stats?.answered ?? '…'}</span><span>✓ {stats?.correct ?? '…'}</span><span className="wrong-mark">× {stats?.wrong ?? '…'}</span></>}</span></summary>
+      <div className="library-children">{!children.length && count > 0 && <button type="button" className="primary library-start" disabled={!summaries} onClick={() => openTopic(node.id)}>{stats?.answered ? stats.answered === count ? 'Повторить тему' : 'Продолжить тему' : 'Начать тему'}{stats && stats.answered > 0 && stats.answered < count && <small>с вопроса {stats.next_question}</small>}</button>}{children.map(topic)}{!children.length && questionList(own, true, node)}{!count && <p className="library-empty">Вопросы появятся по мере пополнения коллекции.</p>}</div>
     </details>;
   }
-  return <main className="library-page">
+  return <main className="library-page" ref={root}>
     <header className="library-header"><a href="/" className="library-brand">Теория вождения</a><button className="secondary" onClick={onLogout}>Выйти</button></header>
     <section className="library-intro"><h1>Выбери предметную тематику для тренировки сейчас</h1>
       <div className="library-totals"><span><strong>{catalog.filter((e) => e.collection === 'Thematic Test').length}</strong> тематических билета</span><span><strong>{catalog.filter((e) => e.collection === 'Exam Test').length}</strong> экзаменационных билетов</span><span><strong>{library.questions.filter((q) => !q.verified).length}</strong> отложенных вопросов</span></div>
@@ -773,10 +793,10 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, onLogout, getS
     <nav className="library-collections" aria-label="Коллекции билетов">{(['Thematic Test', 'Exam Test'] as TicketCollection[]).map((item) => <button key={item} onClick={() => setCollection(item)}><strong>{collectionName(item)}</strong><span>{catalog.filter((e) => e.collection === item).length} билета <b>›</b></span></button>)}</nav>
     <div className="library-divider">По темам <span>Один вопрос может входить в несколько тем</span></div>
     {progressError && <p className="answer-error" role="alert">{progressError}</p>}
-    <div className="library-tree library-scroll">{library.nodes.filter((node) => !node.parent_id).map((node) => { const content = topic(node); return content ? <div className="library-root" key={node.id}>{content}</div> : null; })}{query && !library.questions.some(matches) && <p>Ничего не найдено.</p>}<p className="library-note">Разметка новых вопросов уточняется по мере разбора. Отложенные вопросы пока не участвуют в тренировке.</p></div>
+    <div className="library-tree library-scroll" ref={scroll}>{library.nodes.filter((node) => !node.parent_id).map((node) => { const content = topic(node); return content ? <div className="library-root" key={node.id}>{content}</div> : null; })}{query && !library.questions.some(matches) && <p>Ничего не найдено.</p>}<p className="library-note">Разметка новых вопросов уточняется по мере разбора. Отложенные вопросы пока не участвуют в тренировке.</p></div>
     {collection && <Modal title={collectionName(collection)} onClose={() => setCollection(null)} className="collection-modal"><div className="library-tree">{catalog.filter((e) => e.collection === collection).map((entry) => {
       const stats = getStats(entry);
-      return <details className="library-branch" key={entry.id}><summary><span><b>{sourceTicket(entry.id)}</b> · {ticketTitle(entry)}</span><span className="topic-counts"><span>{stats.answered}/{entry.questions}</span><span>✓ {stats.correct}</span><span className="wrong-mark">× {stats.wrong}</span></span></summary><div className="library-children"><button className="primary library-start" onClick={() => onOpen(entry.id)}>Открыть билет</button>{questionList(library.questions.filter((q) => q.test_id === entry.id))}</div></details>;
+      return <details className="library-branch" key={entry.id} data-library-id={`ticket:${entry.id}`} open={expanded.includes(`ticket:${entry.id}`)} onToggle={(event) => toggleBranch(`ticket:${entry.id}`, event.currentTarget.open)}><summary><span><b>{sourceTicket(entry.id)}</b> · {ticketTitle(entry)}</span><span className="topic-counts"><span>{stats.answered}/{entry.questions}</span><span>✓ {stats.correct}</span><span className="wrong-mark">× {stats.wrong}</span></span></summary><div className="library-children"><button className="primary library-start" onClick={() => openTicket(entry.id)}>Открыть билет</button>{questionList(library.questions.filter((q) => q.test_id === entry.id))}</div></details>;
     })}</div></Modal>}
   </main>;
 }
@@ -824,18 +844,8 @@ function TopicTrainer({ topicId, initialQuestion, path, onBack }: {
     } catch (err) { setError(err instanceof Error ? err.message : 'Не удалось сохранить ответ'); }
     finally { setBusy(false); }
   }
-  async function restart() {
-    if (busy || !topic) return;
-    setBusy(true); setError('');
-    try {
-      await api(`/api/topics/${encodeURIComponent(topicId)}/reset`, { method: 'POST' });
-      setTopic({ ...topic, questions: topic.questions.map((q) => ({ ...q, progress: undefined })) });
-      setPosition(0); setHelpOpen(false);
-    } catch (err) { setError(err instanceof Error ? err.message : 'Не удалось начать заново'); }
-    finally { setBusy(false); }
-  }
   const q = topic?.questions[position];
-  if (!topic || !q) return <main className="loading"><button className="secondary" onClick={onBack}>‹ Темы и билеты</button><p>{error || 'Загружаем подтему…'}</p></main>;
+  if (!topic || !q) return <main className="loading"><button className="secondary" onClick={onBack}>‹ Темы по разделам</button><p>{error || 'Загружаем подтему…'}</p></main>;
   const total = topic.questions.length;
   const done = topic.questions.filter((item) => item.progress).length;
   const correct = topic.questions.filter((item) => item.progress?.correct).length;
@@ -843,14 +853,14 @@ function TopicTrainer({ topicId, initialQuestion, path, onBack }: {
   const help = q.help[language] || q.help.en;
   const sourceText = q.sources.map((ref) => `${ref.test_id >= 100000 ? 'Экзаменационные' : 'Тематические'} · билет ${ref.source_test_id}, вопрос ${ref.source_ordinal}`).join(' · ');
   return <>
-    <button className="library-back topic-back" type="button" onClick={onBack}>‹ Темы и билеты</button>
+    <button className="library-back topic-back" type="button" disabled={busy} onClick={onBack}>‹ Темы по разделам</button>
     <main className="app-shell topic-shell">
       <header className="topbar topic-topbar">
         <div className="title-block"><TopicHeading section={path} title={topic.title} /></div>
         <div className="header-tools">
           <div className="ticket-menu-shell topic-menu-shell">
             <button type="button" className="ticket-menu-trigger" aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><span className="ticket-menu-trigger-copy"><span className="ticket-menu-trigger-label">Текущий вопрос</span><span className="ticket-menu-trigger-title">Вопрос {position + 1} из {total}</span></span><span className="ticket-menu-chevron">⌄</span></button>
-            {menuOpen && <><button className="ticket-menu-backdrop" aria-label="Закрыть список вопросов" onClick={() => setMenuOpen(false)} /><section className="ticket-menu-panel topic-menu" aria-label={`Вопросы подтемы ${topic.title}`}><header><div><div className="menu-topic-heading"><small>Раздел</small><p>{path}</p><small>Тема</small><strong>{topic.title}</strong></div><p className="topic-summary-line">Всего: {total} · Выполнено: {done} · Верно: {correct} · Неверно: {done - correct}</p></div><button aria-label="Закрыть" onClick={() => setMenuOpen(false)}>×</button></header><div className="ticket-menu-list">
+            {menuOpen && <><button className="ticket-menu-backdrop" aria-label="Закрыть список вопросов" onClick={() => setMenuOpen(false)} /><section className="ticket-menu-panel topic-menu" aria-label={`Вопросы подтемы ${topic.title}`}><header><div><div className="menu-topic-heading"><p className="menu-section">{path}<small>Раздел</small></p><div className="menu-theme"><strong>{topic.title}</strong><small>Тема</small></div></div><p className="topic-summary-line">Всего: {total} · Выполнено: {done} · Верно: {correct} · Неверно: {done - correct}</p></div><button aria-label="Закрыть" onClick={() => setMenuOpen(false)}>×</button></header><div className="ticket-menu-list">
               {topic.questions.map((item, index) => <button key={item.id} type="button" className={`topic-menu-question ${index === position ? 'active' : ''}`} onClick={() => { goTo(index); setMenuOpen(false); }}><b>{index + 1}</b><span>{item.question_ru || item.question.split('\n').filter(Boolean).at(-1)}</span><i>{item.progress ? item.progress.correct ? '✓' : '×' : '·'}</i></button>)}
             </div></section></>}
           </div>
@@ -869,10 +879,10 @@ function TopicTrainer({ topicId, initialQuestion, path, onBack }: {
             return <button type="button" className={`answer ${state}`} key={choice.letter} disabled={!!q.progress || busy} onClick={() => answer(choice.letter)}><span className="answer-letter">{choice.letter}</span><BilingualText text={choice.text} /></button>;
           })}</div>
           {error && <p role="alert" className="answer-error">{error}</p>}
-          {q.progress && <aside className={`feedback ${q.progress.correct ? 'success' : 'error'}`}><div className="feedback-title"><strong>{q.progress.correct ? '✓ Верно' : `Правильный ответ ${q.progress.correct_letter}`}</strong><button className="feedback-help-button" aria-label="Открыть объяснение" onClick={() => setHelpOpen(true)}>?</button></div></aside>}
-          {done === total && <p className="topic-completed">Тема пройдена. Верно: {correct} из {total}. Можно вернуться к любому вопросу или начать заново.</p>}
+          {q.progress && <aside className={`feedback ${q.progress.correct ? 'success' : 'error'}`} aria-live="polite"><div className="feedback-title"><div className="feedback-outcome"><span aria-hidden="true">{q.progress.correct ? '✓' : '×'}</span><strong>{q.progress.correct ? 'Верно' : `Неверно · правильный ответ ${q.progress.correct_letter}`}</strong></div><button className="feedback-help-button" aria-label="Открыть объяснение" onClick={() => setHelpOpen(true)}>?</button></div></aside>}
+          {done === total && <p className="topic-completed">Тема пройдена. Верно: {correct} из {total}. Можно вернуться к любому вопросу или продолжить позже.</p>}
           <div className="controls topic-controls"><button className="secondary" disabled={position === 0 || busy} onClick={() => goTo(position - 1)}>← Предыдущий</button><button className="primary next" disabled={position === total - 1 || busy} onClick={() => goTo(position + 1)}>Следующий вопрос →</button></div>
-          <button className="shuffle-button topic-restart" disabled={busy} onClick={restart}>↻ Начать тему заново</button>
+          <button className="secondary topic-pause" type="button" disabled={busy} onClick={onBack}>Продолжить позже</button>
         </div>
       </section>
     </main>
@@ -884,6 +894,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   const questionPanelRef = useRef<HTMLDivElement>(null);
   const [testId, setTestId] = useState(1015);
   const [home, setHome] = useState(true);
+  const [libraryView, setLibraryView] = useState<LibraryView>({ search: '', expanded: [], scrollTop: 0, collection: null });
   const [activeTopic, setActiveTopic] = useState<{ id: string; question?: string } | null>(null);
   const [library, setLibrary] = useState<LibraryData | null>(null);
   const pendingQuestion = useRef<number | null>(null);
@@ -1300,7 +1311,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
     while (parent) { const ancestor = library.nodes.find((item) => item.id === parent); if (!ancestor) break; ancestors.unshift(ancestor.label_ru); parent = ancestor.parent_id; }
     return <TopicTrainer key={activeTopic.id} topicId={activeTopic.id} initialQuestion={activeTopic.question} path={ancestors.join(' / ')} onBack={() => { setActiveTopic(null); setHome(true); }} />;
   }
-  if (home && catalog.length && library) return <QuestionLibrary catalog={catalog} library={library} onOpen={openLibraryQuestion} onOpenTopic={(id, question) => { setActiveTopic({ id, question }); setHome(false); }} onLogout={onLogout} getStats={getTicketStats} />;
+  if (home && catalog.length && library) return <QuestionLibrary view={libraryView} onRemember={setLibraryView} catalog={catalog} library={library} onOpen={openLibraryQuestion} onOpenTopic={(id, question) => { setActiveTopic({ id, question }); setHome(false); }} onLogout={onLogout} getStats={getTicketStats} />;
   if (home || !test || !question || !order.length || !catalog.length) return <main className="loading">Загружаем билет…</main>;
 
   const currentEntry = catalog.find((entry) => entry.id === testId) ?? catalog[0];
@@ -1341,7 +1352,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
     return (
       <>
         {mobileStatusBar}
-        <button className="library-back" type="button" onClick={() => setHome(true)}>‹ Темы и билеты</button>
+        <button className="library-back" type="button" onClick={() => setHome(true)}>‹ Темы по разделам</button>
         <main className="result-page">
         <section className="result-card">
           <p className="eyebrow">Test {sourceTicket(test.test_id)} · раунд завершён</p>
@@ -1378,7 +1389,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   return (
     <>
       {mobileStatusBar}
-        <button className="library-back" type="button" onClick={() => setHome(true)}>‹ Темы и билеты</button>
+        <button className="library-back" type="button" onClick={() => setHome(true)}>‹ Темы по разделам</button>
       <main className="app-shell">
       <header className="topbar">
         <div className="title-block">
@@ -1457,7 +1468,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
             <aside className={`feedback ${selectedIsCorrect ? 'success' : 'error'}`} aria-live="polite">
               <div className="feedback-title">
                 <div className="feedback-outcome">
-                  <span>{selectedIsCorrect ? '✓' : '!'}</span>
+                  <span aria-hidden="true">{selectedIsCorrect ? '✓' : '×'}</span>
                   <strong>{selectedIsCorrect ? 'Верно' : `Неверно · правильный ответ ${correctLetter}`}</strong>
                 </div>
                 <button type="button" className="feedback-help-button" aria-label="Открыть объяснение" title="Ayuda · объяснение" onClick={() => setHelpOpen(true)}>

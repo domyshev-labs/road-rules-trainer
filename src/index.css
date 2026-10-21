@@ -473,7 +473,7 @@ button { font:inherit; }
 .collection-modal { width:min(1000px,100%); }
 .collection-modal .modal-header { padding:16px 20px; }
 .section-heading { display:flex; gap:7px; align-items:baseline; margin:0 0 2px; color:var(--green); font-size:12px; font-weight:700; }
-.section-heading small,.theme-heading>small,.menu-topic-heading>small { color:var(--muted); font-size:10px; font-weight:500; letter-spacing:0; text-transform:none; }
+.section-heading small,.theme-heading>small,.menu-topic-heading small { color:var(--muted); font-size:10px; font-weight:500; letter-spacing:0; text-transform:none; }
 .theme-heading { display:flex; align-items:baseline; gap:8px; }
 .theme-heading h1 { margin:0; }
 .menu-topic-heading { display:grid; grid-template-columns:auto 1fr; align-items:baseline; gap:3px 8px; }
@@ -510,3 +510,18 @@ button { font:inherit; }
 .topic-question-row .topic-list-number { margin:0; }
 .library-question-title { color:var(--ink); font-size:14px; font-weight:500; letter-spacing:0; line-height:1.5; }
 .topic-question-row i { align-self:center; }
+
+/* Return navigation preserves the library view; outcome colors remain semantic. */
+.menu-topic-heading { display:flex; flex-direction:column; align-items:flex-start; gap:3px; }
+.menu-section,.menu-theme { display:flex; align-items:baseline; gap:8px; }
+.theme-heading>small,.section-heading>small,.menu-topic-heading small { flex:none; white-space:nowrap; }
+.library-node-title small { flex:none; }
+.library-back { display:inline-flex; align-items:center; min-height:32px; padding:7px 12px; border:1px solid #9fc2df; border-radius:9px; background:#e1effb; box-shadow:0 2px 5px rgba(23,45,67,.08); }
+.library-back:hover:not(:disabled) { background:#cfe6fa; border-color:#6ba4ce; }
+.library-back:disabled,.topic-pause:disabled { opacity:.55; cursor:wait; }
+.topic-pause { align-self:flex-start; margin-top:14px; padding:10px 15px; font-size:13px; }
+.feedback.success { background:#eef8f1; border-color:#b9dcc5; }
+.feedback-outcome>span { width:34px; height:34px; color:#188348; background:#d8efdf; font-size:25px; font-weight:900; line-height:1; }
+.feedback.error .feedback-outcome>span { color:#c63d36; background:#fde0dd; }
+
+.library-scroll { overflow-anchor:none; }
