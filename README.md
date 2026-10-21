@@ -90,3 +90,9 @@ opening the trainer; the endpoint is idempotent and the local copy is retained.
 The deploy workflow creates the persistent Docker volume
 `road-rules-trainer-data` and keeps the existing host binding
 `127.0.0.1:5050`.
+
+### Topic navigation and progress
+
+The home page keeps collection shortcuts and search above a separately scrolling topic tree. The taxonomy has two levels: sections and leaf topics. Document-related deadlines are direct children of Documents and deadlines; stable topic identifiers preserve existing answers when a leaf moves between sections.
+
+`GET /api/topics/progress` returns authenticated per-leaf totals, answered/correct/wrong counts, answered question states and the first unanswered question number. Counts exclude deferred questions and stale memberships. Both the home list and topic trainer use canonical-ID ordering and independent topic progress. Source-ticket attempts remain separate. Russian interface labels include translated thematic ticket names while captured source titles remain unchanged.

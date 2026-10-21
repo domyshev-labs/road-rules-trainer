@@ -354,6 +354,50 @@ func TestTopicTrainingUsesUniqueMembersAndSeparateProgress(t *testing.T) {
 	if response.Code != http.StatusNotFound {
 		t.Fatal("parent topic should not create a separate training collection")
 	}
+
+	second, err := application.loadTopicQuestion(members[1])
+	if err != nil {
+		t.Fatal(err)
+	}
+	wrong := ""
+	for _, answer := range second.Answers {
+		if !answer.Correct {
+			wrong = answer.Letter
+			break
+		}
+	}
+	response = request(t, handler, http.MethodPost, "/api/topics/routine.drugs/answers", `{"question_id":"`+second.ID+`","selected_letter":"`+wrong+`"}`, cookie)
+	if response.Code != http.StatusOK {
+		t.Fatal(response.Body.String())
+	}
+	response = request(t, handler, http.MethodGet, "/api/topics/progress", "", cookie)
+	var summaries map[string]struct {
+		Total    int             `json:"total"`
+		Answered int             `json:"answered"`
+		Correct  int             `json:"correct"`
+		Wrong    int             `json:"wrong"`
+		Next     int             `json:"next_question"`
+		Results  map[string]bool `json:"results"`
+	}
+	if response.Code != http.StatusOK {
+		t.Fatal(response.Body.String())
+	}
+	if err := json.Unmarshal(response.Body.Bytes(), &summaries); err != nil {
+		t.Fatal(err)
+	}
+	stats := summaries["routine.drugs"]
+	if stats.Total != len(members) || stats.Answered != 2 || stats.Correct != 1 || stats.Wrong != 1 || stats.Next != 3 || !stats.Results[first.ID] || stats.Results[second.ID] {
+		t.Fatalf("incorrect summary or resume position: %+v", stats)
+	}
+	if summaries["routine.alcohol"].Answered != 0 {
+		t.Fatal("progress leaked across topics")
+	}
+	request(t, handler, http.MethodPost, "/api/auth/request-code", `{"email":"other-topic@example.com"}`, nil)
+	other := request(t, handler, http.MethodPost, "/api/auth/verify-code", `{"email":"other-topic@example.com","code":"`+sender.code+`"}`, nil)
+	isolated := request(t, handler, http.MethodGet, "/api/topics/progress", "", other.Result().Cookies()[0])
+	if strings.Contains(isolated.Body.String(), first.ID) {
+		t.Fatal("summary leaked another user's progress")
+	}
 	response = request(t, handler, http.MethodPost, "/api/topics/routine.drugs/reset", "", cookie)
 	if response.Code != http.StatusNoContent {
 		t.Fatal(response.Body.String())

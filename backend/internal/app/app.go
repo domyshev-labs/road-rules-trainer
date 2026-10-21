@@ -71,6 +71,7 @@ func (app *App) routes() {
 	app.mux.HandleFunc("POST /api/auth/verify-code", app.verifyCode)
 	app.mux.Handle("GET /api/auth/me", app.requireUser(http.HandlerFunc(app.me)))
 	app.mux.Handle("POST /api/auth/logout", app.requireUser(http.HandlerFunc(app.logout)))
+	app.mux.Handle("GET /api/topics/progress", app.requireUser(http.HandlerFunc(app.topicSummaries)))
 	app.mux.Handle("GET /api/topics/{topicID}", app.requireUser(http.HandlerFunc(app.topic)))
 	app.mux.Handle("POST /api/topics/{topicID}/answers", app.requireUser(http.HandlerFunc(app.answerTopic)))
 	app.mux.Handle("POST /api/topics/{topicID}/reset", app.requireUser(http.HandlerFunc(app.resetTopic)))

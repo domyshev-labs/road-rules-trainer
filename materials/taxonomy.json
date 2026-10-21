@@ -46,7 +46,7 @@
     },
     {
       "id": "documents",
-      "label_ru": "Документы и допуски",
+      "label_ru": "Документы и сроки",
       "parent_id": null
     },
     {
@@ -55,436 +55,309 @@
       "parent_id": null
     },
     {
-      "id": "numbers.deadlines",
-      "label_ru": "Сроки",
-      "parent_id": "numbers"
-    },
-    {
       "id": "routine.drugs",
       "label_ru": "Наркотики",
-      "parent_id": "routine",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "routine"
     },
     {
       "id": "routine.alcohol",
       "label_ru": "Алкоголь",
-      "parent_id": "routine",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "routine"
     },
     {
       "id": "routine.fatigue",
       "label_ru": "Сон и усталость",
-      "parent_id": "routine",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "routine"
     },
     {
       "id": "routine.distraction",
       "label_ru": "Отвлечение внимания",
-      "parent_id": "routine",
-      "question_count": 4,
-      "status": "active"
+      "parent_id": "routine"
     },
     {
       "id": "routine.reaction",
       "label_ru": "Время реакции",
-      "parent_id": "routine",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "routine"
     },
     {
       "id": "routine.emotions",
       "label_ru": "Эмоции и оценка риска",
-      "parent_id": "routine",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "routine"
     },
     {
       "id": "routine.health",
       "label_ru": "Заболевания и лекарства",
-      "parent_id": "routine",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "routine"
     },
     {
       "id": "routine.seatbelts",
       "label_ru": "Ремни безопасности",
-      "parent_id": "routine",
-      "question_count": 0,
-      "status": "reserved"
+      "parent_id": "routine"
     },
     {
       "id": "routine.helmets",
       "label_ru": "Шлемы",
-      "parent_id": "routine",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "routine"
     },
     {
       "id": "routine.safety",
       "label_ru": "Безопасность и предотвращение ДТП",
-      "parent_id": "routine",
-      "question_count": 5,
-      "status": "active"
+      "parent_id": "routine"
     },
     {
       "id": "routine.ecodriving",
       "label_ru": "Экономичное вождение",
-      "parent_id": "routine",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "routine"
     },
     {
       "id": "numbers.speeds",
       "label_ru": "Скорости",
-      "parent_id": "numbers",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "numbers"
     },
     {
       "id": "numbers.alcohol",
       "label_ru": "Нормы алкоголя",
-      "parent_id": "numbers",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "numbers"
     },
     {
       "id": "numbers.dimensions",
       "label_ru": "Габариты и выступание груза",
-      "parent_id": "numbers",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "numbers"
     },
     {
       "id": "numbers.capacity",
       "label_ru": "Количество мест",
-      "parent_id": "numbers",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "numbers"
     },
     {
       "id": "numbers.displacement",
       "label_ru": "Объём двигателя",
-      "parent_id": "numbers",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "numbers"
     },
     {
       "id": "numbers.technical",
       "label_ru": "Технические нормативы",
-      "parent_id": "numbers",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "numbers"
     },
     {
       "id": "numbers.dates",
       "label_ru": "Календарь и время действия ограничений",
-      "parent_id": "numbers",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "numbers"
     },
     {
       "id": "numbers.deadlines.novice",
       "label_ru": "Период ограничений для начинающих",
-      "parent_id": "numbers.deadlines",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "documents"
     },
     {
       "id": "numbers.deadlines.itv",
       "label_ru": "Периодичность ITV",
-      "parent_id": "numbers.deadlines",
-      "question_count": 0,
-      "status": "reserved"
+      "parent_id": "documents"
     },
     {
       "id": "numbers.deadlines.licences",
       "label_ru": "Выдача и продление водительских удостоверений",
-      "parent_id": "numbers.deadlines",
-      "question_count": 0,
-      "status": "reserved"
+      "parent_id": "documents"
     },
     {
       "id": "numbers.deadlines.certificates",
       "label_ru": "Выдача и действие сертификатов",
-      "parent_id": "numbers.deadlines",
-      "question_count": 0,
-      "status": "reserved"
+      "parent_id": "documents"
     },
     {
       "id": "numbers.deadlines.transfer_buyer",
       "label_ru": "Переоформление автомобиля покупателем",
-      "parent_id": "numbers.deadlines",
-      "question_count": 0,
-      "status": "reserved"
+      "parent_id": "documents"
     },
     {
       "id": "numbers.deadlines.transfer_seller",
       "label_ru": "Уведомление о продаже продавцом",
-      "parent_id": "numbers.deadlines",
-      "question_count": 0,
-      "status": "reserved"
+      "parent_id": "documents"
     },
     {
       "id": "signs.speed",
       "label_ru": "Знаки скорости",
-      "parent_id": "signs",
-      "question_count": 0,
-      "status": "reserved"
+      "parent_id": "signs"
     },
     {
       "id": "signs.priority",
       "label_ru": "Знаки приоритета",
-      "parent_id": "signs",
-      "question_count": 0,
-      "status": "reserved"
+      "parent_id": "signs"
     },
     {
       "id": "signs.mandatory",
       "label_ru": "Предписывающие знаки",
-      "parent_id": "signs",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "signs"
     },
     {
       "id": "signs.warning",
       "label_ru": "Предупреждающие знаки",
-      "parent_id": "signs",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "signs"
     },
     {
       "id": "signs.restrictions",
       "label_ru": "Запрещающие знаки и ограничения",
-      "parent_id": "signs",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "signs"
     },
     {
       "id": "signs.parking",
       "label_ru": "Знаки остановки и стоянки",
-      "parent_id": "signs",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "signs"
     },
     {
       "id": "signs.lanes",
       "label_ru": "Указатели полос",
-      "parent_id": "signs",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "signs"
     },
     {
       "id": "signs.temporary",
       "label_ru": "Временные знаки и дорожные работы",
-      "parent_id": "signs",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "signs"
     },
     {
       "id": "signs.vehicle_plates",
       "label_ru": "Таблички и обозначения на автомобилях",
-      "parent_id": "signs",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "signs"
     },
     {
       "id": "signs.markings",
       "label_ru": "Дорожная разметка",
-      "parent_id": "signs",
-      "question_count": 3,
-      "status": "active"
+      "parent_id": "signs"
     },
     {
       "id": "priority.officer",
       "label_ru": "Регулировщик",
-      "parent_id": "priority",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "priority"
     },
     {
       "id": "priority.lights",
       "label_ru": "Светофор",
-      "parent_id": "priority",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "priority"
     },
     {
       "id": "priority.tram",
       "label_ru": "Трамвай",
-      "parent_id": "priority",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "priority"
     },
     {
       "id": "priority.sign",
       "label_ru": "Знак",
-      "parent_id": "priority",
-      "question_count": 0,
-      "status": "reserved"
+      "parent_id": "priority"
     },
     {
       "id": "priority.cyclists",
       "label_ru": "Велосипедисты",
-      "parent_id": "priority",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "priority"
     },
     {
       "id": "priority.merging",
       "label_ru": "Включение в поток",
-      "parent_id": "priority",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "priority"
     },
     {
       "id": "priority.general",
       "label_ru": "Общие правила и равнозначные перекрёстки",
-      "parent_id": "priority",
-      "question_count": 0,
-      "status": "reserved"
+      "parent_id": "priority"
     },
     {
       "id": "driving.roundabouts",
       "label_ru": "Круговое движение",
-      "parent_id": "driving",
-      "question_count": 4,
-      "status": "active"
+      "parent_id": "driving"
     },
     {
       "id": "driving.lanes",
       "label_ru": "Расположение на дороге и полосы",
-      "parent_id": "driving",
-      "question_count": 6,
-      "status": "active"
+      "parent_id": "driving"
     },
     {
       "id": "driving.overtaking",
       "label_ru": "Обгон",
-      "parent_id": "driving",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "driving"
     },
     {
       "id": "driving.parking",
       "label_ru": "Остановка и стоянка",
-      "parent_id": "driving",
-      "question_count": 3,
-      "status": "active"
+      "parent_id": "driving"
     },
     {
       "id": "driving.pedestrians",
       "label_ru": "Пешеходы",
-      "parent_id": "driving",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "driving"
     },
     {
       "id": "driving.weather",
       "label_ru": "Погода и сцепление с дорогой",
-      "parent_id": "driving",
-      "question_count": 4,
-      "status": "active"
+      "parent_id": "driving"
     },
     {
       "id": "driving.braking",
       "label_ru": "Торможение и выбор передачи",
-      "parent_id": "driving",
-      "question_count": 4,
-      "status": "active"
+      "parent_id": "driving"
     },
     {
       "id": "vehicle.lights",
       "label_ru": "Освещение",
-      "parent_id": "vehicle",
-      "question_count": 3,
-      "status": "active"
+      "parent_id": "vehicle"
     },
     {
       "id": "vehicle.visibility",
       "label_ru": "Обзорность и зеркала",
-      "parent_id": "vehicle",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "vehicle"
     },
     {
       "id": "vehicle.passive",
       "label_ru": "Пассивная безопасность",
-      "parent_id": "vehicle",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "vehicle"
     },
     {
       "id": "vehicle.tyres",
       "label_ru": "Шины",
-      "parent_id": "vehicle",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "vehicle"
     },
     {
       "id": "vehicle.passengers",
       "label_ru": "Перевозка пассажиров",
-      "parent_id": "vehicle",
-      "question_count": 3,
-      "status": "active"
+      "parent_id": "vehicle"
     },
     {
       "id": "vehicle.cargo",
       "label_ru": "Грузы и погрузка",
-      "parent_id": "vehicle",
-      "question_count": 3,
-      "status": "active"
+      "parent_id": "vehicle"
     },
     {
       "id": "vehicle.dangerous_goods",
       "label_ru": "Опасные грузы",
-      "parent_id": "vehicle",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "vehicle"
     },
     {
       "id": "vehicle.motorcycles",
       "label_ru": "Мотоциклы",
-      "parent_id": "vehicle",
-      "question_count": 4,
-      "status": "active"
+      "parent_id": "vehicle"
     },
     {
       "id": "vehicle.classification",
       "label_ru": "Классификация транспортных средств",
-      "parent_id": "vehicle",
-      "question_count": 4,
-      "status": "active"
+      "parent_id": "vehicle"
     },
     {
       "id": "documents.permissions",
       "label_ru": "Какими транспортными средствами можно управлять",
-      "parent_id": "documents",
-      "question_count": 2,
-      "status": "active"
+      "parent_id": "documents"
     },
     {
       "id": "documents.itv",
       "label_ru": "ITV: обязанности и прохождение",
-      "parent_id": "documents",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "documents"
     },
     {
       "id": "incidents.scene",
       "label_ru": "Защита и обозначение места ДТП",
-      "parent_id": "incidents",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "incidents"
     },
     {
       "id": "incidents.towing",
       "label_ru": "Поломка и буксировка",
-      "parent_id": "incidents",
-      "question_count": 1,
-      "status": "active"
+      "parent_id": "incidents"
     }
   ]
 }

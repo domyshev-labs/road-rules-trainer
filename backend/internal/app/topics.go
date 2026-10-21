@@ -240,3 +240,93 @@ func (app *App) resetTopic(w http.ResponseWriter, r *http.Request) {
 	}
 	w.WriteHeader(http.StatusNoContent)
 }
+
+// topicSummaries counts only current verified memberships and the signed-in user's answers.
+func (app *App) topicSummaries(w http.ResponseWriter, r *http.Request) {
+	data, err := seed.Files.ReadFile("library.json")
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+	var library topicLibrary
+	if err = json.Unmarshal(data, &library); err != nil {
+		app.serverError(w, err)
+		return
+	}
+	parents := map[string]bool{}
+	for _, node := range library.Nodes {
+		if node.Parent != nil {
+			parents[*node.Parent] = true
+		}
+	}
+	members := map[string]map[string]bool{}
+	for _, node := range library.Nodes {
+		if !parents[node.ID] {
+			members[node.ID] = map[string]bool{}
+		}
+	}
+	for _, q := range library.Questions {
+		if !q.Verified {
+			continue
+		}
+		for _, tag := range q.TopicIDs {
+			if set, ok := members[tag]; ok {
+				set[q.CanonicalID] = true
+			}
+		}
+	}
+	type summary struct {
+		Total        int             `json:"total"`
+		Answered     int             `json:"answered"`
+		Correct      int             `json:"correct"`
+		Wrong        int             `json:"wrong"`
+		NextQuestion int             `json:"next_question"`
+		Results      map[string]bool `json:"results"`
+	}
+	result := map[string]*summary{}
+	for id, set := range members {
+		result[id] = &summary{Total: len(set), Results: map[string]bool{}}
+	}
+	current := r.Context().Value(userContextKey).(user)
+	rows, err := app.db.Query(`SELECT topic_id,content_id,correct FROM topic_answers WHERE user_id=?`, current.ID)
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+	defer rows.Close()
+	for rows.Next() {
+		var id, content string
+		var correct bool
+		if err = rows.Scan(&id, &content, &correct); err != nil {
+			app.serverError(w, err)
+			return
+		}
+		if item, ok := result[id]; ok && members[id][content] {
+			item.Results[content] = correct
+			item.Answered++
+			if correct {
+				item.Correct++
+			} else {
+				item.Wrong++
+			}
+		}
+	}
+	if err = rows.Err(); err != nil {
+		app.serverError(w, err)
+		return
+	}
+	for id, item := range result {
+		ids := make([]string, 0, len(members[id]))
+		for content := range members[id] {
+			ids = append(ids, content)
+		}
+		sort.Strings(ids)
+		for i, content := range ids {
+			if _, answered := item.Results[content]; !answered {
+				item.NextQuestion = i + 1
+				break
+			}
+		}
+	}
+	app.writeJSON(w, http.StatusOK, result)
+}

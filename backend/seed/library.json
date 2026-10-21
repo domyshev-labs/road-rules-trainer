@@ -32,18 +32,13 @@
     },
     {
       "id": "documents",
-      "label_ru": "Документы и допуски",
+      "label_ru": "Документы и сроки",
       "parent_id": null
     },
     {
       "id": "incidents",
       "label_ru": "ДТП и помощь",
       "parent_id": null
-    },
-    {
-      "id": "numbers.deadlines",
-      "label_ru": "Сроки",
-      "parent_id": "numbers"
     },
     {
       "id": "routine.drugs",
@@ -138,32 +133,32 @@
     {
       "id": "numbers.deadlines.novice",
       "label_ru": "Период ограничений для начинающих",
-      "parent_id": "numbers.deadlines"
+      "parent_id": "documents"
     },
     {
       "id": "numbers.deadlines.itv",
       "label_ru": "Периодичность ITV",
-      "parent_id": "numbers.deadlines"
+      "parent_id": "documents"
     },
     {
       "id": "numbers.deadlines.licences",
       "label_ru": "Выдача и продление водительских удостоверений",
-      "parent_id": "numbers.deadlines"
+      "parent_id": "documents"
     },
     {
       "id": "numbers.deadlines.certificates",
       "label_ru": "Выдача и действие сертификатов",
-      "parent_id": "numbers.deadlines"
+      "parent_id": "documents"
     },
     {
       "id": "numbers.deadlines.transfer_buyer",
       "label_ru": "Переоформление автомобиля покупателем",
-      "parent_id": "numbers.deadlines"
+      "parent_id": "documents"
     },
     {
       "id": "numbers.deadlines.transfer_seller",
       "label_ru": "Уведомление о продаже продавцом",
-      "parent_id": "numbers.deadlines"
+      "parent_id": "documents"
     },
     {
       "id": "signs.speed",
