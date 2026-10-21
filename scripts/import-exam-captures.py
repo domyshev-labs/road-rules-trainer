@@ -77,7 +77,7 @@ import hashlib
 r=repo
 def key(q):
  norm=lambda s:' '.join(s.lower().split())
- parts=[norm(q['question']),q.get('image_url','').split('/')[-1]]+sorted(norm(a['text']) for a in q['answers'])
+ parts=[norm(q['question']),(q.get('image_url') or '').split('/')[-1]]+sorted(norm(a['text']) for a in q['answers'])
  return hashlib.sha256('\n'.join(parts).encode()).hexdigest()[:24]
 ids={};bank={}
 for p in sorted((r/'backend/seed').glob('test-*.json')):

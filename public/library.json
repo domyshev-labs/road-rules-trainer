@@ -3730,6 +3730,432 @@
       "canonical_id": "d7d4110ac937f3d524f5c521"
     },
     {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 1,
+      "question_id": "exam:1027:01",
+      "question": "La depresión produce...\nA depression produces...",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "verified": true,
+      "index": 0,
+      "canonical_id": "0db353b350275bafcdb26700"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 2,
+      "question_id": "exam:1027:02",
+      "question": "Un cambio de rasante es...\nA change of gradient is...",
+      "topic_ids": [
+        "priority.tram"
+      ],
+      "verified": true,
+      "index": 1,
+      "canonical_id": "0a15a8c28f63947b63a0a9a3"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 3,
+      "question_id": "exam:1027:03",
+      "question": "Para incorporarse a la circulación, ¿se puede dar marcha atrás?\nIn order to merge with the traffic, are you permitted to reverse?",
+      "topic_ids": [
+        "documents.permissions",
+        "driving.braking",
+        "driving.parking",
+        "priority.merging"
+      ],
+      "verified": true,
+      "index": 2,
+      "canonical_id": "36af5784a7d1b5e15aa0f6aa"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 4,
+      "question_id": "exam:1027:04",
+      "question": "¿Está permitida la circulación de animales por una carretera convencional?\nAre animals permitted to travel on a normal road?",
+      "topic_ids": [
+        "documents.permissions"
+      ],
+      "verified": true,
+      "index": 3,
+      "canonical_id": "204ff15660311bf4c1f440a1"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 5,
+      "question_id": "exam:1027:05",
+      "question": "Si se encuentra un accidente de tráfico, ¿debe detenerse para auxiliar y prestar ayuda a las víctimas?\nIf you come across a traffic accident, must you stop to help the victims?",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "verified": true,
+      "index": 4,
+      "canonical_id": "dfb79962e591ec05df447280"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 6,
+      "question_id": "exam:1027:06",
+      "question": "En esta motocicleta, ¿debe llevar casco?\nMust you wear a helmet on this motorcycle?",
+      "topic_ids": [
+        "documents.itv",
+        "routine.helmets",
+        "routine.seatbelts",
+        "vehicle.classification",
+        "vehicle.motorcycles",
+        "vehicle.passengers"
+      ],
+      "verified": true,
+      "index": 5,
+      "canonical_id": "f586b1c3714a084c3cb92d04"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 7,
+      "question_id": "exam:1027:07",
+      "question": "En las isletas de canalización del tráfico situadas en la calzada, ¿se puede parar o estacionar?\nAre you permitted to stop or park on traffic islands situated on the road?",
+      "topic_ids": [
+        "documents.permissions",
+        "driving.lanes",
+        "signs.markings"
+      ],
+      "verified": true,
+      "index": 6,
+      "canonical_id": "31a0d5218f899ae19704a7dc"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 8,
+      "question_id": "exam:1027:08",
+      "question": "¿Está permitido que las motocicletas circulen por un carril VAO?\nAre motorcycles permitted to travel in a HOV lane?",
+      "topic_ids": [
+        "documents.permissions",
+        "driving.lanes",
+        "vehicle.motorcycles"
+      ],
+      "verified": true,
+      "index": 7,
+      "canonical_id": "613d1bc70e0cc6463a2114d0"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 9,
+      "question_id": "exam:1027:09",
+      "question": "¿Cuál debe ser su comportamiento al ceder el paso?\nWhat must you do when giving way?",
+      "topic_ids": [
+        "priority.general"
+      ],
+      "verified": true,
+      "index": 8,
+      "canonical_id": "9c6fb5f277fc9efaa8582129"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 10,
+      "question_id": "exam:1027:10",
+      "question": "En caso de reventón, ¿es correcto frenar bruscamente?\nIf you have a tyre blow-out, is it correct to brake sharply?",
+      "topic_ids": [
+        "driving.braking",
+        "vehicle.tyres"
+      ],
+      "verified": true,
+      "index": 9,
+      "canonical_id": "8b1134ffd2daa70488c40d18"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 11,
+      "question_id": "exam:1027:11",
+      "question": "La luz verde de un semáforo circular para vehículos indica que...\nThe green light on a circular traffic light for vehicles indicates that...",
+      "topic_ids": [
+        "documents.permissions",
+        "priority.lights"
+      ],
+      "verified": true,
+      "index": 10,
+      "canonical_id": "98dc7cee1b926b1a40569ec6"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 12,
+      "question_id": "exam:1027:12",
+      "question": "¿A qué vehículos prohíbe el adelantamiento esta señal?\nWhich vehicles are prohibited from overtaking by this sign?",
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "verified": true,
+      "index": 11,
+      "canonical_id": "a6b0a6e4074e6d894b736192"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 13,
+      "question_id": "exam:1027:13",
+      "question": "El consumo de drogas, ¿afecta a la capacidad de reacción?\nDoes the consumption of drugs affect reaction ability?",
+      "topic_ids": [
+        "routine.drugs",
+        "routine.ecodriving"
+      ],
+      "verified": true,
+      "index": 12,
+      "canonical_id": "340854bcae606299c511a6e2"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 14,
+      "question_id": "exam:1027:14",
+      "question": "¿Dónde está permitido parar en una vía interurbana?\nWhere are you permitted to stop on an interurban road?",
+      "topic_ids": [
+        "documents.permissions",
+        "driving.lanes",
+        "driving.parking"
+      ],
+      "verified": true,
+      "index": 13,
+      "canonical_id": "15d551a85eeaa5ebd9d06cf8"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 15,
+      "question_id": "exam:1027:15",
+      "question": "Para combatir la fatiga, ¿cuál es el remedio más adecuado?\nWhat is the best remedy for combating fatigue?",
+      "topic_ids": [
+        "routine.fatigue"
+      ],
+      "verified": true,
+      "index": 14,
+      "canonical_id": "298eca4d3e4c6d6bbb1347f2"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 16,
+      "question_id": "exam:1027:16",
+      "question": "Para un uso eficaz del cinturón de seguridad...\nIn order to use the seatbelt effectively...",
+      "topic_ids": [
+        "routine.seatbelts"
+      ],
+      "verified": true,
+      "index": 15,
+      "canonical_id": "f80faba68d24614a960972af"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 17,
+      "question_id": "exam:1027:17",
+      "question": "¿Cuál es la tasa de alcoholemia máxima permitida a un conductor novel?\nWhat is the maximum level of alcohol permitted for a newly qualified driver?",
+      "topic_ids": [
+        "documents.permissions",
+        "numbers.alcohol",
+        "routine.alcohol"
+      ],
+      "verified": true,
+      "index": 16,
+      "canonical_id": "a3312b20ecf09df9efdffb11"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 18,
+      "question_id": "exam:1027:18",
+      "question": "Entre la puesta y la salida del sol, ¿está permitido conducir una motocicleta que arrastra un remolque?\nBetween dusk and dawn, are you permitted to ride a motorcycle that is pulling a trailer?",
+      "topic_ids": [
+        "documents.permissions",
+        "incidents.towing",
+        "numbers.dimensions",
+        "vehicle.cargo",
+        "vehicle.motorcycles",
+        "vehicle.visibility"
+      ],
+      "verified": true,
+      "index": 17,
+      "canonical_id": "cbe77ff0d6078061b78ee12c"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 19,
+      "question_id": "exam:1027:19",
+      "question": "¿Cuándo debe iniciar las advertencias para realizar una maniobra?\nWhen should you start to warn other drivers when you want to carry out a manoeuvre?",
+      "topic_ids": [
+        "driving.weather",
+        "signs.warning",
+        "vehicle.lights"
+      ],
+      "verified": true,
+      "index": 18,
+      "canonical_id": "c12ae95b17f94ea79c454bd8"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 20,
+      "question_id": "exam:1027:20",
+      "question": "De noche, es obligatorio señalizar una carga que sobresale lateralmente más de 0,40 metros de los bordes exteriores de las luces de posición...\nAt night, is it mandatory to identify a load which protrudes from the side of the vehicle by more than 0.40 metres from the outer edges of the position lamps...",
+      "topic_ids": [
+        "driving.weather",
+        "numbers.dimensions",
+        "vehicle.cargo"
+      ],
+      "verified": true,
+      "index": 19,
+      "canonical_id": "9b2919db7731ecd1ce3d0c6c"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 21,
+      "question_id": "exam:1027:21",
+      "question": "¿Qué vehículos deben obedecer al semáforo situado a la izquierda?\nWhich vehicles must obey the traffic light situated on the left?",
+      "topic_ids": [
+        "priority.lights"
+      ],
+      "verified": true,
+      "index": 20,
+      "canonical_id": "0539abde530ffdcd1865f2b7"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 22,
+      "question_id": "exam:1027:22",
+      "question": "Los conductores de motocicletas, ¿pueden conducir utilizando cascos o auriculares conectados a un teléfono móvil?\nAre motorcycle riders permitted to ride using helmets or headphones that are connected to a mobile phone?",
+      "topic_ids": [
+        "documents.permissions",
+        "routine.distraction",
+        "routine.helmets",
+        "vehicle.motorcycles"
+      ],
+      "verified": true,
+      "index": 21,
+      "canonical_id": "cd406ee7d08c3d2ebe7dd0c0"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 23,
+      "question_id": "exam:1027:23",
+      "question": "¿Qué debe revisar si prevé que puede llover?\nWhat should you check if you are expecting rain?",
+      "topic_ids": [
+        "driving.weather",
+        "vehicle.tyres"
+      ],
+      "verified": true,
+      "index": 22,
+      "canonical_id": "5f8cf885ab0638f331a3a763"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 24,
+      "question_id": "exam:1027:24",
+      "question": "Todas las enfermedades, ¿son igual de peligrosas para la conducción?\nAre all illnesses as dangerous as each other when driving?",
+      "topic_ids": [
+        "routine.health"
+      ],
+      "verified": true,
+      "index": 23,
+      "canonical_id": "f3a2a6d3842877f6519ab61d"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 25,
+      "question_id": "exam:1027:25",
+      "question": "En una entrada de garaje, ¿está permitido estacionar el vehículo?\nAre you permitted to park your vehicle at the entrance to a garage?",
+      "topic_ids": [
+        "documents.permissions",
+        "driving.parking"
+      ],
+      "verified": true,
+      "index": 24,
+      "canonical_id": "9b5cd6c82a16945e0f359b32"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 26,
+      "question_id": "exam:1027:26",
+      "question": "La flecha verde del semáforo de carril, ¿qué indica?\nWhat does the green arrow on the traffic light above the lane indicate?",
+      "topic_ids": [
+        "driving.lanes",
+        "priority.lights"
+      ],
+      "verified": true,
+      "index": 25,
+      "canonical_id": "53cb067cf90bc4608565008b"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 27,
+      "question_id": "exam:1027:27",
+      "question": "A un herido en accidente, ¿es conveniente darle algún alimento o bebida?\nIs it advisable to give a person injured in a traffic accident something to eat or drink?",
+      "topic_ids": [
+        "incidents.scene"
+      ],
+      "verified": true,
+      "index": 26,
+      "canonical_id": "43ab9d9a2cedf3db14eda41e"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 28,
+      "question_id": "exam:1027:28",
+      "question": "Esta señal significa intervalo...\nThis sign means the interval...",
+      "topic_ids": [
+        "signs.warning"
+      ],
+      "verified": true,
+      "index": 27,
+      "canonical_id": "29c7e0675050877b3727fdcc"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 29,
+      "question_id": "exam:1027:29",
+      "question": "El consumo de éxtasis, ¿cómo afecta en el comportamiento del conductor?\nHow does taking Ecstasy affect driver behaviour?",
+      "topic_ids": [
+        "routine.drugs",
+        "routine.ecodriving"
+      ],
+      "verified": true,
+      "index": 28,
+      "canonical_id": "970312ed8a2e3f1a1b2795df"
+    },
+    {
+      "test_id": 101027,
+      "source_test_id": 1027,
+      "source_ordinal": 30,
+      "question_id": "exam:1027:30",
+      "question": "Los camiones, ¿pueden utilizar un carril abierto a la circulación en sentido contrario al normal?\nCan lorries use a lane open to traffic travelling in the opposite direction?",
+      "topic_ids": [
+        "driving.lanes",
+        "vehicle.motorcycles"
+      ],
+      "verified": true,
+      "index": 29,
+      "canonical_id": "263570daa16807849c773a2a"
+    },
+    {
       "test_id": 101028,
       "source_test_id": 1028,
       "source_ordinal": 1,
