@@ -302,6 +302,9 @@ func TestTopicTrainingUsesUniqueMembersAndSeparateProgress(t *testing.T) {
 	}
 	seen := map[string]bool{}
 	for i, q := range topic.Questions {
+		if q.QuestionRU == "" {
+			t.Fatal("missing Russian question list title")
+		}
 		if q.Number != i+1 || seen[q.ID] {
 			t.Fatalf("invalid topic numbering or duplicated content: %+v", q)
 		}
@@ -404,5 +407,26 @@ func TestTopicTrainingUsesUniqueMembersAndSeparateProgress(t *testing.T) {
 	}
 	if err := application.db.QueryRow(`SELECT count(*) FROM topic_answers`).Scan(&count); err != nil || count != 0 {
 		t.Fatalf("reset failed: %d %v", count, err)
+	}
+}
+
+func TestRussianQuestionListTitlesCoverLibrary(t *testing.T) {
+	data, err := seed.Files.ReadFile("library.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+	var library topicLibrary
+	if err = json.Unmarshal(data, &library); err != nil {
+		t.Fatal(err)
+	}
+	titles := map[string]string{}
+	for _, q := range library.Questions {
+		if strings.TrimSpace(q.QuestionRU) == "" {
+			t.Fatalf("missing Russian list title: %s", q.CanonicalID)
+		}
+		if previous, ok := titles[q.CanonicalID]; ok && previous != q.QuestionRU {
+			t.Fatalf("inconsistent shared translation: %s", q.CanonicalID)
+		}
+		titles[q.CanonicalID] = q.QuestionRU
 	}
 }

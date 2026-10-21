@@ -94,6 +94,11 @@ for q in d['questions']:
  if q['canonical_id'] in bank:
   group=[x for x in d['questions'] if x['canonical_id']==q['canonical_id']]
   q['topic_ids']=sorted({tag for x in group for tag in x['topic_ids']})
+# Russian list titles are presentation metadata and never change question identity.
+titles_path=r/'materials/question-titles-ru.json'
+titles=json.loads(titles_path.read_text())['titles'] if titles_path.exists() else {}
+for q in d['questions']:
+ if q['canonical_id'] in titles:q['question_ru']=titles[q['canonical_id']]
 p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
 (r/'materials/exam/question-memberships.json').write_text(json.dumps(list(bank.values()),ensure_ascii=False,indent=2)+'\n')
 print(len(ids),'ticket positions,',len(bank),'unique confirmed questions')

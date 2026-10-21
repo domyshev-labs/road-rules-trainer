@@ -14,6 +14,7 @@ import (
 
 type topicReference struct {
 	CanonicalID   string   `json:"canonical_id"`
+	QuestionRU    string   `json:"question_ru,omitempty"`
 	TestID        int      `json:"test_id"`
 	SourceTestID  int      `json:"source_test_id"`
 	SourceOrdinal int      `json:"source_ordinal"`
@@ -40,14 +41,15 @@ type topicProgress struct {
 	Correct        bool   `json:"correct"`
 }
 type topicQuestion struct {
-	ID       string            `json:"id"`
-	Number   int               `json:"number"`
-	Question string            `json:"question"`
-	Image    string            `json:"image_url"`
-	Help     map[string]string `json:"help"`
-	Answers  []topicAnswer     `json:"answers"`
-	Sources  []topicReference  `json:"sources"`
-	Progress *topicProgress    `json:"progress,omitempty"`
+	ID         string            `json:"id"`
+	Number     int               `json:"number"`
+	Question   string            `json:"question"`
+	QuestionRU string            `json:"question_ru,omitempty"`
+	Image      string            `json:"image_url"`
+	Help       map[string]string `json:"help"`
+	Answers    []topicAnswer     `json:"answers"`
+	Sources    []topicReference  `json:"sources"`
+	Progress   *topicProgress    `json:"progress,omitempty"`
 }
 
 func topicMembers(id string) (string, []topicReference, []topicReference, error) {
@@ -91,7 +93,7 @@ func topicMembers(id string) (string, []topicReference, []topicReference, error)
 }
 
 func (app *App) loadTopicQuestion(ref topicReference) (topicQuestion, error) {
-	q := topicQuestion{ID: ref.CanonicalID, Help: map[string]string{}, Answers: []topicAnswer{}, Sources: []topicReference{}}
+	q := topicQuestion{ID: ref.CanonicalID, QuestionRU: ref.QuestionRU, Help: map[string]string{}, Answers: []topicAnswer{}, Sources: []topicReference{}}
 	var en, es, ru string
 	var membershipID int
 	err := app.db.QueryRow(`SELECT q.id,c.prompt,c.help_en,c.help_es,c.help_ru,q.image_path FROM questions q JOIN question_memberships m ON m.question_id=q.id JOIN question_contents c ON c.id=m.content_id WHERE q.test_id=? AND q.ordinal=? AND c.id=?`, ref.TestID, ref.Index+1, ref.CanonicalID).Scan(&membershipID, &q.Question, &en, &es, &ru, &q.Image)

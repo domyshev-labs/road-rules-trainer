@@ -712,7 +712,7 @@ function MigrationGate({ user, onLogout }: { user: AuthUser; onLogout: () => voi
   );
 }
 
-type LibraryQuestion = { canonical_id: string; test_id: number; source_test_id: number; source_ordinal: number; question_id: string; question: string; topic_ids: string[]; verified: boolean; index: number | null };
+type LibraryQuestion = { canonical_id: string; test_id: number; source_test_id: number; source_ordinal: number; question_id: string; question: string; question_ru?: string; topic_ids: string[]; verified: boolean; index: number | null };
 type TopicNode = { id: string; label_ru: string; parent_id: string | null };
 type LibraryData = { nodes: TopicNode[]; questions: LibraryQuestion[] };
 
@@ -738,7 +738,7 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, onLogout, getS
     return () => { active = false; };
   }, []);
   const query = search.trim().toLocaleLowerCase();
-  const matches = (q: LibraryQuestion) => !query || `${q.source_test_id} ${q.source_ordinal} ${q.question} ${q.topic_ids.map((id) => library.nodes.find((n) => n.id === id)?.label_ru || '').join(' ')}`.toLocaleLowerCase().includes(query);
+  const matches = (q: LibraryQuestion) => !query || `${q.source_test_id} ${q.source_ordinal} ${q.question} ${q.question_ru || ''} ${q.topic_ids.map((id) => library.nodes.find((n) => n.id === id)?.label_ru || '').join(' ')}`.toLocaleLowerCase().includes(query);
   function questionList(items: LibraryQuestion[], unique = false, node?: TopicNode) {
     const seen = new Set<string>();
     if (node) items = items.filter((q) => q.verified);
@@ -747,8 +747,8 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, onLogout, getS
     return <div className="library-questions">{items.map((q, index) => ({ q, index })).filter(({ q }) => matches(q)).map(({ q, index }) => {
       const result = node ? summaries?.[node.id]?.results[q.canonical_id] : undefined;
       return <button type="button" key={q.question_id} disabled={!q.verified} onClick={() => node ? onOpenTopic(node.id, q.canonical_id) : onOpen(q.test_id, q.index ?? undefined)}>
-        <span className="library-question-id">{node ? <><b className="topic-list-number">{index + 1}</b>{node.label_ru}<i className={result === false ? 'wrong-mark' : ''}>{result === undefined ? '' : result ? '✓' : '×'}</i></> : `${q.test_id >= 100000 ? 'Экзамен' : 'Тематический билет'} ${q.source_test_id} / ${String(q.source_ordinal).padStart(2, '0')}`}</span>
-        <span>{q.question.split('\n').filter(Boolean).at(-1)}</span>{!q.verified && <small>Отложен · ответ не подтверждён</small>}
+        <span className={`library-question-id ${node ? 'topic-question-row' : ''}`}>{node ? <><b className="topic-list-number">{index + 1}</b><span className="library-question-title">{q.question_ru || q.question.split('\n').filter(Boolean).at(-1)}</span><i className={result === false ? 'wrong-mark' : ''}>{result === undefined ? '' : result ? '✓' : '×'}</i></> : `${q.test_id >= 100000 ? 'Экзамен' : 'Тематический билет'} ${q.source_test_id} / ${String(q.source_ordinal).padStart(2, '0')}`}</span>
+        {!node && <span>{q.question_ru || q.question.split('\n').filter(Boolean).at(-1)}</span>}{!q.verified && <small>Отложен · ответ не подтверждён</small>}
       </button>;
     })}</div>;
   }
@@ -782,7 +782,7 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, onLogout, getS
 }
 
 type TopicAnswerProgress = { selected_letter: string; correct_letter: string; correct: boolean };
-type TopicQuestion = { id: string; number: number; question: string; image_url: string; help: Record<HelpLanguage, string>; answers: Answer[]; sources: LibraryQuestion[]; progress?: TopicAnswerProgress };
+type TopicQuestion = { id: string; number: number; question: string; question_ru?: string; image_url: string; help: Record<HelpLanguage, string>; answers: Answer[]; sources: LibraryQuestion[]; progress?: TopicAnswerProgress };
 type TopicRecord = { id: string; title: string; questions: TopicQuestion[] };
 
 function TopicTrainer({ topicId, initialQuestion, path, onBack }: {
@@ -851,7 +851,7 @@ function TopicTrainer({ topicId, initialQuestion, path, onBack }: {
           <div className="ticket-menu-shell topic-menu-shell">
             <button type="button" className="ticket-menu-trigger" aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><span className="ticket-menu-trigger-copy"><span className="ticket-menu-trigger-label">Текущий вопрос</span><span className="ticket-menu-trigger-title">Вопрос {position + 1} из {total}</span></span><span className="ticket-menu-chevron">⌄</span></button>
             {menuOpen && <><button className="ticket-menu-backdrop" aria-label="Закрыть список вопросов" onClick={() => setMenuOpen(false)} /><section className="ticket-menu-panel topic-menu" aria-label={`Вопросы подтемы ${topic.title}`}><header><div><div className="menu-topic-heading"><small>Раздел</small><p>{path}</p><small>Тема</small><strong>{topic.title}</strong></div><p className="topic-summary-line">Всего: {total} · Выполнено: {done} · Верно: {correct} · Неверно: {done - correct}</p></div><button aria-label="Закрыть" onClick={() => setMenuOpen(false)}>×</button></header><div className="ticket-menu-list">
-              {topic.questions.map((item, index) => <button key={item.id} type="button" className={`topic-menu-question ${index === position ? 'active' : ''}`} onClick={() => { goTo(index); setMenuOpen(false); }}><b>{index + 1}</b><span><small className="topic-row-label">{topic.title}</small>{item.question.split('\n').filter(Boolean).at(-1)}</span><i>{item.progress ? item.progress.correct ? '✓' : '×' : '·'}</i></button>)}
+              {topic.questions.map((item, index) => <button key={item.id} type="button" className={`topic-menu-question ${index === position ? 'active' : ''}`} onClick={() => { goTo(index); setMenuOpen(false); }}><b>{index + 1}</b><span>{item.question_ru || item.question.split('\n').filter(Boolean).at(-1)}</span><i>{item.progress ? item.progress.correct ? '✓' : '×' : '·'}</i></button>)}
             </div></section></>}
           </div>
 

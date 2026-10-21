@@ -504,3 +504,9 @@ button { font:inherit; }
  .theme-heading h1 { font-size:25px; }
  .topic-menu .ticket-menu-list { max-height:calc(100dvh - 185px); }
 }
+
+/* Topic rows show the translated prompt alongside its sequence number. */
+.library-question-id.topic-question-row { display:grid; grid-template-columns:23px minmax(0,1fr) auto; align-items:start; gap:10px; width:100%; }
+.topic-question-row .topic-list-number { margin:0; }
+.library-question-title { color:var(--ink); font-size:14px; font-weight:500; letter-spacing:0; line-height:1.5; }
+.topic-question-row i { align-self:center; }
