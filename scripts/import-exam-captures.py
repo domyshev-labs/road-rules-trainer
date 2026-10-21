@@ -52,10 +52,11 @@ for path in sorted(materials.glob('exam-*-capture.json')):
   ref={'test_id':tid,'source_test_id':sid,'source_ordinal':ordinal,'question_id':q['question_id'],'question':q['question'],'topic_ids':q['topic_ids'],'verified':valid,'index':len(verified) if valid else None}
   refs.append(ref)
   if valid:
-   image=f'/tests/exam/{sid}/q{ordinal:02}.jpg'
-   imagefile=repo/'public'/image.lstrip('/');imagefile.parent.mkdir(parents=True,exist_ok=True);
-   if (materials/q['local_image']).exists(): shutil.copyfile(materials/q['local_image'],imagefile)
-   elif not imagefile.exists(): raise FileNotFoundError(materials/q['local_image'])
+   image=f'/tests/exam/{sid}/q{ordinal:02}.jpg' if q.get('local_image') else ''
+   if image:
+    imagefile=repo/'public'/image.lstrip('/');imagefile.parent.mkdir(parents=True,exist_ok=True)
+    if (materials/q['local_image']).exists(): shutil.copyfile(materials/q['local_image'],imagefile)
+    elif not imagefile.exists(): raise FileNotFoundError(materials/q['local_image'])
    verified.append({**q,'local_image':image})
  save(repo/f'materials/exam/exam-{sid}-capture.json',d)
  save(repo/f'backend/seed/test-{tid}.json',{'test_id':tid,'title':f'Exam collection · {sid}','collection':'Exam Test','questions':verified})

@@ -430,3 +430,5 @@ button { font:inherit; }
  .topic-controls button { flex: 1; white-space: nowrap; padding: 11px 9px; font-size: 13px; }
  .visual-panel { border-bottom-color: #d8dfe2; }
 }
+
+.visual-empty { color: #859097; font-size: 14px; letter-spacing: .01em; }

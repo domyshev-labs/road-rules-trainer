@@ -841,7 +841,7 @@ function TopicTrainer({ topicId, initialQuestion, path, onBack }: {
       </header>
       <div className="progress-row"><span>Вопрос {position + 1} из {total}</span><div className="progress-track"><div style={{ width: `${progress}%` }} /></div><span>{progress}%</span></div>
       <section className="quiz-card">
-        <div className="visual-panel"><div className="question-number">#{position + 1}</div><div className="visual-media"><img src={q.image_url} alt={`Иллюстрация к вопросу ${position + 1}`} /></div></div>
+        <div className="visual-panel"><div className="question-number">#{position + 1}</div><div className="visual-media">{q.image_url ? <img src={q.image_url} alt={`Иллюстрация к вопросу ${position + 1}`} /> : <span className="visual-empty">Вопрос без иллюстрации</span>}</div></div>
         <div className="question-panel" ref={panel}>
           <div className="question-heading-row"><h2><BilingualText text={q.question} /></h2></div>
           <p className="topic-sources">В исходниках: {sourceText}</p>
@@ -1398,10 +1398,10 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
         <div className="visual-panel">
           <div className="question-number">#{question.number.replace(/\.$/, '')}</div>
           <div className="visual-media">
-            <img
-              src={question.image_url ?? undefined}
+            {question.image_url ? <img
+              src={question.image_url}
               alt={`Иллюстрация к вопросу ${question.number}`}
-            />
+            /> : <span className="visual-empty">Вопрос без иллюстрации</span>}
           </div>
         </div>
 

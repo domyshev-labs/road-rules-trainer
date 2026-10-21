@@ -241,7 +241,10 @@ func seedDatabase(db *sql.DB) error {
 				helpEN = question.Help
 			}
 			imagePath := fmt.Sprintf("/tests/%d/q%02d.jpg", test.TestID, index+1)
-			if strings.HasPrefix(question.LocalImage, "/tests/exam/") {
+			if test.Collection == "Exam Test" {
+				if question.LocalImage != "" && !strings.HasPrefix(question.LocalImage, "/tests/exam/") {
+					return fmt.Errorf("invalid exam image path: %s", question.LocalImage)
+				}
 				imagePath = question.LocalImage
 			}
 			_, err := tx.Exec(`INSERT INTO questions(test_id,ordinal,number,prompt,help_en,help_es,help_ru,image_path) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(test_id,ordinal) DO UPDATE SET number=excluded.number,prompt=excluded.prompt,help_en=excluded.help_en,help_es=excluded.help_es,help_ru=excluded.help_ru,image_path=excluded.image_path`, test.TestID, index+1, question.Number, question.Question, helpEN, translations["es"], translations["ru"], imagePath)

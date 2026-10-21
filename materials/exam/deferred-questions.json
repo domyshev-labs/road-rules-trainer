@@ -153,6 +153,15 @@
       "question_id": "exam:1069:13",
       "question": "Durante el día, con niebla densa o lluvia intensa, ¿se puede circular con la luz de largo alcance encendida?\nDuring the day, during dense fog or heavy rain, can you drive with full beams on?",
       "image": "exam-1069-q13.jpg"
+    },
+    {
+      "ticket": 1082,
+      "ordinal": 30,
+      "proposed": "A",
+      "reason": "Automatic approval review could not verify the intersection diagram and rejected submission. Deferred under the user instruction.",
+      "question_id": "exam:1082:30",
+      "question": "En esta intersección ¿quién debe pasar primero?\nAt this intersection, who should proceed first?",
+      "image": "exam-1082-q30.jpg"
     }
   ]
 }

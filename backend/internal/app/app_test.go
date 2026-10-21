@@ -268,6 +268,10 @@ func TestSharedQuestionsAndExamMemberships(t *testing.T) {
 	if err := application.db.QueryRow(`SELECT count(*) FROM questions WHERE test_id=101045 AND number IN ('5.','16.','26.')`).Scan(&count); err != nil || count != 0 {
 		t.Fatalf("deferred questions imported: count=%d err=%v", count, err)
 	}
+	var optionalImage string
+	if err := application.db.QueryRow(`SELECT image_path FROM questions WHERE test_id=101079 AND ordinal=6`).Scan(&optionalImage); err != nil || optionalImage != "" {
+		t.Fatalf("text-only source question received a fabricated image: %q err=%v", optionalImage, err)
+	}
 	var incomplete int
 	if err := application.db.QueryRow(`SELECT count(*) FROM questions q WHERE (SELECT count(*) FROM answers a WHERE a.question_id=q.id AND a.correct=1)<>1`).Scan(&incomplete); err != nil || incomplete != 0 {
 		t.Fatalf("invalid answer keys: count=%d err=%v", incomplete, err)
