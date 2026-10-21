@@ -45,6 +45,7 @@ CREATE INDEX IF NOT EXISTS idx_sessions_user ON sessions(user_id);
 CREATE TABLE IF NOT EXISTS tests (
   id INTEGER PRIMARY KEY,
   title TEXT NOT NULL,
+  collection TEXT NOT NULL CHECK(collection IN ('Thematic Test','Exam Test')),
   question_count INTEGER NOT NULL
 );
 CREATE TABLE IF NOT EXISTS questions (
@@ -104,9 +105,10 @@ type seedQuestion struct {
 }
 
 type seedTest struct {
-	TestID    int            `json:"test_id"`
-	Title     string         `json:"title"`
-	Questions []seedQuestion `json:"questions"`
+	TestID     int            `json:"test_id"`
+	Title      string         `json:"title"`
+	Collection string         `json:"collection"`
+	Questions  []seedQuestion `json:"questions"`
 }
 
 type seedHelp struct {
@@ -136,6 +138,33 @@ func openDatabase(path string) (*sql.DB, error) {
 }
 
 func seedDatabase(db *sql.DB) error {
+	// Existing databases contain only thematic tickets. Keep their IDs and progress.
+	columns, err := db.Query(`PRAGMA table_info(tests)`)
+	if err != nil {
+		return err
+	}
+	hasCollection := false
+	for columns.Next() {
+		var cid, notNull, primaryKey int
+		var name, columnType string
+		var defaultValue sql.NullString
+		if err := columns.Scan(&cid, &name, &columnType, &notNull, &defaultValue, &primaryKey); err != nil {
+			columns.Close()
+			return err
+		}
+		hasCollection = hasCollection || name == "collection"
+	}
+	if err := columns.Err(); err != nil {
+		columns.Close()
+		return err
+	}
+	columns.Close()
+	if !hasCollection {
+		if _, err := db.Exec(`ALTER TABLE tests ADD COLUMN collection TEXT NOT NULL DEFAULT 'Thematic Test' CHECK(collection IN ('Thematic Test','Exam Test'))`); err != nil {
+			return fmt.Errorf("migrate ticket collections: %w", err)
+		}
+	}
+
 	entries, err := fs.Glob(seed.Files, "test-*.json")
 	if err != nil {
 		return err
@@ -177,7 +206,10 @@ func seedDatabase(db *sql.DB) error {
 		if err := json.Unmarshal(data, &test); err != nil {
 			return fmt.Errorf("decode %s: %w", name, err)
 		}
-		if _, err := tx.Exec(`INSERT INTO tests(id,title,question_count) VALUES(?,?,?) ON CONFLICT(id) DO UPDATE SET title=excluded.title,question_count=excluded.question_count`, test.TestID, test.Title, len(test.Questions)); err != nil {
+		if test.Collection != "Thematic Test" && test.Collection != "Exam Test" {
+			return fmt.Errorf("%s: collection must be Thematic Test or Exam Test, got %q", name, test.Collection)
+		}
+		if _, err := tx.Exec(`INSERT INTO tests(id,title,collection,question_count) VALUES(?,?,?,?) ON CONFLICT(id) DO UPDATE SET title=excluded.title,collection=excluded.collection,question_count=excluded.question_count`, test.TestID, test.Title, test.Collection, len(test.Questions)); err != nil {
 			return err
 		}
 		for index, question := range test.Questions {

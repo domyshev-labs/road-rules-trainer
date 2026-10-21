@@ -258,7 +258,7 @@ func (app *App) requireUser(next http.Handler) http.Handler {
 }
 
 func (app *App) catalog(w http.ResponseWriter, _ *http.Request) {
-	rows, err := app.db.Query(`SELECT id,title,question_count FROM tests ORDER BY id`)
+	rows, err := app.db.Query(`SELECT id,title,collection,question_count FROM tests ORDER BY id`)
 	if err != nil {
 		app.serverError(w, err)
 		return
@@ -267,12 +267,12 @@ func (app *App) catalog(w http.ResponseWriter, _ *http.Request) {
 	items := make([]map[string]any, 0, 33)
 	for rows.Next() {
 		var id, count int
-		var title string
-		if err := rows.Scan(&id, &title, &count); err != nil {
+		var title, collection string
+		if err := rows.Scan(&id, &title, &collection, &count); err != nil {
 			app.serverError(w, err)
 			return
 		}
-		items = append(items, map[string]any{"id": id, "title": title, "questions": count, "translated": true})
+		items = append(items, map[string]any{"id": id, "title": title, "collection": collection, "questions": count, "translated": true})
 	}
 	app.writeJSON(w, http.StatusOK, items)
 }
@@ -283,8 +283,8 @@ func (app *App) test(w http.ResponseWriter, r *http.Request) {
 		app.writeError(w, http.StatusBadRequest, "Некорректный билет")
 		return
 	}
-	var title string
-	if err := app.db.QueryRow(`SELECT title FROM tests WHERE id=?`, testID).Scan(&title); err != nil {
+	var title, collection string
+	if err := app.db.QueryRow(`SELECT title,collection FROM tests WHERE id=?`, testID).Scan(&title, &collection); err != nil {
 		app.writeError(w, http.StatusNotFound, "Билет не найден")
 		return
 	}
@@ -314,7 +314,7 @@ func (app *App) test(w http.ResponseWriter, r *http.Request) {
 		answers := currentQuestion["answers"].([]map[string]string)
 		currentQuestion["answers"] = append(answers, map[string]string{"letter": letter, "text": answerText})
 	}
-	app.writeJSON(w, http.StatusOK, map[string]any{"test_id": testID, "title": title, "questions": questions, "translations": map[string]any{"help": translations}})
+	app.writeJSON(w, http.StatusOK, map[string]any{"test_id": testID, "title": title, "collection": collection, "questions": questions, "translations": map[string]any{"help": translations}})
 }
 
 func (app *App) createAttempt(w http.ResponseWriter, r *http.Request) {

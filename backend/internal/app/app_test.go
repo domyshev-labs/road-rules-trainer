@@ -2,6 +2,7 @@ package app
 
 import (
 	"context"
+	"database/sql"
 	"encoding/json"
 	"io"
 	"log/slog"
@@ -81,10 +82,21 @@ func TestPasswordlessQuizFlow(t *testing.T) {
 	if response.Code != http.StatusOK || json.Unmarshal(response.Body.Bytes(), &catalog) != nil || len(catalog) != 33 {
 		t.Fatalf("catalog: status=%d count=%d body=%s", response.Code, len(catalog), response.Body.String())
 	}
+	for _, ticket := range catalog {
+		if ticket["collection"] != "Thematic Test" {
+			t.Fatalf("unexpected ticket collection: %#v", ticket)
+		}
+	}
 
 	response = request(t, handler, http.MethodGet, "/api/tests/1015", "", cookie)
 	if response.Code != http.StatusOK || strings.Contains(response.Body.String(), `"correct"`) {
 		t.Fatalf("test response leaked correct answers: status=%d", response.Code)
+	}
+	var ticket struct {
+		Collection string `json:"collection"`
+	}
+	if err := json.Unmarshal(response.Body.Bytes(), &ticket); err != nil || ticket.Collection != "Thematic Test" {
+		t.Fatalf("ticket collection: %q error=%v", ticket.Collection, err)
 	}
 
 	response = request(t, handler, http.MethodPost, "/api/attempts", `{"test_id":1015,"mode":"full","total":18}`, cookie)
@@ -162,5 +174,44 @@ func TestProtectedRoutesRequireSession(t *testing.T) {
 	response := request(t, application.Handler(), http.MethodGet, "/api/catalog", "", nil)
 	if response.Code != http.StatusUnauthorized {
 		t.Fatalf("got %d, want 401", response.Code)
+	}
+}
+
+func TestLegacyCollectionMigrationPreservesAnswers(t *testing.T) {
+	path := t.TempDir() + "/legacy.db"
+	db, err := sql.Open("sqlite", path)
+	if err != nil {
+		t.Fatal(err)
+	}
+	legacySchema := strings.Replace(schema, "  collection TEXT NOT NULL CHECK(collection IN ('Thematic Test','Exam Test')),\n", "", 1)
+	if _, err := db.Exec(legacySchema); err != nil {
+		db.Close()
+		t.Fatal(err)
+	}
+	_, err = db.Exec(`
+INSERT INTO tests(id,title,question_count) VALUES(1001,'Definitions',30);
+INSERT INTO questions(id,test_id,ordinal,number,prompt,help_en,help_es,help_ru,image_path)
+VALUES(987654,1001,1,'1','Legacy prompt','','','','');
+INSERT INTO users(id,email,created_at) VALUES('legacy-user','legacy@example.com','2026-10-20T00:00:00Z');
+INSERT INTO attempts(id,user_id,test_id,mode,total,started_at)
+VALUES('legacy-attempt','legacy-user',1001,'full',30,'2026-10-20T00:00:00Z');
+INSERT INTO attempt_answers(attempt_id,question_id,selected_letter,correct,answered_at)
+VALUES('legacy-attempt',987654,'A',1,'2026-10-20T00:00:01Z');`)
+	db.Close()
+	if err != nil {
+		t.Fatal(err)
+	}
+	// Reopening twice also verifies that the migration and seed remain idempotent.
+	for range 2 {
+		upgraded, err := openDatabase(path)
+		if err != nil {
+			t.Fatal(err)
+		}
+		var count int
+		err = upgraded.QueryRow(`SELECT count(*) FROM attempt_answers aa JOIN questions q ON q.id=aa.question_id JOIN tests t ON t.id=q.test_id WHERE aa.attempt_id='legacy-attempt' AND q.id=987654 AND t.collection='Thematic Test' AND aa.selected_letter='A' AND aa.correct=1`).Scan(&count)
+		upgraded.Close()
+		if err != nil || count != 1 {
+			t.Fatalf("legacy answer after migration: count=%d error=%v", count, err)
+		}
 	}
 }

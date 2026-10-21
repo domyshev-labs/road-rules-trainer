@@ -44,6 +44,17 @@ answer endpoint returns correctness only after persisting the selected choice.
 
 ## SQLite tables
 
+Tickets have a required `collection`: `Thematic Test` or `Exam Test`. All 33
+existing tickets (956 questions) belong to `Thematic Test`. A question inherits
+its collection through `questions.test_id`; its wording alone does not determine
+the collection. Both the catalog and ticket API include this field.
+
+The seed importer rejects missing or unsupported collections. New tickets must
+declare their collection explicitly in the source JSON. On older databases,
+startup adds the collection column and classifies existing tickets as thematic,
+preserving question IDs, answers, attempts, and statistics. This classification
+does not yet implement exam timing, scoring, or feedback behavior.
+
 - `users`, `login_codes`, `sessions`
 - `tests`, `questions`, `answers`
 - `attempts`, `attempt_answers`

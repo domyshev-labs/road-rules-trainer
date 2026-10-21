@@ -9,9 +9,10 @@ type Question = {
   image_url: string | null;
   local_image: string | null;
 };
-type TestRecord = { test_id: number; title: string; questions: Question[]; translations?: HelpTranslations };
+type TicketCollection = 'Thematic Test' | 'Exam Test';
+type TestRecord = { test_id: number; title: string; collection: TicketCollection; questions: Question[]; translations?: HelpTranslations };
 type AuthUser = { id: string; email: string };
-type CatalogEntry = { id: number; title: string; questions: number; translated: boolean };
+type CatalogEntry = { id: number; title: string; collection: TicketCollection; questions: number; translated: boolean };
 type HelpLanguage = 'ru' | 'es' | 'en';
 type HelpTranslations = { help: Record<string, Record<HelpLanguage, string>> };
 type RoundMode = 'full' | 'mistakes';
@@ -492,7 +493,7 @@ function TicketMenu({
         onClick={() => setOpen((current) => !current)}
       >
         <span className="ticket-menu-trigger-copy">
-          <span className="ticket-menu-trigger-label">Билет</span>
+          <span className="ticket-menu-trigger-label">{active.collection === 'Exam Test' ? 'Экзаменационный билет' : 'Тематический билет'}</span>
           <span className="ticket-menu-trigger-title" title={active.title}>
             <strong>{active.id}</strong><i>—</i><span>{active.title}</span>
           </span>
@@ -526,7 +527,7 @@ function TicketMenu({
                       }}
                     >
                       <span className="ticket-menu-number">{entry.id}</span>
-                      <span className="ticket-menu-title">{entry.title}</span>
+                      <span className="ticket-menu-title">{entry.title}<small className="ticket-menu-collection">{entry.collection === 'Exam Test' ? 'Экзаменационный' : 'Тематический'}</small></span>
                       <span className="ticket-menu-stats">
                         <span className="ticket-menu-done">{stats.answered}/{entry.questions}</span>
                         <span className="ticket-menu-correct">✓ {stats.correct}</span>
