@@ -40,7 +40,8 @@
       ],
       "number": "1.",
       "question": "¿Qué indica esta señal vertical?\nWhat does this vertical sign indicate?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "50eef1ecda18be1be668c350"
     },
     {
       "answers": [
@@ -73,7 +74,8 @@
       ],
       "number": "2.",
       "question": "Esta señal, situada sobre un carril de un puesto de peaje, indica que en él...\nThis sign situated above a toll gate lane, indicates that in this lane...",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "05fd024574ee6e5575d3d31d"
     },
     {
       "answers": [
@@ -106,7 +108,8 @@
       ],
       "number": "3.",
       "question": "En una vía en la que está colocada esta señal, ¿está permitida la circulación de taxis por el carril reservado a autobuses?\nOn a road on which this sign is placed, is taxi traffic allowed through the lane reserved for buses?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "e0584677794afe13e911a612"
     },
     {
       "answers": [
@@ -139,7 +142,8 @@
       ],
       "number": "4.",
       "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "4cfaf4538a50919cf90ee4ca"
     },
     {
       "answers": [
@@ -172,7 +176,8 @@
       ],
       "number": "5.",
       "question": "¿Qué indica la señal?\nWhat does the sign indicate?",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "2f6315c49fb8fdf0c04ee6c4"
     },
     {
       "answers": [
@@ -205,7 +210,8 @@
       ],
       "number": "6.",
       "question": "Circula a 70 km/h, ¿por qué carril es obligatorio circular?\nYou are driving at 70 km/h. In which lane is it mandatory to drive?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "f59f3f8f3f4e17b773abd8ac"
     },
     {
       "answers": [
@@ -238,7 +244,8 @@
       ],
       "number": "7.",
       "question": "Esta señal indica la situación...\nThis sign indicates the location…",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "fa2cf055d6eae3cff21b1b49"
     },
     {
       "answers": [
@@ -271,7 +278,8 @@
       ],
       "number": "8.",
       "question": "Esta señalización le indica la distancia...\nThis sign indicates the distance...",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "43a7c9d1ba12ae6c7ff9518b"
     },
     {
       "answers": [
@@ -304,7 +312,8 @@
       ],
       "number": "9.",
       "question": "¿Qué significan estas señales?\nWhat do these signs mean?",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "3b971b12590fb7fa45cafe70"
     },
     {
       "answers": [
@@ -337,7 +346,8 @@
       ],
       "number": "10.",
       "question": "Por la izquierda de una línea continua, ¿se puede circular?\nCan you drive on the left of a continuous line?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "f0331307a923f78fb5a872ff"
     },
     {
       "answers": [
@@ -370,7 +380,8 @@
       ],
       "number": "11.",
       "question": "Cuando la separación entre los trazos de una línea discontinua es sensiblemente más corta que en el caso general, ¿qué puede anunciar?\nIf the separation between the strokes of an unbroken line is significantly shorter than normal, what can this mean?",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "1c22f1029d38985b8df1af68"
     },
     {
       "answers": [
@@ -403,7 +414,8 @@
       ],
       "number": "12.",
       "question": "Si en una vía existe una línea longitudinal continua adosada a otra discontinua…\nIf there is a solid longitudinal line next to a broken line on the road...",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "e52804219fb6716f0089e655"
     },
     {
       "answers": [
@@ -436,7 +448,8 @@
       ],
       "number": "13.",
       "question": "Esta marca transversal discontinua, ¿obliga a detenerse antes de franquearla?\nIs it required to stop at this broken line before crossing it?",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "1330c34450e030c0eaf176ae"
     },
     {
       "answers": [
@@ -469,7 +482,8 @@
       ],
       "number": "14.",
       "question": "La señal horizontal indica...\nThe horizontal sign indicates...",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "007e8975bec0cf1a53ace549"
     },
     {
       "answers": [
@@ -502,7 +516,8 @@
       ],
       "number": "15.",
       "question": "¿Qué indica la flecha?\nWhat does this arrow indicate?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "14b5431b46ef40e9b2a70561"
     },
     {
       "answers": [
@@ -535,7 +550,8 @@
       ],
       "number": "16.",
       "question": "¿Qué indican estas marcas viales?\nWhat do these road signs indicate?",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "672eead5ea7d56429e8cad10"
     },
     {
       "answers": [
@@ -568,7 +584,8 @@
       ],
       "number": "17.",
       "question": "¿Qué indica la línea longitudinal amarilla?\nWhat does the yellow longitudinal line indicate?",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "66a055b1e00a19dcbfbed365"
     },
     {
       "answers": [
@@ -601,7 +618,8 @@
       ],
       "number": "18.",
       "question": "Las marcas blancas y rojas de la calzada, ¿qué indican?\nWhat do the white and red markings on the road indicate?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "62123a72caeecc70f6848d5d"
     }
   ]
 }

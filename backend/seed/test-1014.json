@@ -31,7 +31,8 @@
       "image_url": "54f68e9d-0a8d-4000-b9fe-d75d2c4d9ea0M.jpg",
       "number": "1.",
       "question": "¿Dónde hay que detenerse para cumplir la señal de stop?\nWhere should we stop to comply with the stop signal?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "1bf872cd18b059aec148609b"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "fe5cf1f2-4c43-4b77-9d6f-2bf8bfbc09b5M.jpg",
       "number": "2.",
       "question": "Esta señal indica...\nThis sign indicates...",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "acaeead677c78687a823b9f7"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "98c83f48-24ab-436c-92fd-ed4bf16370daM.jpg",
       "number": "3.",
       "question": "Esta señal, ¿qué indica?\nWhat does this sign mean?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "a3622fe6c6dd2bc884c8e716"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "30fe5370-cdd2-438f-a03b-410687b90df1M.jpg",
       "number": "4.",
       "question": "A la vista de esta señal, ¿puede pasar conduciendo un ciclo?\nCan you ride a bicycle if you see this sign?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "46b740de79d1447a4a708426"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "a683dbb0-577f-47df-b3db-0a361becd824M.jpg",
       "number": "5.",
       "question": "Esta señal indica entrada prohibida a...\nThis sign means that entry is prohibited to...",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "0b6c791438a59f254fe3eaab"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "0278d940-ae44-4735-aac0-8e27b46a764fM.jpg",
       "number": "6.",
       "question": "¿A qué vehículos de transporte de mercancías prohíbe pasar esta señal?\nWhich goods vehicles are prohibited from passing by this sign?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "68020ede365643041255ee57"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "fd3a7c26-cef7-49ff-b759-a1fd7990a65dM.jpg",
       "number": "7.",
       "question": "Esta señal prohíbe...\nThis sign prohibits...",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "41d39f1f2c02b2aabb4c21b9"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "43bd8d8a-bb30-47bc-9e5a-45e26761bb47M.jpg",
       "number": "8.",
       "question": "Esta señal, ¿prohíbe la entrada a los camiones?\nDoes this sign prohibit entry to lorries?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "88b437ae42693245a0a0c9d5"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "8f458a7a-1e36-412a-bd4a-67ecac3f73a4M.jpg",
       "number": "9.",
       "question": "La señal de la imagen prohíbe el acceso a...\nThe sign in the image prohibits access to...",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "8d95da21e774ad1ca6cd345a"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "5dd30b6d-0260-4494-a676-33fdb5ae6b75M.jpg",
       "number": "10.",
       "question": "¿Qué significa esta señal?\nWhat does this sign mean?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "e362f3c3553d2270235cd37a"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "e34a15a0-9f58-4156-bf69-f5ffc1c238f4M.jpg",
       "number": "11.",
       "question": "¿Qué indica esta señal?\nWhat does this sign indicate?",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "a9a4d3d8665ccb1fb1530677"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "48d2f399-9193-484b-8fbc-92d5f823641eM.jpg",
       "number": "12.",
       "question": "¿Cuándo finaliza la prohibición de circular a velocidad superior a la indicada?\nWhen does the speed limit indicated cease to apply?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "539cb327804b177fc92ee23f"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "efcf3374-af78-41cc-9d38-a6fdd33cef06M.jpg",
       "number": "13.",
       "question": "¿Cuándo termina la prohibición de adelantar?\nWhen does the no overtaking enforcement end?",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "90743dc466b4be600dbc9692"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "a2fefca4-e2aa-4324-86a2-120490b4449eM.jpg",
       "number": "14.",
       "question": "¿Cuándo puede estacionar a la vista de esta señal?\nWhen can you park in view of this sign?",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "df270774fb05feff2ca57fc5"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "55146b68-8e7c-4fa0-9128-5b7344c1abb7M.jpg",
       "number": "15.",
       "question": "Delante de un vado, esta señal prohíbe...\nWhere this is a dropped kerb, this sign prohibits...",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "cf1d9c4078930b4e1a1cbcfb"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "4785d17b-15fd-4de8-83bd-d9ad71d0f4bdM.jpg",
       "number": "16.",
       "question": "Esta señal prohíbe...\nThis sign prohibits...",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "7e82c3947a55a86e11364ad1"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "a6529f7e-6a45-4df0-847e-435f0e40d14aM.jpg",
       "number": "17.",
       "question": "¿Qué indica esta señal situada sobre un refugio?\nWhat does this sign on a refuge mean?",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "4b2dde47c6ae81ccce7f821d"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "23ff9077-14b4-4b0c-8d57-8ad9b907708dM.jpg",
       "number": "18.",
       "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "8ef468c9b29f9194ec840a99"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "1675b608-2724-4294-9e80-2b91ea9e4410M.jpg",
       "number": "19.",
       "question": "¿Qué vehículos están obligados a circular por una vía con esta señal?\nWhich vehicles are required to travel along a road with this sign?",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "5179dc78d534e82e4968983a"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "6fdcec8a-9291-4b26-bbee-7ae58eb4793bM.jpg",
       "number": "20.",
       "question": "A partir de esta señal, circular como mínimo a 30 kilómetros por hora...\nAfter this sign, driving at at least 30 kilometres per hour...",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "21dba08ee51a04aa004fca9a"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "a0eb18a0-dd30-4691-a1cc-81b55c538c83M.jpg",
       "number": "21.",
       "question": "La señal indica la obligación para los conductores de circular con el alumbrado de corto alcance al menos desde el lugar en que esté situada la señal hasta otra de…\nThis sign means that drivers must use their dipped-beam headlights at least from the location where this sign is located until another which...",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "870754948d0fdd7792075c1b"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "7ea73a10-c2c0-40c2-91b8-7f00a70cb050M.jpg",
       "number": "22.",
       "question": "Esta señal, en un carril de entrada a un peaje, obliga a quienes circulen por él a...\nThis sign, at a toll entrance lane, obliges drivers travelling in this lane to…",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "86932fb6f2a020fb30d3791a"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "a16bd89a-7643-4d6d-8e76-d2887ec8a4beM.jpg",
       "number": "23.",
       "question": "¿Qué indica esta señal?\nWhat does this sign indicate?",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "f9107711a26535e0b4d64666"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "475f5013-bf96-4b85-aa65-b883f9f0fc8dM.jpg",
       "number": "24.",
       "question": "Esta señal indica el lugar desde donde deja de ser aplicable una anterior señal de...\nThis sign indicates the place from which the following sign is no longer applicable:",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "4122544f1df6d9230361c8fc"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "0be58dc9-4c31-4c96-a95f-300bb2ff427dM.jpg",
       "number": "25.",
       "question": "Esta señal significa intervalo...\nThis sign means the interval...",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "29c7e0675050877b3727fdcc"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "04d91063-3bc2-4ab4-9085-3db7dc440b86M.jpg",
       "number": "26.",
       "question": "Esta señal, ¿puede indicar el principio de un paso inferior?\nCan this sign indicate the beginning of an underpass?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "05fb7a83f20d2b9fb096a691"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "1a04db58-ac13-4812-ba76-3fdcd6e65ce6M.jpg",
       "number": "27.",
       "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "c961d54e25bc5ab917799854"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "d54269ca-908f-4e09-af87-a259cf1c0e8bM.jpg",
       "number": "28.",
       "question": "Esta señal...\nThis sign...",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "78187ddae1bc5487f9e0ad55"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "1cf0d0aa-948b-4330-bbee-1374f8cebf5cM.jpg",
       "number": "29.",
       "question": "¿Qué indica la señal?\nWhat does this sign indicate?",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "00cb8c902b0fe8dfe8578b54"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "41d472c3-68a4-4503-9721-07f61fdc10a3M.jpg",
       "number": "30.",
       "question": "¿Qué indica esta señal?\nWhat does this sign indicate?",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "cd88d125746da33dfc7ac2d4"
     }
   ]
 }

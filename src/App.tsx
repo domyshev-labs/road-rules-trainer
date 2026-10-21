@@ -71,6 +71,9 @@ type LegacyImportAttempt = {
   answers: AnswerHistory;
 };
 
+const sourceTicket = (id: number) => id >= 100000 ? id - 100000 : id;
+const collectionName = (collection: TicketCollection) => collection === 'Exam Test' ? 'Экзаменационные вопросы' : 'Тематические вопросы';
+
 const progressStorageKey = 'road-rules-trainer-progress-v1';
 
 async function api<T>(path: string, init?: RequestInit): Promise<T> {
@@ -357,9 +360,9 @@ function QuestionHistoryDetail({ questionIndex, question, attempts, onClose }: {
 
   if (!selected) return null;
   return (
-    <section className="question-history-detail" ref={panelRef} aria-label={`Детали вопроса ${questionIndex + 1}`}>
+    <section className="question-history-detail" ref={panelRef} aria-label={`Детали вопроса ${question.number}`}>
       <header>
-        <div><span>Вопрос {questionIndex + 1}</span><strong>{selected.detail.correct ? 'Ответ верный' : 'Допущена ошибка'}</strong></div>
+        <div><span>Вопрос {question.number.replace(/\.$/, '')}</span><strong>{selected.detail.correct ? 'Ответ верный' : 'Допущена ошибка'}</strong></div>
         <button type="button" aria-label="Закрыть детали вопроса" onClick={onClose}>×</button>
       </header>
       {histories.length > 1 && (
@@ -447,7 +450,7 @@ function StatisticsContent({ attempts, questions }: { attempts: AttemptHistory[]
         <div className="question-statistics">
           {questionStats.map((item) => (
             <button type="button" disabled={!item.attempts} onClick={() => setSelectedQuestion(item.question - 1)} className={item.attempts ? '' : 'empty'} key={item.question}>
-              <strong>#{item.question}</strong>
+              <strong>#{questions[item.question - 1]?.number.replace(/\.$/, '') ?? item.question}</strong>
               <span>{item.attempts ? `${item.attempts} отв.` : '—'}</span>
               <span className="attempt-correct">👍 {item.correct}</span>
               <span className="attempt-wrong">👎 {item.wrong}</span>
@@ -495,7 +498,7 @@ function TicketMenu({
         <span className="ticket-menu-trigger-copy">
           <span className="ticket-menu-trigger-label">{active.collection === 'Exam Test' ? 'Экзаменационный билет' : 'Тематический билет'}</span>
           <span className="ticket-menu-trigger-title" title={active.title}>
-            <strong>{active.id}</strong><i>—</i><span>{active.title}</span>
+            <strong>{sourceTicket(active.id)}</strong><i>—</i><span>{active.title}</span>
           </span>
         </span>
         <span className="ticket-menu-chevron" aria-hidden="true">⌄</span>
@@ -508,12 +511,12 @@ function TicketMenu({
             <header>
               <div>
                 <p>Билеты</p>
-                <strong>Выберите билет или начните его заново</strong>
+                <strong>{collectionName(active.collection)}</strong>
               </div>
               <button type="button" aria-label="Закрыть" onClick={() => setOpen(false)}>×</button>
             </header>
             <div className="ticket-menu-list">
-              {entries.map((entry) => {
+              {entries.filter((entry) => entry.collection === active.collection).map((entry) => {
                 const stats = getStats(entry);
                 const hasProgress = stats.answered > 0;
                 return (
@@ -526,7 +529,7 @@ function TicketMenu({
                         setOpen(false);
                       }}
                     >
-                      <span className="ticket-menu-number">{entry.id}</span>
+                      <span className="ticket-menu-number">{sourceTicket(entry.id)}</span>
                       <span className="ticket-menu-title">{entry.title}<small className="ticket-menu-collection">{entry.collection === 'Exam Test' ? 'Экзаменационный' : 'Тематический'}</small></span>
                       <span className="ticket-menu-stats">
                         <span className="ticket-menu-done">{stats.answered}/{entry.questions}</span>
@@ -709,9 +712,60 @@ function MigrationGate({ user, onLogout }: { user: AuthUser; onLogout: () => voi
   );
 }
 
+type LibraryQuestion = { canonical_id: string; test_id: number; source_test_id: number; source_ordinal: number; question_id: string; question: string; topic_ids: string[]; verified: boolean; index: number | null };
+type TopicNode = { id: string; label_ru: string; parent_id: string | null };
+type LibraryData = { nodes: TopicNode[]; questions: LibraryQuestion[] };
+
+function QuestionLibrary({ catalog, library, onOpen, onLogout, getStats }: {
+  catalog: CatalogEntry[]; library: LibraryData; onOpen: (id: number, index?: number) => void;
+  onLogout: () => void; getStats: (entry: CatalogEntry) => TicketStats;
+}) {
+  const [search, setSearch] = useState('');
+  const query = search.trim().toLocaleLowerCase();
+  const matches = (q: LibraryQuestion) => !query || `${q.source_test_id} ${q.source_ordinal} ${q.question}`.toLocaleLowerCase().includes(query);
+  function questionList(items: LibraryQuestion[], unique = false) {
+    const seen = new Set<string>();
+    if (unique) items = items.filter((q) => { if (seen.has(q.canonical_id)) return false; seen.add(q.canonical_id); return true; });
+    return <div className="library-questions">{items.filter(matches).map((q) => <button type="button" key={q.question_id} disabled={!q.verified} onClick={() => onOpen(q.test_id, q.index ?? undefined)}>
+      <span className="library-question-id">{library.questions.filter((ref) => ref.canonical_id === q.canonical_id).map((ref) => `${ref.test_id >= 100000 ? 'Экзамен' : 'Тема'} ${ref.source_test_id} / ${String(ref.source_ordinal).padStart(2, '0')}`).join(' · ')}</span>
+      <span>{q.question.split('\n').filter(Boolean).at(-1)}</span>{!q.verified && <small>Отложен · ответ не подтверждён</small>}
+    </button>)}</div>;
+  }
+  function topic(node: TopicNode): React.ReactNode {
+    const items = library.questions.filter((q) => q.topic_ids.some((id) => id === node.id || id.startsWith(`${node.id}.`)));
+    const children = library.nodes.filter((n) => n.parent_id === node.id);
+    const own = items.filter((q) => q.topic_ids.includes(node.id));
+    const count = new Set(items.filter((q) => q.verified).map((q) => q.canonical_id)).size;
+    return <details className="library-branch" key={node.id}><summary><span>{node.label_ru}</span><small>Вопросы: {count}</small></summary>
+      <div className="library-children">{children.map(topic)}{questionList(own, true)}{!items.length && <p className="library-empty">Вопросы появятся по мере пополнения коллекции.</p>}</div>
+    </details>;
+  }
+  return <main className="library-page">
+    <header className="library-header"><a href="/" className="library-brand">Правила вождения</a><button className="secondary" onClick={onLogout}>Выйти</button></header>
+    <section className="library-intro"><p className="eyebrow">Ваша библиотека</p><h1>Что будем тренировать?</h1><p>Выберите коллекцию билетов или разберите вопросы по темам.</p>
+      <div className="library-totals"><span><strong>{catalog.filter((e) => e.collection === 'Thematic Test').length}</strong> тематических билета</span><span><strong>{catalog.filter((e) => e.collection === 'Exam Test').length}</strong> экзаменационных билетов</span><span><strong>{library.questions.filter((q) => !q.verified).length}</strong> отложенных вопросов</span></div>
+      <input aria-label="Поиск вопросов" placeholder="Номер билета или текст вопроса…" value={search} onChange={(event) => setSearch(event.target.value)} />
+    </section>
+    {query ? <section className="library-search"><h2>Найденные вопросы</h2>{questionList(library.questions, true)}{!library.questions.some(matches) && <p>Ничего не найдено.</p>}</section> : <div className="library-tree">
+      {(['Thematic Test', 'Exam Test'] as TicketCollection[]).map((collection) => <details className="library-root" key={collection}><summary><span>{collectionName(collection)}</span><small>Билеты: {catalog.filter((e) => e.collection === collection).length}</small></summary><div className="library-children">
+        {catalog.filter((e) => e.collection === collection).map((entry) => {
+          const stats = getStats(entry);
+          return <details className="library-branch" key={entry.id}><summary><span><b>{sourceTicket(entry.id)}</b> · {entry.title}</span><small>{stats.answered}/{entry.questions}</small></summary><div className="library-children"><button className="primary library-start" onClick={() => onOpen(entry.id)}>Открыть билет</button>{questionList(library.questions.filter((q) => q.test_id === entry.id))}</div></details>;
+        })}
+      </div></details>)}
+      <p className="library-divider">По темам <span>Один вопрос может входить в несколько тем</span></p>
+      {library.nodes.filter((node) => !node.parent_id).map((node) => <div className="library-root" key={node.id}>{topic(node)}</div>)}
+      <p className="library-note">Разметка новых вопросов предварительная и уточняется по мере разбора. Отложенные вопросы доступны в списке, но пока не участвуют в тренировке.</p>
+    </div>}
+  </main>;
+}
+
 function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }) {
   const questionPanelRef = useRef<HTMLDivElement>(null);
   const [testId, setTestId] = useState(1015);
+  const [home, setHome] = useState(true);
+  const [library, setLibrary] = useState<LibraryData | null>(null);
+  const pendingQuestion = useRef<number | null>(null);
   const [catalog, setCatalog] = useState<CatalogEntry[]>([]);
   const [savedProgress, setSavedProgress] = useState<ProgressStore>(() => readProgress());
   const [test, setTest] = useState<TestRecord | null>(null);
@@ -745,12 +799,13 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   const [initialTestReady, setInitialTestReady] = useState(false);
 
   useEffect(() => {
-    document.documentElement.classList.add('trainer-viewport');
+    document.documentElement.classList.toggle('trainer-viewport', !home);
     return () => document.documentElement.classList.remove('trainer-viewport');
-  }, []);
+  }, [home]);
 
   useEffect(() => {
     let active = true;
+    void fetch('/library.json').then((response) => { if (!response.ok) throw new Error('library'); return response.json(); }).then((data: LibraryData) => { if (active) setLibrary(data); }).catch(() => { if (active) setLoadError('Не удалось загрузить темы. Обновите страницу.'); });
     void Promise.all([
       api<CatalogEntry[]>('/api/catalog'),
       api<Record<string, TicketStats>>('/api/progress'),
@@ -833,6 +888,24 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
           setServerAttemptId(null);
           setCorrectLetters({});
         }
+        if (pendingQuestion.current !== null) {
+          const target = pendingQuestion.current;
+          // Keep the existing round when possible; start a full round if a topic question is outside a mistakes round.
+          if (saved?.roundMode === 'mistakes' && !saved.order.includes(target)) {
+            setOrder(loaded.questions.map((_, index) => index));
+            setRoundMode('full');
+            setServerAttemptId(null);
+            setAttemptAnswers({});
+            setCorrectLetters({});
+            setScore(0);
+            setMistakes([]);
+            setPosition(target);
+          } else {
+            setPosition(saved?.roundMode === 'mistakes' ? [...saved.order].sort((a, b) => a - b).indexOf(target) : target);
+          }
+          setFinished(false);
+          pendingQuestion.current = null;
+        }
         setHelpOpen(false);
         setStatisticsOpen(false);
         setMobileHint('');
@@ -911,10 +984,10 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   const questions = test?.questions ?? [];
   const questionIndex = order[position] ?? 0;
   const question = questions[questionIndex];
-  const answered = selected !== null;
+  const answered = selected !== null || String(questionIndex) in attemptAnswers;
   const selectedIsCorrect = attemptAnswers[String(questionIndex)] ?? false;
   const correctLetter = correctLetters[String(questionIndex)];
-  const hasNextQuestion = order.some((candidate, index) => index > position && !(String(candidate) in attemptAnswers));
+  const hasNextQuestion = order.some((candidate) => candidate !== questionIndex && !(String(candidate) in attemptAnswers));
   const progress = useMemo(
     () => order.length ? Math.round((Object.keys(attemptAnswers).length / order.length) * 100) : 0,
     [attemptAnswers, order.length],
@@ -941,7 +1014,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
       setSelected(letter);
       setCorrectLetters((current) => ({ ...current, [String(questionIndex)]: result.correct_letter }));
       setAttemptAnswers((current) => ({ ...current, [String(questionIndex)]: result.correct }));
-      if (roundMode === 'full') setTicketAnswered(Math.min(position + 1, questions.length));
+      if (roundMode === 'full') setTicketAnswered(Math.min(Object.keys(attemptAnswers).length + 1, questions.length));
       if (result.correct) {
         setScore((value) => value + 1);
         if (roundMode === 'full') setTicketCorrect((value) => value + 1);
@@ -963,7 +1036,8 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   }
 
   function nextQuestion() {
-    const nextPosition = order.findIndex((questionIndex, index) => index > position && !(String(questionIndex) in attemptAnswers));
+    const afterCurrent = order.findIndex((questionIndex, index) => index > position && !(String(questionIndex) in attemptAnswers));
+    const nextPosition = afterCurrent >= 0 ? afterCurrent : order.findIndex((questionIndex) => !(String(questionIndex) in attemptAnswers));
     if (nextPosition < 0) {
       if (roundMode === 'full') setTicketAnswered(questions.length);
       setFinished(true);
@@ -1083,8 +1157,23 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
       .catch(() => setServerStatistics([]));
   }
 
+  function openLibraryQuestion(id: number, index?: number) {
+    setHome(false);
+    if (id === testId && test) {
+      if (index !== undefined) {
+        const existingPosition = order.indexOf(index);
+        if (existingPosition >= 0) { setPosition(existingPosition); setSelected(null); setFinished(false); }
+        else { startRound(questions.map((_, i) => i)); setPosition(index); }
+      }
+    } else {
+      pendingQuestion.current = index ?? null;
+      selectTest(id);
+    }
+  }
+
   if (loadError) return <main className="loading error-message">{loadError}</main>;
-  if (!test || !question || !order.length || !catalog.length) return <main className="loading">Загружаем билет…</main>;
+  if (home && catalog.length && library) return <QuestionLibrary catalog={catalog} library={library} onOpen={openLibraryQuestion} onLogout={onLogout} getStats={getTicketStats} />;
+  if (home || !test || !question || !order.length || !catalog.length) return <main className="loading">Загружаем билет…</main>;
 
   const currentEntry = catalog.find((entry) => entry.id === testId) ?? catalog[0];
   const currentStats = getTicketStats(currentEntry);
@@ -1108,7 +1197,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   );
   const statisticsModal = statisticsOpen && (
     <Modal
-      eyebrow={`Test ${test.test_id}`}
+      eyebrow={`Test ${sourceTicket(test.test_id)}`}
       title="Статистика билета"
       className="statistics-modal"
       onClose={() => setStatisticsOpen(false)}
@@ -1124,9 +1213,10 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
     return (
       <>
         {mobileStatusBar}
+        <button className="library-back" type="button" onClick={() => setHome(true)}>‹ Темы и билеты</button>
         <main className="result-page">
         <section className="result-card">
-          <p className="eyebrow">Test {test.test_id} · раунд завершён</p>
+          <p className="eyebrow">Test {sourceTicket(test.test_id)} · раунд завершён</p>
           <div className="result-ring" style={{ '--score': `${percent * 3.6}deg` } as React.CSSProperties}>
             <strong>{score}/{order.length}</strong><span>{percent}%</span>
           </div>
@@ -1160,10 +1250,11 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   return (
     <>
       {mobileStatusBar}
+        <button className="library-back" type="button" onClick={() => setHome(true)}>‹ Темы и билеты</button>
       <main className="app-shell">
       <header className="topbar">
         <div className="title-block">
-          <p className="eyebrow">Thematic Test {test.test_id}</p>
+          <p className="eyebrow">{collectionName(test.collection)} · {sourceTicket(test.test_id)}</p>
           <h1 title={test.title}>{test.title}</h1>
         </div>
         <div className="header-tools">
@@ -1196,11 +1287,11 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
 
       <section className="quiz-card">
         <div className="visual-panel">
-          <div className="question-number">#{questionIndex + 1}</div>
+          <div className="question-number">#{question.number.replace(/\.$/, '')}</div>
           <div className="visual-media">
             <img
-              src={`/tests/${test.test_id}/q${String(questionIndex + 1).padStart(2, '0')}.jpg`}
-              alt={`Иллюстрация к вопросу ${questionIndex + 1}`}
+              src={question.image_url ?? undefined}
+              alt={`Иллюстрация к вопросу ${question.number}`}
             />
           </div>
         </div>
@@ -1264,7 +1355,7 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
 
       {helpOpen && (
         <Modal
-          eyebrow={`Test ${test.test_id} · вопрос ${questionIndex + 1}`}
+          eyebrow={`Test ${sourceTicket(test.test_id)} · вопрос ${question.number}`}
           title="Ayuda · объяснение"
           className="help-modal"
           onClose={() => setHelpOpen(false)}

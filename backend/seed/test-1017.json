@@ -31,7 +31,8 @@
       "image_url": "70d95dfa-df9f-4b92-961d-ad7833c0a3d0M.jpg",
       "number": "1.",
       "question": "En un carril reversible...\nIn a reversible lane...",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "eafb30848b88b2fe73ecfb09"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "8e68a6f1-9398-4a97-8334-74443d795e1eM.jpg",
       "number": "2.",
       "question": "En una autovía hay un carril abierto para circular en sentido contrario al habitual para mejorar la fluidez, ¿a qué velocidad máxima se puede circular en ese carril?\nOn a dual carriageway, there is a lane open for driving in the opposite direction to normal, to improve traffic flow. What is the speed limit for this lane?",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "3331e1bc8368fa7ba0026fba"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "1e1f1752-c5bf-4e46-91b5-79a64096249cM.jpg",
       "number": "3.",
       "question": "Los camiones, ¿pueden utilizar un carril abierto a la circulación en sentido contrario al normal?\nCan lorries use a lane open to traffic travelling in the opposite direction?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "263570daa16807849c773a2a"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "0227ece3-4714-4fa8-988f-2f9f94348c54M.jpg",
       "number": "4.",
       "question": "Un turismo con remolque, ¿puede circular por un carril habilitado para la circulación en sentido contrario al habitual?\nCan a car pulling a trailer use a lane set up for travel in the opposite direction to usual?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "fea231edc27ca5ddc7069f57"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "61ed1165-399c-4ea7-94e0-17ea26943ce5M.jpg",
       "number": "5.",
       "question": "Circula de día por un carril habilitado en sentido contrario al habitual, ¿qué luces debe encender, al menos?\nYou are driving during the day in a lane authorised for traffic in the opposite direction to usual. Which lights should you use?",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "12f5a4f39c6a2541708aefde"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "932d0c46-7d5f-4e80-8fb0-4d10fa62fb85M.jpg",
       "number": "6.",
       "question": "¿Qué vehículos tienen permitido circular por un carril habilitado, por razones de fluidez, en sentido contrario al habitual?\nWhich vehicles are allowed to travel on a lane that is enabled for travel in the opposite direction to usual, to help traffic flow?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "ce44e6db6892b6a2bb13ca88"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "d15f41be-7e79-4655-ae65-6d5b29c8507cM.jpg",
       "number": "7.",
       "question": "Por obras en la calzada se habilita un carril para la circulación en sentido contrario al habitual, ¿qué vehículos pueden utilizarlo?\nDue to road works, a lane is set up for transit in the opposite direction to usual. Which vehicles can use it?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "5cbd7678c1d4d76ccf8d11da"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "f9b8e217-cf44-4811-a7aa-34b1f31f0a73M.jpg",
       "number": "8.",
       "question": "Si por obras en la vía, se ha abierto un carril en sentido contrario al habitual, ¿puede circular por este carril un vehículo mixto?\nIf, due to roadworks, a lane is opened in a different direction to the normal one, can a multipurpose vehicle use this lane?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "fa94c84373ea87041dee3cad"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "59f60c78-cdd9-4ab1-acf6-544c9370705aM.jpg",
       "number": "9.",
       "question": "Un turismo con remolque, ¿tiene permitido circular por un carril adicional circunstancial?\nIs a passenger car with a trailer allowed to drive in an additional lane opened in special circumstances?",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "48b17017509ee5d3b26d30a4"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "10dd1388-f7ff-43b1-8163-b5b7a15d154aM.jpg",
       "number": "10.",
       "question": "Al circular por un carril adicional circunstancial, ¿es obligatorio encender, al menos, la luz de cruce?\nWhen driving in an additional lane, is it compulsory to turn on at least the dipped beams?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "c78707ea8010dc8ff823d6d8"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "b56f4b76-b848-42b9-ba9c-68d870565adeM.jpg",
       "number": "11.",
       "question": "En una explanada de peaje de una autopista, ¿está permitido recoger a una persona que hace autostop?\nAre you allowed to pick up a person hitchhiking at a motorway toll station?",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "bae6f331cb5ec6089c2366ff"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "383acdf1-4e11-406c-a675-bc0d89135082M.jpg",
       "number": "12.",
       "question": "Para pagar en un puesto de peaje, debe pasar...\nTo pay at a toll gate, you must drive through…",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "527b35e44bff2ea4f3cd6a69"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "830adda5-fa0e-44ad-a213-f8113d531747M.jpg",
       "number": "13.",
       "question": "No pueden circular por autopista...\nA motorway cannot be used by...",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "6d864b48623e510e06dabc8f"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "a25d6cac-c7e5-480b-9ed9-b87b924a5234M.jpg",
       "number": "14.",
       "question": "Salvo que exista señal que lo prohíba, por los arcenes de las autovías se permite circular...\nUnless there is a sign that prohibits it, it is permitted to use the hard shoulder of dual carriageways for...",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "27a0d6fff2b97625aca73ef3"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "2387cf26-9554-49e2-8a05-cb8c34d4850cM.jpg",
       "number": "15.",
       "question": "¿Qué vehículos tienen prohibido circular por las autopistas?\nWhich vehicles are prohibited from driving on motorways?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "d4c003fa034de8d487d9b326"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "e8372688-d4a9-4a80-9bc1-5e00bc7b1b27M.jpg",
       "number": "16.",
       "question": "En el arcén de esta autovía, ¿qué está permitido?\nWhat is permitted on the hard shoulder of this autovia?",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "d5aee75fb0f6b169c5707846"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "28ad7d1e-ef01-4e9a-b180-329fb3edae5aM.jpg",
       "number": "17.",
       "question": "Este conjunto de ciclistas circula junto al borde derecho de la calzada y en fila. ¿Es correcto?\nThis group of cyclists is riding next to the right-hand edge of the road and in a line. It this correct?",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "8cfbb1ea8bfa1357b7fcf002"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "4b467ff5-d1f7-43bc-8885-6e9efcce5f28M.jpg",
       "number": "18.",
       "question": "Este ciclista...\nThis cyclist...",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "9881fc1f54ef102542284eb5"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "3638b6e5-5563-44e9-85e4-ee187f015654M.jpg",
       "number": "19.",
       "question": "¿Tienen permitido las bicicletas circular en posición paralela?\nAre bicycles allowed to ride parallel to each other?",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "689d2b95e2497267ea8ec24b"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "6cfa29f8-bcfd-4257-8662-8dd131e04d5cM.jpg",
       "number": "20.",
       "question": "En un descenso prolongado con curvas y cuando razones de seguridad lo permitan, ¿podrán circular los ciclistas por la parte derecha de la calzada que necesiten?\nOn a prolonged descent with bends and where safety reasons permit, may cyclists ride on the right-hand side of the roadway as needed?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "75be94ca3c6825d7428bb5a1"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "7ebe443c-39e5-4648-af0e-9fe02ae88e2dM.jpg",
       "number": "21.",
       "question": "Los vehículos para personas de movilidad reducida, ¿están obligados a circular por el arcén?\nAre vehicles for persons with reduced mobility required to drive on the edge of the road?",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "239a20f7eee652a0a849e679"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "52de071d-804b-459d-9383-9f374a713576M.jpg",
       "number": "22.",
       "question": "Circulando por el arcén, ¿tiene permitido un vehículo de tracción animal circular en paralelo con otro vehículo?\nIs it permitted for animal-drawn vehicles travelling on the hard shoulder to travel alongside another vehicle?",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "d5c29313ed64ea8a87cdd9cb"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "4523af8e-dda6-4b17-be84-f4f02c2fecbdM.jpg",
       "number": "23.",
       "question": "¿Puede circular conduciendo un vehículo de tracción animal por una vía interurbana sin arcén?\nAre you permitted to drive an animal-drawn vehicle on an intercity road without a hard shoulder?",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "e2203fd77e53d213390bde5f"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "741e3c0a-340b-4d7b-8c39-7c07097c6e2aM.jpg",
       "number": "24.",
       "question": "El tractor de menos de 3.500 kg de MMA, ¿circula correctamente por el arcén?\nIs this tractor with under 3,500 kg of MAM driving correctly on the hard shoulder?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "3ee9ab19a8e58f92139880ed"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "0c3431ba-be6e-4239-9266-d96c7686784bM.jpg",
       "number": "25.",
       "question": "¿Puede circular conduciendo un ciclomotor por una vía interurbana sin arcén?\nAre you permitted to ride a scooter on an interurban road without a hard shoulder?",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "53d57d36558028f0a529af6e"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "896e5a2f-ec52-4aa7-aa8a-ce22e936e1c4M.jpg",
       "number": "26.",
       "question": "Los ciclomotores, ¿pueden circular por el arcén en columna de a dos?\nCan mopeds drive on the hard shoulder in a line two abreast?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "0531203de5bbffbc0fbff4fa"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "d173c1fd-7545-4c76-a67b-63d566a97a9aM.jpg",
       "number": "27.",
       "question": "En una vía interurbana, ¿puede adelantar un ciclomotor a un tractor agrícola que circula por el arcén?\nOn an interurban road, is a scooter permitted to overtake an agricultural tractor that is driving on the hard shoulder?",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "64b257d9890835a4de277751"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "d75784af-44de-40c5-86e0-4f8ad9525b5aM.jpg",
       "number": "28.",
       "question": "El arcén de la derecha es transitable y suficiente. ¿Qué vehículos deben circular por él, como norma general?\nThe hard shoulder on the right-hand side of the road is adequate for traffic to travel on. Which vehicles must, as a general rule, travel on the hard shoulder?",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "95abfe43388768e4aa742381"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "1309349f-8ea3-4f30-84bc-a31f5c8fdd64M.jpg",
       "number": "29.",
       "question": "El arcén de esta carretera no está pavimentado, ¿debe circular por él un ciclomotor?\nThe hard shoulder of this road is not paved, should a moped use it?",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "ad6946295f6899e35f2f4f07"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "021f3fe7-c528-4465-a202-eda450d8c3c6M.jpg",
       "number": "30.",
       "question": "Un vehículo de acompañamiento de ciclistas en una calzada con arcén transitable y suficiente, ¿por dónde circulará?\nA vehicle is escorting cyclists on a roadway with an adequate hard shoulder that is usable by traffic. Where should it travel?",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "e39b9213e914994ae90ad572"
     }
   ]
 }

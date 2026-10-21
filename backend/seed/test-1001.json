@@ -31,7 +31,8 @@
       "image_url": "796ed3d4-72b3-4ec2-9c48-8d350c883b95M.jpg",
       "number": "1.",
       "question": "Se considera conductor a la persona...\nA driver is considered to be the person...",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "ee31143118dbedf07028ab04"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "bf325ead-a34b-4a72-9454-a2c4b3f937bbM.jpg",
       "number": "2.",
       "question": "El automóvil es un vehículo a motor que sirve normalmente...\nA car is a motor vehicle that is normally used...",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "78ab44ff66d61f17e030e1b4"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "56153e52-9206-431b-bf16-720d345760a6M.jpg",
       "number": "3.",
       "question": "Son remolques ligeros aquellos cuya MMA...\nLight trailers are those whose MAM...",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "095f79a3f303c504fc42e070"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "3f0899a8-cad6-48d1-96dc-fcb7dbf43bb7M.jpg",
       "number": "4.",
       "question": "Ciclo es el vehículo de...\nA cycle is a vehicle with…",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "ae40175f7fadf1b606834cc4"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "c1c4a150-34a2-4113-bc6f-27d73a1a1e37M.jpg",
       "number": "5.",
       "question": "Los motores eléctricos que propulsan los vehículos de movilidad personal pueden proporcionarles, por diseño, una velocidad máxima comprendida entre...\nElectric motors which power personal mobility vehicles can provide the vehicle with a maximum design speed between...",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "46e11b699ba205b92ebaf6d5"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "ed2394c5-a003-4d0b-9a76-283fdcece6f7M.jpg",
       "number": "6.",
       "question": "Se define como motocicleta al automóvil...\nA motorcycle is defined as an automobile…",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "e8d6732b31b940f475f37d38"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "338c4186-a8a1-4e1e-a6d9-e18c3c44ba5eM.jpg",
       "number": "7.",
       "question": "El vehículo derivado de turismo está destinado a...\nA car derivative is intended for...",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "b1455b8cd70bd9e346fd5239"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "20ccdc0b-dbaa-4fde-b5de-86f8f1502a16M.jpg",
       "number": "8.",
       "question": "¿Cómo se denomina el automóvil con cuatro ruedas o más, concebido y construido para el transporte de mercancías cuya cabina está integrada en el resto de la carrocería y con un máximo de 9 plazas, incluido el conductor?\nWhat is the name of the car with four wheels or more, designed and built for the transport of goods, whose cabin is integrated into the rest of the bodywork and with a maximum of 9 seats, including the driver?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "94b1498add86fe2749a0ff69"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "73e65850-e18f-498b-a577-5eb00f8186b4M.jpg",
       "number": "9.",
       "question": "Un cambio de rasante es...\nA change of gradient is...",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "0a15a8c28f63947b63a0a9a3"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "4dae8c3f-c41e-4d2d-92ae-5f839579f927M.jpg",
       "number": "10.",
       "question": "La masa en carga es...\nLoaded mass is...",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "b80819324a8851b3f3549705"
     }
   ]
 }

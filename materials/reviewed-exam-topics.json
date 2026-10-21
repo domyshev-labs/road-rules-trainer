@@ -1,0 +1,405 @@
+{
+  "questions": [
+    {
+      "question_id": "exam:1013:01",
+      "topic_ids": [
+        "signs.mandatory",
+        "driving.roundabouts"
+      ]
+    },
+    {
+      "question_id": "exam:1013:02",
+      "topic_ids": [
+        "routine.fatigue"
+      ]
+    },
+    {
+      "question_id": "exam:1013:03",
+      "topic_ids": [
+        "numbers.alcohol",
+        "routine.alcohol",
+        "numbers.deadlines.novice"
+      ]
+    },
+    {
+      "question_id": "exam:1013:04",
+      "topic_ids": [
+        "driving.roundabouts",
+        "driving.lanes"
+      ]
+    },
+    {
+      "question_id": "exam:1013:05",
+      "topic_ids": [
+        "incidents.scene"
+      ]
+    },
+    {
+      "question_id": "exam:1013:06",
+      "topic_ids": [
+        "driving.pedestrians",
+        "driving.roundabouts"
+      ]
+    },
+    {
+      "question_id": "exam:1013:07",
+      "topic_ids": [
+        "priority.officer"
+      ]
+    },
+    {
+      "question_id": "exam:1013:08",
+      "topic_ids": [
+        "routine.drugs"
+      ]
+    },
+    {
+      "question_id": "exam:1013:09",
+      "topic_ids": [
+        "routine.emotions",
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1013:10",
+      "topic_ids": [
+        "driving.lanes"
+      ]
+    },
+    {
+      "question_id": "exam:1013:11",
+      "topic_ids": [
+        "priority.merging"
+      ]
+    },
+    {
+      "question_id": "exam:1013:12",
+      "topic_ids": [
+        "routine.safety",
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "question_id": "exam:1013:13",
+      "topic_ids": [
+        "priority.cyclists"
+      ]
+    },
+    {
+      "question_id": "exam:1013:14",
+      "topic_ids": [
+        "signs.vehicle_plates",
+        "vehicle.dangerous_goods",
+        "numbers.dimensions"
+      ]
+    },
+    {
+      "question_id": "exam:1013:15",
+      "topic_ids": [
+        "vehicle.lights"
+      ]
+    },
+    {
+      "question_id": "exam:1013:16",
+      "topic_ids": [
+        "signs.lanes",
+        "signs.temporary",
+        "driving.lanes"
+      ]
+    },
+    {
+      "question_id": "exam:1013:17",
+      "topic_ids": [
+        "vehicle.lights",
+        "driving.weather"
+      ]
+    },
+    {
+      "question_id": "exam:1013:18",
+      "topic_ids": [
+        "routine.distraction",
+        "routine.reaction"
+      ]
+    },
+    {
+      "question_id": "exam:1013:19",
+      "topic_ids": [
+        "numbers.speeds",
+        "driving.lanes"
+      ]
+    },
+    {
+      "question_id": "exam:1013:20",
+      "topic_ids": [
+        "documents.permissions",
+        "vehicle.classification"
+      ]
+    },
+    {
+      "question_id": "exam:1013:21",
+      "topic_ids": [
+        "numbers.capacity",
+        "vehicle.passengers"
+      ]
+    },
+    {
+      "question_id": "exam:1013:22",
+      "topic_ids": [
+        "vehicle.cargo"
+      ]
+    },
+    {
+      "question_id": "exam:1013:23",
+      "topic_ids": [
+        "driving.weather",
+        "driving.braking"
+      ]
+    },
+    {
+      "question_id": "exam:1013:24",
+      "topic_ids": [
+        "priority.lights",
+        "priority.tram"
+      ]
+    },
+    {
+      "question_id": "exam:1013:25",
+      "topic_ids": [
+        "routine.emotions",
+        "routine.reaction"
+      ]
+    },
+    {
+      "question_id": "exam:1013:26",
+      "topic_ids": [
+        "numbers.dimensions",
+        "vehicle.cargo",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "question_id": "exam:1013:27",
+      "topic_ids": [
+        "signs.parking",
+        "numbers.dates",
+        "driving.parking"
+      ]
+    },
+    {
+      "question_id": "exam:1013:28",
+      "topic_ids": [
+        "vehicle.passive"
+      ]
+    },
+    {
+      "question_id": "exam:1013:29",
+      "topic_ids": [
+        "signs.markings",
+        "driving.lanes"
+      ]
+    },
+    {
+      "question_id": "exam:1013:30",
+      "topic_ids": [
+        "numbers.technical",
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "question_id": "exam:1015:01",
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.roundabouts"
+      ]
+    },
+    {
+      "question_id": "exam:1015:02",
+      "topic_ids": [
+        "routine.ecodriving",
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1015:03",
+      "topic_ids": [
+        "numbers.alcohol",
+        "routine.alcohol"
+      ]
+    },
+    {
+      "question_id": "exam:1015:04",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1015:05",
+      "topic_ids": [
+        "signs.parking",
+        "driving.parking"
+      ]
+    },
+    {
+      "question_id": "exam:1015:06",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1015:07",
+      "topic_ids": [
+        "driving.lanes"
+      ]
+    },
+    {
+      "question_id": "exam:1015:08",
+      "topic_ids": [
+        "routine.distraction"
+      ]
+    },
+    {
+      "question_id": "exam:1015:09",
+      "topic_ids": [
+        "numbers.speeds",
+        "vehicle.classification"
+      ]
+    },
+    {
+      "question_id": "exam:1015:10",
+      "topic_ids": [
+        "driving.weather",
+        "driving.braking"
+      ]
+    },
+    {
+      "question_id": "exam:1015:11",
+      "topic_ids": [
+        "routine.distraction",
+        "vehicle.passengers"
+      ]
+    },
+    {
+      "question_id": "exam:1015:12",
+      "topic_ids": [
+        "signs.warning"
+      ]
+    },
+    {
+      "question_id": "exam:1015:13",
+      "topic_ids": [
+        "priority.officer"
+      ]
+    },
+    {
+      "question_id": "exam:1015:14",
+      "topic_ids": [
+        "driving.braking",
+        "vehicle.motorcycles",
+        "vehicle.passengers"
+      ]
+    },
+    {
+      "question_id": "exam:1015:15",
+      "topic_ids": [
+        "signs.restrictions"
+      ]
+    },
+    {
+      "question_id": "exam:1015:16",
+      "topic_ids": [
+        "vehicle.lights",
+        "driving.weather"
+      ]
+    },
+    {
+      "question_id": "exam:1015:17",
+      "topic_ids": [
+        "vehicle.visibility"
+      ]
+    },
+    {
+      "question_id": "exam:1015:18",
+      "topic_ids": [
+        "driving.overtaking"
+      ]
+    },
+    {
+      "question_id": "exam:1015:19",
+      "topic_ids": [
+        "numbers.displacement",
+        "vehicle.classification",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "question_id": "exam:1015:20",
+      "topic_ids": [
+        "routine.health"
+      ]
+    },
+    {
+      "question_id": "exam:1015:21",
+      "topic_ids": [
+        "driving.braking"
+      ]
+    },
+    {
+      "question_id": "exam:1015:22",
+      "topic_ids": [
+        "signs.warning"
+      ]
+    },
+    {
+      "question_id": "exam:1015:23",
+      "topic_ids": [
+        "vehicle.cargo"
+      ]
+    },
+    {
+      "question_id": "exam:1015:24",
+      "topic_ids": [
+        "incidents.towing"
+      ]
+    },
+    {
+      "question_id": "exam:1015:25",
+      "topic_ids": [
+        "documents.permissions",
+        "vehicle.classification"
+      ]
+    },
+    {
+      "question_id": "exam:1015:26",
+      "topic_ids": [
+        "signs.markings",
+        "driving.parking"
+      ]
+    },
+    {
+      "question_id": "exam:1015:27",
+      "topic_ids": [
+        "documents.itv"
+      ]
+    },
+    {
+      "question_id": "exam:1015:28",
+      "topic_ids": [
+        "routine.helmets",
+        "vehicle.passive",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "question_id": "exam:1015:29",
+      "topic_ids": [
+        "routine.distraction"
+      ]
+    },
+    {
+      "question_id": "exam:1015:30",
+      "topic_ids": [
+        "signs.markings"
+      ]
+    }
+  ]
+}

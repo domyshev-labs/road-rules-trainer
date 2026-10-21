@@ -31,7 +31,8 @@
       "image_url": "04c1c2b2-3719-4dbe-b358-0a6fdb9789dbM.jpg",
       "number": "1.",
       "question": "¿En qué situaciones utilizará el alumbrado por el día?\nIn which situations will you use lights during the day?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "5c6e4cd50b72a8179a67eba5"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "059ba9af-a0c2-4302-9637-8789271ecb2eM.jpg",
       "number": "2.",
       "question": "La luz de carretera debe sustituirse por la de cruce...\nThe high beam headlamp must be substituted by the dipped beam headlamp...",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "9ed8feb1da7439a96c532249"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "545ec064-4b8e-4d30-b6dd-a99314aa000eM.jpg",
       "number": "3.",
       "question": "Con las luces de corto alcance, ¿está permitido hacer ráfagas?\nWith low-beam headlights, is flashing permitted?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "94dcff6cffd1f424f6809400"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "727d8be5-f293-4887-824d-89bf85453e18M.jpg",
       "number": "4.",
       "question": "Durante la noche, ¿debe utilizarse la luz antiniebla delantera con alguna otra?\nAt night, should the front fog lamp be used with any other light?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "6cc1506d7b2506c6510fe16f"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "a62d5edb-70e1-4186-a9d3-cb911d944b39M.jpg",
       "number": "5.",
       "question": "Hay una nube de humo, ¿debe utilizarse algún tipo de alumbrado?\nThere is a cloud of smoke, should you use any type of lighting?",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "92c1bb0c6b99374c7b935e88"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "26b7fbf0-376b-4278-86a8-c012c86427b1M.jpg",
       "number": "6.",
       "question": "Cuando circula con su motocicleta en condiciones de lluvia intensa y niebla, ¿qué luces debe encender, al menos?\nWhen you ride your motorcycle in heavy rain and fog, what lights should you use, as a minimum?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "a7d213d98eb143095257adaf"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "b47d5991-0892-43dd-b1c0-a4293efe25c5M.jpg",
       "number": "7.",
       "question": "La luz antiniebla delantera podrá utilizarse...\nThe front fog light may be used...",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "efd8bc2f5ea60dc489d7dd31"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "ad873d21-a6c4-4f25-a5ba-d29e92ba2a08M.jpg",
       "number": "8.",
       "question": "La luz antiniebla trasera deberá utilizarse en caso de...\nThe rear fog light must be used in the event of...",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "3738501093dec31d9330b298"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "139ee4fd-7eb2-4c00-bcdf-d20401b90388M.jpg",
       "number": "9.",
       "question": "Con niebla que reduce sensiblemente la visibilidad, ¿está permitido conducir únicamente con los alumbrados de posición y corto alcance?\nIn fog that significantly reduces visibility, is it permitted to drive only with position lights and low-beam headlights?",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "651957c79b6122db39e3af00"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "5ee67c39-1132-4b01-8eb0-be08a93c9f31M.jpg",
       "number": "10.",
       "question": "En caso de lluvia no intensa, ¿está permitido utilizar la luz antiniebla?\nIn case of not heavy rain, is the use of fog light permitted?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "82e3bc2710e231688fd0f42e"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "d74c0f1f-7501-4353-98ad-3f51266ea84fM.jpg",
       "number": "11.",
       "question": "La luz antiniebla trasera deberá utilizarse en caso de...\nThe rear fog light must be used in the event of…",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "c62816c279a3074bfe92e224"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "9b9185bd-a4d8-4f71-9dbf-0e2891cf5c00M.jpg",
       "number": "12.",
       "question": "¿Está permitido circular por una travesía con las luces antiniebla encendidas en condiciones normales de visibilidad?\nAre you permitted to drive on a road through a built-up area with the fog lights on in conditions of normal visibility?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "5de16736495102bdbd29375d"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "11514391-dabd-4e37-a5c9-3a5ea408a8dcM.jpg",
       "number": "13.",
       "question": "Entre la puesta y la salida del sol, en un tramo con muchas curvas, señalizadas con la señal de curvas peligrosas, ¿está permitido usar la luz antiniebla delantera?\nAre you permitted to use the front fog light between dusk and dawn on a stretch of road with many bends, with a sign warning of dangerous bends?",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "9759e4a3be2e2795fadc320a"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "1dd68835-e22d-4188-8bd9-08e96dfeb9b3M.jpg",
       "number": "14.",
       "question": "Una motocicleta, ¿puede llevar instaladas luces antiniebla?\nCan a motorbike be fitted with fog lamps?",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "0f9fea0526047fb5a28fcf62"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "d60b0f86-a3bd-4c0e-88ed-74245e606484M.jpg",
       "number": "15.",
       "question": "En un tramo recto, de noche, sin condiciones atmosféricas adversas, ¿es correcto el alumbrado que lleva encendido este vehículo?\nOn a straight stretch of road, at night, without adverse weather conditions, is it correct to use the lights that this vehicle is using?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "e708382b18103f5cfaddf0d9"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "c2d94800-b715-4bcc-9cd3-da9a1c54a090M.jpg",
       "number": "16.",
       "question": "Circulando con lluvia intensa, ¿es obligatorio utilizar la luz antiniebla trasera?\nWhen driving in heavy rain, do you need to use the rear fog light?",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "710074f7a194af7ae963112f"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "d46391e2-60ec-4de3-9519-7bbe4b1c05d0M.jpg",
       "number": "17.",
       "question": "Al circular bajo condiciones de visibilidad especialmente desfavorables, ¿es obligatorio encender la luz antiniebla trasera?\nWhen driving in especially difficult visibility conditions, is it mandatory to use the rear fog light?",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "610d14cd1e46ac93a12c1782"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "4fd325eb-dfa2-4e2c-88ef-0492f4ccca20M.jpg",
       "number": "18.",
       "question": "El conductor de un vehículo que no puede alcanzar la velocidad mínima de la vía, ¿está obligado a encender la señal de emergencia si existe peligro de alcance?\nDoes the driver of a vehicle that cannot reach the road's minimum speed have to turn on the hazard lights if there is a danger of being caught up?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "dad772e257a9dc972b3e2317"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "066dd92f-d164-4027-818a-ff628ba55464M.jpg",
       "number": "19.",
       "question": "Este vehículo está averiado y circula muy despacio con la luz de emergencia encendida. ¿Es correcto?\nThis vehicle has a mechanical failure and is driving very slowly with its hazard warning lights on. Is this correct?",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "480047d0f1a490a48841f4de"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "fc4fa153-2452-4a64-964a-6f77d449d86bM.jpg",
       "number": "20.",
       "question": "Una motocicleta, ¿puede disponer de señal de emergencia?\nCan a motorcycle have hazard warning lights?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "184074e58ec3a1371d96e45c"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "2485af8d-5ff9-4bdf-809a-9f174394b9e9M.jpg",
       "number": "21.",
       "question": "Las luces rojas encendidas del vehículo de delante, ¿qué indican?\nWhat do the red lights in the vehicle in front indicate?",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "9dc0ae31e787a5c2b9747021"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "41691a5a-9063-44dc-a796-ce599177771aM.jpg",
       "number": "22.",
       "question": "¿Es correcto que un automóvil disponga únicamente de la tercera luz de frenado?\nIs it appropriate if a car only has a third brake light?",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "daf5f5abd8f485538489c82d"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "8dcf93d4-de25-4d82-8f18-a81bd837ef60M.jpg",
       "number": "23.",
       "question": "Si por circunstancias del tráfico prevé que va a tener que reducir considerablemente la velocidad, ¿qué debe hacer?\nIf, due to traffic, you have to reduce your speed considerably, what must you do?",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "295ce4711f023b7446187cf1"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "b6c79b74-2d52-4894-ad55-b6299a381291M.jpg",
       "number": "24.",
       "question": "El vehículo azul lleva las luces blancas encendidas. ¿Qué indica?\nThe blue vehicle has its white lights on. What does this indicate?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "e31e4d3c1b0b4b7f6037fa77"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "056c2441-3730-4169-bcc7-e5d27c13516dM.jpg",
       "number": "25.",
       "question": "El conductor de un vehículo puede utilizar las señales acústicas para advertir su presencia a otros usuarios...\nThe driver of a vehicle may use audible signals to warn other road users of the driver's presence…",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "ecd8a5f6fa501a8df069c6b4"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "52ffa3bd-9fe7-4593-a9e8-6a6d947588faM.jpg",
       "number": "26.",
       "question": "Las advertencias acústicas se pueden utilizar...\nThe horn can be used...",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "98f16feb66e35acee2b0eae0"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "995d2a5d-a7a3-4458-a0ab-ad4ba79e9b0eM.jpg",
       "number": "27.",
       "question": "En esta vía urbana, para advertir al conductor del vehículo rojo la intención de adelantarle, ¿puede usar las señales acústicas?\nOn this urban road, to warn the driver of the red vehicle that you intend to overtake, can you use sound signals?",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "81ab0c389363b10c0daa63a0"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "c836c636-e186-4754-918f-da6d82790706M.jpg",
       "number": "28.",
       "question": "Circulando por vía urbana, para evitar un posible accidente, ¿cómo indicará su presencia a otro vehículo que pretende incorporarse a la circulación?\nWhen travelling along an urban road, to avoid a potential accident, how should you indicate your presence to another vehicle which wants to join traffic?",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "903156de67b1a66c0bdd7272"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "541e8f7c-f5bf-4f09-9e84-9771b2e6ee68M.jpg",
       "number": "29.",
       "question": "Un semáforo cambia de rojo a verde. ¿Está permitido emplear el claxon para advertir a otro conductor que ya se puede pasar?\nA traffic light changes from red to green. Are you allowed to use your horn to tell another driver that it is safe to proceed?",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "e2d72c732b163665b61aa734"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "54499204-a920-4ce7-882e-2b35cfe12f13M.jpg",
       "number": "30.",
       "question": "En vías con tráfico denso, ¿se puede hacer uso del claxon?\nOn roads with heavy traffic, are you allowed to use your horn?",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "dc1a5a11eab56d15803d8781"
     }
   ]
 }

@@ -31,7 +31,8 @@
       "image_url": "3a0e5463-b431-42f8-b1ba-f0395cb041b2M.jpg",
       "number": "1.",
       "question": "En esta intersección ¿quién debe pasar primero?\nAt this intersection, who should proceed first?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "6b2e8522511c04f9fc31e06d"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "166687da-d844-4c08-b73a-d33c45f8eecaM.jpg",
       "number": "2.",
       "question": "En esta intersección sin señalizar se encuentra con un ciclista, ¿debe cederle el paso?\nAt this intersection without signalling, you find a cyclist. Should you give way?",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "bcc2dbc835b383d60055e7e2"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "b445c756-ef51-4bb2-8b06-ffeff0c1a5f3M.jpg",
       "number": "3.",
       "question": "En una intersección donde no esté señalizada la prioridad, ¿debe ceder el paso a un tranvía?\nAt an intersection where right-of-way is not signalled, do you have to give way to a tram?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "9715b9d5a4927c4c3879030c"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "edb67ebd-d00b-40a4-9704-370a0766237dM.jpg",
       "number": "4.",
       "question": "Un turismo circula por una vía preferente y por la derecha se le aproxima un tranvía, ¿quién tiene preferencia de paso?\nA car is travelling along a priority road and a tram approaches from the right. Who has priority?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "a162b650f686dad9205b8042"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "75f681b5-2817-45da-8d35-be53fa06dec8M.jpg",
       "number": "5.",
       "question": "En una intersección en la que debe ceder el paso, ¿cuándo podrá reanudar la marcha?\nAt an intersection where you must give way, when can you start driving again?",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "4b7a0b646a2289d173aea625"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "38fadf8e-dd52-40e5-b604-9dbe3a615c05M.jpg",
       "number": "6.",
       "question": "¿Cuál debe ser su comportamiento al ceder el paso?\nWhat must you do when giving way?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "9c6fb5f277fc9efaa8582129"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "5bf08164-e5e4-4a03-9903-69de80d34054M.jpg",
       "number": "7.",
       "question": "En una intersección que no tiene señal de preferencia, ¿cuándo debe ceder el paso a un vehículo de tracción animal?\nAt an intersection that does not have a sign giving priority, when must you give way to an animal-drawn vehicle?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "1e52054bc1166e92ec5e4b72"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "8118adf3-626e-4bd8-bca4-1b7de969e80aM.jpg",
       "number": "8.",
       "question": "El vehículo que sale de una vía no pavimentada, ¿a qué vehículos debe ceder el paso?\nWhat vehicles does this vehicle exiting from an unpaved road need to give way to?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "5342d2d68c502719748a4537"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "1fda7ada-3b53-4dac-bd76-5be690855fb8M.jpg",
       "number": "9.",
       "question": "El vehículo que circula dentro de una glorieta, ¿debe ceder el paso a un vehículo que quiere entrar por la derecha?\nShould the vehicle that is driving round a roundabout give way to a vehicle that wants to enter from the right?",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "77baf3d174216f3f34bd198f"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "67a5f794-cf54-4d62-89ca-a57c8132fc1cM.jpg",
       "number": "10.",
       "question": "En una intersección sin señalizar tienen prioridad de paso los vehículos que circulen por…\nAt an intersection without traffic signs the vehicles with priority are those driving…",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "16c58a3bf2bed58a8ad0107f"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "8185b43a-ea74-4e89-9c13-95da3b71fa0fM.jpg",
       "number": "11.",
       "question": "Ante este semáforo apagado, ¿qué debe hacer?\nWhat should you do if this traffic light is turned off?",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "a6e806f5109e1b784042f7d6"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "29740838-3909-492b-bbdb-4cea91786cf1M.jpg",
       "number": "12.",
       "question": "En las intersecciones señalizadas, ¿cuál es la norma general que prevalece?\nAt signalled intersections, which is the general rule that prevails?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "37d3cab637f6ae72a9ec0cdf"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "164e2073-8a60-464c-87ed-256ce60c8bc0M.jpg",
       "number": "13.",
       "question": "En una intersección en la que es previsible quedarse detenido, ¿qué debe hacer si tiene prioridad de paso?\nAt an intersection where you are likely to stop, what should you do if you have the right-of-way?",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "5df887616c7bbfc5e9eeaefc"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "97d30166-fc4c-4521-880f-d3249d90ea02M.jpg",
       "number": "14.",
       "question": "Ha quedado detenido en una intersección regulada por semáforos y obstaculiza la circulación, ¿qué debe hacer?\nYou have stopped in the middle of an intersection controlled by traffic lights and are unable to move forward. What must you do?",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "58c7b0d0b22c7de530127f7b"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "63157919-b2a3-478c-9901-deba8bf543a0M.jpg",
       "number": "15.",
       "question": "Hay muchos vehículos circulando y prevé que va a quedar detenido en el paso para peatones. ¿Debe entrar en el paso?\nThe road is congested and you foresee that you will have to stop on a pedestrian crossing. Must you enter the crossing?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "698ae34e758f47285551eab6"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "b7a2b3c1-a1b3-42f6-ada3-69e73c15c981M.jpg",
       "number": "16.",
       "question": "En esta intersección no hay línea de detención. ¿Dónde hay que detenerse?\nAt this intersection there is no stopping line. Where must you stop?",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "a1b39d150011809178e07208"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "76439ff8-d6b6-4248-888a-229f257858c3M.jpg",
       "number": "17.",
       "question": "En una glorieta de una vía interurbana con dos carriles para su sentido, ¿por dónde debe circular?\nOn a roundabout on an intercity road with two entry lanes, where should you position yourself?",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "4abaa4e79eebbeba2ea471c7"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "b9d2ccfa-a19a-43a2-859a-0776d8ef7445M.jpg",
       "number": "18.",
       "question": "En un paso para peatones sin semáforos o agente que lo regule, ¿cuándo tienen preferencia los peatones?\nOn pedestrian crossings with no traffic lights or traffic officers, when do pedestrians have right-of-way?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "9474e5a4e848f4355355d821"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "69784c21-d10b-4d18-954c-41a8dca5c0afM.jpg",
       "number": "19.",
       "question": "En esta intersección, el vehículo está girando a la derecha, ¿quién tiene preferencia?\nAt this junction, the vehicle is turning right. Who has priority?",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "2bd5d6c15c8a0819b8f13ed6"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "726a9198-9565-458c-8bde-766867d96bbdM.jpg",
       "number": "20.",
       "question": "Los vehículos tienen prioridad sobre los peatones, excepto cuando...\nVehicles have right-of-way over pedestrians, except when…",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "78b67c86efdbac926b59ff66"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "f8cc27c8-b7e0-4650-bd66-4d70348c1a56M.jpg",
       "number": "21.",
       "question": "En un paso para ciclistas, los demás conductores deben...\nAt a cycle crossing, other drivers must...",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "5d9a1ee5dfef642772bd1942"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "baeb885f-82b1-4f21-804a-af9ea13e6538M.jpg",
       "number": "22.",
       "question": "Circula con su turismo por una vía que se cruza con un carril-bici, ¿debe ceder el paso a los ciclistas?\nYou are driving in your private car on a road that crosses a cycle lane. Must you give way to the cyclists?",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "901d8aa4915f67bf40860b34"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "9bc9630c-4901-417e-b153-edddb94087cfM.jpg",
       "number": "23.",
       "question": "Los conductores de bicicletas, ¿cuándo tienen prioridad de paso respecto a otros vehículos?\nWhen do cyclists have right of way over other vehicles?",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "c4151cc4ed2d64533d5b4d30"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "921781ef-020c-4cc4-8ac9-b51ba2da675fM.jpg",
       "number": "24.",
       "question": "En esta intersección, ¿debe ceder el paso a los ciclistas?\nAt this junction, should you give way to cyclists?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "027b10f07703a51861618804"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "1f75d4db-ee40-4122-a2a8-2bc93752d4e9M.jpg",
       "number": "25.",
       "question": "¿Cuándo tienen prioridad de paso los animales sobre los vehículos?\nWhen do animals have right-of-way over vehicles?",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "efdb0e5196110357d377cc55"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "43efedee-56f7-463e-b9ac-5cbd7acc7149M.jpg",
       "number": "26.",
       "question": "A la vista de la señal, ¿tienen preferencia de paso los animales domésticos cuando crucen la calzada?\nDoes this sign give domestic animals right of way when crossing the road?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "d1e9ef567f36d2b817ea2c46"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "fc06872e-508d-4574-a2f2-f83d92f36964M.jpg",
       "number": "27.",
       "question": "Al girar el vehículo, ¿debe dar prioridad a los animales?\nWhen the vehicle turns, should it give way to the animals?",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "6c08dc4be66769b681d1b1fa"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "b83ae7d2-5ac3-4801-811c-04ef54a98c10M.jpg",
       "number": "28.",
       "question": "Los vehículos deben ceder el paso a los peatones cuando...\nVehicles must give way to pedestrians when…",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "8e07858273a7c69a6287aadd"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "bdc566d6-2092-443a-a3e8-9fa83a82d246M.jpg",
       "number": "29.",
       "question": "Al cruzar un arcén por el que circulan peatones en una zona en la que no existe zona peatonal, ¿qué debe hacer?\nWhen crossing a hard shoulder where pedestrians are walking in an area where there is no pedestrian zone, what should you do?",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "497d62796389d4e0a1651fb9"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "2cbfc733-493a-4ec9-b805-e5c4499c63b4M.jpg",
       "number": "30.",
       "question": "Los peatones tienen preferencia...\nPedestrians have preference…",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "89cc387a9ef2e99e30a4bdfa"
     }
   ]
 }

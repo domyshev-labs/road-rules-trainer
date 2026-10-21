@@ -340,3 +340,59 @@ button { font:inherit; }
 }
 @media (prefers-reduced-motion:reduce) { *{scroll-behavior:auto!important;transition:none!important} }
 .ticket-menu-collection { display: block; margin-top: 3px; font-size: 11px; font-weight: 500; opacity: .7; }
+
+.library-page { max-width: 1120px; margin: 0 auto; padding: 28px 28px 64px; color: #192c25; }
+.library-header { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.library-brand { color: #11694f; font-weight: 800; text-decoration: none; letter-spacing: -.03em; font-size: 20px; }
+.library-intro { padding: 60px 0 30px; }
+.library-intro h1 { font-size: clamp(32px, 5vw, 54px); margin: 10px 0 16px; line-height: 1.1; }
+.library-intro > p:not(.eyebrow) { color: #627268; font-size: 18px; }
+.library-intro input { display: block; width: 100%; box-sizing: border-box; margin-top: 30px; padding: 17px 20px; border: 1px solid #cadbd1; border-radius: 14px; background: #fffefa; color: inherit; font: inherit; }
+.library-totals { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 28px 0; color: #627268; }
+.library-totals strong { font-size: 24px; color: #11694f; margin-right: 5px; }
+.library-root { background: #fffefa; border: 1px solid #d6e1d9; border-radius: 18px; margin: 12px 0; overflow: hidden; }
+.library-tree summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 14px; padding: 21px 23px; font-size: 19px; font-weight: 700; }
+.library-tree summary::-webkit-details-marker { display: none; }
+.library-tree summary::before { content: '›'; color: #117655; font-size: 26px; width: 18px; flex-shrink: 0; }
+.library-tree details[open] > summary::before { transform: rotate(90deg); }
+.library-tree summary small { margin-left: auto; white-space: nowrap; color: #75867c; font-size: 13px; font-weight: 500; }
+.library-tree summary:hover { background: #f0f7f2; }
+.library-children { padding: 0 18px 15px; }
+.library-branch { border-top: 1px solid #e6ece6; }
+.library-branch summary { font-size: 16px; padding: 17px 8px; }
+.library-root > .library-branch { border-top: none; }
+.library-root > .library-branch > summary { padding: 21px 23px; font-size: 19px; }
+.library-questions { display: grid; gap: 6px; max-height: 480px; overflow-y: auto; }
+.library-questions button { display: flex; flex-direction: column; text-align: left; gap: 6px; padding: 14px 16px; background: #f4f7f1; color: #24382e; border: 1px solid transparent; border-radius: 10px; font: inherit; font-size: 14px; line-height: 1.5; cursor: pointer; }
+.library-questions button:hover:not(:disabled) { border-color: #86b69e; background: #e9f4ec; }
+.library-questions button:disabled { opacity: .65; cursor: default; }
+.library-question-id { color: #187152; font-size: 12px; font-weight: 800; letter-spacing: .02em; }
+.library-questions small { color: #997337; }
+.library-start { margin: 0 0 15px; }
+.library-divider { margin: 38px 3px 18px; font-size: 22px; font-weight: 700; }
+.library-divider span { display: block; margin-top: 7px; color: #75867c; font-size: 14px; font-weight: 400; }
+.library-note, .library-empty { color: #75867c; font-size: 13px; line-height: 1.7; }
+.library-note { margin: 25px 4px; }
+.library-back { display: block; margin: 10px 24px 0; border: 0; padding: 8px 12px; border-radius: 10px; background: #e1eee5; color: #12674d; font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+@media (max-width: 700px) {
+ .library-page { padding: 20px 14px 40px; }
+ .library-intro { padding: 36px 0 16px; }
+ .library-tree summary, .library-root > .library-branch > summary { padding: 18px 14px; font-size: 16px; }
+ .library-tree summary small { font-size: 11px; }
+ .library-children { padding: 0 10px 12px; }
+ .library-branch summary { font-size: 14px; }
+ .library-totals { gap: 12px; font-size: 12px; }
+ .library-back { margin: 8px 12px; }
+}
+
+/* Keep the collection menu inside the viewport, independent of the trigger width. */
+@media (min-width: 821px) {
+ .ticket-menu-panel { position: fixed; top: 120px; left: 50%; right: auto; transform: translateX(-50%); }
+ .app-shell { height: 100dvh; padding-top: 42px; }
+}
+.library-back { position: fixed; top: 5px; left: max(12px, calc((100vw - 1380px) / 2)); z-index: 36; margin: 0; }
+@media (max-width: 820px) {
+ .library-back { top: calc(64px + env(safe-area-inset-top)); left: 11px; }
+ .app-shell { padding-top: calc(106px + env(safe-area-inset-top)); }
+ .result-page { padding-top: calc(120px + env(safe-area-inset-top)); }
+}

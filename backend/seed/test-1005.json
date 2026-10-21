@@ -31,7 +31,8 @@
       "image_url": "370a8270-44cc-4685-9f6a-3ced248c9ba1M.jpg",
       "number": "1.",
       "question": "En un control preventivo, ¿quiénes están obligados a someterse a las pruebas que se establezcan para la detección de alcoholemia?\nAt a sobriety checkpoint, who is required to take a test to detect the presence of alcohol?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "2b81b98cb6c671e9f894123a"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "dd11c790-a01b-4ae8-bad9-4ed9af14fa04M.jpg",
       "number": "2.",
       "question": "Si a un conductor se le detecta una tasa de 0,3 miligramos por litro de aire espirado, ¿puede el agente solicitar una segunda prueba?\nIf a driver returns a rate of 0.3 milligrams per litre of exhaled air, can a traffic officer request a second test?",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "f8fd84a9d5388c3b8da3a480"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "88a3bc91-8c58-448c-9317-6bd7a8b8afdcM.jpg",
       "number": "3.",
       "question": "La conducción bajo los efectos del alcohol o de las drogas, ¿está considerada delito en el código penal?\nIs driving under the effects of alcohol or drugs considered a criminal offence?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "74400f2821e8b7d694ab4266"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "ba815be5-6cfd-4f5e-8f22-6687b1d74b27M.jpg",
       "number": "4.",
       "question": "Los agentes de tráfico inmovilizan un vehículo cuando su conductor tiene una tasa de alcohol mayor de la permitida. ¿Cuándo se dejará sin efecto dicha inmovilización?\nTraffic officers immobilise a vehicle when the driver presents an alcohol level higher than permitted. When will this immobilisation end?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "ea1dda9113c643fa229081a2"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "a8846284-bc3c-43cd-a830-332f47765175M.jpg",
       "number": "5.",
       "question": "Las pruebas de detección de sustancias estupefacientes, ¿son obligatorias?\nAre tests for narcotic substances mandatory?",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "3346d2ffbe2f8b242cc9685a"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "58357d62-d6db-4c62-827e-302b664444a0M.jpg",
       "number": "6.",
       "question": "Los síntomas de las alergias respiratorias pueden producir...\nSymptoms of respiratory allergies may lead to…",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "c5408a9e9eb2cf94f4cd6be8"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "f59ac644-d5b2-4a5c-ad80-0fc734636fd6M.jpg",
       "number": "7.",
       "question": "Las gripes, resfriados y alergias, ¿afectan a la conducción?\nDo colds, allergies or the flu, have an affect on driving?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "fa5d89c169ec03e01d13e4f9"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "659ed537-4502-48bd-a93c-fc2f90d99467M.jpg",
       "number": "8.",
       "question": "Todas las enfermedades, ¿son igual de peligrosas para la conducción?\nAre all illnesses as dangerous as each other when driving?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "f3a2a6d3842877f6519ab61d"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "bf267101-a560-47ca-8cf0-77c86b0b1f16M.jpg",
       "number": "9.",
       "question": "Las medicinas alternativas o naturales, ¿pueden producir efectos negativos en la conducción?\nCan alternative or natural medicines have negative effects on driving?",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "44a87c82f34b4af79a24dc64"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "7ad1ec82-0dc6-4d62-9da9-f160771cd36bM.jpg",
       "number": "10.",
       "question": "El estrés, ¿qué efectos puede tener sobre el conductor?\nWhat effects can stress have on a driver?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "2b30787be2110fddb9cb8970"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "16ada24c-c4bf-45df-aa77-4a01743f39ddM.jpg",
       "number": "11.",
       "question": "El estrés hace que el conductor...\nStress leads drivers to…",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "eef7b691b5ea9d12a78fb066"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "92403f3a-20e8-4755-906a-35a3188202ccM.jpg",
       "number": "12.",
       "question": "Si conduce, y se encuentra en tratamiento médico con medicamentos, debe saber...\nIf you drive, and you are under medical treatment and taking medicaments, you must know that...",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "e3603edde0cc113ba76f86e1"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "b06d4f5e-acf1-4618-a906-3094772cf3f8M.jpg",
       "number": "13.",
       "question": "Los medicamentos que no necesitan receta médica, ¿afectan a la conducción?\nDoes non-prescription medication affect driving?",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "0bdd78586d5948ec1425347a"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "bb169760-80fa-4a36-a8f1-b6a9a459e3c6M.jpg",
       "number": "14.",
       "question": "La depresión es una grave enfermedad que se sufre cada vez con más frecuencia. Si se padece debemos saber que…\nDepression is a serious illness that is on the rise. If you suffer from it, you should know that...",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "629d7548513e385d6bc16cde"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "e0ff339a-fe95-43ab-b876-bf1f77861334M.jpg",
       "number": "15.",
       "question": "La depresión es una grave enfermedad que se sufre cada vez con más frecuencia. Si se padece debemos saber que…\nDepression is a serious illness that is on the rise. If you suffer from it, you should know that...",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "21442c402a19d8ebe59d5b13"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "8b7e0358-ac8d-45f7-878d-571c9ba8a02cM.jpg",
       "number": "16.",
       "question": "Bajo los efectos de la depresión...\nUnder the effects of a depression...",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "83abf2b3b55234a59d6e1188"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "a4d9010a-6fe7-40bc-821b-f7003ad3e5b4M.jpg",
       "number": "17.",
       "question": "La depresión, ¿qué efectos produce en la conducción?\nWhat effects does depression have on driving?",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "90e282800fff8bc7a65fe7f6"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "9b2c15d1-2d94-442b-a48c-50b0a5f5df08M.jpg",
       "number": "18.",
       "question": "Los antihistamínicos modernos, ¿son más seguros para la conducción?\nAre modern antihistamines safer for driving?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "b8d637d7ad93defbde35eaf6"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "4812233d-3e5b-4acd-829d-01f662f2b668M.jpg",
       "number": "19.",
       "question": "Ante un tratamiento farmacológico, ¿reaccionan todas las personas de igual forma?\nDoes everybody react the same to pharmaceutical treatment?",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "37338fb616cb15485694c7af"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "7b913f74-4b18-4a44-849c-b0e051fc4e81M.jpg",
       "number": "20.",
       "question": "¿Qué medicamentos deben llevar el símbolo de la imagen?\nWhat medicines should display the symbol in the image?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "a7711a47af559906597f534a"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "392c9a93-444f-45da-8657-73e745d3dc3fM.jpg",
       "number": "21.",
       "question": "Si está tomando medicamentos y va a conducir…\nIf you are taking medication and you are going to drive…",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "bc42dc0062d01d4999b4b57a"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "acf21c3e-f919-4e4d-9292-e922935b80f9M.jpg",
       "number": "22.",
       "question": "Después de ingerir medicamentos tranquilizantes, el tiempo de reacción...\nAfter ingesting tranquillising drugs, the reaction time...",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "dc48f5e22535a044f4a4e2ec"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "a1362a92-52f1-46a1-999f-254ecc86c2c1M.jpg",
       "number": "23.",
       "question": "Uno de los efectos que pueden producir los ansiolíticos es...\nOne of the effects that anxiolytics can produce is...",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "5239b99f0cfc208e71666a67"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "74472ec4-a830-4b29-b39d-c64452d65482M.jpg",
       "number": "24.",
       "question": "Los fármacos hipnóticos hacen que...\nSedatives cause...",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "323cb0ff067b4f541837f04b"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "578f97d8-c972-4cbf-b4ee-397485644a5dM.jpg",
       "number": "25.",
       "question": "Los efectos secundarios de los medicamentos que alteran la capacidad de conducción, ¿se manifiestan de la misma manera en todas las personas?\nDo the side effects of medicines that alter driving ability appear the same in all people?",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "fcf263c6eff3aeae824e27a5"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "33681aa4-b9c3-4c8b-9932-853e432aa962M.jpg",
       "number": "26.",
       "question": "Las comidas copiosas pueden provocar en el conductor...\nLarge meals can cause...",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "f99a4d4a981fddcbf0e37ad7"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "3d7638d7-da7f-4b22-a65a-f79255853c85M.jpg",
       "number": "27.",
       "question": "Es conveniente que el traje del conductor o pasajero de una motocicleta sea...\nIt is recommendable that the suit of the rider or passenger of a motorcycle is...",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "ed6b26e6a783a1b03db97efd"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "d836ad4c-dfc4-4e7e-8ad7-c0ea06668894M.jpg",
       "number": "28.",
       "question": "Un traje adecuado para conducir una motocicleta, debe...\nA suitable suit for riding a motorcycle should be...",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "61694ecfd98c796a3cec7f1a"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "06613cd8-c054-4e05-9838-d1e1fe986095M.jpg",
       "number": "29.",
       "question": "Es recomendable que los guantes que se utilicen para conducir una motocicleta...\nIt is recommended that motorcycle riding gloves are...",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "0dabec7b7560502da511d595"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "f8ca0353-c43f-4592-bd2a-8800f492756cM.jpg",
       "number": "30.",
       "question": "¿Es adecuado conducir una motocicleta llevando como calzado unas sandalias?\nIs it acceptable to ride a motorcycle wearing sandals?",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "ceada2dae9c34df3a8cd7d8e"
     }
   ]
 }

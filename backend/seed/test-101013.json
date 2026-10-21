@@ -1,0 +1,1117 @@
+{
+  "test_id": 101013,
+  "title": "Exam collection · 1013",
+  "collection": "Exam Test",
+  "questions": [
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "La obligación de girar a la izquierda en la intersección.\nThat you must turn left at the intersection.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "La dirección y el sentido del movimiento giratorio que los vehículos deben seguir.\nThe direction of movement that vehicles must follow.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Que se circula por una glorieta.\nThat you are on a roundabout.",
+          "correct": false
+        }
+      ],
+      "help": "5 Vertical Signs                                      \n                                   \n5.3 Regulation road signs    \n5.3.6 Obligation road signs  \nR-402 Compulsory direction on a roundabout\nThe arrows indicate the direction of the rotating movement that the vehicles must follow.\n(Página 128 del manual 'Learning to drive')",
+      "image_url": "23ff9077-14b4-4b0c-8d57-8ad9b907708dM.jpg",
+      "number": "1.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign indicate?",
+      "selected_letter": "B",
+      "local_image": "/tests/exam/1013/q01.jpg",
+      "question_id": "exam:1013:01",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 1,
+      "summary_ru": "Знак обязательного направления движения на круге",
+      "primary_topic_id": "signs.mandatory",
+      "topic_ids": [
+        "signs.mandatory",
+        "driving.roundabouts"
+      ],
+      "classification_note_en": "The roundabout sign prescribes direction; it does not itself give priority.",
+      "canonical_id": "bb2a9988d66c0afb763dbf6b"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, nunca.\nNo, never.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, cuando la calidad del descanso ha sido buena.\nYes, when the quality of sleep was good.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, cuando la calidad del descanso no ha sido buena.\nYes, when the quality of sleep was not good.",
+          "correct": true
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES\n \n11.1 Causes of drowsiness\nThe quality of sleep. Sleeping badly is as dangerous and as debilitating as having little sleep. If the period of time spent sleeping has not been sufficient or inadequate then the individual will be sleepy and tired the next morning.\nMonotonous traffic situations (like driving on an motorway with little traffic) are conducive to the onset of drowsiness. To break this monotony, the driver must stay active, listening to music, chatting with a friend or varying the speed from time to time.\n(Página 39 del manual 'Learning to drive')",
+      "image_url": "8db58fcc-89c6-4e67-a1d4-18786d97daa9M.jpg",
+      "number": "2.",
+      "question": "Un conductor, ¿puede sentirse somnoliento aunque duerma las horas necesarias?\nCan a driver feel tired even if they have had enough sleep?",
+      "local_image": "/tests/exam/1013/q02.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:02",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 2,
+      "summary_ru": "Сонливость при достаточной длительности, но плохом качестве сна",
+      "primary_topic_id": "routine.fatigue",
+      "topic_ids": [
+        "routine.fatigue"
+      ],
+      "canonical_id": "bffcecc8be7bf8b11fa95e71"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "0,5 gramos de alcohol por litro de sangre.\n0.5 grams of alcohol per litre of blood.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0,3 gramos de alcohol por litro de sangre.\n0.3 grams of alcohol per litre of blood.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "0,7 gramos de alcohol por litro de sangre.\n0.7 grams of alcohol per litre of blood.",
+          "correct": false
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS    \n   \n16 Alcohol limits\nLegal limits\nVehicles: Any vehicle during the first two years of obtaining a driving licence. (Note: The two years do not begin again if a new category is added).\nBrAC: 0,15 mg/l \nBAC: 0,3 g/l\n(Página 41 del manual 'Learning to drive')",
+      "image_url": "1bdaa532-1560-4e3d-9752-0019d4fff757M.jpg",
+      "number": "3.",
+      "question": "Los conductores, durante los dos años siguientes a la obtención de su primer permiso o licencia de conducción, no podrán superar la tasa de...\nThroughout the first two years of having their first driving licence, drivers cannot exceed...",
+      "local_image": "/tests/exam/1013/q03.jpg",
+      "selected_letter": "B",
+      "question_id": "exam:1013:03",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 3,
+      "summary_ru": "Норма алкоголя в крови в первые два года стажа",
+      "primary_topic_id": "numbers.alcohol",
+      "topic_ids": [
+        "numbers.alcohol",
+        "routine.alcohol",
+        "numbers.deadlines.novice"
+      ],
+      "classification_note_en": "The two-year period is a novice restriction, not the validity period of the driving licence.",
+      "canonical_id": "114d2e304e747c8bf6860f52"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Por el carril de la izquierda.\nIn the left lane.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Por cualquiera de los carriles, es indiferente.\nIn either lane, it does not matter.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Por el carril de la derecha, usando el otro carril si las circunstancias lo aconsejan, sin cortar la trayectoria a otros vehículos.\nIn the right lane, using the other lane if circumstances dictate, without cutting off other vehicles.",
+          "correct": true
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels            \n             \n2 Junctions  \n2.4 Junctions where traffic rotates\n2.4.1 Roundabouts\nWhen there is more than one lane on a roundabout, you will normally travel around the roundabout in the right hand lane – the outside of the roundabout, nevertheless you can use the rest of the lanes when the traffic circumstances permit this, (for example, to carry out an overtake or if the lane is signed for your direction of travel)\n(Página 206 del manual 'Learning to drive')",
+      "image_url": "76439ff8-d6b6-4248-888a-229f257858c3M.jpg",
+      "number": "4.",
+      "question": "En una glorieta de una vía interurbana con dos carriles para su sentido, ¿por dónde debe circular?\nOn a roundabout on an intercity road with two entry lanes, where should you position yourself?",
+      "local_image": "/tests/exam/1013/q04.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:04",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 4,
+      "summary_ru": "Выбор полосы на загородном круговом перекрёстке",
+      "primary_topic_id": "driving.roundabouts",
+      "topic_ids": [
+        "driving.roundabouts",
+        "driving.lanes"
+      ],
+      "canonical_id": "4abaa4e79eebbeba2ea471c7"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "organizar a los servicios de urgencia.\ncall the emergency services.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "avisar a la policía.\nalert the police.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "proteger y señalizar la zona del accidente.\nprotect and signal the accident zone.",
+          "correct": true
+        }
+      ],
+      "help": "Road traffic collisions    \n   \n8 The rule - PAH\n8.1 Protect: Measures to restore traffic safety\nThe first thing to take into account when arriving at the scene of a road traffic collision is:\nProtection (personal): Do not expose yourself to any unnecessary danger or risk of a further accident.\nProtect the scene of the collision: make it visible, signal its presence which will avoid any further collisions and assist the emergency services in reaching the scene quickly and efficiently.\nProtect the victims.\n(Página 258 del manual 'Learning to drive')",
+      "image_url": "744145a1-f26b-4f9a-97c0-66a234ed3bd8M.jpg",
+      "number": "5.",
+      "question": "Nada más producirse un accidente, antes de atender a las víctimas hay que...\nAs soon as an accident occurs, before attending to victims, you must...",
+      "local_image": "/tests/exam/1013/q05.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:05",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 5,
+      "summary_ru": "Первое действие на месте ДТП: защитить и обозначить зону",
+      "primary_topic_id": "incidents.scene",
+      "topic_ids": [
+        "incidents.scene"
+      ],
+      "canonical_id": "5d5a4ad082a9cbd94250df7e"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, atravesándolas perpendicularmente, ya que se trata del recorrido más corto.\nYes, they can cross them perpendicularly, as this is the shortest route.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, si no existe zona peatonal.\nYes, if there is no pedestrian area.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, deben rodearlas, utilizando el arcén o, en su defecto, la calzada si no existe zona peatonal.\nNo, they must walk around them on the pavement, or, if there is no pavement or pedestrian zone, on the road.",
+          "correct": true
+        }
+      ],
+      "help": "5 Pedestrians  \n   \n5.4 Pedestrian crossings and crossing roads\nThe driver should not signal pedestrians to cross, because there may be other drivers who are unaware of their presence.\nPedestrians may not cross rotating circulation squares or traffic roundabouts on the road, and must go around them.\n(Página 57 del manual 'Learning to drive')",
+      "image_url": "9ed29d2e-9fde-41db-a37b-fef802f8cca9M.jpg",
+      "number": "6.",
+      "question": "Los peatones, ¿pueden atravesar las plazas y glorietas por su calzada?\nCan pedestrians walk over squares and roundabouts, crossing the road?",
+      "local_image": "/tests/exam/1013/q06.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:06",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 6,
+      "summary_ru": "Как пешеходам обходить площади и круговые перекрёстки",
+      "primary_topic_id": "driving.pedestrians",
+      "topic_ids": [
+        "driving.pedestrians",
+        "driving.roundabouts"
+      ],
+      "canonical_id": "6261bf8dcc45e399fef75d49"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que la vía queda temporalmente cerrada al tráfico a partir del paso de esa motocicleta.\nThat the road is temporarily closed to traffic behind the motorcycle.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Que hay que detenerse en el lado derecho.\nThat you need to pull over on the right.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Que se debe extremar la atención por la proximidad de un peligro.\nThat you must take precaution as you are approaching a hazard.",
+          "correct": false
+        }
+      ],
+      "help": "2 Police Officers and corresponding signalling    \n     \n2.4 Signals from a vehicle\n2.4.1 Red flag\nMeans that, after passing the vehicle carrying it, the roadway is temporarily closed to traffic for all vehicles and users, except those accompanied or guarded by the authorised traffic agents.\n(Página 111 del manual 'Learning to drive')",
+      "image_url": "6d065a7f-e9fb-4d68-9cbb-468bed346db7M.jpg",
+      "number": "7.",
+      "question": "Circula por una vía y se encuentra a este agente, ¿qué indica con la bandera roja?\nYou are driving on a road and see this agent, what does the red flag indicate?",
+      "local_image": "/tests/exam/1013/q07.jpg",
+      "selected_letter": "A",
+      "question_id": "exam:1013:07",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 7,
+      "summary_ru": "Красный флаг регулировщика: закрытие дороги",
+      "primary_topic_id": "priority.officer",
+      "topic_ids": [
+        "priority.officer"
+      ],
+      "canonical_id": "e02330d12b2deb4771d4ce06"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "conducta más agresiva.\nYou behave more aggressively.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "menor dificultad para calcular las distancias.\nYou find it harder to calculate distances.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "alteración de la percepción del entorno.\nIt alters your perception of your surroundings.",
+          "correct": true
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS    \n \n17.1 Effects of the most common drugs\n17.1.1 Cannabis\nIt alters the perception of the surroundings (for example, the driver’ vision, colours).\nIt alters the perception of time and space, so it becomes more difficult to calculate distances.\nIt reduces the driver’ ability to concentrate, so there is a greater likelihood of suffering a distraction whilst driving.\nIt increases the reaction time.\nIt may provoke a strong feeling of drowsiness whilst driving.\n(Página 44 del manual 'Learning to drive')",
+      "image_url": "faf1571f-c484-40bc-8be9-a81f26b6f64eM.jpg",
+      "number": "8.",
+      "question": "Los efectos del cannabis afectan a la conducción por una...\nThe effects of cannabis affects driving in the following way:",
+      "local_image": "/tests/exam/1013/q08.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:08",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 8,
+      "summary_ru": "Влияние каннабиса на восприятие окружающего",
+      "primary_topic_id": "routine.drugs",
+      "topic_ids": [
+        "routine.drugs"
+      ],
+      "canonical_id": "4ba3417e1ed8cff852442a79"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "la mayor capacidad para controlar el vehículo.\na greater capacity to control the vehicle.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "la menor percepción del riesgo.\na lower perception of risk.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "la percepción de la conducción como algo peligroso.\nthe perception that driving is dangerous.",
+          "correct": false
+        }
+      ],
+      "help": "Road traffic collisions              \n               \n6. Groups of drivers most at risk of a collision    \n6.1 The young  \n6.1.3 Major causes of youth collisions\nFinally, there are five factors that influence the evaluation and acceptance of risk:\nAttitudes to traffic. For example, when driving is not perceived as something that can potentially be dangerous inappropriate behaviour is more likely.\nBehaviour. People who believe they drive better than others, always think that the mistakes have been committed by others.\nDriving experience. Those that lack experience do not adequately judge and perceive danger.\nThe degree of control. Those who are excessively confident in their abilities lack the capacity to control the vehicle in dangerous situations.\nThe ability to perceive risks. Those that misjudge the risk factor will drive more dangerously and their behaviour will cause a collision.\n(Página 254 del manual 'Learning to drive')",
+      "image_url": "48793c02-ffa9-45f3-8260-aacd036c7622M.jpg",
+      "number": "9.",
+      "question": "Uno de los factores que propician la accidentalidad de los jóvenes conductores es...\nOne of the factors that contributes to the accident rate of young drivers is...",
+      "local_image": "/tests/exam/1013/q09.jpg",
+      "selected_letter": "B",
+      "question_id": "exam:1013:09",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 9,
+      "summary_ru": "Молодые водители: недооценка риска",
+      "primary_topic_id": "routine.emotions",
+      "topic_ids": [
+        "routine.emotions",
+        "routine.safety"
+      ],
+      "canonical_id": "f1145717815c3cabb4c5fa8d"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Por cualquiera de ellos, indistintamente.\nEither side, interchangeably.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Por el lado izquierdo del refugio.\nOn the left of the refuge area.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Por el lado derecho del refugio.\nOn the right of the refuge area.",
+          "correct": true
+        }
+      ],
+      "help": "2 Use of the road    \n \n2.2 Central refuges, isles, waiting area or guiding devices\nWhen there are pedestrian refuges, central islands or channelizing islands in the road:\nNormally vehicles must pass on the right hand side of these, in the direction of travel.\nIf these are located on a one-way road, they can be passed on either side.\nIf these are located within the part of a road assigned to traffic travelling in one direction only, vehicles can pass on either side.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "f92257ac-dcf9-4992-a8e9-626a7230b187M.jpg",
+      "number": "10.",
+      "question": "En una calzada con dos sentidos de circulación hay un refugio en el centro. ¿Por qué lado está permitido circular?\nOn a road with two directions of traffic, there is a refuge area in the middle. Which side are you allowed to drive on?",
+      "local_image": "/tests/exam/1013/q10.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:10",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 10,
+      "summary_ru": "Объезд центрального островка на двусторонней дороге",
+      "primary_topic_id": "driving.lanes",
+      "topic_ids": [
+        "driving.lanes"
+      ],
+      "canonical_id": "0159c4fa0799d2607a15c729"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "los taxis, pero únicamente en poblado.\ntaxis, but only in populated areas.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "todos los vehículos.\nall vehicles.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "los vehículos de transporte público de viajeros, únicamente.\npublic transport vehicles only.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres    \n   \n3 Joining the traffic flow\n3.3 Obligation to assist this manoeuvre\nAlthough drivers that wish to join into the flow of traffic, must give way to other motorists, if at all possible, other drivers have the obligation to help to facilitate the manouevre .i.e. assist others to join the traffic flow.\nMotorists are obliged to help public transport vehicles that have stopped at an official stop, and need to remerge into the traffic flow.\n(Página 185 del manual 'Learning to drive')",
+      "image_url": "99bc7888-7395-47b4-a433-96b7d022bc79M.jpg",
+      "number": "11.",
+      "question": "Cuando se incorporen a la circulación, es obligatorio facilitar la maniobra a...\nWhen you merge onto a road, you must facilitate the manoeuvres of...",
+      "local_image": "/tests/exam/1013/q11.jpg",
+      "selected_letter": "B",
+      "question_id": "exam:1013:11",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 11,
+      "summary_ru": "Обязанность помогать другим включаться в поток",
+      "primary_topic_id": "priority.merging",
+      "topic_ids": [
+        "priority.merging"
+      ],
+      "canonical_id": "c737f6a95c8444023d1f72e1"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "En las vías interurbanas.\nOn interurban roads.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "En las ciudades.\nIn cities.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Tanto en poblado como fuera de poblado la cantidad de accidentes es la misma.\nThe number of accidents is the same in built-up areas as outside built-up areas.",
+          "correct": false
+        }
+      ],
+      "help": "Road traffic collisions  \n   \nRISK GROUPS  \n5 Pedestrians\nPedestrians are particularly vulnerable, because in the event of a collision they are more likely to suffer serious injury.\nStatistics indicate that the probability of being killed in a collision is greater on main roads than in built-up areas, mainly due to high speeds. However, most pedestrian deaths from car accidents occur on urban roads, which is where pedestrians are more often hit by vehicles.\nThis high accident rate is linked mostly to the zone of uncertainty of pedestrians, making their movements less predictable than those of other road users, which means that the driver finds it harder to anticipate their behaviour and actions.\n(Página 251 del manual 'Learning to drive')",
+      "image_url": "480df3a0-1ffa-418a-8f77-bc27c955811fM.jpg",
+      "number": "12.",
+      "question": "¿Dónde sufren los peatones más accidentes?\nWhere do pedestrians have the most accidents?",
+      "local_image": "/tests/exam/1013/q12.jpg",
+      "selected_letter": "B",
+      "question_id": "exam:1013:12",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 12,
+      "summary_ru": "Где пешеходы чаще попадают в ДТП",
+      "primary_topic_id": "routine.safety",
+      "topic_ids": [
+        "routine.safety",
+        "driving.pedestrians"
+      ],
+      "canonical_id": "cce9e50067b5fc31826aa752"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "en todas las intersecciones.\nat all junctions.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "en las zonas peatonales debidamente señalizadas.\nin specially marked pedestrian areas.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "cuando circulen por un paso para ciclistas.\nwhen riding in a cycle lane.",
+          "correct": true
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels\n \n3 Cyclists, pedestrians and animals\n3.2 Cyclists\nBicycle riders have right of way with respect to other vehicles:\nWhen driving on a cycle lane, a crossing for cyclists or a hard shoulder, all of them duly marked.\nWhen the vehicle is turning right or left to enter another road, in the permitted cases, and there is a bicycle rider near the vehicle.\nWhen cyclists travel in a group, and the first one has started to cross or has entered onto a roundabout, priority is afforded to the whole group –as if it were one long vehicle.\nNote: In all other cases the general rules, concerning right of way between vehicles will be applied.\n(Página 206 del manual 'Learning to drive')",
+      "image_url": "bdb5783a-2d7f-4105-a4b3-572b4a1d8203M.jpg",
+      "number": "13.",
+      "question": "Los conductores de bicicletas tienen prioridad de paso respecto a los vehículos a motor...\nCyclists have right of way over motor vehicles...",
+      "local_image": "/tests/exam/1013/q13.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:13",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 13,
+      "summary_ru": "Приоритет велосипедиста на велосипедном переезде",
+      "primary_topic_id": "priority.cyclists",
+      "topic_ids": [
+        "priority.cyclists"
+      ],
+      "canonical_id": "cf182b9e2f5cd9e5689ca235"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que su peso y dimensiones son mayores que los normales.\nThat its weight and dimensions are higher than normal.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Que transporta mercancías peligrosas y que mide más de 12 metros.\nThat it is transporting dangerous goods and that it is longer than 12 metres.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Que transporta productos alimenticios.\nThat it is transporting food goods.",
+          "correct": false
+        }
+      ],
+      "help": "Transporting people and loads        \n     \n5 Plates and symbols on vehicles    \n5.2 Other distinctive plates, symbols, signs and stickers  \n5.2.5 Long vehicle (V-6)\nThis plate is placed at the rear of a vehicle to indicate that the vehicle or set of vehicles is longer than 12 metres in length. It is a yellow, reflective rectangular plate framed by a fluorescent red border.\nAlternatively, smaller plates may be used and more conveniently located symmetrically on the vehicle.\n(Página 220 del manual 'Learning to drive')\n\nTransporting people and loads          \n       \n5 Plates and symbols on vehicles      \n5.2 Other distinctive plates, symbols, signs and stickers    \n5.2.9 Transport of dangerous merchandise sign (V-11)\nThese signs have an orange background framed by a black border and warn that the vehicle is transporting dangerous (hazardous) merchandise / materials.\nThese signs must be located at the front and rear of the vehicle (perpendicular to the longitudinal axis and the signs must always remain highly visible at all times.\n(Página 220 del manual 'Learning to drive')",
+      "image_url": "18982d65-51cd-4bc6-a303-39f603f93567M.jpg",
+      "number": "14.",
+      "question": "Las señales y placas de la parte trasera del camión, ¿qué indican?\nWhat do the signs and plates on the back of the lorry indicate?",
+      "local_image": "/tests/exam/1013/q14.jpg",
+      "selected_letter": "B",
+      "question_id": "exam:1013:14",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 14,
+      "summary_ru": "Таблички грузовика: опасный груз и длина более 12 м",
+      "primary_topic_id": "signs.vehicle_plates",
+      "topic_ids": [
+        "signs.vehicle_plates",
+        "vehicle.dangerous_goods",
+        "numbers.dimensions"
+      ],
+      "canonical_id": "722a4e0dfc8d949b6ca8dc24"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "mejoran la visibilidad en determinadas situaciones, como una curva o una intersección.\nimprove visibility in certain situations, like on a bend or at an intersection.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "emiten más luz que las luces convencionales.\nemit more light than conventional headlights.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "adaptan su luminosidad a la visibilidad existente.\nadapt the amount of light to the current visibility.",
+          "correct": false
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES  \n   \n2 Lighting systems  \n2.1 Improvements in lighting systems\n2.1.4 Adaptative lights\nAutomatically manage the intensity and direction of dipped beams or high beams depending on the distance at which the other vehicle is driving in the opposite lane and on the conditions (bends, slopes, speed, etc.).\nThey include cornering lamps and automatic main-beam lights.\n(Página 63 del manual 'Learning to drive')",
+      "image_url": "dcb30f7a-8256-485b-b384-cff4cb87af01M.jpg",
+      "number": "15.",
+      "question": "Las luces adaptativas...\nAdaptive headlights...",
+      "local_image": "/tests/exam/1013/q15.jpg",
+      "selected_letter": "A",
+      "question_id": "exam:1013:15",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 15,
+      "summary_ru": "Что дают адаптивные фары",
+      "primary_topic_id": "vehicle.lights",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "canonical_id": "7fe05fdd62a62817a56fdcb8"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que se termina el carril izquierdo y que hay obras.\nThat the left lane is ending and that there are ongoing roadworks.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Que hay una salida obligatoria a la derecha.\nThere is a mandatory exit to the right.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Que hay un carril para circulación lenta.\nThere is a lane for slow circulation.",
+          "correct": false
+        }
+      ],
+      "help": "5 Vertical Signs                  \n             \n5.4 Indication Road Signs    \n5.4.3 Lane signs  \nS-52e End of traffic lane\nIndicates, on a three-lane carriageway with one-way traffic, the termination of the lefthand lane and the required lane change.\n(Página 137 del manual 'Learning to drive')\n\nSafe driving      \n       \n3 Road works  \n3.1 Signage in Sections Undergoing Roadworks or Maintenance Tasks\nWhere danger and regulatory signs are installed in these sections and their conventional background colour is white, they shall instead have a yellow background.\nWhere lane signs are installed, the background shall be yellow instead of blue, and the symbols shall be black instead of white.\nIf new direction signs are required due to roadworks or maintenance tasks, they shall have a yellow background with black characters, regardless of the type of road.\nIf new road markings are used in sections undergoing roadworks, they shall be yellow in colour.\n(Página 225 del manual 'Learning to drive')",
+      "image_url": "55784462-6866-4f9f-a4b5-b9c9aff7bc2dM.jpg",
+      "number": "16.",
+      "question": "Esta señal, ¿qué indica?\nWhat does this sign indicate?",
+      "local_image": "/tests/exam/1013/q16.jpg",
+      "selected_letter": "A",
+      "question_id": "exam:1013:16",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 16,
+      "summary_ru": "Жёлтый указатель окончания левой полосы при дорожных работах",
+      "primary_topic_id": "signs.lanes",
+      "topic_ids": [
+        "signs.lanes",
+        "signs.temporary",
+        "driving.lanes"
+      ],
+      "canonical_id": "647307727c44bf9e8a2c2c87"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, la trasera y la delantera.\nYes, both the rear and the front fog light.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí.\nYes.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": true
+        }
+      ],
+      "help": "11 Rear fog light(s)\n \n11.2 Use of the rear fog light\nIt is only permissible to use the rear fog light when the environmental and meteorological conditions cause visibility to be seriously reduced. It is not permitted to use the rear fog lights under any other circumstances.\n(Página 103 del manual 'Learning to drive')",
+      "image_url": "c2d94800-b715-4bcc-9cd3-da9a1c54a090M.jpg",
+      "number": "17.",
+      "question": "Circulando con lluvia intensa, ¿es obligatorio utilizar la luz antiniebla trasera?\nWhen driving in heavy rain, do you need to use the rear fog light?",
+      "local_image": "/tests/exam/1013/q17.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:17",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 17,
+      "summary_ru": "Задняя противотуманная фара при сильном дожде",
+      "primary_topic_id": "vehicle.lights",
+      "topic_ids": [
+        "vehicle.lights",
+        "driving.weather"
+      ],
+      "canonical_id": "710074f7a194af7ae963112f"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "aumenta la velocidad del vehículo sin darse cuenta.\nthey speed up the vehicle without realising.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "debe avisarlo con las luces de emergencia.\nthey must notify this using the hazard lights.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "tarda más tiempo en reaccionar.\ntheir reaction times are slower.",
+          "correct": true
+        }
+      ],
+      "help": "DISTRACTIONS        \n     \n5 Collisions due to distractions\nTo drive safely requires the driver to focus all of their attention on driving. Diverted attention results in the driver not receiving all of the necessary information on time, which ultimately leads to wrong decisions or delayed reactions.\nDistractions can be caused by internal factors within the vehicle (such as GPS or smoking), or by external elements (such as advertising, road works or the views and landscape). Additionally, the driver may become distracted due to his state or mind (for example, preoccupied due to work).\n(Página 33 del manual 'Learning to drive')",
+      "image_url": "a1362a92-52f1-46a1-999f-254ecc86c2c1M.jpg",
+      "number": "18.",
+      "question": "Cuando el conductor sufre una distracción al volante...\nWhen the driver is distracted behind the wheel...",
+      "local_image": "/tests/exam/1013/q18.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:18",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 18,
+      "summary_ru": "Отвлечение увеличивает время реакции",
+      "primary_topic_id": "routine.distraction",
+      "topic_ids": [
+        "routine.distraction",
+        "routine.reaction"
+      ],
+      "canonical_id": "2c23299d6ff6413eeed6b29e"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A 80 kilómetros por hora.\nAt 80 kilometres per hour.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "A 90 kilómetros por hora.\nAt 90 kilometres per hour.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A 100 kilómetros por hora.\nAt 100 kilometres per hour.",
+          "correct": false
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)\n7.3.1 For traffic flow reasons\nThe users of these lanes (that have been set up for the opposite direction to normal) must:\nUse during the day and at night, at least low beam headlights.\nTravel at a speed at or above the minimum speed of 60 km/h and not in excess of the maximum speed of 80 km/h (or as otherwise specified on the signs).\nNot move to the side invading the lane or lanes destined for the normal direction of movement, not even to overtake.\n(Página 166 del manual 'Learning to drive')",
+      "image_url": "8e68a6f1-9398-4a97-8334-74443d795e1eM.jpg",
+      "number": "19.",
+      "question": "En una autovía, hay un carril abierto para circular en sentido contrario al normal, para mejorar la fluidez. ¿A qué velocidad máxima se puede circular en ese carril?\nOn a highway, there is a lane open for driving in the opposite direction to normal, to improve traffic flow. How fast can you drive in this lane?",
+      "local_image": "/tests/exam/1013/q19.jpg",
+      "selected_letter": "A",
+      "question_id": "exam:1013:19",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 19,
+      "summary_ru": "Максимальная скорость в полосе встречного направления для разгрузки потока",
+      "primary_topic_id": "numbers.speeds",
+      "topic_ids": [
+        "numbers.speeds",
+        "driving.lanes"
+      ],
+      "canonical_id": "72fa77674714b7479b0d2fb4"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, cuando la velocidad máxima autorizada no exceda de 40 km/h.\nYes, when the maximum authorised speed does not exceed 40 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, porque sobrepasa los 3.500 kilogramos de masa máxima autorizada.\nNo, because it is exceeding the maximum authorised mass of 3,500 kg.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí.\nYes.",
+          "correct": true
+        }
+      ],
+      "help": "2 Driver documentation            \n         \n2.4 Classes of driving permits      \n2.4.5 B permit\nIt grants authorisation to drive:\nSpecial self-propelled agricultural vehicles and their combination vehicles.\nSpecial non-agricultural vehicles or their combinations whose maximum authorised speed does not exceed 40 km/h and whose MAM does not exceed 3,500 kg. If either of these limits is surpassed, then the driving license must be obtained for said maximum authorised mass.\nIf transporting people, the maximum number of people, including the driver, cannot be greater than nine.\n(Página 22 del manual 'Learning to drive')",
+      "image_url": "3fb2e486-cc34-4ce2-b50c-9656d3e7be4bM.jpg",
+      "number": "20.",
+      "question": "Un tractor agrícola de más de 3.500 kilogramos de MMA, ¿se puede conducir con el permiso B?\nCan an agricultural tractor with an MAM of more than 3,500 kg drive with a B licence?",
+      "local_image": "/tests/exam/1013/q20.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:20",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 20,
+      "summary_ru": "Разрешает ли категория B сельскохозяйственный трактор тяжелее 3,5 т",
+      "primary_topic_id": "documents.permissions",
+      "topic_ids": [
+        "documents.permissions",
+        "vehicle.classification"
+      ],
+      "classification_note_en": "The stem contains 3,500 kg, but the tested fact is permission to drive agricultural vehicles, not recall of a mass limit.",
+      "canonical_id": "9bc0e7103c8b9ef0f518abe9"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, porque se supera el número de plazas autorizado.\nNo, because the number of authorised places is exceeded.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, cuando van al cargo de un adulto.\nYes, when there is a responsible adult there.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, cuando los niños tienen edades comprendidas entre los 2 y los 12 años de edad.\nYes, when the children are between 2 and 12 years of age.",
+          "correct": false
+        }
+      ],
+      "help": "Transporting people and loads\n \n2 Transporting people\n2.1 General rules\nWhen a vehicle is used to transport people, the driver of that vehicle, must ensure that he knows how many people are being transported and make sure that this number does not exceed the maximum authorised amount permissible for that vehicle.\n(Página 214 del manual 'Learning to drive')",
+      "image_url": "1d19b85d-2fc1-4fbf-962f-f50d502da334M.jpg",
+      "number": "21.",
+      "question": "En un turismo de 9 plazas incluido el conductor, ¿pueden viajar 9 niños?\nIn a car with 9 seats including the driver, can 9 children travel?",
+      "local_image": "/tests/exam/1013/q21.jpg",
+      "selected_letter": "A",
+      "question_id": "exam:1013:21",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 21,
+      "summary_ru": "Девять детей в девятиместном автомобиле с водителем",
+      "primary_topic_id": "numbers.capacity",
+      "topic_ids": [
+        "numbers.capacity",
+        "vehicle.passengers"
+      ],
+      "canonical_id": "e5e6da041623148c083d455d"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Señalizada solamente.\nMarked only.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Protegida solamente, porque es un vehículo de transporte de mercancías.\nProtected only, because it is a goods vehicle.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Señalizada y protegida en los extremos.\nMarked and protected at the ends.",
+          "correct": true
+        }
+      ],
+      "help": "Transporting people and loads          \n         \n3 Transport of load  \n3.5 Load size\nWhen the load protrudes past the dimensions of the vehicle, then special safety precautions have to be implemented to prevent damage or dangers to other road users. This means that the part of the load that protrudes has to be protected so as to highlight and minimise the potential for damage or injury.\n(Página 218 del manual 'Learning to drive')",
+      "image_url": "b366d0c5-a7fc-4c20-a9c2-c9e8cb9f3b92M.jpg",
+      "number": "22.",
+      "question": "Este camión, ¿cómo debe llevar la carga que sobresale?\nHow should this lorry carry the protruding load?",
+      "local_image": "/tests/exam/1013/q22.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:22",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 22,
+      "summary_ru": "Обозначение и защита выступающего груза",
+      "primary_topic_id": "vehicle.cargo",
+      "topic_ids": [
+        "vehicle.cargo"
+      ],
+      "canonical_id": "5b40104fb50443c8b5871c19"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Circular a poca velocidad para no tener que frenar.\nDrive slowly to avoid having to brake.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Circular pisando el freno intermitentemente.\nDrive whilst braking periodically.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Circular con el pie en el embrague.\nDrive with your foot on the clutch.",
+          "correct": false
+        }
+      ],
+      "help": "Safe driving    \n \n7 Driving on ice\nWhen there is the presence of ice on the road, drivers should adopt the same precaution as travelling on snow. This means that, similar to snow, there is a risk of sliding and skidding. Always operate the hand controls and foot controls smoothly.\nTurn the steering wheel, gently as it is particularly sensitive and the steering will feel very light when driving on ice. This is because there is reduced grip (adhesion) between the tyres and icy road surface. Smoothly and progressively, operate the clutch, accelerator and brake. \nIt is better to raise the foot slowly off the accelerator in a bid to lose speed. Try to avoid using the brakes, and always brake gently where necessary, so as not to lose control of the car.\n \n(Página 230 del manual 'Learning to drive')",
+      "image_url": "bd0a7932-5280-49c7-936e-da0f36fbcf8dM.jpg",
+      "number": "23.",
+      "question": "Hay hielo en la vía. ¿Qué debe hacer?\nThere is ice on the road. What should you do?",
+      "local_image": "/tests/exam/1013/q23.jpg",
+      "selected_letter": "A",
+      "question_id": "exam:1013:23",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 23,
+      "summary_ru": "Движение по льду: малая скорость без необходимости тормозить",
+      "primary_topic_id": "driving.weather",
+      "topic_ids": [
+        "driving.weather",
+        "driving.braking"
+      ],
+      "classification_note_en": "Qualitative speed advice is not a numeric speed-limit question.",
+      "canonical_id": "f274aec6aa10f559a7f97de1"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "los autobuses de líneas regulares, exclusivamente.\nscheduled bus services, exclusively.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "tranvías, ciclos y ciclomotores.\ntrams, bicycles and mopeds.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "los tranvías y a los autobuses de líneas regulares.\ntrams and scheduled bus services.",
+          "correct": true
+        }
+      ],
+      "help": "4 Traffic lights\n \n4.4 Traffic lights reserved for specific vehicles\n4.4.2 Traffic lights reserved for trams, buses, etc.\nWhen, exceptionally, the traffic light consists of a white stripe illuminated on a black circular background, its indications refer exclusively to trams and regular buses, unless there is a lane reserved for buses, taxis and other vehicles; in that case, they only refer to those who drive through it.\n(Página 117 del manual 'Learning to drive')",
+      "image_url": "ec94093a-fd21-401b-a33d-1080ebbb7587M.jpg",
+      "number": "24.",
+      "question": "Este tipo de semáforos afecta a...\nThis type of traffic lights affects...",
+      "local_image": "/tests/exam/1013/q24.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:24",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 24,
+      "summary_ru": "Кому адресован светофор с белой полосой: трамваи и маршрутные автобусы",
+      "primary_topic_id": "priority.lights",
+      "topic_ids": [
+        "priority.lights",
+        "priority.tram"
+      ],
+      "classification_note_en": "Tests which vehicles the signal applies to, not a general rule giving trams priority.",
+      "canonical_id": "d856101c0a987689c1225c97"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "después de una comida ligera.\nafter a small meal.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "después de una fuerte discusión.\nafter a major argument.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "si usamos gafas graduadas.\nwhen wearing graded glasses.",
+          "correct": false
+        }
+      ],
+      "help": "Physical condition of the driver    \n \n4 Reaction time\nThe reaction time is defined as the time that passes from when a driver sees a hazard (for example an obstacle etc; or hears a noise) until he responds to it.\nThe reaction time is not constant, although under normal conditions, it is approximately 0,75 second.\n(Página 32 del manual 'Learning to drive')\n\nPhysical condition of the driver    \n \n4 Reaction time\nThe reaction time can be increased by:\nfatigue or tiredness,\ndrowsiness, sleepiness,\nthe advancement of age,\nthe loss of vision and poor hearing,\npoor state of health,\nthe use of medications,\nthe intake of alcohol, drugs or other narcotics substances,\nheavy and excessive meals,\nthe excessive heat in the cockpit of the vehicle,\nthe emotional state.\nthe attention level of the driver.\nAll these listed factors have the serious potential consequence of reducing the driver’s ability to react and therefore the result is an increase in the reaction time.\n(Página 32 del manual 'Learning to drive')",
+      "image_url": "7474f681-0413-4940-aacb-12753214eb38M.jpg",
+      "number": "25.",
+      "question": "El tiempo de reacción puede verse incrementado...\nReaction time may be increased...",
+      "local_image": "/tests/exam/1013/q25.jpg",
+      "selected_letter": "B",
+      "question_id": "exam:1013:25",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 25,
+      "summary_ru": "Сильная ссора увеличивает время реакции",
+      "primary_topic_id": "routine.emotions",
+      "topic_ids": [
+        "routine.emotions",
+        "routine.reaction"
+      ],
+      "canonical_id": "a3e25feedca158bc5a3b3d2e"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, pero solo por la parte trasera hasta 0,50 metros.\nYes, but only at the back and up to 0.50 metres.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, hasta 0,50 metros tanto por la parte delantera como por la trasera.\nYes, up to 0.50 metres, both at the front and back.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Por la parte delantera, no; por la trasera sí, hasta 0,25 metros.\nAt the front, no; at the back, yes, up to 0.25 metres.",
+          "correct": true
+        }
+      ],
+      "help": "Transporting people and loads          \n         \n3 Transport of load  \n3.5 Load size\nIn vehicles less than 1 metre wide, the load should not protrude:\nSideways, by more than 50 cm’ (on each side) of the longitudinal axle.\nThe rear - no more than 25 cm’s.\nTo the front –nothing at all.\n(Página 218 del manual 'Learning to drive')",
+      "image_url": "579d0636-700b-4fd8-926a-38a06d941234M.jpg",
+      "number": "26.",
+      "question": "La carga transportada en una motocicleta de anchura inferior a 1 metro, ¿puede sobresalir por la parte delantera o trasera?\nCan the load transported on a motorcycle with a width of less than 1 metre protrude at the front or back?",
+      "local_image": "/tests/exam/1013/q26.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:26",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 26,
+      "summary_ru": "Выступание груза мотоцикла: сзади до 0,25 м, спереди нельзя",
+      "primary_topic_id": "numbers.dimensions",
+      "topic_ids": [
+        "numbers.dimensions",
+        "vehicle.cargo",
+        "vehicle.motorcycles"
+      ],
+      "canonical_id": "69ed8f2a72932928ee4512b2"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí.\nYes.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No se puede estacionar, pero sí parar.\nNo, you cannot park there, but you can stop.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sí, se puede parar y estacionar.\nYes, you can stop and park.",
+          "correct": false
+        }
+      ],
+      "help": "5 Vertical Signs                                    \n                                 \n5.3 Regulation road signs      \n5.3.5 Other signs relating to prohibition or restriction  \nR-308d No parking during the last two weeks of the month\nNo parking on the side of the roadway where the road sign is located, from 9.00 AM on the 16th day of the month until 9.00 AM on the 1st day of the following month. Unless otherwise indicated, the prohibition starts at the vertical position of the road sign and ends at the next junction. Does not forbid stopping.\n(Página 127 del manual 'Learning to drive')",
+      "image_url": "a2fefca4-e2aa-4324-86a2-120490b4449eM.jpg",
+      "number": "27.",
+      "question": "El último día del mes, ¿está permitido estacionar en el lado de la calzada en que esté situada esta señal?\nOn the last day of the month, can you park on the side of the road where this sign is positioned?",
+      "local_image": "/tests/exam/1013/q27.jpg",
+      "selected_letter": "B",
+      "question_id": "exam:1013:27",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 27,
+      "summary_ru": "Знак запрета стоянки 16–31: последний день месяца",
+      "primary_topic_id": "signs.parking",
+      "topic_ids": [
+        "signs.parking",
+        "numbers.dates",
+        "driving.parking"
+      ],
+      "canonical_id": "f18a3e953ed43772de3f8080"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "sustituir cinturones y airbags.\nto substitute seatbelts and airbags.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ser poco deformable.\nto be non-deformable.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "proteger a los ocupantes.\nto protect occupants.",
+          "correct": true
+        }
+      ],
+      "help": "PASSIVE SAFETY ELEMENTS\n \n6 The chassis and body\nThe chassis and body prevent or reduce injury to people travelling in the vehicle in the event of a traffic collision. The chassis and the body must absorb as much energy as possible to aid deceleration and protect the occupants. To do this, certain areas on impact suffer from a progressive strain (deformation structures / crumple zones) whilst the carrier compartment remains unchanged (interior cell security/safety).\n(Página 74 del manual 'Learning to drive')",
+      "image_url": "b30938bb-b618-47e9-a4ce-0516484ad6d6M.jpg",
+      "number": "28.",
+      "question": "Una de las funciones del chasis y la carrocería del vehículo es...\nOne of the functions of the vehicle body and chassis is...",
+      "local_image": "/tests/exam/1013/q28.jpg",
+      "selected_letter": "C",
+      "question_id": "exam:1013:28",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 28,
+      "summary_ru": "Кузов и шасси защищают людей при столкновении",
+      "primary_topic_id": "vehicle.passive",
+      "topic_ids": [
+        "vehicle.passive"
+      ],
+      "canonical_id": "8e012a5eb175be00ec2df2af"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, está prohibido.\nNo, it is prohibited.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, cuando sea necesario y las circunstancias lo permitan.\nYes, when necessary and circumstances permit.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sí, cuando la línea es discontinua; no, cuando es continua.\nYes, when the line is broken; not when it is an unbroken line.",
+          "correct": false
+        }
+      ],
+      "help": "6 Road marks        \n       \n6.2 Longitudinal road markings\nEdge lines\nThese markings define the edge of the carriageway. Whether continuous or broken, this distinction does not affect the regulated use of the hard shoulder. In cases of necessity, such lines may be crossed or even driven over.\n(Página 154 del manual 'Learning to drive')",
+      "image_url": "47d3829b-f7ad-43e5-9427-7baf1b7e219fM.jpg",
+      "number": "29.",
+      "question": "La línea de borde de la calzada, ¿se puede atravesar?\nCan you cross the line on the edge of the road?",
+      "local_image": "/tests/exam/1013/q29.jpg",
+      "selected_letter": "B",
+      "question_id": "exam:1013:29",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 29,
+      "summary_ru": "Когда можно пересекать краевую линию",
+      "primary_topic_id": "signs.markings",
+      "topic_ids": [
+        "signs.markings",
+        "driving.lanes"
+      ],
+      "canonical_id": "9162a8fc2225ab4be7fd612e"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Cuidar que la profundidad del dibujo del neumático nunca sea inferior a 1,6 mm.\nEnsure that the depth of the tyre tread is never less than 1.6 mm.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Utilizar neumáticos radiales en las ruedas delanteras y diagonales en las traseras.\nUse radial tyres on the front wheels and diagonal tyres on the rear wheels.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Inflar los neumáticos por encima de la presión recomendada por el fabricante.\nInflate the tyres above the manufacturer's recommended pressure.",
+          "correct": false
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES      \n       \n4 Wheels    \n4.2 Tyres  \n4.2.3 The tread pattern\nThe tread pattern is the set of grooves in the tread of a tire. In addition to gripping the road surface, it must guarantee good drainage away of the surface water from the tyre. The adhesion between the tyre and the road is reduced when the tyre is worn.\nAll tyres, (including retreads) must always comply with the legal requirements. This includes, not only the tyre tread and depth of pattern but also other abnormalities relating to the tyre-wall and tread, inflation pressure, bulges, exposed cords, cuts and other signs of irregular wear, and also the mixing of tyres etc. Basically the carcass (housing) must comply with all legal requirements.\nTyres must, throughout their use on public roads, have a depth in the main grooves of the tread which must be at least:\n1.6 millimetres for vehicles in categories M1, N1, O1 and O2.\n1.0 millimetres for vehicles in categories M2, M3, N2, N3, O3 and O4.\n(Página 70 del manual 'Learning to drive')",
+      "image_url": "a5b0a6e6-8c24-484e-8e0d-78a8c146b8c8M.jpg",
+      "number": "30.",
+      "question": "¿Qué debe hacer para que el vehículo tenga un mejor agarre sobre la calzada?\nWhat do you need to do to give the vehicle better grip on the road?",
+      "local_image": "/tests/exam/1013/q30.jpg",
+      "selected_letter": "A",
+      "question_id": "exam:1013:30",
+      "collection_type": "exam",
+      "source_collection": "Exam collection",
+      "source_test_id": 1013,
+      "source_ordinal": 30,
+      "summary_ru": "Минимальная глубина протектора 1,6 мм",
+      "primary_topic_id": "numbers.technical",
+      "topic_ids": [
+        "numbers.technical",
+        "vehicle.tyres"
+      ],
+      "canonical_id": "6c64acdcef575ccba9c378cf"
+    }
+  ]
+}

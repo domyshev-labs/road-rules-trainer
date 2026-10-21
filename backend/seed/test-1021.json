@@ -31,7 +31,8 @@
       "image_url": "b3fffd1a-85bb-4047-ae7c-814f89a60a0fM.jpg",
       "number": "1.",
       "question": "Cuando se circula por una vía donde solo hay peatones, ¿debe advertir la maniobra de girar a la derecha?\nWhen travelling on a road where there are only pedestrians, should you indicate a right turn?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "5d906ad0de35a6b2fd8bb9a6"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "bba276b1-0913-44a3-ac12-d99fa8080160M.jpg",
       "number": "2.",
       "question": "Al realizar la maniobra de parada, ¿debe señalizarlo de alguna manera?\nWhen stopping, do you have to indicate this in any way?",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "372e521273b4a7a561db2166"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "6e95e0bb-7f66-434d-8f34-ad633b8a7f42M.jpg",
       "number": "3.",
       "question": "Si un vehículo tiene el intermitente derecho encendido, pero su conductor le señaliza claramente con el brazo que va a girar a la izquierda, ¿qué señal tendrá en cuenta?\nIf a vehicle has the right indicator on but the driver clearly indicates with their arm that they are going to turn left, which sign should you follow?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "19870aa3284d1ed754483cd7"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "854969ef-579b-4f65-af1c-b3e86bb7f200M.jpg",
       "number": "4.",
       "question": "El vehículo detenido en el semáforo pretende girar a la izquierda, ¿debe mantener encendido el indicador de dirección?\nThe vehicle stopped at the traffic light intends to turn left, should their indicator be switched on?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "fcf83b52329489a0a00d24f6"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "8ba01014-ac1b-424e-a972-a94039945083M.jpg",
       "number": "5.",
       "question": "El conductor de una motocicleta que va a girar a la izquierda, ¿cómo señalizará la maniobra?\nHow does a motorcyclist turning left signal the manoeuvre?",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "868789c8180d8db4f0b0db92"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "dd2cff13-b4ce-43fc-9272-73dfb4bbdc8eM.jpg",
       "number": "6.",
       "question": "¿Cuándo debe apagar el indicador de dirección un vehículo que se desplaza lateralmente para adelantar?\nWhen should you turn off your indicator when manoeuvring to overtake?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "c6604986dfb25e0ac536b551"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "72cef70d-923e-4589-a637-203418c08350M.jpg",
       "number": "7.",
       "question": "El conductor de un vehículo extiende el brazo horizontalmente con la palma de la mano hacia atrás, ¿qué indica?\nThe driver of a vehicle extends their arm horizontally with their palm facing backwards. What does this indicate?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "869c81a4d54fb931b6773741"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "cde360e9-c532-4b61-9b1c-9dda3b67fa07M.jpg",
       "number": "8.",
       "question": "¿Qué está indicando este conductor?\nWhat is this driver indicating?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "374e3ec642ef3c8b2e771347"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "ba207188-4a7c-490f-8b3b-9fd2c5286fa6M.jpg",
       "number": "9.",
       "question": "Un conductor que señaliza un cambio de carril, ¿tiene preferencia sobre los conductores de los vehículos que circulan por el carril al que se pretende desplazar?\nIf a driver is indicating a lane change, do they have priority over vehicles already travelling in that lane?",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "7b73494b377ce18398381f8a"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "8118adf3-626e-4bd8-bca4-1b7de969e80aM.jpg",
       "number": "10.",
       "question": "¿Cómo debe incorporarse a la vía el vehículo que sale del camino sin pavimentar?\nHow must the vehicle that is leaving the unpaved road merge into the road?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "12718c7190d9da203301601d"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "64e9771f-22ad-48ba-9819-e4811ecc3f75M.jpg",
       "number": "11.",
       "question": "El turismo amarillo sale de una gasolinera para incorporarse a la circulación, en caso necesario, ¿cuándo tiene que ceder el paso?\nThe yellow car is leaving a petrol station to join the traffic. When does it have to give way, if necessary?",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "539776aabead345a38edad02"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "d4497196-b04a-437d-85c5-a4104a6b6091M.jpg",
       "number": "12.",
       "question": "El vehículo rojo se quiere incorporar a la circulación proveniente del garaje particular de una vivienda, ¿debe cederle el paso?\nThe red vehicle intends to join traffic from a home's private garage, do you need to give way?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "f5f86419cc9ce9b3b949b7aa"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "539ebf76-92f0-4646-8b7c-18874eae3f8dM.jpg",
       "number": "13.",
       "question": "Al incorporarse a la autopista por el carril de aceleración, debe...\nWhen a driver merges into traffic on a motorway from the acceleration lane, he must...",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "efdba6aeb57c4adde194ab13"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "244ab13d-77d8-4e28-8d13-2d9381ba39c6M.jpg",
       "number": "14.",
       "question": "Cuando un autobús pretende incorporarse desde una parada señalizada, ¿qué deben hacer los demás conductores?\nWhen a bus intends to pull away from a signalled stop, what should other drivers do?",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "7c53ea640a8e8b3944d0b875"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "9a537daf-230c-489c-b458-5ea54ea2cbb3M.jpg",
       "number": "15.",
       "question": "En los cambios de carril en un mismo sentido, ¿quién tiene prioridad?\nWhen changing lanes in the same direction, who has right-of-way?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "acaa5173b41ca06c82ed995b"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "6a303989-16ef-4160-b4e8-32f7e9fba6a2M.jpg",
       "number": "16.",
       "question": "¿Está permitido adelantar en una glorieta?\nCan you overtake on a roundabout?",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "d734aeb60fa9de04c8c26ac2"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "3f9f5365-55ba-4b78-b3aa-dabdd06585f6M.jpg",
       "number": "17.",
       "question": "Este vehículo va a girar a la izquierda, ¿está permitido adelantarle por la derecha?\nThis vehicle is going to turn left, is it permitted to overtake it on the right?",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "570cd6c88fb7d0171af7173d"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "e187f78c-c69a-4805-8f3f-2af76377a58eM.jpg",
       "number": "18.",
       "question": "Como norma general, ¿se puede adelantar por la derecha en una autopista?\nAs a general rule, can you overtake on the right on a motorway?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "adc2db0272d69229a1783e19"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "7116d4bf-358f-4172-851b-542da49e780eM.jpg",
       "number": "19.",
       "question": "En esta vía urbana, ¿está permitido adelantar por la derecha?\nOn this urban road, are you permitted to overtake from the right?",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "e3c455b1204a2d67346435c2"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "e11eedce-ad2d-496e-8b0b-e491a7c450f4M.jpg",
       "number": "20.",
       "question": "En esta vía de doble sentido de circulación, ¿por dónde adelantará al tranvía?\nOn this stretch of two way road, how will you overtake the tram?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "cdddd4cb22d7a6be37d92e81"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "be8bfdde-27ed-49c5-b1f9-91aed552a385M.jpg",
       "number": "21.",
       "question": "A la vista de la fotografía, ¿se considera adelantamiento el hecho de que los vehículos de un carril circulen más rápidamente que los de otro?\nBased on the photograph, it is considered overtaking if the vehicles in one lane are moving more quickly than the others?",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "9fff62527895d2064821fa12"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "fbfa9185-beb0-484f-9dcf-bf77ae354533M.jpg",
       "number": "22.",
       "question": "El adelantamiento se efectuará por la derecha y adoptando las máximas precauciones...\nYou can overtake on the right, with the utmost vigilance...",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "4c0ea7e65931b83cc632b031"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "336e3ac9-ee38-4af6-86f7-973cfed82336M.jpg",
       "number": "23.",
       "question": "Si circula en esta vía con tráfico denso, no puede cambiar de carril para...\nIf you are driving on this road with dense traffic, you are not permitted to change lanes to…",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "7993d8edc750e2720d719dcd"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "0d5f6a84-162d-45cf-96b7-5fc4c05d6f8fM.jpg",
       "number": "24.",
       "question": "Después de adelantar al camión y al turismo, el turismo rojo desea seguir adelantando a otros vehículos. ¿Debe regresar antes al carril derecho?\nAfter overtaking the lorry and the car, the red car wants to continue overtaking other vehicles. Should it return to the right lane first?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "cfbdd2fdce42ad671c430f95"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "7b8bd06b-a841-4fd2-9df7-5c2c6302b2c4M.jpg",
       "number": "25.",
       "question": "El camión que circula delante lo hace muy lentamente obstaculizando la circulación, ¿se le puede adelantar?\nThe lorry ahead is driving very slowly and obstructing traffic. Can you overtake it?",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "3939203065b7acbed04c286d"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "539ebf76-92f0-4646-8b7c-18874eae3f8dM.jpg",
       "number": "26.",
       "question": "En una autopista, ¿se puede circular por el carril de aceleración a mayor velocidad que los vehículos que circulan por el carril normal?\nOn an autopista, can you drive on the acceleration lane at a faster speed than vehicles that are driving on the normal lane?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "979a32abf33528be10163c35"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "43ff0fe8-59ac-4fc2-8e7b-ca2cb6b98399M.jpg",
       "number": "27.",
       "question": "El conductor del vehículo blanco quiere adelantar, pero el conductor del azul ya ha encendido el intermitente izquierdo. Si después de un tiempo prudencial no adelanta, ¿puede el conductor del vehículo blanco iniciar el adelantamiento?\nThe driver of the white vehicle wants to overtake, but the driver of the blue vehicle has already switched on the left indicator. If they do not start to overtake after a reasonable amount of time, can the driver of the white vehicle overtake?",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "8cc0c581c05d1ef2c7dfebbe"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "629947f3-69df-445b-b441-4e554923eef7M.jpg",
       "number": "28.",
       "question": "El vehículo gris al que pretende adelantar señaliza su propósito de desplazarse para adelantar, ¿puede adelantarle?\nThe grey vehicle you want to overtake is signalling its aim to overtake. Can you overtake it?",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "6484d570484e95229c1dc6c2"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "22e8ad8f-7e3b-43d8-a897-15c8b43b4299M.jpg",
       "number": "29.",
       "question": "No deberá iniciar un adelantamiento sin comprobar previamente que...\nYou must not start to overtake without first checking that...",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "48bf23a3c281d293031fb52c"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "e82f67b4-c72d-4fc4-9d56-7c7e24a4aee3M.jpg",
       "number": "30.",
       "question": "Al adelantar a un peatón, es obligatorio dejar una separación lateral mínima de 1,50 metros cuando circule...\nWhen you overtake a pedestrian, it is mandatory to leave a minimum lateral separation of 1.50 metres when you are driving...",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "b65654c8cd3538c3b7138a4c"
     }
   ]
 }

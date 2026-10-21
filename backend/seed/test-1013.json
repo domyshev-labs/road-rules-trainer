@@ -31,7 +31,8 @@
       "image_url": "85e4b159-f9e7-47b2-b164-f8ecfb1d69c3M.jpg",
       "number": "1.",
       "question": "En esta vía deben obedecer las indicaciones del semáforo situado a la izquierda los vehículos que pretendan...\nOn this road, the traffic light to the left must be obeyed by vehicles intending...",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "624634b04d3eeec59fdd5a7d"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "1f2e4e85-4d46-4717-bf33-87780e3d3c42M.jpg",
       "number": "2.",
       "question": "Cuando el semáforo se ponga verde, ¿qué debe hacer?\nWhen the traffic light turns green, what should you do?",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "db2789ab905f245c22842ed5"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "9352bacb-a9d7-4b8f-aba0-a46aeffdce0fM.jpg",
       "number": "3.",
       "question": "El agente de la imagen balancea una luz roja, ¿a quién ordena detenerse?\nThe officer in the image is waving a red light. Who is he telling to stop?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "e973962db8dc5d7c2f4dc4ee"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "d3ce60ec-d37b-407b-9861-3b5870386dc2M.jpg",
       "number": "4.",
       "question": "¿Qué indica este agente?\nWhat is this agent signalling?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "7c8e5425c3036bf5f0abef77"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "6ce47ca1-7dc9-47d5-8f62-bbea9d6a1a2fM.jpg",
       "number": "5.",
       "question": "Un agente, con toques de silbato cortos y frecuentes, ordena...\nAn agent, with short and frequent whistle blows, is ordering...",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "dd5b722faecb33f7fd220249"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "f9c904c6-b269-4688-ad61-b3a7c14c2541M.jpg",
       "number": "6.",
       "question": "Desde un vehículo policial un agente hace señales al vehículo que circula delante para que se detenga, ¿qué debe hacer su conductor?\nFrom a police vehicle, a police officer makes signals to the vehicle that is driving in front for it to stop. What must the driver do?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "7ac12b512bcad6fa1e736178"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "6d065a7f-e9fb-4d68-9cbb-468bed346db7M.jpg",
       "number": "7.",
       "question": "¿Qué indica este agente de tráfico?\nWhat is this traffic officer signalling?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "022ec14738a2c6f759bb5332"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "fb74b061-8c7f-44fa-9ac9-bece071e7434M.jpg",
       "number": "8.",
       "question": "Los conos de la imagen son elementos...\nThe cones in the image are elements...",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "4cf224f9ab8a271be5bdcf10"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "0b0bd207-fb06-46f0-bdcb-3e349e7a14aaM.jpg",
       "number": "9.",
       "question": "Los paneles direccionales permanentes indican...\nPermanent directional panels indicate...",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "62b26c21a0e0423970ea9cc1"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "41b16bf7-ad44-47b7-9ea3-bba668c0d325M.jpg",
       "number": "10.",
       "question": "Una luz roja intermitente o dos luces rojas alternativamente intermitentes de un semáforo...\nA flashing red light or two red lights flashing in alternation at a traffic light...",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "2b32fff7867654a27d1643b5"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "c686c108-d100-4aa3-810e-54de35f97596M.jpg",
       "number": "11.",
       "question": "El vehículo de la imagen quiere cambiar de dirección a la derecha. ¿Está obligado a detenerse?\nThe vehicle in the image wants to turn right. Do they need to stop?",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "0848fa708428c236a8198731"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "64369a4f-3b3b-47fd-8580-b11f797a8cbdM.jpg",
       "number": "12.",
       "question": "En esta intersección con un semáforo en amarillo intermitente, ¿qué debe hacer?\nWhat should you do at this intersection where there is a flashing yellow light?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "8045c76c41b33d3ef39f197d"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "7082e0b2-98ef-4f55-b9c5-56435f1c1e09M.jpg",
       "number": "13.",
       "question": "En el semáforo se enciende la luz amarilla no intermitente, ¿qué debe hacer?\nThere is a non-flashing amber traffic light. What should you do?",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "d1d8498b71415fcdd96595ea"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "96f55344-7d8e-4854-9a27-28407670e286M.jpg",
       "number": "14.",
       "question": "La luz verde en forma de flecha del semáforo significa que los vehículos pueden pasar en...\nThe green light in an arrow shape on a traffic light means that vehicles can proceed...",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "f5de4629e05cebea7a1ff775"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "b936b8d6-4fcc-4977-8559-7984087a3542M.jpg",
       "number": "15.",
       "question": "El conductor de este turismo pretende seguir recto pero los vehículos situados detrás de él quieren girar a la derecha, ¿qué debe hacer?\nThe driver of this car wants to continue straight, but the vehicles behind want to turn right. What should they do?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "3a0ae37851af75975db4e72e"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "afa7fc58-8cb3-42fb-aa03-a6f424d2ebc1M.jpg",
       "number": "16.",
       "question": "Un semáforo con una flecha negra sobre una luz roja fija...\nA traffic light with a black arrow on a fixed red light...",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "8bb6e5654ae4ed75523706bc"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "630e61f5-c627-4ee2-a940-e2b9adb74178M.jpg",
       "number": "17.",
       "question": "La luz verde de un semáforo circular para vehículos indica que...\nThe green light on a circular traffic light for vehicles indicates that...",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "98dc7cee1b926b1a40569ec6"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "99a677ae-6fa8-4199-9f47-b6cc7e966294M.jpg",
       "number": "18.",
       "question": "Un semáforo de carril con una luz roja en forma de aspa, ¿qué indica?\nWhat does a red traffic light in a cross shape mean?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "02227bb3966f14584c463425"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "d75063fb-358f-4fde-9566-e901dad4679dM.jpg",
       "number": "19.",
       "question": "Si sobre su carril hay un semáforo cuadrado con una flecha verde, ¿debe obedecer una señal de stop o de ceda el paso?\nIf there is a square traffic light over your lane with a green arrow, should you obey a stop sign or give way sign?",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "d4945bd71bff5e617b34176f"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "6853be19-d556-4587-afc2-a81cb15593d3M.jpg",
       "number": "20.",
       "question": "¿Qué usuarios de la vía deben obedecer este semáforo?\nWhich road users should obey this traffic light?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "ad23eca5f872c8359fb7148f"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "9e546dd9-f38a-45ba-95a9-50df78ad62e8M.jpg",
       "number": "21.",
       "question": "Esta señal, ¿qué indica?\nWhat does this sign mean?",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "1a0de65e7e141d90db534579"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "363c3a59-36d7-4e7e-9300-da054724f8e1M.jpg",
       "number": "22.",
       "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "8cccf5c5a5ca78387815df72"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "88694a8d-f7b5-45ab-8370-1aa4996288abM.jpg",
       "number": "23.",
       "question": "Esta señal anuncia la proximidad de...\nThis sign announces that you are approaching...",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "67ce3de63ca60f803547e22f"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "6af4ac65-1d54-451e-8008-b5753df7a018M.jpg",
       "number": "24.",
       "question": "¿Qué indica la señal?\nWhat does this sign indicate?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "9fe592ae28213867a2fea5bd"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "33078e6d-fa95-4f39-811f-042655efc6d4M.jpg",
       "number": "25.",
       "question": "Esta señal advierte de la proximidad de...\nThis sign warns of the approach of...",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "d5dd491c32b5d8093b9abc03"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "52097e7a-0b0c-481d-9e90-8789a8123951M.jpg",
       "number": "26.",
       "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "d4f04f163d9f86555efc92de"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "f3387ed1-c953-4218-b371-289fe7ea9faeM.jpg",
       "number": "27.",
       "question": "¿Qué indica la señal?\nWhat does this sign indicate?",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "0be98ae71468170f9a8702e0"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "5915abfc-18c4-4d8d-93ca-ed941edbca94M.jpg",
       "number": "28.",
       "question": "La señal indica, peligro debido a que la vía desemboca en...\nThe sign indicates danger as the road leads to...",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "230ebf06470cad69563a36f0"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "266e0b96-dcfc-4bb9-bde5-a3372d261562M.jpg",
       "number": "29.",
       "question": "¿De qué peligro nos advierte esta señal?\nWhat hazard is this sign indicating?",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "801361402ed7a5b823e89054"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "84e6e2ec-f4b9-4960-893f-7dc5f8a89944M.jpg",
       "number": "30.",
       "question": "Esta señalización prohíbe estacionar...\nThis sign prohibits parking...",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "7d0aec8992975f73643806f2"
     }
   ]
 }

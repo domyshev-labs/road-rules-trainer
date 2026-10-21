@@ -31,7 +31,8 @@
       "image_url": "be2e6d20-9d10-49c3-a7fe-f4889e6d6b4eM.jpg",
       "number": "1.",
       "question": "Circulando con la calzada nevada las pendientes se deben subir...\nWhen driving on a snow-covered road, you should drive up gradients…",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "be744fcd6681b25c135e89ba"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "01eaba47-afca-461f-9d59-48efa42959cdM.jpg",
       "number": "2.",
       "question": "Con nieve en la calzada, ¿cómo se debe iniciar la marcha?\nWith snow on the road, how should you start the vehicle?",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "3a7356e4b2b8077971a79a8e"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "24d3717a-0651-43e1-b580-f9954adaf789M.jpg",
       "number": "3.",
       "question": "¿Cómo debe conducir con nieve?\nHow should you drive in snow?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "26794bbf2be0124a30e133a5"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "5645af68-ec32-4255-a979-3bd93a216b6eM.jpg",
       "number": "4.",
       "question": "Cuando nieva, ¿es recomendable circular sobre las marcas de otros vehículos?\nIs it recommended to drive on the tracks made by other vehicles when it is snowing?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "4050460f5580332eee2f0209"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "8e2f23e3-b444-48a5-a709-1b71103226ffM.jpg",
       "number": "5.",
       "question": "Cuando nieva, ¿es recomendable usar gafas de sol?\nWhen it snows, is it advisable to wear sunglasses?",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "90f81f8d963aebad13b92562"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "5fd8f84e-54c2-4606-8736-31d51044f466M.jpg",
       "number": "6.",
       "question": "Para conducir con hielo en la calzada de una forma preventiva debe...\nTo avoid accidents when driving on icy roads, you must...",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "3a957f669936a0e4c58e2bb2"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "5b0d97f4-089c-4805-8259-a14e6bbc3f4dM.jpg",
       "number": "7.",
       "question": "Hay hielo en la calzada. ¿Qué debe hacer?\nThere is ice on the road. What should you do?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "2cea2d77878788685832654f"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "def57902-3c57-407b-a62d-8fceb31bb5afM.jpg",
       "number": "8.",
       "question": "Cuando la calzada está helada...\nWhen the road is icy...",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "c1da549f05aaf9b71c9535cc"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "d7498ddb-5105-4e86-9115-dfebb5adb361M.jpg",
       "number": "9.",
       "question": "En una zona de calzada helada...\nIn an area of icy road...",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "260454b88dd9503caf9cca82"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "074c66bb-3062-4ca8-b7a2-6f897eebc820M.jpg",
       "number": "10.",
       "question": "Hay nieve y solo tiene cadenas para dos ruedas. ¿Dónde debe ponerlas?\nThere is snow and you only have chains for two wheels. Where should you put them?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "e48976167ab5f9f57bfda041"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "5ba5b330-8ef9-46f5-8d80-3d0d316fe1f3M.jpg",
       "number": "11.",
       "question": "Hay nieve en la calzada, ¿cuándo es obligatorio usar cadenas?\nThere is snow on the road, when is it compulsory to use chains?",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "3a151bee6ad61519f5499151"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "d4cbf3db-fbf2-4738-8fb4-cf222400fd70M.jpg",
       "number": "12.",
       "question": "Hay niebla y lleva la luz antiniebla delantera encendida. ¿Está permitido encender la luz larga?\nIt is foggy and you have your front fog light on. Are you permitted to turn on the full beam?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "1a89776e06d7c40a814e9c8a"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "be97fe79-412a-4822-9573-3821cdcb34b7M.jpg",
       "number": "13.",
       "question": "Circulando con niebla es aconsejable...\nWhen driving in fog, it is advisable to…",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "758b4b65190a9e0b8b7e0118"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "38fc43dd-da0e-417e-a295-4c281b554d6aM.jpg",
       "number": "14.",
       "question": "¿Se debe aumentar la distancia de seguridad cuando exista niebla?\nShould you increase safety distance when there is fog?",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "0e4522b86d8f3ed7b7dbf36b"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "b322031f-8637-49e8-869f-3d9f50f4eeecM.jpg",
       "number": "15.",
       "question": "En caso de niebla espesa, ¿qué alumbrado es obligatorio para circular con su turismo?\nIn the event of heavy fog, which lighting is compulsory for driving a passenger car?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "71e789a75792f929374d7db4"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "1c5a53a5-aaaa-4964-81b6-0be49fe5d9a9M.jpg",
       "number": "16.",
       "question": "¿Qué vehículos son los más afectados por el viento lateral?\nWhat vehicles are most affected by side wind?",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "6211ed04de5d631a9f79d1d8"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "31920e6f-f1bc-4b26-8285-501952b48d6eM.jpg",
       "number": "17.",
       "question": "Conduciendo una motocicleta, ¿cuándo es especialmente peligroso el viento?\nWhen is wind particularly dangerous, when riding a motorbike?",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "f8e1419ad1a7bad06d3f0b31"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "1559018b-ad3f-473d-9384-f7b3f1116a2dM.jpg",
       "number": "18.",
       "question": "Cuando llueve o hay viento, ¿por qué hay que tener más precaución con los ciclistas?\nWhen it rains or there is wind, why do you need to take more care with cyclists?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "2af512e76700db5dca69f053"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "16b108f8-0af2-40f9-9f85-892fc0319bebM.jpg",
       "number": "19.",
       "question": "El viento por la derecha en los adelantamientos a vehículos grandes, ¿por qué es peligroso?\nWhy is a wind coming from the right dangerous when you are overtaking large vehicles?",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "a893cc6e41920e82a9d2b4fc"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "8a188135-d870-4fae-9705-d98539933c60M.jpg",
       "number": "20.",
       "question": "Bajo los efectos del calor es posible que...\nUnder the effects of heat, it is possible that...",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "a7cef3418581fa0f65cbaa8d"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "be875eae-e4a9-4c84-8bfb-5b7a61242754M.jpg",
       "number": "21.",
       "question": "Sopla viento lateral. ¿Qué debe hacer?\nThere is a side wind. What should you do?",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "1f8a09aac23c67ac7b2a4a6f"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "c8f299d8-c30b-4b9d-a222-cc170b4a7b9fM.jpg",
       "number": "22.",
       "question": "Si sopla un fuerte viento lateral de la izquierda, los conductores de turismos deberán...\nIf a strong side wind is blowing from the left, drivers of passenger cars must…",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "90817a06922e3881629f16a1"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "e8dba0ef-6418-465d-be38-27cfa6c9e461M.jpg",
       "number": "23.",
       "question": "Debido a que los vehículos voluminosos actúan como pantalla frente al aire, con viento lateral, puede resultar especialmente peligroso adelantarles sobre todo en…\nDue to the fact that large vehicles act as a screen against the air, during side winds, it can be particularly dangerous to overtake them, especially in...",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "d727877bd2b30b943672da9b"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "26ae3402-7bc0-48f8-bf4d-f8eac9508071M.jpg",
       "number": "24.",
       "question": "En un día de calor, tanto si se utiliza en el vehículo aire acondicionado como climatizador, ¿qué temperatura interior es la más adecuada?\nOn a hot day, whether using air conditioning or climate control in the vehicle, what interior temperature is the most suitable?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "00488f6b28839a5a03b8bfdc"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "285d787e-3cff-43bf-b0e6-292ae06f7043M.jpg",
       "number": "25.",
       "question": "Si la temperatura en el interior del vehículo es muy alta, ¿puede influir en el tiempo de reacción del conductor?\nIf the temperature on the inside of a vehicle is very high, could this have an effect on the driver’s reaction time?",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "6122ec205ad44f2bb7156875"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "29622d6f-1c7e-4245-a5ff-70e763bea214M.jpg",
       "number": "26.",
       "question": "Circular con calor, ¿puede favorecer la aparición del sueño?\nCan driving in heat contribute to the onset of sleepiness?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "fb5c9c3ae8f7a8825f5dec05"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "9c0cc5f7-2d86-4163-8051-7a9c638c4f45M.jpg",
       "number": "27.",
       "question": "El calor al volante...\nHeat at the wheel...",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "7892bd01ef332f6809ee3524"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "260d72cc-080e-4645-89c7-a3b611e69602M.jpg",
       "number": "28.",
       "question": "Las altas temperaturas pueden suponer un riesgo para la seguridad durante la conducción, ¿debe circular adoptando medidas preventivas?\nHigh temperatures can pose a safety risk during driving, should you drive taking preventive measures?",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "ce300a644473da0bffafdda4"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "4c98bd31-439a-4a18-86a3-8f67cbbfe44aM.jpg",
       "number": "29.",
       "question": "Los motociclistas, ¿es aconsejable que utilicen gafas de sol?\nShould motorcyclists wear sunglasses?",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "d5cfd9d63123188f5dc72a57"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "4b3a78bb-c55a-4c7d-ab78-376b738982acM.jpg",
       "number": "30.",
       "question": "Los reflejos del sol directo sobre el conductor, ¿pueden tener un efecto negativo en la conducción?\nCan direct sunlight reflecting on the driver have a negative effect on driving?",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "f9398027f665e6480eb6ac64"
     }
   ]
 }

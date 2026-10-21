@@ -31,7 +31,8 @@
       "image_url": "eefad204-c2a6-49c2-b59d-0b9963420ce0M.jpg",
       "number": "1.",
       "question": "Un mantenimiento adecuado del vehículo...\nCorrect maintenance of the vehicle...",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "6bb6fea296e62e7d1716c8d0"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "38f2bf19-eb8b-4ef8-ae04-9457f3e80a7fM.jpg",
       "number": "2.",
       "question": "Un vehículo que dispone de la última tecnología, ¿puede sufrir un accidente?\nCan a vehicle equipped with the latest technology encounter an accident?",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "2127b7e9ac5b3ce5b02c4407"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "1c297f39-a825-4d71-ac91-23e943ccdaf1M.jpg",
       "number": "3.",
       "question": "El reposacabezas es un elemento de...\nThe headrest is a...",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "530998f2f896df2f10dd4411"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "5230c6e8-3556-4b47-aca0-ac5b22ab8fefM.jpg",
       "number": "4.",
       "question": "El casco, ¿se puede incluir entre los elementos de seguridad?\nIs a helmet part of a safety system?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "6befbc8d0f4ba70c61533297"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "7c238d58-4e6c-4b69-80ad-1caaf4eac765M.jpg",
       "number": "5.",
       "question": "Los frenos, ¿son un dispositivo de seguridad activa?\nAre brakes an active safety device?",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "d6aa074fd6ac3a446a0045e5"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "02034b96-102e-4847-9ac9-5aac895c3873M.jpg",
       "number": "6.",
       "question": "El alumbrado, ¿se considera un sistema de seguridad del vehículo?\nIs lighting considered a vehicle safety system?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "c1a5e398d28f1500bac1b0a2"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "64b1e70a-ed39-4f6b-8597-613eb5d9122aM.jpg",
       "number": "7.",
       "question": "Cuando la luz que proyecta el sistema de alumbrado de un vehículo es demasiado baja, ¿qué puede ocurrir?\nWhen the light projected by the vehicle's lighting system is too low, what can happen?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "d82ba2a890f3680d0bb3ff49"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "cec3bab7-1663-4d6c-bd6a-8a6356db30b4M.jpg",
       "number": "8.",
       "question": "¿Cómo gestiona el sistema de activación automática de alumbrado el encendido y apagado de las luces del vehículo?\nHow does the automatic lighting system turn on and switch off the vehicle's lights?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "28f93edadf108a12cf27e456"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "501605c7-39fd-4936-8598-dd369710d8b3M.jpg",
       "number": "9.",
       "question": "Cuando se realiza un giro, las luces angulares se encienden o giran iluminando...\nWhen taking a bend, corner lamps light up or turn illuminating...",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "97658398a945dc19b428da86"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "090864d7-25ef-4001-a65c-2475d4369497M.jpg",
       "number": "10.",
       "question": "¿Puede emplear en su vehículo luces adaptativas?\nAre you permitted to use cornering lights in your vehicle?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "7a05522eaded61fd5de0dc4b"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "dcb30f7a-8256-485b-b384-cff4cb87af01M.jpg",
       "number": "11.",
       "question": "Las luces adaptativas...\nAdaptive headlights...",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "7fe05fdd62a62817a56fdcb8"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "8656cb85-4e01-4e10-97d6-ef6f7f4067e5M.jpg",
       "number": "12.",
       "question": "En una pendiente descendente prolongada, ¿cómo es recomendable conducir?\nHow should you drive on a long downward slope?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "73817a234276ddb18fba1055"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "cbbe555d-e322-4dc0-9684-1f7ea6bfb060M.jpg",
       "number": "13.",
       "question": "La eficacia del frenado aumenta, entre otras circunstancias, cuando...\nBraking efficiency increases, among other circumstances, when...",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "156729dc6d483b2166ef3381"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "9b4d9bd2-93f4-40ae-9810-e15a9bf150d6M.jpg",
       "number": "14.",
       "question": "El sistema antibloqueo de frenos ABS...\nThe ABS anti-lock braking system...",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "085134213af61ed20b3a0ec8"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "edb04113-9a3a-4912-8eb6-79010f7cb11dM.jpg",
       "number": "15.",
       "question": "Cuando el sistema de frenado autónomo de emergencia (AEB) detecta peligro de colisión, ¿cómo actúa?\nWhen the autonomous emergency braking system (AEB) detects an imminent collision, what does it do?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "192433646361a7101028c641"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "88795dec-2e00-42c6-ae0e-06a348f1a476M.jpg",
       "number": "16.",
       "question": "El sistema de frenado autónomo de emergencia (AEB) es capaz de detectar un peligro inminente de colisión...\nThe autonomous emergency braking system (AEB) is capable of detecting an imminent collision which is...",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "9a7e6e77027ac6d7638d642a"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "3a7fb45d-0532-4c25-ab04-ec93c7f37f27M.jpg",
       "number": "17.",
       "question": "En una frenada de emergencia con ABS, si el pedal de freno vibra debe...\nWhen you perform an emergency brake with ABS, if the brake pedal vibrates, you must...",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "68da36c4100b5f3c30eb73f8"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "c2bc0295-7d72-4c59-a07f-7fe5443bf36cM.jpg",
       "number": "18.",
       "question": "En caso de emergencia, ¿es conveniente pisar el pedal de freno a fondo y mantener la máxima presión hasta el final?\nIn the event of an emergency, is it advisable to press the brake pedal fully and maintain maximum pressure to the end?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "6f55e431c15b73c6037da6ed"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "f5412af8-59fa-4340-99b8-ab573f7fccacM.jpg",
       "number": "19.",
       "question": "Si lleva a un pasajero en la motocicleta, al frenar…\nIf you take a pillion passenger on a motorcycle, when you brake...",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "3bfcdbdc4390e20830d90e7d"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "0eec9ab1-d23e-460a-80a2-68c862a2fdbeM.jpg",
       "number": "20.",
       "question": "Mientras circula se produce un fallo en el sistema de frenado, ¿qué debe hacer?\nWhile driving, there is a failure in the braking system, what should you do?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "bc72e26ef2e7140fe85e1939"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "b4f20f7e-ee3c-403e-8ca3-a6ab05577207M.jpg",
       "number": "21.",
       "question": "El aviso de frenada de emergencia o EBD consiste en que cuando el conductor pisa el pedal del freno de manera potente y rápida...\nThe emergency braking display or EBD consists of the driver pressing the brake pedal firmly and quickly and...",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "da729bdf7f4e1a9e7f36904f"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "b0b3c259-d698-4d35-a7d3-fa641208f905M.jpg",
       "number": "22.",
       "question": "¿Qué elementos del vehículo requieren una mayor supervisión por parte del conductor?\nWhat elements of the vehicle require greater supervision from the driver?",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "e26601802a96ebcefb920215"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "6da9456b-e175-4bff-ba79-2aea340e2acaM.jpg",
       "number": "23.",
       "question": "¿Está permitido montar neumáticos con índice de carga o un código de velocidad distinto al que recomienda el fabricante?\nIs it permitted to install tyres with a load or speed rating different to that recommended by the manufacturer?",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "a114e17e966c4f5edd898524"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "12a4ba3f-6be7-43ab-b484-e1cfb474c702M.jpg",
       "number": "24.",
       "question": "¿Qué indica la palabra \"tubeless\" escrita en el lateral del neumático?\nWhat does the word 'tubeless' on the side of a tyre indicate?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "42c5c531e5ab5d1c16ce7b4e"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "a5b0a6e6-8c24-484e-8e0d-78a8c146b8c8M.jpg",
       "number": "25.",
       "question": "Cuando la presión de inflado de los neumáticos es inferior a la recomendada...\nIf the tyres are below the recommended inflation pressure....",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "5fd08436d9e941842900696a"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "cbeff68b-7bf4-4740-b54f-1c35f96c5266M.jpg",
       "number": "26.",
       "question": "Cuando un neumático tiene mucho aire, ¿qué ocurre?\nWhen a tyre is overinflated, what happens?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "6290e9e63fff3ec66b671b52"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "fb0b392f-51a0-44e9-a06a-71bada473947M.jpg",
       "number": "27.",
       "question": "La profundidad mínima de las ranuras principales de la banda de rodamiento de los neumáticos de un turismo debe ser de…\nThe minimum depth of tyres permitted on a passenger car is ...",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "2a223a9f2f0d54de099dfe79"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "67d9d910-bbe1-4493-a95b-2063cf3458cfM.jpg",
       "number": "28.",
       "question": "Los surcos que hay en la banda de rodadura de los neumáticos del vehículo deben garantizar un buen drenaje del agua hacia...\nThe grooves in the tread of the vehicle's tyres must ensure good water drainage towards...",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "851eda1b148419c743b10035"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "82c699ab-f228-4df7-ba6b-7ac560f55d24M.jpg",
       "number": "29.",
       "question": "¿Cuál es la profundidad mínima en las ranuras principales de la banda de rodamiento de una motocicleta?\nWhat is the minimum tread depth of a motorcycle?",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "841e818eb7eae25dddebbefa"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "fc4627a5-80d5-4945-a205-20d312283628M.jpg",
       "number": "30.",
       "question": "Es aconsejable cambiar los neumáticos del vehículo...\nIt is advisable to change a vehicle's tyres...",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "aa847f0a4e9428e46cbb1707"
     }
   ]
 }

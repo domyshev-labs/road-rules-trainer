@@ -1,0 +1,113 @@
+{
+  "policy": "User authorized deferring blocked questions and completing tickets with unanswered items.",
+  "questions": [
+    {
+      "ticket": 1045,
+      "ordinal": 5,
+      "proposed": "A",
+      "reason": "Awaiting user approval after automatic review could not verify curve image"
+    },
+    {
+      "ticket": 1045,
+      "ordinal": 16,
+      "proposed": "B",
+      "reason": "Awaiting user approval: auto-review could not verify conventional road image; source rule half of 90 =45"
+    },
+    {
+      "ticket": 1045,
+      "ordinal": 26,
+      "proposed": "B",
+      "reason": "Auto-review could not verify intersection image. Blue car turns right, yield sign on right; waiting for user."
+    },
+    {
+      "ticket": 1065,
+      "ordinal": 1,
+      "proposed": "C",
+      "reason": "Automatic review rejected the answer because it could not verify intersection image; proposed C based on visible green traffic light. Deferred under user instruction.",
+      "question_id": "exam:1065:01",
+      "question": "En esta intersección, ¿qué señal debe obedecer el conductor de la motocicleta?\nAt this junction, what sign should the rider of the motorcycle obey?",
+      "image": "exam-1065-q01.jpg"
+    },
+    {
+      "ticket": 1065,
+      "ordinal": 19,
+      "proposed": "C",
+      "reason": "Ambiguous source: question asks obligation to carry a reflective vest on motorcycles, while help discusses wearing one after breakdown and says obligatory equipment. Defer for separate verification rather than guess.",
+      "question_id": "exam:1065:19",
+      "question": "Los conductores de motocicletas, ¿están obligados a llevar entre su dotación un chaleco reflectante de alta visibilidad?\nAre motorcycle drivers required to carry a high-visibility reflective vest as part of their equipment?",
+      "image": "exam-1065-q19.jpg"
+    },
+    {
+      "ticket": 1065,
+      "ordinal": 23,
+      "proposed": "A",
+      "reason": "Automatic review rejected answer due to unavailable road marking image; proposed stop before stop line.",
+      "question_id": "exam:1065:23",
+      "question": "A la vista de esta señal horizontal, ¿dónde se detendrán los vehículos?\nWhen viewing this horizontal sign, where will vehicles stop?",
+      "image": "exam-1065-q23.jpg"
+    },
+    {
+      "ticket": 1065,
+      "ordinal": 24,
+      "proposed": "C",
+      "reason": "Automatic review could not verify intersection vehicle positions. Proposed yield to red approaching from the right.",
+      "question_id": "exam:1065:24",
+      "question": "¿Qué debe hacer el vehículo amarillo cuando llegue a la intersección?\nWhat should the yellow vehicle do when it reaches the junction?",
+      "image": "exam-1065-q24.jpg"
+    },
+    {
+      "ticket": 1065,
+      "ordinal": 26,
+      "proposed": "B",
+      "reason": "Automatic review could not verify motorway road type from image; proposed 120 km/h.",
+      "question_id": "exam:1065:26",
+      "question": "En esta vía, para adelantar al camión, ¿a qué velocidad puede circular como máximo el turismo?\nOn this road, what is the speed limit for a car to overtake the lorry?",
+      "image": "exam-1065-q26.jpg"
+    },
+    {
+      "ticket": 1075,
+      "ordinal": 17,
+      "proposed": "C",
+      "reason": "Source has no explanation for comparative fatal accident statistics; automatic review rejected unverified answer.",
+      "question_id": "exam:1075:17",
+      "question": "Conforme a las cifras de siniestralidad, según el medio de desplazamiento, ¿cuál de estos vehículos tiene más accidentes con víctimas mortales?\nBased on the accident figures, according to means of travel, which of these vehicles has the most accidents with fatalities?",
+      "image": "exam-1075-q17.jpg"
+    },
+    {
+      "ticket": 1075,
+      "ordinal": 25,
+      "proposed": "C",
+      "reason": "Automatic review could not verify bus-lane sign image and absence of TAXI.",
+      "question_id": "exam:1075:25",
+      "question": "En una vía en la que está colocada esta señal, ¿está permitida la circulación de taxis por el carril reservado a autobuses?\nOn a road on which this sign is placed, is taxi traffic allowed through the lane reserved for buses?",
+      "image": "exam-1075-q25.jpg"
+    },
+    {
+      "ticket": 1083,
+      "ordinal": 8,
+      "proposed": "B",
+      "reason": "Automatic review interpreted source guidance differently for incorporation without lateral movement. Defer for separate confirmation.",
+      "question_id": "exam:1083:08",
+      "question": "¿Es obligatorio señalizar una incorporación en la que no existe desplazamiento lateral?\nIs it compulsory to signal when joining if there is no side movement?",
+      "image": "exam-1083-q08.jpg"
+    },
+    {
+      "ticket": 1083,
+      "ordinal": 14,
+      "proposed": "B",
+      "reason": "Automatic review considered cyclist priority options ambiguous; proposed B, because group priority is conditional on first cyclist already crossing, not unconditional.",
+      "question_id": "exam:1083:14",
+      "question": "Los conductores de bicicletas tienen prioridad de paso respecto a los vehículos...\nCyclists have right of way over other vehicles...",
+      "image": "exam-1083-q14.jpg"
+    },
+    {
+      "ticket": 1083,
+      "ordinal": 19,
+      "proposed": "A",
+      "reason": "Automatic review could not verify second-stop vehicle position and visibility in image.",
+      "question_id": "exam:1083:19",
+      "question": "Este vehículo, que antes se había detenido ante la línea transversal, ha vuelto a detenerse, ¿ha actuado correctamente?\nThis vehicle, which had previously stopped in front of the transverse line, has stopped again. Was this correct?",
+      "image": "exam-1083-q19.jpg"
+    }
+  ]
+}

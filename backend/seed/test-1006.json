@@ -31,7 +31,8 @@
       "image_url": "deb76a47-f181-40fa-aba0-34ad1609f86eM.jpg",
       "number": "1.",
       "question": "En caso de caída de la carga en la calzada, el conductor deberá...\nIf the load falls onto the road, the driver will...",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "0a34aef20c3ba033ca3f1cde"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "6af099f6-d06a-4661-adfc-2ce897cb8cacM.jpg",
       "number": "2.",
       "question": "Los resaltos en los pasos para peatones, ¿se consideran obstáculos en la calzada?\nAre raised pedestrian crossings considered to be obstacles on the road?",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "d5ed180c13450595025393b0"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "1379c6b0-358a-410c-8006-3c6cf691642bM.jpg",
       "number": "3.",
       "question": "Está prohibido arrojar a la vía objetos...\nIt is prohibited to throw objects onto the road...",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "126ee9b6d4f66aef6444a9b0"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "54ad915c-4a9d-4be2-9160-f5aab1e472d1M.jpg",
       "number": "4.",
       "question": "Arrojar un cigarro encendido por la ventanilla de un turismo, ¿puede suponer una infracción?\nCan throwing a lit cigarette out of the window of a car be an offence?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "161752ee844bf092f07ae7e7"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "596ebb56-1a47-4071-aee0-8e995b7d7fd4M.jpg",
       "number": "5.",
       "question": "Los peatones, ¿tienen los mismos derechos que los conductores para utilizar las vías públicas?\nDo pedestrians have the same rights as drivers to use the public roads?",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "700387b32b1cd5bf7460ba3c"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "d0c7716e-fc30-4c33-866b-a6e35f623a9fM.jpg",
       "number": "6.",
       "question": "Un conductor, ¿está obligado a colaborar en las pruebas de detección de emisión de ruidos de su vehículo?\nAs the driver, are you obliged to collaborate in the noise detection tests of your vehicle?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "f57aea63827e5b06c99a9420"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "d8294326-fecc-49f7-a8d4-1fb0743fee4aM.jpg",
       "number": "7.",
       "question": "Un vehículo tiene el silenciador del escape estropeado. ¿Está permitido circular así?\nA vehicle has a broken silencer. Is it permitted to drive in this state?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "e6e506653d4ab93eeaa266d3"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "1e042387-cd80-4cfe-8bd8-4c642aec14faM.jpg",
       "number": "8.",
       "question": "¿Está permitido llevar las puertas o el maletero abiertos para aumentar la capacidad de carga?\nAre you allowed to have the car doors or the boot open to carry a larger load?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "2d770cdd2d89816c3aa1df94"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "2856f026-788a-4406-a26a-000fd1bc2df3M.jpg",
       "number": "9.",
       "question": "Al cargar combustible en el vehículo es obligatorio...\nWhen fuelling a vehicle, it is mandatory...",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "2c51c129f382388c846c0e1b"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "a6715236-9f0a-42ad-b51a-66af346c8ef3M.jpg",
       "number": "10.",
       "question": "¿Está permitido que una persona en silla de ruedas se desplace por el arcén?\nIs a person in a wheelchair allowed to travel in the road?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "10c430be5cb7745d271b676d"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "a8bc361e-4a00-47f4-b987-fe887379ec2cM.jpg",
       "number": "11.",
       "question": "Los usuarios de monopatines, patines o similares...\nUsers of skateboards, scooters, roller skates and the like…",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "dd2231cf822f5af39e37128c"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "9e732185-84f1-4cfd-9c30-7158225e62e4M.jpg",
       "number": "12.",
       "question": "Cuando no existe zona peatonal o esta no es practicable, los peatones...\nWhen there is no pedestrian area, or the pedestrian area cannot be used, pedestrians…",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "b54c9723d400fbbf73ca6811"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "bdc319b4-9447-438e-a8c2-0f0c142058a3M.jpg",
       "number": "13.",
       "question": "Si no existe paso para peatones, ¿cómo deben cruzar la calzada los peatones?\nIf there is no pedestrian crossing, how should pedestrians cross the roadway?",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "6b12c66f8515db335d103d27"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "3a175bd3-4e9b-4972-8761-205ebe2698e0M.jpg",
       "number": "14.",
       "question": "Si un peatón circula de noche por una vía interurbana, está obligado a utilizar...\nIf a pedestrian goes along an interurban road at night, they are required to use…",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "64dadc267251335deff486b0"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "923640f8-20ba-438a-b8f3-1c45ef538536M.jpg",
       "number": "15.",
       "question": "En vías fuera de poblado que no dispongan de espacio especialmente reservado para ellos, a los peatones, ¿les está permitido circular por su derecha?\nOn roads outside populated areas which do not have a space specifically reserved for them, are pedestrians permitted to walk on the right-hand side?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "2c60d867bee70fe151b19d21"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "f2a3237c-e274-440c-9708-54f1dce507d9M.jpg",
       "number": "16.",
       "question": "Los peatones, cuando circulen de noche en grupo, deben señalizar su posición...\nWhen walking as part of a group at night, pedestrians must indicate their position...",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "695764dc9dfa834f7c972952"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "e1beacaf-368a-4977-bb34-02d0edcf32e8M.jpg",
       "number": "17.",
       "question": "En vía urbana, las personas que empujen un ciclomotor por la calzada o el arcén están obligadas a circular...\nOn an urban road, people who push a moped down the road or the hard shoulder must travel...",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "5851a8d2232d50a29e89c3f4"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "16cc2588-fa94-42b8-b258-31ec1102d16aM.jpg",
       "number": "18.",
       "question": "Si tiene que empujar a pie un ciclomotor de dos ruedas por una vía interurbana sin arcén, ¿por dónde circulará?\nIf you have to push a two-wheel moped along an intercity road without a hard shoulder, where should you walk?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "dbd6bcb7bac1daccb9de5e2c"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "41073091-31f3-4459-9857-1829236b2838M.jpg",
       "number": "19.",
       "question": "En una vía interurbana que no dispone de zona peatonal, ¿por qué lado deben circular los peatones?\nOn an interurban road without an area for pedestrians, on which side should pedestrians walk?",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "41de22f4fc079bd78f3482dc"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "95ec2bf7-1f05-4ea0-bb62-9d1e78de8c5eM.jpg",
       "number": "20.",
       "question": "Si un cuadriciclo ligero tiene cinturones de seguridad, ¿es obligatorio ponerse el casco?\nIf a light quadricycle has seat belts, is it compulsory to wear a helmet?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "876368a78cf8dbc85ef314e6"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "567a3173-b28c-4088-8c0b-6c6015c05efdM.jpg",
       "number": "21.",
       "question": "El condutor de un quad-ATV, como el de la imagen, ¿debe utilizar casco?\nDoes the driver of a quad-ATV, like in the image, have to wear a helmet?",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "0637fd6127578510f4185981"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "9ed29d2e-9fde-41db-a37b-fef802f8cca9M.jpg",
       "number": "22.",
       "question": "Los peatones, ¿pueden atravesar las plazas y glorietas por su calzada?\nCan pedestrians walk over squares and roundabouts, crossing the road?",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "6261bf8dcc45e399fef75d49"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "c2bddb48-c921-4de5-8566-2bdcdef0aa68M.jpg",
       "number": "23.",
       "question": "Los ciclistas, ¿están obligados a encender el alumbrado cuando circulan de noche?\nAre cyclists obliged to turn on their lights when riding at night?",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "40bcfc79c38dea7284bf0e86"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "624da359-e065-4e75-9f02-e3b129651e7eM.jpg",
       "number": "24.",
       "question": "El ciclista, ¿puede quitarse el casco en vías interurbanas?\nCan cyclists remove their helmets on intercity roads?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "f705ab8bc16a10a757198d83"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "b6f36a83-a185-4d2b-bf4d-d8bc08e1d266M.jpg",
       "number": "25.",
       "question": "¿Por dónde deben circular los animales conducidos en manada o rebaño?\nWhere should animals led in flocks or herds be positioned?",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "180d504d59ac10b6b8c12727"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "c42efed9-d898-491c-a4d4-cbfba28aa059M.jpg",
       "number": "26.",
       "question": "Cuando no exista vía pecuaria, ¿se permite a los animales transitar por las vías públicas?\nWhere there is no livestock track, are animals allowed to go along public roads?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "f431df03672a426eedeea083"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "61586376-2862-448e-abca-bfe0a9976804M.jpg",
       "number": "27.",
       "question": "Los vehículos especiales que circulan por una vía de uso público deben utilizar la luz rotativa amarillo auto cuando circulen a una velocidad...\nSpecial vehicles driving on a public road must use their flashing yellow light when they travel at a speed...",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "f9cb86f87ee4886050b89351"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "92fc0c96-2f20-4f25-bfe6-0638195716bdM.jpg",
       "number": "28.",
       "question": "La luz rotativa que llevan los vehículos especiales, ¿les concede prioridad frente a los demás conductores?\nDoes the flashing light on special vehicles give them priority over other vehicles?",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "64bb7d2e19ef279b41320b93"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "4383f5c0-0d09-49e6-9d36-09ffa85c8347M.jpg",
       "number": "29.",
       "question": "Los vehículos destinados a obras y servicios, ¿deberán llevar algún tipo de distintivo luminoso cuando están realizando obras de reparación en una calzada y puedan suponer un peligro para los demás usuarios?\nDo vehicles used for road works and services have to display any kind of illuminated sign when they are carrying out repair work on a road and may pose a danger to other road users?",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "13eac69b307e7511207ffe93"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "72e810fa-b8a8-4956-8736-9f9d3d09a86cM.jpg",
       "number": "30.",
       "question": "En caso de avería de la luz rotativa amarillo auto que utilizan los vehículos especiales, ¿se debe utilizar algún alumbrado?\nShould any other lights be used if the automatic rotating yellow light used by special vehicles stops working?",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "0c92ff560637f4316e339074"
     }
   ]
 }

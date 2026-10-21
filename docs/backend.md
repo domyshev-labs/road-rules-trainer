@@ -73,3 +73,11 @@ main file while WAL mode is active:
 docker exec road-rules-trainer sqlite3 /app/data/road-rules.db \
   ".backup '/app/data/road-rules-backup.db'"
 ```
+
+## Shared question identity and collection memberships
+
+`question_contents` stores shared prompt and explanation content under a stable canonical ID. `question_memberships` connects existing question rows (ticket positions) to that content. The canonical ID hashes normalized bilingual prompt, source image filename and sorted answer texts, so collection IDs and shuffled answer letters do not create new content. Ticket positions and their answer-letter mappings remain separate to preserve historical attempts and source ordering. Only exact content matches are merged; answer-key conflicts must be reviewed rather than silently reconciled.
+
+The original thematic ticket IDs remain unchanged. Exam training IDs are `100000 + source ticket number`. Source question numbers and image filenames retain the original ordinal even when unconfirmed questions are excluded from training. `public/library.json` contains topic labels, canonical IDs and ticket memberships, without answer keys. Topic counts and lists deduplicate canonical IDs; collection lists preserve source memberships. Topics are labels, not generated copies of questions.
+
+Captured source records and deferred questions are kept under `materials/exam/`. Rebuild the import and navigation with `python3 scripts/import-exam-captures.py --materials <capture directory>`. The capture directory must contain `exam-*-capture.json`, corresponding JPEG images for new questions and `deferred-questions.json`. Existing imported images can be reused. Reviewed classifications are in `materials/reviewed-exam-topics.json`; other classifications are provisional and should be reviewed. `materials/taxonomy.json` defines the hierarchy independently of collection membership.

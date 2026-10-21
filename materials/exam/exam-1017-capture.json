@@ -1,0 +1,998 @@
+{
+  "source": "",
+  "collection": "Exam collection",
+  "collection_type": "exam",
+  "source_test_id": 1017,
+  "status": "captured",
+  "questions": [
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "la prohibición de adelantar.\nthe prohibition to overtake.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "todas las prohibiciones específicas indicadas por anteriores señales de prohibición para vehículos en movimiento.\nall specific restrictions indicated by previous signs for moving vehicles.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "la limitación de velocidad.\nthe speed limit.",
+          "correct": false
+        }
+      ],
+      "help": "5 Vertical Signs                                                                                           5.3 Regulation road signs   5.3.7 Signs indicating the end of a prohibition, restriction or obligationR-500 End of prohibitionsIt indicates the place where all previously signed prohibitions for vehicles in motion, lose effect.(Página 129 del manual 'Learning to drive')",
+      "image_url": "a4ee9bd1-821d-4a90-985e-0a934d6b943bM.jpg",
+      "number": "1.",
+      "question": "Esta señal indica fin de...\nThis sign indicates the end of...",
+      "question_id": "exam:1017:01",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 1,
+      "local_image": "exam-1017-q01.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, como mínimo hay que circular a 100 km/h.\nNo, you must drive at at least 100 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, ya que es la velocidad mínima permitida.\nYes, as this is the minimum speed allowed.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, como mínimo hay que circular a 60 km/h.\nNo, you must drive at at least 60 km/h.",
+          "correct": true
+        }
+      ],
+      "help": "5 Generic speed        \n     \n5.3 Minimum generic speed\nThe generic minimum speed limits, both inside and outside populated areas, are:\nOn motorways and dual carriageways: 60 km/h for all motor vehicles.\nOn the remaining roads: the minimum speed is half of the maximum generic speed for each road.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "bff4bc84-dd0e-4b07-8b65-f81a29cbc15dM.jpg",
+      "number": "2.",
+      "question": "Como norma general, en una autopista, ¿está permitido circular a 50 km/h?\nAs a general rule, on a motorway, can you drive at 50 km/h?",
+      "question_id": "exam:1017:02",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 2,
+      "local_image": "exam-1017-q02.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "numbers.speeds",
+        "documents.permissions"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "pierde 2 puntos de su permiso de conducir.\nloses 2 points on their driving licence.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "pierde entre 4 y 6 puntos de su permiso de conducir.\nloses between 4 and 6 points on their driving licence.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "solo puede ser sancionado con una multa de hasta 600 euros.\ncan only be penalised with a fine of up to 600 euros.",
+          "correct": false
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS      \n     \n16 Alcohol limits  \nDriving with a BrAC greater than 0.50 milligrams per litre (more than 0.30 milligrams per litre for professional drivers and licence holders with less than two years experience) could result in the deduction of 6 points.\nMore than 0.25 and up to 0.50 milligrams per litre of breath (greater than 0.15 and up to 0.30 milligrams per litre for professional drivers and licence holders with less than two years experience) could result in the loss of 4 points.\nDriving over the limit of 1.2 grams per litre in the blood or 0.60 milligrams per litre in a breathalyser test is an offence punishable by the Criminal Code.\n(Página 41 del manual 'Learning to drive')",
+      "image_url": "b53ec9dd-e709-4237-8aec-7058f7a1e3a8M.jpg",
+      "number": "3.",
+      "question": "Un conductor que tenga un resultado positivo en una prueba de detección de alcoholemia...\nA driver who has a positive result on a breathalyser test...",
+      "question_id": "exam:1017:03",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 3,
+      "local_image": "exam-1017-q03.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.drugs",
+        "routine.alcohol",
+        "numbers.alcohol",
+        "documents.permissions"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Solo por la calzada central.\nOnly in the central carriageway.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Solo por la calzada de la derecha.\nOnly in the right carriageway.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Por la calzada de la derecha y por la central cuando haya señales que así me lo permiten.\nIn the right carriageway and in the central one when there are signs that permit this.",
+          "correct": true
+        }
+      ],
+      "help": "2 Use of the road    \n     \n2.1 Roads with several carriageways\nWhere roads are divided into two carriageways, there is normally either a central reservation or barrier that provides a means to separate these carriageways. You must drive on the carriageway located on the right hand side. It is not permitted to drive on the opposite carriageway in a contrary direction to that permitted unless this has been specifically set up and a diversion system is in operation. Neither is it permitted to use the central reservation area to carry out a ‘U’ turn.\n(Página 161 del manual 'Learning to drive')\n\n2 Use of the road  \n   \n2.1 Roads with several carriageways\nWhere there are three carriageways, use is as follows:\nThe central carriageway is normally used by traffic travelling in opposing directions (two-way roadway) or in one direction. The direction may be permanent or temporary and therefore it is necessary to consult the road signs and signals on this type of carriageway.\nThe lateral roads will normally be destined to one way traffic, without excluding the possibility of using the same or any of their lanes for traffic moving in the opposite direction, if duly signposted.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "93da3ec5-ba8f-42b3-801c-3058e72bf8d7M.jpg",
+      "number": "4.",
+      "question": "En esta vía con tres calzadas separadas, ¿por qué calzada debe circular?\nOn this road with three separate carriageways, which one should you drive in?",
+      "question_id": "exam:1017:04",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 4,
+      "local_image": "exam-1017-q04.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "documents.permissions"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí durante un año, en la parte trasera.\nYes, for one year, on the rear of the vehicle.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, en la parte delantera, durante un año.\nYes, on the front of the vehicle, for one year.",
+          "correct": false
+        }
+      ],
+      "help": "2 Driver documentation    \n   \n2.5 Novice drivers\nA person who obtains their first driving licence (permission to drive) will be considered a novice driver during the first year of holding their licence, as long as this period is not interrupted i.e. due to suspension etc. If a licence is reissued within this year, then the period is extended to take in to account the period of suspension.\n(Página 22 del manual 'Learning to drive')\n\n2 Driver documentation    \n   \n2.5 New drivers\nA novice driver must display a green rectangular plate, with a white letter ‘L’ on it, that corresponds to the prescribed dimensions legally required.\n(Página 22 del manual 'Learning to drive')\n\n2 Driver documentation  \n \n2.5 New drivers\nThis plate must be placed at the rear, to the left of the vehicle and remain clearly visible. However, it must not hinder visibility and obscure the vehicle identification plate or any signalling device. On motorcycles and three wheeled motor vehicles, it is acceptable to place it at the rear in a visible place, not necessarily to the left.\n(Página 23 del manual 'Learning to drive')",
+      "image_url": "097580ae-f414-4717-b4bb-40cf821cb134M.jpg",
+      "number": "5.",
+      "question": "Si tiene el permiso de la clase B desde hace más de un año y ahora obtiene el de la clase A2, ¿está obligado a llevar una placa L en su motocicleta?\nIf you have had a class B licence for more than one year and now obtain the A2 licence, do you need to carry an L plate on your motorcycle?",
+      "question_id": "exam:1017:05",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 5,
+      "local_image": "exam-1017-q05.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.weather",
+        "vehicle.motorcycles",
+        "documents.permissions"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que va a circular marcha atrás.\nThat they will reverse.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Que tiene intención de inmovilizar el vehículo o de frenar su marcha de modo considerable.\nThat they intend to stop the vehicle or slow down considerably.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Que va a girar a la izquierda.\nThat they will turn left.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nThe reversing light advises and warns that the vehicle is, or is about to, reverse back and that reverse gear has been selected. If an arm signal is used to convey this warning then the driver must extend his arm horizontally and turn the palm of his hand backwards.\n(Página 183 del manual 'Learning to drive')",
+      "image_url": "72cef70d-923e-4589-a637-203418c08350M.jpg",
+      "number": "6.",
+      "question": "El conductor de un vehículo extiende el brazo horizontalmente con la palma de la mano hacia atrás, ¿qué indica?\nThe driver of a vehicle extends their arm horizontally with their palm facing backwards. What does this indicate?",
+      "question_id": "exam:1017:06",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 6,
+      "local_image": "exam-1017-q06.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.braking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Intersección de dos vías al mismo nivel.\nIntersection of two roads at the same level.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Salida con cambio de sentido a distinto nivel.\nExit with U-turn at a different level.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Cambio de dirección dentro de la vía.\nChange of direction on the same road.",
+          "correct": false
+        }
+      ],
+      "help": "5 Vertical Signs              \n         \n5.4 Indication Road Signs        \n5.4.2 General indication road signs  \nS-25 U-turn at a different level\nIndicates the proximity of an exit where you may carry out a U-turn but at a different level.\n(Página 133 del manual 'Learning to drive')",
+      "image_url": "8fc3e911-87ac-4d9d-aeb5-3d64a46d70aeM.jpg",
+      "number": "7.",
+      "question": "¿Qué indica la señal?\nWhat does this sign indicate?",
+      "question_id": "exam:1017:07",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 7,
+      "local_image": "exam-1017-q07.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, cuando la grúa tarde más de media hora.\nYes, when the breakdown service takes longer than half an hour.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, hasta el taller más próximo.\nYes, until the nearest garage.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": true
+        }
+      ],
+      "help": "Maneouvres              \n   \n9 Immobilisation: Stationary vehicles Detention (Halting)  \n9.2 Emergency detention (halting due to an emergency)\nBroken down vehicles or vehicles involved in accidents must be towed by vehicles specially designed for this purpose (assistance vehicles on public roads).\n(Página 197 del manual 'Learning to drive')",
+      "image_url": "8db9723a-2342-444e-b068-1d8b32769460M.jpg",
+      "number": "8.",
+      "question": "¿Está permitido remolcar con un turismo a un vehículo averiado por una autopista?\nCan you use a car to tow a broken down vehicle on a motorway?",
+      "question_id": "exam:1017:08",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 8,
+      "local_image": "exam-1017-q08.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "documents.permissions",
+        "incidents.towing"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "darles algo de beber para reanimarlos.\nto give them something to drink to bring them around.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "moverlos lo menos posible y llamar al 112.\nto move them as little as possible and call 112.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "sacarlos del vehículo para intentar reanimarlos.\nto remove them from the vehicle to try to bring them around.",
+          "correct": false
+        }
+      ],
+      "help": "Road traffic collisions            \n           \n8 The rule - PAH      \n8.2 Advise: Request for help\nTo ask for help call the emergency service number – (telephone) 112, this will enable the appropriate emergency service(s) to be contacted. It is a free number, and can be accessed without operator coverage. This number is available not only in Spain but across the European Union.\nIt is free, you can access it even without operator coverage, and it is available not only in Spain, but across the European Union.\nIn the absence of a mobile phone an SOS phone can be used or if necessary, ask someone else to make the call.\nThe sign S-27, indicates the direction of the nearest SOS post or “closest help,” where it is possible to request assistance in the case of an accident.\nThe road sign may also indicate the distance to where this may be found.\n(Página 259 del manual 'Learning to drive')\n\nRoad traffic collisions          \n         \n8 The rule - PAH  \n8.3 Help: Assisting the injured\n8.3.1 General rules\nDon’t move the injured, unless it is essential for resuscitation or safety.\nKeep them still and immobilise the injured area especially the head, neck and trunk of the body and always avoid the casualty walking.\n(Página 260 del manual 'Learning to drive')",
+      "image_url": "caa2e954-e334-4a02-bf90-6ceefe1304a3M.jpg",
+      "number": "9.",
+      "question": "Cuando ha habido heridos en un accidente de circulación es fundamental...\nWhen there are injured people following a road accident, it is fundamental...",
+      "question_id": "exam:1017:09",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 9,
+      "local_image": "exam-1017-q09.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "driving.weather",
+        "incidents.scene"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, porque está prohibido invadir un cruce de vías.\nNo, because it is forbidden to cross into an intersection.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, si no obstaculiza la circulación a otros vehículos.\nYes, if you are not hindering the movement of other vehicles.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, si no recorre marcha atrás más de 15 metros.\nYes, if you do not reverse more than 15 metres.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres        \n \n8 Reversing\nAs a general rule, reversing backwards is prohibited. However, as an exception it is permissible (but only when travelling a minimum distance backwards – in reverse gear), in the following two cases:\nWhen reversing forms part of one of the following manoeuvre, parking, stopping or joining the traffic flow. In this instance the distance travelled in reverse gear must not be further than 15 metres and you must not invade a junction.\n(Página 195 del manual 'Learning to drive')",
+      "image_url": "45e18120-fdf3-471f-905e-6ded7ca6e995M.jpg",
+      "number": "10.",
+      "question": "Invadir marcha atrás una intersección para incorporarse a la circulación, ¿está permitido?\nCan you reverse into an intersection to then merge into the road?",
+      "question_id": "exam:1017:10",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 10,
+      "local_image": "exam-1017-q10.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "priority.merging",
+        "driving.parking",
+        "driving.braking",
+        "documents.permissions"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "En el maletero.\nIn the boot.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "En el maletero o en la baca, es igual.\nIn the boot or on the roof rack.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "En la baca.\nOn the roof rack.",
+          "correct": false
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving\n \n10 Factors affecting consumption\n10.1 Air resistance\nThe majority of fuel consumed is used to overcome air (wind) resistance that acts against the advancing vehicle.\nThis means that anything that increases or changes the aerodynamics lines (the design) of a vehicle has a greater impact on consumption.\nThis is why external accessories, (roof racks, flaps and deflectors, etc.) increase the resistance of the vehicle and, therefore, increase fuel consumption.\nIt is not advisable to leave the roof rack on the vehicle when it is empty and not being used. It is preferable to carry the load in the boot, whenever possible and not on the roof rack.\n(Página 277 del manual 'Learning to drive')",
+      "image_url": "a982c86f-c2d9-4f61-a6a3-6f747681ce1aM.jpg",
+      "number": "11.",
+      "question": "Para ahorrar carburante, ¿dónde se debe poner el equipaje?\nTo save petrol, where should you put your luggage?",
+      "question_id": "exam:1017:11",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 11,
+      "local_image": "exam-1017-q11.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "routine.ecodriving",
+        "driving.weather"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Una próxima salida.\nAn approaching exit.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "La proximidad de una línea longitudinal continua.\nThe proximity of an unbroken longitudinal line.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Que el carril de la izquierda termina próximamente.\nThat the left lane will end soon.",
+          "correct": false
+        }
+      ],
+      "help": "6 Road marks        \n     \n6.5 Arrows  \nReturn arrow\nAnnounces the approach of a continuous longitudinal marking indicating that driving on the left side is prohibited. Therefore, any overtaking manoeuvre must not be initiated—or must be completed as soon as possible if already underway.\n(Página 157 del manual 'Learning to drive')",
+      "image_url": "b21abd3d-dc47-4641-969f-6a3e6fbabf77M.jpg",
+      "number": "12.",
+      "question": "¿Qué indica esta flecha situada en el eje de la calzada?\nWhat does this arrow in the middle of the road indicate?",
+      "question_id": "exam:1017:12",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 12,
+      "local_image": "exam-1017-q12.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "driving.overtaking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "cualquier dirección.\nin any direction.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "la dirección de la flecha, dejando pasar a los vehículos que circulen por la vía transversal.\nin the direction of the arrow, giving way to oncoming vehicles from the crossing road.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "la dirección de la flecha, y tienen prioridad en la intersección.\nin the direction of the arrow, and they have right of way at the intersection.",
+          "correct": false
+        }
+      ],
+      "help": "4 Traffic lights    \n     \n4.2 Traffic lights for vehicles\n4.2.7 Green arrow\nA green arrow that is illuminated on a black background means that the vehicles can proceed in the direction indicated.\n(Página 116 del manual 'Learning to drive')",
+      "image_url": "96f55344-7d8e-4854-9a27-28407670e286M.jpg",
+      "number": "13.",
+      "question": "La luz verde en forma de flecha del semáforo significa que los vehículos pueden pasar en...\nThe green light in an arrow shape on a traffic light means that vehicles can proceed...",
+      "question_id": "exam:1017:13",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 13,
+      "local_image": "exam-1017-q13.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "priority.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "La regulación, el funcionamiento y el estado del sistema.\nThe controls, functioning and state of the system.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Solo la regulación, pero con una cierta frecuencia.\nOnly the controls, but fairly frequently.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Nada, porque el alumbrado lo tienen que revisar en un taller.\nNothing, because the lights are checked by a mechanic.",
+          "correct": false
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES\n \n2 Lighting systems\nThe functions of the lights on the vehicle are to see and be seen.\nThe lighting system allows the driver, in low lighting conditions, to illuminate the roadway in order to view the road and monitor the traffic. In doing so the driver can see any potential hazard in time to react. For this reason, there is a need to frequently check the lighting system so as to ensure compliance with the lighting regulations and operational use. (Lights and bulbs should be checked to ensure they are working correctly. Make sure that the lights are not dirty or broken, etc.)\nThe duration of the bulbs (both conventional and halogen) depends on the evaporation of the filament. That’s why it is recommended, that if one needs replacing, the other one should be changed, too.\n(Página 62 del manual 'Learning to drive')",
+      "image_url": "e099b4a2-f8a7-4996-8cad-9ad8330dede7M.jpg",
+      "number": "14.",
+      "question": "Para un uso adecuado del alumbrado, ¿qué debe revisar?\nTo use your car lights properly, what should you check?",
+      "question_id": "exam:1017:14",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 14,
+      "local_image": "exam-1017-q14.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "vehicle.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, siempre.\nYes, always.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "No, solo es obligatorio advertir a los conductores.\nNo, it is only mandatory to warn drivers.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, pero es siempre muy aconsejable.\nNo, but it is always very advisable.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nAfter verifying that it is possible to undertake the manoeuvre without danger, the driver must warn other road users of his intended manoeuvre.\nIf a driver doesn’t indicate his intention to undertake a manoeuvre, then other drivers and road users, will not be aware of a potential change of course, alteration of speed of the other vehicle.\n(Página 182 del manual 'Learning to drive')",
+      "image_url": "bba276b1-0913-44a3-ac12-d99fa8080160M.jpg",
+      "number": "15.",
+      "question": "Advertir a otros usuarios de que se va a realizar una maniobra, ¿es obligatorio?\nIs it mandatory to warn other users that you are going to carry out a manoeuvre?",
+      "question_id": "exam:1017:15",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 15,
+      "local_image": "exam-1017-q15.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A todos los que circulen por la vía pavimentada.\nAll vehicles driving on the paved road.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Únicamente a los que se aproximen por la izquierda.\nOnly those approaching from the left.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Únicamente a los vehículos a motor que se aproximen por la derecha.\nOnly motorised vehicles approaching from the right.",
+          "correct": false
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels    \n     \n2 Junctions    \n2.2 Priorities at junctions  \n2.2.1 Junctions without signals and signs\nHowever there are exceptions to this rule:\nVehicles that travel on a solid road surface (tarmac, concrete etc) always have preference over those that approach on a road not does not have a solid surface.\n(Página 204 del manual 'Learning to drive')",
+      "image_url": "8118adf3-626e-4bd8-bca4-1b7de969e80aM.jpg",
+      "number": "16.",
+      "question": "El vehículo que sale de una vía no pavimentada, ¿a qué vehículos debe ceder el paso?\nWhat vehicles does this vehicle exiting from an unpaved road need to give way to?",
+      "question_id": "exam:1017:16",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 16,
+      "local_image": "exam-1017-q16.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, son un sistema mecánico del vehículo.\nNo, they are a mechanical system in the vehicle.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, son un elemento de seguridad pasiva.\nNo, they are a passive safety element.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí.\nYes.",
+          "correct": true
+        }
+      ],
+      "help": "1 Influence of the vehicle in traffic collisions\n \n1.2 Vehicle safety features\nActive safety is also called primary safety as it is any activity whose purpose is to prevent an accident, acting before it occurs and including preventive measures such as control of the tyres, brakes, etc.\nAdvanced driving assistance systems (ADAS) significantly improve the active safety of the vehicle.\nSome security features require active intervention by the driver.\nLighting, tyres and brakes are active safety systems.\n(Página 62 del manual 'Learning to drive')",
+      "image_url": "7c238d58-4e6c-4b69-80ad-1caaf4eac765M.jpg",
+      "number": "17.",
+      "question": "Los frenos, ¿son un dispositivo de seguridad activa?\nAre brakes an active safety device?",
+      "question_id": "exam:1017:17",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 17,
+      "local_image": "exam-1017-q17.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "driving.weather",
+        "driving.braking",
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Una separación lateral suficiente para realizarlo con seguridad.\nA sufficient lateral distance to carry it out safely.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Al menos 2 metros, cuando el adelantamiento se realice fuera de poblado.\nAt least 2 metres, when overtaking in non-built-up areas.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2 metros como mínimo en todo caso.\n2 metres as a minimum, in all cases.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres              \n             \n5.5 Overtaking  \n5.5.4 Performing the overtake\nThe driver performing the overtake must do so:\nMoreover, they must leave enough space side-by-side between both vehicles to overtake safely.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "aac3c4dd-12db-449b-9f9e-fa431c3104a6M.jpg",
+      "number": "18.",
+      "question": "Al adelantar a una motocicleta de dos ruedas, ¿qué separación lateral de seguridad es obligatorio dejar?\nWhen overtaking a two-wheel motorcycle, how much lateral distance must you leave between you?",
+      "question_id": "exam:1017:18",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 18,
+      "local_image": "exam-1017-q18.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.overtaking",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que es un vehículo ancho y mide más de 2 metros.\nIt is a wide vehicle and measures more than 2 metres.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Que el vehículo transporta mercancías peligrosas.\nThe vehicle is transporting hazardous goods.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Que es un vehículo largo y mide más de 12 metros.\nIt is a long vehicle and measures more than 12 metres.",
+          "correct": true
+        }
+      ],
+      "help": "Transporting people and loads        \n     \n5 Plates and symbols on vehicles    \n5.2 Other distinctive plates, symbols, signs and stickers  \n5.2.5 Long vehicle (V-6)\nThis plate is placed at the rear of a vehicle to indicate that the vehicle or set of vehicles is longer than 12 metres in length. It is a yellow, reflective rectangular plate framed by a fluorescent red border.\nAlternatively, smaller plates may be used and more conveniently located symmetrically on the vehicle.\n(Página 220 del manual 'Learning to drive')",
+      "image_url": "57475f44-6087-4620-bb09-a77e14db62cfM.jpg",
+      "number": "19.",
+      "question": "El vehículo lleva dos rectángulos amarillos con borde rojo. ¿Qué indican?\nThe vehicle has two yellow rectangles with a red border. What do they indicate?",
+      "question_id": "exam:1017:19",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 19,
+      "local_image": "exam-1017-q19.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "numbers.dimensions",
+        "signs.vehicle_plates",
+        "vehicle.cargo"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, en absoluto, porque el vehículo causará baja definitiva.\nNo, never, because the vehicle is definitively written off.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, si el defecto observado no impide la marcha del vehículo.\nYes, if the defect detected does not impede the running of the vehicle.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, salvo para su traslado al taller y vuelta a una ITV para nueva inspección.\nNo, unless you are going to the workshop and back for another ITV.",
+          "correct": true
+        }
+      ],
+      "help": "3 Documentation for the vehicle                \n               \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nSerious defects\nDefects that decrease the safety of the vehicle or place other users of the public highway at risk or may have an impact on the environment. Serious defects render the vehicle unfit for use on the public highway, except for its relocation to the mechanic’s workshop and return to an ITV station for a new inspection within a maximum of two months, counting from the first failed technical inspection.\nIf, in a technical inspection, a defect classified as serious is detected, the result of the technical inspection will be unfavourable.\n(Página 26 del manual 'Learning to drive')",
+      "image_url": "030f6149-cb21-4c6f-b83d-362eddda0b05M.jpg",
+      "number": "20.",
+      "question": "Si el resultado de la inspección realizada a su vehículo en una estación ITV es desfavorable, ¿podrá circular por las vías públicas?\nIf your vehicle does not pass its ITV, can you drive on public roads?",
+      "question_id": "exam:1017:20",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 20,
+      "local_image": "exam-1017-q20.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "documents.itv"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "aumentar la visión por los laterales.\nincrease your field of vision on the sides.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "mirar a lo lejos una distancia mayor.\nlook further into the distance.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "mirar hacia atrás con menor frecuencia.\nlook back more frequently.",
+          "correct": false
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving    \n     \nDEFENSIVE DRIVING\n4 Observation\n4.1 Looking ahead\nIf the driver only looks at the space immediately in front of his vehicle he will not be able to perceive what is happening further ahead and will not have sufficient time to plan and react. If the driver looks ahead he is able to plan for the distance that the vehicle will travel in the next 20 seconds, thus he is able to anticipate dangerous situations and react in time, avoiding unnecessary braking and accelerating.\nAs the speed increases, the driver must look further ahead.  \n(Página 271 del manual 'Learning to drive')",
+      "image_url": "de50f71d-bf9e-459e-b316-edcf2d203213M.jpg",
+      "number": "21.",
+      "question": "Cuando aumente la velocidad, debe...\nWhen you increase your speed, you must...",
+      "question_id": "exam:1017:21",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 21,
+      "local_image": "exam-1017-q21.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.ecodriving"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "una vía para automóviles.\na road for automobiles.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "un tramo de vía en obras.\na stretch undergoing construction works.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "un tramo de vía especialmente peligroso.\na particularly hazardous stretch of road.",
+          "correct": false
+        }
+      ],
+      "help": "Safe driving      \n       \n3 Road works  \n3.1 Signage in Sections Undergoing Roadworks or Maintenance Tasks\nWhere danger and regulatory signs are installed in these sections and their conventional background colour is white, they shall instead have a yellow background.\nWhere lane signs are installed, the background shall be yellow instead of blue, and the symbols shall be black instead of white.\nIf new direction signs are required due to roadworks or maintenance tasks, they shall have a yellow background with black characters, regardless of the type of road.\nIf new road markings are used in sections undergoing roadworks, they shall be yellow in colour.\n(Página 225 del manual 'Learning to drive')",
+      "image_url": "bc66a4ab-acd1-411c-a4f9-49fca3d385e0M.jpg",
+      "number": "22.",
+      "question": "Cuando el fondo de las señales de orientación es amarillo indica que se circula por...\nWhen direction signs have a yellow background this means you are driving on...",
+      "question_id": "exam:1017:22",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 22,
+      "local_image": "exam-1017-q22.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "signs.lanes",
+        "signs.temporary",
+        "priority.tram",
+        "driving.lanes"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "que se reanude la marcha.\nthat you must resume driving.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "que se inmovilice el vehículo fuera de la calzada.\nthe vehicle to stop off of the road.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "que se detengan los vehículos a quienes se dirija.\nthe vehicles it is pointing at to stop.",
+          "correct": true
+        }
+      ],
+      "help": "2 Police Officers and corresponding signalling  \n   \n2.2 Signals with the arm\n2.3 Audible signals\nThe police will use a whistle in the following manner:\nTo stop a vehicle: A series or short and frequent blows of the whistle.\nTo make a vehicle continue its course: A long whistle blow.\n(Página 111 del manual 'Learning to drive')",
+      "image_url": "6ce47ca1-7dc9-47d5-8f62-bbea9d6a1a2fM.jpg",
+      "number": "23.",
+      "question": "Un agente, con toques de silbato cortos y frecuentes, ordena...\nAn agent, with short and frequent whistle blows, is ordering...",
+      "question_id": "exam:1017:23",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 23,
+      "local_image": "exam-1017-q23.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "priority.officer",
+        "driving.weather"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Al semáforo, por ser la señal preferente.\nThe traffic light, as this is the preferential sign.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "A ninguna, por ser contradictorias.\nNeither, as they are contradictory.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Al stop, por ser la señal más restrictiva.\nThe stop sign, as this is the more restrictive sign.",
+          "correct": false
+        }
+      ],
+      "help": "Road signalling        \n         \n1 General rules  \n1.4 Order of priority amongst the signalling devices  \n1 Signals and orders given by agents of the authority in charge of traffic surveillance exercising the functions of their jobs.  \n2 Circumstantial signage and beaconing that alters the normal use of the road, delimiting devices, and beaconing signals.\n3 Traffic lights.  \n4 Traffic road signs.  \n5 Road markings.  \n \n(Página 109 del manual 'Learning to drive')\n\nRoad signalling        \n         \n1 General rules  \n1.4 Order of priority amongst the signalling devices\nIf the instructions indicated by different signals seem to contradict each other, the priority signal will have priority, according to the order set out above, or the most restrictive for signals of the same type.\nIf the contradiction takes place between two road signals of the same type, then the most restrictive will prevail.\n(Página 109 del manual 'Learning to drive')",
+      "image_url": "c8283b22-9450-40d0-96ef-60b20aa94076M.jpg",
+      "number": "24.",
+      "question": "En una intersección hay un semáforo en verde y una señal de stop, ¿a cuál se debe obedecer?\nAt an intersection there is a green light and a stop sign, which one should be obeyed?",
+      "question_id": "exam:1017:24",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 24,
+      "local_image": "exam-1017-q24.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "signs.priority",
+        "signs.markings",
+        "priority.lights",
+        "priority.sign"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, está prohibido.\nNo, it is prohibited.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, la distancia indispensable, aunque sobrepase los 15 metros.\nYes, the distance required, even if this exceeds 15 metres.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, 15 metros como máximo.\nYes, a maximum of 15 metres.",
+          "correct": true
+        }
+      ],
+      "help": "Maneouvres        \n \n8 Reversing\nAs a general rule, reversing backwards is prohibited. However, as an exception it is permissible (but only when travelling a minimum distance backwards – in reverse gear), in the following two cases:\nWhen reversing forms part of one of the following manoeuvre, parking, stopping or joining the traffic flow. In this instance the distance travelled in reverse gear must not be further than 15 metres and you must not invade a junction.\n(Página 195 del manual 'Learning to drive')",
+      "image_url": "efa804f3-ec76-453f-bd38-48d8e45eac01M.jpg",
+      "number": "25.",
+      "question": "¿Se puede circular marcha atrás para estacionar?\nCan you reverse to park?",
+      "question_id": "exam:1017:25",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 25,
+      "local_image": "exam-1017-q25.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "priority.merging",
+        "driving.parking",
+        "driving.braking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, la de posición.\nYes, the position lights.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, la de corto alcance, al menos.\nYes, the low beam, at least.",
+          "correct": true
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n   \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)  \n7.3.1 For traffic flow reasons\nDrivers of vehicles that travel in the normal direction (where a lane has not been enabled in the opposite direction) and are adjacent to a lane that is flowing and enabled in a contrary direction, must:\nNot move into a lane where the traffic is flowing in a contrary (opposite) direction.\nUse during the day and at night, at least the low-beam headlights.\n(Página 166 del manual 'Learning to drive')",
+      "image_url": "009080df-49e0-422c-9029-122a49b5b119M.jpg",
+      "number": "26.",
+      "question": "Al circular, durante el día, por el carril contiguo a uno habilitado en sentido contrario al habitual, ¿debe llevar encendida alguna luz?\nWhen driving during the day on a lane adjacent to traffic going in the opposite direction to normal, do you need to turn on any lights?",
+      "question_id": "exam:1017:26",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 26,
+      "local_image": "exam-1017-q26.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "driving.lanes"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Acelerando para no dificultar el tráfico.\nSpeeding up so as not to hinder traffic.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Con el brazo horizontal con el dorso de la mano hacia atrás, moviéndolo de atrás a delante.\nBy extending their arm with the back of the hand facing backwards, moving it forwards and backwards.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Con el intermitente izquierdo.\nWith the left indicator.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres    \n   \n5 Overtaking  \n5.6 Obligations of the driver of the vehicle being overtaken  \n5.6.1 Before the overtake\nWhen they are going to be overtaken, if it is not possible to move entirely to the right-hand side of the lane, but the overtake can be completed safely, drivers of:\nHeavy vehicles,\noversized vehicles and\nvehicles which must stick to a certain speed limit\nmust indicate to those behind that they can overtake.\n(Página 190 del manual 'Learning to drive')\n\nManeouvres  \n \n5 Overtaking\n5.6 Obligations of the driver of the vehicle being overtaken\n5.6.1 Before the overtake\nThey should ideally do this using arm signals, extending their arm horizontally and moving it back and forth repeatedly, with the back of the hand facing forward, or if it is not possible to use arm signals, putting on the right indicator.\n(Página 190 del manual 'Learning to drive')",
+      "image_url": "4fc4ba56-bb35-4c3c-95bc-defa999dc708M.jpg",
+      "number": "27.",
+      "question": "El conductor de un vehículo pesado no puede ceñirse por completo al borde derecho pero el adelantamiento puede realizarse, ¿cómo está obligado a indicarlo?\nThe driver of a heavy vehicle cannot fully stick to the right edge, but can be overtaken. How should this driver indicate this?",
+      "question_id": "exam:1017:27",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 27,
+      "local_image": "exam-1017-q27.jpg",
+      "source_note": "English help incorrectly says back of hand facing forward. Official BOE article 86 confirms dorso de la mano hacia atrás, matching Spanish option B. Verified https://www.boe.es/eli/es/rd/2003/11/21/1428/con/20260626",
+      "selected_letter": "B",
+      "topic_ids": [
+        "driving.lanes",
+        "driving.overtaking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A 110 kilómetros por hora.\nAt 110 kilometres per hour.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A 100 kilómetros por hora.\nAt 100 kilometres per hour.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A 90 kilómetros por hora.\nAt 90 kilometres per hour.",
+          "correct": true
+        }
+      ],
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "b3656e7a-a845-495e-b8d5-a1760b2d36abM.jpg",
+      "number": "28.",
+      "question": "¿A qué velocidad máxima puede circular un turismo por esta carretera?\nWhat is the maximum speed a car can drive at on this road?",
+      "question_id": "exam:1017:28",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 28,
+      "local_image": "exam-1017-q28.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "numbers.speeds",
+        "vehicle.passengers"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "el efecto submarino.\nthe submarine effect.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "la aparición de la fatiga.\nthe onset of fatigue.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "una pérdida de orientación.\na loss of orientation.",
+          "correct": false
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES\n \n10.1 Circumstances that cause fatigue\n10.1.3 Driver circumstances\nDriving for long periods of time without rest breaks or sufficient breaks is the major cause of driver fatigue. Ideally you should plan a journey and include the necessary breaks. Never hurry to reach a destination.\nMaintaining a high speed for a long time (requires more concentration).\nA change of the driver’ state of health and well being, such as driving when sleepy or fatigued, under the influence of alcohol or when ill.\n(Página 37 del manual 'Learning to drive')",
+      "image_url": "de50f71d-bf9e-459e-b316-edcf2d203213M.jpg",
+      "number": "29.",
+      "question": "Conducir a una velocidad elevada puede producir en el conductor...\nDriving at high speed can lead to the following in the driver...",
+      "question_id": "exam:1017:29",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 29,
+      "local_image": "exam-1017-q29.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.fatigue"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Cuando se circule por cambios de rasante o curvas de visibilidad reducida.\nWhen driving on changes of gradient or bends with reduced visibility.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Cuando la circulación esté saturada.\nWhen traffic is congested.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Cuando circule en sentido contrario al habitual.\nWhen driving in the opposite way to the usual direction.",
+          "correct": false
+        }
+      ],
+      "help": "Use of the road\n \n1 Road positioning\nAs a general rule, vehicles will drive on the right and as close as possible to the edge of the road, keeping a lateral separation that is large enough to safely pass by other vehicles.\nThis regulation will be particularly applicable on curves and changes of gradient with reduced visibility. In these cases, even when there is no sign expressly delimiting directions, all drivers must leave the half of the roadway that is for the opposite direction completely free, except when overtaking.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "63cc2dd2-4ef8-4a7a-903b-714adc2a681bM.jpg",
+      "number": "30.",
+      "question": "¿Cuándo debe ceñirse especialmente al borde derecho de la calzada?\nWhen should you take special care to keep to the right-hand side of the road?",
+      "question_id": "exam:1017:30",
+      "collection_type": "exam",
+      "source_test_id": 1017,
+      "source_ordinal": 30,
+      "local_image": "exam-1017-q30.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "vehicle.visibility"
+      ]
+    }
+  ]
+}

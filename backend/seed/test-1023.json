@@ -31,7 +31,8 @@
       "image_url": "67cdcb82-63b8-486a-abea-434f8278e503M.jpg",
       "number": "1.",
       "question": "En un paso a nivel, ¿está permitido realizar un cambio de sentido?\nAt a level crossing, are you permitted to do a U-turn?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "b44c18a7eb04be76cdda7bea"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "55bde311-bf96-4ce7-ae67-d68920d34e14M.jpg",
       "number": "2.",
       "question": "En autopistas y autovías, ¿está prohibido el cambio de sentido?\nOn motorways and dual carriageways, is changing direction prohibited?",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "e39df5346db3018321612e86"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "a25d6cac-c7e5-480b-9ed9-b87b924a5234M.jpg",
       "number": "3.",
       "question": "En una autopista, ¿está permitido utilizar los pasos que hay en la mediana para hacer un cambio de sentido de la marcha?\nOn a motorway, are you permitted to use the spaces in the median strip to do a U-turn?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "f2835d96967770c153d94a3a"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "54c142e6-5991-4d0b-a9d4-bc2368867b7dM.jpg",
       "number": "4.",
       "question": "En una vía cortada no se puede cambiar de sentido, ¿está permitido salir marcha atrás?\nOn a closed-off road you cannot change direction. Can you reverse?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "00954a5678f083abc2f0819c"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "4c0f5e70-537d-48e8-83c0-0d2e23ec8b70M.jpg",
       "number": "5.",
       "question": "Siempre que el recorrido hacia atrás no supere los 15 metros ni invada un cruce de vías, podrá circular marcha atrás...\nProvided that the reverse manoeuvre does not exceed 15 metres or enter a junction, you can reverse...",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "cf46acd82883e03252981daa"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "fd394543-5673-4990-bd4e-321b1a67e4b9M.jpg",
       "number": "6.",
       "question": "La maniobra de marcha atrás debe efectuarse...\nA reversing manoeuvre must be completed...",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "f25a8e11a631c470d7c25488"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "af6087d9-e62f-4c6c-8a55-b78ffe60b583M.jpg",
       "number": "7.",
       "question": "¿Le está permitido a un turismo con remolque circular por el arcén de una autopista?\nIs a car with a trailer allowed to drive on the hard shoulder of a motorway?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "a5a74fce180336b0da5f6f3b"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "ae60ba30-5f1a-4ccb-ba54-857dcd9784a9M.jpg",
       "number": "8.",
       "question": "En el caso de accidente o avería, si el vehículo está inmovilizado sin posibilidad de reemprender la marcha y las condiciones de circulación no permitieran a los ocupantes abandonar el vehículo con seguridad, ¿qué deben hacer estos?\nIn the event of an accident or breakdown, if the vehicle is stopped without the possibility of restarting, and the traffic conditions do not allow the occupants to leave the vehicle safely, what should they do?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "7c6179916bd0d5528fe715ff"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "4006a4f9-f1db-4e73-9065-363e2cbdca24M.jpg",
       "number": "9.",
       "question": "El chaleco reflectante es obligatorio ponérselo antes de salir del vehículo y ocupar la calzada o el arcén en…\nThe hi-vis jacket must be put on before leaving the vehicle and occupying the road or the hard shoulder on...",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "fa45a7f7ebc92482fd9cac52"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "da066d2c-0ac9-44f6-a71c-96f22e5f5f81M.jpg",
       "number": "10.",
       "question": "En condiciones de seguridad, en vías que no sean autopistas o autovías, ¿se permite el arrastre de un vehículo por otro no destinado a este fin?\nIn safe conditions, on roads other than motorways or dual carriageways, is it permitted to tow a vehicle with another not intended for this purpose?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "8f73e3d1665080797c4c07a4"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "23b026e2-826b-44e3-b3d6-0318561bb8b3M.jpg",
       "number": "11.",
       "question": "En una vía interurbana de doble sentido de la circulación, ¿está permitido realizar una parada o estacionamiento en el lado izquierdo?\nOn a two-way interurban road, are you permitted to stop or park on the left hand side?",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "425f559ad90eb59ab8ce63c4"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "6d56bef4-6bed-4344-a81f-ce2d8b7d270eM.jpg",
       "number": "12.",
       "question": "¿Está prohibido parar o estacionar en la parte transitable del arcén de una vía interurbana?\nIs it prohibited to stop or park on the passable part of the hard shoulder of an interurban road?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "32a0dffe8747af18f9a51783"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "2dbb33bb-2909-473d-b082-b4f8737908baM.jpg",
       "number": "13.",
       "question": "¿Se permite parar o estacionar en el arcén transitable de una travesía insuficientemente iluminada?\nIs it allowed to stop or park in the passable hard shoulder of a poorly lit through-road?",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "66a11c7f78abb9927d9b177a"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "ad44c7fe-670f-4a13-bb04-6889bd17302cM.jpg",
       "number": "14.",
       "question": "En una vía urbana de sentido único, está permitido estacionar en el lado...\nOn a one-way urban road, parking is permitted on...",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "ce00214692868abb6f116b2b"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "07eaa615-035e-45e3-abf6-e7feb862fed1M.jpg",
       "number": "15.",
       "question": "¿En qué parte de esta vía interurbana se podrá parar o estacionar una motocicleta?\nOn what part of this intercity road can a motorcycle stop or park?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "462ec49b8e0b38d82c678845"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "2c8dafd3-b8cf-487f-9068-254568953550M.jpg",
       "number": "16.",
       "question": "¿Cómo debe colocar su vehículo al parar o estacionar?\nHow should I place my vehicle when stopping or parking?",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "7ebd50b8281f8e1432f858fe"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "ff61a05f-5c20-40ed-918e-e58bb09a9288M.jpg",
       "number": "17.",
       "question": "Si se estaciona un turismo en llano y el conductor se aleja, entre otras medidas debe...\nIf parking a car on the flat and the driver gets out, amongst other measures they should...",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "cd57087a8642539387e3c56d"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "fb8fa4ed-aeb1-46f2-82df-b00b0dc22fb0M.jpg",
       "number": "18.",
       "question": "Si estaciona un turismo con un remolque ligero en una pendiente sensible, debe...\nIf you park a car with a light trailer on a gradient, you must...",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "1e3f18cb2b6e8616a3cf361a"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "252725a6-72d7-4a8c-b4fc-bb9a7f58274cM.jpg",
       "number": "19.",
       "question": "Está prohibido parar...\nIt is prohibited to stop...",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "cd4ed2713b986e40c44308be"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "8ac0976d-2316-4eb0-b508-89cfd721e9b4M.jpg",
       "number": "20.",
       "question": "La línea de borde de la calzada de la imagen es discontinua, ¿está permitido estacionar en la parte transitable del arcén?\nThe line at the edge of the road in the image is broken. Is it permitted to park on the passable part of the hard shoulder?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "3f88297fc0e25adc21619a06"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "a77182e1-ba8d-4cdb-b073-ebb4dcc8ad2dM.jpg",
       "number": "21.",
       "question": "¿Está correctamente inmovilizada esta furgoneta?\nIs this stationary van properly positioned?",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "b63015d87f07797db245f5ec"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "a2a2d1b4-7096-4009-944f-7b96bea452b4M.jpg",
       "number": "22.",
       "question": "¿En qué caso el estacionamiento perturba gravemente la circulación?\nIn which case does parking seriously obstruct traffic?",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "94745b2934f312d8026c9c99"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "8aa06655-9a6e-4ae9-8f76-257700d92782M.jpg",
       "number": "23.",
       "question": "Se considera que una parada o estacionamiento obstaculiza gravemente la circulación cuando...\nIt is considered that stopping or a parking is a serious obstacle for the traffic when...",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "cee24f1876ef97007880de34"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "0968c7cb-c4e8-49f4-9f22-f1b13e9109e0M.jpg",
       "number": "24.",
       "question": "¿En qué caso se considera que un vehículo estacionado obstruye gravemente la circulación?\nWhen is it considered that a parked vehicle seriously obstructs the traffic?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "21b57cdacb56467e0091e81e"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "f4029b2c-3fb7-4617-865a-3ad7375e9992M.jpg",
       "number": "25.",
       "question": "¿Está prohibido parar en una intersección en vía urbana?\nIs it forbidden to stop at an intersection on an urban road?",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "8276bc0d27b666d0398d675a"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "fe85be79-fa63-4631-a7af-cfa63a9d4f25M.jpg",
       "number": "26.",
       "question": "En un paso para peatones, ¿está permitido estacionar?\nIs parking permitted on a pedestrian crossing?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "922a78908b7aa0487bc4837a"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "fa047e2e-1e8f-4396-9f1a-0854cc30ad59M.jpg",
       "number": "27.",
       "question": "En una zona señalizada para carga y descarga, ¿está permitido estacionar?\nCan you park in a loading and unloading zone?",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "265cb3638ce1f27c301dc654"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "bf717ee7-7afd-4b9c-8122-08646d0c8bc9M.jpg",
       "number": "28.",
       "question": "En doble fila, ¿qué está prohibido?\nWhen another vehicle is parked at the side of the road, what is not allowed?",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "af1c390285d30396cadedb94"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "59d50d9d-ca92-496b-b35c-34f8847a8d13M.jpg",
       "number": "29.",
       "question": "Está permitido parar...\nIt is permitted to stop...",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "831d44010852d9a7ad2662c2"
     }
   ]
 }

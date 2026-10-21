@@ -1,0 +1,1042 @@
+{
+  "test_id": 101018,
+  "title": "Exam collection · 1018",
+  "collection": "Exam Test",
+  "questions": [
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "de un muelle.\nof a dock.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "de un resalto o badén en el pavimento.\nof a hump or speed bump on the road.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "de un puente móvil.\nof a moveable bridge.",
+          "correct": true
+        }
+      ],
+      "help": "5 Vertical Signs      5.2 Signs that warn of danger P-5 Moving bridgeDanger due to the proximity of a bridge that can be raised or moved, thus temporarily interrupting the traffic.(Página 119 del manual 'Learning to drive')",
+      "image_url": "601c5e45-406a-4987-a2d3-d2c7aebafda7M.jpg",
+      "number": "1.",
+      "question": "Esta señal indica peligro ante la proximidad...\nThis sign indicates the approaching hazard...",
+      "question_id": "exam:1018:01",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 1,
+      "local_image": "/tests/exam/1018/q01.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "signs.warning"
+      ],
+      "canonical_id": "916bd5fa2463e2fd633c60f1"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Girar a la derecha.\nTurn right.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Seguir de frente.\nContinue forwards.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Esperar a que el semáforo cambie para seguir recto.\nWait until the traffic light changes to continue straight.",
+          "correct": false
+        }
+      ],
+      "help": "4 Traffic lights    \n     \n4.2 Traffic lights for vehicles\n4.2.7 Green arrow\nIf a vehicle is in a lane that is not reserved when the green arrow activates, but is the lane that vehicles must use that want to follow the arrow, the vehicle must advance in this direction only if a vehicle behind it wants to follow this direction.\nIf there is no vehicle behind that wants to follow the direction of the arrow, the vehicle may remain in the lane until it is permitted to go in the direction it wishes to take.\n(Página 116 del manual 'Learning to drive')",
+      "image_url": "b936b8d6-4fcc-4977-8559-7984087a3542M.jpg",
+      "number": "2.",
+      "question": "El conductor de este turismo pretende seguir recto pero los vehículos situados detrás de él quieren girar a la derecha, ¿qué debe hacer?\nThe driver of this car wants to continue straight, but the vehicles behind want to turn right. What should they do?",
+      "question_id": "exam:1018:02",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 2,
+      "local_image": "/tests/exam/1018/q02.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "priority.lights",
+        "driving.lanes"
+      ],
+      "canonical_id": "3a0ae37851af75975db4e72e"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, si la tasa de alcoholemia es inferior a la máxima permitida.\nNo, if your alcohol level is less than the legal limit.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, especialmente en situaciones complejas.\nYes, especially in complex situations.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": false
+        }
+      ],
+      "help": "DISTRACTIONS  \n \n6.2 Circumstances related to the driver\nFactors related to the driver may result in distraction:\nFatigue and drowsiness, since they affect the ability to concentrate.\nStress, anxiety or depression.\nOlder drivers may tend to lose concentration if proper precautions are not taken.\nThe consumption of alcohol, drugs or other substances.\nCertain characteristics / personality, which may have the propensity to cause distraction.\nBehaviour that interferes with driving.\n(Página 34 del manual 'Learning to drive')",
+      "image_url": "678edb01-a379-4142-8e25-c47f10b4f9ceM.jpg",
+      "number": "3.",
+      "question": "¿Se pueden sufrir más distracciones por los efectos del alcohol?\nCan you become more distracted due to the effects of alcohol?",
+      "question_id": "exam:1018:03",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 3,
+      "local_image": "/tests/exam/1018/q03.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.drugs",
+        "routine.alcohol",
+        "routine.fatigue",
+        "routine.distraction",
+        "routine.emotions"
+      ],
+      "canonical_id": "2f33a6aa3a4b05971caf0766"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "los niños y las personas mayores, exclusivamente.\nchildren and elderly people, exclusively.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "determinados grupos de personas que sufren con mayor frecuencia los efectos negativos del tráfico.\ncertain groups of people who more frequently suffer the negative effects of traffic.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "los pasajeros que resultan heridos en un accidente de tráfico.\npassengers injured in a road accident.",
+          "correct": false
+        }
+      ],
+      "help": "Road traffic collisions  \n   \nRISK GROUPS  \n4 Risk groups\nCertain groups of road users are more at risk because of their characteristics and are more likely to become a casualty.\nAccording to statistics, one of the main groups at risk are pedestrians, especially children and the elderly.\nAmong the drivers most at risk, are young people, older people and the drivers of two-wheeled vehicles (bicycles, motorcycles and mopeds), because in the event of an accident they are more likely to be injured or die.\n(Página 250 del manual 'Learning to drive')",
+      "image_url": "90642104-4655-4f7c-abea-4beec5cec60eM.jpg",
+      "number": "4.",
+      "question": "Llamamos grupos vulnerables a...\n'Vulnerable groups' refer to...",
+      "question_id": "exam:1018:04",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 4,
+      "local_image": "/tests/exam/1018/q04.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "driving.pedestrians",
+        "vehicle.motorcycles"
+      ],
+      "canonical_id": "401ccffe947f9d0a011bd8e5"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "el llamado efecto rebote.\nthe so-called 'rebound effect'.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "somnolencia.\ntiredness.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "nerviosismo.\nnervousness.",
+          "correct": false
+        }
+      ],
+      "help": "OTHER FACTORS\n \n24 Food\nA large meal, which is not easily digested can cause drowsiness and increase driver fatigue. Conversely, if little food is consumed or the period between meals is too long dizziness may occur, which will adversely affect the driver.\nThe advice is to eat light meals or several snacks and to wait some time after a main meal before driving.\nIt is advisable to drink a lot, although you may not feel thirsty, in order to ensure proper hydration and thereby reduce the potential for increased fatigue and sleepiness.\nThe drinking of water or juices is recommended and of course, alcoholic beverages must not be drunk.\n(Página 50 del manual 'Learning to drive')",
+      "image_url": "33681aa4-b9c3-4c8b-9932-853e432aa962M.jpg",
+      "number": "5.",
+      "question": "Las comidas copiosas pueden provocar en el conductor...\nLarge meals can cause...",
+      "question_id": "exam:1018:05",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 5,
+      "local_image": "/tests/exam/1018/q05.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.fatigue",
+        "driving.weather"
+      ],
+      "canonical_id": "f99a4d4a981fddcbf0e37ad7"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "la baja luminosidad del ambiente.\nlow levels of light in the surroundings.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "una situación de tráfico excesivamente sencilla.\na particularly simple traffic situation.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "la alta luminosidad del ambiente.\nhigh levels of light in the surroundings.",
+          "correct": false
+        }
+      ],
+      "help": "DISTRACTIONS  \n \n6.1 Road and environmental circumstances\nDistractions can occur due to:\nOver familiarity of the road can which may lead to an excess of confidence and, therefore, a reduction in attention.\nLow lighting of the environment (e.g. at night) and light and brightness variations, (such as glare) which can result in some important information not being detected. During the night visual acuity is reduced by 70% and the visual field of distance becomes 7 times less effective.\n(Página 34 del manual 'Learning to drive')",
+      "image_url": "708852da-3429-458b-8640-7118fd6992edM.jpg",
+      "number": "6.",
+      "question": "Un factor que favorece la distracción del conductor es...\nA factor that encourages driver distraction is...",
+      "question_id": "exam:1018:06",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 6,
+      "local_image": "/tests/exam/1018/q06.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "routine.distraction",
+        "vehicle.lights"
+      ],
+      "canonical_id": "b80b5a1076f6142a810bbd01"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "dos chalecos reflectantes de alta visibilidad.\ntwo high-visibility reflector jackets.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "un equipo homologado de extinción de incendios, adecuado y en condiciones de uso.\napproved equipment for extinguishing fires, fit for purpose and in good condition.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "una rueda de repuesto del remolque o semirremolque.\na spare wheel for the trailer or semi-trailer.",
+          "correct": false
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving         \n       \n1 Preparation for the trip    \n1.3 Accessories, spare parts and tools    \nBuses, as well as mixed vehicles and automobiles intended for goods transport, the latter two with a MMA exceeding 3,500 kg, and non-special sets of vehicles\n- The V-16 light-emitting hazard warning device or, failing this, two hazard warning triangles.\n- A certified, high-visibility reflective vest inside the interior of the vehicle. It must be visible from at least 150 metres away. If the vehicle is an escort vehicle, protecting and accompanying others, vests must be worn by the driver and each member of the crew.\n- Homologated fire-extinction equipment that is suitable and in usage conditions.\n(Página 270 del manual 'Learning to drive')",
+      "image_url": "c68c9e7c-ca6a-4704-9536-d660fe68dbb8M.jpg",
+      "number": "7.",
+      "question": "Un conjunto de vehículos no especiales en circulación debe llevar, entre sus accesorios...\nA non-special vehicle combination must carry, among other things...",
+      "question_id": "exam:1018:07",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 7,
+      "local_image": "/tests/exam/1018/q07.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.ecodriving",
+        "signs.vehicle_plates",
+        "driving.weather",
+        "vehicle.visibility",
+        "incidents.scene"
+      ],
+      "canonical_id": "09c8194161751e9df953780f"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "prohíben temporalmente el paso.\ntemporarily prohibits passage.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "permiten el paso con precaución.\nallows you to proceed with caution.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "obligan a moderar la velocidad antes de pasar.\nmeans that you must reduce your speed before proceeding.",
+          "correct": false
+        }
+      ],
+      "help": "4 Traffic lights\n \n4.2 Traffic lights for vehicles\n4.2.2 Intermittent red light or two alternatively intermittent red lights (flashing)\nThe temporarily passage and access is prohibited to all vehicles.\nThis type of traffic light is normally located:\nBefore a railway crossing, an entrance to a moving bridge or pontoon bridge.\nIn the proximity of a fire station or the location where fire engines exit.\nOn the approach to an airfield or where airplanes may fly at a low altitude.\n(Página 115 del manual 'Learning to drive')",
+      "image_url": "41b16bf7-ad44-47b7-9ea3-bba668c0d325M.jpg",
+      "number": "8.",
+      "question": "Una luz roja intermitente o dos luces rojas alternativamente intermitentes de un semáforo...\nA flashing red light or two red lights flashing in alternation at a traffic light...",
+      "question_id": "exam:1018:08",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 8,
+      "local_image": "/tests/exam/1018/q08.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "priority.lights"
+      ],
+      "canonical_id": "2b32fff7867654a27d1643b5"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Parar el motor, apagar las luces, los equipos eléctricos y el móvil.\nStop the engine, and turn off the lights, electrical equipment and mobile phone.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Solo apagar las luces.\nJust turn off the lights.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Solo parar el motor y poner la primera relación de marchas.\nJust turn off the engine and put the vehicle in first gear.",
+          "correct": false
+        }
+      ],
+      "help": "2 Drivers      \n     \n2.1 Prohibitions\nIt is prohibited to load fuel in the tank of a vehicle without it being:\nWith the engine stopped.\nWith the lights off.\nWith electrical systems, such as radio, disconnected.\nWith devices emitting electromagnetic radiation, such as mobile phones, turned off.\n(Página 54 del manual 'Learning to drive')",
+      "image_url": "08129f45-e5ec-4733-a1cc-3d9a9f366e9eM.jpg",
+      "number": "9.",
+      "question": "Para repostar carburante, ¿cómo debe actuar?\nWhat must you do when refuelling?",
+      "question_id": "exam:1018:09",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 9,
+      "local_image": "/tests/exam/1018/q09.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "routine.distraction",
+        "routine.ecodriving",
+        "vehicle.cargo"
+      ],
+      "canonical_id": "2114b20d31e54865785531e1"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, el exceso de ruido afecta a cualquier tipo de peatón por igual.\nYes, excess noise affects all pedestrians equally.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No.\nNo.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, y le puede impedir oír y darse cuenta si se acerca un vehículo.\nYes, and it can prevent them from hearing a vehicle and realising that it is approaching.",
+          "correct": true
+        }
+      ],
+      "help": "Road traffic collisions      \n       \nRISK GROUPS      \n5 Pedestrians  \n5.2 The elderly\nThe main problems that are encountered as a pedestrian are:\nToo much noise in the environment, which may prevent them from accurately assessing if a vehicle is approaching.\nDifficulty in assessing the speed of approaching vehicles.\nDifficulty in distinguishing the colours of traffic lights.\nThere are very few areas assigned as pedestrian zones.\nThe excessive width of some roads together with poor lighting makes it difficult to cross them.\n(Página 252 del manual 'Learning to drive')",
+      "image_url": "237efeb8-11c9-491b-b1b5-3f32c6d2c48fM.jpg",
+      "number": "10.",
+      "question": "A un peatón de edad avanzada, ¿le afecta el exceso de ruido?\nDoes excess noise affect elderly pedestrians?",
+      "question_id": "exam:1018:10",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 10,
+      "local_image": "/tests/exam/1018/q10.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "priority.lights",
+        "driving.pedestrians"
+      ],
+      "canonical_id": "0bf5a43507abc101e2f08d51"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Permanecerán en el habitáculo con el cinturón abrochado.\nThey will remain in the cabin with their seatbelt fastened.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Permanecerán en el habitáculo con el cinturón desabrochado y las puertas abiertas.\nThey will remain in the cabin with the seatbelt unfastened and the doors open.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Intentar por todos los medios salir al exterior del vehículo para pedir auxilio.\nTry to leave the vehicle through any means to ask for help.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres                  \n       \n9 Immobilisation: Stationary vehicles Detention (Halting)      \n9.2 Emergency detention (halting due to an emergency)\nIn the event of an accident or breakdown, as a general rule, if the vehicle is stopped without the possibility of restarting, the occupants should leave the vehicle, provided that there is a safe place off the road and, in any case, they must leave the vehicle on the opposite side to the flow of traffic without crossing or remaining on the road or hard shoulders. If the traffic conditions do not allow the occupants to leave the vehicle safely, they will remain inside the vehicle with their seatbelt fastened.\n(Página 197 del manual 'Learning to drive')",
+      "image_url": "ae60ba30-5f1a-4ccb-ba54-857dcd9784a9M.jpg",
+      "number": "11.",
+      "question": "En el caso de accidente o avería, si el vehículo está inmovilizado sin posibilidad de reemprender la marcha y las condiciones de circulación no permitieran a los ocupantes abandonar el vehículo con seguridad, ¿qué deben hacer estos?\nIn the event of an accident or breakdown, if the vehicle is stopped without the possibility of restarting, and the traffic conditions do not allow the occupants to leave the vehicle safely, what should they do?",
+      "question_id": "exam:1018:11",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 11,
+      "local_image": "/tests/exam/1018/q11.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "routine.seatbelts",
+        "documents.permissions",
+        "incidents.towing"
+      ],
+      "canonical_id": "7c6179916bd0d5528fe715ff"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Indicarle con el intermitente derecho que puede adelantar con seguridad.\nUse your right indicator to show that the driver can overtake safely.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Ceñirme al borde derecho de la calzada.\nMove over to the right side of the road.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Disminuir la velocidad.\nSlow down.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres  \n   \n5 Overtaking  \n5.6 Obligations of the driver of the vehicle being overtaken  \n5.6.1 Before the overtake\nMoreover, if a driver realises that they are going to be overtaken, they must leave as much space as possible, provided that there are no obstacles. As a general rule, they should keep to the right-hand side of the lane, without going into the hard shoulder.\nHowever, if they are going to turn left or park or stop on that side, they should keep to the left-hand side, where possible, but without impeding vehicles travelling in the opposite direction.\n(Página 190 del manual 'Learning to drive')",
+      "image_url": "a6cbde59-69fc-483a-93a3-514e8796d1edM.jpg",
+      "number": "12.",
+      "question": "¿Tiene alguna obligación cuando observe que otro vehículo tiene el propósito de adelantarle?\nDo you have to do anything when you see that another vehicle is going to overtake you?",
+      "question_id": "exam:1018:12",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 12,
+      "local_image": "/tests/exam/1018/q12.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "driving.lanes",
+        "driving.overtaking"
+      ],
+      "canonical_id": "082ec159a6c01b5a8446133c"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Cuando haya terminado el desplazamiento lateral.\nOnce you have shifted lanes.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Cuando vuelva al carril derecho.\nWhen you return to the right lane.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Cuando haya rebasado al vehículo y antes de volver a la derecha.\nWhen you have gone past the vehicle and before returning to the right.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nIf the manoeuvre involves a side movement (for example an overtake) then the warning must be concluded as soon as the vehicle has adopted its new course.\n(Página 183 del manual 'Learning to drive')",
+      "image_url": "dd2cff13-b4ce-43fc-9272-73dfb4bbdc8eM.jpg",
+      "number": "13.",
+      "question": "¿Cuándo debe apagar el indicador de dirección un vehículo que se desplaza lateralmente para adelantar?\nWhen should you turn off your indicator when manoeuvring to overtake?",
+      "question_id": "exam:1018:13",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 13,
+      "local_image": "/tests/exam/1018/q13.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.lanes",
+        "driving.overtaking"
+      ],
+      "canonical_id": "c6604986dfb25e0ac536b551"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, pero solo fuera de las horas de utilización.\nYes, but only when it is not in use.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, en cualquier caso.\nYes, always.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres                    \n               \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.5 Prohibited Places  \nParking is prohibited in the following places:\nWhere there are signs that prohibit parking.\nOn pavements, boulevards and other areas allocated for pedestrians to walk.\nNonetheless, municipalities—y municipal ordinance—ay regulate the stopping and parking of two-wheeled vehicles on pavements and boulevards, provided that it does not damage or obstruct pedestrian traffic, attending to the needs of those who may be carrying voluminous objects and, especially, those persons with disabilities.\nIn areas designated for loading and unloading.\n(Página 200 del manual 'Learning to drive')",
+      "image_url": "fa047e2e-1e8f-4396-9f1a-0854cc30ad59M.jpg",
+      "number": "14.",
+      "question": "En una zona señalizada para carga y descarga, ¿está permitido estacionar?\nCan you park in a loading and unloading zone?",
+      "question_id": "exam:1018:14",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 14,
+      "local_image": "/tests/exam/1018/q14.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.parking",
+        "driving.pedestrians",
+        "vehicle.cargo",
+        "documents.permissions"
+      ],
+      "canonical_id": "265cb3638ce1f27c301dc654"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Advertirlo mediante señales acústicas.\nUse your horn to alert other road users.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Circular con la marcha más corta posible.\nDrive in the lowest gear possible.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Deberá advertirlo mediante el empleo reiterado de las luces de frenado.\nYou must notify this by intermittently applying your brake lights.",
+          "correct": true
+        }
+      ],
+      "help": "18 Brake lights\n \n18.2 Use of the brake lights\nThe driver must warn vehicles behind, by means of applying the braking light(s), whenever he is intending to stop his vehicle. The driver will also use the brake lights when slowing down.\nIt is advisable to reinforce the fact that you are slowing down by touching your brake lights, if the situation is such that the traffic in front is slowing down considerably or coming to a standstill and traffic behind you appears to be approaching fast.\n(Página 106 del manual 'Learning to drive')",
+      "image_url": "8dcf93d4-de25-4d82-8f18-a81bd837ef60M.jpg",
+      "number": "15.",
+      "question": "Si por circunstancias del tráfico prevé que va a tener que reducir considerablemente la velocidad, ¿qué debe hacer?\nIf, due to traffic, you have to reduce your speed considerably, what must you do?",
+      "question_id": "exam:1018:15",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 15,
+      "local_image": "/tests/exam/1018/q15.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "driving.braking"
+      ],
+      "canonical_id": "295ce4711f023b7446187cf1"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que debe moderar la velocidad por circunstancias especiales de la circulación.\nYou must reduce your speed due to special driving circumstances.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Que tiene que frenar a su altura como si fuera un semáforo con una luz roja circular.\nYou must brake where you are as if it were a standard red traffic light.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Que debe abandonarlo lo antes posible porque está prohibido ocupar ese carril.\nYou must leave this lane as soon as possible because you cannot drive here.",
+          "correct": true
+        }
+      ],
+      "help": "4 Traffic lights\n \n4.3 Square traffic lights for vehicles or lanes\n4.3.1 Red x-shaped light\nThe red x-shaped light forbids drivers from travelling in this lane.\nDrivers who are in this lane, when the x-shaped light illuminates must leave this lane immediately, but must keep in mind their safety and the safety of others when changing lanes.\n(Página 117 del manual 'Learning to drive')",
+      "image_url": "99a677ae-6fa8-4199-9f47-b6cc7e966294M.jpg",
+      "number": "16.",
+      "question": "Circula por un carril y sobre él encuentra un semáforo con una luz roja en forma de aspa, ¿qué significa?\nYou are driving in a lane and see a red traffic light in the shape of a cross. What does this mean?",
+      "question_id": "exam:1018:16",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 16,
+      "local_image": "/tests/exam/1018/q16.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "priority.lights",
+        "driving.lanes"
+      ],
+      "canonical_id": "dc14db078e78ba097abf2845"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "mantener encendidas las luces de posición.\nkeep their position lights on.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "mantener encendidas siempre las luces de emergencia.\nalways keep their emergency lights on.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "apagar el alumbrado para evitar el desgaste de la batería.\nturn off their lights to prevent the battery from going flat.",
+          "correct": false
+        }
+      ],
+      "help": "4 Position lights\n \n4.4 Usage in immobilizations\nAs a general rule, all vehicles must have their position lights turned on that, between sundown and sunrise or in environmental or weather conditions that noticeably decrease visibility, unexpectedly have to stop for any reason on the roadway or the hard shoulder of a road (whether or not it is sufficiently lighted and both in and outside towns).\n(Página 99 del manual 'Learning to drive')",
+      "image_url": "11514391-dabd-4e37-a5c9-3a5ea408a8dcM.jpg",
+      "number": "17.",
+      "question": "El conductor de un vehículo inmovilizado en la calzada o arcén de una vía interurbana entre la puesta y la salida del sol está obligado a...\nThe driver of a stationary vehicle in the road or by the roadside on an intercity route, between sunset and sunrise, must...",
+      "question_id": "exam:1018:17",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 17,
+      "local_image": "/tests/exam/1018/q17.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.lanes",
+        "vehicle.visibility",
+        "incidents.towing"
+      ],
+      "canonical_id": "93b61a9931ffa829fa2dbf95"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "prevenir, atender y servir (PAS).\nprevent, assist and help.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "socorrer lo antes posible a las víctimas.\nhelp victims as quickly as possible.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "proteger, alertar, socorrer (PAS).\nprotect, alert and aid.",
+          "correct": true
+        }
+      ],
+      "help": "Road traffic collisions  \n \n8 The rule - PAH\nCorrect behaviour in the first 10 minutes directly after a collision is of vital importance as it:\nSaves lives.\nAvoids further collisions.\nReduces (up to 30%) or completely prevents secondary casualties.\nReduces damage to property.\nAnyone who arrives at the site of an accident should apply the rule, which is represented by the abbreviation P.A.H. – protect, advise and help.\n(Página 258 del manual 'Learning to drive')",
+      "image_url": "14f03c24-c445-45c6-80ce-acda4e838a76M.jpg",
+      "number": "18.",
+      "question": "La regla básica de actuación en caso de accidente es...\nThe golden rule in the event of an accident is to...",
+      "question_id": "exam:1018:18",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 18,
+      "local_image": "/tests/exam/1018/q18.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "canonical_id": "625b1bc16d8e1fd37ac0de72"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A la derecha o a la izquierda, es indiferente.\nOn the right or on the left, it is unimportant",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A la derecha.\nOn the right.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A la izquierda.\nOn the left.",
+          "correct": true
+        }
+      ],
+      "help": "Maneouvres              \n   \n6 Change of direction  \n6.2 Carrying out a change of direction\nDrivers should not cut the corners off when turning. And in general, the centre of the junction must be kept to the left hand side of the vehicle.\n(Página 193 del manual 'Learning to drive')",
+      "image_url": "9a7ea149-9d1f-445c-b9f9-7ae89523dffeM.jpg",
+      "number": "19.",
+      "question": "Para cambiar de dirección a la izquierda, ¿dónde debe dejar el centro de la intersección?\nTo make a left turn, where should you exit the centre of the intersection?",
+      "question_id": "exam:1018:19",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 19,
+      "local_image": "/tests/exam/1018/q19.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "canonical_id": "eeba9ba6013220cbd0176aad"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Blanco.\nWhite.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Amarillo.\nYellow.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Naranja.\nOrange.",
+          "correct": false
+        }
+      ],
+      "help": "Safe driving      \n       \n3 Road works  \n3.1 Signage in Sections Undergoing Roadworks or Maintenance Tasks\nWhere danger and regulatory signs are installed in these sections and their conventional background colour is white, they shall instead have a yellow background.\nWhere lane signs are installed, the background shall be yellow instead of blue, and the symbols shall be black instead of white.\nIf new direction signs are required due to roadworks or maintenance tasks, they shall have a yellow background with black characters, regardless of the type of road.\nIf new road markings are used in sections undergoing roadworks, they shall be yellow in colour.\n(Página 225 del manual 'Learning to drive')",
+      "image_url": "06bf5027-fc50-4f43-9c67-78398df46b71M.jpg",
+      "number": "20.",
+      "question": "En tramos de obras, ¿de qué color serán las marcas viales?\nAt sections of road works, what colour will road markings be?",
+      "question_id": "exam:1018:20",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 20,
+      "local_image": "/tests/exam/1018/q20.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "signs.lanes",
+        "signs.temporary",
+        "signs.markings",
+        "priority.tram",
+        "driving.lanes"
+      ],
+      "canonical_id": "b9804e1bd9e668ab748001a1"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "cada año.\nevery year.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "cada dos años.\nevery two years.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "cada cinco años.\nevery five years.",
+          "correct": false
+        }
+      ],
+      "help": "3 Documentation for the vehicle            \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections    \nFrequency of compulsory periodic testing\nCategory of vehicle\n- Three-wheel mopeds and light quadricycles for private use.\n- Motorcycles with and without sidecar, three-wheel vehicles and heavy quadricycles, for private use.\n- Quads.\nFrequency of inspection according to age of the vehicle\n- Up to four years: Exempt.\n- Over four years: Biennial.\n(Página 26 del manual 'Learning to drive')",
+      "image_url": "90f3de46-bf59-4482-b9d4-0113dee97ff5M.jpg",
+      "number": "21.",
+      "question": "Las motocicletas con más de cinco años de antigüedad deben pasar la ITV...\nMotorcycles over five years old must take the ITV...",
+      "question_id": "exam:1018:21",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 21,
+      "local_image": "/tests/exam/1018/q21.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "numbers.deadlines.itv",
+        "vehicle.motorcycles",
+        "vehicle.classification",
+        "documents.itv"
+      ],
+      "canonical_id": "4e17a274d27ed3081f556c8c"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, obteniendo de nuevo el permiso de conducción.\nYes, by getting their driving licence again.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, realizando un curso de sensibilización y reeducación vial.\nYes, by taking a road awareness and re-education programme.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "No, una vez perdidos no es posible recuperarlos.\nNo, once lost, they cannot be recovered.",
+          "correct": false
+        }
+      ],
+      "help": "2 Driver documentation          \n         \n2.2 The penalty point system    \nRegaining points\nAnyone who has lost some points will recover the twelve-point credit if he or she does not lose any more in two years.\nAlso points may be regained (a maximum of four points) by undertaking a recognised and established course of re-education and instruction of a minimum duration of 10 hours. However, such a course may only be undertaken once, every two years (once a year for professional drivers).\n \n \n(Página 20 del manual 'Learning to drive')",
+      "image_url": "00874122-f3be-485c-8688-4126f8b6d953M.jpg",
+      "number": "22.",
+      "question": "Cuando el titular de un permiso de conducir pierda parte de su asignación total de puntos, ¿puede recuperarlos?\nWhen a driving licence holder loses some of their points, can they be recovered?",
+      "question_id": "exam:1018:22",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 22,
+      "local_image": "/tests/exam/1018/q22.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "documents.permissions"
+      ],
+      "canonical_id": "1fe646671263e8ab80ce4582"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, en ningún caso.\nNo, never.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "No, estos carriles están reservados para circular, no está permitido parar a ningún vehículo.\nNo, bus lanes are just for driving, no vehicles can stop there.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, se puede parar con el fin de subir o bajar viajeros.\nYes, you can stop to pick up or drop off passengers.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nOn routes (lanes etc) designated for the exclusive use of city (urban) public transport or reserved exclusively for the use by cycles.\nIn zones designated exclusively for urban public transport to park or stop in.\nIn zones signalled for the exclusive use of people with disabilities.\n(Página 200 del manual 'Learning to drive')",
+      "image_url": "1934d8ee-270c-432a-aadb-973eb1214c3aM.jpg",
+      "number": "23.",
+      "question": "¿Está permitido realizar una parada en un carril reservado para autobuses?\nAre you allowed to stop in a bus lane?",
+      "question_id": "exam:1018:23",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 23,
+      "local_image": "/tests/exam/1018/q23.jpg",
+      "source_note": "Reviewed with official DGT March 2026 test: ordinary drivers cannot stop in bus lanes. Option B overgeneralizes to all vehicles, including authorized buses. Option A matches the question about the ordinary driver. Source https://revista.dgt.es/es/test/Test-num-277.shtml",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.lanes",
+        "driving.parking",
+        "documents.permissions"
+      ],
+      "canonical_id": "e1f922eaab0d707035e109fd"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "las señales y órdenes de los agentes.\nthe signals and orders of the officers.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "los semáforos.\ntraffic lights.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "las señales horizontales.\nhorizontal signs.",
+          "correct": true
+        }
+      ],
+      "help": "Road signalling        \n         \n1 General rules  \n1.4 Order of priority amongst the signalling devices  \n1 Signals and orders given by agents of the authority in charge of traffic surveillance exercising the functions of their jobs.  \n2 Circumstantial signage and beaconing that alters the normal use of the road, delimiting devices, and beaconing signals.\n3 Traffic lights.  \n4 Traffic road signs.  \n5 Road markings.  \n \n(Página 109 del manual 'Learning to drive')",
+      "image_url": "f262fa73-8168-45f7-a032-657534b7867eM.jpg",
+      "number": "24.",
+      "question": "La señalización vertical prevalece sobre...\nVertical signs prevail over...",
+      "question_id": "exam:1018:24",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 24,
+      "local_image": "/tests/exam/1018/q24.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "signs.markings",
+        "priority.lights"
+      ],
+      "canonical_id": "db1849c8cfb7232f7e2e8e49"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "el freno esté en mal estado.\nthe brake is in poor condition.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "los amortiguadores estén en mal estado.\nthe shock absorbers are in poor condition.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "el embrague esté en mal estado.\nthe clutch is in poor condition.",
+          "correct": false
+        }
+      ],
+      "help": "Mechanics and maintenance\n \n10 Suspension system\n10.4 Breakdowns\nSymptom\nThe wheels bounce over ruts etc.\nCause\n- Defective shock absorbers.\n- Excessive tyre inflation pressure.\n(Página 244 del manual 'Learning to drive')",
+      "image_url": "1a10341c-ed55-43b4-a4b3-9e7f9b1578b5M.jpg",
+      "number": "25.",
+      "question": "Cuando las ruedas del vehículo rebotan en los baches puede ser porque...\nWhen the wheels of a vehicle slip on potholes, this can be because...",
+      "question_id": "exam:1018:25",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 25,
+      "local_image": "/tests/exam/1018/q25.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "vehicle.tyres",
+        "incidents.towing"
+      ],
+      "canonical_id": "8d84147cf353e92fedaa2f90"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "En el lado derecho y en el izquierdo.\nOn both the right and left side.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "En el lado derecho solamente.\nOn the right side only.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "En el lado izquierdo solamente.\nOn the left side only.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres        \n   \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.2 Localities where this is permissible\nIn urban routes (within a built-uparea) and in town highways it is permissible to stop or park on the roadway or the hard shoulder.\nWhere the roadway is two-way then the vehicle should be placed as close as possible to the right hand side of the road (in the direction that you are travelling in).\nIn a one way road it is permitted to park or stop on either side of the roadway.\nIn all situations local municipal rules must be complied with.\n(Página 198 del manual 'Learning to drive')",
+      "image_url": "7aeb0e47-69c4-49f4-81d6-811dea24af61M.jpg",
+      "number": "26.",
+      "question": "En esta calle de un sentido no hay señales que prohíban estacionar. ¿En qué lado se puede estacionar?\nThere are no signs in this street that prohibit parking. On which side can you park?",
+      "question_id": "exam:1018:26",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 26,
+      "local_image": "/tests/exam/1018/q26.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.lanes",
+        "driving.parking",
+        "incidents.towing"
+      ],
+      "canonical_id": "590b984e784e6e810d03360f"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Cuando, circulando en grupo, el primer ciclista haya iniciado ya el cruce o haya entrado en una glorieta.\nWhen, driving in a group, the cyclist at the front has already started manoeuvring on an intersection or has entered a roundabout.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Nunca.\nNever.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Siempre.\nAlways.",
+          "correct": false
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels\n \n3 Cyclists, pedestrians and animals\n3.2 Cyclists\nBicycle riders have right of way with respect to other vehicles:\nWhen driving on a cycle lane, a crossing for cyclists or a hard shoulder, all of them duly marked.\nWhen the vehicle is turning right or left to enter another road, in the permitted cases, and there is a bicycle rider near the vehicle.\nWhen cyclists travel in a group, and the first one has started to cross or has entered onto a roundabout, priority is afforded to the whole group –as if it were one long vehicle.\nNote: In all other cases the general rules, concerning right of way between vehicles will be applied.\n(Página 206 del manual 'Learning to drive')",
+      "image_url": "9bc9630c-4901-417e-b153-edddb94087cfM.jpg",
+      "number": "27.",
+      "question": "Los conductores de bicicletas, ¿cuándo tienen prioridad de paso respecto a otros vehículos?\nWhen do cyclists have right of way over other vehicles?",
+      "question_id": "exam:1018:27",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 27,
+      "local_image": "/tests/exam/1018/q27.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "priority.general",
+        "driving.roundabouts",
+        "driving.lanes",
+        "driving.pedestrians",
+        "documents.permissions"
+      ],
+      "canonical_id": "c4151cc4ed2d64533d5b4d30"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "moderar la velocidad del vehículo y si fuera preciso detenerse.\nreduce your vehicle speed and stop if necessary.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "circular a menos de la mitad de la velocidad permitida.\ndrive at half the speed limit.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "advertir la presencia con las luces de largo alcance.\nnotify your presence using your full beam lights.",
+          "correct": false
+        }
+      ],
+      "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nWhen there are pedestrians on the part of the road that is being used or if rationally it could be foreseen, especially if it is children, the elderly, the blind or disabled people.\nThere are cyclists, using the roadway or the likelihood of cyclists –particularly at a junction or in the proximities of a cycle way or crossing.\n(Página 171 del manual 'Learning to drive')",
+      "image_url": "fab4a5ee-3cbc-42da-9152-a3ecd81f4c18M.jpg",
+      "number": "28.",
+      "question": "Cuando en las inmediaciones de la calzada se encuentran niños con intención de cruzar, se debe...\nWhen there are children near the roadside who are trying to cross, you must...",
+      "question_id": "exam:1018:28",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 28,
+      "local_image": "/tests/exam/1018/q28.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.pedestrians"
+      ],
+      "canonical_id": "914e53ff144051e4173b49c3"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Solo en los viajes largos.\nOnly on long trips.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, por ello se debe descansar con mayor frecuencia.\nYes, which is why you should rest more often.",
+          "correct": true
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES  \n   \n10.1 Circumstances that cause fatigue  \n10.1.1 Road and environmental circumstances\nDriving on a road with heavy traffic or with many curves.\nDriving on a poorly maintained road.\nDriving an unfamiliar route.\nDriving with adverse weather conditions (like fog, rain, snow or excessive heat).\nIt is necessary to rest more often when driving in unfavourable conditions (for example, a lot of traffic, or in bad weather etc.)\n(Página 37 del manual 'Learning to drive')",
+      "image_url": "24e2a6ab-635d-4fe7-9ac7-f36e753b0022M.jpg",
+      "number": "29.",
+      "question": "Conducir con mal tiempo, ¿puede favorecer la fatiga?\nCan driving in bad weather lead to fatigue?",
+      "question_id": "exam:1018:29",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 29,
+      "local_image": "/tests/exam/1018/q29.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "routine.fatigue",
+        "driving.weather"
+      ],
+      "canonical_id": "f7233914dbb3d0e15133f987"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "dejando a la izquierda el centro.\nkeeping the centre of the roundabout to your left.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "dejando a la derecha el centro.\nkeeping the centre of the roundabout to your right.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "indistintamente, tanto por la derecha como por la izquierda.\neither to the right or to the left.",
+          "correct": false
+        }
+      ],
+      "help": "2 Use of the road    \n \n2.2 Central refuges, isles, waiting area or guiding devices\nWhen there are pedestrian refuges, central islands or channelizing islands in the road:\nNormally vehicles must pass on the right hand side of these, in the direction of travel.\nIf these are located on a one-way road, they can be passed on either side.\nIf these are located within the part of a road assigned to traffic travelling in one direction only, vehicles can pass on either side.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "9ed29d2e-9fde-41db-a37b-fef802f8cca9M.jpg",
+      "number": "30.",
+      "question": "En las glorietas se circulará...\nAt roundabouts, traffic must travel…",
+      "question_id": "exam:1018:30",
+      "collection_type": "exam",
+      "source_test_id": 1018,
+      "source_ordinal": 30,
+      "local_image": "/tests/exam/1018/q30.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.roundabouts",
+        "driving.pedestrians"
+      ],
+      "canonical_id": "81333a085b8c7d1e4ca3a9f7"
+    }
+  ]
+}

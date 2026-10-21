@@ -288,7 +288,7 @@ func (app *App) test(w http.ResponseWriter, r *http.Request) {
 		app.writeError(w, http.StatusNotFound, "Билет не найден")
 		return
 	}
-	rows, err := app.db.Query(`SELECT q.id,q.ordinal,q.number,q.prompt,q.help_en,q.help_es,q.help_ru,q.image_path,a.letter,a.text FROM questions q JOIN answers a ON a.question_id=q.id WHERE q.test_id=? ORDER BY q.ordinal,a.letter`, testID)
+	rows, err := app.db.Query(`SELECT q.id,q.ordinal,q.number,c.prompt,c.help_en,c.help_es,c.help_ru,q.image_path,a.letter,a.text FROM questions q JOIN question_memberships m ON m.question_id=q.id JOIN question_contents c ON c.id=m.content_id JOIN answers a ON a.question_id=q.id WHERE q.test_id=? ORDER BY q.ordinal,a.letter`, testID)
 	if err != nil {
 		app.serverError(w, err)
 		return

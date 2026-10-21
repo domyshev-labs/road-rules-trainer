@@ -31,7 +31,8 @@
       "image_url": "e7c95cde-55d9-45ad-8e96-515801f2e70bM.jpg",
       "number": "1.",
       "question": "¿Cuáles son las horas especialmente propicias para la aparición del sueño en el conductor?\nWhen are drivers most likely to become tired?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "346f6b77c1d5e07efdfc287b"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "b134b79d-fe84-48d1-a332-aba35079e898M.jpg",
       "number": "2.",
       "question": "Para evitar un accidente, un conductor con fatiga al volante debe parar a descansar de forma adecuada cuanto antes porque...\nTo avoid an accident, a driver who is tired at the wheel must stop to rest in a suitable location as soon as possible because...",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "adc3d51bd75f19eb9ccaa0d8"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "ccc8af15-1902-4d27-a12e-c41406db51daM.jpg",
       "number": "3.",
       "question": "El uso de sustancias estimulantes como el café, ¿resulta útil para vencer el sueño?\nIs the use of stimulants such as coffee useful in overcoming drowsiness?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "b99fec0f9deef66b1903ca31"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "13db8cf9-9def-4bf9-a893-667e6de099a1M.jpg",
       "number": "4.",
       "question": "¿Es recomendable descansar durante los viajes?\nIs it advisable to rest when travelling?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "a2dec5e28ca7471d6616f681"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "8db58fcc-89c6-4e67-a1d4-18786d97daa9M.jpg",
       "number": "5.",
       "question": "El sistema de detección de fatiga, ¿analiza los patrones de conducción y las reacciones del conductor para detectar si hay cansancio en el conductor?\nDoes the fatigue detection system analyse driving patterns and the driver's reactions to detect tiredness in the driver?",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "b83a06ae97ffd7657dfa699c"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "902d072a-9d22-4675-ad30-48739afff899M.jpg",
       "number": "6.",
       "question": "En situaciones en las que el conductor pierde la concentración al volante, ya sea por fatiga o sueño, el sistema de advertencia de somnolencia y distracción (DDR)...\nIn situations where the driver loses concentration at the wheel, whether due to fatigue or sleepiness, the system Driver Distraction and Drowsiness Recognition (DDR)...",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "d4ba8c632e0b9db6e6039f0a"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "bc539b5f-a175-498d-95a2-1308f6b0287bM.jpg",
       "number": "7.",
       "question": "¿Qué es un microsueño?\nWhat is a microsleep?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "097457aaf5d3415fa3c1dda8"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "f1b97252-546e-497b-ae66-64877e890487M.jpg",
       "number": "8.",
       "question": "El alcohol es siempre peligroso para la seguridad vial...\nAlcohol is always dangerous for road safety…",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "25b88b0cb85cdd7b3d8df9e7"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "b2c6b18c-2e90-4540-b453-99bf43787c73M.jpg",
       "number": "9.",
       "question": "Como norma general, está prohibido conducir turismos con una tasa de alcohol en sangre superior a...\nAs a general rule, it is prohibited to drive a car with a blood alcohol concentration exceeding…",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "79ebc130aec1eb87493c5912"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "9bea4f99-ea19-4c80-80aa-978505fff18aM.jpg",
       "number": "10.",
       "question": "¿Cuál es la tasa de alcohol en aire espirado que no podrá superar el conductor de un vehículo que realiza transporte escolar?\nWhat is the limit of alcohol in exhaled air that must not be exceeded by the driver of a school transport vehicle?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "7fbc34ba08f32d3161bc2eb0"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "b7cbb049-52ff-4600-85a0-5e95fbd3eea1M.jpg",
       "number": "11.",
       "question": "Tiene el permiso A1 desde hace dos años y acaba de obtener el B, ¿cuál será la tasa máxima de alcohol permitida cuando conduzca un turismo?\nYou have held an A1 license for two years and you have just obtained your B license. What is the maximum alcohol concentration level permitted when you are driving a private car?",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "24f9f5674e1bf89880dd2b93"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "c4b8ddc9-23cf-43ab-845b-d8c59dc03208M.jpg",
       "number": "12.",
       "question": "En general, ¿a quiénes afecta más el alcohol?\nIn general, who is most affected by alcohol?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "abc0078cc05ecbc8597ba7bd"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "b39d9d1e-2022-4742-a655-50f21ee1df6dM.jpg",
       "number": "13.",
       "question": "Para conducir un camión de menos de 3.500 kg de MMA, la tasa máxima autorizada de alcohol en aire espirado es...\nTo drive a lorry with a gross vehicle weight of less than 3,500 kg, the maximum authorised alcohol content in exhaled air is...",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "9cb92408bd281dd84bb13526"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "f4eab680-ed61-430f-9349-16a1f30b1310M.jpg",
       "number": "14.",
       "question": "Los dos primeros años de su primer permiso, ¿cuál es la tasa máxima de alcohol si es mayor de edad?\nFor the first two years of your first licence, what is the maximum alcohol limit if you are of legal age?",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "6f145a2751c86e82c649f353"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "08865bbd-72eb-4625-82c0-693509f914f8M.jpg",
       "number": "15.",
       "question": "Un conductor con tres años de antigüedad en el permiso AM acaba de obtener el permiso B. ¿Cuál es su tasa máxima permitida de alcohol?\nA driver has had an AM licence for three years just obtained their B licence. What is their maximum permitted alcohol concentration level?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "3dee8f0ec998322cac31e164"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "b53ec9dd-e709-4237-8aec-7058f7a1e3a8M.jpg",
       "number": "16.",
       "question": "Un conductor que tenga un resultado positivo en una prueba de detección de alcoholemia...\nA driver who has a positive result on a breathalyser test...",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "f99c115683570b505a730582"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "07a0c247-fd17-429b-a603-81e8aeb41fbcM.jpg",
       "number": "17.",
       "question": "La tasa máxima de alcohol en aire espirado para conducir vehículos que transportan mercancías peligrosas...\nThe maximum limit of alcohol in exhaled air permitted when driving vehicles transporting dangerous merchandise...",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "ee0a98b5038c5ccaead080a3"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "1f56c99d-4ab0-4659-b151-9c3225f3fe36M.jpg",
       "number": "18.",
       "question": "Para una persona mayor de edad, ¿cuál es la tasa máxima de alcohol permitida para poder conducir un vehículo de movilidad personal?\nFor a person of legal age, what is the maximum permitted level of alcohol to drive a personal mobility vehicle?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "0fc268d34f378dde38bb3888"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "867fe0a5-3b56-4e6e-b96f-12de65a9f3f9M.jpg",
       "number": "19.",
       "question": "El efecto de la alcoholemia alcanza su máximo nivel...\nThe concentration of alcohol in your blood reaches its maximum level…",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "b03d45771840da2428df7699"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "7777ce6c-665e-467d-98bf-6a72d57e0b28M.jpg",
       "number": "20.",
       "question": "Durmiendo un poco, ¿se consigue eliminar más rápidamente el alcohol?\nDoes getting a little sleep help to eliminate alcohol more quickly?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "8d7c692e4518c09276d61c8f"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "32980a69-50dd-4734-8e5c-4864c3e32bd4M.jpg",
       "number": "21.",
       "question": "El tiempo de absorción del alcohol, ¿depende de la bebida ingerida?\nDoes the absorption time for alcohol depend on the drink ingested?",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "5a675b21fcc5732845333c32"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "4e731150-c73f-4048-9c72-4d7a7e9f91e3M.jpg",
       "number": "22.",
       "question": "El consumo de alcohol, ¿altera la posibilidad de deslumbramiento de un conductor?\nDoes alcohol consumption affect the likelihood of a driver being dazzled?",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "84024497f0226065646ada96"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "b06d4f5e-acf1-4618-a906-3094772cf3f8M.jpg",
       "number": "23.",
       "question": "Uno de los efectos que algunas drogas pueden producir en el conductor es...\nOne of the effects that some drugs may produce on a driver is...",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "23afe52fa2f9ac4dc4f1dc67"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "db9c8a77-2608-4e73-9f77-1a4427c24a82M.jpg",
       "number": "24.",
       "question": "Los efectos que provoca el LSD en el comportamiento del conductor...\nThe effects that LSD has on the behaviour of the driver...",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "798715e020538ace8f2f55d4"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "5ce25e2e-5e25-4af2-a990-9ef6449524a9M.jpg",
       "number": "25.",
       "question": "El consumo de éxtasis, ¿cómo afecta en el comportamiento del conductor?\nHow does taking Ecstasy affect driver behaviour?",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "970312ed8a2e3f1a1b2795df"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "c5a0bd06-9f7d-44a4-b0ff-bdceb5f1475fM.jpg",
       "number": "26.",
       "question": "¿Qué efectos puede producir en el conductor el consumo de éxtasis?\nWhat effects could the consumption of ecstasy produce on a driver?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "dc05b6dc2bedd8a00963b7e8"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "a39951fc-4217-4d3d-aa0a-71fcc2930c15M.jpg",
       "number": "27.",
       "question": "El consumo de LSD produce en el conductor…\nThe consumption of LSD produces in the driver…",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "0954ae9e9215e3586cf41598"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "b345a251-def8-407b-9e3c-680b202442bbM.jpg",
       "number": "28.",
       "question": "¿Cómo afecta el consumo de cocaína a la conducción?\nHow does consuming cocaine affect driving?",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "40c23be8ba52f294f68a0043"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "faf1571f-c484-40bc-8be9-a81f26b6f64eM.jpg",
       "number": "29.",
       "question": "Los efectos del cannabis afectan a la conducción por una...\nThe effects of cannabis affects driving in the following way:",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "4ba3417e1ed8cff852442a79"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "139eb8fe-1f3d-4a7b-b1b5-fecda0737eabM.jpg",
       "number": "30.",
       "question": "Los agentes podrán someter a la prueba de detección de estupefacientes, psicotrópicos u otras sustancias análogas a...\nPolice officers are allowed to submit to a test to detect the presence of narcotics, psychotropic drugs and similar substances...",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "2dd96bf12ff140d99154cae2"
     }
   ]
 }

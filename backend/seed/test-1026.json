@@ -31,7 +31,8 @@
       "image_url": "e1263a54-5092-4570-804a-d14da0059049M.jpg",
       "number": "1.",
       "question": "Un vehículo lleva más carga que la Masa Máxima Autorizada (MMA). ¿Está permitido circular así?\nA vehicle is carrying more load that its Maximum Authorized Mass (MAM). Is it permitted to drive like this?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "b0711141bb83bda1917c5eda"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "a2676177-a9b8-46c5-83c8-d404d925e741M.jpg",
       "number": "2.",
       "question": "Para transportar una mascota, salvo que exista en el vehículo un lugar destinado para su transporte, debe estar...\nWhen transporting a pet, unless there is a specific place for its transport in the vehicle, it must be...",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "8198958f619bec1529f7ccfa"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "f1a169eb-12eb-43ad-b98d-f43ba9e0b5ddM.jpg",
       "number": "3.",
       "question": "Para garantizar la seguridad en un turismo, ¿quién cuidará de que los pasajeros mantengan la posición adecuada?\nFor safety in a car, who is responsible for ensuring passengers stay in the correct position?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "9774afc42c96b5bad626effb"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "2c51f95c-c8e0-47ed-9cc7-1078b58a8898M.jpg",
       "number": "4.",
       "question": "En un turismo con cinco plazas autorizadas, ¿puede transportar a seis personas?\nIn a private car with five authorized places, are you permitted to carry six people?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "950b72072ddf0eb45928d734"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "7aeb0e47-69c4-49f4-81d6-811dea24af61M.jpg",
       "number": "5.",
       "question": "En vía urbana de un solo sentido, los usuarios de un vehículo estacionado deberán salir de él...\nOn a one-way urban road, the occupants of a parked vehicle must leave it...",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "c178d58c4581386531aba12b"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "3638b6e5-5563-44e9-85e4-ee187f015654M.jpg",
       "number": "6.",
       "question": "¿Puede el conductor de una bicicleta transportar un pasajero?\nMay a cyclist transport a passenger?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "13327afc06a699daff8e7bb6"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "575f1b2f-64bb-44d0-af4b-9917b53efab4M.jpg",
       "number": "7.",
       "question": "La falta de experiencia del pasajero, ¿puede ser la causa de un accidente en moto?\nCan a passenger's lack of experience be the cause of a motorbike accident?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "6069106eabe970f085e3cbfb"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "21f28cf4-e849-488e-855e-9a1f53ac3c2fM.jpg",
       "number": "8.",
       "question": "¿Cómo debe sentarse el pasajero de una motocicleta?\nHow should a motorcycle passenger sit?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "ca1fa881ae2397bf0ea70394"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "c32308be-e8ac-4f6c-b597-55ea55a8365cM.jpg",
       "number": "9.",
       "question": "La edad mínima para viajar como acompañante en una motocicleta o ciclomotor será de...\nThe minimum age for travelling as a passenger on a motorcycle or scooter is...",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "0315bed6e297649544dc6491"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "110408a1-3a34-45e3-9996-87404acabd0dM.jpg",
       "number": "10.",
       "question": "Transportar un niño situado entre el manillar y el conductor en una motocicleta, ¿está permitido?\nIs it permitted to transport a child situated between the handlebars and rider of a motorcycle?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "c8abd3c7cec44ed659a7ae49"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "460ed8a9-8e51-47a1-8cf9-9ed45e5bdfc9M.jpg",
       "number": "11.",
       "question": "Una motocicleta que arrastra un remolque, ¿puede transportar una persona en él?\nCan a trailer being towed by a motorcycle hold a passenger?",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "05836d2113c458b5ffe473d9"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "b019a497-f9d2-4169-9721-e0055fa4a691M.jpg",
       "number": "12.",
       "question": "Entre la puesta y la salida del sol, ¿está permitido conducir una motocicleta que arrastra un remolque?\nBetween dusk and dawn, are you permitted to ride a motorcycle that is pulling a trailer?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "cbe77ff0d6078061b78ee12c"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "3408d398-d9c4-4d92-ab35-699ed5622af5M.jpg",
       "number": "13.",
       "question": "Para un vehículo con carga, ¿cuál es la altura máxima permitida?\nWhat is the maximum permitted height for a laden vehicle?",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "9b8c4a4872ac7de8b18ee7f0"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "df98560c-ca17-4806-a2f2-feb11654bc45M.jpg",
       "number": "14.",
       "question": "¿Está permitido que la carga de un turismo sobresalga por los laterales?\nIs a load on a private car permitted to project laterally?",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "4748cb6c0b86b0d7e7d35b5b"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "a075d000-6bbf-4d00-87ea-25127cf40d89M.jpg",
       "number": "15.",
       "question": "En un vehículo de menos de 5 metros de longitud, destinado al transporte de mercancías, ¿cuánto puede sobresalir una carga de longitud indivisible por su parte delantera?\nIn a vehicle less than 5 metres long, intended for the transport of goods, by how much can a load of indivisible length protrude from the front?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "96919f98aa2d49feb34136f9"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "59814bc9-447c-4b69-8be9-b3f2eb0d37a2M.jpg",
       "number": "16.",
       "question": "En un vehículo de más de 5 metros, destinado al transporte de mercancías, una carga de longitud indivisible puede sobresalir...\nIn a vehicle over 5 metres long destined for the transport of goods, an undivided load may project...",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "7e5d6cd864eebb5bd4116162"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "c43fe49d-e861-4921-9eba-613aa2068ba1M.jpg",
       "number": "17.",
       "question": "En un turismo, ¿la carga puede sobresalir por su parte posterior?\nIn a private car, may the load project from the rear of the vehicle?",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "4a42aaac650f46708a34a193"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "dd551691-92f4-4f1d-82a0-51d509437afbM.jpg",
       "number": "18.",
       "question": "Una carga sobresale por la parte trasera de un turismo, ¿debe ir señalizada?\nMust a load that projects from the rear of a private car be signalled?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "9ac02a6bfe208fe8d6d3187c"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "db24175a-6488-4b13-a766-69206d3de745M.jpg",
       "number": "19.",
       "question": "Este panel deberá colocarse...\nThis panel must be placed…",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "210da4f051018c643d23484c"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "46c94cce-d6f8-41cd-beb2-d576c41c7f04M.jpg",
       "number": "20.",
       "question": "¿Cómo debe señalizar la carga que sobresale de una motocicleta?\nHow must you signal the load that is projecting from a motorcycle?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "8572bc2336c7738a47baf299"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "b3667096-45f8-480e-a720-6aed92327645M.jpg",
       "number": "21.",
       "question": "En un vehículo de anchura inferior a un metro, ¿puede sobresalir la carga por delante o por detrás?\nIn a vehicle with a width of less than one metre, can the load protrude at the front or at the back?",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "cb2f6514a259e85ad7bb9150"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "3ad9b342-c98a-4af0-8045-e4b9e2d447d9M.jpg",
       "number": "22.",
       "question": "En los vehículos de anchura inferior a un metro...\nOn vehicles less than one metre wide…",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "180afb5ca7d6575a5b520254"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "d92633a8-2099-4712-b8c4-9b94ebafef2cM.jpg",
       "number": "23.",
       "question": "De noche, es obligatorio señalizar una carga que sobresale lateralmente más de 0,40 metros de los bordes exteriores de las luces de posición...\nAt night, is it mandatory to identify a load which protrudes from the side of the vehicle by more than 0.40 metres from the outer edges of the position lamps...",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "9b2919db7731ecd1ce3d0c6c"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "b366d0c5-a7fc-4c20-a9c2-c9e8cb9f3b92M.jpg",
       "number": "24.",
       "question": "Este camión, ¿cómo debe llevar la carga que sobresale?\nHow should this lorry carry the protruding load?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "5b40104fb50443c8b5871c19"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "22948e1a-58b2-4677-a481-fa7d142e12c3M.jpg",
       "number": "25.",
       "question": "Si por cualquier circunstancia tuviera que realizar la operación de descarga de su vehículo dentro de la vía pública, ¿cómo deberá hacerlo?\nIf for any reason you have to unload your vehicle on the public highway, how should you do it?",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "970ba7355a44c273dc134991"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "9e29fbe6-fed9-4195-ae37-71e349fc3269M.jpg",
       "number": "26.",
       "question": "¿Es correcto depositar objetos en la vía mientras se realizan operaciones de carga y descarga?\nIs it acceptable to leave objects on the road while loading and unloading?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "1331528930dac2178fc18755"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "c8872023-b653-431d-9282-7f97ad471232M.jpg",
       "number": "27.",
       "question": "Las operaciones de carga y descarga se llevarán a cabo...\nLoading and unloading operations must be carried out…",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "242df06ad38f376b779147c8"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "9b9a6501-126d-407f-ace2-766de73ceb6bM.jpg",
       "number": "28.",
       "question": "¿Cuántas placas de matrícula lleva una motocicleta?\nHow many licence plates does a motorcycle have?",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "f3f16220144767b3a90a924f"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "426691d2-fdf0-4ed9-ad18-39fd4b0052edM.jpg",
       "number": "29.",
       "question": "Un vehículo con esta señal indica que...\nA vehicle with this sign indicates that...",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "8da825c755e8fb45dc515eed"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "57475f44-6087-4620-bb09-a77e14db62cfM.jpg",
       "number": "30.",
       "question": "El vehículo lleva dos rectángulos amarillos con borde rojo. ¿Qué indican?\nThe vehicle has two yellow rectangles with a red border. What do they indicate?",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "68e439b208aaf57b43483181"
     }
   ]
 }

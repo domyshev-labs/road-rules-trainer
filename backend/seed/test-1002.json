@@ -31,7 +31,8 @@
       "image_url": "81eeb89c-ef53-47cd-8566-6756cbde16c3M.jpg",
       "number": "1.",
       "question": "¿Se puede llevar una fotocopia del permiso de conducción en lugar del original?\nCan you carry a photocopy of your driving licence instead of the original?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "19823dfe602f11bb58fe874e"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "e565f326-352a-4503-b980-08c85f5ebdedM.jpg",
       "number": "2.",
       "question": "El número de puntos inicialmente asignado al titular de un permiso o licencia de conducción se verá reducido…\nThe number of points initially assigned to the holder of a driving licence or permit will be reduced...",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "cb1a3d60bf117e290487670a"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "08865bbd-72eb-4625-82c0-693509f914f8M.jpg",
       "number": "3.",
       "question": "¿Cuántos puntos se pueden perder en un día?\nHow many points can you lose in one day?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "c0b2875fe0a9eb9a80bae6d4"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "00874122-f3be-485c-8688-4126f8b6d953M.jpg",
       "number": "4.",
       "question": "Cuando el titular de un permiso de conducir pierda parte de su asignación total de puntos, ¿puede recuperarlos?\nWhen a driving licence holder loses some of their points, can they be recovered?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "1fe646671263e8ab80ce4582"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "d5e806d8-03cc-48dc-a454-c283dcc1701eM.jpg",
       "number": "5.",
       "question": "Con el curso de sensibilización y reeducación vial de recuperación parcial de puntos se puede recuperar...\nBy taking the partial recovery road awareness and re-education programme, you can recover...",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "11557c14fdd5cf700478e939"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "7ca15b5c-975e-4ed9-8ba9-61323f23886aM.jpg",
       "number": "6.",
       "question": "El permiso de la clase B con más de tres años de antigüedad, ¿permite conducir por territorio español una motocicleta con sidecar?\nIs it permitted to drive a motorcycle with a sidecar within Spain using a class B licence which is at least three years old?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "49e386ddb764a2600dfc87b6"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "2af9cd60-e23c-4912-aa3c-27e280c93bf8M.jpg",
       "number": "7.",
       "question": "Con el permiso B, ¿está permitido conducir un taxi en servicio?\nWith a class B licence, are you permitted to drive a taxi on duty?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "4724f4fa036b7363996a1e4d"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "3fb2e486-cc34-4ce2-b50c-9656d3e7be4bM.jpg",
       "number": "8.",
       "question": "Un tractor agrícola de más de 3.500 kilogramos de MMA, ¿se puede conducir con el permiso B?\nCan an agricultural tractor with an MAM of more than 3,500 kg drive with a B licence?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "9bc0e7103c8b9ef0f518abe9"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "86f5e696-cafb-4e4c-8f6c-6e2197f65afaM.jpg",
       "number": "9.",
       "question": "Conducir, con un permiso de la clase B, un turismo que arrastra un remolque ligero, ¿está permitido?\nIs a private car pulling a light trailer permitted to drive with a Class B licence?",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "9d2949537d5c77d0204b4c7d"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "9407b663-3b78-4dc3-9cc4-d68271453afaM.jpg",
       "number": "10.",
       "question": "¿Qué requisitos mínimos son necesarios para conducir un turismo de 3.000 kg de MMA que arrastra un remolque de 800 kg de MMA?\nWhat are the minimus requirements necessary to drive a vehicle with a maximum authorized mass of 3000 kilograms that tows a trailer with a maximum authorized mass of 800 kilograms?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "963b0ff4760a0a26c1f1751c"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "28e5beac-2f40-4a13-92d2-9b946131fce2M.jpg",
       "number": "11.",
       "question": "El permiso de la clase B autoriza la conducción de ciertos automóviles impulsados por combustibles alternativos con una MMA no superior a 4.250 kg…\nA class B licence allows you to drive certain vehicles powered by alternative fuels with a MAM not exceeding 4,250 kg...",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "ba42784711f025ff5f53b835"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "097580ae-f414-4717-b4bb-40cf821cb134M.jpg",
       "number": "12.",
       "question": "Si tiene el permiso de la clase B desde hace más de un año y ahora obtiene el de la clase A2, ¿está obligado a llevar una placa L en su motocicleta?\nIf you have had a class B licence for more than one year and now obtain the A2 licence, do you need to carry an L plate on your motorcycle?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "377525b1a91c3435614809b4"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "29ab97ee-10b2-4525-bd1a-df8280d7f497M.jpg",
       "number": "13.",
       "question": "¿Qué plazo de vigencia tiene el permiso de la clase B?\nHow long is a class-B licence valid for?",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "1431c12511e106271fb96ff7"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "7afa6d6e-bc37-4a75-ab67-6a56d565cd67M.jpg",
       "number": "14.",
       "question": "El titular de un permiso de conducción deberá comunicar a la Jefatura Provincial de Tráfico el cambio de su domicilio dentro del plazo de...\nA driving licence holder must report a change of address to the Local Traffic Department within...",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "8369c724f3a71a1d2d3739c1"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "f5cd7088-7219-42b7-a2f9-27f89cb89a16M.jpg",
       "number": "15.",
       "question": "Para poder circular, ¿qué vehículos deben tener obligatoriamente el permiso de circulación?\nTo be able to drive, which vehicles must have a vehicle registration certificate?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "2972e1c3456912c3e2764c2f"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "004e8a18-a866-4659-8f5c-e56c4313c06aM.jpg",
       "number": "16.",
       "question": "¿Quién es el responsable de pasar la ITV a un turismo?\nWho is responsible for arranging the ITV for a car?",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "ba49073e5c4bfa4843c05908"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "f7f97a5e-cf38-4804-8536-46a422e89c1eM.jpg",
       "number": "17.",
       "question": "Para saber la fecha en que se debe pasar la primera ITV, la antigüedad de un vehículo empieza a contar a partir de...\nIn order to know the date on which a vehicle must pass its MOT, the age of a vehicle is counted from...",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "1d79ed371b76a0280c6f0048"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "60e35d91-34b9-47a8-8f65-450797163c0cM.jpg",
       "number": "18.",
       "question": "Si vende su vehículo, ¿debe comunicarlo a la Jefatura de Tráfico?\nIf you sell your vehicle, do you have to inform the Spanish Traffic Department (Jefatura de Tráfico)?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "9f167a45875a4879f7f77c2c"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "eecc956e-d030-4a16-b308-93a6d6488e01M.jpg",
       "number": "19.",
       "question": "Los remolques ligeros con más de dos años de antigüedad, ¿deben pasar la ITV?\nShould light trailers over two years old take the ITV?",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "bc80da029d90362de92b390c"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "232829fd-979c-4903-ae44-2aae5c4c5848M.jpg",
       "number": "20.",
       "question": "¿Cuándo debe pasar un turismo la primera inspección técnica?\nWhen must a passenger car have its first technical inspection?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "8206e0de157be5a7f0234a64"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "643e1be7-176d-4e72-b83e-437c1c0a8fcaM.jpg",
       "number": "21.",
       "question": "Si se matricula hoy una caravana de la categoría O2 para llevarla enganchada a un turismo, ¿cada cuánto tiempo debe presentarla a inspección técnica periódica durante los primeros seis años?\nIf you register an O2 category caravan today to be towed by a car, how often should you submit it to a periodic technical inspection for the first six years?",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "2be810e0cd3231b1500ebb74"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "90f3de46-bf59-4482-b9d4-0113dee97ff5M.jpg",
       "number": "22.",
       "question": "Las motocicletas con más de cinco años de antigüedad deben pasar la ITV...\nMotorcycles over five years old must take the ITV...",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "4e17a274d27ed3081f556c8c"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "36840c60-ab7d-4d1d-9148-eac6a8ef0ad5M.jpg",
       "number": "23.",
       "question": "Un furgón de hasta 3.500 kg de 5 años de antigüedad, ¿cuándo debe pasar la inspección técnica?\nWhen should a 5-year-old van under 3,500 kg take the technical inspection?",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "c9463148781c4dde23abb22e"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "4c2fdc18-9ac9-49c1-87dc-e6b1d160b5ceM.jpg",
       "number": "24.",
       "question": "Un turismo con once años de antigüedad debe someterse a la inspección técnica periódica...\nA car that is eleven years old must take its periodical technical inspection...",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "faa2d1a8213bc745d775ae3b"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "a8bb2294-c320-4cc2-b0bd-22c6e967f857M.jpg",
       "number": "25.",
       "question": "Un turismo acaba de pasar satisfactoriamente la primera inspección técnica periódica, ¿cuándo debe pasar la siguiente?\nA passenger car has just passed its first regular technical inspection, when must it pass the next one?",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "be70b7da715efc170c976f3a"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "94a80fd8-a8ee-433c-aa7c-7d6ace452219M.jpg",
       "number": "26.",
       "question": "El seguro obligatorio, ¿cubre los daños en la persona del conductor del vehículo asegurado?\nDoes compulsory civil insurance cover injuries to the driver of the insured car?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "77edb69a961e993aa9236c97"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "2b7a83f3-ebb0-4256-80f0-767f06bcf5d2M.jpg",
       "number": "27.",
       "question": "El seguro obligatorio, ¿cubre los daños del vehículo asegurado?\nDoes compulsory insurance cover damage to the insured vehicle?",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "f98926d15187aeff60b7fddf"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "d750de09-0e4e-4c4f-b6ab-e417022796bdM.jpg",
       "number": "28.",
       "question": "Los usuarios de las vías cuyo vehículo haya sufrido un accidente, ¿tienen permitido cumplimentar el parte de accidente en la plataforma de circulación?\nAre road users whose vehicle has been involved in an accident allowed to complete the accident report on the road?",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "6eee55bede68e9806d9e8c3a"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "fa60b4f5-a3da-4a14-a9c8-4f197e0f75a4M.jpg",
       "number": "29.",
       "question": "En caso de accidente, el seguro obligatorio de un vehículo, ¿cubre los daños producidos a la parte contraria?\nIn the event of an accident, does compulsory vehicle insurance cover the damages caused to the other party?",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "cf8fdbc2591857af99872231"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "9d1b61e5-f659-4448-8aeb-4374e847ea12M.jpg",
       "number": "30.",
       "question": "Uno de los pasajeros adultos del turismo que usted conduce no lleva puesto el cinturón de seguridad. Si un agente de la autoridad denuncia la infracción, ¿quién es el responsable?\nOne of the adult passengers in the car you are driving is not wearing a seat belt. If a law enforcement officer reports the offence, who is responsible?",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "e6051165cbc8c7875393e7f9"
     }
   ]
 }

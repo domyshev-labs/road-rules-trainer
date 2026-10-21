@@ -59,7 +59,7 @@ func TestPasswordlessQuizFlow(t *testing.T) {
 	application, sender := newTestApp(t)
 	handler := application.Handler()
 	var questionCount int
-	if err := application.db.QueryRow(`SELECT count(*) FROM questions`).Scan(&questionCount); err != nil || questionCount != 956 {
+	if err := application.db.QueryRow(`SELECT count(*) FROM questions`).Scan(&questionCount); err != nil || questionCount != 1363 {
 		t.Fatalf("seeded questions: count=%d error=%v", questionCount, err)
 	}
 
@@ -79,11 +79,11 @@ func TestPasswordlessQuizFlow(t *testing.T) {
 
 	response = request(t, handler, http.MethodGet, "/api/catalog", "", cookie)
 	var catalog []map[string]any
-	if response.Code != http.StatusOK || json.Unmarshal(response.Body.Bytes(), &catalog) != nil || len(catalog) != 33 {
+	if response.Code != http.StatusOK || json.Unmarshal(response.Body.Bytes(), &catalog) != nil || len(catalog) != 47 {
 		t.Fatalf("catalog: status=%d count=%d body=%s", response.Code, len(catalog), response.Body.String())
 	}
 	for _, ticket := range catalog {
-		if ticket["collection"] != "Thematic Test" {
+		if ticket["collection"] != "Thematic Test" && ticket["collection"] != "Exam Test" {
 			t.Fatalf("unexpected ticket collection: %#v", ticket)
 		}
 	}
@@ -213,5 +213,35 @@ VALUES('legacy-attempt',987654,'A',1,'2026-10-20T00:00:01Z');`)
 		if err != nil || count != 1 {
 			t.Fatalf("legacy answer after migration: count=%d error=%v", count, err)
 		}
+	}
+}
+
+func TestSharedQuestionsAndExamMemberships(t *testing.T) {
+	application, _ := newTestApp(t)
+	var thematic, exam string
+	if err := application.db.QueryRow(`SELECT m.content_id FROM question_memberships m JOIN questions q ON q.id=m.question_id WHERE q.test_id=1023 AND q.ordinal=1`).Scan(&thematic); err != nil {
+		t.Fatal(err)
+	}
+	// Source question 8 has training ordinal 7 because source question 5 is deferred.
+	if err := application.db.QueryRow(`SELECT m.content_id FROM question_memberships m JOIN questions q ON q.id=m.question_id WHERE q.test_id=101045 AND q.ordinal=7`).Scan(&exam); err != nil {
+		t.Fatal(err)
+	}
+	if thematic != exam {
+		t.Fatalf("shared question was duplicated: %s != %s", thematic, exam)
+	}
+	var sourceNumber, image string
+	if err := application.db.QueryRow(`SELECT number,image_path FROM questions WHERE test_id=101045 AND ordinal=7`).Scan(&sourceNumber, &image); err != nil {
+		t.Fatal(err)
+	}
+	if sourceNumber != "8." || image != "/tests/exam/1045/q08.jpg" {
+		t.Fatalf("lost source position: %q %q", sourceNumber, image)
+	}
+	var count int
+	if err := application.db.QueryRow(`SELECT count(*) FROM questions WHERE test_id=101045 AND number IN ('5.','16.','26.')`).Scan(&count); err != nil || count != 0 {
+		t.Fatalf("deferred questions imported: count=%d err=%v", count, err)
+	}
+	var incomplete int
+	if err := application.db.QueryRow(`SELECT count(*) FROM questions q WHERE (SELECT count(*) FROM answers a WHERE a.question_id=q.id AND a.correct=1)<>1`).Scan(&incomplete); err != nil || incomplete != 0 {
+		t.Fatalf("invalid answer keys: count=%d err=%v", incomplete, err)
 	}
 }

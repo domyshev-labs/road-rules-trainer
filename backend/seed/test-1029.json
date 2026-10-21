@@ -31,7 +31,8 @@
       "image_url": "51336246-07e6-4346-bcf6-56a3cd018f8dM.jpg",
       "number": "1.",
       "question": "¿Es necesario revisar el filtro del aire?\nIs it necessary to check the air filter?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "21895c5b04b99dae43e8690f"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "7b90ccec-8c64-4552-ac4d-80b6c4271281M.jpg",
       "number": "2.",
       "question": "Los bornes de la batería, ¿deben mantenerse limpios?\nDo the battery terminals need to be kept clean?",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "c1df87f6b330bf7c90e09da3"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "821df3d0-8e53-4f1d-ab71-9757398082e2M.jpg",
       "number": "3.",
       "question": "Cuando una batería necesita líquido, ¿qué líquido se debe poner?\nWhen a battery needs fluid, what fluid must you use?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "be9168ea42e99dab76aa9109"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "de8c6147-2628-4574-b6ea-775ac5753eecM.jpg",
       "number": "4.",
       "question": "¿Es conveniente hacer una revisión exhaustiva del estado del vehículo si el humo que despide el tubo de escape es de color negro?\nShould you carry out a thorough review of the vehicle's condition if the smoke coming from the exhaust is black?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "a47646fe40103441fe1b836e"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "d1448fdb-eab9-40db-8ed9-feaea690d6c2M.jpg",
       "number": "5.",
       "question": "Las lámparas del automóvil deben sustituirse...\nThe lights of the automobile must be substituted...",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "1e83444f8ce70cfb8decc4aa"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "485b8cef-678d-4819-a549-c8077cbf0d24M.jpg",
       "number": "6.",
       "question": "El nivel de aceite del motor, ¿cómo se debe comprobar?\nHow do you check the oil level in the engine?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "df4dd99d965093a790269010"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "27020695-bb90-4a58-96f3-fae9efeefc4aM.jpg",
       "number": "7.",
       "question": "El filtro de aceite, ¿cuándo hay que cambiarlo?\nWhen do you have to change the oil filter?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "51580351d6b119c3f89620e2"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "346a5035-c378-4ff6-9894-849f98d01951M.jpg",
       "number": "8.",
       "question": "¿Qué se debe hacer con el aceite usado del vehículo?\nWhat should you do with the used oil from the vehicle?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "d955eb10caddacb875f327b7"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "49f1fcd9-7f38-41d5-971e-6bd823b2fb1cM.jpg",
       "number": "9.",
       "question": "¿Cuál es la misión principal del líquido refrigerante?\nWhat is the main purpose of coolant?",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "ec035cbf3cd6621326d4ba2b"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "55579f0e-dd6e-4fde-b147-d51f037a9005M.jpg",
       "number": "10.",
       "question": "Las ruedas motrices, ¿cuáles son?\nWhat are the drive wheels?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "56a8b4cc51141d3d2ec425df"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "f0fd2cdd-ff4b-428e-a622-9bdd85b99417M.jpg",
       "number": "11.",
       "question": "A baja velocidad, la dirección asistida progresiva...\nAt low speeds, progressive power steering…",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "62e10d93267b1d5d4a19bc6f"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "69b47e19-8aa6-4546-975f-422ee5efff57M.jpg",
       "number": "12.",
       "question": "Es recomendable revisar la dirección del vehículo cuando...\nIt is advisable to check the vehicle's steering when…",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "5eb9da85bdd664cb5471c08a"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "977d66da-79d3-4d15-97cd-433a7788cb93M.jpg",
       "number": "13.",
       "question": "Si la amortiguación está en malas condiciones, al frenar...\nIf shock absorbers are in bad condition, when braking...",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "6369c837f944f978c796e2eb"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "56935c3a-4286-442c-bc15-afe8a88f4ac0M.jpg",
       "number": "14.",
       "question": "La amortiguación en malas condiciones hace que, al frenar...\nIf the shock absorbers are in bad condition, when braking...",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "8523930beae0c1e06ef64cfe"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "eefad204-c2a6-49c2-b59d-0b9963420ce0M.jpg",
       "number": "15.",
       "question": "¿Puede perder el control del vehículo si circula con los amortiguadores en mal estado?\nCan you lose control of your vehicle if you are driving with shock absorbers in poor condition?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "2d6bc219c10f06f3d8dca6f4"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "7d7f1589-4dbe-4655-8c40-1a8e2dc7e13dM.jpg",
       "number": "16.",
       "question": "Un amortiguador en malas condiciones, ¿qué consecuencias puede tener?\nWhat are the consequences of a damper in poor condition?",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "3f44cc8c59b0a82f281ba6d5"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "a5cb5139-56c7-4621-ae2c-0a2c37aeb7e1M.jpg",
       "number": "17.",
       "question": "Una correcta suspensión del vehículo sirve para...\nThe correct suspension of a vehicle is necessary to…",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "4042c42f7f50692d1b92c918"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "ae76fce2-32ed-4a92-8ac9-c89221c76503M.jpg",
       "number": "18.",
       "question": "Si los amortiguadores están defectuosos...\nIf the brake pads are defective...",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "0ea9068e5033c09138c96fee"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "af91a8d8-c8b7-4e7c-add6-553531444fceM.jpg",
       "number": "19.",
       "question": "Cuando los neumáticos del vehículo se desgastan irregularmente puede ser...\nWhen the vehicle's tyres wear unevenly it may be…",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "c49d9b65a8867b4bf770198a"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "ed615d31-7859-4fe8-afc6-f23563cbc250M.jpg",
       "number": "20.",
       "question": "Para el buen mantenimiento del sistema de frenos, ¿qué se debe hacer?\nFor good maintenance of the brake system, what should you do?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "f57f09696d6bf4dcf85fd799"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "3b9e11df-9f9b-42a6-93a0-91aec3ff0b4fM.jpg",
       "number": "21.",
       "question": "Si observa que en el momento de pisar el pedal del freno este no actúa con eficacia puede ser debido a...\nIf you notice that the brake does not work effectively when stepping on the pedal, it might be because...",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "26aa180435ee1e5bf8115202"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "be3a1dbb-8dd5-4d17-902e-e8778ca11a9fM.jpg",
       "number": "22.",
       "question": "Si el pedal de freno tiene un tacto esponjoso puede ser porque...\nIf the brake pedal feels spongy, this could be because...",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "2ced632b921bab15c9a35049"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "de8c6147-2628-4574-b6ea-775ac5753eecM.jpg",
       "number": "23.",
       "question": "¿Es necesario revisar con frecuencia el nivel del líquido de frenos?\nMust the level of brake fluid in a vehicle be checked regularly?",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "652f6d504ff03e96ea8b6ee2"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "7c3440ea-2e08-4d59-a8da-3544b0554a40M.jpg",
       "number": "24.",
       "question": "¿Hay que revisar periódicamente el estado de las pastillas y los discos de freno?\nShould you regularly check the condition of brake discs and pads?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "09ff91c7ada131d1715dcb3d"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "1c01d7c9-4918-40c7-8054-b1026ea543caM.jpg",
       "number": "25.",
       "question": "Si conduce una motocicleta y la calzada está mojada, ¿es necesario incrementar la presión de inflado de los neumáticos por encima de la recomendada por el fabricante?\nIf you are riding a motorcycle and the road is wet, do you need to increase the tyre inflation pressure above manufacturer recommendations?",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "9baf09baf8a930ed9ca7d64c"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "8399831b-a6b9-4d86-a1a3-d25cb0e0874fM.jpg",
       "number": "26.",
       "question": "¿Cada cuánto tiempo debe controlar la presión de los neumáticos de su vehículo?\nHow often should you check your vehicle's tyre pressure?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "fc2e428358b7942996c1482b"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "10613b2c-77cb-45c5-888f-4c4a74969abfM.jpg",
       "number": "27.",
       "question": "¿Qué elemento del vehículo es importante revisar con más frecuencia?\nWhich element of the vehicle is it important to check most frequently?",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "e3770317f95991621225b37d"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "fc4627a5-80d5-4945-a205-20d312283628M.jpg",
       "number": "28.",
       "question": "¿Es conveniente revisar con frecuencia el estado de los neumáticos?\nIs it advisable to regularly check tyre condition?",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "f66cb4e45095161b9049784c"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "a1a45c88-1182-4393-bffc-99ac0984cf2cM.jpg",
       "number": "29.",
       "question": "Si la rueda de repuesto es igual al resto de las ruedas del vehículo, ¿qué presión de inflado debe llevar?\nIf the spare wheel is the same as the other vehicle wheels, what should be its inflation pressure?",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "8b6b8aa4ac73e944c83789c1"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "d618b110-780b-4705-8ccc-3b5ff3a154b2M.jpg",
       "number": "30.",
       "question": "¿A qué presión de inflado se deben llevar los neumáticos de un vehículo?\nWhat is the recommended tyre pressure?",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "7d2c9e31bc348603d5ca5b13"
     }
   ]
 }

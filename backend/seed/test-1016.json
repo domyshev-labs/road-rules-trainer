@@ -31,7 +31,8 @@
       "image_url": "63cc2dd2-4ef8-4a7a-903b-714adc2a681bM.jpg",
       "number": "1.",
       "question": "¿Cuándo debe ceñirse especialmente al borde derecho de la calzada?\nWhen should you take special care to keep to the right-hand side of the road?",
-      "local_image": "images/q01.jpg"
+      "local_image": "images/q01.jpg",
+      "canonical_id": "2bc6d8366140f15ceeb6e248"
     },
     {
       "answers": [
@@ -55,7 +56,8 @@
       "image_url": "9ed29d2e-9fde-41db-a37b-fef802f8cca9M.jpg",
       "number": "2.",
       "question": "En las glorietas se circulará...\nAt roundabouts, traffic must travel…",
-      "local_image": "images/q02.jpg"
+      "local_image": "images/q02.jpg",
+      "canonical_id": "81333a085b8c7d1e4ca3a9f7"
     },
     {
       "answers": [
@@ -79,7 +81,8 @@
       "image_url": "d862cd2d-c8fc-4a87-9dd1-8792ee584cd6M.jpg",
       "number": "3.",
       "question": "Como norma general, una motocicleta, ¿puede circular por el arcén?\nAs a general rule, can a motorcycle travel along the hard shoulder?",
-      "local_image": "images/q03.jpg"
+      "local_image": "images/q03.jpg",
+      "canonical_id": "833050dec772e3cf55b743f6"
     },
     {
       "answers": [
@@ -103,7 +106,8 @@
       "image_url": "eda16789-26e0-43af-bf98-f6699d677b3bM.jpg",
       "number": "4.",
       "question": "En esta situación de aglomeración, ¿podrá circular por el arcén?\nIn this traffic situation, can you travel on the hard shoulder?",
-      "local_image": "images/q04.jpg"
+      "local_image": "images/q04.jpg",
+      "canonical_id": "56772ff6b0dc1375398cc274"
     },
     {
       "answers": [
@@ -127,7 +131,8 @@
       "image_url": "191759e0-a11a-435b-b8c8-6d15ca9d366aM.jpg",
       "number": "5.",
       "question": "En una autovía que discurre por suelo urbano, debe...\nWhen on a dual carriageway that runs through an urban area, you must…",
-      "local_image": "images/q05.jpg"
+      "local_image": "images/q05.jpg",
+      "canonical_id": "262e7735b0f8a08650e8ec0e"
     },
     {
       "answers": [
@@ -151,7 +156,8 @@
       "image_url": "6e8e1d4e-95b2-4a24-af6b-1b54aa394f80M.jpg",
       "number": "6.",
       "question": "Como norma general, ¿qué vehículos deben circular por la calzada y no por el arcén?\nAs a general rule, which vehicles must circulate on the road and not on the hard shoulder?",
-      "local_image": "images/q06.jpg"
+      "local_image": "images/q06.jpg",
+      "canonical_id": "03347908923df37c08585e45"
     },
     {
       "answers": [
@@ -175,7 +181,8 @@
       "image_url": "c90d0584-449a-4f89-aa4c-38d5bf587611M.jpg",
       "number": "7.",
       "question": "En una curva de visibilidad reducida, ¿por dónde debe circular?\nOn a bend with reduced visibility, where should you drive?",
-      "local_image": "images/q07.jpg"
+      "local_image": "images/q07.jpg",
+      "canonical_id": "ef91b59f7b12678af244c345"
     },
     {
       "answers": [
@@ -199,7 +206,8 @@
       "image_url": "ecd618a9-a65d-40e9-a2b9-e37e848dbb44M.jpg",
       "number": "8.",
       "question": "En una vía de doble sentido, ¿por qué lado de una isleta se circulará?\nOn a two-way street, on which side of the island must you drive?",
-      "local_image": "images/q08.jpg"
+      "local_image": "images/q08.jpg",
+      "canonical_id": "0de379452ca68304e8c23acc"
     },
     {
       "answers": [
@@ -223,7 +231,8 @@
       "image_url": "a3e53c30-20d3-4b43-9011-8784c5b2097fM.jpg",
       "number": "9.",
       "question": "En vías divididas en tres calzadas, la central podrá estar destinada a la circulación en...\nOn roads divided into three lanes, the central lane can be used for travel...",
-      "local_image": "images/q09.jpg"
+      "local_image": "images/q09.jpg",
+      "canonical_id": "c0b20a70d50bbe6d8126ba48"
     },
     {
       "answers": [
@@ -247,7 +256,8 @@
       "image_url": "830adda5-fa0e-44ad-a213-f8113d531747M.jpg",
       "number": "10.",
       "question": "En esta autopista, el vehículo que circula por el carril izquierdo y no está adelantando, ¿circula correctamente?\nOn this motorway, is the vehicle travelling in the left-hand lane, not overtaking, driving correctly?",
-      "local_image": "images/q10.jpg"
+      "local_image": "images/q10.jpg",
+      "canonical_id": "a599ab44e596cb5440fa67e8"
     },
     {
       "answers": [
@@ -271,7 +281,8 @@
       "image_url": "b74a9dae-f44e-4274-880d-9fc840b086feM.jpg",
       "number": "11.",
       "question": "En esta vía de doble sentido de circulación y tres carriles separados por marcas longitudinales discontinuas, ¿qué carril utilizará el vehículo azul para cambiar de dirección a la izquierda?\nOn this two-way road with three lanes divided by broken longitudinal lines, which lane will the blue vehicle use to change direction to the left?",
-      "local_image": "images/q11.jpg"
+      "local_image": "images/q11.jpg",
+      "canonical_id": "bf37d8936d3c25020e5b1faa"
     },
     {
       "answers": [
@@ -295,7 +306,8 @@
       "image_url": "9d68bb3a-14f0-4db0-88b3-577067cd44e3M.jpg",
       "number": "12.",
       "question": "En una carretera de tres carriles en cada sentido, ¿cuándo se puede circular por el carril izquierdo?\nOn a road with three lanes in each direction, when can you drive in the left hand lane?",
-      "local_image": "images/q12.jpg"
+      "local_image": "images/q12.jpg",
+      "canonical_id": "5dee7daa53271fc635714391"
     },
     {
       "answers": [
@@ -319,7 +331,8 @@
       "image_url": "87fa5a11-c180-45b3-935d-97b123f577d3M.jpg",
       "number": "13.",
       "question": "Una furgoneta, cuya longitud es de 7,30 metros y que tiene una MMA de 3.500 kg, circula por una vía interurbana con tres carriles por sentido de la circulación, ¿qué carriles puede utilizar?\nA van which is 7.30 metres long and which has a MAM of 3,500 kg, is driving along an intercity road with three lanes in each direction. Which lanes can it occupy?",
-      "local_image": "images/q13.jpg"
+      "local_image": "images/q13.jpg",
+      "canonical_id": "9501486ca01d452b89b7d355"
     },
     {
       "answers": [
@@ -343,7 +356,8 @@
       "image_url": "aea7da1a-722c-4c2a-b364-10334497356cM.jpg",
       "number": "14.",
       "question": "Un conjunto de vehículos de más de 7 metros de longitud que circula por una vía con tres carriles para el mismo sentido, además del carril derecho, ¿qué carriles puede utilizar?\nA combination vehicle measuring over 7 metres long is driving along a road with three lanes in the same direction. In addition to the right-hand lane, which lanes can it use?",
-      "local_image": "images/q14.jpg"
+      "local_image": "images/q14.jpg",
+      "canonical_id": "875fb66276997cac67b2162c"
     },
     {
       "answers": [
@@ -367,7 +381,8 @@
       "image_url": "39700a77-e058-4918-bf2f-0f3e8c15a44fM.jpg",
       "number": "15.",
       "question": "Un conjunto de vehículos de más de 7 metros de longitud que circula por está vía de poblado con tres carriles para el mismo sentido delimitados por marcas longitudinales, además del carril derecho, ¿qué carriles puede utilizar?\nA combination vehicle measuring over 7 metres long is driving along a road in a populated area with three lanes in the same direction, marked out with longitudinal lines. In addition to the right-hand lane, which lanes can it use?",
-      "local_image": "images/q15.jpg"
+      "local_image": "images/q15.jpg",
+      "canonical_id": "abe1836076b6cb22bd0f69ec"
     },
     {
       "answers": [
@@ -391,7 +406,8 @@
       "image_url": "44b2cd87-0743-4e46-9cfd-fb534fbd666aM.jpg",
       "number": "16.",
       "question": "En una vía urbana con varios carriles para cada sentido, ¿por cuál de ellos circulará como norma general?\nOn an urban roads with several lanes in each direction, which lane will you drive on as a general rule?",
-      "local_image": "images/q16.jpg"
+      "local_image": "images/q16.jpg",
+      "canonical_id": "f916e069d0de48c6263adf1b"
     },
     {
       "answers": [
@@ -415,7 +431,8 @@
       "image_url": "541e8f7c-f5bf-4f09-9e84-9771b2e6ee68M.jpg",
       "number": "17.",
       "question": "En esta vía circula por el carril que mejor conviene a su destino, ¿cuándo puede abandonarlo?\nOn this road you are driving on the lane that is most convenient for your destination. When can you leave it?",
-      "local_image": "images/q17.jpg"
+      "local_image": "images/q17.jpg",
+      "canonical_id": "64e16cfc0ada3d503bd3c624"
     },
     {
       "answers": [
@@ -439,7 +456,8 @@
       "image_url": "e74b2668-305d-4063-a77f-1566bb7250bcM.jpg",
       "number": "18.",
       "question": "En una vía urbana de sentido único, si los carriles no están delimitados por marcas viales, ¿por dónde está obligado a circular el conductor de un turismo?\nOn a one-way urban road, if the lanes are not marked out, where must the driver position the vehicle?",
-      "local_image": "images/q18.jpg"
+      "local_image": "images/q18.jpg",
+      "canonical_id": "2bd9747d3a49153f98e04210"
     },
     {
       "answers": [
@@ -463,7 +481,8 @@
       "image_url": "ffc1f1f5-7a9a-4bf4-b143-95d578185141M.jpg",
       "number": "19.",
       "question": "Si conduce una motocicleta por esta vía, ¿le está permitido circular por el carril situado más a la izquierda?\nIf you are riding a motorbike on this road, are you allowed to ride in the left-most lane?",
-      "local_image": "images/q19.jpg"
+      "local_image": "images/q19.jpg",
+      "canonical_id": "7c4a4eed4fb0a87ace303110"
     },
     {
       "answers": [
@@ -487,7 +506,8 @@
       "image_url": "ac17a8fb-9730-4acf-be0e-2042a57c7a98M.jpg",
       "number": "20.",
       "question": "¿Puede circular un turismo por un carril reservado para autobuses señalizado con línea longitudinal continua?\nCan a car drive in a lane reserved for buses marked with a continuous longitudinal line?",
-      "local_image": "images/q20.jpg"
+      "local_image": "images/q20.jpg",
+      "canonical_id": "eac784388bfff008d8dd6c42"
     },
     {
       "answers": [
@@ -511,7 +531,8 @@
       "image_url": "7b65c268-f8c8-4247-9891-6910191299acM.jpg",
       "number": "21.",
       "question": "Un vehículo mixto en el que solo viaja el conductor, ¿puede, en algún caso, circular por un carril para VAO?\nIs a minivan only carrying a driver permitted to drive in a HOV lane?",
-      "local_image": "images/q21.jpg"
+      "local_image": "images/q21.jpg",
+      "canonical_id": "f473a7a7b69b33d685009adb"
     },
     {
       "answers": [
@@ -535,7 +556,8 @@
       "image_url": "e18af897-0d42-4f5c-92b0-d7ba030ddbceM.jpg",
       "number": "22.",
       "question": "Un vehículo de extinción de incendios en servicio de urgencia, ¿tiene permitido circular por un carril para VAO?\nIs a fire extinguishing vehicle on emergency service permitted to drive in a high-occupancy vehicle lane?",
-      "local_image": "images/q22.jpg"
+      "local_image": "images/q22.jpg",
+      "canonical_id": "b67c8fbdd6cb96dbb96688bb"
     },
     {
       "answers": [
@@ -559,7 +581,8 @@
       "image_url": "84fe64c3-7215-45f7-a345-3a94e178cae3M.jpg",
       "number": "23.",
       "question": "¿Podrá utilizar el carril para VAO un turismo ocupado por cuatro personas si lleva enganchado un remolque ligero?\nCan a car with four people pulling a light trailer use a high-occupancy vehicle lane?",
-      "local_image": "images/q23.jpg"
+      "local_image": "images/q23.jpg",
+      "canonical_id": "34046edda445f7033f4fbc31"
     },
     {
       "answers": [
@@ -583,7 +606,8 @@
       "image_url": "579aa6bb-98f8-46dd-85c5-204d937add82M.jpg",
       "number": "24.",
       "question": "Los ciclomotores, ¿pueden utilizar un carril para VAO?\nCan mopeds use a High Occupancy Vehicle lane?",
-      "local_image": "images/q24.jpg"
+      "local_image": "images/q24.jpg",
+      "canonical_id": "b4f0daaed76573219b75add4"
     },
     {
       "answers": [
@@ -607,7 +631,8 @@
       "image_url": "d8ce09e7-8ae5-4050-ba99-66c22809a75aM.jpg",
       "number": "25.",
       "question": "No se tendrán en cuenta, a efectos de la normal utilización, los carriles...\nWe will not take into account for purposes of general use...",
-      "local_image": "images/q25.jpg"
+      "local_image": "images/q25.jpg",
+      "canonical_id": "1b6765ab7d953b9f954414fa"
     },
     {
       "answers": [
@@ -631,7 +656,8 @@
       "image_url": "316e07cd-8681-4a1e-8252-dc301c463f0fM.jpg",
       "number": "26.",
       "question": "¿Puede circular con su motocicleta por un carril reservado para autobuses?\nCan you ride your motorbike in a lane reserved for buses?",
-      "local_image": "images/q26.jpg"
+      "local_image": "images/q26.jpg",
+      "canonical_id": "d7d4110ac937f3d524f5c521"
     },
     {
       "answers": [
@@ -655,7 +681,8 @@
       "image_url": "d8ee0548-e229-4144-bd51-925eb5e17b4bM.jpg",
       "number": "27.",
       "question": "¿Está permitido que un turismo utilice un tramo de carril reservado para autobuses y taxis delimitado por una línea discontinua?\nIs a private car permitted to use the stretch of lane reserved for buses and taxis limited by a dashed line?",
-      "local_image": "images/q27.jpg"
+      "local_image": "images/q27.jpg",
+      "canonical_id": "07f058c375dbbd1ade5e4444"
     },
     {
       "answers": [
@@ -679,7 +706,8 @@
       "image_url": "fa7c6b8f-6b0c-454b-968c-f15aa2d14125M.jpg",
       "number": "28.",
       "question": "Si los paneles de mensaje variable indican que los turismos con distintivo ambiental B pueden circular por un carril para VAO, ¿qué ocupación mínima debe tener el vehículo?\nIf variable message signs indicate that cars with a B environmental badge can travel in a high-occupancy vehicle lane, what is the minimum vehicle occupancy?",
-      "local_image": "images/q28.jpg"
+      "local_image": "images/q28.jpg",
+      "canonical_id": "419bfa3b9b9c8a47152f192f"
     },
     {
       "answers": [
@@ -703,7 +731,8 @@
       "image_url": "3c381ba5-58c5-495c-9108-c5742731cfbfM.jpg",
       "number": "29.",
       "question": "Al abandonar una autovía deberá...\nWhen leaving a dual carriageway, you must…",
-      "local_image": "images/q29.jpg"
+      "local_image": "images/q29.jpg",
+      "canonical_id": "00d7ab528c4027b730d4bfb0"
     },
     {
       "answers": [
@@ -727,7 +756,8 @@
       "image_url": "99a677ae-6fa8-4199-9f47-b6cc7e966294M.jpg",
       "number": "30.",
       "question": "Un furgón, ¿puede utilizar un carril reversible?\nCan a van use a reversible lane?",
-      "local_image": "images/q30.jpg"
+      "local_image": "images/q30.jpg",
+      "canonical_id": "a58055b6165d8fee556e1102"
     }
   ]
 }

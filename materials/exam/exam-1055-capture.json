@@ -1,0 +1,1029 @@
+{
+  "source": "",
+  "collection": "Exam collection",
+  "collection_type": "exam",
+  "source_test_id": 1055,
+  "status": "captured",
+  "questions": [
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí.\nYes.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "No.\nNo.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "En los pasos a nivel sí, pero no en sus proximidades.\nAt level crossings yes, but not nearby.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking  \n5.8 Situations when you must not overtake\nIt is also prohibited to overtake:\nAt signposted pedestrian crossings, junctions with cycle lanes, level crossings and nearby.\n(Página 191 del manual 'Learning to drive')",
+      "image_url": "1044fbcd-abfd-48e3-91c6-f5b7eb6c26cbM.jpg",
+      "number": "1.",
+      "question": "¿Está prohibido adelantar en los pasos a nivel o en sus proximidades?\nIs it forbidden to overtake at or near level crossings?",
+      "question_id": "exam:1055:01",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 1,
+      "local_image": "exam-1055-q01.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.lanes",
+        "driving.overtaking",
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "La dirección y el sentido del movimiento giratorio que los vehículos deben seguir.\nThe direction of movement that vehicles must follow.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "La obligación de girar a la izquierda en la intersección.\nThat you must turn left at the intersection.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "La obligación de girar a la derecha en la intersección.\nThat you must turn right at the intersection.",
+          "correct": false
+        }
+      ],
+      "help": "5 Vertical Signs                                      \n                                   \n5.3 Regulation road signs    \n5.3.6 Obligation road signs  \nR-402 Compulsory direction on a roundabout\nThe arrows indicate the direction of the rotating movement that the vehicles must follow.\n(Página 128 del manual 'Learning to drive')",
+      "image_url": "23ff9077-14b4-4b0c-8d57-8ad9b907708dM.jpg",
+      "number": "2.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "question_id": "exam:1055:02",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 2,
+      "help_status": "captured",
+      "local_image": "exam-1055-q02.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "signs.mandatory",
+        "driving.roundabouts"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "El camión.\nThe lorry.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "El derivado de turismo.\nThe car derivative.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "El vehículo que tenga mayor masa máxima autorizada.\nThe vehicle with the highest maximum authorised mass.",
+          "correct": false
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels      \n     \n5 Narrow Sections  \n5.2 Narrowing section without signed priority\n5.2.1 Order of preference in the absence of road signs\nThe following explains the order of preference in the absence of road signs, signals or authorised persons, and applies to priority when different types of vehicles approach a narrow road section and it is necessary for one of the vehicles to reverse back to allow the other vehicle to pass. Under these circumstance priority is given as follows:\n1.Special vehicles and those travelling under special regulations that exceed the established masses and dimensions as per the regulated rules of vehicles (MAM).\n2. Set of vehicles-except those within point 4 below.\n3. Vehicles pulled by animals.\n4. Cars that tow a trailer of up to 750 kilograms MAM and camping vehicles.\n5.Public transport vehicles-designed to transport passengers.\n6. Lorries, tractive units and good vans and goods vehicles.\n7. Car and vehicles derived from cars.\n8. Special vehicles that do not exceed the mass or dimension established within the regulating laws; heavy quadricycles and light quadricycles.\n9. Three wheeled vehicles, motorcycles with sidecar and three wheeled mopeds.\n10. Motorcycles, two wheeled mopeds and bicycles.\n(Página 209 del manual 'Learning to drive')",
+      "image_url": "dbe3e02d-796d-4caf-ad83-e8cda5560685M.jpg",
+      "number": "3.",
+      "question": "Un derivado de turismo y un camión entran a la vez en un estrechamiento sin señalizar, ¿qué vehículo está obligado a retroceder?\nA car derivative and a lorry approaching from opposite directions enter a narrow stretch of road at the same time, where the right of way is not indicated. Which vehicle should reverse?",
+      "question_id": "exam:1055:03",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 3,
+      "help_status": "captured",
+      "local_image": "exam-1055-q03.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "priority.general"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Tanto en el borde derecho como en el izquierdo de la calzada.\nEither on the right or left side of the road.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Junto al borde izquierdo de la calzada.\nOn the left side of the road.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Junto al borde derecho de la calzada.\nOn the right side of the road.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres              \n     \n6 Change of direction    \n6.2 Carrying out a change of direction\nWhen a driver is changing direction to the left he should:\nIn one-way streets / roads (or where the road signing dictates accordingly) position his vehicle to the left hand side of the roadway.\nIn any other case (or as indicated) – next to the longitudinal line (on his side of the carriageway) that separates the two opposing directions of traffic.\nIf no line or mark exists then the driver must position his vehicle next to what would be the centre axis (centre line) but without invading the lane for the drivers travelling in the opposite direction.\n(Página 193 del manual 'Learning to drive')",
+      "image_url": "caa15491-a5a2-4269-812d-2145a36e93e9M.jpg",
+      "number": "4.",
+      "question": "En esta vía de un solo sentido, ¿dónde se colocará para cambiar de dirección a la izquierda?\nOn this one-way road, where should you be positioned to turn to the left?",
+      "question_id": "exam:1055:04",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 4,
+      "help_status": "captured",
+      "local_image": "exam-1055-q04.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, sabiendo cuales son los efectos secundarios de los medicamentos.\nYes, by knowing the side effects of medicines.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, pero solo si se padece una enfermedad cardiaca.\nYes, but only if you have heart disease.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, una enfermedad crónica incapacita para conducir.\nNo, a chronic illness prevents you from driving.",
+          "correct": false
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION\n \n19 The consequences of illnesses and drugs in traffic collisions\nHow to reduce the risk of accident in case of chronic illness?\nKnow and understand the illness well.\nKnow what sides efects the medication may cause.\nRecognise the first warning signs and knwo how to act.\nAvoid situations that may trigger an occurrence or crisis.\nAvoid driving during a crisis or a phase of severe illness.\n(Página 46 del manual 'Learning to drive')",
+      "image_url": "cea42a64-1ebb-442a-a7fe-2bea0af54734M.jpg",
+      "number": "5.",
+      "question": "¿Se puede disminuir el riesgo de sufrir un accidente si se padece una enfermedad crónica?\nCan you reduce the risk of an accident if suffering from a chronic illness?",
+      "question_id": "exam:1055:05",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 5,
+      "help_status": "captured",
+      "local_image": "exam-1055-q05.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "routine.drugs",
+        "routine.health",
+        "signs.warning"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "5 años, hasta que el titular cumpla los 45 años de edad.\n5 years, until the holder reaches 45 years of age.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "10 años, hasta que el titular cumpla los 65 años de edad.\n10 years, until the holder reaches 65 years of age.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "10 años, hasta que el titular cumpla los 70 años de edad.\n10 years, until the holder reaches 70 years of age.",
+          "correct": false
+        }
+      ],
+      "help": "2 Driver documentation\n \n2.6 Driving licences - conditions of use/validity\nAM, A1, A2, A, B, B+E permits and driving licenses are valid:\nFor 10 years Until their holders turn 65 years old\nFor 5 years After the age of 65.\n(Página 23 del manual 'Learning to drive')",
+      "image_url": "29ab97ee-10b2-4525-bd1a-df8280d7f497M.jpg",
+      "number": "6.",
+      "question": "¿Qué plazo de vigencia tiene el permiso de la clase B?\nHow long is a class-B licence valid for?",
+      "question_id": "exam:1055:06",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 6,
+      "help_status": "captured",
+      "local_image": "exam-1055-q06.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "numbers.deadlines.licences",
+        "documents.permissions"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, porque es una bebida con poca graduación alcohólica.\nNo, because it is a low-alcohol drink.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, hace que el conductor reaccione con más lentitud.\nYes, it makes the driver react more slowly.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "No, esta bebida no afecta en ningún caso a la conducción de vehículos.\nNo, this drink does not affect the driving of vehicles under any circumstances.",
+          "correct": false
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS    \n   \n16.2 Effects of Alcohol\nChanges that alcohol produces in the driver’s physical capabilities:\nIt alters the ability to undertake movements with precision and coordination.\nIt makes the driver’ coordination more difficult, so that he cannot accurately assess his surroundings and the movement of other road users.\nImpact of alcohol on the driver’ decision-making abilities:\nIt increases the reaction time during which the vehicle will travel further before the driver responds.\nIt increases the likelihood that the driver will make wrong decisions.\nIt leads to the driver implementing decisions ineffectively.\n(Página 43 del manual 'Learning to drive')",
+      "image_url": "662f5d1f-436c-461b-91c2-20b98b5dc02bM.jpg",
+      "number": "7.",
+      "question": "¿Consumir cerveza con alcohol puede influir en la conducción de la motocicleta?\nCan drinking alcoholic beer influence motorcycle driving?",
+      "question_id": "exam:1055:07",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 7,
+      "help_status": "captured",
+      "local_image": "exam-1055-q07.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.drugs",
+        "routine.alcohol",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "En autopista sí, en autovía no.\nOn the motorway, yes, on a dual carriageway, no.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, porque está prohibido.\nNo, because it is prohibited.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sí, 20 kilómetros por hora más.\nYes, by an extra 20 kilometres per hour.",
+          "correct": false
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')",
+      "image_url": "28f63bb5-24ce-4f97-9672-eb46f0d20312M.jpg",
+      "number": "8.",
+      "question": "En autovía, ¿puede un turismo aumentar la velocidad máxima permitida para adelantar?\nOn a dual carriageway, can a car exceed the speed limit to overtake?",
+      "question_id": "exam:1055:08",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 8,
+      "help_status": "captured",
+      "local_image": "exam-1055-q08.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "driving.overtaking",
+        "vehicle.passengers",
+        "documents.permissions"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, excepto cuando hay una señal que lo prohíbe.\nYes, unless there is a sign that prohibits it.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, pero solamente en caso de avería de las luces de mi vehículo.\nYes, but only if your vehicle's lights have stopped working.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, porque está prohibido.\nNo, because it is prohibited.",
+          "correct": true
+        }
+      ],
+      "help": "21 Audible warning instrument - horn\n \nThe horn can only be used in certain circumstances, as a warning to:\nAvoid a possible accident; such as in narrow roads, hump back bridges or roads with bends with little or no visibility.\nTo warn, on roads outside of a built-up-area, that the vehicle behind is overtaking or planning to do so.\nTo warn other road users, that the vehicle is being used as a highpriority vehicle –normally reserved for emergency service vehicles.\n(Página 106 del manual 'Learning to drive')",
+      "image_url": "995d2a5d-a7a3-4458-a0ab-ad4ba79e9b0eM.jpg",
+      "number": "9.",
+      "question": "En esta vía urbana, para advertir al conductor del vehículo rojo la intención de adelantarle, ¿puede usar las señales acústicas?\nOn this urban road, to warn the driver of the red vehicle that you intend to overtake, can you use sound signals?",
+      "question_id": "exam:1055:09",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 9,
+      "help_status": "captured",
+      "local_image": "exam-1055-q09.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "driving.overtaking",
+        "vehicle.visibility"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Por el lado derecho o por el lado izquierdo de la isleta.\nEither the right side or the left side of the island.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Siempre por el lado izquierdo de la isleta.\nAlways on the left side of the island.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Siempre por el lado derecho de la isleta.\nAlways on the right side of the island.",
+          "correct": false
+        }
+      ],
+      "help": "2 Use of the road    \n \n2.2 Central refuges, isles, waiting area or guiding devices\nWhen there are pedestrian refuges, central islands or channelizing islands in the road:\nNormally vehicles must pass on the right hand side of these, in the direction of travel.\nIf these are located on a one-way road, they can be passed on either side.\nIf these are located within the part of a road assigned to traffic travelling in one direction only, vehicles can pass on either side.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "60859b85-4376-4c7c-bd73-48ed14362827M.jpg",
+      "number": "10.",
+      "question": "¿Por dónde debe circular en una calzada de un único sentido en la que hay en el centro una isleta o un refugio para peatones?\nWhere should you drive along a one-way road with a pedestrian island or refuge in the middle?",
+      "question_id": "exam:1055:10",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 10,
+      "help_status": "captured",
+      "local_image": "exam-1055-q10.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Las largas.\nThe full beams.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Las de emergencia.\nHazard lights.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Las de posición.\nThe position lamps.",
+          "correct": false
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels    \n   \n4 Vehicles in response to emergency situations\n4.3 Non high-priority vehicles in an emergency situation\nThis driver should use his horn (audible warning instrument) intermittently and also put on the hazard-warning lights (if the vehicle has these) or shake a handkerchief or something similar out of the window.\nThe driver must obey all the road traffic legislations and laws, such as road signs, rights of way particularly at junctions etc.\n(Página 208 del manual 'Learning to drive')",
+      "image_url": "5b2258f3-0a17-4f8d-9d51-42a7fd854ab1M.jpg",
+      "number": "11.",
+      "question": "Un conductor se ve obligado a realizar un servicio de urgencia, ¿qué luces debe encender?\nA driver needs to carry out emergency maintenance, what lights should they use?",
+      "question_id": "exam:1055:11",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 11,
+      "help_status": "captured",
+      "local_image": "exam-1055-q11.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "driving.weather"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que se bloquean las ruedas.\nThe wheels lock.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Que habrá que ejercer más presión sobre el pedal del freno si queremos frenar.\nYou will have to put more pressure on the brake pedal when braking.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Que habrá que tensar más el freno de mano.\nThe hand brake must be tightened further.",
+          "correct": false
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES    \n   \n3 Brakes\n3.2 Types of brakes\nIt is now more likely for a vehicle to use disc brakes, especially on the front, with drum brakes on the rear, although there are many vehicles that use disc brakes on all wheels.\nA brake servo allows you to exercise more pressure on the hydraulic circuit applying less force on the pedal, thus reducing the effort required from the driver when braking and giving a more even response. If the engine is not running, the servo will not work and the brake pedal will be excessively stiff.\n(Página 64 del manual 'Learning to drive')",
+      "image_url": "56935c3a-4286-442c-bc15-afe8a88f4ac0M.jpg",
+      "number": "12.",
+      "question": "Si su turismo cuenta con servofreno, ¿qué ocurre si está el motor parado y el contacto quitado?\nIf your car has brake assist, what happens if the engine is stationary and the ignition off?",
+      "question_id": "exam:1055:12",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 12,
+      "help_status": "captured",
+      "local_image": "exam-1055-q12.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "driving.braking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "las plazas delanteras, únicamente.\nthe front seats, only.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "todas las plazas del vehículo.\nall vehicle seats.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "la plaza del conductor, únicamente.\nthe driver's seat, only.",
+          "correct": false
+        }
+      ],
+      "help": "7 Seat belts  \n   \n7.1 Purpose and effectiveness\nIn addition, the seat belt keeps the person inside the protective cell.\n(Many people are killed each year when they are catapulted from their vehicle having not worn a seat belt). The seat belt is useful for all kinds of collisions however, not just front impacts.\nWith the use of seat belt, deaths caused by road traffic collisions have dropped significantly. It is estimated that by being properly secured in a vehicle there is a reduction, of nearly a half, of the likelihood of being killed in a road traffic collision.\nTo be effective, the seat belt should be approved. In addition, it must be well anchored. The anchorage points and the fastening device (buckle) should be checked regularly and repairs should be undertaken if necessary.\nThe condition of the belt fabric should also be inspected, to ensure that it is not worn, cut or has frayed edges.\n(Página 76 del manual 'Learning to drive')",
+      "image_url": "0b555ba9-882e-4cb3-ba4e-59e33c4d5810M.jpg",
+      "number": "13.",
+      "question": "Si tiene un accidente y no lleva puesto el cinturón de seguridad, las posibilidades de resultar muerto en el siniestro son casi el doble en...\nIf you have an accident and you do not wear a seat belt, the chances of being killed in the accident are almost double in...",
+      "question_id": "exam:1055:13",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 13,
+      "help_status": "captured",
+      "local_image": "exam-1055-q13.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.seatbelts"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "de la comodidad y adaptación al niño.\nthe child's comfort and suitability.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "del asiento del vehículo que ofrezca mejor ubicación.\nthe vehicle seat in the best location.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "del peso y talla del niño.\nthe weight and height of the child.",
+          "correct": true
+        }
+      ],
+      "help": "8 Child safety restraining devices\n \nRather than basing an appropriate safety device on age, the weight and height of the child must be taken into account. The most appropriate device is one that is suited to that child; it should be tried out by the child to make sure the size is correct and the child finds it comfortable.\nFor example, you are recommended to use booster seats from the age of three and booster seats with a backrest for children from 15 to 25 kg.\nFastening systems for minors installed correctly could prevent three out of every four, child deaths that occur in road traffic collisions.\n(Página 79 del manual 'Learning to drive')",
+      "image_url": "cccab60c-0936-4e59-8e28-6fcf875f904dM.jpg",
+      "number": "14.",
+      "question": "Los dispositivos de retención infantil hay que seleccionarlos fundamentalmente en función...\nChild restraint devices must be selected primarily according to...",
+      "question_id": "exam:1055:14",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 14,
+      "help_status": "captured",
+      "local_image": "exam-1055-q14.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "driving.weather",
+        "vehicle.passengers"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, el cinturón es efectivo siempre.\nNo, the seat belt always works properly.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, cuando el vehículo tenga además instalado airbag.\nNo, if the vehicle has an airbag installed.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, ya que se pueden sufrir lesiones graves.\nYes, as serious injuries may occur.",
+          "correct": true
+        }
+      ],
+      "help": "7 Seat belts\n \n7.4 The correct fastening of seat belts\nThe belt (chest down)\nThe belt must pass on the collar bone, (clavicle) that is midway between the shoulder and neck, and must descend through the centre of the chest.\nIt should be applied correctly and adjustments should be made either to the seat or height of the belt to ensure this. Wrongly adjusted or located it can cause serious injury in the event of an accident. If it is placed onto the shoulder, it could slide of in a collision and minimise the effectiveness of the seat belt.\n(Página 77 del manual 'Learning to drive')\n\n7 Seat belts\n \n7.4 The correct fastening of seat belts\nThe belt (abdominal)\nThe abdominal part of the belt should be placed on the bones of the hip, always below the waist. If it is placed on the abdomen it could cause serious internal injuries in the event of a collision.\nOnce buckled, the belt should stretch slightly upwards and be tight to the body. Check that is not hooked or twisted at any point.\n(Página 77 del manual 'Learning to drive')",
+      "image_url": "375af4dd-d1ba-420f-9688-ff35de67c478M.jpg",
+      "number": "15.",
+      "question": "Si no lleva colocado correctamente el cinturón de seguridad, ¿puede influir en las consecuencias de un accidente?\nIf you do not wear a seat belt correctly, can this influence the consequences of an accident?",
+      "question_id": "exam:1055:15",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 15,
+      "help_status": "captured",
+      "local_image": "exam-1055-q15.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "routine.seatbelts",
+        "driving.lanes"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí.\nYes.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Únicamente en travesías.\nOnly on through roads.",
+          "correct": false
+        }
+      ],
+      "help": "10 Other areas found on the roadway\n \n10.12 Cycle Way\nA lane specifically allocated for the use of cycles, as denoted by the corresponding road sign and road markings.\n(Página 14 del manual 'Learning to drive')\n\n10 Other areas found on the roadway\n \n10.12.3 Cycle Path\nCycle path is a specifically signed area for cycles on the pavement.\n(Página 14 del manual 'Learning to drive')",
+      "image_url": "25bd02ec-07fc-4040-8c41-8eec845a52b8M.jpg",
+      "number": "16.",
+      "question": "¿Está permitido que los peatones transiten por las aceras-bici?\nCan pedestrians walk in bicycle lanes?",
+      "question_id": "exam:1055:16",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 16,
+      "help_status": "captured",
+      "local_image": "exam-1055-q16.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "signs.markings",
+        "driving.lanes",
+        "driving.pedestrians",
+        "documents.permissions"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Solo si fuera preciso y de forma excepcional para no obstaculizar la circulación.\nOnly if it is necessary and exceptionally so as not to hinder traffic.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "No, en ningún caso se debe dejar inmovilizado el vehículo en la mediana.\nNo, the vehicle must not be stopped on the central reservation under any circumstances.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, siempre se debe dejar inmovilizado el vehículo en el arcén derecho.\nNo, the vehicle must always be stopped on the right-hand hard shoulder.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres                  \n       \n9 Immobilisation: Stationary vehicles Detention (Halting)      \n9.2 Emergency detention (halting due to an emergency)  \nVehicles that have been involved in an accident or breakdown:\nIf they are able to continue their journey but need an assistance service, they should leave the traffic lanes as soon as possible and head to the first available exit using the right-hand hard shoulder, regardless of maximum authorised mass.\nIf they are unable to continue their journey, they must stop on the right-hand hard shoulder or at the place where they cause the least obstruction to traffic, using the left-hand hard shoulder or central reservation if needed.\n(Página 196 del manual 'Learning to drive')",
+      "image_url": "13f69ff1-0933-411b-b10c-6c3a98e7a15dM.jpg",
+      "number": "17.",
+      "question": "Si debido a una emergencia, un conductor se ve obligado a inmovilizar su vehículo en una autopista, ¿puede hacerlo en la mediana?\nIf, due to an emergency, a driver is forced to stop his vehicle on a motorway, can he do so on the central reservation?",
+      "question_id": "exam:1055:17",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 17,
+      "help_status": "captured",
+      "local_image": "exam-1055-q17.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.lanes",
+        "driving.weather",
+        "incidents.towing"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "70 kilómetros por hora.\n70 kilometres per hour.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "90 kilómetros por hora.\n90 kilometres per hour.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "80 kilómetros por hora.\n80 kilometres per hour.",
+          "correct": false
+        }
+      ],
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')",
+      "image_url": "a1c12284-3662-4913-b2a8-37217cfe6b50M.jpg",
+      "number": "18.",
+      "question": "La velocidad máxima de un vehículo mixto adaptable en una carretera convencional será de...\nThe speed limit for a multipurpose vehicle on a conventional road is...",
+      "question_id": "exam:1055:18",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 18,
+      "help_status": "captured",
+      "local_image": "exam-1055-q18.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "numbers.speeds",
+        "vehicle.passengers"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "y ahorrar entre un 10 y un 25% del combustible.\nand save between 10% and 25% of fuel.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "pero disminuye el confort y la seguridad en la conducción.\nbut decrease driving comfort and safety.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "y reducir el gasto de combustible en la misma proporción.\nand reduce fuel expenditure by the same proportion.",
+          "correct": false
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving      \n   \n8 Efficient driving\nAdopting an efficient driving technique:\nPolluting emissions are significantly reduced (between 50 % and 80 %), which improves air quality, especially in cities.\nVehicle use and maintenance costs are reduced, as there are savings in the cost of fuel (between 10 % and 25 %) and there is less wear on some vehicle systems (e.g. the gearbox, the clutch and the brakes).\nEnhances safety, because it uses techniques similar to those advocated for preventative driving.\nIncreases travelling comfort, as it avoids sudden braking and acceleration by adopting the principle of driving when and wherever possible at a constant speed.\nIt reduces noise produced by the vehicle, improving the quality of life in cities and avoiding unnecessary inconvenience to other road users.\n(Página 275 del manual 'Learning to drive')",
+      "image_url": "d0146d7e-1495-4fed-b32f-7d000a3db314M.jpg",
+      "number": "19.",
+      "question": "Las técnicas de conducción eficiente pueden reducir entre un 50 y un 80% las emisiones contaminantes...\nEfficient driving techniques can reduce polluting emissions by between 50% and 80%...",
+      "question_id": "exam:1055:19",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 19,
+      "help_status": "captured",
+      "local_image": "exam-1055-q19.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "routine.ecodriving",
+        "driving.braking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "16 años.\n16 years.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "14 años.\n14 years.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "18 años.\n18 years.",
+          "correct": false
+        }
+      ],
+      "help": "2 Driver documentation        \n     \n2.4 Classes of driving permits  \n2.4.1 A1 permit\nIt grants authorisation to drive:\nVehicles for people with reduced mobility.\nMotorcycles, with or without a sidecar, with a cylinder capacity not exceeding 125 cubic centimetres, of a power not exceeding 11 kW and with a power/weight ratio not exceeding 0,1 kW/kg.\nMotor tricycles with a power not exceeding 15 kW.\nObtaining the class-A1 permit entails the concession of the AM-class permit, therefore authorising the holder to drive the same vehicles (two or\nthree-wheeled mopeds and light quadricycles).\nIt grants authorisation to haul a trailer or semi-trailer whose MAM does not exceed 50 percent of the unladen mass of the motorcycle or motor tricycle.\nThe minimum age that it can be obtained is 16.\n(Página 21 del manual 'Learning to drive')",
+      "image_url": "680254ff-9d67-405a-927a-65f184adad67M.jpg",
+      "number": "20.",
+      "question": "Para la obtención del permiso A1, ¿cuál es la edad mínima?\nWhat is the minimum age to have an A1 licence?",
+      "question_id": "exam:1055:20",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 20,
+      "help_status": "captured",
+      "local_image": "exam-1055-q20.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "vehicle.motorcycles",
+        "documents.permissions"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, siempre que en el interior del vehículo no se alcancen temperaturas superiores a 20 grados.\nNo, provided that the vehicle does not exceed 20 degrees.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, por lo que se debe conducir durante la noche, ya que la temperatura al ser inferior permite al conductor un tiempo de reacción mayor.\nYes, you should drive at night, as the lower temperature gives the driver a better reaction time.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, el conductor debe extremar las precauciones y realizar los descansos recomendados, para evitar la fatiga y el sueño.\nYes, the driver must take precautions and take the recommended rest, to avoid fatigue and drowsiness.",
+          "correct": true
+        }
+      ],
+      "help": "Safe driving  \n \n12 The heat\nHigh temperatures, present a potential risk that may compromise road safety. A temperature of 35 °C inside the vehicle can constitute a danger similar to that of a blood alcohol level of 0,5 g/l.\nHeat increases the driver’s reaction time. The driver is likely to make more mistakes, suffer from fatigue, become sleepy and more easily distracted.\nHeat increases the risk of the driver becoming aggressive and hostile towards other drivers and road users.\n(Página 233 del manual 'Learning to drive')\n\nSafe driving  \n \n12 The heat\nDriving in day time heat:\nUse the air conditioning or the climate control, and ensure that the interior temperature is between 20 and 23 ºC.\nTake more rests when travelling long distances, as fatigue will occur quicker.\nDrink water or juices often.\nTake extra care and caution when driving after eating, as heat promotes the need to sleep.\nWear lightweight and loose clothing.\nIn summer and when there is sunshine, inside a dark coloured vehicle, the temperature can be ten degrees higher than in a lighter coloured vehicle.\n(Página 233 del manual 'Learning to drive')",
+      "image_url": "260d72cc-080e-4645-89c7-a3b611e69602M.jpg",
+      "number": "21.",
+      "question": "Las altas temperaturas pueden suponer un riesgo para la seguridad durante la conducción, ¿debe circular adoptando medidas preventivas?\nHigh temperatures can pose a safety risk during driving, should you drive taking preventive measures?",
+      "question_id": "exam:1055:21",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 21,
+      "help_status": "captured",
+      "local_image": "exam-1055-q21.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "routine.alcohol",
+        "routine.fatigue",
+        "routine.distraction",
+        "routine.reaction",
+        "numbers.alcohol"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Durante los periodos de vacaciones.\nDuring holiday periods.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Fuera de los periodos vacacionales.\nOutside of holiday periods.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Es indiferente.\nIt makes no difference.",
+          "correct": false
+        }
+      ],
+      "help": "Road traffic collisions\n \n3 Characteristics of road collisions\nRelated studies that have investigated traffic collisions, show that:\nIn cities, the accidents that cause the most mortalities are collisions with pedestrians.\nMost of the victims, especially resulting in deaths, occur on intercity routes.\nMost collisions occur on the straight and not on bends.\nAutopistas and autovias are generally safer than conventional roads.\nMost accidents occur during public holidays (especially, Easter, summer and December).\nWeekends and public festivals (bank holidays) are the most dangerous days, especially during the hours in the morning.\nMost accidents occur during the daytime when people are going to or leaving work, especially at the end of the working day.\n(Página 250 del manual 'Learning to drive')",
+      "image_url": "b60d5d84-8163-4c79-a4e9-8d79626833f8M.jpg",
+      "number": "22.",
+      "question": "¿En qué épocas del año se producen más accidentes de circulación?\nIn which periods of the year do most traffic accidents occur?",
+      "question_id": "exam:1055:22",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 22,
+      "help_status": "captured",
+      "local_image": "exam-1055-q22.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Solamente los daños personales.\nOnly personal injury.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Solamente daños materiales.\nOnly material damage.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Los daños personales y los materiales del vehículo no causante del accidente.\nPersonal injury and material damage to the vehicle not causing the accident.",
+          "correct": true
+        }
+      ],
+      "help": "3.3 Compulsory (minimum - limited) liability insurance (SOA)  \n \n3.3.1 Cover and exclusions\nFor damages, the driver will be covered for third party responsibility.\nThe basic, minimal cover for insurance will not cover payment(s) to the driver, of the assured vehicle, for injuries received, when he is deemed responsible for their cause.\n(Página 27 del manual 'Learning to drive')\n\n3.3 Compulsory (minimum - limited) liability insurance (SOA)  \n   \n3.3.1 Cover and exclusions\nAdditionally, the cover provided by the minimal obligatory subscription, does not cover:\nThe insured vehicle.\nOther items being transported within the insured vehicle.\nAny damage to goods that are owned by the insured, the owner, the driver, the spouse or close relatives.\n(Página 28 del manual 'Learning to drive')",
+      "image_url": "6f795f7a-c8fc-4a87-9dc2-755e99c7dc4dM.jpg",
+      "number": "23.",
+      "question": "¿Qué daños cubre el seguro de responsabilidad civil de suscripción obligatoria?\nWhat damage does compulsory civil liability insurance cover?",
+      "question_id": "exam:1055:23",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 23,
+      "help_status": "captured",
+      "local_image": "exam-1055-q23.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "un nivel de alerta mayor.\na higher level of alert.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ilusiones ópticas.\noptical illusions.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "una percepción mayor del campo visual.\na bigger visual field.",
+          "correct": false
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS    \n \n17.1 Effects of the most common drugs\n17.1.3 Ecstasy (MDMA)\nIt can cause optical illusions (for example, flashes to the periphery of the visual field) leading to the driver driving dangerously and making evasive manoeuvres.\nIt can cause the user to experience periods of increased sensitivity to light (and therefore a greater tendency to be affected by glare), or episodes of blurred vision.\nIt reduces the ability to concentrate on the traffic and surroundings, which can lead to an increase risk of distraction.\nIt can cause episodes of depression or anxiety, both of which maybe very dangerous while driving.\nIt can cause physical and mental exhaustion after the symptoms disappear.\nIt can cause flashbacks whilst driving (this revives the effects of the drug several hours after use).\n(Página 44 del manual 'Learning to drive')",
+      "image_url": "db9c8a77-2608-4e73-9f77-1a4427c24a82M.jpg",
+      "number": "24.",
+      "question": "Conducir bajo los efectos de algunas drogas puede producir en el conductor...\nDriving under the influence of drugs may cause the driver to have...",
+      "question_id": "exam:1055:24",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 24,
+      "help_status": "captured",
+      "local_image": "exam-1055-q24.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.drugs",
+        "routine.alcohol"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Dos, una delante y otra detrás.\nTwo, one in front and one behind.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Una en la parte posterior, en posición vertical.\nOne at the back, in a vertical position.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Una en la parte posterior, en posición horizontal.\nOne at the back, in a horizontal position.",
+          "correct": false
+        }
+      ],
+      "help": "Transporting people and loads    \n \n5 Plates and symbols on vehicles\n5.1 Licence plates (Vehicle registration plates/marks)\nVehicle registration plates are comprised of both letters and numbers that serve to identify a particular vehicle, as per the registration documents.\nMotor vehicles, except motorcycles, threewheeled vehicles and heavy quadricycles, must carry two registration plates: one at the front and one at the rear.\nMopeds, motorcycles, three-wheeled vehicles, and both light and heavy quadricycles must carry a single registration plate at the rear. Light and heavy quadricycles may also optionally carry a front registration plate, identical in specification to the rear one.\n(Página 219 del manual 'Learning to drive')",
+      "image_url": "9b9a6501-126d-407f-ace2-766de73ceb6bM.jpg",
+      "number": "25.",
+      "question": "¿Cuántas placas de matrícula lleva una motocicleta?\nHow many licence plates does a motorcycle have?",
+      "question_id": "exam:1055:25",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 25,
+      "help_status": "captured",
+      "local_image": "exam-1055-q25.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "vehicle.cargo",
+        "vehicle.motorcycles",
+        "vehicle.classification"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que el vehículo tenga aire acondicionado.\nTo give the vehicle air conditioning.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Que el vehículo tenga calefacción.\nTo heat up the vehicle.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Enfriar el motor del vehículo.\nTo cool the vehicle engine.",
+          "correct": true
+        }
+      ],
+      "help": "Mechanics and maintenance    \n \n7 Cooling system\nThe purpose of the cooling system is to ensure that the engine stays within the optimum operating temperature.\nThe cooling system removes excess heat from the engine and ensures that the engine gets up to the correct temperature as soon as possible after starting.\nA cooling system is also required to prevent the internal engine parts from melting from the heat of the burning fuel.\n(Página 241 del manual 'Learning to drive')",
+      "image_url": "49f1fcd9-7f38-41d5-971e-6bd823b2fb1cM.jpg",
+      "number": "26.",
+      "question": "¿Cuál es la misión principal del líquido refrigerante?\nWhat is the main purpose of coolant?",
+      "question_id": "exam:1055:26",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 26,
+      "help_status": "captured",
+      "local_image": "exam-1055-q26.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No importa la distancia porque circula por el arcén.\nIt doesn't matter how far you are from them because they are travelling on the hard shoulder.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Un metro, al menos.\nAt least one metre.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Al menos metro y medio.\nAt least one and a half metres.",
+          "correct": true
+        }
+      ],
+      "help": "",
+      "image_url": "d75784af-44de-40c5-86e0-4f8ad9525b5aM.jpg",
+      "number": "27.",
+      "question": "Quiere adelantar a un ciclista que circula por el arcén, ¿qué distancia lateral debe dejar?\nYou want to overtake a cyclist who is riding on the hard shoulder. What lateral distance should you leave?",
+      "question_id": "exam:1055:27",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 27,
+      "help_status": "unavailable_in_source",
+      "local_image": "exam-1055-q27.jpg",
+      "selected_letter": "C",
+      "topic_ids": [
+        "driving.lanes",
+        "driving.overtaking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Dos, el interior y el exterior izquierdo.\nTwo, the interior rear-view mirror and a left wing mirror.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Solo el exterior izquierdo.\nJust the left wing mirror.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Solo el exterior derecho.\nJust the right wing mirror.",
+          "correct": false
+        }
+      ],
+      "help": "VISIBILITY  \n   \n8 Rear-view  \n8.1 Obligatory requirements regarding rear-view mirrors\nThe following are obligatory requirements for vehicles within categories M1 and N1:\nA rear-view interior mirror. This must comply with the field of vision in accordance with the regulations. Should the rear-view interior mirror not accord the required vision through it, that allows viewing of the roadway, when on flat ground of the horizon to a distance of 60 metres behind the vehicle and a width of 20 metres then the rear view mirrors becomes optional but the vehicle must have a second exterior, side mirror, on the right hand side that is the nearside (the side closest to the pavement.\nAn exterior mirror fitted on the left hand side (that is the offside of the vehicle) allowing the minimum vision of the horizon to a distance of 10 metres behind it and a width of 2.50 metres.\nAn exterior mirror on the right hand side (nearside, closest to the pavement) remains optional, unless fitted for the reasons as stated above. When fitted it must give a field of vision as prescribed within the regulations.\n(Página 90 del manual 'Learning to drive')",
+      "image_url": "d94f2068-cfcf-431e-83ab-508d248bae4fM.jpg",
+      "number": "28.",
+      "question": "¿Cuántos espejos retrovisores debe de llevar este cuadriciclo pesado?\nHow many rear-view mirrors should be fitted to this heavy quadricycle?",
+      "question_id": "exam:1055:28",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 28,
+      "help_status": "captured",
+      "local_image": "exam-1055-q28.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "vehicle.visibility",
+        "vehicle.classification"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "es peligroso, porque reduce la eficacia del cinturón.\ns dangerous, because it reduces the seat belt's effectiveness.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "es conveniente, porque reduce la presión del cinturón sobre el pecho.\nis practical because it reduces the belt's pressure on your chest.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "es necesario, como complemento del airbag, en los vehículos dotados del mismo.\ns necessary to complement the airbag in vehicles equipped with an airbag.",
+          "correct": false
+        }
+      ],
+      "help": "7 Seat belts\n \n7.4 The correct fastening of seat belts\nThe seat belt must be properly secured (buckled-up) and adjusted correctly so that it is neither too loose nor too tight for comfortable travel.\nIf the seat belt is slack the body travels a greater distance during an impact and is more likely to be hit against the steering wheel or windshield.\nIf seatbelts are not snugly fastened, the seatbelt loses effectiveness and can lead to injuries in accidents.\nThe use of seat belt locking clips or tension adjusters is prohibited and dangerous, because it reduces the effectiveness of the seat belt.\n(Página 77 del manual 'Learning to drive')",
+      "image_url": "2c493aab-0ecb-4d72-bcee-64c74b0a9369M.jpg",
+      "number": "29.",
+      "question": "Utilizar pinzas para retener el cinturón de seguridad...\nUsing clips to retain the seat belt...",
+      "question_id": "exam:1055:29",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 29,
+      "help_status": "captured",
+      "local_image": "exam-1055-q29.jpg",
+      "selected_letter": "A",
+      "topic_ids": [
+        "routine.seatbelts",
+        "driving.weather"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "se puede ver y analizar mejor lo que ocurre alrededor.\nyou can see and analyse better what is happening around you.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "se perciben peor las señales de tráfico.\ntraffic signs are harder to see.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "se perciben mejor las señales de tráfico.\nyou find traffic signs easier to see.",
+          "correct": false
+        }
+      ],
+      "help": "9 The negative effects of speed\n \nThrough the driver’s vision, 90% of the information needed for good driving is received: the condition and configuration of the road, signalling, distances, speeds etc. Hence, the importance of having the largest possible zone of vision when driving. Speed, among other factors, causes a decrease in the useful field of vision, which results in a tunnel vision effect. Therefore, as speed increases the driver’s field of vision is reduced eventually resulting in only objects in the centre of the roadway being clearly visible. The peripheral vision is steadily reduced as speed increases also.\n \n(Página 178 del manual 'Learning to drive')",
+      "image_url": "7713dba4-226c-4a55-bd01-e0dbb9b636f9M.jpg",
+      "number": "30.",
+      "question": "Al circular más rápido...\nWhen driving faster...",
+      "question_id": "exam:1055:30",
+      "collection_type": "exam",
+      "source_test_id": 1055,
+      "source_ordinal": 30,
+      "help_status": "captured",
+      "local_image": "exam-1055-q30.jpg",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    }
+  ]
+}

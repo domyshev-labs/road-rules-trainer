@@ -60,6 +60,18 @@ CREATE TABLE IF NOT EXISTS questions (
   image_path TEXT NOT NULL,
   UNIQUE(test_id, ordinal)
 );
+CREATE TABLE IF NOT EXISTS question_contents (
+  id TEXT PRIMARY KEY,
+  prompt TEXT NOT NULL,
+  help_en TEXT NOT NULL,
+  help_es TEXT NOT NULL,
+  help_ru TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS question_memberships (
+  question_id INTEGER PRIMARY KEY REFERENCES questions(id) ON DELETE CASCADE,
+  content_id TEXT NOT NULL REFERENCES question_contents(id)
+);
+CREATE INDEX IF NOT EXISTS idx_memberships_content ON question_memberships(content_id);
 CREATE TABLE IF NOT EXISTS answers (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   question_id INTEGER NOT NULL REFERENCES questions(id) ON DELETE CASCADE,
@@ -97,11 +109,12 @@ type seedAnswer struct {
 }
 
 type seedQuestion struct {
-	Number     string       `json:"number"`
-	Question   string       `json:"question"`
-	Help       string       `json:"help"`
-	LocalImage string       `json:"local_image"`
-	Answers    []seedAnswer `json:"answers"`
+	CanonicalID string       `json:"canonical_id"`
+	Number      string       `json:"number"`
+	Question    string       `json:"question"`
+	Help        string       `json:"help"`
+	LocalImage  string       `json:"local_image"`
+	Answers     []seedAnswer `json:"answers"`
 }
 
 type seedTest struct {
@@ -219,12 +232,25 @@ func seedDatabase(db *sql.DB) error {
 				helpEN = question.Help
 			}
 			imagePath := fmt.Sprintf("/tests/%d/q%02d.jpg", test.TestID, index+1)
+			if strings.HasPrefix(question.LocalImage, "/tests/exam/") {
+				imagePath = question.LocalImage
+			}
 			_, err := tx.Exec(`INSERT INTO questions(test_id,ordinal,number,prompt,help_en,help_es,help_ru,image_path) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(test_id,ordinal) DO UPDATE SET number=excluded.number,prompt=excluded.prompt,help_en=excluded.help_en,help_es=excluded.help_es,help_ru=excluded.help_ru,image_path=excluded.image_path`, test.TestID, index+1, question.Number, question.Question, helpEN, translations["es"], translations["ru"], imagePath)
 			if err != nil {
 				return err
 			}
 			var questionID int64
 			if err = tx.QueryRow(`SELECT id FROM questions WHERE test_id=? AND ordinal=?`, test.TestID, index+1).Scan(&questionID); err != nil {
+				return err
+			}
+			contentID := question.CanonicalID
+			if contentID == "" {
+				contentID = fmt.Sprintf("legacy:%d:%d", test.TestID, index+1)
+			}
+			if _, err := tx.Exec(`INSERT INTO question_contents(id,prompt,help_en,help_es,help_ru) VALUES(?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET help_es=CASE WHEN excluded.help_es<>'' THEN excluded.help_es ELSE question_contents.help_es END, help_ru=CASE WHEN excluded.help_ru<>'' THEN excluded.help_ru ELSE question_contents.help_ru END`, contentID, question.Question, helpEN, translations["es"], translations["ru"]); err != nil {
+				return err
+			}
+			if _, err := tx.Exec(`INSERT INTO question_memberships(question_id,content_id) VALUES(?,?) ON CONFLICT(question_id) DO UPDATE SET content_id=excluded.content_id`, questionID, contentID); err != nil {
 				return err
 			}
 			for _, answer := range question.Answers {
