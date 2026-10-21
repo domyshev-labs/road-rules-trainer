@@ -1438,6 +1438,13 @@
         "source_ordinal": 28,
         "test_id": 1004,
         "index": 27
+      },
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 29,
+        "test_id": 101028,
+        "index": 28
       }
     ]
   },
@@ -3104,6 +3111,13 @@
         "source_ordinal": 27,
         "test_id": 1008,
         "index": 26
+      },
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 24,
+        "test_id": 101039,
+        "index": 23
       }
     ]
   },
@@ -3502,6 +3516,13 @@
         "source_ordinal": 26,
         "test_id": 1009,
         "index": 25
+      },
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 16,
+        "test_id": 101039,
+        "index": 15
       }
     ]
   },
@@ -7069,6 +7090,432 @@
     ]
   },
   {
+    "id": "9cc1a7da9aa3ee8db147ed2f",
+    "question": "¿De cuántos puntos dispone un conductor novel?\nHow many points does a new driver have?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 1,
+        "test_id": 101028,
+        "index": 0
+      }
+    ]
+  },
+  {
+    "id": "f89383048e0dcf87d9ca2ccf",
+    "question": "¿Puede sentir sueño conduciendo aunque haya dormido suficiente?\nCan you feel drowsy when driving even though you have slept enough?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 2,
+        "test_id": 101028,
+        "index": 1
+      }
+    ]
+  },
+  {
+    "id": "c830e442ea7fcda179218e28",
+    "question": "En autopistas y autovías dentro de poblado, el límite de velocidad para circular de un conductor novel es de...\nOn autopistas and autovías inside a built-up area, the speed limit for a new driver is...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 3,
+        "test_id": 101028,
+        "index": 2
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1019,
+        "source_ordinal": 18,
+        "test_id": 1019,
+        "index": 17
+      }
+    ]
+  },
+  {
+    "id": "e6426262e7688b7e71de7a77",
+    "question": "¿Están obligados todos los automóviles a llevar una rueda de repuesto y las herramientas indispensables para su cambio?\nIs it mandatory for all automobiles to carry a spare tyre and the tools needed to change it?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 4,
+        "test_id": 101028,
+        "index": 3
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1033,
+        "source_ordinal": 9,
+        "test_id": 1033,
+        "index": 8
+      }
+    ]
+  },
+  {
+    "id": "ed9735401cf8d3a5ee864a4f",
+    "question": "¿Puede llevar a un niño en su vehículo sin un dispositivo de retención adecuado, como norma general?\nAre you permitted to carry a child in your automobile without a suitable restraining device, as a general rule?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 5,
+        "test_id": 101028,
+        "index": 4
+      }
+    ]
+  },
+  {
+    "id": "b0f256b3b72c58437ef5d16b",
+    "question": "En esta vía de doble sentido, ¿dónde se colocará con su turismo para cambiar de dirección a la izquierda?\nOn this two-way road, where will you place your private car in order to turn left?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 6,
+        "test_id": 101028,
+        "index": 5
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1022,
+        "source_ordinal": 22,
+        "test_id": 1022,
+        "index": 21
+      }
+    ]
+  },
+  {
+    "id": "45c4144589a4ad8f80e616fe",
+    "question": "Entre las conductas de riesgo más comunes que cometen los peatones está...\nAmong the most common risky behaviour committed by pedestrians is...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 7,
+        "test_id": 101028,
+        "index": 6
+      }
+    ]
+  },
+  {
+    "id": "d4ec9299c04ac2efe7f84b04",
+    "question": "La fatiga durante la conducción produce...\nFatigue during driving causes...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 8,
+        "test_id": 101028,
+        "index": 7
+      }
+    ]
+  },
+  {
+    "id": "43288166dc9b55aad6aa7985",
+    "question": "La señalización luminosa para indicar el cambio de carril, ¿cuándo deberá concluir?\nWhen should the light signal to indicate a change of lane finish?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 9,
+        "test_id": 101028,
+        "index": 8
+      }
+    ]
+  },
+  {
+    "id": "c97f711d6a0ce062290734f2",
+    "question": "¿Tiene alguna obligación cuando su vehículo va a ser adelantado?\nDo you have any obligations when your vehicle is going to be overtaken?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 10,
+        "test_id": 101028,
+        "index": 9
+      }
+    ]
+  },
+  {
+    "id": "9badeee97c7e534f41cbc138",
+    "question": "Con esta señal, ¿tiene prioridad de paso en el estrechamiento?\nWith this sign, do you have priority of way in this narrow road?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 11,
+        "test_id": 101028,
+        "index": 10
+      }
+    ]
+  },
+  {
+    "id": "68f4a769ff6ab21c29fd2810",
+    "question": "Los Agentes de Tráfico podrán someter a la prueba de alcoholemia...\nTraffic Agents may give a breathalyzer test to...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 12,
+        "test_id": 101028,
+        "index": 11
+      }
+    ]
+  },
+  {
+    "id": "e8c7e11c123e552b34be9170",
+    "question": "Si debido a un pinchazo usted se ve obligado a circular con una rueda de uso temporal, ¿qué deberá tener en cuenta?\nIf, due to a puncture, you are forced to drive with a temporary tyre, what should you take into account?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 13,
+        "test_id": 101028,
+        "index": 12
+      }
+    ]
+  },
+  {
+    "id": "9ac3de1e4e720bc65de361a0",
+    "question": "Los paneles direccionales, ¿qué indican?\nWhat do the direction panels indicate?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 14,
+        "test_id": 101028,
+        "index": 13
+      }
+    ]
+  },
+  {
+    "id": "64b257d9890835a4de277751",
+    "question": "En una vía interurbana, ¿puede adelantar un ciclomotor a un tractor agrícola que circula por el arcén?\nOn an interurban road, is a scooter permitted to overtake an agricultural tractor that is driving on the hard shoulder?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 15,
+        "test_id": 101028,
+        "index": 14
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1017,
+        "source_ordinal": 27,
+        "test_id": 1017,
+        "index": 26
+      }
+    ]
+  },
+  {
+    "id": "9950b3262cb92456eb8d2225",
+    "question": "Bajo los efectos del sueño...\nUnder the effects of drowsiness...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 16,
+        "test_id": 101028,
+        "index": 15
+      }
+    ]
+  },
+  {
+    "id": "4bfdf8647a37c82622c87ab8",
+    "question": "Ante un semáforo circular de color amarillo fijo, ¿hay que detenerse?\nDo you have to stop in front of a fixed circular yellow traffic light?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 17,
+        "test_id": 101028,
+        "index": 16
+      }
+    ]
+  },
+  {
+    "id": "ffa1e142f789b38cd3d7c048",
+    "question": "En este tramo de autovía, ¿se puede circular a más de 100 km/h para adelantar?\nOn this stretch of autovía, are you permitted to drive at over 100 km/h in order to overtake?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 18,
+        "test_id": 101028,
+        "index": 17
+      }
+    ]
+  },
+  {
+    "id": "90a4c839ce7b4656f9038ba1",
+    "question": "Esta señal, ¿obliga siempre a detenerse?\nDoes this sign mean that you must always stop?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 19,
+        "test_id": 101028,
+        "index": 18
+      }
+    ]
+  },
+  {
+    "id": "a8a45cf0dfe8daf6f44dbbe3",
+    "question": "La primera velocidad debe utilizarse...\nFirst gear must be used...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 20,
+        "test_id": 101028,
+        "index": 19
+      }
+    ]
+  },
+  {
+    "id": "668361f73bc14e7a767536ba",
+    "question": "Si conduciendo le sorprende una lluvia torrencial...\nIf you are caught in torrential rain while driving…",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 21,
+        "test_id": 101028,
+        "index": 20
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1027,
+        "source_ordinal": 30,
+        "test_id": 1027,
+        "index": 29
+      }
+    ]
+  },
+  {
+    "id": "074513cb90fc086e39d718b1",
+    "question": "Un agente le indica, desde su vehículo, que debe detenerse en el lado derecho, ¿cómo lo señaliza?\nA traffic officer indicates, from his vehicle, that you must stop on the right hand side of the road. How will he signal this?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 22,
+        "test_id": 101028,
+        "index": 21
+      }
+    ]
+  },
+  {
+    "id": "ba500ef31d8e539663091f8e",
+    "question": "¿Es recomendable la utilización de los reposacabezas en todos los asientos de un turismo?\nIs it recommendable to use the headrest on all seats in a private car?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 23,
+        "test_id": 101028,
+        "index": 22
+      }
+    ]
+  },
+  {
+    "id": "3505f60aaf2dfc5d00554d9d",
+    "question": "El número de teléfono de emergencias en accidentes de tráfico es...\nThe phone number to call for emergencies in traffic accidents is...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 24,
+        "test_id": 101028,
+        "index": 23
+      }
+    ]
+  },
+  {
+    "id": "4e875cd1a311a0c54afc1faa",
+    "question": "¿Podrá ser utilizado normalmente un carril VAO por un ciclomotor ocupado por dos personas?\nMay the HOV lane be normally used by a scooter carrying two people?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 25,
+        "test_id": 101028,
+        "index": 24
+      }
+    ]
+  },
+  {
+    "id": "da22032e740d9317f19d2ae4",
+    "question": "Cuando una persona tiene una enfermedad...\nWhen a person has an illness…",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 26,
+        "test_id": 101028,
+        "index": 25
+      }
+    ]
+  },
+  {
+    "id": "d5dd491c32b5d8093b9abc03",
+    "question": "Esta señal advierte de la proximidad de...\nThis sign warns of the approach of...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 27,
+        "test_id": 101028,
+        "index": 26
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1013,
+        "source_ordinal": 25,
+        "test_id": 1013,
+        "index": 24
+      }
+    ]
+  },
+  {
+    "id": "943be2b74c2693adac6083a4",
+    "question": "En un túnel con un carril para cada sentido, ¿qué distancia de seguridad mínima es obligatoria para turismos?\nIn a tunnel with a lane for each direction, what is the minimum safety distance mandatory for a private car?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 28,
+        "test_id": 101028,
+        "index": 27
+      }
+    ]
+  },
+  {
+    "id": "fa94c84373ea87041dee3cad",
+    "question": "Si por obras en la vía, se ha abierto un carril en sentido contrario al habitual, ¿puede circular por este carril un vehículo mixto?\nIf, due to roadworks, a lane is opened in a different direction to the normal one, can a multipurpose vehicle use this lane?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1028,
+        "source_ordinal": 30,
+        "test_id": 101028,
+        "index": 29
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1017,
+        "source_ordinal": 8,
+        "test_id": 1017,
+        "index": 7
+      }
+    ]
+  },
+  {
     "id": "aa29e499b735851dd71662af",
     "question": "Durante el día, ¿cuándo se produce el mayor número de accidentes?\nDuring the day, when does the greatest number of accidents occur?",
     "memberships": [
@@ -7477,6 +7924,391 @@
         "source_ordinal": 28,
         "test_id": 1017,
         "index": 27
+      }
+    ]
+  },
+  {
+    "id": "9fa9235dd150c16a1018dd37",
+    "question": "En vías urbanas de doble sentido de circulación, ¿en qué lado de la calzada podrá estacionar su turismo, si no existe señalización que lo prohíba?\nOn which side of the road can a private car stop on a two way urban road if there is no sign that prohibits it?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 1,
+        "test_id": 101039,
+        "index": 0
+      }
+    ]
+  },
+  {
+    "id": "2ffe80df3e34eeb208391eea",
+    "question": "En caso de padecer una enfermedad crónica, es fundamental...\nIf you suffer from a chronic illness, it is very important...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 2,
+        "test_id": 101039,
+        "index": 1
+      }
+    ]
+  },
+  {
+    "id": "13252167a0902bde58777ed5",
+    "question": "En una vía fuera de poblado con tres carriles para el mismo sentido, ¿qué vehículos no pueden usar el carril izquierdo ni para adelantar?\nOn roads situated outside a built-up area with three lanes for the same dlrection, which vehicles cannot use the left hand lane, even for overtaking?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 3,
+        "test_id": 101039,
+        "index": 2
+      }
+    ]
+  },
+  {
+    "id": "bbdd2c47becb3e4413ef0d7d",
+    "question": "Mientras se reposta carburante en una motocicleta, ¿es obligatorio apagar el alumbrado?\nIs it mandatory to turn off the lights when you are filling up your motorcycle with fuel?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 4,
+        "test_id": 101039,
+        "index": 3
+      }
+    ]
+  },
+  {
+    "id": "51536bad0d1a81278c8bae69",
+    "question": "La obligación de dejar espacio suficiente para permitir el adelantamiento no será aplicable...\nThe obligation to leave sufficient space to permit an overtaking manoeuvre will not be applicable...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 5,
+        "test_id": 101039,
+        "index": 4
+      }
+    ]
+  },
+  {
+    "id": "cb29166c852e974d2d8e7a64",
+    "question": "Para realizar una parada, ¿está permitido circular marcha atrás?\nAre you permitted to reverse in order to stop?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 6,
+        "test_id": 101039,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "e385f8423208822672414fd8",
+    "question": "Este panel, colocado bajo una señal de prohibición, indica...\nThis panel, situated under a prohibition sign, indicates...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 7,
+        "test_id": 101039,
+        "index": 6
+      }
+    ]
+  },
+  {
+    "id": "eb84fd75521698935eafd635",
+    "question": "Para evitar que el vehículo en caso de lluvia planee sobre el agua...\nIn order to avoid the vehicle from skidding on water during rain...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 8,
+        "test_id": 101039,
+        "index": 7
+      }
+    ]
+  },
+  {
+    "id": "7b621320595bcd5f7624d263",
+    "question": "Esta señal, ¿qué indica?\nWhat does this sign indicate?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 9,
+        "test_id": 101039,
+        "index": 8
+      }
+    ]
+  },
+  {
+    "id": "7e42ae6cecc434cb8ae00bd5",
+    "question": "Un turismo con cortinillas contra el sol en las ventanillas traseras, ¿tiene permitido circular?\nIs a private car with sun blinds on the rear windows permitted to drive?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 10,
+        "test_id": 101039,
+        "index": 9
+      }
+    ]
+  },
+  {
+    "id": "972f580ede8902cfa4533a2c",
+    "question": "Esta señal prohíbe la entrada a...\nThis sign prohibits the entrance of...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 11,
+        "test_id": 101039,
+        "index": 10
+      }
+    ]
+  },
+  {
+    "id": "c6151e08c99782a569441a22",
+    "question": "Después de iniciar el adelantamiento comprueba que se acerca un vehículo de frente, ¿qué debe hacer?\nWhat must you do if, after initiating an overtaking manoeuvre, you see a vehicle approaching in the oncoming lane?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 12,
+        "test_id": 101039,
+        "index": 11
+      }
+    ]
+  },
+  {
+    "id": "3ed81cc7670c387dbeacfaae",
+    "question": "En vías urbanas, utilizar el cinturón de seguridad...\nOn urban roads, using the seat belt...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 13,
+        "test_id": 101039,
+        "index": 12
+      }
+    ]
+  },
+  {
+    "id": "6548c7d983ee3d084b63c9a7",
+    "question": "Para rebasar un obstáculo, ¿puede desplazarse al carril contiguo?\nIn order to overtake an obstacle, are you permitted to move into the next lane?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 14,
+        "test_id": 101039,
+        "index": 13
+      }
+    ]
+  },
+  {
+    "id": "9c41204b8bab110724b06332",
+    "question": "En una vía urbana, es obligatorio realizar las operaciones de carga y descarga...\nOn an urban road, it is mandatory to carry out loading and unloading operations...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 15,
+        "test_id": 101039,
+        "index": 14
+      }
+    ]
+  },
+  {
+    "id": "a5a747113202bb0b74dddd63",
+    "question": "¿Hay que prestar una atención especial a los peatones?\nMust we pay special attention to pedestrians?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 17,
+        "test_id": 101039,
+        "index": 16
+      }
+    ]
+  },
+  {
+    "id": "cbab8d9eab07fac9f8f197a4",
+    "question": "En travesías, ¿cuál es la velocidad máxima permitida para un turismo con remolque?\nIn through-roads, what is the maximum speed allowed for a passenger car with a trailer?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 18,
+        "test_id": 101039,
+        "index": 17
+      }
+    ]
+  },
+  {
+    "id": "79c8626d9526bc4636eb3575",
+    "question": "Si han cambiado sus condiciones físicas y necesita adaptar su vehículo, ¿tiene que comunicarlo a la Jefatura de Tráfico?\nIf your physical condition has changed and you need to adapt your vehicle, must you notify the Traffic Department?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 19,
+        "test_id": 101039,
+        "index": 18
+      }
+    ]
+  },
+  {
+    "id": "2af512e76700db5dca69f053",
+    "question": "Cuando llueve o hay viento, ¿por qué hay que tener más precaución con los ciclistas?\nWhen it rains or there is wind, why do you need to take more care with cyclists?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 20,
+        "test_id": 101039,
+        "index": 19
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1028,
+        "source_ordinal": 18,
+        "test_id": 1028,
+        "index": 17
+      }
+    ]
+  },
+  {
+    "id": "9fa1b816c135916df6fe730e",
+    "question": "¿Qué peligro es el más frecuente al usar el teléfono móvil durante la conducción?\nWhat is the most frequent danger when using a mobile phone when driving?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 21,
+        "test_id": 101039,
+        "index": 20
+      }
+    ]
+  },
+  {
+    "id": "d1e9ef567f36d2b817ea2c46",
+    "question": "A la vista de la señal, ¿tienen preferencia de paso los animales domésticos cuando crucen la calzada?\nDoes this sign give domestic animals right of way when crossing the road?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 22,
+        "test_id": 101039,
+        "index": 21
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1024,
+        "source_ordinal": 26,
+        "test_id": 1024,
+        "index": 25
+      }
+    ]
+  },
+  {
+    "id": "75a2aaca15a9f8d3a8462c33",
+    "question": "El freno de mano, ¿para qué sirve?\nWhat is the hand brake used for?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 23,
+        "test_id": 101039,
+        "index": 22
+      }
+    ]
+  },
+  {
+    "id": "cd0ef7726dab62612117d8da",
+    "question": "¿Está permitido adelantar en los pasos a nivel?\nAre you permitted to overtake on railway crossings?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 25,
+        "test_id": 101039,
+        "index": 24
+      }
+    ]
+  },
+  {
+    "id": "4edd02286ff2700dd8e11033",
+    "question": "¿Es correcto circular por encima de las líneas que separan los carriles?\nIs it correct to drive over the lines that separate the lanes?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 26,
+        "test_id": 101039,
+        "index": 25
+      }
+    ]
+  },
+  {
+    "id": "a423b760572d67c54eea6543",
+    "question": "En una parada de autobús señalizada, ¿qué está prohibido?\nWhat is prohibited at a signposted bus stop?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 27,
+        "test_id": 101039,
+        "index": 26
+      }
+    ]
+  },
+  {
+    "id": "55c7a72e239dd35ea30ff8f7",
+    "question": "Esta señal...\nThis sign…",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 28,
+        "test_id": 101039,
+        "index": 27
+      }
+    ]
+  },
+  {
+    "id": "a45a88e4cd77288a70d5861c",
+    "question": "Esta señal advierte de la obligación de circular al menos a 70 metros del vehículo de delante únicamente cuando se den circunstancias de...\nThis sign warns of the obligation to drive at least 70 metres from the vehicle in front only when there are conditions of...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 29,
+        "test_id": 101039,
+        "index": 28
+      }
+    ]
+  },
+  {
+    "id": "57ba135859184cc0d705659c",
+    "question": "Al aproximarse a un autobús en situación de parada, ¿qué precauciones se deben tomar?\nWhen approaching a bus at a bus stop, what precautions should be taken?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1039,
+        "source_ordinal": 30,
+        "test_id": 101039,
+        "index": 29
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1018,
+        "source_ordinal": 15,
+        "test_id": 1018,
+        "index": 14
       }
     ]
   },
@@ -10220,19 +11052,6 @@
     ]
   },
   {
-    "id": "d5dd491c32b5d8093b9abc03",
-    "question": "Esta señal advierte de la proximidad de...\nThis sign warns of the approach of...",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1013,
-        "source_ordinal": 25,
-        "test_id": 1013,
-        "index": 24
-      }
-    ]
-  },
-  {
     "id": "d4f04f163d9f86555efc92de",
     "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
     "memberships": [
@@ -11247,19 +12066,6 @@
     ]
   },
   {
-    "id": "fa94c84373ea87041dee3cad",
-    "question": "Si por obras en la vía, se ha abierto un carril en sentido contrario al habitual, ¿puede circular por este carril un vehículo mixto?\nIf, due to roadworks, a lane is opened in a different direction to the normal one, can a multipurpose vehicle use this lane?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1017,
-        "source_ordinal": 8,
-        "test_id": 1017,
-        "index": 7
-      }
-    ]
-  },
-  {
     "id": "48b17017509ee5d3b26d30a4",
     "question": "Un turismo con remolque, ¿tiene permitido circular por un carril adicional circunstancial?\nIs a passenger car with a trailer allowed to drive in an additional lane opened in special circumstances?",
     "memberships": [
@@ -11451,19 +12257,6 @@
         "source_ordinal": 26,
         "test_id": 1017,
         "index": 25
-      }
-    ]
-  },
-  {
-    "id": "64b257d9890835a4de277751",
-    "question": "En una vía interurbana, ¿puede adelantar un ciclomotor a un tractor agrícola que circula por el arcén?\nOn an interurban road, is a scooter permitted to overtake an agricultural tractor that is driving on the hard shoulder?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1017,
-        "source_ordinal": 27,
-        "test_id": 1017,
-        "index": 26
       }
     ]
   },
@@ -11672,19 +12465,6 @@
         "source_ordinal": 14,
         "test_id": 1018,
         "index": 13
-      }
-    ]
-  },
-  {
-    "id": "57ba135859184cc0d705659c",
-    "question": "Al aproximarse a un autobús en situación de parada, ¿qué precauciones se deben tomar?\nWhen approaching a bus at a bus stop, what precautions should be taken?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1018,
-        "source_ordinal": 15,
-        "test_id": 1018,
-        "index": 14
       }
     ]
   },
@@ -12075,19 +12855,6 @@
         "source_ordinal": 17,
         "test_id": 1019,
         "index": 16
-      }
-    ]
-  },
-  {
-    "id": "c830e442ea7fcda179218e28",
-    "question": "En autopistas y autovías dentro de poblado, el límite de velocidad para circular de un conductor novel es de...\nOn autopistas and autovías inside a built-up area, the speed limit for a new driver is...",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1019,
-        "source_ordinal": 18,
-        "test_id": 1019,
-        "index": 17
       }
     ]
   },
@@ -13093,19 +13860,6 @@
     ]
   },
   {
-    "id": "b0f256b3b72c58437ef5d16b",
-    "question": "En esta vía de doble sentido, ¿dónde se colocará con su turismo para cambiar de dirección a la izquierda?\nOn this two-way road, where will you place your private car in order to turn left?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1022,
-        "source_ordinal": 22,
-        "test_id": 1022,
-        "index": 21
-      }
-    ]
-  },
-  {
     "id": "eb31f2d4d77c086338b973cf",
     "question": "Para girar a la izquierda, en una vía en la que no hay marca que separe los dos sentidos de circulación, ¿dónde debe situarse?\nTo turn left, on a road where there is no mark separating the two directions of traffic, where should you be?",
     "memberships": [
@@ -13765,19 +14519,6 @@
         "source_ordinal": 25,
         "test_id": 1024,
         "index": 24
-      }
-    ]
-  },
-  {
-    "id": "d1e9ef567f36d2b817ea2c46",
-    "question": "A la vista de la señal, ¿tienen preferencia de paso los animales domésticos cuando crucen la calzada?\nDoes this sign give domestic animals right of way when crossing the road?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1024,
-        "source_ordinal": 26,
-        "test_id": 1024,
-        "index": 25
       }
     ]
   },
@@ -14757,19 +15498,6 @@
     ]
   },
   {
-    "id": "668361f73bc14e7a767536ba",
-    "question": "Si conduciendo le sorprende una lluvia torrencial...\nIf you are caught in torrential rain while driving…",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1027,
-        "source_ordinal": 30,
-        "test_id": 1027,
-        "index": 29
-      }
-    ]
-  },
-  {
     "id": "be744fcd6681b25c135e89ba",
     "question": "Circulando con la calzada nevada las pendientes se deben subir...\nWhen driving on a snow-covered road, you should drive up gradients…",
     "memberships": [
@@ -14961,19 +15689,6 @@
         "source_ordinal": 17,
         "test_id": 1028,
         "index": 16
-      }
-    ]
-  },
-  {
-    "id": "2af512e76700db5dca69f053",
-    "question": "Cuando llueve o hay viento, ¿por qué hay que tener más precaución con los ciclistas?\nWhen it rains or there is wind, why do you need to take more care with cyclists?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1028,
-        "source_ordinal": 18,
-        "test_id": 1028,
-        "index": 17
       }
     ]
   },
@@ -16547,19 +17262,6 @@
         "source_ordinal": 7,
         "test_id": 1033,
         "index": 6
-      }
-    ]
-  },
-  {
-    "id": "e6426262e7688b7e71de7a77",
-    "question": "¿Están obligados todos los automóviles a llevar una rueda de repuesto y las herramientas indispensables para su cambio?\nIs it mandatory for all automobiles to carry a spare tyre and the tools needed to change it?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1033,
-        "source_ordinal": 9,
-        "test_id": 1033,
-        "index": 8
       }
     ]
   },

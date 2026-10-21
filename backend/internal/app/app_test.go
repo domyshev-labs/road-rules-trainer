@@ -10,6 +10,8 @@ import (
 	"net/http/httptest"
 	"strings"
 	"testing"
+
+	"github.com/domyshev-labs/road-rules-trainer/backend/seed"
 )
 
 type capturedEmail struct {
@@ -55,11 +57,37 @@ func request(t *testing.T, handler http.Handler, method, path, body string, cook
 	return response
 }
 
+func expectedSeedCounts(t *testing.T) (int, int) {
+	t.Helper()
+	entries, err := seed.Files.ReadDir(".")
+	if err != nil {
+		t.Fatal(err)
+	}
+	tickets, questions := 0, 0
+	for _, entry := range entries {
+		if !strings.HasPrefix(entry.Name(), "test-") || strings.HasSuffix(entry.Name(), "-help.json") {
+			continue
+		}
+		data, err := seed.Files.ReadFile(entry.Name())
+		if err != nil {
+			t.Fatal(err)
+		}
+		var ticket seedTest
+		if err := json.Unmarshal(data, &ticket); err != nil {
+			t.Fatal(err)
+		}
+		tickets++
+		questions += len(ticket.Questions)
+	}
+	return tickets, questions
+}
+
 func TestPasswordlessQuizFlow(t *testing.T) {
+	expectedTickets, expectedQuestions := expectedSeedCounts(t)
 	application, sender := newTestApp(t)
 	handler := application.Handler()
 	var questionCount int
-	if err := application.db.QueryRow(`SELECT count(*) FROM questions`).Scan(&questionCount); err != nil || questionCount != 1363 {
+	if err := application.db.QueryRow(`SELECT count(*) FROM questions`).Scan(&questionCount); err != nil || questionCount != expectedQuestions {
 		t.Fatalf("seeded questions: count=%d error=%v", questionCount, err)
 	}
 
@@ -79,7 +107,7 @@ func TestPasswordlessQuizFlow(t *testing.T) {
 
 	response = request(t, handler, http.MethodGet, "/api/catalog", "", cookie)
 	var catalog []map[string]any
-	if response.Code != http.StatusOK || json.Unmarshal(response.Body.Bytes(), &catalog) != nil || len(catalog) != 47 {
+	if response.Code != http.StatusOK || json.Unmarshal(response.Body.Bytes(), &catalog) != nil || len(catalog) != expectedTickets {
 		t.Fatalf("catalog: status=%d count=%d body=%s", response.Code, len(catalog), response.Body.String())
 	}
 	for _, ticket := range catalog {
