@@ -1504,6 +1504,13 @@
         "source_ordinal": 2,
         "test_id": 1005,
         "index": 1
+      },
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 9,
+        "test_id": 101058,
+        "index": 8
       }
     ]
   },
@@ -1530,6 +1537,13 @@
         "source_ordinal": 4,
         "test_id": 1005,
         "index": 3
+      },
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 16,
+        "test_id": 101058,
+        "index": 15
       }
     ]
   },
@@ -2550,6 +2564,13 @@
         "source_ordinal": 16,
         "test_id": 1007,
         "index": 15
+      },
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 12,
+        "test_id": 101058,
+        "index": 11
       }
     ]
   },
@@ -3759,6 +3780,13 @@
         "source_ordinal": 12,
         "test_id": 1010,
         "index": 11
+      },
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 28,
+        "test_id": 101069,
+        "index": 25
       }
     ]
   },
@@ -3870,6 +3898,13 @@
         "source_ordinal": 20,
         "test_id": 1010,
         "index": 19
+      },
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 22,
+        "test_id": 101058,
+        "index": 20
       }
     ]
   },
@@ -9442,6 +9477,346 @@
     ]
   },
   {
+    "id": "055e0772798fdc44bcc1d03b",
+    "question": "A la vista de la señal, en la próxima intersección, ¿es obligatorio ceder el paso a los vehículos que entran por la izquierda?\nWhen you see this sign, is it mandatory to give way to vehicles entering from the left at the next junction?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 1,
+        "test_id": 101058,
+        "index": 0
+      }
+    ]
+  },
+  {
+    "id": "8ac9640c7f832c0c925efb2d",
+    "question": "En defecto de señalización, ¿cuál es la velocidad máxima a la que se permite la circulación por una autovía, dentro de poblado, a un autobús?\nIf there is no sign, what is the maximum speed that a bus is allowed to drive at along a dual carriageway in a populated area?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 2,
+        "test_id": 101058,
+        "index": 1
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1019,
+        "source_ordinal": 9,
+        "test_id": 1019,
+        "index": 8
+      }
+    ]
+  },
+  {
+    "id": "71d7e60be2514aa9f3ba364c",
+    "question": "Si el conductor no responde a tiempo ante una colisión inminente, el sistema de frenada autónoma de emergencia con detección de peatones y ciclistas (AEB+P+C)...\nIf the driver does not respond in time to an imminent collision, the autonomous emergency braking system with pedestrian and cyclist detection (AEB+P+C)...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 3,
+        "test_id": 101058,
+        "index": 2
+      }
+    ]
+  },
+  {
+    "id": "05ddb9d9c4151230e9399359",
+    "question": "Si se dan las condiciones precisas para realizar la maniobra, ¿está permitido adelantar al ciclista?\nIs it permitted to overtake the cyclist if there are suitable conditions for the manoeuvre?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 4,
+        "test_id": 101058,
+        "index": 3
+      }
+    ]
+  },
+  {
+    "id": "1a0de65e7e141d90db534579",
+    "question": "Esta señal, ¿qué indica?\nWhat does this sign mean?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 5,
+        "test_id": 101058,
+        "index": 4
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1013,
+        "source_ordinal": 21,
+        "test_id": 1013,
+        "index": 20
+      }
+    ]
+  },
+  {
+    "id": "46ac4e5013907d182cb9bfeb",
+    "question": "Debe saber que el número 112 de servicios de emergencia...\nYou should know that the emergency services number 112...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 6,
+        "test_id": 101058,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "df49979ba5becc3879c3d69b",
+    "question": "¿Quién es el responsable civil en caso de accidente de tráfico?\nWho has civil liability for a traffic accident?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 7,
+        "test_id": 101058,
+        "index": 6
+      }
+    ]
+  },
+  {
+    "id": "f8060936f2e167950392bc68",
+    "question": "Los conos, en la situación de la imagen, indican que se ha habilitado un carril…\nIn the image, the cones indicate that a lane has been authorised as...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 8,
+        "test_id": 101058,
+        "index": 7
+      }
+    ]
+  },
+  {
+    "id": "0068fd513574697bc1dfece4",
+    "question": "El conductor de un ciclomotor que no disponga de estructura de protección, está obligado a utilizar el casco de protección...\nA moped driver without a protection structure is required to wear a helmet...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 10,
+        "test_id": 101058,
+        "index": 9
+      }
+    ]
+  },
+  {
+    "id": "7328e3a3eb48e37499979789",
+    "question": "¿Se puede mejorar la adherencia del vehículo en una zona en la que exista hielo en la calzada?\nCan vehicle grip be improved along a stretch with ice on the road?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 11,
+        "test_id": 101058,
+        "index": 10
+      }
+    ]
+  },
+  {
+    "id": "ddb15036c84fe0e625088389",
+    "question": "En este cambio de rasante de reducida visibilidad, ¿puede adelantar el vehículo blanco al azul?\nAt this change of level with reduced visibility, can the white vehicle overtake?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 13,
+        "test_id": 101058,
+        "index": 12
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1022,
+        "source_ordinal": 14,
+        "test_id": 1022,
+        "index": 13
+      }
+    ]
+  },
+  {
+    "id": "d437f4f0e1a4b597d8afcaf9",
+    "question": "Si en una vía existe una línea longitudinal continua adosada a otra discontinua…\nIf there is a solid longitudinal line next to a broken line on the road...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 14,
+        "test_id": 101058,
+        "index": 13
+      }
+    ]
+  },
+  {
+    "id": "51485f4242634417c42da613",
+    "question": "En una carretera cuya velocidad genérica es de 90 km/h, ¿qué velocidad se considera anormalmente reducida para un turismo?\nOn a road with a general speed limit of 90 km/h, what speed is considered abnormally slow for a car?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 15,
+        "test_id": 101058,
+        "index": 14
+      }
+    ]
+  },
+  {
+    "id": "5d464bb49e357c07ac5dee90",
+    "question": "¿Por qué, en caso de accidente, es importante que entre la parte más cercana del cuerpo y el volante haya una distancia mínima de 25 centímetros?\nWhy, in the event of an accident, is it important that there is at least 25 centimetres between the nearest part of the body and the steering wheel?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 17,
+        "test_id": 101058,
+        "index": 16
+      }
+    ]
+  },
+  {
+    "id": "a7f357bd21fa1c8a437198d3",
+    "question": "En una carretera convencional sin separación física de los dos sentidos de circulación, un turismo, ¿puede superar la velocidad máxima genérica para adelantar a un vehículo que circula a 90 km/h?\nOn a conventional road without a physical barrier between the two directions of traffic, can a car exceed the general speed limit to overtake a vehicle travelling at 90 km/h?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 18,
+        "test_id": 101058,
+        "index": 17
+      }
+    ]
+  },
+  {
+    "id": "11fd26f01520a791bd62a4ff",
+    "question": "Si conduce y consume antihistamínicos para tratar una alergia respiratoria, es conveniente...\nIf you drive and consume antihistamines to treat a respiratory allergy, you should...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 19,
+        "test_id": 101058,
+        "index": 18
+      }
+    ]
+  },
+  {
+    "id": "498f4a90bf8a9cfe2f0f8400",
+    "question": "¿Cuándo está prohibido hacer un cambio de sentido?\nWhen is it prohibited to do a U-turn?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 20,
+        "test_id": 101058,
+        "index": 19
+      }
+    ]
+  },
+  {
+    "id": "a5eee6b00c5586bdd391abee",
+    "question": "Si un vehículo de la policía de tráfico se sitúa detrás de usted y enciende un dispositivo con una luz roja destellante hacia delante, ¿qué debe hacer?\nIf a traffic police officer is travelling behind you, and switches on a front-facing flashing red light, what should you do?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 23,
+        "test_id": 101058,
+        "index": 21
+      }
+    ]
+  },
+  {
+    "id": "479474eb64ad236c992408d2",
+    "question": "Una de las infracciones de los conductores que implica más riesgo para los peatones es...\nOne of the offences by drivers that poses the greatest risk to pedestrians is…",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 24,
+        "test_id": 101058,
+        "index": 22
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1031,
+        "source_ordinal": 4,
+        "test_id": 1031,
+        "index": 3
+      }
+    ]
+  },
+  {
+    "id": "74572236f874a3fe8e858a9d",
+    "question": "Los chalecos reflectantes de alta visibilidad, ¿deben estar homologados?\nDo hi-vis jackets need to be certified?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 25,
+        "test_id": 101058,
+        "index": 23
+      }
+    ]
+  },
+  {
+    "id": "5dc8f88045971bc1766dffd7",
+    "question": "Según las últimas cifras de siniestralidad, ¿cuándo se produce un mayor número de accidentes de tráfico con víctimas mortales?\nAccording to the latest accident figures, when do the greatest number of traffic accidents with fatalities occur?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 26,
+        "test_id": 101058,
+        "index": 24
+      }
+    ]
+  },
+  {
+    "id": "df18d7e9686a8ab60b916bc6",
+    "question": "Este vehículo va a girar a la izquierda; ¿está permitido adelantarle por la derecha?\nThis vehicle is turning left; are you allowed to overtake it on the right?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 27,
+        "test_id": 101058,
+        "index": 25
+      }
+    ]
+  },
+  {
+    "id": "e333d8c5d098e50a98f4f33d",
+    "question": "Los síntomas de las enfermedades más comunes, como gripes, resfriados o alergias, ¿pueden afectar a las capacidades para conducir con seguridad?\nCan the symptoms of the most common illnesses, such as flu, colds or allergies, affect your ability to drive safely?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 28,
+        "test_id": 101058,
+        "index": 26
+      }
+    ]
+  },
+  {
+    "id": "6379b364e4782eecdc8523c0",
+    "question": "En caso de lluvia, ¿es conveniente aumentar la distancia de seguridad con el vehículo que circula delante?\nWhen it is raining, should you increase the stopping distance from the vehicle in front?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1058,
+        "source_ordinal": 29,
+        "test_id": 101058,
+        "index": 27
+      }
+    ]
+  },
+  {
     "id": "d63f23622baa36de1a700cda",
     "question": "Las marcas blancas y rojas de la calzada, ¿qué indican?\nWhat do the white and red markings on the road indicate?",
     "memberships": [
@@ -9778,6 +10153,385 @@
         "source_ordinal": 2,
         "test_id": 1021,
         "index": 1
+      }
+    ]
+  },
+  {
+    "id": "f102b7052e1378cb7d69c7e2",
+    "question": "¿Está permitido adelantar a la vez a estos dos camiones?\nIs it permitted to overtake both these two lorries at once?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 2,
+        "test_id": 101069,
+        "index": 0
+      }
+    ]
+  },
+  {
+    "id": "b34542843d72daeacb7a77c3",
+    "question": "Conducir durante mucho tiempo sin descansar...\nDriving for a long time without resting...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 3,
+        "test_id": 101069,
+        "index": 1
+      }
+    ]
+  },
+  {
+    "id": "90a16df84986fbe14cd49a6d",
+    "question": "En el carril de circulación de la derecha, ¿se puede estacionar?\nCan you park in the right-hand lane?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 4,
+        "test_id": 101069,
+        "index": 2
+      }
+    ]
+  },
+  {
+    "id": "20c6d9885b0c8c478f42a64f",
+    "question": "El conductor del turismo amarillo se ha apartado al arcén para facilitar el adelantamiento al camión, ¿es correcto su comportamiento?\nThe driver of the yellow car has moved into the hard shoulder to help the lorry's overtake. Is this correct?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 5,
+        "test_id": 101069,
+        "index": 3
+      }
+    ]
+  },
+  {
+    "id": "ed178c5012854e34b1f12b0c",
+    "question": "Las personas mayores, como peatones...\nAs pedestrians, older people...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 6,
+        "test_id": 101069,
+        "index": 4
+      }
+    ]
+  },
+  {
+    "id": "dc15b2849d12e213030655ab",
+    "question": "En caso de niebla densa, ¿qué precauciones se deben tomar?\nIn the event of dense fog, what precautions should be taken?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 7,
+        "test_id": 101069,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "3c7831b76c70cfb19b1aa8d6",
+    "question": "En un puente que disponga de un ancho de calzada inferior a 6 metros, ¿qué vehículos tienen prohibido cruzarse?\nOn a bridge with a width of less than 6 metres, which vehicles may not cross?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 8,
+        "test_id": 101069,
+        "index": 6
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1025,
+        "source_ordinal": 24,
+        "test_id": 1025,
+        "index": 23
+      }
+    ]
+  },
+  {
+    "id": "fb347e5a17412b2a7db7c367",
+    "question": "El nivel del depósito de lavaparabrisas ha de ser vigilado...\nThe windscreen washer fluid tank should be checked...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 9,
+        "test_id": 101069,
+        "index": 7
+      }
+    ]
+  },
+  {
+    "id": "15442f4f195bdf899b8c2fc1",
+    "question": "¿El alcohol está directamente relacionado con los accidentes?\nIs alcohol directly related to accidents?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 10,
+        "test_id": 101069,
+        "index": 8
+      }
+    ]
+  },
+  {
+    "id": "570cd6c88fb7d0171af7173d",
+    "question": "Este vehículo va a girar a la izquierda, ¿está permitido adelantarle por la derecha?\nThis vehicle is going to turn left, is it permitted to overtake it on the right?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 11,
+        "test_id": 101069,
+        "index": 9
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1021,
+        "source_ordinal": 17,
+        "test_id": 1021,
+        "index": 16
+      }
+    ]
+  },
+  {
+    "id": "5f534ff876c3110262e47768",
+    "question": "Ante un semáforo en rojo situado antes de una intersección, ¿dónde hay que detenerse?\nAt a red traffic light before a junction, where should you stop?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 12,
+        "test_id": 101069,
+        "index": 10
+      }
+    ]
+  },
+  {
+    "id": "6e05c284d17954fa05f4b1b0",
+    "question": "En el cruce, ¿qué debe hacer el vehículo situado en el carril derecho?\nAt the junction, what should the vehicle located in the right-hand lane do?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 14,
+        "test_id": 101069,
+        "index": 11
+      }
+    ]
+  },
+  {
+    "id": "399024908e59cd21acfa0258",
+    "question": "La señal indica que...\nThe sign means that...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 15,
+        "test_id": 101069,
+        "index": 12
+      }
+    ]
+  },
+  {
+    "id": "43271f269ee6fa32a531c3bd",
+    "question": "Si no existe vía o parte de ella que les esté especialmente destinada, los ciclomotores...\nIf there is no road or part of it that is specially intended for these vehicles, mopeds...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 16,
+        "test_id": 101069,
+        "index": 13
+      }
+    ]
+  },
+  {
+    "id": "9ff0574dc980853606eac914",
+    "question": "Con nieve en la calzada...\nWith snow on the road...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 17,
+        "test_id": 101069,
+        "index": 14
+      }
+    ]
+  },
+  {
+    "id": "2480c425f98913cf4c60b830",
+    "question": "Los accidentes de tráfico en España son la principal causa de muerte...\nTraffic accidents in Spain are the main cause of death...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 18,
+        "test_id": 101069,
+        "index": 15
+      }
+    ]
+  },
+  {
+    "id": "f7a6eb9ef137c7bde8e9669c",
+    "question": "En las calzadas con dos sentidos y tres carriles, cuando quiera girar a la izquierda, ¿dónde debe colocarse?\nOn two-way and three lane roads, when you want to turn left, where should you be positioned?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 19,
+        "test_id": 101069,
+        "index": 16
+      }
+    ]
+  },
+  {
+    "id": "f724aaaa7af41c61baa2b2d5",
+    "question": "En los vehículos de anchura inferior a un metro la carga no debe sobresalir lateralmente más de...\nIn a vehicle with a width of less than one metre, the load should not protrude from the side by more than...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 20,
+        "test_id": 101069,
+        "index": 17
+      }
+    ]
+  },
+  {
+    "id": "0a4ca2f0bbe20fe7df19c6f2",
+    "question": "El alcohol y las drogas, ¿son peligrosos para la conducción?\nAre alcohol and drugs dangerous for driving?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 21,
+        "test_id": 101069,
+        "index": 18
+      }
+    ]
+  },
+  {
+    "id": "46fdd1d9061e13b95cc2e1f8",
+    "question": "Esta señal prohíbe el paso de...\nThis sign prohibits access to...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 22,
+        "test_id": 101069,
+        "index": 19
+      }
+    ]
+  },
+  {
+    "id": "ccb085c4392f4af17f7becda",
+    "question": "El nivel del depósito de líquido lavaparabrisas, ¿se debe revisar con cierta frecuencia?\nShould the level of the windscreen washer fluid tank be checked regularly?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 23,
+        "test_id": 101069,
+        "index": 20
+      }
+    ]
+  },
+  {
+    "id": "228c0cb4f42e75852fa318b2",
+    "question": "La carga transportada en un turismo no deberá...\nThe load transported in a car must not...",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 24,
+        "test_id": 101069,
+        "index": 21
+      }
+    ]
+  },
+  {
+    "id": "db2d08d5eab10bc783f286cc",
+    "question": "¿Cómo puede reducir la velocidad de su vehículo?\nHow can you reduce your vehicle speed?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 25,
+        "test_id": 101069,
+        "index": 22
+      }
+    ]
+  },
+  {
+    "id": "f729217e1ae5c709bab7dbb0",
+    "question": "Fuera de poblado, una autocaravana va a adelantar a un vehículo pesado, ¿puede producirse una situación de riesgo cuando circulen en paralelo si sopla fuerte viento lateral por la derecha?\nOutside a populated area, a motorhome will overtake a heavy vehicle. Can a risk arise when driving alongside each other if there is a strong side wind blowing from the right?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 26,
+        "test_id": 101069,
+        "index": 23
+      }
+    ]
+  },
+  {
+    "id": "f99c17ff8b322463798e1a62",
+    "question": "El consumo de alcohol, ¿afecta al tiempo que tarda en reaccionar el conductor ante una situación de emergencia?\nDoes alcohol consumption affect the time it takes for the driver to react to an emergency situation?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 27,
+        "test_id": 101069,
+        "index": 24
+      }
+    ]
+  },
+  {
+    "id": "cfbdd2fdce42ad671c430f95",
+    "question": "Después de adelantar al camión y al turismo, el turismo rojo desea seguir adelantando a otros vehículos. ¿Debe regresar antes al carril derecho?\nAfter overtaking the lorry and the car, the red car wants to continue overtaking other vehicles. Should it return to the right lane first?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 29,
+        "test_id": 101069,
+        "index": 26
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1021,
+        "source_ordinal": 24,
+        "test_id": 1021,
+        "index": 23
+      }
+    ]
+  },
+  {
+    "id": "6764a09ea02e77f524f7d49f",
+    "question": "¿Debe identificarse a los servicios de emergencia cuando avise de un accidente?\nShould you identify yourself to the emergency services when reporting an accident?",
+    "memberships": [
+      {
+        "collection": "Exam Test",
+        "source_test_id": 1069,
+        "source_ordinal": 30,
+        "test_id": 101069,
+        "index": 27
+      },
+      {
+        "collection": "Thematic Test",
+        "source_test_id": 1032,
+        "source_ordinal": 15,
+        "test_id": 1032,
+        "index": 14
       }
     ]
   },
@@ -11383,19 +12137,6 @@
         "source_ordinal": 20,
         "test_id": 1013,
         "index": 19
-      }
-    ]
-  },
-  {
-    "id": "1a0de65e7e141d90db534579",
-    "question": "Esta señal, ¿qué indica?\nWhat does this sign mean?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1013,
-        "source_ordinal": 21,
-        "test_id": 1013,
-        "index": 20
       }
     ]
   },
@@ -13142,19 +13883,6 @@
     ]
   },
   {
-    "id": "8ac9640c7f832c0c925efb2d",
-    "question": "En defecto de señalización, ¿cuál es la velocidad máxima a la que se permite la circulación por una autovía, dentro de poblado, a un autobús?\nIf there is no sign, what is the maximum speed that a bus is allowed to drive at along a dual carriageway in a populated area?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1019,
-        "source_ordinal": 9,
-        "test_id": 1019,
-        "index": 8
-      }
-    ]
-  },
-  {
     "id": "1670cb24f51debad78c39dcb",
     "question": "En vías urbanas de dos o más carriles por sentido, ¿cuál es la velocidad máxima permitida para un vehículo de movilidad personal?\nOn urban roads with two or more lanes per direction of travel, what is the maximum speed limit for a personal mobility vehicle?",
     "memberships": [
@@ -13870,19 +14598,6 @@
     ]
   },
   {
-    "id": "570cd6c88fb7d0171af7173d",
-    "question": "Este vehículo va a girar a la izquierda, ¿está permitido adelantarle por la derecha?\nThis vehicle is going to turn left, is it permitted to overtake it on the right?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1021,
-        "source_ordinal": 17,
-        "test_id": 1021,
-        "index": 16
-      }
-    ]
-  },
-  {
     "id": "adc2db0272d69229a1783e19",
     "question": "Como norma general, ¿se puede adelantar por la derecha en una autopista?\nAs a general rule, can you overtake on the right on a motorway?",
     "memberships": [
@@ -13957,19 +14672,6 @@
         "source_ordinal": 23,
         "test_id": 1021,
         "index": 22
-      }
-    ]
-  },
-  {
-    "id": "cfbdd2fdce42ad671c430f95",
-    "question": "Después de adelantar al camión y al turismo, el turismo rojo desea seguir adelantando a otros vehículos. ¿Debe regresar antes al carril derecho?\nAfter overtaking the lorry and the car, the red car wants to continue overtaking other vehicles. Should it return to the right lane first?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1021,
-        "source_ordinal": 24,
-        "test_id": 1021,
-        "index": 23
       }
     ]
   },
@@ -14152,19 +14854,6 @@
         "source_ordinal": 13,
         "test_id": 1022,
         "index": 12
-      }
-    ]
-  },
-  {
-    "id": "ddb15036c84fe0e625088389",
-    "question": "En este cambio de rasante de reducida visibilidad, ¿puede adelantar el vehículo blanco al azul?\nAt this change of level with reduced visibility, can the white vehicle overtake?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1022,
-        "source_ordinal": 14,
-        "test_id": 1022,
-        "index": 13
       }
     ]
   },
@@ -15179,19 +15868,6 @@
         "source_ordinal": 22,
         "test_id": 1025,
         "index": 21
-      }
-    ]
-  },
-  {
-    "id": "3c7831b76c70cfb19b1aa8d6",
-    "question": "En un puente que disponga de un ancho de calzada inferior a 6 metros, ¿qué vehículos tienen prohibido cruzarse?\nOn a bridge with a width of less than 6 metres, which vehicles may not cross?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1025,
-        "source_ordinal": 24,
-        "test_id": 1025,
-        "index": 23
       }
     ]
   },
@@ -16873,19 +17549,6 @@
     ]
   },
   {
-    "id": "479474eb64ad236c992408d2",
-    "question": "Una de las infracciones de los conductores que implica más riesgo para los peatones es...\nOne of the offences by drivers that poses the greatest risk to pedestrians is…",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1031,
-        "source_ordinal": 4,
-        "test_id": 1031,
-        "index": 3
-      }
-    ]
-  },
-  {
     "id": "4a6e15e5301404899b219f02",
     "question": "¿Qué infracción de los conductores está relacionada con los atropellos a peatones?\nWhich driver offence is related to collisions with pedestrians?",
     "memberships": [
@@ -17324,19 +17987,6 @@
         "source_ordinal": 14,
         "test_id": 1032,
         "index": 13
-      }
-    ]
-  },
-  {
-    "id": "6764a09ea02e77f524f7d49f",
-    "question": "¿Debe identificarse a los servicios de emergencia cuando avise de un accidente?\nShould you identify yourself to the emergency services when reporting an accident?",
-    "memberships": [
-      {
-        "collection": "Thematic Test",
-        "source_test_id": 1032,
-        "source_ordinal": 15,
-        "test_id": 1032,
-        "index": 14
       }
     ]
   },

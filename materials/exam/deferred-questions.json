@@ -117,6 +117,42 @@
       "question_id": "exam:1049:19",
       "question": "¿Debe el conductor del turismo de color blanco respetar la señal de stop cuando llegue al cruce?\nShould the driver of the white car obey the stop sign when they reach the junction?",
       "image": "exam-1049-q19.jpg"
+    },
+    {
+      "ticket": 1058,
+      "ordinal": 21,
+      "proposed": "A",
+      "reason": "Source help is unavailable. Automatic approval review rejected the unverified answer because it could affect exam statistics. Deferred under the user instruction.",
+      "question_id": "exam:1058:21",
+      "question": "El personal de protección civil, ¿puede impedir el acceso a vehículos a un itinerario afectado por una actividad deportiva?\nCan the civil defence services restrict access by vehicles to a route assigned for a sporting activity?",
+      "image": "exam-1058-q21.jpg"
+    },
+    {
+      "ticket": 1058,
+      "ordinal": 30,
+      "proposed": "C",
+      "reason": "The source provides no explanation, reference period or denominator for this accident-statistics comparison. Proposed answer is unverified; defer rather than guess.",
+      "question_id": "exam:1058:30",
+      "question": "Conforme a las cifras de accidentalidad, según el medio de desplazamiento, ¿cuáles de estos vehículos tienen más accidentes?\nAccording to the accident figures, which of these vehicles has the most accidents, depending on the means of travel?",
+      "image": "exam-1058-q30.jpg"
+    },
+    {
+      "ticket": 1069,
+      "ordinal": 1,
+      "proposed": "B",
+      "reason": "Automatic approval review rejected the answer because the direction in the traffic-light illustration is not verified. Deferred under the user instruction.",
+      "question_id": "exam:1069:01",
+      "question": "El conductor del turismo azul, ¿qué debe hacer?\nWhat should the driver of the blue car do?",
+      "image": "exam-1069-q01.jpg"
+    },
+    {
+      "ticket": 1069,
+      "ordinal": 13,
+      "proposed": "C",
+      "reason": "Automatic approval review did not accept the proposed answer about main-beam use in daytime fog/rain because the provided source only recommends dipped/fog lights. Deferred for later rule verification.",
+      "question_id": "exam:1069:13",
+      "question": "Durante el día, con niebla densa o lluvia intensa, ¿se puede circular con la luz de largo alcance encendida?\nDuring the day, during dense fog or heavy rain, can you drive with full beams on?",
+      "image": "exam-1069-q13.jpg"
     }
   ]
 }
