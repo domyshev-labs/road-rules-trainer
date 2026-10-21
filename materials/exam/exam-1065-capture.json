@@ -173,7 +173,6 @@
       "local_image": "exam-1065-q05.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.distraction",
         "driving.pedestrians"
       ]
     },
@@ -583,7 +582,7 @@
       "selected_letter": "A",
       "topic_ids": [
         "routine.drugs",
-        "routine.alcohol"
+        "routine.ecodriving"
       ]
     },
     {
@@ -683,8 +682,8 @@
       "local_image": "exam-1065-q20.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.distraction",
-        "driving.weather"
+        "driving.weather",
+        "routine.distraction"
       ]
     },
     {
@@ -717,7 +716,6 @@
       "local_image": "exam-1065-q21.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "driving.weather",
         "vehicle.visibility",
@@ -957,8 +955,8 @@
       "local_image": "exam-1065-q28.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.ecodriving",
-        "documents.permissions"
+        "documents.permissions",
+        "routine.ecodriving"
       ]
     },
     {
@@ -991,9 +989,9 @@
       "local_image": "exam-1065-q29.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.helmets",
         "driving.weather",
-        "vehicle.motorcycles"
+        "vehicle.motorcycles",
+        "routine.helmets"
       ]
     },
     {

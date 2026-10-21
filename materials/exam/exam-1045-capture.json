@@ -34,9 +34,9 @@
       "local_image": "exam-1045-q01.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.distraction",
         "driving.weather",
-        "documents.permissions"
+        "documents.permissions",
+        "routine.distraction"
       ]
     },
     {
@@ -468,8 +468,8 @@
       "local_image": "exam-1045-q14.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol"
+        "routine.alcohol",
+        "routine.ecodriving"
       ]
     },
     {
@@ -502,8 +502,7 @@
       "local_image": "exam-1045-q15.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.distraction",
-        "routine.health"
+        "routine.safety"
       ]
     },
     {
@@ -735,8 +734,8 @@
       "local_image": "exam-1045-q22.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.seatbelts",
-        "driving.weather"
+        "driving.weather",
+        "routine.seatbelts"
       ]
     },
     {

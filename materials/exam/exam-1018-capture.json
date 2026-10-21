@@ -99,11 +99,8 @@
       "local_image": "exam-1018-q03.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
         "routine.alcohol",
-        "routine.fatigue",
-        "routine.distraction",
-        "routine.emotions"
+        "routine.distraction"
       ]
     },
     {
@@ -168,8 +165,8 @@
       "local_image": "exam-1018-q05.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.fatigue",
-        "driving.weather"
+        "driving.weather",
+        "routine.fatigue"
       ]
     },
     {
@@ -201,8 +198,8 @@
       "local_image": "exam-1018-q06.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.distraction",
-        "vehicle.lights"
+        "vehicle.lights",
+        "routine.distraction"
       ]
     },
     {
@@ -234,7 +231,6 @@
       "local_image": "exam-1018-q07.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "driving.weather",
         "vehicle.visibility",
@@ -302,9 +298,9 @@
       "local_image": "exam-1018-q09.jpg",
       "selected_letter": "A",
       "topic_ids": [
+        "vehicle.cargo",
         "routine.distraction",
-        "routine.ecodriving",
-        "vehicle.cargo"
+        "routine.ecodriving"
       ]
     },
     {
@@ -369,9 +365,9 @@
       "local_image": "exam-1018-q11.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.seatbelts",
         "documents.permissions",
-        "incidents.towing"
+        "incidents.towing",
+        "routine.seatbelts"
       ]
     },
     {
@@ -973,8 +969,8 @@
       "local_image": "exam-1018-q29.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.fatigue",
-        "driving.weather"
+        "driving.weather",
+        "routine.fatigue"
       ]
     },
     {

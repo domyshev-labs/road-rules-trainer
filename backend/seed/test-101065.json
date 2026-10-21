@@ -141,7 +141,6 @@
       "local_image": "/tests/exam/1065/q05.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.distraction",
         "driving.pedestrians"
       ],
       "canonical_id": "89e0cae27ff26a6892bbf2f1"
@@ -563,7 +562,7 @@
       "selected_letter": "A",
       "topic_ids": [
         "routine.drugs",
-        "routine.alcohol"
+        "routine.ecodriving"
       ],
       "canonical_id": "89b665312c7ebad4b8a94696"
     },
@@ -631,8 +630,8 @@
       "local_image": "/tests/exam/1065/q20.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.distraction",
-        "driving.weather"
+        "driving.weather",
+        "routine.distraction"
       ],
       "canonical_id": "a9dd68b5a47e41b157d976c0"
     },
@@ -666,7 +665,6 @@
       "local_image": "/tests/exam/1065/q21.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "driving.weather",
         "vehicle.visibility",
@@ -813,8 +811,8 @@
       "local_image": "/tests/exam/1065/q28.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.ecodriving",
-        "documents.permissions"
+        "documents.permissions",
+        "routine.ecodriving"
       ],
       "canonical_id": "ba42784711f025ff5f53b835"
     },
@@ -848,9 +846,9 @@
       "local_image": "/tests/exam/1065/q29.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.helmets",
         "driving.weather",
-        "vehicle.motorcycles"
+        "vehicle.motorcycles",
+        "routine.helmets"
       ],
       "canonical_id": "3609dddc30d753008a41cc6e"
     },

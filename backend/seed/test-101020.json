@@ -133,7 +133,6 @@
       "local_image": "/tests/exam/1020/q04.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.drugs",
         "routine.alcohol"
       ],
       "canonical_id": "abc0078cc05ecbc8597ba7bd"
@@ -200,7 +199,6 @@
       "local_image": "/tests/exam/1020/q06.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.drugs",
         "routine.fatigue"
       ],
       "canonical_id": "346f6b77c1d5e07efdfc287b"
@@ -336,8 +334,7 @@
       "local_image": "/tests/exam/1020/q10.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol"
+        "routine.drugs"
       ],
       "canonical_id": "c134b7ac3e121f97801c1bdb"
     },
@@ -471,9 +468,9 @@
       "local_image": "/tests/exam/1020/q14.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.seatbelts",
         "driving.parking",
-        "driving.weather"
+        "driving.weather",
+        "routine.seatbelts"
       ],
       "canonical_id": "9af68f1afebce6645a4d904e"
     },
@@ -983,9 +980,7 @@
       "local_image": "/tests/exam/1020/q29.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.fatigue",
-        "routine.health"
+        "routine.fatigue"
       ],
       "canonical_id": "b99fec0f9deef66b1903ca31"
     },

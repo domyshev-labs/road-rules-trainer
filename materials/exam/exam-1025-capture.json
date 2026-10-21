@@ -34,7 +34,6 @@
       "local_image": "exam-1025-q01.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.drugs",
         "routine.health"
       ]
     },
@@ -235,8 +234,8 @@
       "local_image": "exam-1025-q07.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.fatigue",
-        "driving.weather"
+        "driving.weather",
+        "routine.fatigue"
       ]
     },
     {
@@ -464,8 +463,8 @@
       "local_image": "exam-1025-q14.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.seatbelts",
-        "vehicle.passive"
+        "vehicle.passive",
+        "routine.seatbelts"
       ]
     },
     {
@@ -735,11 +734,9 @@
       "local_image": "exam-1025-q22.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
         "routine.alcohol",
-        "routine.fatigue",
         "routine.distraction",
-        "routine.emotions"
+        "routine.ecodriving"
       ]
     },
     {
@@ -772,9 +769,9 @@
       "local_image": "exam-1025-q23.jpg",
       "selected_letter": "A",
       "topic_ids": [
+        "incidents.towing",
         "routine.drugs",
-        "routine.alcohol",
-        "incidents.towing"
+        "routine.ecodriving"
       ]
     },
     {
@@ -841,13 +838,12 @@
       "local_image": "exam-1025-q25.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
         "numbers.alcohol",
         "driving.weather",
         "vehicle.passengers",
         "vehicle.dangerous_goods",
-        "documents.permissions"
+        "documents.permissions",
+        "routine.alcohol"
       ]
     },
     {
@@ -952,8 +948,8 @@
       "local_image": "exam-1025-q28.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
-        "vehicle.passengers"
+        "vehicle.passengers",
+        "routine.ecodriving"
       ]
     },
     {
@@ -986,7 +982,6 @@
       "local_image": "exam-1025-q29.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.drugs",
         "routine.alcohol",
         "routine.fatigue"
       ]

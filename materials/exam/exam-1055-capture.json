@@ -169,9 +169,8 @@
       "local_image": "exam-1055-q05.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.drugs",
-        "routine.health",
-        "signs.warning"
+        "signs.warning",
+        "routine.health"
       ]
     },
     {
@@ -238,9 +237,8 @@
       "local_image": "exam-1055-q07.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
-        "vehicle.motorcycles"
+        "vehicle.motorcycles",
+        "routine.alcohol"
       ]
     },
     {
@@ -508,8 +506,8 @@
       "local_image": "exam-1055-q15.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.seatbelts",
-        "driving.lanes"
+        "driving.lanes",
+        "routine.seatbelts"
       ]
     },
     {
@@ -647,8 +645,8 @@
       "local_image": "exam-1055-q19.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.ecodriving",
-        "driving.braking"
+        "driving.braking",
+        "routine.ecodriving"
       ]
     },
     {
@@ -715,11 +713,8 @@
       "local_image": "exam-1055-q21.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.fatigue",
-        "routine.distraction",
-        "routine.reaction",
-        "numbers.alcohol"
+        "numbers.alcohol",
+        "routine.fatigue"
       ]
     },
     {
@@ -818,8 +813,7 @@
       "local_image": "exam-1055-q24.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol"
+        "routine.drugs"
       ]
     },
     {
@@ -988,8 +982,8 @@
       "local_image": "exam-1055-q29.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.seatbelts",
-        "driving.weather"
+        "driving.weather",
+        "routine.seatbelts"
       ]
     },
     {

@@ -66,7 +66,6 @@
       "local_image": "/tests/exam/1028/q02.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.drugs",
         "routine.fatigue"
       ],
       "canonical_id": "f89383048e0dcf87d9ca2ccf"
@@ -136,7 +135,6 @@
       "local_image": "/tests/exam/1028/q04.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "driving.weather",
         "vehicle.visibility",
@@ -175,7 +173,6 @@
       "local_image": "/tests/exam/1028/q05.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.seatbelts",
         "driving.weather",
         "documents.permissions"
       ],
@@ -418,10 +415,9 @@
       "local_image": "/tests/exam/1028/q12.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
         "priority.officer",
-        "driving.weather"
+        "driving.weather",
+        "routine.alcohol"
       ],
       "canonical_id": "68f4a769ff6ab21c29fd2810"
     },
@@ -560,8 +556,8 @@
       "local_image": "/tests/exam/1028/q16.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.fatigue",
-        "driving.weather"
+        "driving.weather",
+        "routine.fatigue"
       ],
       "canonical_id": "9950b3262cb92456eb8d2225"
     },
@@ -697,7 +693,6 @@
       "local_image": "/tests/exam/1028/q20.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
         "driving.braking"
       ],
       "canonical_id": "a8a45cf0dfe8daf6f44dbbe3"
@@ -838,7 +833,8 @@
       "local_image": "/tests/exam/1028/q24.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "driving.weather"
+        "driving.weather",
+        "routine.distraction"
       ],
       "canonical_id": "3505f60aaf2dfc5d00554d9d"
     },
@@ -908,9 +904,8 @@
       "local_image": "/tests/exam/1028/q26.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.health",
-        "signs.warning"
+        "signs.warning",
+        "routine.health"
       ],
       "canonical_id": "da22032e740d9317f19d2ae4"
     },
@@ -1013,10 +1008,9 @@
       "local_image": "/tests/exam/1028/q29.jpg",
       "selected_letter": "C",
       "topic_ids": [
+        "incidents.towing",
         "routine.drugs",
-        "routine.alcohol",
-        "routine.emotions",
-        "incidents.towing"
+        "routine.ecodriving"
       ],
       "canonical_id": "40c23be8ba52f294f68a0043"
     },

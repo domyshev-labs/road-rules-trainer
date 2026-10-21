@@ -108,6 +108,15 @@
       "question_id": "exam:1083:19",
       "question": "Este vehículo, que antes se había detenido ante la línea transversal, ha vuelto a detenerse, ¿ha actuado correctamente?\nThis vehicle, which had previously stopped in front of the transverse line, has stopped again. Was this correct?",
       "image": "exam-1083-q19.jpg"
+    },
+    {
+      "ticket": 1049,
+      "ordinal": 19,
+      "proposed": "C",
+      "reason": "The lane-specific STOP marking in the illustration is not clear enough to confirm which lane applies to the white car. Deferred rather than guessing.",
+      "question_id": "exam:1049:19",
+      "question": "¿Debe el conductor del turismo de color blanco respetar la señal de stop cuando llegue al cruce?\nShould the driver of the white car obey the stop sign when they reach the junction?",
+      "image": "exam-1049-q19.jpg"
     }
   ]
 }

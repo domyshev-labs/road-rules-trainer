@@ -273,3 +273,88 @@ func TestSharedQuestionsAndExamMemberships(t *testing.T) {
 		t.Fatalf("invalid answer keys: count=%d err=%v", incomplete, err)
 	}
 }
+
+func TestTopicTrainingUsesUniqueMembersAndSeparateProgress(t *testing.T) {
+	application, sender := newTestApp(t)
+	handler := application.Handler()
+	request(t, handler, http.MethodPost, "/api/auth/request-code", `{"email":"topic@example.com"}`, nil)
+	login := request(t, handler, http.MethodPost, "/api/auth/verify-code", `{"email":"topic@example.com","code":"`+sender.code+`"}`, nil)
+	if login.Code != http.StatusOK {
+		t.Fatal(login.Body.String())
+	}
+	cookie := login.Result().Cookies()[0]
+	response := request(t, handler, http.MethodGet, "/api/topics/routine.drugs", "", cookie)
+	if response.Code != http.StatusOK || strings.Contains(response.Body.String(), `"correct"`) {
+		t.Fatalf("topic response leaked answer keys or failed: %s", response.Body.String())
+	}
+	var topic struct {
+		Questions []topicQuestion `json:"questions"`
+	}
+	if err := json.Unmarshal(response.Body.Bytes(), &topic); err != nil {
+		t.Fatal(err)
+	}
+	if len(topic.Questions) < 2 {
+		t.Fatal("expected multiple drug questions")
+	}
+	seen := map[string]bool{}
+	for i, q := range topic.Questions {
+		if q.Number != i+1 || seen[q.ID] {
+			t.Fatalf("invalid topic numbering or duplicated content: %+v", q)
+		}
+		seen[q.ID] = true
+	}
+	_, members, all, err := topicMembers("routine.drugs")
+	if err != nil {
+		t.Fatal(err)
+	}
+	for _, ref := range all {
+		if (ref.TestID == 101017 && ref.SourceOrdinal == 3) || (ref.TestID == 101020 && ref.SourceOrdinal == 6) || (ref.TestID == 101018 && ref.SourceOrdinal == 3) {
+			if seen[ref.CanonicalID] {
+				t.Fatalf("alcohol/fatigue question incorrectly classified as drugs: %+v", ref)
+			}
+		}
+	}
+	first, err := application.loadTopicQuestion(members[0])
+	if err != nil {
+		t.Fatal(err)
+	}
+	letter := ""
+	for _, answer := range first.Answers {
+		if answer.Correct {
+			letter = answer.Letter
+		}
+	}
+	body := `{"question_id":"` + first.ID + `","selected_letter":"` + letter + `"}`
+	for i := 0; i < 2; i++ {
+		response = request(t, handler, http.MethodPost, "/api/topics/routine.drugs/answers", body, cookie)
+		if response.Code != http.StatusOK || !strings.Contains(response.Body.String(), `"correct":true`) {
+			t.Fatalf("topic answer failed: %s", response.Body.String())
+		}
+	}
+	var count int
+	if err := application.db.QueryRow(`SELECT count(*) FROM topic_answers`).Scan(&count); err != nil || count != 1 {
+		t.Fatalf("topic answer is not idempotent: %d %v", count, err)
+	}
+	if err := application.db.QueryRow(`SELECT count(*) FROM attempt_answers`).Scan(&count); err != nil || count != 0 {
+		t.Fatalf("topic polluted source-ticket progress: %d %v", count, err)
+	}
+	response = request(t, handler, http.MethodGet, "/api/topics/routine.drugs", "", cookie)
+	if !strings.Contains(response.Body.String(), `"selected_letter":"`+letter+`"`) {
+		t.Fatal("topic progress was not restored")
+	}
+	response = request(t, handler, http.MethodPost, "/api/topics/routine.drugs/answers", `{"question_id":"not-a-member","selected_letter":"A"}`, cookie)
+	if response.Code != http.StatusUnprocessableEntity {
+		t.Fatal("accepted a question outside the topic")
+	}
+	response = request(t, handler, http.MethodGet, "/api/topics/routine", "", cookie)
+	if response.Code != http.StatusNotFound {
+		t.Fatal("parent topic should not create a separate training collection")
+	}
+	response = request(t, handler, http.MethodPost, "/api/topics/routine.drugs/reset", "", cookie)
+	if response.Code != http.StatusNoContent {
+		t.Fatal(response.Body.String())
+	}
+	if err := application.db.QueryRow(`SELECT count(*) FROM topic_answers`).Scan(&count); err != nil || count != 0 {
+		t.Fatalf("reset failed: %d %v", count, err)
+	}
+}

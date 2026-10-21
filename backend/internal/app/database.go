@@ -72,6 +72,15 @@ CREATE TABLE IF NOT EXISTS question_memberships (
   content_id TEXT NOT NULL REFERENCES question_contents(id)
 );
 CREATE INDEX IF NOT EXISTS idx_memberships_content ON question_memberships(content_id);
+CREATE TABLE IF NOT EXISTS topic_answers (
+ user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+ topic_id TEXT NOT NULL,
+ content_id TEXT NOT NULL REFERENCES question_contents(id),
+ selected_text TEXT NOT NULL,
+ correct INTEGER NOT NULL CHECK(correct IN (0,1)),
+ answered_at TEXT NOT NULL,
+ PRIMARY KEY(user_id,topic_id,content_id)
+);
 CREATE TABLE IF NOT EXISTS answers (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   question_id INTEGER NOT NULL REFERENCES questions(id) ON DELETE CASCADE,

@@ -716,18 +716,20 @@ type LibraryQuestion = { canonical_id: string; test_id: number; source_test_id: 
 type TopicNode = { id: string; label_ru: string; parent_id: string | null };
 type LibraryData = { nodes: TopicNode[]; questions: LibraryQuestion[] };
 
-function QuestionLibrary({ catalog, library, onOpen, onLogout, getStats }: {
-  catalog: CatalogEntry[]; library: LibraryData; onOpen: (id: number, index?: number) => void;
+function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, onLogout, getStats }: {
+  catalog: CatalogEntry[]; library: LibraryData; onOpen: (id: number, index?: number) => void; onOpenTopic: (id: string, question?: string) => void;
   onLogout: () => void; getStats: (entry: CatalogEntry) => TicketStats;
 }) {
   const [search, setSearch] = useState('');
   const query = search.trim().toLocaleLowerCase();
   const matches = (q: LibraryQuestion) => !query || `${q.source_test_id} ${q.source_ordinal} ${q.question}`.toLocaleLowerCase().includes(query);
-  function questionList(items: LibraryQuestion[], unique = false) {
+  function questionList(items: LibraryQuestion[], unique = false, topicID?: string) {
     const seen = new Set<string>();
+    if (topicID) items = items.filter((q) => q.verified);
     if (unique) items = items.filter((q) => { if (seen.has(q.canonical_id)) return false; seen.add(q.canonical_id); return true; });
-    return <div className="library-questions">{items.filter(matches).map((q) => <button type="button" key={q.question_id} disabled={!q.verified} onClick={() => onOpen(q.test_id, q.index ?? undefined)}>
-      <span className="library-question-id">{library.questions.filter((ref) => ref.canonical_id === q.canonical_id).map((ref) => `${ref.test_id >= 100000 ? 'Экзамен' : 'Тема'} ${ref.source_test_id} / ${String(ref.source_ordinal).padStart(2, '0')}`).join(' · ')}</span>
+    if (topicID) items = [...items].sort((a, b) => a.canonical_id.localeCompare(b.canonical_id));
+    return <div className="library-questions">{items.filter(matches).map((q, index) => <button type="button" key={q.question_id} disabled={!q.verified} onClick={() => topicID ? onOpenTopic(topicID, q.canonical_id) : onOpen(q.test_id, q.index ?? undefined)}>
+      <span className="library-question-id">{topicID && <b className="topic-list-number">{index + 1}</b>}{library.questions.filter((ref) => ref.canonical_id === q.canonical_id).map((ref) => `${ref.test_id >= 100000 ? 'Экзамен' : 'Тема'} ${ref.source_test_id} / ${String(ref.source_ordinal).padStart(2, '0')}`).join(' · ')}</span>
       <span>{q.question.split('\n').filter(Boolean).at(-1)}</span>{!q.verified && <small>Отложен · ответ не подтверждён</small>}
     </button>)}</div>;
   }
@@ -737,7 +739,7 @@ function QuestionLibrary({ catalog, library, onOpen, onLogout, getStats }: {
     const own = items.filter((q) => q.topic_ids.includes(node.id));
     const count = new Set(items.filter((q) => q.verified).map((q) => q.canonical_id)).size;
     return <details className="library-branch" key={node.id}><summary><span>{node.label_ru}</span><small>Вопросы: {count}</small></summary>
-      <div className="library-children">{children.map(topic)}{questionList(own, true)}{!items.length && <p className="library-empty">Вопросы появятся по мере пополнения коллекции.</p>}</div>
+      <div className="library-children">{!children.length && own.some((q) => q.verified) && <button className="primary library-start" onClick={() => onOpenTopic(node.id)}>Начать подтему</button>}{children.map(topic)}{questionList(own, true, node.id)}{!items.length && <p className="library-empty">Вопросы появятся по мере пополнения коллекции.</p>}</div>
     </details>;
   }
   return <main className="library-page">
@@ -760,10 +762,110 @@ function QuestionLibrary({ catalog, library, onOpen, onLogout, getStats }: {
   </main>;
 }
 
+type TopicAnswerProgress = { selected_letter: string; correct_letter: string; correct: boolean };
+type TopicQuestion = { id: string; number: number; question: string; image_url: string; help: Record<HelpLanguage, string>; answers: Answer[]; sources: LibraryQuestion[]; progress?: TopicAnswerProgress };
+type TopicRecord = { id: string; title: string; questions: TopicQuestion[] };
+
+function TopicTrainer({ topicId, initialQuestion, path, onBack }: {
+  topicId: string; initialQuestion?: string; path: string; onBack: () => void;
+}) {
+  const [topic, setTopic] = useState<TopicRecord | null>(null);
+  const [position, setPosition] = useState(0);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [helpOpen, setHelpOpen] = useState(false);
+  const [language, setLanguage] = useState<HelpLanguage>('ru');
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+  const panel = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    let active = true;
+    void api<TopicRecord>(`/api/topics/${encodeURIComponent(topicId)}`).then((loaded) => {
+      if (!active) return;
+      setTopic(loaded);
+      const requested = loaded.questions.findIndex((q) => q.id === initialQuestion);
+      const unanswered = loaded.questions.findIndex((q) => !q.progress);
+      setPosition(requested >= 0 ? requested : unanswered >= 0 ? unanswered : 0);
+    }).catch((err: unknown) => { if (active) setError(err instanceof Error ? err.message : 'Не удалось загрузить подтему'); });
+    return () => { active = false; };
+  }, [topicId, initialQuestion]);
+  useEffect(() => { panel.current?.scrollTo({ top: 0 }); }, [position]);
+  useEffect(() => {
+    function close(event: KeyboardEvent) { if (event.key === 'Escape') setMenuOpen(false); }
+    document.addEventListener('keydown', close);
+    return () => document.removeEventListener('keydown', close);
+  }, []);
+  function goTo(index: number) { setPosition(index); setHelpOpen(false); }
+  async function answer(letter: string) {
+    const question = topic?.questions[position];
+    if (!question || question.progress || busy) return;
+    setBusy(true); setError('');
+    try {
+      const result = await api<TopicAnswerProgress>(`/api/topics/${encodeURIComponent(topicId)}/answers`, { method: 'POST', body: JSON.stringify({ question_id: question.id, selected_letter: letter }) });
+      setTopic((current) => current ? { ...current, questions: current.questions.map((q) => q.id === question.id ? { ...q, progress: result } : q) } : null);
+    } catch (err) { setError(err instanceof Error ? err.message : 'Не удалось сохранить ответ'); }
+    finally { setBusy(false); }
+  }
+  async function restart() {
+    if (busy || !topic) return;
+    setBusy(true); setError('');
+    try {
+      await api(`/api/topics/${encodeURIComponent(topicId)}/reset`, { method: 'POST' });
+      setTopic({ ...topic, questions: topic.questions.map((q) => ({ ...q, progress: undefined })) });
+      setPosition(0); setHelpOpen(false);
+    } catch (err) { setError(err instanceof Error ? err.message : 'Не удалось начать заново'); }
+    finally { setBusy(false); }
+  }
+  const q = topic?.questions[position];
+  if (!topic || !q) return <main className="loading"><button className="secondary" onClick={onBack}>‹ Темы и билеты</button><p>{error || 'Загружаем подтему…'}</p></main>;
+  const total = topic.questions.length;
+  const done = topic.questions.filter((item) => item.progress).length;
+  const correct = topic.questions.filter((item) => item.progress?.correct).length;
+  const progress = Math.round(done / total * 100);
+  const help = q.help[language] || q.help.en;
+  const sourceText = q.sources.map((ref) => `${ref.test_id >= 100000 ? 'Экзаменационные' : 'Тематические'} · билет ${ref.source_test_id}, вопрос ${ref.source_ordinal}`).join(' · ');
+  return <>
+    <button className="library-back topic-back" type="button" onClick={onBack}>‹ Темы и билеты</button>
+    <main className="app-shell topic-shell">
+      <header className="topbar topic-topbar">
+        <div className="title-block"><p className="eyebrow">{path}</p><h1>{topic.title}</h1></div>
+        <div className="header-tools">
+          <div className="ticket-menu-shell topic-menu-shell">
+            <button type="button" className="ticket-menu-trigger" aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><span className="ticket-menu-trigger-copy"><span className="ticket-menu-trigger-label">{topic.title}</span><span className="ticket-menu-trigger-title">Вопрос {position + 1} из {total}</span></span><span className="ticket-menu-chevron">⌄</span></button>
+            {menuOpen && <><button className="ticket-menu-backdrop" aria-label="Закрыть список вопросов" onClick={() => setMenuOpen(false)} /><section className="ticket-menu-panel topic-menu" aria-label={`Вопросы подтемы ${topic.title}`}><header><div><p>{path}</p><strong>{topic.title} · вопросы 1–{total}</strong></div><button aria-label="Закрыть" onClick={() => setMenuOpen(false)}>×</button></header><div className="ticket-menu-list">
+              {topic.questions.map((item, index) => <button key={item.id} type="button" className={`topic-menu-question ${index === position ? 'active' : ''}`} onClick={() => { goTo(index); setMenuOpen(false); }}><b>{index + 1}</b><span>{item.question.split('\n').filter(Boolean).at(-1)}<small>{item.sources.map((ref) => `${ref.test_id >= 100000 ? 'Экзамен' : 'Тема'} ${ref.source_test_id}/${ref.source_ordinal}`).join(' · ')}</small></span><i>{item.progress ? item.progress.correct ? '✓' : '×' : '·'}</i></button>)}
+            </div></section></>}
+          </div>
+          <div className="ticket-progress"><span>Пройдено</span><strong>{done}/{total}</strong></div>
+          <div className="answer-stats"><div className="score"><span>Верно</span><strong>{correct}</strong></div><div className="score score-wrong"><span>Неверно</span><strong>{done - correct}</strong></div></div>
+        </div>
+      </header>
+      <div className="progress-row"><span>Вопрос {position + 1} из {total}</span><div className="progress-track"><div style={{ width: `${progress}%` }} /></div><span>{progress}%</span></div>
+      <section className="quiz-card">
+        <div className="visual-panel"><div className="question-number">#{position + 1}</div><div className="visual-media"><img src={q.image_url} alt={`Иллюстрация к вопросу ${position + 1}`} /></div></div>
+        <div className="question-panel" ref={panel}>
+          <div className="question-heading-row"><h2><BilingualText text={q.question} /></h2></div>
+          <p className="topic-sources">В исходниках: {sourceText}</p>
+          <div className="answers">{q.answers.map((choice) => {
+            const state = q.progress ? choice.letter === q.progress.correct_letter ? 'correct' : choice.letter === q.progress.selected_letter ? 'wrong' : 'muted' : '';
+            return <button type="button" className={`answer ${state}`} key={choice.letter} disabled={!!q.progress || busy} onClick={() => answer(choice.letter)}><span className="answer-letter">{choice.letter}</span><BilingualText text={choice.text} /></button>;
+          })}</div>
+          {error && <p role="alert" className="answer-error">{error}</p>}
+          {q.progress && <aside className={`feedback ${q.progress.correct ? 'success' : 'error'}`}><div className="feedback-title"><strong>{q.progress.correct ? '✓ Верно' : `Правильный ответ ${q.progress.correct_letter}`}</strong><button className="feedback-help-button" aria-label="Открыть объяснение" onClick={() => setHelpOpen(true)}>?</button></div></aside>}
+          {done === total && <p className="topic-completed">Подтема пройдена. Верно: {correct} из {total}. Можно вернуться к любому вопросу или начать заново.</p>}
+          <div className="controls topic-controls"><button className="secondary" disabled={position === 0 || busy} onClick={() => goTo(position - 1)}>← Предыдущий</button><button className="primary next" disabled={position === total - 1 || busy} onClick={() => goTo(position + 1)}>Следующий вопрос →</button></div>
+          <button className="shuffle-button topic-restart" disabled={busy} onClick={restart}>↻ Начать подтему заново</button>
+        </div>
+      </section>
+    </main>
+    {helpOpen && <Modal eyebrow={`${topic.title} · вопрос ${position + 1}`} title="Объяснение" onClose={() => setHelpOpen(false)}><div className="help-languages">{(['ru', 'es', 'en'] as HelpLanguage[]).map((lang) => <button key={lang} onClick={() => setLanguage(lang)} className={language === lang ? 'active' : ''}>{lang.toUpperCase()}</button>)}</div><HelpContent text={help || 'Объяснение отсутствует в источнике.'} /></Modal>}
+  </>;
+}
+
 function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }) {
   const questionPanelRef = useRef<HTMLDivElement>(null);
   const [testId, setTestId] = useState(1015);
   const [home, setHome] = useState(true);
+  const [activeTopic, setActiveTopic] = useState<{ id: string; question?: string } | null>(null);
   const [library, setLibrary] = useState<LibraryData | null>(null);
   const pendingQuestion = useRef<number | null>(null);
   const [catalog, setCatalog] = useState<CatalogEntry[]>([]);
@@ -1172,7 +1274,14 @@ function TrainerApp({ user, onLogout }: { user: AuthUser; onLogout: () => void }
   }
 
   if (loadError) return <main className="loading error-message">{loadError}</main>;
-  if (home && catalog.length && library) return <QuestionLibrary catalog={catalog} library={library} onOpen={openLibraryQuestion} onLogout={onLogout} getStats={getTicketStats} />;
+  if (activeTopic && library) {
+    const node = library.nodes.find((item) => item.id === activeTopic.id);
+    const ancestors: string[] = [];
+    let parent = node?.parent_id;
+    while (parent) { const ancestor = library.nodes.find((item) => item.id === parent); if (!ancestor) break; ancestors.unshift(ancestor.label_ru); parent = ancestor.parent_id; }
+    return <TopicTrainer key={activeTopic.id} topicId={activeTopic.id} initialQuestion={activeTopic.question} path={ancestors.join(' / ')} onBack={() => { setActiveTopic(null); setHome(true); }} />;
+  }
+  if (home && catalog.length && library) return <QuestionLibrary catalog={catalog} library={library} onOpen={openLibraryQuestion} onOpenTopic={(id, question) => { setActiveTopic({ id, question }); setHome(false); }} onLogout={onLogout} getStats={getTicketStats} />;
   if (home || !test || !question || !order.length || !catalog.length) return <main className="loading">Загружаем билет…</main>;
 
   const currentEntry = catalog.find((entry) => entry.id === testId) ?? catalog[0];

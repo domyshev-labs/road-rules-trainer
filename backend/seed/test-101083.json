@@ -68,7 +68,6 @@
       "local_image": "/tests/exam/1083/q02.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "driving.weather",
         "vehicle.classification",
@@ -106,11 +105,10 @@
       "local_image": "/tests/exam/1083/q03.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
         "priority.officer",
         "driving.weather",
-        "documents.permissions"
+        "documents.permissions",
+        "routine.alcohol"
       ],
       "canonical_id": "dcf2bf68dce5e126e2fe6eb9"
     },
@@ -178,8 +176,8 @@
       "local_image": "/tests/exam/1083/q05.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.seatbelts",
-        "driving.weather"
+        "driving.weather",
+        "routine.seatbelts"
       ],
       "canonical_id": "7a9a1e6da9679e14e8fb4f3e"
     },
@@ -739,8 +737,8 @@
       "local_image": "/tests/exam/1083/q24.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.fatigue",
-        "driving.weather"
+        "driving.weather",
+        "routine.fatigue"
       ],
       "canonical_id": "888140b9f4deb2144e2cd71a"
     },

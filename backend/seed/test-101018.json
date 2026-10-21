@@ -99,11 +99,8 @@
       "local_image": "/tests/exam/1018/q03.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
         "routine.alcohol",
-        "routine.fatigue",
-        "routine.distraction",
-        "routine.emotions"
+        "routine.distraction"
       ],
       "canonical_id": "2f33a6aa3a4b05971caf0766"
     },
@@ -170,8 +167,8 @@
       "local_image": "/tests/exam/1018/q05.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.fatigue",
-        "driving.weather"
+        "driving.weather",
+        "routine.fatigue"
       ],
       "canonical_id": "f99a4d4a981fddcbf0e37ad7"
     },
@@ -204,8 +201,8 @@
       "local_image": "/tests/exam/1018/q06.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.distraction",
-        "vehicle.lights"
+        "vehicle.lights",
+        "routine.distraction"
       ],
       "canonical_id": "b80b5a1076f6142a810bbd01"
     },
@@ -238,7 +235,6 @@
       "local_image": "/tests/exam/1018/q07.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "driving.weather",
         "vehicle.visibility",
@@ -308,9 +304,9 @@
       "local_image": "/tests/exam/1018/q09.jpg",
       "selected_letter": "A",
       "topic_ids": [
+        "vehicle.cargo",
         "routine.distraction",
-        "routine.ecodriving",
-        "vehicle.cargo"
+        "routine.ecodriving"
       ],
       "canonical_id": "2114b20d31e54865785531e1"
     },
@@ -377,9 +373,9 @@
       "local_image": "/tests/exam/1018/q11.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.seatbelts",
         "documents.permissions",
-        "incidents.towing"
+        "incidents.towing",
+        "routine.seatbelts"
       ],
       "canonical_id": "7c6179916bd0d5528fe715ff"
     },
@@ -999,8 +995,8 @@
       "local_image": "/tests/exam/1018/q29.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.fatigue",
-        "driving.weather"
+        "driving.weather",
+        "routine.fatigue"
       ],
       "canonical_id": "f7233914dbb3d0e15133f987"
     },

@@ -20,9 +20,28 @@ rules={
 'documents.permissions':r'driving licence|driving license|permit','documents.itv':r'inspection|\bitv\b','incidents.scene':r'first aid|injured|accident scene|warning triangle|v-16','incidents.towing':r'tow|breakdown'}
 def classify(q):
  if q.get('question_id') in reviewed:return reviewed[q['question_id']]
- # Limit explanation matching to its introductory headings to avoid incidental examples.
- s=(q['question']+' '+' '.join(a['text'] for a in q['answers'] if a.get('correct'))+' '+q.get('help','')[:420]).lower()
+ # Classify the tested fact, not broad chapter headings such as ALCOHOL AND OTHER DRUGS.
+ prompt=(q['question']+' '+' '.join(a['text'] for a in q['answers'] if a.get('correct'))).lower()
+ s=prompt+' '+q.get('help','')[:420].lower()
  tags=[k for k,v in rules.items() if re.search(v,s,re.S)]
+ # Routine subtopics require a concrete mention in the question/confirmed answer.
+ routine_patterns={
+  'routine.drugs':r'\bdrug|droga|cannabis|cocaine|cocaína|ecstasy|éxtasis|mdma|\blsd\b|amphetamine|anfetamina',
+  'routine.alcohol':r'alcohol|breathaly|alcoholemia',
+  'routine.fatigue':r'fatigue|fatiga|drows|somnol|sleep|sueño|tired|cansancio',
+  'routine.distraction':r'distract|distracci|phone|teléfono|gps|navigator',
+  'routine.reaction':r'reaction time|tiempo de reacción',
+  'routine.emotions':r'stress|estrés|aggress|agresiv|emotion|emoción|panic|pánico',
+  'routine.health':r'medicin|medicamento|illness|disease|enfermedad',
+  'routine.seatbelts':r'seat.?belt|cinturón',
+  'routine.helmets':r'helmet|casco',
+  'routine.ecodriving':r'fuel|combustible|consumption|consumo|efficient|eficiente'
+ }
+ tags=[tag for tag in tags if tag not in routine_patterns]
+ tags += [tag for tag,pattern in routine_patterns.items() if re.search(pattern,prompt)]
+ if re.search(r'tranquillis|tranquiliz|sedative|sedante|medicamento|medication',prompt) and not re.search(r'illegal|narcotic|cannabis|cocaine|cocaína|ecstasy|éxtasis|\blsd\b',prompt):
+  tags=[tag for tag in tags if tag!='routine.drugs']
+  if 'routine.health' not in tags: tags.append('routine.health')
  return tags or ['routine.safety']
 refs=[]
 for path in sorted(materials.glob('exam-*-capture.json')):
@@ -77,3 +96,6 @@ for q in d['questions']:
 p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
 (r/'materials/exam/question-memberships.json').write_text(json.dumps(list(bank.values()),ensure_ascii=False,indent=2)+'\n')
 print(len(ids),'ticket positions,',len(bank),'unique confirmed questions')
+
+# The server and frontend share the same membership metadata.
+shutil.copyfile(repo/'public/library.json',repo/'backend/seed/library.json')

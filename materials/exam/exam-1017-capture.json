@@ -99,10 +99,9 @@
       "local_image": "exam-1017-q03.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
         "numbers.alcohol",
-        "documents.permissions"
+        "documents.permissions",
+        "routine.alcohol"
       ]
     },
     {
@@ -365,7 +364,6 @@
       "local_image": "exam-1017-q11.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.ecodriving",
         "driving.weather"
       ]
     },
@@ -691,7 +689,7 @@
       "local_image": "exam-1017-q21.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving"
+        "routine.safety"
       ]
     },
     {

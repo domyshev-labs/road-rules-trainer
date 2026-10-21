@@ -67,7 +67,6 @@
       "local_image": "exam-1028-q02.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.drugs",
         "routine.fatigue"
       ]
     },
@@ -135,7 +134,6 @@
       "local_image": "exam-1028-q04.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "driving.weather",
         "vehicle.visibility",
@@ -173,7 +171,6 @@
       "local_image": "exam-1028-q05.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.seatbelts",
         "driving.weather",
         "documents.permissions"
       ]
@@ -409,10 +406,9 @@
       "local_image": "exam-1028-q12.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
         "priority.officer",
-        "driving.weather"
+        "driving.weather",
+        "routine.alcohol"
       ]
     },
     {
@@ -547,8 +543,8 @@
       "local_image": "exam-1028-q16.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.fatigue",
-        "driving.weather"
+        "driving.weather",
+        "routine.fatigue"
       ]
     },
     {
@@ -680,7 +676,6 @@
       "local_image": "exam-1028-q20.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
         "driving.braking"
       ]
     },
@@ -817,7 +812,8 @@
       "local_image": "exam-1028-q24.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "driving.weather"
+        "driving.weather",
+        "routine.distraction"
       ]
     },
     {
@@ -885,9 +881,8 @@
       "local_image": "exam-1028-q26.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.health",
-        "signs.warning"
+        "signs.warning",
+        "routine.health"
       ]
     },
     {
@@ -987,10 +982,9 @@
       "local_image": "exam-1028-q29.jpg",
       "selected_letter": "C",
       "topic_ids": [
+        "incidents.towing",
         "routine.drugs",
-        "routine.alcohol",
-        "routine.emotions",
-        "incidents.towing"
+        "routine.ecodriving"
       ]
     },
     {

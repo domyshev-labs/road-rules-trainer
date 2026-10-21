@@ -70,7 +70,6 @@
       "local_image": "exam-1022-q02.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.distraction",
         "driving.pedestrians"
       ]
     },
@@ -104,7 +103,6 @@
       "local_image": "exam-1022-q03.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
         "vehicle.visibility"
       ]
     },
@@ -547,8 +545,7 @@
       "local_image": "exam-1022-q16.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.drugs",
-        "routine.health"
+        "routine.safety"
       ]
     },
     {
@@ -616,7 +613,6 @@
       "local_image": "exam-1022-q18.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.seatbelts",
         "vehicle.passive"
       ]
     },
@@ -681,7 +677,6 @@
       "local_image": "exam-1022-q20.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "driving.weather",
         "vehicle.visibility",
@@ -786,8 +781,7 @@
       "local_image": "exam-1022-q23.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol"
+        "routine.drugs"
       ]
     },
     {

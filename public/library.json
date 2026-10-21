@@ -459,10 +459,7 @@
       "question_id": "exam:1013:08",
       "question": "Los efectos del cannabis afectan a la conducción por una...\nThe effects of cannabis affects driving in the following way:",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.distraction",
-        "routine.drugs",
-        "routine.reaction"
+        "routine.drugs"
       ],
       "verified": true,
       "index": 7,
@@ -1237,8 +1234,7 @@
       "topic_ids": [
         "documents.permissions",
         "numbers.alcohol",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 2,
@@ -1349,8 +1345,7 @@
       "question_id": "exam:1017:11",
       "question": "Para ahorrar carburante, ¿dónde se debe poner el equipaje?\nTo save petrol, where should you put your luggage?",
       "topic_ids": [
-        "driving.weather",
-        "routine.ecodriving"
+        "driving.weather"
       ],
       "verified": true,
       "index": 10,
@@ -1485,7 +1480,7 @@
       "question_id": "exam:1017:21",
       "question": "Cuando aumente la velocidad, debe...\nWhen you increase your speed, you must...",
       "topic_ids": [
-        "routine.ecodriving"
+        "routine.safety"
       ],
       "verified": true,
       "index": 20,
@@ -1654,10 +1649,7 @@
       "question": "¿Se pueden sufrir más distracciones por los efectos del alcohol?\nCan you become more distracted due to the effects of alcohol?",
       "topic_ids": [
         "routine.alcohol",
-        "routine.distraction",
-        "routine.drugs",
-        "routine.emotions",
-        "routine.fatigue"
+        "routine.distraction"
       ],
       "verified": true,
       "index": 2,
@@ -1714,7 +1706,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.visibility"
       ],
@@ -2101,8 +2092,7 @@
       "question_id": "exam:1020:04",
       "question": "En general, ¿a quiénes afecta más el alcohol?\nIn general, who is most affected by alcohol?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 3,
@@ -2128,7 +2118,6 @@
       "question_id": "exam:1020:06",
       "question": "¿Cuáles son las horas especialmente propicias para la aparición del sueño en el conductor?\nWhen are drivers most likely to become tired?",
       "topic_ids": [
-        "routine.drugs",
         "routine.fatigue"
       ],
       "verified": true,
@@ -2184,7 +2173,6 @@
       "question_id": "exam:1020:10",
       "question": "Conducir bajo los efectos de las drogas, ¿puede llevar aparejada la pérdida de puntos del permiso de conducir?\nCan driving under the effects of drugs can result in a loss of points from your licence?",
       "topic_ids": [
-        "routine.alcohol",
         "routine.drugs"
       ],
       "verified": true,
@@ -2446,9 +2434,7 @@
       "question_id": "exam:1020:29",
       "question": "El uso de sustancias estimulantes como el café, ¿resulta útil para vencer el sueño?\nIs the use of stimulants such as coffee useful in overcoming drowsiness?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.fatigue",
-        "routine.health"
+        "routine.fatigue"
       ],
       "verified": true,
       "index": 28,
@@ -2490,8 +2476,7 @@
       "question_id": "exam:1022:02",
       "question": "En caso de atropello, ¿son los niños especialmente vulnerables?\nAre children especially vulnerable if they are knocked down?",
       "topic_ids": [
-        "driving.pedestrians",
-        "routine.distraction"
+        "driving.pedestrians"
       ],
       "verified": true,
       "index": 1,
@@ -2504,7 +2489,6 @@
       "question_id": "exam:1022:03",
       "question": "¿Qué debe hacer un conductor para que los demás usuarios puedan anticiparse a sus intenciones?\nWhat must a driver do in order for other users to anticipate his intentions?",
       "topic_ids": [
-        "routine.ecodriving",
         "vehicle.visibility"
       ],
       "verified": true,
@@ -2687,8 +2671,7 @@
       "question_id": "exam:1022:16",
       "question": "Las gripes, resfriados y alergias, ¿afectan a la conducción?\nDo colds, allergies or the flu, have an affect on driving?",
       "topic_ids": [
-        "routine.drugs",
-        "routine.health"
+        "routine.safety"
       ],
       "verified": true,
       "index": 15,
@@ -2716,7 +2699,6 @@
       "question_id": "exam:1022:18",
       "question": "La función de los sistemas de seguridad pasiva de un vehículo consiste en...\nThe function of the passive safety systems of a vehicle consists in...",
       "topic_ids": [
-        "routine.seatbelts",
         "vehicle.passive"
       ],
       "verified": true,
@@ -2748,7 +2730,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.visibility"
       ],
@@ -2791,7 +2772,6 @@
       "question_id": "exam:1022:23",
       "question": "Las anfetaminas, ¿son peligrosas para conducir?\nAre amphetamines dangerous when driving?",
       "topic_ids": [
-        "routine.alcohol",
         "routine.drugs"
       ],
       "verified": true,
@@ -2917,8 +2897,7 @@
       "question_id": "exam:1023:02",
       "question": "Bajo los efectos de la depresión...\nUnder the effects of a depression...",
       "topic_ids": [
-        "routine.distraction",
-        "routine.health"
+        "routine.safety"
       ],
       "verified": true,
       "index": 1,
@@ -2960,8 +2939,7 @@
       "question": "El alcohol, ¿es una de las principales causas de accidentes de tráfico?\nIs alcohol one of the main causes of traffic accidents?",
       "topic_ids": [
         "incidents.scene",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 4,
@@ -3007,7 +2985,6 @@
       "question": "¿Es aconsejable quitar el casco de protección al pasajero de una motocicleta que ha sufrido un accidente?\nIt is advisable to take off the helmet of a motorcycle passenger who has been involved in an accident?",
       "topic_ids": [
         "incidents.scene",
-        "routine.alcohol",
         "routine.helmets",
         "vehicle.motorcycles",
         "vehicle.passengers"
@@ -3126,7 +3103,6 @@
       "question_id": "exam:1023:16",
       "question": "Fumar al volante, ¿cómo afecta a la conducción?\nHow does smoking affect driving?",
       "topic_ids": [
-        "routine.distraction",
         "vehicle.lights"
       ],
       "verified": true,
@@ -3266,8 +3242,7 @@
       "question": "Negarse a realizar la prueba de alcoholemia...\nTo refuse to do a breathalyser test...",
       "topic_ids": [
         "driving.weather",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 25,
@@ -3313,8 +3288,7 @@
       "question": "El alcohol es siempre peligroso para la seguridad vial...\nAlcohol is always dangerous for road safety…",
       "topic_ids": [
         "driving.weather",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 28,
@@ -3341,7 +3315,6 @@
       "question_id": "exam:1025:01",
       "question": "¿Algunos medicamentos pueden afectar negativamente al comportamiento del conductor?\nCan some medicaments adversely affect the behaviour of the driver?",
       "topic_ids": [
-        "routine.drugs",
         "routine.health"
       ],
       "verified": true,
@@ -3629,9 +3602,7 @@
       "topic_ids": [
         "routine.alcohol",
         "routine.distraction",
-        "routine.drugs",
-        "routine.emotions",
-        "routine.fatigue"
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 21,
@@ -3645,8 +3616,8 @@
       "question": "En un conductor el consumo de anfetaminas...\nFor a driver, the consumption of amphetamines...",
       "topic_ids": [
         "incidents.towing",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.drugs",
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 22,
@@ -3677,7 +3648,6 @@
         "driving.weather",
         "numbers.alcohol",
         "routine.alcohol",
-        "routine.drugs",
         "vehicle.dangerous_goods",
         "vehicle.passengers"
       ],
@@ -3739,7 +3709,6 @@
       "question": "Durmiendo un poco, ¿se consigue eliminar más rápidamente el alcohol?\nDoes getting a little sleep help to eliminate alcohol more quickly?",
       "topic_ids": [
         "routine.alcohol",
-        "routine.drugs",
         "routine.fatigue"
       ],
       "verified": true,
@@ -3780,7 +3749,6 @@
       "question_id": "exam:1028:02",
       "question": "¿Puede sentir sueño conduciendo aunque haya dormido suficiente?\nCan you feel drowsy when driving even though you have slept enough?",
       "topic_ids": [
-        "routine.drugs",
         "routine.fatigue"
       ],
       "verified": true,
@@ -3810,7 +3778,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.tyres",
         "vehicle.visibility"
@@ -3827,8 +3794,7 @@
       "question": "¿Puede llevar a un niño en su vehículo sin un dispositivo de retención adecuado, como norma general?\nAre you permitted to carry a child in your automobile without a suitable restraining device, as a general rule?",
       "topic_ids": [
         "documents.permissions",
-        "driving.weather",
-        "routine.seatbelts"
+        "driving.weather"
       ],
       "verified": true,
       "index": 4,
@@ -3924,8 +3890,7 @@
       "topic_ids": [
         "driving.weather",
         "priority.officer",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 11,
@@ -4039,8 +4004,7 @@
       "question_id": "exam:1028:20",
       "question": "La primera velocidad debe utilizarse...\nFirst gear must be used...",
       "topic_ids": [
-        "driving.braking",
-        "routine.ecodriving"
+        "driving.braking"
       ],
       "verified": true,
       "index": 19,
@@ -4096,7 +4060,8 @@
       "question_id": "exam:1028:24",
       "question": "El número de teléfono de emergencias en accidentes de tráfico es...\nThe phone number to call for emergencies in traffic accidents is...",
       "topic_ids": [
-        "driving.weather"
+        "driving.weather",
+        "routine.distraction"
       ],
       "verified": true,
       "index": 23,
@@ -4124,7 +4089,6 @@
       "question_id": "exam:1028:26",
       "question": "Cuando una persona tiene una enfermedad...\nWhen a person has an illness…",
       "topic_ids": [
-        "routine.drugs",
         "routine.health",
         "signs.warning"
       ],
@@ -4167,9 +4131,8 @@
       "question": "¿Cómo afecta el consumo de cocaína a la conducción?\nHow does consuming cocaine affect driving?",
       "topic_ids": [
         "incidents.towing",
-        "routine.alcohol",
         "routine.drugs",
-        "routine.emotions"
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 28,
@@ -4208,8 +4171,7 @@
       "question_id": "exam:1035:02",
       "question": "Con analgésicos o antihistamínicos es conveniente...\nWhen taking analgesics or antihistamines, it is recommendable...",
       "topic_ids": [
-        "routine.drugs",
-        "routine.health"
+        "routine.safety"
       ],
       "verified": true,
       "index": 1,
@@ -4237,7 +4199,6 @@
       "question_id": "exam:1035:04",
       "question": "La persona que conduce bajo los efectos de las drogas...\nA person who drives under the effects of drugs...",
       "topic_ids": [
-        "routine.alcohol",
         "routine.drugs"
       ],
       "verified": true,
@@ -4251,7 +4212,8 @@
       "question_id": "exam:1035:05",
       "question": "¿Qué problemas de las personas mayores pueden afectarles en la conducción?\nWhat problems can affect the driving of senior citizens?",
       "topic_ids": [
-        "routine.safety"
+        "routine.ecodriving",
+        "routine.health"
       ],
       "verified": true,
       "index": 4,
@@ -4266,9 +4228,7 @@
       "topic_ids": [
         "routine.alcohol",
         "routine.distraction",
-        "routine.drugs",
-        "routine.emotions",
-        "routine.fatigue"
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 5,
@@ -4391,7 +4351,6 @@
       "question": "Un ciclista ha consumido estupefacientes, ¿puede circular?\nA cyclist has taken drugs. Is he permitted to ride?",
       "topic_ids": [
         "documents.permissions",
-        "routine.alcohol",
         "routine.drugs"
       ],
       "verified": true,
@@ -4408,8 +4367,7 @@
         "documents.permissions",
         "driving.lanes",
         "driving.weather",
-        "incidents.towing",
-        "routine.health"
+        "incidents.towing"
       ],
       "verified": true,
       "index": 15,
@@ -4494,8 +4452,7 @@
       "question_id": "exam:1035:22",
       "question": "Una de las principales causas de accidente en personas jóvenes es...\nOne of the main causes of accidents in young people is...",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.safety"
       ],
       "verified": true,
       "index": 21,
@@ -4539,8 +4496,7 @@
       "topic_ids": [
         "driving.weather",
         "numbers.alcohol",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 24,
@@ -4595,10 +4551,7 @@
       "question_id": "exam:1035:29",
       "question": "Uno de los efectos que pueden producir los ansiolíticos es...\nOne of the effects that anxiolytics can produce is...",
       "topic_ids": [
-        "routine.drugs",
-        "routine.fatigue",
-        "routine.health",
-        "routine.reaction"
+        "routine.fatigue"
       ],
       "verified": true,
       "index": 28,
@@ -4641,8 +4594,6 @@
       "question": "En caso de padecer una enfermedad crónica, es fundamental...\nIf you suffer from a chronic illness, it is very important...",
       "topic_ids": [
         "driving.weather",
-        "routine.alcohol",
-        "routine.drugs",
         "routine.health"
       ],
       "verified": true,
@@ -4670,7 +4621,6 @@
       "question_id": "exam:1039:04",
       "question": "Mientras se reposta carburante en una motocicleta, ¿es obligatorio apagar el alumbrado?\nIs it mandatory to turn off the lights when you are filling up your motorcycle with fuel?",
       "topic_ids": [
-        "routine.distraction",
         "routine.ecodriving",
         "vehicle.cargo",
         "vehicle.motorcycles"
@@ -5231,7 +5181,7 @@
       "question": "El consumo de alcohol, ¿cómo altera el comportamiento del conductor?\nHow does the consumption of alcohol alter the driver’s behaviour?",
       "topic_ids": [
         "routine.alcohol",
-        "routine.drugs"
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 12,
@@ -5244,8 +5194,7 @@
       "question_id": "exam:1045:15",
       "question": "La depresión puede afectar al conductor...\nDepression can affect the driver...",
       "topic_ids": [
-        "routine.distraction",
-        "routine.health"
+        "routine.safety"
       ],
       "verified": true,
       "index": 13,
@@ -5463,6 +5412,424 @@
       "canonical_id": "7476576547be7081d8dda480"
     },
     {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 1,
+      "question_id": "exam:1049:01",
+      "question": "Con fuerte viento y ciclistas circulando, debemos...\nIn strong winds with cyclists on the road, we must...",
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.weather",
+        "vehicle.visibility"
+      ],
+      "verified": true,
+      "index": 0,
+      "canonical_id": "b361f36b0a0a33f322c678c7"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 2,
+      "question_id": "exam:1049:02",
+      "question": "¿Puede emplear pinzas de sujeción o reguladores en el cinturón de seguridad?\nCan you use a clamp or adjustments with a seat belt?",
+      "topic_ids": [
+        "driving.weather",
+        "routine.seatbelts"
+      ],
+      "verified": true,
+      "index": 1,
+      "canonical_id": "4c8e4b459b2ea9258719a6e2"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 3,
+      "question_id": "exam:1049:03",
+      "question": "El riesgo de accidente cuando se usa el teléfono móvil es...\nThe risk of an accident when using your mobile phone is...",
+      "topic_ids": [
+        "incidents.towing",
+        "routine.distraction"
+      ],
+      "verified": true,
+      "index": 2,
+      "canonical_id": "b0e7f8359b38b406de6a502e"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 4,
+      "question_id": "exam:1049:04",
+      "question": "Mientras se realiza un estacionamiento, ¿es fácil que el dispositivo del airbag se dispare?\nWhen parking, can the airbag system be deployed easily?",
+      "topic_ids": [
+        "driving.parking",
+        "driving.weather",
+        "vehicle.passive"
+      ],
+      "verified": true,
+      "index": 3,
+      "canonical_id": "3cc5f611b62ef74e80c029ea"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 5,
+      "question_id": "exam:1049:05",
+      "question": "¿Qué debe hacer el conductor antes de entrar en la curva?\nWhat should a driver do before entering a bend?",
+      "topic_ids": [
+        "driving.braking"
+      ],
+      "verified": true,
+      "index": 4,
+      "canonical_id": "a1816d183e1609c3d3161796"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 6,
+      "question_id": "exam:1049:06",
+      "question": "Cuando un vehículo lleva airbag, ¿las gafas suelen ser peligrosas para el conductor si este salta debido a un impacto?\nIf a vehicle has an airbag, are glasses usually dangerous for the driver if the airbag is triggered by an impact?",
+      "topic_ids": [
+        "vehicle.passive"
+      ],
+      "verified": true,
+      "index": 5,
+      "canonical_id": "208baa7940adad8203fab3c0"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 7,
+      "question_id": "exam:1049:07",
+      "question": "Si, en un país europeo, una persona se pone en contacto con los servicios de urgencia mediante el sistema eCall y no sabe responder en el idioma del operador que le responde, ¿en qué idioma le responderán nuevamente?\nIf, in a European country, a person contacts emergency services via the eCall system and is unable to respond in the language spoken by the operator, in which language will they be replied to?",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "verified": true,
+      "index": 6,
+      "canonical_id": "3cbe8a78a13a68ce267fafdf"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 8,
+      "question_id": "exam:1049:08",
+      "question": "Las alteraciones emocionales que puede provocar la droga LSD se pueden prolongar...\nThe emotional effects of LSD can last for...",
+      "topic_ids": [
+        "routine.drugs",
+        "routine.emotions"
+      ],
+      "verified": true,
+      "index": 7,
+      "canonical_id": "b179db1d82727ad6d10a5320"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 9,
+      "question_id": "exam:1049:09",
+      "question": "El consumo de combustible puede incrementarse cuando...\nFuel consumption can increase when...",
+      "topic_ids": [
+        "routine.ecodriving",
+        "vehicle.cargo"
+      ],
+      "verified": true,
+      "index": 8,
+      "canonical_id": "d001bb6e733b0ac1d70fb1b6"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 10,
+      "question_id": "exam:1049:10",
+      "question": "Las ruedas motrices, ¿cuáles son?\nWhat are the drive wheels?",
+      "topic_ids": [
+        "vehicle.passengers"
+      ],
+      "verified": true,
+      "index": 9,
+      "canonical_id": "56a8b4cc51141d3d2ec425df"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 11,
+      "question_id": "exam:1049:11",
+      "question": "Un derivado de turismo es un automóvil destinado...\nA car derivative is a vehicle intended for...",
+      "topic_ids": [
+        "driving.weather"
+      ],
+      "verified": true,
+      "index": 10,
+      "canonical_id": "6335cb3fbd506f642ddba5b6"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 12,
+      "question_id": "exam:1049:12",
+      "question": "El semáforo de la fotografía está estropeado, ¿a quién debe ceder el paso en la intersección?\nThe traffic light in the photo is not working. Who should you give way to at the junction?",
+      "topic_ids": [
+        "priority.general",
+        "priority.lights",
+        "signs.temporary"
+      ],
+      "verified": true,
+      "index": 11,
+      "canonical_id": "abb233dbcdd3fd2ac7d0dc4b"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 13,
+      "question_id": "exam:1049:13",
+      "question": "En las calzadas con doble sentido de circulación y dos carriles, el carril izquierdo, ¿para qué se debe utilizar?\nOn two-way roads with two lanes, what should the left lane be used for?",
+      "topic_ids": [
+        "driving.lanes",
+        "driving.overtaking"
+      ],
+      "verified": true,
+      "index": 12,
+      "canonical_id": "45f3b0a5e057f2a692542aa4"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 14,
+      "question_id": "exam:1049:14",
+      "question": "Si se dan las condiciones de seguridad precisas y va a adelantar a un ciclista en esta vía, ¿qué separación lateral debe dejar?\nIf the precise safety conditions are met and you are going to overtake a cyclist on this road, what side-by-side distance should you leave?",
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "verified": true,
+      "index": 13,
+      "canonical_id": "cac7ca910dc7aeacf4102de3"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 15,
+      "question_id": "exam:1049:15",
+      "question": "¿Qué efectos produce el éxtasis?\nWhat are the effects of ecstasy?",
+      "topic_ids": [
+        "routine.drugs"
+      ],
+      "verified": true,
+      "index": 14,
+      "canonical_id": "db2f0c0c7fbb57acc397346e"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 16,
+      "question_id": "exam:1049:16",
+      "question": "En un paso para ciclistas, los demás conductores deben...\nAt a cycle crossing, other drivers must...",
+      "topic_ids": [
+        "documents.permissions",
+        "driving.lanes",
+        "driving.pedestrians",
+        "priority.general"
+      ],
+      "verified": true,
+      "index": 15,
+      "canonical_id": "5d9a1ee5dfef642772bd1942"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 17,
+      "question_id": "exam:1049:17",
+      "question": "¿Cuál de estos factores pueden favorecer las distracciones al conducir dificultando la capacidad de atender adecuadamente a los estímulos importantes?\nWhich of these factors can cause distractions when driving, making it difficult to respond appropriately to important stimuli?",
+      "topic_ids": [
+        "routine.distraction",
+        "vehicle.lights"
+      ],
+      "verified": true,
+      "index": 16,
+      "canonical_id": "a8b821c2153383c9a9cf543b"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 18,
+      "question_id": "exam:1049:18",
+      "question": "En los desplazamientos laterales, ¿es suficiente con mirar por los espejos retrovisores?\nWhen moving sideways, is it sufficient to look in your mirrors?",
+      "topic_ids": [
+        "vehicle.visibility"
+      ],
+      "verified": true,
+      "index": 17,
+      "canonical_id": "bcc5a4ceace113378bb9fa72"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 19,
+      "question_id": "exam:1049:19",
+      "question": "¿Debe el conductor del turismo de color blanco respetar la señal de stop cuando llegue al cruce?\nShould the driver of the white car obey the stop sign when they reach the junction?",
+      "topic_ids": [
+        "signs.priority",
+        "priority.sign",
+        "driving.lanes"
+      ],
+      "verified": false,
+      "index": null,
+      "canonical_id": "exam:1049:19"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 20,
+      "question_id": "exam:1049:20",
+      "question": "Respecto al uso del cinturón de seguridad, como norma general, el ocupante de un turismo distinto del conductor está obligado a...\nWith regards to the use of a seat belt, as a general rule, a car passenger must...",
+      "topic_ids": [
+        "routine.seatbelts",
+        "vehicle.passengers"
+      ],
+      "verified": true,
+      "index": 18,
+      "canonical_id": "d6a64508469872eb48cafbf0"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 21,
+      "question_id": "exam:1049:21",
+      "question": "Para conseguir una conducción eficiente se debe circular...\nFor efficient driving, you must drive...",
+      "topic_ids": [
+        "driving.braking",
+        "routine.ecodriving"
+      ],
+      "verified": true,
+      "index": 19,
+      "canonical_id": "80ba9acae9cd25eae58c01ed"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 22,
+      "question_id": "exam:1049:22",
+      "question": "Los costes de policía y bomberos, de gestión de seguros y servicios, ¿cómo se llaman?\nWhat are the costs of police and fire services, insurance management and services called?",
+      "topic_ids": [
+        "driving.weather",
+        "vehicle.classification"
+      ],
+      "verified": true,
+      "index": 20,
+      "canonical_id": "81ec52edcb3b0048b9865024"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 23,
+      "question_id": "exam:1049:23",
+      "question": "El sistema de navegación, ¿puede ayudar a controlar la velocidad?\nCan the navigation system help to control speed?",
+      "topic_ids": [
+        "driving.weather"
+      ],
+      "verified": true,
+      "index": 21,
+      "canonical_id": "5a9e0435b4156c067e4276eb"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 24,
+      "question_id": "exam:1049:24",
+      "question": "En esta carretera convencional, ¿a qué velocidad máxima tiene permitido circular con una motocicleta?\nOn this conventional road, what is the speed limit for a motorcycle?",
+      "topic_ids": [
+        "documents.permissions",
+        "numbers.speeds",
+        "vehicle.motorcycles",
+        "vehicle.passengers"
+      ],
+      "verified": true,
+      "index": 22,
+      "canonical_id": "6327c17228fa83cfedc957cd"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 25,
+      "question_id": "exam:1049:25",
+      "question": "Un menor de edad con estatura de 125 centímetros, ¿puede viajar en el asiento delantero de un turismo utilizando únicamente el cinturón de seguridad para adultos?\nCan a child who is 125 centimetres tall sit in the front seat of a car only wearing an adult seat belt?",
+      "topic_ids": [
+        "routine.seatbelts"
+      ],
+      "verified": true,
+      "index": 23,
+      "canonical_id": "010ae7d000463edda019182a"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 26,
+      "question_id": "exam:1049:26",
+      "question": "A la entrada y salida del colegio, para evitar riesgos, ¿qué precauciones deberá tomar cuando los niños desciendan del vehículo, además de la previa vigilancia del entorno?\nWhen you enter and leave school, to avoid risks, what precautions should you take when your children leave the vehicle, in addition to checking the surroundings beforehand?",
+      "topic_ids": [
+        "vehicle.cargo"
+      ],
+      "verified": true,
+      "index": 24,
+      "canonical_id": "d8dc7b113c6ab93a39d043c6"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 27,
+      "question_id": "exam:1049:27",
+      "question": "Esta señal prohíbe la entrada...\nThis sign prohibits entry to...",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "verified": true,
+      "index": 25,
+      "canonical_id": "3d919ce8a8144154aa86af6e"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 28,
+      "question_id": "exam:1049:28",
+      "question": "En un túnel con un carril para cada sentido de circulación, ¿está permitido adelantar?\nIn tunnels with a lane for each direction, is it permitted to overtake?",
+      "topic_ids": [
+        "documents.permissions",
+        "driving.lanes",
+        "driving.overtaking"
+      ],
+      "verified": true,
+      "index": 26,
+      "canonical_id": "c370794390bed6dd1c657b7c"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 29,
+      "question_id": "exam:1049:29",
+      "question": "Una carrocería de gran resistencia, ¿puede sustituir a otros sistemas de seguridad pasiva?\nCan a high-strength vehicle body replace other passive safety systems?",
+      "topic_ids": [
+        "vehicle.passengers",
+        "vehicle.passive"
+      ],
+      "verified": true,
+      "index": 27,
+      "canonical_id": "c0634d460b2d2832d5047c45"
+    },
+    {
+      "test_id": 101049,
+      "source_test_id": 1049,
+      "source_ordinal": 30,
+      "question_id": "exam:1049:30",
+      "question": "En esta vía, la velocidad mínima permitida a los turismos es de…\nThe minimum speed permitted for a passenger car on this road is…",
+      "topic_ids": [
+        "documents.permissions",
+        "numbers.speeds",
+        "vehicle.passengers"
+      ],
+      "verified": true,
+      "index": 28,
+      "canonical_id": "1085dd397dca4bbbc7b2fc4b"
+    },
+    {
       "test_id": 101055,
       "source_test_id": 1055,
       "source_ordinal": 1,
@@ -5524,7 +5891,6 @@
       "question_id": "exam:1055:05",
       "question": "¿Se puede disminuir el riesgo de sufrir un accidente si se padece una enfermedad crónica?\nCan you reduce the risk of an accident if suffering from a chronic illness?",
       "topic_ids": [
-        "routine.drugs",
         "routine.health",
         "signs.warning"
       ],
@@ -5554,7 +5920,6 @@
       "question": "¿Consumir cerveza con alcohol puede influir en la conducción de la motocicleta?\nCan drinking alcoholic beer influence motorcycle driving?",
       "topic_ids": [
         "routine.alcohol",
-        "routine.drugs",
         "vehicle.motorcycles"
       ],
       "verified": true,
@@ -5751,10 +6116,7 @@
       "question": "Las altas temperaturas pueden suponer un riesgo para la seguridad durante la conducción, ¿debe circular adoptando medidas preventivas?\nHigh temperatures can pose a safety risk during driving, should you drive taking preventive measures?",
       "topic_ids": [
         "numbers.alcohol",
-        "routine.alcohol",
-        "routine.distraction",
-        "routine.fatigue",
-        "routine.reaction"
+        "routine.fatigue"
       ],
       "verified": true,
       "index": 20,
@@ -5793,7 +6155,6 @@
       "question_id": "exam:1055:24",
       "question": "Conducir bajo los efectos de algunas drogas puede producir en el conductor...\nDriving under the influence of drugs may cause the driver to have...",
       "topic_ids": [
-        "routine.alcohol",
         "routine.drugs"
       ],
       "verified": true,
@@ -5951,8 +6312,7 @@
       "question_id": "exam:1065:05",
       "question": "En caso de atropello a un niño, el mayor impacto se produce habitualmente...\nIn the event of an accident involving a child, the greatest impact usually occurs...",
       "topic_ids": [
-        "driving.pedestrians",
-        "routine.distraction"
+        "driving.pedestrians"
       ],
       "verified": true,
       "index": 3,
@@ -6120,8 +6480,8 @@
       "question_id": "exam:1065:17",
       "question": "El consumo de drogas de abuso o ilegales, ¿afecta a la seguridad vial?\nDoes substance abuse or illegal drugs affect road safety?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.drugs",
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 15,
@@ -6179,7 +6539,6 @@
         "documents.permissions",
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.passengers",
         "vehicle.visibility"
@@ -6425,8 +6784,7 @@
       "question_id": "exam:1075:08",
       "question": "Los menores de edad de estatura inferior o igual a 135 centímetros, ¿pueden viajar excepcionalmente en los asientos delanteros de su turismo?\nCan minors who are 135 centimetres tall or shorter sit in the front seat of a car on an exceptional basis?",
       "topic_ids": [
-        "driving.weather",
-        "routine.seatbelts"
+        "driving.weather"
       ],
       "verified": true,
       "index": 7,
@@ -6590,8 +6948,6 @@
       "question_id": "exam:1075:19",
       "question": "Hay medicamentos que producen sueño. Después de tomarlos, ¿puede conducir?\nThere are medicines which make you drowsy. After taking them, can you drive?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs",
         "routine.fatigue",
         "routine.health"
       ],
@@ -6779,7 +7135,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.classification",
         "vehicle.visibility"
@@ -6798,8 +7153,7 @@
         "documents.permissions",
         "driving.weather",
         "priority.officer",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 2,
@@ -7738,7 +8092,6 @@
       "question": "Uno de los pasajeros adultos del turismo que usted conduce no lleva puesto el cinturón de seguridad. Si un agente de la autoridad denuncia la infracción, ¿quién es el responsable?\nOne of the adult passengers in the car you are driving is not wearing a seat belt. If a law enforcement officer reports the offence, who is responsible?",
       "topic_ids": [
         "priority.officer",
-        "routine.helmets",
         "routine.seatbelts",
         "vehicle.passengers"
       ],
@@ -7780,11 +8133,8 @@
       "question_id": "thematic:1003:03",
       "question": "El consumo de drogas, ¿afecta a la capacidad de reacción?\nDoes the consumption of drugs affect reaction ability?",
       "topic_ids": [
-        "routine.alcohol",
         "routine.drugs",
-        "routine.emotions",
-        "routine.fatigue",
-        "routine.reaction"
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 2,
@@ -7811,8 +8161,6 @@
       "question_id": "thematic:1003:05",
       "question": "A medida que aumenta la velocidad...\nAs you increase speed…",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs",
         "routine.fatigue"
       ],
       "verified": true,
@@ -7920,10 +8268,7 @@
       "question": "¿Se pueden sufrir más distracciones por los efectos del alcohol?\nCan you become more distracted due to the effects of alcohol?",
       "topic_ids": [
         "routine.alcohol",
-        "routine.distraction",
-        "routine.drugs",
-        "routine.emotions",
-        "routine.fatigue"
+        "routine.distraction"
       ],
       "verified": true,
       "index": 12,
@@ -7965,7 +8310,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.towing",
-        "routine.alcohol",
         "routine.distraction"
       ],
       "verified": true,
@@ -8143,7 +8487,6 @@
       "question_id": "thematic:1003:29",
       "question": "La fatiga hace que...\nFatigue leads to…",
       "topic_ids": [
-        "routine.emotions",
         "routine.fatigue"
       ],
       "verified": true,
@@ -8170,7 +8513,6 @@
       "question_id": "thematic:1004:01",
       "question": "¿Cuáles son las horas especialmente propicias para la aparición del sueño en el conductor?\nWhen are drivers most likely to become tired?",
       "topic_ids": [
-        "routine.drugs",
         "routine.fatigue"
       ],
       "verified": true,
@@ -8197,9 +8539,7 @@
       "question_id": "thematic:1004:03",
       "question": "El uso de sustancias estimulantes como el café, ¿resulta útil para vencer el sueño?\nIs the use of stimulants such as coffee useful in overcoming drowsiness?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.fatigue",
-        "routine.health"
+        "routine.fatigue"
       ],
       "verified": true,
       "index": 2,
@@ -8212,7 +8552,7 @@
       "question_id": "thematic:1004:04",
       "question": "¿Es recomendable descansar durante los viajes?\nIs it advisable to rest when travelling?",
       "topic_ids": [
-        "routine.fatigue"
+        "routine.safety"
       ],
       "verified": true,
       "index": 3,
@@ -8225,7 +8565,6 @@
       "question_id": "thematic:1004:05",
       "question": "El sistema de detección de fatiga, ¿analiza los patrones de conducción y las reacciones del conductor para detectar si hay cansancio en el conductor?\nDoes the fatigue detection system analyse driving patterns and the driver's reactions to detect tiredness in the driver?",
       "topic_ids": [
-        "routine.distraction",
         "routine.fatigue"
       ],
       "verified": true,
@@ -8268,8 +8607,7 @@
       "question": "El alcohol es siempre peligroso para la seguridad vial...\nAlcohol is always dangerous for road safety…",
       "topic_ids": [
         "driving.weather",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 7,
@@ -8283,8 +8621,7 @@
       "question": "Como norma general, está prohibido conducir turismos con una tasa de alcohol en sangre superior a...\nAs a general rule, it is prohibited to drive a car with a blood alcohol concentration exceeding…",
       "topic_ids": [
         "numbers.alcohol",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 8,
@@ -8300,7 +8637,6 @@
         "driving.weather",
         "numbers.alcohol",
         "routine.alcohol",
-        "routine.drugs",
         "vehicle.dangerous_goods",
         "vehicle.passengers"
       ],
@@ -8317,8 +8653,7 @@
       "topic_ids": [
         "documents.permissions",
         "numbers.alcohol",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 10,
@@ -8331,8 +8666,7 @@
       "question_id": "thematic:1004:12",
       "question": "En general, ¿a quiénes afecta más el alcohol?\nIn general, who is most affected by alcohol?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 11,
@@ -8346,8 +8680,7 @@
       "question": "Para conducir un camión de menos de 3.500 kg de MMA, la tasa máxima autorizada de alcohol en aire espirado es...\nTo drive a lorry with a gross vehicle weight of less than 3,500 kg, the maximum authorised alcohol content in exhaled air is...",
       "topic_ids": [
         "numbers.alcohol",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 12,
@@ -8363,7 +8696,6 @@
         "driving.weather",
         "numbers.alcohol",
         "routine.alcohol",
-        "routine.drugs",
         "vehicle.dangerous_goods",
         "vehicle.passengers"
       ],
@@ -8396,8 +8728,7 @@
       "topic_ids": [
         "documents.permissions",
         "numbers.alcohol",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 15,
@@ -8414,7 +8745,6 @@
         "driving.weather",
         "numbers.alcohol",
         "routine.alcohol",
-        "routine.drugs",
         "vehicle.dangerous_goods",
         "vehicle.passengers"
       ],
@@ -8431,8 +8761,7 @@
       "topic_ids": [
         "documents.permissions",
         "numbers.alcohol",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 17,
@@ -8459,7 +8788,6 @@
       "question": "Durmiendo un poco, ¿se consigue eliminar más rápidamente el alcohol?\nDoes getting a little sleep help to eliminate alcohol more quickly?",
       "topic_ids": [
         "routine.alcohol",
-        "routine.drugs",
         "routine.fatigue"
       ],
       "verified": true,
@@ -8473,8 +8801,7 @@
       "question_id": "thematic:1004:21",
       "question": "El tiempo de absorción del alcohol, ¿depende de la bebida ingerida?\nDoes the absorption time for alcohol depend on the drink ingested?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 20,
@@ -8489,7 +8816,7 @@
       "topic_ids": [
         "priority.lights",
         "routine.alcohol",
-        "routine.drugs"
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 21,
@@ -8502,7 +8829,6 @@
       "question_id": "thematic:1004:23",
       "question": "Uno de los efectos que algunas drogas pueden producir en el conductor es...\nOne of the effects that some drugs may produce on a driver is...",
       "topic_ids": [
-        "routine.alcohol",
         "routine.drugs"
       ],
       "verified": true,
@@ -8516,9 +8842,8 @@
       "question_id": "thematic:1004:24",
       "question": "Los efectos que provoca el LSD en el comportamiento del conductor...\nThe effects that LSD has on the behaviour of the driver...",
       "topic_ids": [
-        "routine.alcohol",
         "routine.drugs",
-        "routine.emotions"
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 23,
@@ -8531,8 +8856,8 @@
       "question_id": "thematic:1004:25",
       "question": "El consumo de éxtasis, ¿cómo afecta en el comportamiento del conductor?\nHow does taking Ecstasy affect driver behaviour?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.drugs",
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 24,
@@ -8545,8 +8870,8 @@
       "question_id": "thematic:1004:26",
       "question": "¿Qué efectos puede producir en el conductor el consumo de éxtasis?\nWhat effects could the consumption of ecstasy produce on a driver?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.drugs",
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 25,
@@ -8559,9 +8884,8 @@
       "question_id": "thematic:1004:27",
       "question": "El consumo de LSD produce en el conductor…\nThe consumption of LSD produces in the driver…",
       "topic_ids": [
-        "routine.alcohol",
         "routine.drugs",
-        "routine.emotions"
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 26,
@@ -8575,9 +8899,8 @@
       "question": "¿Cómo afecta el consumo de cocaína a la conducción?\nHow does consuming cocaine affect driving?",
       "topic_ids": [
         "incidents.towing",
-        "routine.alcohol",
         "routine.drugs",
-        "routine.emotions"
+        "routine.ecodriving"
       ],
       "verified": true,
       "index": 27,
@@ -8590,10 +8913,7 @@
       "question_id": "thematic:1004:29",
       "question": "Los efectos del cannabis afectan a la conducción por una...\nThe effects of cannabis affects driving in the following way:",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.distraction",
-        "routine.drugs",
-        "routine.reaction"
+        "routine.drugs"
       ],
       "verified": true,
       "index": 28,
@@ -8608,7 +8928,6 @@
       "topic_ids": [
         "driving.weather",
         "priority.officer",
-        "routine.alcohol",
         "routine.drugs"
       ],
       "verified": true,
@@ -8622,8 +8941,7 @@
       "question_id": "thematic:1005:01",
       "question": "En un control preventivo, ¿quiénes están obligados a someterse a las pruebas que se establezcan para la detección de alcoholemia?\nAt a sobriety checkpoint, who is required to take a test to detect the presence of alcohol?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 0,
@@ -8638,9 +8956,7 @@
       "topic_ids": [
         "driving.weather",
         "numbers.alcohol",
-        "priority.officer",
-        "routine.alcohol",
-        "routine.drugs"
+        "priority.officer"
       ],
       "verified": true,
       "index": 1,
@@ -8670,8 +8986,7 @@
         "documents.permissions",
         "driving.weather",
         "priority.officer",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 3,
@@ -8684,8 +8999,7 @@
       "question_id": "thematic:1005:05",
       "question": "Las pruebas de detección de sustancias estupefacientes, ¿son obligatorias?\nAre tests for narcotic substances mandatory?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 4,
@@ -8698,8 +9012,7 @@
       "question_id": "thematic:1005:06",
       "question": "Los síntomas de las alergias respiratorias pueden producir...\nSymptoms of respiratory allergies may lead to…",
       "topic_ids": [
-        "driving.parking",
-        "routine.health"
+        "driving.parking"
       ],
       "verified": true,
       "index": 5,
@@ -8712,8 +9025,7 @@
       "question_id": "thematic:1005:07",
       "question": "Las gripes, resfriados y alergias, ¿afectan a la conducción?\nDo colds, allergies or the flu, have an affect on driving?",
       "topic_ids": [
-        "routine.drugs",
-        "routine.health"
+        "routine.safety"
       ],
       "verified": true,
       "index": 6,
@@ -8726,7 +9038,6 @@
       "question_id": "thematic:1005:08",
       "question": "Todas las enfermedades, ¿son igual de peligrosas para la conducción?\nAre all illnesses as dangerous as each other when driving?",
       "topic_ids": [
-        "routine.drugs",
         "routine.health"
       ],
       "verified": true,
@@ -8740,7 +9051,6 @@
       "question_id": "thematic:1005:09",
       "question": "Las medicinas alternativas o naturales, ¿pueden producir efectos negativos en la conducción?\nCan alternative or natural medicines have negative effects on driving?",
       "topic_ids": [
-        "routine.drugs",
         "routine.health"
       ],
       "verified": true,
@@ -8755,8 +9065,7 @@
       "question": "El estrés, ¿qué efectos puede tener sobre el conductor?\nWhat effects can stress have on a driver?",
       "topic_ids": [
         "incidents.towing",
-        "routine.emotions",
-        "routine.health"
+        "routine.emotions"
       ],
       "verified": true,
       "index": 9,
@@ -8770,8 +9079,7 @@
       "question": "El estrés hace que el conductor...\nStress leads drivers to…",
       "topic_ids": [
         "incidents.towing",
-        "routine.emotions",
-        "routine.health"
+        "routine.emotions"
       ],
       "verified": true,
       "index": 10,
@@ -8784,7 +9092,6 @@
       "question_id": "thematic:1005:12",
       "question": "Si conduce, y se encuentra en tratamiento médico con medicamentos, debe saber...\nIf you drive, and you are under medical treatment and taking medicaments, you must know that...",
       "topic_ids": [
-        "routine.drugs",
         "routine.health",
         "routine.reaction"
       ],
@@ -8799,7 +9106,6 @@
       "question_id": "thematic:1005:13",
       "question": "Los medicamentos que no necesitan receta médica, ¿afectan a la conducción?\nDoes non-prescription medication affect driving?",
       "topic_ids": [
-        "routine.drugs",
         "routine.health"
       ],
       "verified": true,
@@ -8839,8 +9145,7 @@
       "question_id": "thematic:1005:16",
       "question": "Bajo los efectos de la depresión...\nUnder the effects of a depression...",
       "topic_ids": [
-        "routine.distraction",
-        "routine.health"
+        "routine.safety"
       ],
       "verified": true,
       "index": 15,
@@ -8854,8 +9159,7 @@
       "question": "La depresión, ¿qué efectos produce en la conducción?\nWhat effects does depression have on driving?",
       "topic_ids": [
         "routine.distraction",
-        "routine.fatigue",
-        "routine.health"
+        "routine.fatigue"
       ],
       "verified": true,
       "index": 16,
@@ -8870,8 +9174,6 @@
       "topic_ids": [
         "numbers.alcohol",
         "routine.alcohol",
-        "routine.drugs",
-        "routine.fatigue",
         "routine.health"
       ],
       "verified": true,
@@ -8885,10 +9187,7 @@
       "question_id": "thematic:1005:19",
       "question": "Ante un tratamiento farmacológico, ¿reaccionan todas las personas de igual forma?\nDoes everybody react the same to pharmaceutical treatment?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs",
-        "routine.fatigue",
-        "routine.health"
+        "routine.fatigue"
       ],
       "verified": true,
       "index": 18,
@@ -8901,8 +9200,6 @@
       "question_id": "thematic:1005:20",
       "question": "¿Qué medicamentos deben llevar el símbolo de la imagen?\nWhat medicines should display the symbol in the image?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs",
         "routine.health"
       ],
       "verified": true,
@@ -8916,8 +9213,6 @@
       "question_id": "thematic:1005:21",
       "question": "Si está tomando medicamentos y va a conducir…\nIf you are taking medication and you are going to drive…",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs",
         "routine.health"
       ],
       "verified": true,
@@ -8931,8 +9226,6 @@
       "question_id": "thematic:1005:22",
       "question": "Después de ingerir medicamentos tranquilizantes, el tiempo de reacción...\nAfter ingesting tranquillising drugs, the reaction time...",
       "topic_ids": [
-        "routine.drugs",
-        "routine.fatigue",
         "routine.health",
         "routine.reaction"
       ],
@@ -8947,10 +9240,7 @@
       "question_id": "thematic:1005:23",
       "question": "Uno de los efectos que pueden producir los ansiolíticos es...\nOne of the effects that anxiolytics can produce is...",
       "topic_ids": [
-        "routine.drugs",
-        "routine.fatigue",
-        "routine.health",
-        "routine.reaction"
+        "routine.fatigue"
       ],
       "verified": true,
       "index": 22,
@@ -8963,8 +9253,6 @@
       "question_id": "thematic:1005:24",
       "question": "Los fármacos hipnóticos hacen que...\nSedatives cause...",
       "topic_ids": [
-        "routine.drugs",
-        "routine.fatigue",
         "routine.health",
         "routine.reaction"
       ],
@@ -8979,8 +9267,7 @@
       "question_id": "thematic:1005:25",
       "question": "Los efectos secundarios de los medicamentos que alteran la capacidad de conducción, ¿se manifiestan de la misma manera en todas las personas?\nDo the side effects of medicines that alter driving ability appear the same in all people?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs",
+        "routine.ecodriving",
         "routine.health"
       ],
       "verified": true,
@@ -9171,7 +9458,6 @@
       "question_id": "thematic:1006:09",
       "question": "Al cargar combustible en el vehículo es obligatorio...\nWhen fuelling a vehicle, it is mandatory...",
       "topic_ids": [
-        "routine.distraction",
         "routine.ecodriving",
         "vehicle.cargo"
       ],
@@ -9523,7 +9809,6 @@
       "question_id": "thematic:1007:03",
       "question": "El reposacabezas es un elemento de...\nThe headrest is a...",
       "topic_ids": [
-        "routine.seatbelts",
         "vehicle.passive"
       ],
       "verified": true,
@@ -9538,7 +9823,6 @@
       "question": "El casco, ¿se puede incluir entre los elementos de seguridad?\nIs a helmet part of a safety system?",
       "topic_ids": [
         "routine.helmets",
-        "routine.seatbelts",
         "vehicle.passive"
       ],
       "verified": true,
@@ -9933,7 +10217,6 @@
       "question_id": "thematic:1008:02",
       "question": "El calor, ¿influye en el desgaste de los neumáticos?\nDoes heat affect tyre wear?",
       "topic_ids": [
-        "routine.emotions",
         "vehicle.cargo",
         "vehicle.tyres"
       ],
@@ -10085,7 +10368,7 @@
       "question_id": "thematic:1008:13",
       "question": "Un niño de ocho años de edad con una estatura de 120 cm viaja en un turismo que no dispone de dispositivos de seguridad, ¿puede hacerlo?\nCan an eight-year-old child who is 120 cm tall travel in a car that does not have safety devices?",
       "topic_ids": [
-        "routine.seatbelts"
+        "routine.safety"
       ],
       "verified": true,
       "index": 12,
@@ -10099,7 +10382,6 @@
       "question": "Los ocupantes menores de edad de estatura inferior a 135 cm, ¿en qué asientos de un turismo pueden viajar?\nIn which seats of a passenger car may minors who are under 135 cm tall travel?",
       "topic_ids": [
         "driving.weather",
-        "routine.seatbelts",
         "vehicle.passengers"
       ],
       "verified": true,
@@ -10141,7 +10423,6 @@
       "question": "En un turismo, ¿puede viajar en los asientos delanteros un menor de 1 año de edad si todas las plazas traseras están ocupadas por niños con sistemas de retención infantil?\nIn a car, can a child under 1 travel in the front seats, if all the rear seats are occupied by children with child restraint systems?",
       "topic_ids": [
         "driving.weather",
-        "routine.seatbelts",
         "vehicle.passengers"
       ],
       "verified": true,
@@ -10261,8 +10542,7 @@
       "question_id": "thematic:1008:25",
       "question": "En los vehículos de hasta nueve plazas incluido el conductor, los niños menores de tres años, ¿cómo deben viajar?\nIn vehicles with up to nine seats including the driver, how should children under three years of age travel?",
       "topic_ids": [
-        "driving.weather",
-        "routine.seatbelts"
+        "driving.weather"
       ],
       "verified": true,
       "index": 24,
@@ -10373,8 +10653,7 @@
       "question_id": "thematic:1009:03",
       "question": "Cuando se conduce, poner una toalla sobre el asiento...\nWhen you are driving, putting a towel on the seat...",
       "topic_ids": [
-        "incidents.towing",
-        "routine.seatbelts"
+        "incidents.towing"
       ],
       "verified": true,
       "index": 2,
@@ -10445,7 +10724,6 @@
         "documents.permissions",
         "driving.braking",
         "driving.weather",
-        "routine.seatbelts",
         "vehicle.passengers"
       ],
       "verified": true,
@@ -10503,7 +10781,6 @@
       "topic_ids": [
         "driving.parking",
         "driving.weather",
-        "routine.seatbelts",
         "vehicle.passive"
       ],
       "verified": true,
@@ -10558,7 +10835,6 @@
       "question_id": "thematic:1009:16",
       "question": "Cuando un vehículo lleva airbag, ¿las gafas suelen ser peligrosas para el conductor si este salta debido a un impacto?\nIf a vehicle has an airbag, are glasses usually dangerous for the driver if the airbag is triggered by an impact?",
       "topic_ids": [
-        "routine.seatbelts",
         "vehicle.passive"
       ],
       "verified": true,
@@ -11067,8 +11343,7 @@
       "question_id": "thematic:1010:22",
       "question": "Una adecuada posición al volante permite al conductor...\nA suitable position at the steering wheel allows the driver...",
       "topic_ids": [
-        "documents.permissions",
-        "routine.fatigue"
+        "documents.permissions"
       ],
       "verified": true,
       "index": 21,
@@ -11120,7 +11395,6 @@
       "question_id": "thematic:1010:26",
       "question": "En las motocicletas, la postura del conductor ha de ser...\nWhen riding motorbikes, the rider's posture should be…",
       "topic_ids": [
-        "routine.fatigue",
         "vehicle.motorcycles"
       ],
       "verified": true,
@@ -13778,8 +14052,7 @@
         "documents.permissions",
         "driving.lanes",
         "driving.weather",
-        "incidents.towing",
-        "routine.health"
+        "incidents.towing"
       ],
       "verified": true,
       "index": 15,
@@ -14395,7 +14668,6 @@
       "question": "¿Cuál es la velocidad máxima para un cuadriciclo pesado en esta vía?\nWhat is the maximum speed for a heavy quadricycle on this road?",
       "topic_ids": [
         "numbers.speeds",
-        "routine.seatbelts",
         "vehicle.classification",
         "vehicle.motorcycles",
         "vehicle.passengers"
@@ -14755,7 +15027,6 @@
       "question": "A más de 120 kilómetros por hora en autopista, la probabilidad de sobrevivir a un accidente...\nWhen driving at more than 120 kilometres per hour on the motorway, the probability of surviving an accident…",
       "topic_ids": [
         "numbers.speeds",
-        "routine.seatbelts",
         "vehicle.passive"
       ],
       "verified": true,
@@ -14888,7 +15159,7 @@
       "question_id": "thematic:1020:04",
       "question": "Cuando un conductor circula a velocidad adecuada...\nWhen a driver drives at a suitable speed...",
       "topic_ids": [
-        "routine.fatigue"
+        "routine.safety"
       ],
       "verified": true,
       "index": 3,
@@ -14914,7 +15185,6 @@
       "question_id": "thematic:1020:06",
       "question": "La distancia de reacción es...\nReaction distance is...",
       "topic_ids": [
-        "routine.alcohol",
         "routine.reaction"
       ],
       "verified": true,
@@ -14928,10 +15198,6 @@
       "question_id": "thematic:1020:07",
       "question": "La velocidad, ¿influye en el tiempo de reacción?\nDoes speed influence reaction time?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs",
-        "routine.emotions",
-        "routine.fatigue",
         "routine.reaction"
       ],
       "verified": true,
@@ -15080,8 +15346,7 @@
       "question": "Bajo los efectos del alcohol, la distancia de detención...\nUnder the effects of alcohol, the stopping distance…",
       "topic_ids": [
         "driving.parking",
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.alcohol"
       ],
       "verified": true,
       "index": 16,
@@ -18540,10 +18805,7 @@
       "question": "Bajo los efectos del calor es posible que...\nUnder the effects of heat, it is possible that...",
       "topic_ids": [
         "numbers.alcohol",
-        "routine.alcohol",
-        "routine.distraction",
         "routine.emotions",
-        "routine.fatigue",
         "routine.reaction"
       ],
       "verified": true,
@@ -18599,7 +18861,7 @@
       "question_id": "thematic:1028:24",
       "question": "En un día de calor, tanto si se utiliza en el vehículo aire acondicionado como climatizador, ¿qué temperatura interior es la más adecuada?\nOn a hot day, whether using air conditioning or climate control in the vehicle, what interior temperature is the most suitable?",
       "topic_ids": [
-        "routine.fatigue"
+        "routine.safety"
       ],
       "verified": true,
       "index": 23,
@@ -18613,9 +18875,6 @@
       "question": "Si la temperatura en el interior del vehículo es muy alta, ¿puede influir en el tiempo de reacción del conductor?\nIf the temperature on the inside of a vehicle is very high, could this have an effect on the driver’s reaction time?",
       "topic_ids": [
         "numbers.alcohol",
-        "routine.alcohol",
-        "routine.distraction",
-        "routine.fatigue",
         "routine.reaction"
       ],
       "verified": true,
@@ -18642,11 +18901,7 @@
       "question_id": "thematic:1028:27",
       "question": "El calor al volante...\nHeat at the wheel...",
       "topic_ids": [
-        "numbers.alcohol",
-        "routine.alcohol",
-        "routine.distraction",
-        "routine.fatigue",
-        "routine.reaction"
+        "numbers.alcohol"
       ],
       "verified": true,
       "index": 26,
@@ -18660,10 +18915,7 @@
       "question": "Las altas temperaturas pueden suponer un riesgo para la seguridad durante la conducción, ¿debe circular adoptando medidas preventivas?\nHigh temperatures can pose a safety risk during driving, should you drive taking preventive measures?",
       "topic_ids": [
         "numbers.alcohol",
-        "routine.alcohol",
-        "routine.distraction",
-        "routine.fatigue",
-        "routine.reaction"
+        "routine.fatigue"
       ],
       "verified": true,
       "index": 27,
@@ -18676,7 +18928,7 @@
       "question_id": "thematic:1028:29",
       "question": "Los motociclistas, ¿es aconsejable que utilicen gafas de sol?\nShould motorcyclists wear sunglasses?",
       "topic_ids": [
-        "routine.helmets"
+        "routine.safety"
       ],
       "verified": true,
       "index": 28,
@@ -18703,7 +18955,7 @@
       "question_id": "thematic:1029:01",
       "question": "¿Es necesario revisar el filtro del aire?\nIs it necessary to check the air filter?",
       "topic_ids": [
-        "routine.ecodriving"
+        "routine.safety"
       ],
       "verified": true,
       "index": 0,
@@ -19599,8 +19851,7 @@
       "question_id": "thematic:1031:07",
       "question": "Los niños suelen tener problemas en el tráfico porque...\nChildren often have problems in traffic because...",
       "topic_ids": [
-        "driving.pedestrians",
-        "routine.distraction"
+        "driving.pedestrians"
       ],
       "verified": true,
       "index": 6,
@@ -19735,8 +19986,7 @@
       "question_id": "thematic:1031:17",
       "question": "¿Cuál es una de las causas que originan los accidentes de tráfico en los conductores jóvenes?\nWhat is one of the causes of traffic accidents involving young drivers?",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.drugs"
+        "routine.safety"
       ],
       "verified": true,
       "index": 16,
@@ -19868,7 +20118,6 @@
       "question_id": "thematic:1031:27",
       "question": "En los accidentes de motocicletas, ¿qué tipo es el más frecuente?\nWhat is the most frequent type of motorcycle accident?",
       "topic_ids": [
-        "routine.helmets",
         "vehicle.motorcycles"
       ],
       "verified": true,
@@ -20149,9 +20398,7 @@
       "question_id": "thematic:1032:18",
       "question": "Al auxiliar a una víctima de un accidente de tráfico, ¿debe darle alimentos o bebidas?\nWhen helping a victim of a traffic accident, should you give them food or drink?",
       "topic_ids": [
-        "incidents.scene",
-        "routine.alcohol",
-        "routine.helmets"
+        "incidents.scene"
       ],
       "verified": true,
       "index": 17,
@@ -20165,7 +20412,6 @@
       "question": "Como norma general, se recomienda no quitar el casco a un motorista accidentado porque...\nAs a general rule, it is recommended not to remove the helmet from an injured rider because...",
       "topic_ids": [
         "incidents.scene",
-        "routine.alcohol",
         "routine.helmets"
       ],
       "verified": true,
@@ -20322,8 +20568,7 @@
       "question_id": "thematic:1033:01",
       "question": "En un viaje es aconsejable planificar...\nOn a trip it is advisable to plan...",
       "topic_ids": [
-        "driving.weather",
-        "routine.ecodriving"
+        "driving.weather"
       ],
       "verified": true,
       "index": 0,
@@ -20338,7 +20583,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.visibility"
       ],
@@ -20355,7 +20599,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.visibility"
       ],
@@ -20372,7 +20615,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.visibility"
       ],
@@ -20389,7 +20631,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.classification",
         "vehicle.visibility"
@@ -20407,7 +20648,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.classification",
         "vehicle.visibility"
@@ -20425,7 +20665,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.classification",
         "vehicle.visibility"
@@ -20443,7 +20682,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.visibility"
       ],
@@ -20460,7 +20698,6 @@
       "topic_ids": [
         "driving.weather",
         "incidents.scene",
-        "routine.ecodriving",
         "signs.vehicle_plates",
         "vehicle.tyres",
         "vehicle.visibility"
@@ -20477,7 +20714,6 @@
       "question": "En la conducción, los espejos retrovisores permiten observar...\nWhen driving, the rear-view mirrors enable the driver to observe…",
       "topic_ids": [
         "documents.permissions",
-        "routine.ecodriving",
         "vehicle.visibility"
       ],
       "verified": true,
@@ -20491,7 +20727,7 @@
       "question_id": "thematic:1033:11",
       "question": "Según las técnicas de visión en la conducción preventiva, para anticiparse al peligro y tomar decisiones seguras el conductor debe...\nBased on defensive driving techniques relating to vision, to anticipate dangerous situations and make safe decisions, the driver must...",
       "topic_ids": [
-        "routine.ecodriving"
+        "routine.safety"
       ],
       "verified": true,
       "index": 10,
@@ -20517,8 +20753,7 @@
       "question_id": "thematic:1033:13",
       "question": "Si el vehículo de detrás se acerca demasiado, es conveniente...\nIf the vehicle behind comes too close, it is recommendable to...",
       "topic_ids": [
-        "driving.weather",
-        "routine.ecodriving"
+        "driving.weather"
       ],
       "verified": true,
       "index": 12,
@@ -20531,7 +20766,7 @@
       "question_id": "thematic:1033:14",
       "question": "La densidad del tráfico en zona urbana produce frecuentes zonas de incertidumbre, por lo que el conductor de una motocicleta deberá...\nTraffic density in urban zones produces lots of areas of uncertainty, so a motorcyclist must...",
       "topic_ids": [
-        "routine.ecodriving"
+        "routine.safety"
       ],
       "verified": true,
       "index": 13,
@@ -20545,8 +20780,7 @@
       "question": "En las detenciones, una referencia útil para guardar la distancia adecuada con el vehículo de delante es ver...\nWhen stopping, a useful reference point to keep the right distance with the vehicle in front is to see...",
       "topic_ids": [
         "driving.parking",
-        "priority.lights",
-        "routine.ecodriving"
+        "priority.lights"
       ],
       "verified": true,
       "index": 14,
@@ -20560,8 +20794,7 @@
       "question": "En una detención (por ejemplo, ante un semáforo o en una retención), ¿qué distancia mínima se debe guardar con el vehículo de delante?\nWhen stopping (e.g., at a traffic light or in a traffic jam), what minimum distance should you leave behind the vehicle in front?",
       "topic_ids": [
         "driving.parking",
-        "priority.lights",
-        "routine.ecodriving"
+        "priority.lights"
       ],
       "verified": true,
       "index": 15,
@@ -20576,7 +20809,6 @@
       "topic_ids": [
         "driving.braking",
         "driving.parking",
-        "routine.ecodriving",
         "vehicle.visibility"
       ],
       "verified": true,
@@ -20631,7 +20863,7 @@
       "question_id": "thematic:1033:21",
       "question": "Cuando se estropea el tubo de escape, ¿qué sucede?\nWhen the exhaust pipe is damaged, what happens?",
       "topic_ids": [
-        "routine.ecodriving"
+        "routine.safety"
       ],
       "verified": true,
       "index": 20,
@@ -20658,8 +20890,7 @@
       "question_id": "thematic:1033:23",
       "question": "Al poner en marcha un motor de gasolina, es conveniente...\nWhen starting a petrol engine, you should...",
       "topic_ids": [
-        "driving.parking",
-        "routine.ecodriving"
+        "driving.parking"
       ],
       "verified": true,
       "index": 22,

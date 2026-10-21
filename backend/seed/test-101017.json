@@ -99,10 +99,9 @@
       "local_image": "/tests/exam/1017/q03.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
         "numbers.alcohol",
-        "documents.permissions"
+        "documents.permissions",
+        "routine.alcohol"
       ],
       "canonical_id": "f99c115683570b505a730582"
     },
@@ -373,7 +372,6 @@
       "local_image": "/tests/exam/1017/q11.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.ecodriving",
         "driving.weather"
       ],
       "canonical_id": "f0bae335ebdcdb8f4f4d7bbe"
@@ -709,7 +707,7 @@
       "local_image": "/tests/exam/1017/q21.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving"
+        "routine.safety"
       ],
       "canonical_id": "07aa230ac2946516140bd45a"
     },

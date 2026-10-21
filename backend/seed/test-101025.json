@@ -32,7 +32,6 @@
       "local_image": "/tests/exam/1025/q01.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.drugs",
         "routine.health"
       ],
       "canonical_id": "8a791a332f5e3978178d2e85"
@@ -239,8 +238,8 @@
       "local_image": "/tests/exam/1025/q07.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.fatigue",
-        "driving.weather"
+        "driving.weather",
+        "routine.fatigue"
       ],
       "canonical_id": "70afc857b30b05e7ac1590a1"
     },
@@ -475,8 +474,8 @@
       "local_image": "/tests/exam/1025/q14.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.seatbelts",
-        "vehicle.passive"
+        "vehicle.passive",
+        "routine.seatbelts"
       ],
       "canonical_id": "6d5feba5798af7195bbe9a37"
     },
@@ -754,11 +753,9 @@
       "local_image": "/tests/exam/1025/q22.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
         "routine.alcohol",
-        "routine.fatigue",
         "routine.distraction",
-        "routine.emotions"
+        "routine.ecodriving"
       ],
       "canonical_id": "0e0c1da644dd0c101321c48e"
     },
@@ -792,9 +789,9 @@
       "local_image": "/tests/exam/1025/q23.jpg",
       "selected_letter": "A",
       "topic_ids": [
+        "incidents.towing",
         "routine.drugs",
-        "routine.alcohol",
-        "incidents.towing"
+        "routine.ecodriving"
       ],
       "canonical_id": "d4007917e392391df52cf702"
     },
@@ -863,13 +860,12 @@
       "local_image": "/tests/exam/1025/q25.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
         "numbers.alcohol",
         "driving.weather",
         "vehicle.passengers",
         "vehicle.dangerous_goods",
-        "documents.permissions"
+        "documents.permissions",
+        "routine.alcohol"
       ],
       "canonical_id": "8428dfb3aff8ac4d5df3126c"
     },
@@ -977,8 +973,8 @@
       "local_image": "/tests/exam/1025/q28.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.ecodriving",
-        "vehicle.passengers"
+        "vehicle.passengers",
+        "routine.ecodriving"
       ],
       "canonical_id": "d5ad75e57015490b3785b136"
     },
@@ -1012,7 +1008,6 @@
       "local_image": "/tests/exam/1025/q29.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.drugs",
         "routine.alcohol",
         "routine.fatigue"
       ],

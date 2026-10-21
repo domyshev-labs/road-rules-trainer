@@ -171,9 +171,8 @@
       "local_image": "/tests/exam/1055/q05.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.drugs",
-        "routine.health",
-        "signs.warning"
+        "signs.warning",
+        "routine.health"
       ],
       "canonical_id": "e7f9a6e4b2eaa046442f95be"
     },
@@ -242,9 +241,8 @@
       "local_image": "/tests/exam/1055/q07.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
-        "vehicle.motorcycles"
+        "vehicle.motorcycles",
+        "routine.alcohol"
       ],
       "canonical_id": "5c5f921724fc1522a2e66f9b"
     },
@@ -520,8 +518,8 @@
       "local_image": "/tests/exam/1055/q15.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.seatbelts",
-        "driving.lanes"
+        "driving.lanes",
+        "routine.seatbelts"
       ],
       "canonical_id": "96fe17c7209f6b98328dbc73"
     },
@@ -663,8 +661,8 @@
       "local_image": "/tests/exam/1055/q19.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.ecodriving",
-        "driving.braking"
+        "driving.braking",
+        "routine.ecodriving"
       ],
       "canonical_id": "9e9f7afb9e8ef9d21e1cc44a"
     },
@@ -733,11 +731,8 @@
       "local_image": "/tests/exam/1055/q21.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.fatigue",
-        "routine.distraction",
-        "routine.reaction",
-        "numbers.alcohol"
+        "numbers.alcohol",
+        "routine.fatigue"
       ],
       "canonical_id": "ce300a644473da0bffafdda4"
     },
@@ -839,8 +834,7 @@
       "local_image": "/tests/exam/1055/q24.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol"
+        "routine.drugs"
       ],
       "canonical_id": "df619b2fa1661271414b27bc"
     },
@@ -1014,8 +1008,8 @@
       "local_image": "/tests/exam/1055/q29.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.seatbelts",
-        "driving.weather"
+        "driving.weather",
+        "routine.seatbelts"
       ],
       "canonical_id": "4f3ebc013c88733532d0e943"
     },

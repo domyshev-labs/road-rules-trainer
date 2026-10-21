@@ -281,7 +281,6 @@
       "local_image": "/tests/exam/1075/q08.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.seatbelts",
         "driving.weather"
       ],
       "canonical_id": "4ba6692c26b9184ff5d76308"
@@ -494,9 +493,9 @@
       "local_image": "/tests/exam/1075/q14.jpg",
       "selected_letter": "A",
       "topic_ids": [
+        "vehicle.cargo",
         "routine.distraction",
-        "routine.ecodriving",
-        "vehicle.cargo"
+        "routine.ecodriving"
       ],
       "canonical_id": "f5dfa9fed6920df90ad1e74f"
     },
@@ -640,8 +639,6 @@
       "local_image": "/tests/exam/1075/q19.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
         "routine.fatigue",
         "routine.health"
       ],

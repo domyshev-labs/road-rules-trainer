@@ -70,8 +70,7 @@
       "local_image": "exam-1023-q02.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.distraction",
-        "routine.health"
+        "routine.safety"
       ]
     },
     {
@@ -172,9 +171,8 @@
       "local_image": "exam-1023-q05.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
-        "incidents.scene"
+        "incidents.scene",
+        "routine.alcohol"
       ]
     },
     {
@@ -279,11 +277,10 @@
       "local_image": "exam-1023-q08.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.helmets",
         "vehicle.passengers",
         "vehicle.motorcycles",
-        "incidents.scene"
+        "incidents.scene",
+        "routine.helmets"
       ]
     },
     {
@@ -559,7 +556,6 @@
       "local_image": "exam-1023-q16.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.distraction",
         "vehicle.lights"
       ]
     },
@@ -659,10 +655,10 @@
       "local_image": "exam-1023-q19.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.helmets",
         "vehicle.passengers",
         "vehicle.motorcycles",
-        "vehicle.classification"
+        "vehicle.classification",
+        "routine.helmets"
       ]
     },
     {
@@ -898,9 +894,8 @@
       "local_image": "exam-1023-q26.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
-        "driving.weather"
+        "driving.weather",
+        "routine.alcohol"
       ]
     },
     {
@@ -1005,9 +1000,8 @@
       "local_image": "exam-1023-q29.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
-        "driving.weather"
+        "driving.weather",
+        "routine.alcohol"
       ]
     },
     {

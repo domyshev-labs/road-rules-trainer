@@ -276,7 +276,6 @@
       "local_image": "exam-1075-q08.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.seatbelts",
         "driving.weather"
       ]
     },
@@ -483,9 +482,9 @@
       "local_image": "exam-1075-q14.jpg",
       "selected_letter": "A",
       "topic_ids": [
+        "vehicle.cargo",
         "routine.distraction",
-        "routine.ecodriving",
-        "vehicle.cargo"
+        "routine.ecodriving"
       ]
     },
     {
@@ -657,8 +656,6 @@
       "local_image": "exam-1075-q19.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
         "routine.fatigue",
         "routine.health"
       ]

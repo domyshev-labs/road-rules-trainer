@@ -68,10 +68,8 @@
       "local_image": "/tests/exam/1039/q02.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
-        "routine.health",
-        "driving.weather"
+        "driving.weather",
+        "routine.health"
       ],
       "canonical_id": "2ffe80df3e34eeb208391eea"
     },
@@ -140,10 +138,9 @@
       "local_image": "/tests/exam/1039/q04.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.distraction",
-        "routine.ecodriving",
         "vehicle.cargo",
-        "vehicle.motorcycles"
+        "vehicle.motorcycles",
+        "routine.ecodriving"
       ],
       "canonical_id": "bbdd2c47becb3e4413ef0d7d"
     },
@@ -458,8 +455,8 @@
       "local_image": "/tests/exam/1039/q13.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.seatbelts",
-        "vehicle.passengers"
+        "vehicle.passengers",
+        "routine.seatbelts"
       ],
       "canonical_id": "3ed81cc7670c387dbeacfaae"
     },
@@ -737,8 +734,8 @@
       "local_image": "/tests/exam/1039/q21.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.distraction",
-        "driving.lanes"
+        "driving.lanes",
+        "routine.distraction"
       ],
       "canonical_id": "9fa1b816c135916df6fe730e"
     },

@@ -69,8 +69,7 @@
       "local_image": "/tests/exam/1023/q02.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.distraction",
-        "routine.health"
+        "routine.safety"
       ],
       "canonical_id": "83abf2b3b55234a59d6e1188"
     },
@@ -174,9 +173,8 @@
       "local_image": "/tests/exam/1023/q05.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
-        "incidents.scene"
+        "incidents.scene",
+        "routine.alcohol"
       ],
       "canonical_id": "e9f7d87864dc65ea5a6e3363"
     },
@@ -284,11 +282,10 @@
       "local_image": "/tests/exam/1023/q08.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.alcohol",
-        "routine.helmets",
         "vehicle.passengers",
         "vehicle.motorcycles",
-        "incidents.scene"
+        "incidents.scene",
+        "routine.helmets"
       ],
       "canonical_id": "974c946aee7ed830870e4bb0"
     },
@@ -572,7 +569,6 @@
       "local_image": "/tests/exam/1023/q16.jpg",
       "selected_letter": "B",
       "topic_ids": [
-        "routine.distraction",
         "vehicle.lights"
       ],
       "canonical_id": "7d9cac598a7333b7323283f6"
@@ -675,10 +671,10 @@
       "local_image": "/tests/exam/1023/q19.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.helmets",
         "vehicle.passengers",
         "vehicle.motorcycles",
-        "vehicle.classification"
+        "vehicle.classification",
+        "routine.helmets"
       ],
       "canonical_id": "a3a455227ccda9231b702014"
     },
@@ -921,9 +917,8 @@
       "local_image": "/tests/exam/1023/q26.jpg",
       "selected_letter": "C",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
-        "driving.weather"
+        "driving.weather",
+        "routine.alcohol"
       ],
       "canonical_id": "aaa0fa5e58b06382c5c40e93"
     },
@@ -1031,9 +1026,8 @@
       "local_image": "/tests/exam/1023/q29.jpg",
       "selected_letter": "A",
       "topic_ids": [
-        "routine.drugs",
-        "routine.alcohol",
-        "driving.weather"
+        "driving.weather",
+        "routine.alcohol"
       ],
       "canonical_id": "25b88b0cb85cdd7b3d8df9e7"
     },
