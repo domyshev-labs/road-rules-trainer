@@ -130,3 +130,15 @@ Each full topic run freezes its canonical question membership in `topic_run_memb
 The home action becomes **Пройти новые**, with the remaining count inline and an adjacent New badge describing the change. `POST /api/topics/{topicID}/new` starts or resumes a separate `kind=new` run; `GET /api/topics/{topicID}?run={runID}` returns only its snapshot, numbered from one. Answers include `run_id`, update the current topic-cycle aggregate, and cannot modify a prior completed full run. History retains the original counts and records each new batch separately, with its own mistake-review action. Batch completion requires every question to be answered. Additions arriving during an active batch form the next batch after it, rather than expanding its historical total. A full repeat takes a fresh baseline and keeps all prior full/new/review history. Responses include `completed`, `new_count`, `new_question_ids` and `question_runs` for accurate home navigation.
 
 Legacy completed runs recover their fixed membership from saved answers. Incomplete legacy runs did not record unanswered membership, so their available current membership becomes the baseline during migration.
+
+### Browser navigation and section shortcuts
+
+Training screens and question positions use URL query routes and the browser
+history API. Back/Forward restore the home panel, a topic/run and its canonical
+question, or a source ticket and question ordinal. Refreshing a question URL
+restores the same position. Home history entries retain their expanded branches,
+search, collection and scroll snapshot. Navigation never resets answer history.
+
+Hovering, focusing or tapping the section name in a topic opens an interactive
+section panel using the same hierarchy, statistics and topic actions as home.
+Section counts summarize completed leaf topics rather than question totals.
