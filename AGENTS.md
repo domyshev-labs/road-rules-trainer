@@ -13,4 +13,4 @@ When connecting over SSH, record every executed command in the infrastructure re
 
 ## Release procedure
 
-The human replaced remote history on 2026-10-21. Normal fetches and pushes are permitted. Never force push. Every deployment increments the minor version and tags the verified deployed commit. Backups are verified before replacement, then pruned to at most ten copies and three days of age.
+The human replaced remote history on 2026-10-21. Normal fetches and pushes are permitted. Never force push. Every deployment increments the patch version; minor or major increments require agreement with the user. Patch numbers may exceed nine. The workflow tags the verified deployed commit. Backups are verified before replacement, then pruned to at most ten copies and three days of age.

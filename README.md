@@ -97,11 +97,11 @@ Every production deployment automatically creates a SQLite online backup in
 backups older than 72 hours are removed and the ten newest copies are retained.
 The first installation may proceed without a database on an empty volume.
 
-Each deployment increments the highest release tag's minor version (starting
-from the package version), resets the patch to zero, embeds that version beside
+Each deployment increments the highest release tag's patch version (starting
+from the package version), allows multi-digit patch numbers, embeds that version beside
 the account menu, and publishes `/version.json` with the version and commit.
 After production health succeeds, an annotated `v<version>` tag marks that commit.
-Failed deployments are not tagged. Normal tag pushes do not trigger deployment.
+Minor and major increments are agreed with the user separately. Failed deployments are not tagged. Normal tag pushes do not trigger deployment.
 
 ### Topic navigation and progress
 

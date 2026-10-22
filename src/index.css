@@ -528,9 +528,9 @@ button { font:inherit; }
 
 /* Shared authenticated account menu and compact inline topic action. */
 .account-menu-shell { display:flex; align-items:center; gap:10px; position:fixed; z-index:85; top:8px; right:max(12px,calc((100vw - 1380px)/2)); }
-.account-menu-trigger { display:grid; place-items:center; width:28px; height:28px; padding:4px; border:1px solid #b9d1e4; border-radius:10px; color:var(--green-dark); background:#f4faff; cursor:pointer; box-shadow:0 2px 8px rgba(23,45,67,.06); }
+.account-menu-trigger { display:grid; place-items:center; width:28px; height:28px; padding:0; border:1px solid #b9d1e4; border-radius:10px; color:var(--green-dark); background:#f4faff; cursor:pointer; box-shadow:0 2px 8px rgba(23,45,67,.06); }
 .account-menu-trigger:hover,.account-menu-trigger[aria-expanded="true"] { border-color:#77aad0; background:#e1effb; }
-.account-menu-trigger svg { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; }
+.account-menu-trigger svg { display:block; width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; }
 .account-menu-panel { position:absolute; top:calc(100% + 8px); right:0; width:max-content; min-width:220px; max-width:calc(100vw - 24px); padding:14px; border:1px solid #cbddea; border-radius:12px; background:#fff; color:var(--ink); box-shadow:0 12px 36px rgba(23,45,67,.18); }
 .account-menu-panel p { margin:0; padding:0 4px 5px; font-size:13px; overflow-wrap:anywhere; }
 .account-menu-panel hr { margin:8px 0; border:0; border-top:1px solid #e0e9f1; }
