@@ -1,0 +1,1078 @@
+{
+  "source": "",
+  "collection": "Exam collection",
+  "collection_type": "exam",
+  "source_test_id": 1030,
+  "status": "captured",
+  "questions": [
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, lo prohíbe la señal.\nNo, the sign prohibits it.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí.\nYes.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "No, porque no hay señal que lo indique.\nNo, because there is no sign that indicates this.",
+          "correct": false
+        }
+      ],
+      "image_url": "b2f7b2a5-b5f0-473f-899f-05eb018e8f5cM.jpg",
+      "number": "1.",
+      "question": "A la vista de esta señalización, ¿está permitido circular por el carril derecho a 90 kilómetros por hora?\nWhen faced with this sign, are you permitted to drive in the right hand lane at 90 kilometres per hour?",
+      "source_ordinal": 1,
+      "question_id": "exam:1030:01",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q01.jpg",
+      "help": "6 Road marks            \n         \n6.4 Horizontal traffic signs  \nHorizontal traffic signs are markings painted on the carriageway with the same meaning as their vertical counterparts. The obligation imposed by horizontal signs located within a lane bounded by longitudinal lines applies solely to vehicles travelling within that specific lane.\n(Página 155 del manual 'Learning to drive')\n\n6 Road marks              \n           \n6.4 Horizontal traffic signs\nSpeed limit  \nIndicates the maximum speed, expressed in km/h, that no vehicle may exceed. The stated limit remains in effect until the next sign indicating “End of speed limit”, “End of speed restriction”, or another maximum speed sign with a different value.\n(Página 156 del manual 'Learning to drive')\n\n5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "numbers.dates",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.dates",
+        "signs.lanes"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Cuando no puede leer una placa de matrícula a 50 metros.\nWhen you cannot read a registration plate at 50 metres.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Cuando no puedo leer una placa de matrícula a 10 metros.\nWhen you cannot read a registration plate at 10 metres.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Cuando no se distinga un vehículo oscuro a 100 metros.\nWhen you cannot distinguish a dark vehicle at 100 metres.",
+          "correct": false
+        }
+      ],
+      "image_url": "4fae9f18-4541-4b84-817f-63c3ce083eb7M.jpg",
+      "number": "2.",
+      "question": "¿Cuándo se considera que una vía está insuficientemente iluminada?\nWhen do you consider that a road is insufficiently lit?",
+      "source_ordinal": 2,
+      "question_id": "exam:1030:02",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q02.jpg",
+      "help": "3 General rules regarding use of the lighting system\n \nAn insufficiently illuminated road is a road where the vision is reduced and it is not possible to:\nRead a vehicle registration plate (licence plate) at a distance of 10 metres. Or\nSee a dark coloured vehicle at a distance of 50 metres.\n(Página 97 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "signs.vehicle_plates",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.registration",
+        "signs.vehicle_plates"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "La distancia obligatoria de seguridad.\nThe mandatory safety distance.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Una distancia máxima de 70 metros.\nA maximum distance of 70 metres.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Una distancia mínima de 70 metros.\nA minimum distance of 70 metres.",
+          "correct": true
+        }
+      ],
+      "image_url": "7a14f3de-1d80-4a51-8147-efabf9c481eeM.jpg",
+      "number": "3.",
+      "question": "A la vista de la señal, ¿qué separación debe dejar con el vehículo que circula delante?\nWhen you see this sign, what separation must you leave with the vehicle that is driving in front?",
+      "source_ordinal": 3,
+      "question_id": "exam:1030:03",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q03.jpg",
+      "help": "5 Vertical Signs                              \n                           \n5.3 Regulation road signs\n5.3.5 Other signs relating to prohibition or restriction\nR-300 Minimum Separation\nIt prohibits maintaining a safety distance with the vehicle ahead less than the distance indicated on the sign, except in overtakes.\nIf the distance is not shown on the road sign then you must maintain a good safety distance between your vehicle and the vehicle ahead, according to your speed (and the grip of the road surface) and any other legal requirements.\n(Página 126 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "numbers.distances",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.distances"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí.\nYes.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "El estado de las pastillas sí, los discos no se estropean.\nYes, you should check the pads, but the discs do not deteriorate.",
+          "correct": false
+        }
+      ],
+      "image_url": "7c3440ea-2e08-4d59-a8da-3544b0554a40M.jpg",
+      "number": "4.",
+      "question": "¿Hay que revisar periódicamente el estado de las pastillas y los discos de freno?\nShould you regularly check the condition of brake discs and pads?",
+      "source_ordinal": 4,
+      "question_id": "exam:1030:04",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q04.jpg",
+      "selected_letter": "B",
+      "help": "Mechanics and maintenance\n \n11 Braking system\n11.1 Maintenance\nCheck the brake pipes through which the brake fluid passes, for cracks, stains or leaks.\nPeriodically check the condition of the discs and brake pads, as well as the condition of the entire system. Check the brake shoes and pads are well adjusted and are not worn. If noise is heard during braking then the system must be checked and any worn or damaged parts replaced.\n(Página 245 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Depende de la vía por la que circule, porque no tiene otra limitación de velocidad.\nIt depends on the road on which he is travelling, because he does not have any other speed limit.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "A 80 kilómetros por hora durante los dos primeros años.\nAt 80 kilometres per hour during the first two years.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A 80 kilómetros por hora durante el primer año.\nAt 80 kilometres per hour during the first year.",
+          "correct": false
+        }
+      ],
+      "image_url": "a6dbf302-fc07-4425-b35e-83732d0afbadM.jpg",
+      "number": "5.",
+      "question": "El conductor de una motocicleta acaba de obtener su primer permiso de conducción, ¿a qué velocidad máxima le está permitido circular?\nA motorcycle rider has just obtained his first driving licence. What is the maximum speed at which he is permitted to travel at?",
+      "source_ordinal": 5,
+      "question_id": "exam:1030:05",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q05.jpg",
+      "selected_letter": "A",
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')\n\n5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.permissions",
+        "numbers.deadlines.novice",
+        "numbers.speeds"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "debe moderar la velocidad en todo caso.\nyou must always slow down.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "no es aconsejable tomar ninguna precaución.\nit is not advisable to take any precaution.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "debe acelerar para atravesarlos lo antes posible.\nyou must accelerate in order to cross them as fast as possible.",
+          "correct": false
+        }
+      ],
+      "image_url": "804f169d-76d9-444a-bb95-54a356bb2d87M.jpg",
+      "number": "6.",
+      "question": "Si hay charcos de agua en la calzada...\nIf there are puddles of water in the road...",
+      "source_ordinal": 6,
+      "question_id": "exam:1030:06",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q06.jpg",
+      "selected_letter": "A",
+      "help": "Safe driving      \n       \n5 Driving in rain\n5.1.1 Aquaplaning\nAquaplaning is caused by the accumulation of water on the road and by irregularities in its surface. Therefore, when it rains, it is necessary to pay special attention to potholes and areas in which puddles may occur.\nThis effect is more likely to occur with inappropriate speed and very wide or badly worn tyres.\nOne of the best solutions to avoid aquaplaning is to reduce the speed in the first instance, so that the tyres can displace the water and the wheels can retain contact with the road surface.\n(Página 228 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "driving.weather",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.weather"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Entre 120-130 minutos después de haber bebido.\nBetween 120-130 minutes after having drunk.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Entre las tres y cuatro horas después de haber bebido.\nBetween three and four hours after having drunk.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Entre los 30-90 minutos después de haber bebido.\nBetween 30-90 minutes after having drunk.",
+          "correct": true
+        }
+      ],
+      "image_url": "183beb49-e0b1-406d-8363-64d2839b948bM.jpg",
+      "number": "7.",
+      "question": "¿Cuándo se alcanza el máximo nivel o pico de alcoholemia?\nWhen do you reach the maximum level or peak blood alcohol level?",
+      "source_ordinal": 7,
+      "question_id": "exam:1030:07",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q07.jpg",
+      "help": "ALCOHOL AND OTHER DRUGS  \n   \n16.1 Factors affecting alcohol limits\nThe time that has elapsed since the alcohol was consumed. It is possible to detect alcohol 5 minutes after consuming it. Over time this increases and a maximum is reached (called peak blood alcohol content) about an hour later. (Note: This may vary between 30 and 90 minutes) The level starts to fall below this maximum level very slowly with the effects lasting for    several hours and it will not completely disappear for a further period of time.\nThe type of drink and method of ingestion. Alcohol is absorbed more quickly in distilled beverages (such as whiskey or gin) than through fermented drinks (such as beer or wine). In addition, hot drinks or carbonated drinks (fizzy ones such as tonics or other soft drinks) accelerate the absorption of alcohol.\n(Página 42 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.alcohol"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, ya que siempre se considera una velocidad adecuada.\nNo, as this is always considered to be a suitable speed.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, una velocidad anormalmente reducida puede causar accidentes.\nYes, an abnormally low speed may cause accidents.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "No, nunca.\nNo, never.",
+          "correct": false
+        }
+      ],
+      "image_url": "d733c096-c3f7-4492-a949-fb346ece2895M.jpg",
+      "number": "8.",
+      "question": "Circular por debajo de la velocidad mínima permitida, ¿podría ser un factor de riesgo?\nCould driving under the minimum speed allowed be a risk factor?",
+      "source_ordinal": 8,
+      "question_id": "exam:1030:08",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q08.jpg",
+      "selected_letter": "B",
+      "help": "5 Generic speed    \n \n5.3 Minimum generic speed\nWhen you drive below these minimum limits you are said to travel at an abnormally reduced speed. This is considered an inadequate speed, as there is an increased risk of danger and a higher risk of a collision as a result of people overtaking the slower moving vehicles. It also adds to road congestion as it hampers the movement of other road users.\n(Página 174 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds",
+        "speed.adaptation"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Desactivar el airbag frontal de forma automática o manual.\nDeactivate the front airbag automatically or manually.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "No se puede instalar el dispositivo si el vehículo está equipado con airbag frontal.\nYou cannot install the device if the vehicle is fitted with a front airbag.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Que el dispositivo de retención esté fuera del alcance del airbag.\nEnsure that the retention device is out of reach of the airbag.",
+          "correct": false
+        }
+      ],
+      "image_url": "a31b6eca-7a4d-494d-82a2-561ef3a49401M.jpg",
+      "number": "9.",
+      "question": "¿Qué precaución debe adoptar si instala un dispositivo de retención para menores orientado hacia atrás en un asiento con airbag frontal?\nWhat precaution should you take if you install a rearward-facing child restraint on a seat with a frontal airbag?",
+      "source_ordinal": 9,
+      "question_id": "exam:1030:09",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q09.jpg",
+      "help": "8 Child safety restraining devices\n \nIn addition, it is important to consider the following recommendations:\nA child safety seat should never be placed into the front of the car where there is an airbag unless it has been disconnected.\nIt is generally safer for a small child to be facing backwards, in the opposite direction to the movement of the vehicle.\nThe rear seats (especially the central seat) are generally the safest place to travel, and are less affected by side impacts.\nThe ISOFIX system (“nternational Standards Organisation FIX” ensures a standard that is simple and quick for installing child seats into cars, therefore it aims to reduce the risk of incorrect fitting. It also stands to provide strength and resilience.\nIt is important that any restraining device is approved, otherwise it will not have passed the necessary tests and safety requirements and it may therefore, not be able to adequately protect a child.\n(Página 79 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "vehicle.children",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.children",
+        "vehicle.passive"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "perciba mejor el entorno del tráfico.\nbetter awareness of traffic.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "se comporte de una forma más peligrosa.\nacting more dangerously.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "disminuya el tiempo de reacción.\nreduced reaction time.",
+          "correct": false
+        }
+      ],
+      "image_url": "3d6be3ce-a543-4734-87f1-11f2067fc154M.jpg",
+      "number": "10.",
+      "question": "En el conductor, el sueño provoca que...\nFor the driver, tiredness causes...",
+      "source_ordinal": 10,
+      "question_id": "exam:1030:10",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q10.jpg",
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES\n \n11.1 Causes of drowsiness\nAffects the drivers perception of the surrounding area. The vision becomes blurred and the ability to perceive the surroundings is altered. It is more difficult to focus the eye and the eyes become fatigued. In addition, there is an increase in sensitivity to glare.\nCauses changes in behaviour (anxiety, hostility etc.) and makes the driver liable to take more risks.\n(Página 40 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.fatigue"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "durante el primer año no debe circular a más de 80 km/h.\nduring the first year not drive at over 80 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "no debe circular a más de 120 km/h en autopista o autovía.\nmust not drive at over 120 km/h on autopistas or autovías.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "no puede circular por las autopistas.\ncannot drive on autopistas.",
+          "correct": false
+        }
+      ],
+      "image_url": "77abec86-3bca-4880-9d28-57186eec570cM.jpg",
+      "number": "11.",
+      "question": "Un conductor novel...\nA new qualified driver...",
+      "source_ordinal": 11,
+      "question_id": "exam:1030:11",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q11.jpg",
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "numbers.deadlines.novice",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.deadlines.novice"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "si algún herido está inconsciente deberá hacerle un masaje cardíaco, aun dentro del vehículo.\nif an injured person is unconscious, you should give them a cardiac massage, even inside the vehicle.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "deberá sacar a los heridos rápidamente de los vehículos.\nyou should get the injured person(s) out of the vehicle(s) quickly.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "no intentará sacar al herido hasta que no llegue la ayuda especializada.\ndo not attempt to get the injured person out of the vehicle until specialised help arrives.",
+          "correct": true
+        }
+      ],
+      "image_url": "14f03c24-c445-45c6-80ce-acda4e838a76M.jpg",
+      "number": "12.",
+      "question": "En un accidente de tráfico en el que esté implicado...\nIn a traffic accident in which you are involved…",
+      "source_ordinal": 12,
+      "question_id": "exam:1030:12",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q12.jpg",
+      "selected_letter": "C",
+      "help": "Road traffic collisions            \n           \n8 The rule - PAH    \n8.3 Help: Assisting the injured  \n8.3.2 Moving casualties\nNever move someone from inside the vehicle, unless there life is in immediate danger (vehicle fire, heart attack, etc.)\nIt is better to enter the vehicle, evaluate and attend to their injuries and wait for specialised help to remove them.\n(Página 260 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.first_aid"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Menor que la aconsejada por el fabricante.\nLower than that recommended by the manufacturer.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "La presión que aconseja el fabricante.\nThe pressure recommended by the manufacturer.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Mayor que la aconsejada por el fabricante.\nHigher than that recommended by the manufacturer.",
+          "correct": false
+        }
+      ],
+      "image_url": "13908004-7061-48fa-b3ca-6a512b4b1443M.jpg",
+      "number": "13.",
+      "question": "Cuando está lloviendo, ¿qué presión deben tener los neumáticos?\nWhen it is raining, what pressure should the tyres have?",
+      "source_ordinal": 13,
+      "question_id": "exam:1030:13",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q13.jpg",
+      "selected_letter": "B",
+      "help": "ACTIVE SAFETY FEATURES      \n       \n4 Wheels    \n4.2 Tyres\n4.2.4 Inflation pressure\nThe tyre must always be inflated to the pressure as recommended by the manufacturer. This must take account of whether the vehicle is driving at a constant high speeds or is fully loaded, as under these circumstance, the pressure is often higher than those recommended for normal use.  \n(Página 70 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, fuera de poblado se considera adelantamiento, pero no en vía urbana.\nYes, it is considered to be an overtaking manoeuvre outside a built-up area, but not on an urban street.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, se considera adelantamiento tanto dentro como fuera de poblado.\nYes, it is considered to be an overtaking manoeuvre both inside and outside a built-up area.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, porque, en este caso, no se considera adelantamiento.\nNo, because in this case, it is not considered to be an overtaking manoeuvre.",
+          "correct": true
+        }
+      ],
+      "image_url": "530a79ef-600f-4a13-8ad7-77e73b7f9e1aM.jpg",
+      "number": "14.",
+      "question": "En esta vía, si circula más rápido por el carril de la derecha, ¿se considera adelantamiento?\nOn this road, if you drive faster in the right hand lane, is this considered to be an overtaking manoeuvre?",
+      "source_ordinal": 14,
+      "question_id": "exam:1030:14",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q14.jpg",
+      "help": "Maneouvres    \n   \n5 Overtaking\n5.3 Manoeuvres that are not considered overtakes\n5.3.1 Congested traffic\nWhen the traffic density is so high and the vehicles occupy the entire width of the carriageway and travel is reduced to a lower speed because of the congestion and sheer volume of traffic, - if a vehicle in another lane moves faster and passes other vehicles in a slower moving lane; then this is not considered an overtake.\n(Página 186 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "utilizar el claxon frecuentemente pero sin producir ruidos estridentes o notas musicales.\nuse the horn frequently but without it making harsh sounds or musical notes.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "circular con el tubo de escape libre.\ndrive without a silencer.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "cuidar de que el tubo de escape y el silenciador del vehículo estén siempre en buen estado.\nensure that the exhaust pipe and the silencer of the vehicle are always in good condition.",
+          "correct": true
+        }
+      ],
+      "image_url": "1431fc58-574f-453c-be33-7bbc10a215dbM.jpg",
+      "number": "15.",
+      "question": "Para evitar ruidos excesivos e innecesarios en la conducción, se debe...\nIn order to avoid excessive or unnecessary noise when driving, you must...",
+      "source_ordinal": 15,
+      "question_id": "exam:1030:15",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q15.jpg",
+      "help": "Journeys and defensive and efficient driving      \n   \nEFFICIENT DRIVING  \n7 Pollution\nEnsure that the vehicle is maintained correctly, disposing of all contaminants safely.\nAvoid dropping contaminating substances onto the road –such oil, coolant, diesel, petrol, etc.\nNot wash the vehicle on public roads and the public thoroughfare.\nNot throw, deposit or leave on the road or its surroundings any object that can cause damage, generate fires or cause accidents.\nNot emit electro magnetic disturbances, noise, gases or smoke that are higher than the permitted legal limits.\nEscaping gases from motorised vehicles, such as carbon monoxide, not only contaminate the atmosphere but are, additionally hazardous to human health.\nAlthough the amount of pollutants can be reduced by correct maintenance, particularly to the fuel and ignition systems, gases still escape from the motor vehicle particularly the exhaust.\n(Página 275 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "eco.noise",
+      "classification_review_required": false,
+      "topic_ids": [
+        "eco.noise"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Aumentar las dosis de los medicamentos.\nIncrease the dose of your medicine.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Evitar conducir durante una crisis o en la fase aguda de la enfermedad.\nAvoid driving during a crisis or an acute bout of the illness.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Abandonar el tratamiento sin consultar al médico.\nStop the treatment without consulting the doctor.",
+          "correct": false
+        }
+      ],
+      "image_url": "d23efe0b-d117-4e79-9bf4-409780d8f285M.jpg",
+      "number": "16.",
+      "question": "Cuando se padece una enfermedad, ¿qué hay que hacer para reducir el riesgo de sufrir un accidente?\nWhen you have an illness, what must you do in order to reduce the risk of having an accident?",
+      "source_ordinal": 16,
+      "question_id": "exam:1030:16",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q16.jpg",
+      "help": "ILLNESS AND MEDICATION\n \n19 The consequences of illnesses and drugs in traffic collisions\nHow to reduce the risk of accident in case of chronic illness?\nKnow and understand the illness well.\nKnow what sides efects the medication may cause.\nRecognise the first warning signs and knwo how to act.\nAvoid situations that may trigger an occurrence or crisis.\nAvoid driving during a crisis or a phase of severe illness.\n(Página 46 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.health"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "proporcionan un estado de relajación.\ncreate a state of relaxation.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "son muy breves, pero pueden reaparecer por sorpresa algún tiempo después.\nare brief but may reappear unexpectedly some time later.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "pueden llegar a prolongarse de 10 a 12 horas desde su consumo.\nmay continue for 10 to 12 hours after its consumption.",
+          "correct": true
+        }
+      ],
+      "image_url": "db9c8a77-2608-4e73-9f77-1a4427c24a82M.jpg",
+      "number": "17.",
+      "question": "Los efectos que provoca el LSD en el comportamiento del conductor...\nThe effects that LSD has on the behaviour of the driver...",
+      "source_ordinal": 17,
+      "question_id": "exam:1030:17",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q17.jpg",
+      "selected_letter": "C",
+      "help": "ALCOHOL AND OTHER DRUGS      \n   \n17.1 Effects of the most common drugs  \n17.1.4 LSD\nIt causes severe distortions in perception and hallucinations.\nIt can cause emotional disturbances and aggressive reactions to the events experienced when driving, as well as anxiety or even panic.\nSuch reactions can last about 10-12 hours.\nIt causes flashbacks whilst driving.\n(Página 44 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "routine.drugs",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.drugs",
+        "routine.ecodriving"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "estacionar, solamente.\npark, only.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "parar y estacionar.\nstop and park.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "parar, únicamente.\nstop, only.",
+          "correct": false
+        }
+      ],
+      "image_url": "9a7ea149-9d1f-445c-b9f9-7ae89523dffeM.jpg",
+      "number": "18.",
+      "question": "En las intersecciones y sus proximidades, si se dificulta el giro a otros vehículos, está prohibido...\nAt intersections and their surrounding area, if it makes it difficult for other vehicles to turn, it is prohibited to...",
+      "source_ordinal": 18,
+      "question_id": "exam:1030:18",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q18.jpg",
+      "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nAt junctions and there proximity, where it is difficult for other vehicles to turn and on roads outside of town (interurban roads) if stopping would be dangerous to others and reduce visibility.\n(Página 199 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.parking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "superior a 40 km/h.\nover 40 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "no superior a 40 km/h, solamente de noche.\nnot over 40 km/h, only at night.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "no superior a 40 km/h.\nnot over 40 km/h.",
+          "correct": true
+        }
+      ],
+      "image_url": "61586376-2862-448e-abca-bfe0a9976804M.jpg",
+      "number": "19.",
+      "question": "Los vehículos especiales que circulan por una vía de uso público deben utilizar la luz rotativa amarillo auto cuando circulen a una velocidad...\nSpecial vehicles driving on a public road must use their flashing yellow light when they travel at a speed...",
+      "source_ordinal": 19,
+      "question_id": "exam:1030:19",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q19.jpg",
+      "selected_letter": "C",
+      "help": "10 Special vehicles\n \nAlso, the drivers of special vehicles or whilst engaged in special transport purposes, will have to use the illuminated light, both day and night, whenever they travel on public roads at a speed that does not exceed 40 Km/h. Should this light fail, then the dipped headlight will have to be used along with the hazard warning lights.\n(Página 59 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Con las luces de emergencia encendidas.\nWith your hazard warning lights flashing.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Por el arcén.\nOn the roadside.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Frenando y acelerando con suavidad.\nBraking and accelerating gently.",
+          "correct": true
+        }
+      ],
+      "image_url": "24d3717a-0651-43e1-b580-f9954adaf789M.jpg",
+      "number": "20.",
+      "question": "¿Cómo debe conducir con nieve?\nHow should you drive in snow?",
+      "source_ordinal": 20,
+      "question_id": "exam:1030:20",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q20.jpg",
+      "selected_letter": "C",
+      "help": "Safe driving      \n \n6 Driving in snow\n6.1 Adhesion (grip)\nIn order to improve the adhesion and road grip, and to prevent the risk of sliding and skidding, the following action is recommended:\nStart off / move away, with the wheels straight (aligned) in the highest gear possible, normally second gear. Raise the clutch slowly and smoothly and accelerate smoothly and gently.\nTravel at a speed that is suited to the weather conditions and (this means engaging the highest gear possible) compatible with safety. Make sure that movements are smooth –for example, all controls carried out by the feet and also any change of direction, etc. When turning and in general, no not steer abruptly and ensure that gear changes are made smoothly too.\n(Página 229 del manual 'Learning to drive')\n\nSafe driving      \n \n6 Driving in snow\n6.1 Adhesion (grip)\nIn order to improve the adhesion and road grip, and to prevent the risk of sliding and skidding, the following action is recommended:\nWhen, descending (downhill) an incline, use a lower gear than normal and using the engine as a brake. Descend slowly.\nDrive at a reduced speed.\nIncrease the safety distance.\nUse the brakes smoothly but don’ over brake.\nEnsure that tyres are in perfect condition –correctly inflated and with sufficient tread.\nFollow in the tracks of other vehicles (where the road surface has less snow).\n(Página 229 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "conditions.ice",
+      "classification_review_required": false,
+      "topic_ids": [
+        "conditions.ice"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "La visión puede volverse borrosa.\nSight may become blurred.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Aumenta el ángulo visual.\nIt increases the visual angle.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Aumenta la sensibilidad auditiva.\nIt increases hearing sensitivity.",
+          "correct": false
+        }
+      ],
+      "image_url": "61f49200-5655-4c88-8efe-c0d8ad098fc7M.jpg",
+      "number": "21.",
+      "question": "¿Qué efectos tiene la fatiga sobre los conductores?\nWhat effects does fatigue have on drivers?",
+      "source_ordinal": 21,
+      "question_id": "exam:1030:21",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q21.jpg",
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES\n \n10.3 Effects of Fatigue\nFatigue can produce the following effects:\n10.3.1 Sensory and perceptual alteration\nThe vision can become blurred, making hazard perception difficult.\nHearing sensitivity may decrease, hindering the perception of traffic and vehicle sounds.\nReactions can be harsh and exaggerated and sudden sounds can be disturbing.\nFrequent uncomfortable and unpleasant sensations, such as stiffness in the back of the neck and back pain, migraines, headaches, cramps, etc.\n(Página 38 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.fatigue"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "El alumbrado de posición o el de estacionamiento, si se trata de una travesía.\nThe sidelights or parking lights, if it is a main road.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "El alumbrado de posición.\nThe sidelights.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Ninguno.\nNone.",
+          "correct": true
+        }
+      ],
+      "image_url": "4fae9f18-4541-4b84-817f-63c3ce083eb7M.jpg",
+      "number": "22.",
+      "question": "Al estacionar un vehículo en una vía urbana suficientemente iluminada, ¿qué alumbrado dejará encendido?\nWhen a vehicle parks on a sufficiently lit urban road, what lights must it leave on?",
+      "source_ordinal": 22,
+      "question_id": "exam:1030:22",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q22.jpg",
+      "help": "4 Position lights\n \n4.4 Usage in immobilizations\nAs an exception vehicles parked in towns and cities, within built-up-areas (but not on major roads – in town highways, that cross through the towns) are permitted to park on the roads without lights, if the street is sufficiently illuminated to allow other road users to see the vehicle (that is, the road is not classed as being poorly or insufficiently illuminated).\n(Página 99 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "a la centralita del 112.\nto the 112 switchboard.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "a cualquier centro sanitario que se encuentre a menos de ocho kilómetros.\nto any health centre less than eight kilometres away.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "al hospital más próximo.\nto the nearest hospital.",
+          "correct": false
+        }
+      ],
+      "image_url": "0991751f-8a1f-488a-a0c1-ab1654952533M.jpg",
+      "number": "23.",
+      "question": "Si el sistema eCall detecta un suceso grave enviará un mensaje de auxilio...\nIf the eCall system detects a serious event, it will send an emergency message...",
+      "source_ordinal": 23,
+      "question_id": "exam:1030:23",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q23.jpg",
+      "help": "Road traffic collisions          \n         \n8 The rule - PAH    \n8.2 Advise: Request for help\n8.2.1 eCall\nThe eCall system detects if an event is serious thanks to a series of sensors installed in the vehicle, and at that precise moment, an emergency message is recorded and sent to 112 via a GPS system, by means of which the vehicle will be detected easily.\nThe call can be made manually by the vehicle occupants or automatically if it is a serious accident.\nIf the vehicle occupants are able, they will communicate directly with the security force through the system.\nWhichever the European country in which the accident occurs, the operators will respond in the language spoken by the person calling.\n(Página 260 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "incidents.emergency_call",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.emergency_call"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, en algunos casos disminuyéndolo.\nYes, in some cases it reduces it.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, en ningún caso.\nNo, never.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sí, con la cocaína.\nYes, with cocaine.",
+          "correct": false
+        }
+      ],
+      "image_url": "e565f326-352a-4503-b980-08c85f5ebdedM.jpg",
+      "number": "24.",
+      "question": "El consumo de drogas, ¿mejora en algún caso el tiempo de reacción?\nDoes the consumption of drugs ever improve reaction time?",
+      "source_ordinal": 24,
+      "question_id": "exam:1030:24",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q24.jpg",
+      "help": "Physical condition of the driver    \n \n4 Reaction time\nThe reaction time can be increased by:\nfatigue or tiredness,\ndrowsiness, sleepiness,\nthe advancement of age,\nthe loss of vision and poor hearing,\npoor state of health,\nthe use of medications,\nthe intake of alcohol, drugs or other narcotics substances,\nheavy and excessive meals,\nthe excessive heat in the cockpit of the vehicle,\nthe emotional state.\nthe attention level of the driver.\nAll these listed factors have the serious potential consequence of reducing the driver’s ability to react and therefore the result is an increase in the reaction time.\n(Página 32 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "routine.drugs",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.drugs",
+        "routine.ecodriving",
+        "routine.reaction"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Detenerse detrás de los demás vehículos, hasta que la barrera suba totalmente y permita el paso.\nStop behind the other vehicles until the barrier rises completely and permits you to pass.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Pasar cuando lo haga el resto de vehículos, se mueva o no la barrera.\nPass when the other vehicles start to pass, regardless of the barrier.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Pasar cuando, por la altura, la barrera lo permita.\nPass when, due to the height, the barrier permits it.",
+          "correct": false
+        }
+      ],
+      "image_url": "d2b015e7-e2c2-423c-8d5b-bd3dc4b45c6aM.jpg",
+      "number": "25.",
+      "question": "En un paso a nivel, ¿qué debe hacer si la barrera está subiendo?\nAt a level crossing, what must you do if the barrier is rising?",
+      "source_ordinal": 25,
+      "question_id": "exam:1030:25",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q25.jpg",
+      "help": "Priorities, level crossings and tunnels\n \n6 Level crossings and mobile bridges\n6.2 Clearing\nNo road user must go onto a level crossing when its barriers or half barriers are down or in movement or there are signs or traffic lights indicating that you are not allowed to cross and you must stop.\nLikewise, all road users must not enter onto a level crossing (with or without barriers or traffic lights) if an employee of the railways indicates to them to stop.\n(Página 210 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "driving.crossings",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.crossings"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Si no existe carril específico para realizar el giro, se situará en la derecha, fuera de la calzada.\nIf there is not a specific lane to make the turn, it will situate itself off the road.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "En el eje de la calzada si la vía es de doble sentido.\nOn the axis of the road if the road is two-way.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "En la parte central de su carril.\nIn the central part of its lane.",
+          "correct": false
+        }
+      ],
+      "image_url": "dcd975f7-99f2-4d30-b008-0512b6da23e5M.jpg",
+      "number": "26.",
+      "question": "¿Dónde se colocará un ciclomotor para girar a la izquierda en una vía interurbana?\nWhere will a scooter place itself in order to turn left on an interurban road?",
+      "source_ordinal": 26,
+      "question_id": "exam:1030:26",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q26.jpg",
+      "help": "Maneouvres              \n   \n6 Change of direction\n6.3 Special circumstances\nTo turn left on interurban roads, cycles and two-wheeled mopeds must move to the right, if possible off the carriageway, and start from this position, except when there is a special lane for turning on that side.\n(Página 194 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "driving.turns",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.turns"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "donde hay tiempo suficiente para reaccionar.\nwhen there is enough time to react.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "La edad no influye en la accidentalidad.\nAge does not influence the chances of an accident.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "que exigen una respuesta rápida.\nwhich require a quick response.",
+          "correct": true
+        }
+      ],
+      "image_url": "ac692a85-499a-4d97-8c70-5f09d3412498M.jpg",
+      "number": "27.",
+      "question": "Las personas mayores pueden sufrir más accidentes de circulación en situaciones...\nElderly people may have more traffic accidents in situations...",
+      "source_ordinal": 27,
+      "question_id": "exam:1030:27",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q27.jpg",
+      "help": "Road traffic collisions              \n               \n6. Groups of drivers most at risk of a collision    \n6.2 The elderly\nOlder people who have suffered a deterioration of psychomotor skills that are important for driving (such as a reduced ability to concentrate or an increase in the time it takes to react) may have more collisions in complex situations that require quick response, especially at junctions and at the entries and exits of roads when driving at high speed.\nConversely, in situations when there is enough time to react, they have the same problems as other younger people. Due to this, you must give the elderly enough time and not put pressure on them.\n(Página 255 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "routine.safety",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, porque se trata de una emergencia.\nYes, because it is an emergency.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, cuando la vía es de dos sentidos.\nYes, when the road is two-way.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, porque no obstaculiza la circulación.\nNo, because it is not obstructing traffic.",
+          "correct": true
+        }
+      ],
+      "image_url": "c4c5c7ed-b114-436a-b8d4-4790d333a9adM.jpg",
+      "number": "28.",
+      "question": "Este vehículo inmovilizado fuera de la calzada por avería, ¿debe colocar el dispositivo luminoso de preseñalización de peligro?\nThis vehicle is stopped off the road due to a breakdown, should it position and activate the light-emitting hazard warning device?",
+      "source_ordinal": 28,
+      "question_id": "exam:1030:28",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q28.jpg",
+      "help": "Maneouvres                \n     \n9 Immobilisation: Stationary vehicles Detention (Halting)    \n9.2 Emergency detention (halting due to an emergency)\nIf the vehicle or its load obstructs the road due to an accident or breakdown, after appropriately signalling the obstacle caused, the drivers will take the necessary measures to remove it as soon as possible, taking it off the road and positioning it in accordance with parking regulations, provided that this is possible.\n(Página 196 del manual 'Learning to drive')\n\nManeouvres                    \n         \n9 Immobilisation: Stationary vehicles Detention (Halting)        \n9.2 Emergency detention (halting due to an emergency)\nWithout prejudice to turning on the hazard lights if the vehicle has them and, where applicable, the position and clearance lamps, every driver must use the mandatory light-emitting hazard warning device to warn of this circumstance until the road is clear.\n \n \n \n \n(Página 197 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "source_note": "Illustration inspected: vehicle is beyond the passable shoulder. The same illustration in a previously source-confirmed question explicitly describes it as outside the passable area of the hard shoulder.",
+      "selected_letter": "C",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.scene",
+        "incidents.towing",
+        "signs.priority",
+        "signs.warning"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "un retraso en la aparición del sueño.\na delay in the onset of drowsiness.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "una menor capacidad para mantener la concentración en el tráfico.\nreduced ability to maintain concentration in traffic.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "una disminución del tiempo de reacción.\na decrease in reaction time.",
+          "correct": false
+        }
+      ],
+      "image_url": "58357d62-d6db-4c62-827e-302b664444a0M.jpg",
+      "number": "29.",
+      "question": "Los síntomas de las alergias respiratorias pueden producir...\nSymptoms of respiratory allergies may lead to…",
+      "source_ordinal": 29,
+      "question_id": "exam:1030:29",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q29.jpg",
+      "selected_letter": "B",
+      "help": "ILLNESS AND MEDICATION\n \n20 Some illnesses that can affect driving\n20.1 Respiratory allergies\nAllergic rhinitis can reduce the psycho-physical fitness to drive by up to 42%, causing alterations such as the loss of efficiency, lack of attention, a lower concentration level and decreased ability of visual coordination. It reduces the ability to judge stopping distance, thus increasing the risk of a collision.\nThe most common symptoms of this illness are very similar to those of a simple cold: Runny nose, watery eyes, blurred vision, bouts of sneezing (sometimes up to 20 in a row), fatigue, headache, and so on.\n(Página 46 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.health"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Envía una alerta visual, sonora o de vibración.\nIt sends a visual, sound or vibration alert.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Activa el claxon con sonido estridente.\nIt activates the horn with a jarring warning.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Actúa sobre la dirección del vehículo.\nIt acts on the steering of the vehicle.",
+          "correct": false
+        }
+      ],
+      "image_url": "5c435c90-6b57-4c21-8972-bccb34c4862aM.jpg",
+      "number": "30.",
+      "question": "El sistema de aviso de colisión frontal con detección de peatones y ciclistas (FCW+P+C), ¿cómo avisa a la persona conductora ante una colisión inminente?\nHow does the forward collision warning system with pedestrian and cyclist (FCW+P+C) detection warn the driver of an imminent collision?",
+      "source_ordinal": 30,
+      "question_id": "exam:1030:30",
+      "source_test_id": 1030,
+      "collection_type": "exam",
+      "local_image": "exam-1030-q30.jpg",
+      "help": "Road traffic collisions                \n                 \nRISK GROUPS              \n5 Pedestrians        \n5.3.1 Forward Collision Warning with detection of Pedestrians and Cyclists (FCW+P+C)\nThis system monitors conditions on the road and in the surrounding area, warning the driver when it estimates a high probability of collision with other vehicles or with pedestrians or cyclists. It uses an acoustic or visual signal or vibration to alert the driver.\nUnder no circumstances does the system act on the steering of the vehicle; it is only a warning system and the driver is solely responsible for taking the action necessary to prevent a collision or avoid hitting a pedestrian.\n(Página 253 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "vehicle.adas",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.adas"
+      ]
+    }
+  ],
+  "source_result": {
+    "correct": 30,
+    "wrong": 0,
+    "unanswered": 0
+  },
+  "deferred_ordinals": []
+}

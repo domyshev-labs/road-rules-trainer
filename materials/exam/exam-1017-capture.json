@@ -33,8 +33,10 @@
       "source_ordinal": 1,
       "local_image": "exam-1017-q01.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.restrictions",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "signs.restrictions"
       ]
     },
     {
@@ -65,9 +67,10 @@
       "source_ordinal": 2,
       "local_image": "exam-1017-q02.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.roads",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "documents.permissions"
+        "driving.roads"
       ]
     },
     {
@@ -98,9 +101,11 @@
       "source_ordinal": 3,
       "local_image": "exam-1017-q03.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "documents.points",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.alcohol",
         "documents.permissions",
+        "documents.points",
         "routine.alcohol"
       ]
     },
@@ -132,8 +137,10 @@
       "source_ordinal": 4,
       "local_image": "exam-1017-q04.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions"
+        "driving.lanes"
       ]
     },
     {
@@ -164,10 +171,12 @@
       "source_ordinal": 5,
       "local_image": "exam-1017-q05.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "numbers.deadlines.novice",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.motorcycles",
-        "documents.permissions"
+        "documents.permissions",
+        "numbers.deadlines.novice",
+        "signs.vehicle_plates"
       ]
     },
     {
@@ -198,8 +207,10 @@
       "source_ordinal": 6,
       "local_image": "exam-1017-q06.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.braking"
+        "driving.reversing"
       ]
     },
     {
@@ -230,8 +241,10 @@
       "source_ordinal": 7,
       "local_image": "exam-1017-q07.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.uturns",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "driving.uturns"
       ]
     },
     {
@@ -262,8 +275,9 @@
       "source_ordinal": 8,
       "local_image": "exam-1017-q08.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "incidents.towing",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions",
         "incidents.towing"
       ]
     },
@@ -295,9 +309,11 @@
       "source_ordinal": 9,
       "local_image": "exam-1017-q09.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "incidents.emergency_call",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "incidents.scene"
+        "incidents.emergency_call",
+        "incidents.first_aid"
       ]
     },
     {
@@ -328,11 +344,11 @@
       "source_ordinal": 10,
       "local_image": "exam-1017-q10.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.merging",
-        "driving.parking",
-        "driving.braking",
-        "documents.permissions"
+        "driving.merging",
+        "driving.reversing"
       ]
     },
     {
@@ -363,8 +379,10 @@
       "source_ordinal": 11,
       "local_image": "exam-1017-q11.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.ecodriving",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather"
+        "routine.ecodriving"
       ]
     },
     {
@@ -395,8 +413,10 @@
       "source_ordinal": 12,
       "local_image": "exam-1017-q12.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking"
+        "signs.markings"
       ]
     },
     {
@@ -427,8 +447,12 @@
       "source_ordinal": 13,
       "local_image": "exam-1017-q13.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.lights"
+        "priority.lights",
+        "signs.markings",
+        "vehicle.mechanics"
       ]
     },
     {
@@ -459,6 +483,8 @@
       "source_ordinal": 14,
       "local_image": "exam-1017-q14.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.lights"
       ]
@@ -491,8 +517,10 @@
       "source_ordinal": 15,
       "local_image": "exam-1017-q15.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.signals",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "driving.signals"
       ]
     },
     {
@@ -523,8 +551,10 @@
       "source_ordinal": 16,
       "local_image": "exam-1017-q16.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "priority.general",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "priority.general"
       ]
     },
     {
@@ -555,10 +585,10 @@
       "source_ordinal": 17,
       "local_image": "exam-1017-q17.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.braking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "driving.braking",
-        "vehicle.tyres"
+        "driving.braking"
       ]
     },
     {
@@ -589,9 +619,11 @@
       "source_ordinal": 18,
       "local_image": "exam-1017-q18.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "numbers.distances",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.overtaking",
-        "vehicle.motorcycles"
+        "numbers.distances"
       ]
     },
     {
@@ -622,10 +654,10 @@
       "source_ordinal": 19,
       "local_image": "exam-1017-q19.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.vehicle_plates",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.dimensions",
-        "signs.vehicle_plates",
-        "vehicle.cargo"
+        "signs.vehicle_plates"
       ]
     },
     {
@@ -656,6 +688,8 @@
       "source_ordinal": 20,
       "local_image": "exam-1017-q20.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "documents.itv",
+      "classification_review_required": false,
       "topic_ids": [
         "documents.itv"
       ]
@@ -688,8 +722,10 @@
       "source_ordinal": 21,
       "local_image": "exam-1017-q21.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "speed.adaptation"
       ]
     },
     {
@@ -720,11 +756,11 @@
       "source_ordinal": 22,
       "local_image": "exam-1017-q22.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.temporary",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.lanes",
-        "signs.temporary",
         "priority.tram",
-        "driving.lanes"
+        "signs.temporary"
       ]
     },
     {
@@ -755,9 +791,10 @@
       "source_ordinal": 23,
       "local_image": "exam-1017-q23.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "priority.officer",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.officer",
-        "driving.weather"
+        "priority.officer"
       ]
     },
     {
@@ -788,11 +825,11 @@
       "source_ordinal": 24,
       "local_image": "exam-1017-q24.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.priority",
-        "signs.markings",
         "priority.lights",
-        "priority.sign"
+        "signs.priority"
       ]
     },
     {
@@ -823,10 +860,10 @@
       "source_ordinal": 25,
       "local_image": "exam-1017-q25.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.merging",
-        "driving.parking",
-        "driving.braking"
+        "driving.reversing"
       ]
     },
     {
@@ -857,8 +894,10 @@
       "source_ordinal": 26,
       "local_image": "exam-1017-q26.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes"
+        "vehicle.lights"
       ]
     },
     {
@@ -890,8 +929,9 @@
       "local_image": "exam-1017-q27.jpg",
       "source_note": "English help incorrectly says back of hand facing forward. Official BOE article 86 confirms dorso de la mano hacia atrás, matching Spanish option B. Verified https://www.boe.es/eli/es/rd/2003/11/21/1428/con/20260626",
       "selected_letter": "B",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
         "driving.overtaking"
       ]
     },
@@ -923,9 +963,10 @@
       "source_ordinal": 28,
       "local_image": "exam-1017-q28.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "vehicle.passengers"
+        "numbers.speeds"
       ]
     },
     {
@@ -956,6 +997,8 @@
       "source_ordinal": 29,
       "local_image": "exam-1017-q29.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.fatigue"
       ]
@@ -988,8 +1031,10 @@
       "source_ordinal": 30,
       "local_image": "exam-1017-q30.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "conditions.dark",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.visibility"
+        "conditions.dark"
       ]
     }
   ]

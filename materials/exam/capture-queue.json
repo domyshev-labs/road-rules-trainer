@@ -12,9 +12,11 @@
     1025,
     1027,
     1028,
+    1030,
     1032,
     1035,
     1039,
+    1040,
     1043,
     1045,
     1049,
@@ -27,6 +29,7 @@
     1073,
     1075,
     1079,
+    1080,
     1082,
     1083
   ],
@@ -36,11 +39,8 @@
     "green"
   ],
   "blue": [
-    1080,
-    1030,
     1034,
     1037,
-    1040,
     1042,
     1047,
     1050,
@@ -109,8 +109,7 @@
     1094,
     1095
   ],
-  "next_ticket": 1080,
-  "state": "in_progress",
-  "note": "Session renewed. Five additional tickets captured and imported; 1080 is paused at question 9. Remaining colors reflect the last observed collection page.",
-  "current_question": 9
+  "next_ticket": 1034,
+  "state": "stopped_at_user_request",
+  "note": "Stopped after 1040 at user request. All 30 captured exam tickets are imported locally; taxonomy and shared progress are being reorganized. No commits or deployment authorized."
 }

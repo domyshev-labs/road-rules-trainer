@@ -33,10 +33,10 @@
       "source_ordinal": 1,
       "local_image": "exam-1049-q01.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "conditions.wind",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking",
-        "driving.weather",
-        "vehicle.visibility"
+        "conditions.wind"
       ]
     },
     {
@@ -68,8 +68,9 @@
       "help_status": "captured",
       "local_image": "exam-1049-q02.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "routine.seatbelts"
       ]
     },
@@ -102,8 +103,9 @@
       "help_status": "captured",
       "local_image": "exam-1049-q03.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
       "topic_ids": [
-        "incidents.towing",
         "routine.distraction"
       ]
     },
@@ -136,9 +138,10 @@
       "help_status": "captured",
       "local_image": "exam-1049-q04.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.passive",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.parking",
-        "driving.weather",
         "vehicle.passive"
       ]
     },
@@ -171,6 +174,8 @@
       "help_status": "captured",
       "local_image": "exam-1049-q05.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.braking",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.braking"
       ]
@@ -204,6 +209,8 @@
       "help_status": "captured",
       "local_image": "exam-1049-q06.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.passive",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.passive"
       ]
@@ -237,8 +244,11 @@
       "help_status": "captured",
       "local_image": "exam-1049-q07.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "incidents.emergency_call",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "incidents.emergency_call",
+        "priority.emergency"
       ]
     },
     {
@@ -270,6 +280,8 @@
       "help_status": "captured",
       "local_image": "exam-1049-q08.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.drugs",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.drugs",
         "routine.emotions"
@@ -304,8 +316,9 @@
       "help_status": "captured",
       "local_image": "exam-1049-q09.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.ecodriving",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.cargo",
         "routine.ecodriving"
       ]
     },
@@ -338,8 +351,10 @@
       "help_status": "captured",
       "local_image": "exam-1049-q10.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.passengers"
+        "vehicle.mechanics"
       ]
     },
     {
@@ -371,8 +386,10 @@
       "help_status": "captured",
       "local_image": "exam-1049-q11.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.classification",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather"
+        "vehicle.classification"
       ]
     },
     {
@@ -404,10 +421,10 @@
       "help_status": "captured",
       "local_image": "exam-1049-q12.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.temporary",
-        "priority.lights",
-        "priority.general"
+        "priority.lights"
       ]
     },
     {
@@ -439,8 +456,9 @@
       "help_status": "captured",
       "local_image": "exam-1049-q13.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
         "driving.overtaking"
       ]
     },
@@ -473,8 +491,11 @@
       "help_status": "unavailable_in_source",
       "local_image": "exam-1049-q14.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "numbers.distances",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking"
+        "driving.overtaking",
+        "numbers.distances"
       ]
     },
     {
@@ -506,6 +527,8 @@
       "help_status": "captured",
       "local_image": "exam-1049-q15.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.drugs",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.drugs"
       ]
@@ -539,11 +562,10 @@
       "help_status": "captured",
       "local_image": "exam-1049-q16.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "priority.cyclists",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.general",
-        "driving.lanes",
-        "driving.pedestrians",
-        "documents.permissions"
+        "priority.cyclists"
       ]
     },
     {
@@ -575,8 +597,9 @@
       "help_status": "captured",
       "local_image": "exam-1049-q17.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights",
         "routine.distraction"
       ]
     },
@@ -609,6 +632,8 @@
       "help_status": "unavailable_in_source",
       "local_image": "exam-1049-q18.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.visibility",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.visibility"
       ]
@@ -641,10 +666,10 @@
       "deferred": true,
       "proposed_answer": "C",
       "deferred_reason": "The lane-specific STOP marking in the illustration is not clear enough to confirm which lane applies to the white car. Deferred rather than guessing.",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.priority",
-        "priority.sign",
-        "driving.lanes"
+        "signs.priority"
       ]
     },
     {
@@ -676,8 +701,9 @@
       "help_status": "captured",
       "local_image": "exam-1049-q20.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.passengers",
         "routine.seatbelts"
       ]
     },
@@ -710,8 +736,9 @@
       "help_status": "captured",
       "local_image": "exam-1049-q21.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.ecodriving",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.braking",
         "routine.ecodriving"
       ]
     },
@@ -744,9 +771,10 @@
       "help_status": "captured",
       "local_image": "exam-1049-q22.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "documents.insurance",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.classification"
+        "documents.insurance"
       ]
     },
     {
@@ -778,8 +806,10 @@
       "help_status": "captured",
       "local_image": "exam-1049-q23.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.adas",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather"
+        "vehicle.adas"
       ]
     },
     {
@@ -811,11 +841,10 @@
       "help_status": "captured",
       "local_image": "exam-1049-q24.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "vehicle.passengers",
-        "vehicle.motorcycles",
-        "documents.permissions"
+        "numbers.speeds"
       ]
     },
     {
@@ -847,8 +876,11 @@
       "help_status": "captured",
       "local_image": "exam-1049-q25.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.children",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.seatbelts"
+        "routine.seatbelts",
+        "vehicle.children"
       ]
     },
     {
@@ -880,8 +912,11 @@
       "help_status": "captured",
       "local_image": "exam-1049-q26.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "numbers.dates",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.cargo"
+        "driving.parking",
+        "numbers.dates"
       ]
     },
     {
@@ -913,8 +948,10 @@
       "help_status": "captured",
       "local_image": "exam-1049-q27.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "signs.restrictions",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "signs.restrictions"
       ]
     },
     {
@@ -946,10 +983,11 @@
       "help_status": "captured",
       "local_image": "exam-1049-q28.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
         "driving.overtaking",
-        "documents.permissions"
+        "driving.tunnels"
       ]
     },
     {
@@ -981,9 +1019,10 @@
       "help_status": "captured",
       "local_image": "exam-1049-q29.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.passive",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.passive",
-        "vehicle.passengers"
+        "vehicle.passive"
       ]
     },
     {
@@ -1015,10 +1054,10 @@
       "help_status": "captured",
       "local_image": "exam-1049-q30.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "vehicle.passengers",
-        "documents.permissions"
+        "numbers.speeds"
       ]
     }
   ],

@@ -1,0 +1,66 @@
+{
+  "schema_version": 2,
+  "classification_input": "question prompt and answer choices only; explanations excluded",
+  "unique_questions": 1565,
+  "previous_question_ids_preserved": 1496,
+  "new_unique_questions": 69,
+  "sections": [
+    {
+      "id": "routine",
+      "label": "Водитель и его состояние",
+      "topics": 10
+    },
+    {
+      "id": "numbers",
+      "label": "Скорость и дистанция",
+      "topics": 4
+    },
+    {
+      "id": "signs",
+      "label": "Знаки и разметка",
+      "topics": 13
+    },
+    {
+      "id": "priority",
+      "label": "Приоритет и регулирование",
+      "topics": 9
+    },
+    {
+      "id": "driving",
+      "label": "Дорога и манёвры",
+      "topics": 13
+    },
+    {
+      "id": "vehicle",
+      "label": "Автомобиль и средства безопасности",
+      "topics": 12
+    },
+    {
+      "id": "documents",
+      "label": "Документы и обязанности",
+      "topics": 11
+    },
+    {
+      "id": "incidents",
+      "label": "ДТП и помощь",
+      "topics": 6
+    },
+    {
+      "id": "conditions",
+      "label": "Погода и видимость",
+      "topics": 6
+    },
+    {
+      "id": "transport",
+      "label": "Участники, пассажиры и грузы",
+      "topics": 10
+    },
+    {
+      "id": "eco",
+      "label": "Экономичность и экология",
+      "topics": 3
+    }
+  ],
+  "editorial_overrides": 96,
+  "unclassified_verified_questions": 0
+}

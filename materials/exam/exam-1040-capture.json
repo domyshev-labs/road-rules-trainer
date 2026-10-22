@@ -1,0 +1,1074 @@
+{
+  "source": "",
+  "collection": "Exam collection",
+  "collection_type": "exam",
+  "source_test_id": 1040,
+  "status": "captured",
+  "questions": [
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "durante las horas de la madrugada.\nduring the night.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "durante las primeras horas de la mañana.\nearly in the morning.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "durante las últimas horas de la tarde.\nlate in the evening.",
+          "correct": false
+        }
+      ],
+      "image_url": "708852da-3429-458b-8640-7118fd6992edM.jpg",
+      "number": "1.",
+      "question": "Para disminuir la probabilidad de somnolencia debe evitar conducir...\nIn order to reduce the probability of drowsiness, you must avoid driving...",
+      "source_ordinal": 1,
+      "question_id": "exam:1040:01",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q01.jpg",
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES\n \n11.1 Causes of drowsiness\nThe most common factors that facilitate the onset of sleep and lead to drowsiness are:\nThe time of day. The early hours of the morning (especially between 3 and 5 a.m.) and early afternoon (roughly between 2 and 4 p.m.) are especially favourable for the onset of drowsiness, even if the driver has slept enough.\n(Página 38 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.fatigue"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, porque en vía urbana está permitido adelantar por la derecha.\nYes, because on an urban road overtaking from the right is permitted.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí.\nYes.",
+          "correct": false
+        }
+      ],
+      "image_url": "60f64d2b-1f9d-4c1f-a319-169f51f4682dM.jpg",
+      "number": "2.",
+      "question": "Cuando el autobús circula más rápido que el resto de los vehículos, ¿se considera adelantamiento?\nWhen the bus drives faster than other vehicles, is this considered to be overtaking?",
+      "source_ordinal": 2,
+      "question_id": "exam:1040:02",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q02.jpg",
+      "help": "Maneouvres      \n     \n5 Overtaking  \n5.3 Manoeuvres that are not considered overtakes\n5.3.2 Special lanes\nIt is not considered to be overtaking, when a vehicle travels faster in either an acceleration lane – in order to enter a road; or on a deceleration lane - in order to exit a road and in doing so, passes vehicles. Additionally, this is also the case, in a lane that is marked for a specific route and direction or, a lane for certain predetermined vehicles.\nHowever it is considered to be an overtake, when a vehicle enters into an acceleration or deceleration lane purely in order to pass another vehicle or enters into special lane, whose function is to facilitate slower moving traffic.\n(Página 187 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, pero debo hacer la maniobra rápidamente.\nYes, but I must carry out the manoeuvre quickly.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, porque he avisado.\nYes, because I have given warning.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": true
+        }
+      ],
+      "image_url": "0bd933c7-6df5-411a-80ca-90e851343ac2M.jpg",
+      "number": "3.",
+      "question": "Encender el intermitente, ¿da preferencia siempre para hacer maniobras?\nDoes turning on the indicator give you priority to carry out a manoeuvre?",
+      "source_ordinal": 3,
+      "question_id": "exam:1040:03",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q03.jpg",
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.3 Carrying out a manoeuvre\nAfter signalling the manoeuvre, and confirming that it is safe to undertake it – the next stage is to carry it out (execute the manoeuvre). This means adopting the correct position, the correct speed, and continually observing in order to ensure that no danger is caused to other road users.\nIt is necessary to bear in mind, that as a general rule, signals inform and warn of a manoeuvre only and indicate an intention to carry out a manoeuvre.\nThey do not grant right of way or priority to commence the manoeuvre or during its execution stage.\nEach manoeuvre involves variations although the basic principles are the same, dependant upon the manoeuvre there are differences in the execution stage.\n(Página 184 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "signs.temporary",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.signals",
+        "priority.general",
+        "signs.temporary"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, porque la vía no está saturada.\nYes, because the road is not crowded.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, debe cambiarse al carril de la derecha.\nNo, you must change to the right hand lane.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sí, si no entorpece la marcha de otros vehículos.\nYes, provided you do not obstruct other vehicles.",
+          "correct": false
+        }
+      ],
+      "image_url": "af8f3e3b-a431-4d11-9622-d89f6ec42ca8M.jpg",
+      "number": "4.",
+      "question": "En esta vía, como norma general, ¿está permitido mantenerse en el carril de la izquierda?\nOn this road, as a general rule, are you permitted to remain in the left hand lane?",
+      "source_ordinal": 4,
+      "question_id": "exam:1040:04",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q04.jpg",
+      "help": "3 Use of lanes  \n \n3.3 Lanes located outside built-up-areas\nOn roads located outside built-upareas, where there are more than one lane for each direction of travel, driver of automobiles and special vehicles with a MAM in excess of 3,500 kg will normally drive in the lane located furthest to the right.\nWhen traffic or road circumstances thus advise, you can use the rest of the lanes for your direction, provided that it does not obstruct another vehicle following you.\n(Página 162 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.lanes"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, porque el arcén es ancho.\nYes, because the hard shoulder is wide.",
+          "correct": false
+        }
+      ],
+      "image_url": "1bd00aff-e8bc-4683-97cc-74aa133a791bM.jpg",
+      "number": "5.",
+      "question": "Circula con su turismo por el arcén detrás del tractor para facilitar el adelantamiento del camión. ¿Es correcto?\nYou are driving your private car on the hard shoulder behind the tractor in order to facilitate the overtaking manoeuvre for the truck. Is this correct?",
+      "source_ordinal": 5,
+      "question_id": "exam:1040:05",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q05.jpg",
+      "help": "Maneouvres  \n   \n5 Overtaking  \n5.6 Obligations of the driver of the vehicle being overtaken  \n5.6.1 Before the overtake\nMoreover, if a driver realises that they are going to be overtaken, they must leave as much space as possible, provided that there are no obstacles. As a general rule, they should keep to the right-hand side of the lane, without going into the hard shoulder.\nHowever, if they are going to turn left or park or stop on that side, they should keep to the left-hand side, where possible, but without impeding vehicles travelling in the opposite direction.\n(Página 190 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "mejorar la aerodinámica favoreciendo una conducción económica.\nimprove the aerodynamics, thus resulting in economic driving.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "proteger a los peatones ante posibles atropellos.\nprotect pedestrians during a possible collision.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "absorber la máxima cantidad de la energía producida en un accidente.\nabsorb as much of the energy that is produced in an accident as possible.",
+          "correct": true
+        }
+      ],
+      "image_url": "839852cb-194f-4de5-942b-9b20326c28d1M.jpg",
+      "number": "6.",
+      "question": "Desde el punto de vista de la seguridad vial, el chasis y la carrocería tienen como función...\nFrom the point of view of road safety, the chassis and the bodywork act to...",
+      "source_ordinal": 6,
+      "question_id": "exam:1040:06",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q06.jpg",
+      "help": "PASSIVE SAFETY ELEMENTS\n \n6 The chassis and body\nThe chassis and body prevent or reduce injury to people travelling in the vehicle in the event of a traffic collision. The chassis and the body must absorb as much energy as possible to aid deceleration and protect the occupants. To do this, certain areas on impact suffer from a progressive strain (deformation structures / crumple zones) whilst the carrier compartment remains unchanged (interior cell security/safety).\n(Página 74 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "vehicle.passive",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.passive"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Para incorporarse lentamente a la vía.\nTo merge slowly into the road.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Para incorporarse a la vía a una velocidad adecuada a las circunstancias de la circulación.\nTo merge into the road at a speed in accordance with the circumstances of the traffic.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Para alcanzar 120 km/h antes de incorporarse a la vía.\nTo reach 120 km/h before merging into the road.",
+          "correct": false
+        }
+      ],
+      "image_url": "a8ff69c5-dd3d-4515-884c-d56da9055addM.jpg",
+      "number": "7.",
+      "question": "¿Para qué sirve el carril de aceleración?\nWhat is the purpose of the acceleration lane?",
+      "source_ordinal": 7,
+      "question_id": "exam:1040:07",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q07.jpg",
+      "help": "Maneouvres    \n   \n3 Joining the traffic flow  \n3.2.3 Execution\nIf a vehicle joins the traffic stream, using an acceleration lane, then their speed should be adapted, to a suitable speed that allows them to fit into the flow of traffic.\nIf there is a need to stop on the acceleration lane, because it is not possible to fit into the traffic stream, and the driver needs to give-way to the traffic on the road he wishes to join, then he should wait at the beginning of the acceleration lane.\nThis allows the vehicle to build up the necessary speed, using all the length of the acceleration lane, when a suitable opportunity becomes available.\nRemember: Sometimes, it is sensible to build up the speed on the acceleration lane in order than you can join the principle road ahead of the vehicles using it.\n(Página 185 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.merging",
+        "speed.adaptation"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, tanto si se sujeta con la mano como si se hace con el hombro.\nYes, when I hold it in my hand or with my shoulder.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, pero solo al circular a alta velocidad.\nYes, but only when driving at high speed.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, cuando se sujeta con el hombro.\nNo, not when I hold it with my shoulder.",
+          "correct": false
+        }
+      ],
+      "image_url": "78bf9403-8604-44a0-ad49-456fccf6180fM.jpg",
+      "number": "8.",
+      "question": "Hablar por el teléfono móvil cuando se conduce, ¿impide manejar el volante de forma adecuada?\nDoes speaking on a mobile phone when driving stop you from controlling the steering wheel correctly?",
+      "source_ordinal": 8,
+      "question_id": "exam:1040:08",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q08.jpg",
+      "help": "DISTRACTIONS  \n \n8.1 Circumstances of collisions due to phone use\nUsing a mobile phone while driving can cause:\nFrequent change of direction and swerving of the vehicle, with the possibility of lane invasion.\nProblems in manoeuvring due to holding the phone in the hand or on the shoulder.\nDisorientation and loss of perception of time, which can result in dangerous manoeuvres and excessive speed in order to regain lost time.\nWhen talking on the phone is combined with other dangerous behaviour, like smoking or making notes, the risk of a traffic collision multiplies.\n(Página 35 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.parking",
+        "routine.distraction",
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "con mayor MMA.\nwith a greater MAM.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "en sentido ascendente.\nin an upwards direction.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "en sentido descendente.\nin a downwards direction.",
+          "correct": false
+        }
+      ],
+      "image_url": "9649f2aa-edcf-4212-892b-bfe5ee7f3207M.jpg",
+      "number": "9.",
+      "question": "En un tramo con gran pendiente se encuentran dos vehículos en una zona estrecha donde no pueden cruzarse, tiene preferencia el vehículo que circula...\nOn a stretch with a steep slope, two vehicles meet in a narrow area where they cannot cross. The vehicle with priority is that which is driving...",
+      "source_ordinal": 9,
+      "question_id": "exam:1040:09",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q09.jpg",
+      "help": "Priorities, level crossings and tunnels      \n     \n5 Narrow Sections    \n5.2 Narrowing section without signed priority\n5.2.2 Sections of roadway with a steep gradient\nWhere the road section is narrow and there is a steep gradient and in the absence of road signs (that determine priority) the vehicle going uphill has right of way - unless it is able to reach a lay-by, where it is able to wait for the other vehicle to pass.\n(Página 209 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "priority.narrow",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.narrow",
+        "priority.tram"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "El personal especializado, siempre.\nAlways specialists.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "El personal especializado, salvo que la persona que le auxilie esté totalmente seguro de conocerlas y poder realizarlas.\nSpecialists, unless the person who is helping the victim is completely sure of the procedure and is able to apply it.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Estas actuaciones siempre deben realizarse en un hospital.\nThese procedures must always be carried out in a hospital.",
+          "correct": false
+        }
+      ],
+      "image_url": "faa06378-33ce-4b06-ac9b-2d940da89cfbM.jpg",
+      "number": "10.",
+      "question": "¿Quién debe realizar las actuaciones de soporte vital básico a las víctimas de un accidente?\nWho must carry out basic life saving procedures on victims of an accident?",
+      "source_ordinal": 10,
+      "question_id": "exam:1040:10",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q10.jpg",
+      "selected_letter": "B",
+      "help": "Road traffic collisions          \n         \n8 The rule - PAH\n8.3 Help: Assisting the injured\nFirst aid must be performed quickly, calmly and efficiently whilst maintaining a calm and safe environment.\nIt is important to continue to monitor the casualties (there is a need to monitor their condition and how it develops).\nIt is so important to know what to do and know what not to do. When in doubt it is best to refrain from treating the injured so as not to make any injuries more severe. Give assistance in other ways, by giving emotional support to casualties (physical contact is very important) or by reassuring them until the arrival of professional help.   \n(Página 260 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.first_aid"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "En cualquier mediana o paso abierto.\nOn any central reservation or open space.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "En una autopista no está permitido nunca el cambio de sentido.\nU-turns are never permitted on a motorway.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "En aquellos lugares habilitados por la señalización.\nIn special places indicated by signs.",
+          "correct": true
+        }
+      ],
+      "image_url": "539ebf76-92f0-4646-8b7c-18874eae3f8dM.jpg",
+      "number": "11.",
+      "question": "En una autopista, ¿dónde puede realizar un cambio de sentido?\nWhere can you do a U-turn on a motorway?",
+      "source_ordinal": 11,
+      "question_id": "exam:1040:11",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q11.jpg",
+      "help": "Maneouvres          \n       \n7 ‘U’ turn    \n7.3 Circumstances when it is prohibited to undertake a ‘U’ turn\nIt is specifically prohibited to carry out a ‘U’ turn:\nAt level crossings (although it is not prohibited in their immediate surroundings).\nIn tunnels, underpasses and sections of the road affected by the signal “unnel”.\nOn motorways and dual carriageways, except in the places designated for this purpose.\nOn one-way roads and one-way sections of roads.\nIn general, in all sections of the road where overtaking is prohibited, unless a ‘’turn is expressly authorized.\n(Página 195 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "driving.uturns",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.uturns"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Por el del centro.\nIn the central lane.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Por el de la derecha.\nIn the right hand lane.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Por el que mejor convenga a mi destino.\nIn the lane that is most convenient for my destination.",
+          "correct": false
+        }
+      ],
+      "image_url": "5c37d5b0-5845-4be5-9f18-5117ee594fbbM.jpg",
+      "number": "12.",
+      "question": "Circula a 70 km/h, ¿por qué carril es obligatorio circular?\nYou are driving at 70 km/h. In which lane is it mandatory to drive?",
+      "source_ordinal": 12,
+      "question_id": "exam:1040:12",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q12.jpg",
+      "help": "5 Vertical Signs                  \n             \n5.4 Indication Road Signs    \n5.4.3 Lane signs    \nS-53c Transition from two to three traffic lanes with maximum speed specification\nIndicates, on a section with two lanes in one direction of travel, that it will transition to three lanes in the same direction. It also indicates the maximum permitted speed for each of the lanes.\n(Página 137 del manual 'Learning to drive')\n\n3 Use of lanes  \n \n3.3 Lanes located outside built-up-areas\nOn roads located outside built-upareas, where there are more than one lane for each direction of travel, driver of automobiles and special vehicles with a MAM in excess of 3,500 kg will normally drive in the lane located furthest to the right.\nWhen traffic or road circumstances thus advise, you can use the rest of the lanes for your direction, provided that it does not obstruct another vehicle following you.\n(Página 162 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.lanes"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Pasar porque se entiende que el semáforo está en verde.\nPass, because it is understood that the traffic light is green.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Ceder el paso a los vehículos que vengan por la derecha, y extremar la precaución.\nGive way to the vehicles that are approaching from the right, and exercise extreme precaution.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Detenerse porque está prohibido el paso.\nStop, because passing is prohibited.",
+          "correct": false
+        }
+      ],
+      "image_url": "8185b43a-ea74-4e89-9c13-95da3b71fa0fM.jpg",
+      "number": "13.",
+      "question": "En una intersección en la que no funciona el semáforo, ¿qué debe hacer?\nWhat must you do at an intersection in which the traffic light is not working?",
+      "source_ordinal": 13,
+      "question_id": "exam:1040:13",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q13.jpg",
+      "help": "Priorities, level crossings and tunnels\n \n2 Junctions  \n2.2 Priorities at junctions\n2.2.1 Junctions without signals and signs\nAs a general rule, if there are no signs indicating who has right of way at a junction then you must give way to vehicles approaching from the right.\nEven if the road from the right is, narrower or appears a more minor road – you are still obligated to give the road users using this road priority of passage.\n(Página 203 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No entrar en el túnel.\nDo not enter the tunnel.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Utilizar el carril que está libre.\nUse the free lane.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Circular con precaución.\nDrive with care.",
+          "correct": false
+        }
+      ],
+      "image_url": "0d16f1db-66ce-42e3-98aa-a4d0e03a5d90M.jpg",
+      "number": "14.",
+      "question": "¿Qué debe hacer en esta situación?\nWhat must you do in this situation?",
+      "source_ordinal": 14,
+      "question_id": "exam:1040:14",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q14.jpg",
+      "help": "Priorities, level crossings and tunnels\n \n7 Tunnels and underpasses\nAll drivers and road users that travel within a tunnel or underpass must always obey the traffic lights. They must follow and comply with any messages displayed on the variable message panels and any instructions given through a public address system (speakers or a megaphone system) and by any other means.\nNo user must enter a tunnel or underpass if, at the entrance, there is a traffic light displayed or other signal that does not allow them to pass and enter. The exception to this will be that the emergency services, mechanical and recovery assistance and road maintenance vehicles are permitted to enter and road users should endeavour to facilitate their passage and entry.\n(Página 211 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "driving.tunnels",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.tunnels"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Obliga a detenerme antes de la señal.\nIt obliges me to stop before the sign.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Avisa de un peligro.\nIt warns of a danger.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Obliga a ceder el paso a todos los vehículos.\nIt obliges me to give way to all vehicles.",
+          "correct": true
+        }
+      ],
+      "image_url": "f4e4bd9a-58b7-44a5-af17-fa319847de07M.jpg",
+      "number": "15.",
+      "question": "La señal de la derecha, ¿qué indica?\nWhat does the sign on the right indicate?",
+      "source_ordinal": 15,
+      "question_id": "exam:1040:15",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q15.jpg",
+      "help": "5 Vertical Signs        \n     \n5.3 Regulation road signs  \n5.3.2 ‘Priority’ signs  \nR-1 Give Way\nObligates drivers to give way, at the next junction, to the vehicles that travel on the adjoining road that they are approaching or lane they are changing to.\n(Página 124 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.mandatory",
+        "signs.priority"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, porque se incorpora por la derecha.\nYes, because it is joining from the right.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, porque en las intersecciones sin señalizar debe ceder el paso a los vehículos que se aproximen por la derecha.\nYes, because at uncontrolled intersections, you must give way to vehicles on your right.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, ya que se incorpora desde una vía sin pavimentar.\nNo, because it is joining from an unpaved road.",
+          "correct": true
+        }
+      ],
+      "image_url": "6c8f618f-0310-4a72-b59a-72587542aeb5M.jpg",
+      "number": "16.",
+      "question": "En esta intersección entre una vía pavimentada y otra sin pavimentar, ¿debe ceder el paso al vehículo gris?\nAt this intersection between a paved and unpaved road, do you have to yield to the grey vehicle?",
+      "source_ordinal": 16,
+      "question_id": "exam:1040:16",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q16.jpg",
+      "help": "Priorities, level crossings and tunnels    \n     \n2 Junctions    \n2.2 Priorities at junctions  \n2.2.1 Junctions without signals and signs\nHowever there are exceptions to this rule:\nVehicles that travel on a solid road surface (tarmac, concrete etc) always have preference over those that approach on a road not does not have a solid surface.\n(Página 204 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "priority.merging",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.merging",
+        "priority.merging"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, pero sin obstaculizar.\nYes, but without obstructing the traffic.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, porque está dentro de poblado.\nYes, because it is inside a built up area.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": true
+        }
+      ],
+      "image_url": "c2097c3f-3fdf-453e-922c-11370258156cM.jpg",
+      "number": "17.",
+      "question": "¿Se puede circular marcha atrás en una autopista?\nAre you permitted to reverse on a motorway?",
+      "source_ordinal": 17,
+      "question_id": "exam:1040:17",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q17.jpg",
+      "help": "Maneouvres          \n   \n8 Reversing\nReversing is always prohibited on motorways and dual carriageways (under all circumstances – except that a concession is made for high-priority vehicles / emergency vehicles when responding under an emergency situation).\nDriving in reverse on a motorway or a dual carriageway could result in the deduction of 4 points.\n(Página 195 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.reversing"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, para que, en caso de atropello, el peatón tenga más posibilidades de sobrevivir.\nYes, because if a pedestrian is knocked down, he has a greater chance of survival.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, pero sólo para no ser sancionado por exceso de velocidad.\nYes, but only in order not to be fined for excessive speed.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, sobre todo en las calles y avenidas anchas.\nNo, especially in streets and wide avenues.",
+          "correct": false
+        }
+      ],
+      "image_url": "af9b87bf-ed7e-4a90-8ad9-5bce92d4e839M.jpg",
+      "number": "18.",
+      "question": "En ciudad, ¿es importante no circular a más de 50 kilómetros por hora?\nIs it important not to drive at over 50 kilometres per hour in a city?",
+      "source_ordinal": 18,
+      "question_id": "exam:1040:18",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q18.jpg",
+      "selected_letter": "A",
+      "help": "8 Speed limits are a necessity  \n   \n8.1 The speed limit in a built up area\nIn a built up area, roads are shared by vehicles and pedestrians and, in the event of a collision, speed is a major factor in the victim's chances of survival. In fact, most pedestrian fatalities occur on urban roads.  \nAt 30 kilometres per hour, only 5 % of pedestrians involved in a collision die as a result of the accident, while at 50 kilometres per hour, the proportion of deaths is nearly 50%.\n(Página 177 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "driving.pedestrians",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "mantener la velocidad lo más uniforme posible evitando acelerones y frenazos innecesarios.\nkeep your speed as uniform as possible, avoiding unnecessary accelerations and brakes.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "mantener siempre la misma velocidad.\nalways keep the same speed.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "utilizar lo menos posible el transporte público.\nuse public transport as little as possible.",
+          "correct": false
+        }
+      ],
+      "image_url": "73d0c2f4-54bf-4e0c-8591-d8ec2c058c1bM.jpg",
+      "number": "19.",
+      "question": "Para contaminar lo menos posible es recomendable...\nIn order to pollute as little as possible, it is recommendable to...",
+      "source_ordinal": 19,
+      "question_id": "exam:1040:19",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q19.jpg",
+      "help": "Journeys and defensive and efficient driving\n   \n9 Efficient driving techniques  \n9.3 Travelling speed\nSpeed is the main factor that increases fuel consumption and hence emissions.\nThe rate of petrol consumed increases virtually in proportion with the speed up to 80-90 km/h. From this point consumption increases much faster than the speed, as there is greater wind resistance acting against the vehicle.\nThe difference in consumption between travelling at 120 km/h instead of 90 km/h can be two to three litres.\n(Página 276 del manual 'Learning to drive')\n\nJourneys and defensive and efficient driving  \n   \n9 Efficient driving techniques  \n9.3 Travelling speed\nTherefore, it is advisable to moderate the speed and keep it as consistent as possible, adapting it to the road and traffic conditions. The continuous variation of speed will increase fuel consumption, and in heavy traffic, driver fatigue will occur.\nIt is advisable to drive evenly, this means avoid hard braking, harsh acceleration and unnecessary gear changes, maintain a consistent speed for as long as possible.\nUse the techniques of preventive driving: drive always with anticipation and awareness, maintain an adequate safety distance and keep the field of vision as broad as possible, so as to be able see 2 or 3 vehicles in front.\nUnnecessary stopping and starting and speed variations caused by the lack of foresight and anticipation increase consumption.\n(Página 277 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "eco.environment",
+      "classification_review_required": false,
+      "topic_ids": [
+        "eco.environment"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "sujetar el volante, con firmeza pero sin rigidez, hacia la izquierda.\nhold the steering wheel firmly, but not stiffly, to the left.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "sujetar el volante, con firmeza pero sin rigidez, hacia la derecha.\nhold the steering wheel firmly, but not stiffly, to the right.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "circular por el arcén lentamente.\ndrive on the hard shoulder slowly.",
+          "correct": false
+        }
+      ],
+      "image_url": "c8f299d8-c30b-4b9d-a222-cc170b4a7b9fM.jpg",
+      "number": "20.",
+      "question": "Si sopla un fuerte viento lateral de la izquierda, los conductores de turismos deberán...\nIf a strong side wind is blowing from the left, drivers of passenger cars must…",
+      "source_ordinal": 20,
+      "question_id": "exam:1040:20",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q20.jpg",
+      "selected_letter": "A",
+      "help": "Safe driving\n \n10 Driving in cross winds (lateral winds)\nWhen driving in side winds it is necessary to:\nReduce the speed. The stronger the wind, the lower the speed.\nHold the steering wheel firmer but not rigidly and be ready to counter-turn the steering wheel if warranted.\nAnticipate the possible effects of strong winds –debris in the road, trees, branches, stones, etc.\nWhen there are heavy winds, it is advisable to keep the windows closed so that objects do not enter the vehicle.\n(Página 233 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "conditions.wind",
+      "classification_review_required": false,
+      "topic_ids": [
+        "conditions.wind",
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "somnolencia.\ndrowsiness.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "un aumento de la capacidad de atención.\nan increase in concentration.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "distracciones y problemas de visión a causa del humo.\ndistractions and problems of vision due to the smoke.",
+          "correct": true
+        }
+      ],
+      "image_url": "d6c7bc80-e6e7-4d43-9114-b5d511601a6eM.jpg",
+      "number": "21.",
+      "question": "Fumar, mientras conduce, puede provocar...\nSmoking, while driving, may cause...",
+      "source_ordinal": 21,
+      "question_id": "exam:1040:21",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q21.jpg",
+      "help": "DISTRACTIONS\n \n7 Smoking\nSmoking, besides being harmful to health, affects driving because, amongst other factors, it causes distractions when searching and lighting the cigarette, makes one of the hands useless or generates vision problems due to smoke.\nSmoking also causes excessive carbon monoxide to build up in the smoker’s body and therefore, alters the capabilities needed to drive safely causing a decrease in the level of attention needed at the wheel.\n(Página 35 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.distraction"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Mantener el eje cabeza-cuello-tronco completamente recto.\nKeep the head, neck and trunk completely straight.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Administrarle lo más rápido posible un calmante.\nGive him a sedative as quickly as possible.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Hacer que se mueva para comprobar si tiene alguna herida.\nMake him move to check to see if he has any injury.",
+          "correct": false
+        }
+      ],
+      "image_url": "fbacc187-8f1c-49a0-b023-936e71a63127M.jpg",
+      "number": "22.",
+      "question": "Cuando sea necesario atender a un herido en accidente de tráfico, ¿qué se debe hacer?\nWhat must you do when it is necessary to attend to a person injured in a traffic accident?",
+      "source_ordinal": 22,
+      "question_id": "exam:1040:22",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q22.jpg",
+      "help": "Road traffic collisions          \n         \n8 The rule - PAH  \n8.3 Help: Assisting the injured\n8.3.1 General rules\nDon’t move the injured, unless it is essential for resuscitation or safety.\nKeep them still and immobilise the injured area especially the head, neck and trunk of the body and always avoid the casualty walking.\n(Página 260 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.first_aid"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, en ningún caso.\nNo, never.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Solo si el estacionamiento está marcado en batería.\nOnly if the parking is done area of angled parking.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, si las características de la vía u otras circunstancias lo permiten.\nYes, if the characteristics of the road or other circumstances permit it.",
+          "correct": true
+        }
+      ],
+      "image_url": "02367887-9f05-41de-87a1-5319a071f065M.jpg",
+      "number": "23.",
+      "question": "Cuando no se puede colocar el vehículo paralelo al borde de la calzada, ¿está permitido parar o estacionar?\nWhen you can’t place your vehicle parallel to the kerb, are you permitted to stop or park?",
+      "source_ordinal": 23,
+      "question_id": "exam:1040:23",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q23.jpg",
+      "help": "Maneouvres          \n     \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.3 Positioning of the vehicle\nIn general, the vehicle should be located parallel to the edge of the roadway.\nExceptionally it is permissible to park or stop at another angle – as indicated by road markings or as determined by the road layout.\nIn any case, all drivers who stop or park must do so, so as to allow the best possible use to be made of the remaining space by other users.\n(Página 198 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.parking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "0,10 mg/l en aire espirado = 0,2 g/l en sangre.\n0.10 mg/l in exhaled air = 0.2 g/l in blood.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0,25 mg/l en aire espirado = 0,5 g/l en sangre.\n0.25 mg/l in exhaled air = 0.5 g/l in blood.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "0,15 mg/l en aire espirado = 0,3 g/l en sangre.\n0.15 mg/l in exhaled air = 0.3 g/l in blood.",
+          "correct": true
+        }
+      ],
+      "image_url": "f4eab680-ed61-430f-9349-16a1f30b1310M.jpg",
+      "number": "24.",
+      "question": "Los dos primeros años de su primer permiso, ¿cuál es la tasa máxima de alcohol si es mayor de edad?\nFor the first two years of your first licence, what is the maximum alcohol limit if you are of legal age?",
+      "source_ordinal": 24,
+      "question_id": "exam:1040:24",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q24.jpg",
+      "selected_letter": "C",
+      "help": "ALCOHOL AND OTHER DRUGS    \n   \n16 Alcohol limits\nLegal limits\nVehicles: Vehicles used for carrying: passengers with more than nine seats, school pupils and minors, dangerous goods, public service vehicles that carry passengers, emergency service vehicles and special transport vehicles.  \nBrAC: 0,15 mg/l \nBAC: 0,3 g/l\n(Página 41 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "numbers.alcohol",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.permissions",
+        "numbers.alcohol",
+        "numbers.deadlines.novice",
+        "routine.alcohol"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "a los vehículos que circulan por el carril donde está el semáforo.\nthe vehicles that are driving in the lane where the traffic light is located.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "a todos los vehículos que circulan por la calzada.\nall the vehicles that are driving on the road.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "a los vehículos de tres y cuatro ruedas solamente.\nonly three and four wheeled vehicles.",
+          "correct": false
+        }
+      ],
+      "image_url": "5fae30f9-ce2d-4576-8c54-44f6b58ac8f8M.jpg",
+      "number": "25.",
+      "question": "El semáforo cuadrado de cada carril obliga...\nThe square traffic light over each lane governs...",
+      "source_ordinal": 25,
+      "question_id": "exam:1040:25",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q25.jpg",
+      "help": "4 Traffic lights\n \n4.3 Square traffic lights for vehicles or lanes\nThe square shaped traffic lights refer exclusively to the vehicles occupying the lane above which they are located. They indicate if the lane is open or closed to the traffic approaching from that direction.    \n(Página 116 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "0,25 miligramos por litro de aire espirado.\n0.25 milligrams per litre of exhaled air.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0,15 miligramos por litro de aire espirado.\n0.15 milligrams per litre of exhaled air.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "0,3 miligramos por litro de aire espirado.\n0.3 milligrams per litre of exhaled air.",
+          "correct": false
+        }
+      ],
+      "image_url": "9bea4f99-ea19-4c80-80aa-978505fff18aM.jpg",
+      "number": "26.",
+      "question": "¿Cuál es la tasa de alcohol en aire espirado que no podrá superar el conductor de un vehículo que realiza transporte escolar?\nWhat is the limit of alcohol in exhaled air that must not be exceeded by the driver of a school transport vehicle?",
+      "source_ordinal": 26,
+      "question_id": "exam:1040:26",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q26.jpg",
+      "selected_letter": "B",
+      "help": "ALCOHOL AND OTHER DRUGS    \n   \n16 Alcohol limits\nLegal limits\nVehicles: Vehicles used for carrying: passengers with more than nine seats, school pupils and minors, dangerous goods, public service vehicles that carry passengers, emergency service vehicles and special transport vehicles.  \nBrAC: 0,15 mg/l \nBAC: 0,3 g/l\n(Página 41 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "numbers.alcohol",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.alcohol",
+        "routine.alcohol"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Inmediatamente después de que pase el vehículo al que cedo el paso.\nImmediately after the vehicle that I have given way to has passed.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Cuando esté seguro de que no obliga al que tiene la prioridad a cambiar su trayectoria o velocidad.\nWhen you are sure that it does not oblige the vehicle that has priority to change its direction or speed.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Cuando exista espacio suficiente para incorporarse.\nWhen there is enough space to merge.",
+          "correct": false
+        }
+      ],
+      "image_url": "75f681b5-2817-45da-8d35-be53fa06dec8M.jpg",
+      "number": "27.",
+      "question": "En una intersección en la que debe ceder el paso, ¿cuándo podrá reanudar la marcha?\nAt an intersection where you must give way, when can you start driving again?",
+      "source_ordinal": 27,
+      "question_id": "exam:1040:27",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q27.jpg",
+      "selected_letter": "B",
+      "help": "Priorities, level crossings and tunnels\n \n1 Priority and Right of Way\nThe driver of a vehicle that is obligated to give way or concede the right of passage to another road user:\nMust show in advance his intention. This means indicating his presence and movement by showing the reduction of speed, sufficient to allow others the right of passage or as necessary for the junction and road signalling.\nThe driver must not continue, or resume his intended course, or complete his manoeuvre until he has conceded priority to the other users having the right of way. This entails not causing the other vehicles to change their speed or course by his actions or inaction.\nFailing to comply with the right of passage by according precedence could result in the deduction of 4 points.\n(Página 203 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "priority.general",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.general"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, el alcohol se absorbe más rápidamente, por lo que la tasa de alcoholemia es mayor.\nYes, alcohol is absorbed more quickly, so the blood alcohol level is higher.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, es un factor que no influye en la tasa de alcoholemia.\nNo, it is not a factor that influences the blood alcohol level.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, el alcohol se absorbe más lentamente, pero esto no evita el riesgo de accidente.\nYes, alcohol is absorbed more slowly, but this does not prevent the risk of an accident.",
+          "correct": true
+        }
+      ],
+      "image_url": "44c6f634-c63c-48c7-9b18-3ad82685443cM.jpg",
+      "number": "28.",
+      "question": "Consumir alcohol con el estómago lleno, ¿influye en la tasa de alcoholemia?\nDoes drinking alcohol on a full stomach affect blood alcohol levels?",
+      "source_ordinal": 28,
+      "question_id": "exam:1040:28",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q28.jpg",
+      "help": "ALCOHOL AND OTHER DRUGS    \n     \n16.1 Factors affecting alcohol limits\nWhether the stomach is empty or full. The amount of alcohol in the blood is higher when drinking on an empty stomach. This is affected by the amount of food and the type of food, which are both factors in varying the speed at which the alcohol enters into the blood. However, this only slows the absorption, in the end the alcohol always reaches the blood.\nAge. Children under 18 and those over 65 are often more vulnerable to the effects of alcohol.\n(Página 42 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "numbers.alcohol",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.alcohol",
+        "routine.alcohol"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "deben transitar por la calzada.\nmust walk along the road.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "no pueden transitar por las carreteras.\ncannot use roads.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "pueden transitar por el arcén.\ncan walk on the hard shoulder.",
+          "correct": true
+        }
+      ],
+      "image_url": "9e732185-84f1-4cfd-9c30-7158225e62e4M.jpg",
+      "number": "29.",
+      "question": "Cuando no existe zona peatonal o esta no es practicable, los peatones...\nWhen there is no pedestrian area, or the pedestrian area cannot be used, pedestrians…",
+      "source_ordinal": 29,
+      "question_id": "exam:1040:29",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q29.jpg",
+      "selected_letter": "C",
+      "help": "5 Pedestrians\n \n5.1 Travelling in a pedestrian zone\nAs a general rule, it is prohibited for any class of vehicle to drive on pavements or other pedestrian areas.\nPedestrians should walk in areas particularly highlighted for them, such as pedestrian zones, walkways and pavements (paths). When these areas do not exist or are not practicable, then the pedestrians should use the hard shoulder (if one exists) or as a last resort, the roadway towards the outside edge and furthest away from traffic as possible.\n(Página 55 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "driving.pedestrians",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "paso a nivel.\na level crossing.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "semáforo.\ntraffic lights.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "vehículo inmovilizado en la calzada, fuera o dentro del poblado.\na vehicle that is stationary on the road, outside or inside a built-up area.",
+          "correct": false
+        }
+      ],
+      "image_url": "6af099f6-d06a-4661-adfc-2ce897cb8cacM.jpg",
+      "number": "30.",
+      "question": "Se debe circular a velocidad moderada y, si fuera preciso, detener el vehículo, al aproximarse a un...\nYou should drive at moderate speed and, if necessary, stop the vehicle when approaching…",
+      "source_ordinal": 30,
+      "question_id": "exam:1040:30",
+      "source_test_id": 1040,
+      "collection_type": "exam",
+      "local_image": "exam-1040-q30.jpg",
+      "selected_letter": "A",
+      "help": "3 Moderate speed\n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nIn the proximity of level crossings, roundabouts and junctions where you do not have priority. If the junction is particularly hazardous and visibility is seriously reduced, the speed of vehicles approaching should not exceed 50 km/h.\n(Página 172 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "driving.crossings",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.crossings"
+      ]
+    }
+  ],
+  "source_result": {
+    "correct": 30,
+    "wrong": 0,
+    "unanswered": 0
+  },
+  "deferred_ordinals": []
+}

@@ -44,12 +44,12 @@
       "source_test_id": 1013,
       "source_ordinal": 1,
       "summary_ru": "Знак обязательного направления движения на круге",
-      "primary_topic_id": "signs.mandatory",
+      "primary_topic_id": "vehicle.mechanics",
       "topic_ids": [
-        "signs.mandatory",
-        "driving.roundabouts"
+        "vehicle.mechanics"
       ],
-      "classification_note_en": "The roundabout sign prescribes direction; it does not itself give priority."
+      "classification_note_en": "The roundabout sign prescribes direction; it does not itself give priority.",
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -84,7 +84,8 @@
       "primary_topic_id": "routine.fatigue",
       "topic_ids": [
         "routine.fatigue"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -116,13 +117,14 @@
       "source_test_id": 1013,
       "source_ordinal": 3,
       "summary_ru": "Норма алкоголя в крови в первые два года стажа",
-      "primary_topic_id": "numbers.alcohol",
+      "primary_topic_id": "numbers.deadlines.novice",
       "topic_ids": [
-        "numbers.alcohol",
-        "routine.alcohol",
-        "numbers.deadlines.novice"
+        "documents.permissions",
+        "numbers.deadlines.novice",
+        "routine.alcohol"
       ],
-      "classification_note_en": "The two-year period is a novice restriction, not the validity period of the driving licence."
+      "classification_note_en": "The two-year period is a novice restriction, not the validity period of the driving licence.",
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -156,9 +158,9 @@
       "summary_ru": "Выбор полосы на загородном круговом перекрёстке",
       "primary_topic_id": "driving.roundabouts",
       "topic_ids": [
-        "driving.roundabouts",
-        "driving.lanes"
-      ]
+        "driving.roundabouts"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -190,10 +192,12 @@
       "source_test_id": 1013,
       "source_ordinal": 5,
       "summary_ru": "Первое действие на месте ДТП: защитить и обозначить зону",
-      "primary_topic_id": "incidents.scene",
+      "primary_topic_id": "incidents.first_aid",
       "topic_ids": [
+        "incidents.first_aid",
         "incidents.scene"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -225,11 +229,11 @@
       "source_test_id": 1013,
       "source_ordinal": 6,
       "summary_ru": "Как пешеходам обходить площади и круговые перекрёстки",
-      "primary_topic_id": "driving.pedestrians",
+      "primary_topic_id": "driving.roundabouts",
       "topic_ids": [
-        "driving.pedestrians",
         "driving.roundabouts"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -261,10 +265,11 @@
       "source_test_id": 1013,
       "source_ordinal": 7,
       "summary_ru": "Красный флаг регулировщика: закрытие дороги",
-      "primary_topic_id": "priority.officer",
+      "primary_topic_id": "vehicle.motorcycles",
       "topic_ids": [
-        "priority.officer"
-      ]
+        "vehicle.motorcycles"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -299,7 +304,8 @@
       "primary_topic_id": "routine.drugs",
       "topic_ids": [
         "routine.drugs"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -331,11 +337,11 @@
       "source_test_id": 1013,
       "source_ordinal": 9,
       "summary_ru": "Молодые водители: недооценка риска",
-      "primary_topic_id": "routine.emotions",
+      "primary_topic_id": "routine.safety",
       "topic_ids": [
-        "routine.emotions",
         "routine.safety"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -370,7 +376,8 @@
       "primary_topic_id": "driving.lanes",
       "topic_ids": [
         "driving.lanes"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -402,10 +409,11 @@
       "source_test_id": 1013,
       "source_ordinal": 11,
       "summary_ru": "Обязанность помогать другим включаться в поток",
-      "primary_topic_id": "priority.merging",
+      "primary_topic_id": "driving.merging",
       "topic_ids": [
-        "priority.merging"
-      ]
+        "driving.merging"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -437,11 +445,11 @@
       "source_test_id": 1013,
       "source_ordinal": 12,
       "summary_ru": "Где пешеходы чаще попадают в ДТП",
-      "primary_topic_id": "routine.safety",
+      "primary_topic_id": "driving.pedestrians",
       "topic_ids": [
-        "routine.safety",
         "driving.pedestrians"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -476,7 +484,8 @@
       "primary_topic_id": "priority.cyclists",
       "topic_ids": [
         "priority.cyclists"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -508,12 +517,13 @@
       "source_test_id": 1013,
       "source_ordinal": 14,
       "summary_ru": "Таблички грузовика: опасный груз и длина более 12 м",
-      "primary_topic_id": "signs.vehicle_plates",
+      "primary_topic_id": "vehicle.dangerous_goods",
       "topic_ids": [
         "signs.vehicle_plates",
-        "vehicle.dangerous_goods",
-        "numbers.dimensions"
-      ]
+        "signs.warning",
+        "vehicle.dangerous_goods"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -548,7 +558,8 @@
       "primary_topic_id": "vehicle.lights",
       "topic_ids": [
         "vehicle.lights"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -580,12 +591,12 @@
       "source_test_id": 1013,
       "source_ordinal": 16,
       "summary_ru": "Жёлтый указатель окончания левой полосы при дорожных работах",
-      "primary_topic_id": "signs.lanes",
+      "primary_topic_id": "signs.temporary",
       "topic_ids": [
         "signs.lanes",
-        "signs.temporary",
-        "driving.lanes"
-      ]
+        "signs.temporary"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -619,9 +630,11 @@
       "summary_ru": "Задняя противотуманная фара при сильном дожде",
       "primary_topic_id": "vehicle.lights",
       "topic_ids": [
-        "vehicle.lights",
-        "driving.weather"
-      ]
+        "conditions.fog",
+        "driving.weather",
+        "vehicle.lights"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -657,7 +670,8 @@
       "topic_ids": [
         "routine.distraction",
         "routine.reaction"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -691,9 +705,9 @@
       "summary_ru": "Максимальная скорость в полосе встречного направления для разгрузки потока",
       "primary_topic_id": "numbers.speeds",
       "topic_ids": [
-        "numbers.speeds",
-        "driving.lanes"
-      ]
+        "numbers.speeds"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -727,10 +741,10 @@
       "summary_ru": "Разрешает ли категория B сельскохозяйственный трактор тяжелее 3,5 т",
       "primary_topic_id": "documents.permissions",
       "topic_ids": [
-        "documents.permissions",
-        "vehicle.classification"
+        "documents.permissions"
       ],
-      "classification_note_en": "The stem contains 3,500 kg, but the tested fact is permission to drive agricultural vehicles, not recall of a mass limit."
+      "classification_note_en": "The stem contains 3,500 kg, but the tested fact is permission to drive agricultural vehicles, not recall of a mass limit.",
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -762,11 +776,12 @@
       "source_test_id": 1013,
       "source_ordinal": 21,
       "summary_ru": "Девять детей в девятиместном автомобиле с водителем",
-      "primary_topic_id": "numbers.capacity",
+      "primary_topic_id": "vehicle.children",
       "topic_ids": [
         "numbers.capacity",
-        "vehicle.passengers"
-      ]
+        "vehicle.children"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -798,10 +813,12 @@
       "source_test_id": 1013,
       "source_ordinal": 22,
       "summary_ru": "Обозначение и защита выступающего груза",
-      "primary_topic_id": "vehicle.cargo",
+      "primary_topic_id": "numbers.dimensions",
       "topic_ids": [
+        "numbers.dimensions",
         "vehicle.cargo"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -833,12 +850,12 @@
       "source_test_id": 1013,
       "source_ordinal": 23,
       "summary_ru": "Движение по льду: малая скорость без необходимости тормозить",
-      "primary_topic_id": "driving.weather",
+      "primary_topic_id": "conditions.ice",
       "topic_ids": [
-        "driving.weather",
-        "driving.braking"
+        "conditions.ice"
       ],
-      "classification_note_en": "Qualitative speed advice is not a numeric speed-limit question."
+      "classification_note_en": "Qualitative speed advice is not a numeric speed-limit question.",
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -875,7 +892,8 @@
         "priority.lights",
         "priority.tram"
       ],
-      "classification_note_en": "Tests which vehicles the signal applies to, not a general rule giving trams priority."
+      "classification_note_en": "Tests which vehicles the signal applies to, not a general rule giving trams priority.",
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -907,11 +925,11 @@
       "source_test_id": 1013,
       "source_ordinal": 25,
       "summary_ru": "Сильная ссора увеличивает время реакции",
-      "primary_topic_id": "routine.emotions",
+      "primary_topic_id": "routine.reaction",
       "topic_ids": [
-        "routine.emotions",
         "routine.reaction"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -946,9 +964,9 @@
       "primary_topic_id": "numbers.dimensions",
       "topic_ids": [
         "numbers.dimensions",
-        "vehicle.cargo",
-        "vehicle.motorcycles"
-      ]
+        "vehicle.cargo"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -980,12 +998,13 @@
       "source_test_id": 1013,
       "source_ordinal": 27,
       "summary_ru": "Знак запрета стоянки 16–31: последний день месяца",
-      "primary_topic_id": "signs.parking",
+      "primary_topic_id": "signs.priority",
       "topic_ids": [
-        "signs.parking",
         "numbers.dates",
-        "driving.parking"
-      ]
+        "signs.parking",
+        "signs.priority"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -1020,7 +1039,8 @@
       "primary_topic_id": "vehicle.passive",
       "topic_ids": [
         "vehicle.passive"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -1054,9 +1074,9 @@
       "summary_ru": "Когда можно пересекать краевую линию",
       "primary_topic_id": "signs.markings",
       "topic_ids": [
-        "signs.markings",
-        "driving.lanes"
-      ]
+        "signs.markings"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -1088,11 +1108,12 @@
       "source_test_id": 1013,
       "source_ordinal": 30,
       "summary_ru": "Минимальная глубина протектора 1,6 мм",
-      "primary_topic_id": "numbers.technical",
+      "primary_topic_id": "vehicle.tyres",
       "topic_ids": [
         "numbers.technical",
         "vehicle.tyres"
-      ]
+      ],
+      "classification_review_required": false
     }
   ],
   "collection_type": "exam",

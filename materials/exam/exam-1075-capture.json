@@ -33,9 +33,10 @@
       "source_ordinal": 1,
       "local_image": "exam-1075-q01.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "speed.stopping",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
-        "driving.braking"
+        "speed.stopping"
       ]
     },
     {
@@ -67,9 +68,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q02.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "driving.lanes"
+        "numbers.speeds"
       ]
     },
     {
@@ -101,12 +103,11 @@
       "help_status": "captured",
       "local_image": "exam-1075-q03.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
         "priority.lights",
-        "priority.cyclists",
-        "priority.general",
-        "driving.pedestrians"
+        "signs.markings"
       ]
     },
     {
@@ -138,8 +139,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q04.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.crossings",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes"
+        "driving.crossings"
       ]
     },
     {
@@ -171,6 +174,8 @@
       "help_status": "captured",
       "local_image": "exam-1075-q05.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.tyres"
       ]
@@ -204,11 +209,11 @@
       "help_status": "captured",
       "local_image": "exam-1075-q06.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.lanes",
-        "signs.temporary",
         "signs.markings",
-        "driving.lanes"
+        "signs.temporary"
       ]
     },
     {
@@ -240,10 +245,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q07.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "vehicle.lights",
-        "vehicle.motorcycles"
+        "vehicle.lights"
       ]
     },
     {
@@ -275,8 +280,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q08.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.passengers",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather"
+        "vehicle.passengers"
       ]
     },
     {
@@ -308,8 +315,11 @@
       "help_status": "captured",
       "local_image": "exam-1075-q09.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking"
+        "driving.tunnels",
+        "vehicle.lights"
       ]
     },
     {
@@ -341,10 +351,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q10.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "speed.stopping",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.braking",
-        "vehicle.tyres",
-        "vehicle.cargo"
+        "speed.stopping"
       ]
     },
     {
@@ -376,8 +386,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q11.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.warning"
+        "signs.information"
       ]
     },
     {
@@ -409,12 +421,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q12.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.roads",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.tram",
-        "driving.parking",
-        "driving.weather",
-        "vehicle.visibility",
-        "documents.permissions"
+        "driving.roads"
       ]
     },
     {
@@ -446,10 +456,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q13.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.parking",
-        "driving.pedestrians"
+        "driving.parking"
       ]
     },
     {
@@ -481,10 +491,12 @@
       "help_status": "captured",
       "local_image": "exam-1075-q14.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.cargo",
         "routine.distraction",
-        "routine.ecodriving"
+        "routine.ecodriving",
+        "vehicle.lights"
       ]
     },
     {
@@ -516,9 +528,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q15.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "vehicle.motorcycles"
+        "driving.lanes"
       ]
     },
     {
@@ -550,13 +563,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q16.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.priority",
-        "signs.markings",
-        "priority.sign",
-        "driving.lanes",
-        "vehicle.visibility",
-        "vehicle.cargo"
+        "signs.markings"
       ]
     },
     {
@@ -587,8 +597,10 @@
       "deferred": true,
       "proposed_answer": "C",
       "deferred_reason": "Source has no explanation for comparative fatal accident statistics; automatic review rejected unverified answer.",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "incidents.first_aid"
       ]
     },
     {
@@ -620,10 +632,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q18.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.parking",
-        "incidents.towing"
+        "vehicle.lights"
       ]
     },
     {
@@ -655,6 +667,8 @@
       "help_status": "captured",
       "local_image": "exam-1075-q19.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.fatigue",
         "routine.health"
@@ -689,7 +703,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q20.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
       "topic_ids": [
+        "routine.health",
         "vehicle.tyres"
       ]
     },
@@ -722,8 +739,9 @@
       "help_status": "captured",
       "local_image": "exam-1075-q21.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.motorcycles",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.mandatory",
         "vehicle.motorcycles"
       ]
     },
@@ -756,9 +774,11 @@
       "help_status": "captured",
       "local_image": "exam-1075-q22.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "numbers.deadlines.novice",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.visibility"
+        "numbers.deadlines.novice",
+        "signs.vehicle_plates"
       ]
     },
     {
@@ -790,6 +810,8 @@
       "help_status": "captured",
       "local_image": "exam-1075-q23.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "signs.mandatory",
+      "classification_review_required": false,
       "topic_ids": [
         "signs.mandatory"
       ]
@@ -823,9 +845,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q24.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "vehicle.passengers"
+        "numbers.speeds"
       ]
     },
     {
@@ -856,12 +879,10 @@
       "deferred": true,
       "proposed_answer": "C",
       "deferred_reason": "Automatic review could not verify bus-lane sign image and absence of TAXI.",
+      "primary_topic_id": "signs.lanes",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.lanes",
-        "driving.lanes",
-        "vehicle.motorcycles",
-        "vehicle.classification",
-        "documents.permissions"
+        "signs.lanes"
       ]
     },
     {
@@ -893,9 +914,9 @@
       "help_status": "captured",
       "local_image": "exam-1075-q26.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "driving.lanes",
         "vehicle.lights"
       ]
     },
@@ -928,8 +949,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q27.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "conditions.dark",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.visibility"
+        "conditions.dark"
       ]
     },
     {
@@ -961,11 +984,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q28.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.lights",
-        "vehicle.visibility",
-        "documents.permissions"
+        "vehicle.lights"
       ]
     },
     {
@@ -997,8 +1019,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q29.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.crossings",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.warning"
+        "driving.crossings"
       ]
     },
     {
@@ -1030,9 +1054,10 @@
       "help_status": "captured",
       "local_image": "exam-1075-q30.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.turns",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "vehicle.motorcycles"
+        "driving.turns"
       ]
     }
   ],

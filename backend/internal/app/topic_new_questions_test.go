@@ -185,7 +185,7 @@ func TestAddedQuestionsGetSeparateRunsAndReopenTopic(t *testing.T) {
 		t.Fatal(res.Body.String())
 	}
 	stats = summary()
-	if stats.NewCount != 0 || stats.Completed || stats.Answered != 0 {
+	if stats.NewCount != 0 || !stats.Completed || stats.Answered != len(members) || stats.Runs[0].Answered != 0 || stats.Runs[0].CompletedAt != nil {
 		t.Fatalf("repeat baseline incorrect: %+v", stats)
 	}
 }

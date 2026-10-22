@@ -32,9 +32,11 @@
       "local_image": "/tests/exam/1063/q01.jpg",
       "selected_letter": "A",
       "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')\n",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
         "numbers.speeds",
-        "vehicle.passengers"
+        "speed.adaptation"
       ],
       "canonical_id": "361ebae93c2c36e5ad87f9ef"
     },
@@ -67,11 +69,10 @@
       "local_image": "/tests/exam/1063/q02.jpg",
       "selected_letter": "B",
       "help": "Journeys and defensive and efficient driving           \n         \n1 Preparation for the trip      \n1.3 Accessories, spare parts and tools      \nCars\n- The V-16 light-emitting hazard warning device.\n- A certified, high-visibility reflective vest inside the interior of the vehicle. It must be visible from at least 150 metres away. If the vehicle is an escort vehicle, protecting and accompanying others, vests must be worn by the driver and each member of the crew.\n- A full-size spare or a temporary tyre, with the tools needed to change tyres, or an alternative system to changing them that offers sufficient guarantees for the mobility of the vehicle. In these cases, the vehicles will be driven in observance of the limitations of each alternative.\n(Página 270 del manual 'Learning to drive')\n\nJourneys and defensive and efficient driving             \n           \n1 Preparation for the trip      \n1.3 Accessories, spare parts and tools      \nMixed vehicles and automobiles intended for goods transport (except for motor tricycles and heavy quadricycles) with an MAM no greater than 3,500 kg.\n- The V-16 light-emitting hazard warning device or, failing this, two hazard warning triangles.\n- A certified, high-visibility reflective vest inside the interior of the vehicle. It must be visible from at least 150 metres away. If the vehicle is an escort vehicle, protecting and accompanying others, vests must be worn by the driver and each member of the crew.\n- A full-size spare or a temporary tyre, with the tools needed to change tyres, or an alternative system to changing them that offers sufficient guarantees for the mobility of the vehicle. In these cases, the vehicles will be driven in observance of the limitations of each alternative.\n(Página 270 del manual 'Learning to drive')\n",
+      "primary_topic_id": "conditions.ice",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.vehicle_plates",
-        "driving.weather",
-        "vehicle.visibility",
-        "incidents.scene"
+        "conditions.ice"
       ],
       "canonical_id": "67c9f4ccfa4117fa6496bf88"
     },
@@ -104,6 +105,8 @@
       "local_image": "/tests/exam/1063/q03.jpg",
       "help": "3 Use of lanes    \n   \n3.2 Lanes within built-up-areas\nThe drivers of automobiles and special vehicles (regardless of their weight) may use the most appropriate lane for their direction of travel that is best suited to their destination and intended route. As long as these lanes are defined by longitudinal lines and appropriately indicated and drivers do not cause inconvenience to other road users. This rule will not be applicable on motorways or dual carriageways within city limits.\n(Página 162 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.lanes"
       ],
@@ -138,9 +141,11 @@
       "local_image": "/tests/exam/1063/q04.jpg",
       "help": "6 Road marks                    \n                   \n6.2 Longitudinal road markings    \nContinuous longitudinal markings\nA continuous longitudinal marking means that no driver, whether operating a vehicle or leading an animal, must:\nCross it.\nDrive on it.\nDrive to the left of the marking when it separates opposing directions of traffic (except in cases provided for in the traffic regulations).\nA longitudinal marking formed by two continuous parallel lines has the same meaning as one formed by a single continuous line.\n(Página 153 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
-        "driving.overtaking"
+        "driving.overtaking",
+        "signs.markings"
       ],
       "canonical_id": "480e0723d0231f73d905d854"
     },
@@ -173,10 +178,12 @@
       "local_image": "/tests/exam/1063/q05.jpg",
       "selected_letter": "B",
       "help": "2 Police Officers and corresponding signalling  \n   \n2.2 Signals with the arm\n2.2.3 Officer waving red or yellow light\nRoad users towards whom the officer directs the light must stop.\n(Página 110 del manual 'Learning to drive')\n",
+      "primary_topic_id": "priority.officer",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.officer",
-        "driving.weather",
-        "incidents.towing"
+        "incidents.towing",
+        "priority.lights",
+        "priority.officer"
       ],
       "canonical_id": "e973962db8dc5d7c2f4dc4ee"
     },
@@ -209,9 +216,11 @@
       "local_image": "/tests/exam/1063/q06.jpg",
       "help": "ALCOHOL AND OTHER DRUGS    \n   \n16 Alcohol limits\nLegal limits\nVehicles: Any vehicle during the first two years of obtaining a driving licence. (Note: The two years do not begin again if a new category is added).\nBrAC: 0,15 mg/l \nBAC: 0,3 g/l\n(Página 41 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.deadlines.novice",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.alcohol",
         "documents.permissions",
+        "numbers.deadlines.novice",
         "routine.alcohol"
       ],
       "canonical_id": "8b9a559c85ec554998984d29"
@@ -245,8 +254,10 @@
       "local_image": "/tests/exam/1063/q07.jpg",
       "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES  \n   \n10.1 Circumstances that cause fatigue  \n10.1.1 Road and environmental circumstances\nDriving on a road with heavy traffic or with many curves.\nDriving on a poorly maintained road.\nDriving an unfamiliar route.\nDriving with adverse weather conditions (like fog, rain, snow or excessive heat).\nIt is necessary to rest more often when driving in unfavourable conditions (for example, a lot of traffic, or in bad weather etc.)\n(Página 37 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather"
+        "routine.fatigue"
       ],
       "canonical_id": "0e8736d43a8ac332832f0caf"
     },
@@ -279,8 +290,10 @@
       "local_image": "/tests/exam/1063/q08.jpg",
       "selected_letter": "B",
       "help": "Road traffic collisions      \n     \n2 Road traffic collisions can be avoided  \n2.2 Factors involved in collisions\nGenerally, the factors that influence the occurrence of a traffic collision are varied, but always one or more of these factors are involved: the vehicle, the road (& environment) and the driver.\nNot all risk factors are equally important. Of every 100 collisions, only between 4 and 13 are due mainly to vehicle factors (for example, a defective tyre or deficient brakes) and only between 10 and 35 are due mainly to the road and related environment factors (for example, when the roadway is wet and the vehicle loses control).\nMost collisions, between 70 and 90%, are due to the human factor (for example, the driver becomes distracted, or speeds or is under the influence of alcohol etc).\n(Página 249 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "vehicle.mechanics"
       ],
       "canonical_id": "623edbf2a62ada5074f19999"
     },
@@ -313,6 +326,8 @@
       "local_image": "/tests/exam/1063/q09.jpg",
       "help": "Road traffic collisions              \n               \n6. Groups of drivers most at risk of a collision    \n6.2 The elderly\nOlder people who have suffered a deterioration of psychomotor skills that are important for driving (such as a reduced ability to concentrate or an increase in the time it takes to react) may have more collisions in complex situations that require quick response, especially at junctions and at the entries and exits of roads when driving at high speed.\nConversely, in situations when there is enough time to react, they have the same problems as other younger people. Due to this, you must give the elderly enough time and not put pressure on them.\n(Página 255 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "routine.safety",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.safety"
       ],
@@ -347,8 +362,9 @@
       "local_image": "/tests/exam/1063/q10.jpg",
       "help": "2 Driver documentation            \n         \n2.4 Classes of driving permits      \n2.4.5 B permit\nThe minimum age it can be obtained is 18, although until holders turn 21, they cannot drive motor tricycles with a power exceeding 15 kW.\nObtaining it does not entail the concession of AM, A1, A2 or A permits. However, the holder of a class-B permit for longer than 3 years can drive motorcycles authorised by the class-A1 permit within the country.\n(Página 22 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "documents.permissions",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.motorcycles",
         "documents.permissions"
       ],
       "canonical_id": "bfd15ae87e6302dd83cda632"
@@ -382,10 +398,11 @@
       "local_image": "/tests/exam/1063/q11.jpg",
       "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nWhere signalling exists that state it is prohibited.\nIn bends and gradient changes (and the general proximity) where there is reduced visibility and vision.\nIn tunnels, underpasses and on roads signed with the ‘unnel’sign.\nOn crossings (railway crossings, cycle crossings and pedestrian crossings) and routes reserved for cyclists and pedestrians.\nIn lanes or parts of roads reserved exclusively for driving or service of specific users.    \n(Página 199 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.tunnels",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.parking",
-        "vehicle.visibility",
-        "documents.permissions"
+        "driving.tunnels"
       ],
       "canonical_id": "492d0a28800143f64a695e27"
     },
@@ -418,10 +435,11 @@
       "local_image": "/tests/exam/1063/q12.jpg",
       "selected_letter": "B",
       "help": "Mechanics and maintenance\n \n12 Wheels and tyres\n12.1 Maintenance\nCheck the tyre pressures using a properly approved and tested tyre gauge at least once or twice a month. These can be found at public and private locations.\nThis is particularly important prior to commencing a journey where the vehicle will be travelling at high speed or where it will be heavily loaded. A tyre with badly adjusted pressure will wear unevenly as well as presenting an increased risk of a puncture or blow out. Fuel consumption is also increased.\n(Página 245 del manual 'Learning to drive')\n\nMechanics and maintenance\n \n12 Wheels and tyres\n12.1 Maintenance\nThe pressure should be checked with the tyres cold, or after having driven 2 or 3 kilometres at a moderate speed.\n(Página 245 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.tyres",
-        "vehicle.cargo"
+        "routine.health",
+        "vehicle.tyres"
       ],
       "canonical_id": "fc2e428358b7942996c1482b"
     },
@@ -454,8 +472,9 @@
       "local_image": "/tests/exam/1063/q13.jpg",
       "help": "7 Seat belts\n \n7.2 Use\nIn general, the driver and passengers of vehicles are obligated to wear officially approved seatbelts while driving, and must wear them properly fastened on all roads, both urban and interurban.\nWith regard to seatbelts, the obligation to wear them will not be enforceable in those vehicles that do not have them installed.\n(Página 76 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.passengers",
         "routine.seatbelts"
       ],
       "canonical_id": "4dbc4accd4ceaddbe22eee51"
@@ -489,9 +508,11 @@
       "local_image": "/tests/exam/1063/q14.jpg",
       "selected_letter": "A",
       "help": "1 Influence of the vehicle in traffic collisions\n \n1.2 Vehicle safety features\nPassive safety or secondary safety, aim to minimise the damage caused by an accident to those involved, at all times it works to protect the physical body of the individual.\nPassive safety systems (such as seat belts, airbags or headrests) activate automatically in the event of an accident, without requiring the intervention of the driver.\nAlthough its function is to minimise injuries that might occur in an accident, misuse can completely nullify its action. Such misuse could also be dangerous (for example, a head restraint too low could aggravate or cause an injury rather than avoid it).\n(Página 62 del manual 'Learning to drive')\n",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.passive",
-        "routine.helmets"
+        "routine.helmets",
+        "vehicle.passive"
       ],
       "canonical_id": "6befbc8d0f4ba70c61533297"
     },
@@ -524,10 +545,10 @@
       "local_image": "/tests/exam/1063/q15.jpg",
       "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "driving.overtaking",
-        "vehicle.passengers"
+        "driving.overtaking"
       ],
       "canonical_id": "681e3f4b6015ca5fcdb6e793"
     },
@@ -560,11 +581,12 @@
       "local_image": "/tests/exam/1063/q16.jpg",
       "help": "11 Rear fog light(s)\n \n11.2 Use of the rear fog light\nIt is only permissible to use the rear fog light when the environmental and meteorological conditions cause visibility to be seriously reduced. It is not permitted to use the rear fog lights under any other circumstances.\n(Página 103 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "conditions.ice",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.lights",
-        "vehicle.visibility",
-        "documents.permissions"
+        "conditions.fog",
+        "conditions.ice",
+        "vehicle.lights"
       ],
       "canonical_id": "b93eb1006dc118d2da6b7b45"
     },
@@ -597,6 +619,8 @@
       "local_image": "/tests/exam/1063/q17.jpg",
       "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES  \n   \n10.3 Effects of Fatigue\nFatigue can produce the following effects:\n10.3.5 Impairment of the ability to make a decision\nA reduction in the amount and quality of information being received by the driver, results in the misinterpretation of the situation or behaviour of others.\nThe ability to reason becomes seriously impeded and the consequence is that decisions will not be the most appropriate or the safest.\nThe reaction time will be noticeably increased, (it will take longer to react).\n(Página 38 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.fatigue"
       ],
@@ -631,10 +655,10 @@
       "local_image": "/tests/exam/1063/q18.jpg",
       "selected_letter": "B",
       "help": "Maneouvres        \n   \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.2 Localities where this is permissible\nOn interurban roads, stopping and parking must be done always on the right side of the road, off the carriageway and leaving the passable part of the hard shoulder free.\n(Página 198 del manual 'Learning to drive')\n\nManeouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nOn tramlines or so close to them that it affects their circulation.\nIn places when visibility of signalling is prevented to users who are affected or obligated to perform manoeuvres.\nOn motorways and dual carriageways – except in places authorised.\n(Página 199 del manual 'Learning to drive')\n",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.parking",
-        "documents.permissions"
+        "signs.markings"
       ],
       "canonical_id": "3f88297fc0e25adc21619a06"
     },
@@ -667,10 +691,13 @@
       "local_image": "/tests/exam/1063/q19.jpg",
       "help": "3 Documentation for the vehicle              \n             \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\n- Towed caravans in category O2.\nFrequency of inspection according to age of the vehicle\n- Up to six years: Exempt.\n- Over six years: Biennial.\n(Página 26 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "numbers.deadlines.itv",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.deadlines.itv",
         "documents.itv",
-        "incidents.towing"
+        "documents.registration",
+        "incidents.towing",
+        "numbers.deadlines.itv"
       ],
       "canonical_id": "c1197628c797a12da603c85e"
     },
@@ -703,6 +730,8 @@
       "local_image": "/tests/exam/1063/q20.jpg",
       "selected_letter": "C",
       "help": "Road traffic collisions            \n             \n6. Groups of drivers most at risk of a collision\n6.1 The young\n6.1.1 The primary cause of juvenile mortality \nYoung drivers generally have a number of advantages over the remainder of drivers, as generally they are in a better condition of physical fitness, have better reflexes and skills that are more suited to driving. However, these favourable conditions do not help if the driver is not aware of his limitations, including lack of experience or the tendency to take more risks.\nThere are many young people who drive safely and therefore have no increased risk of being involved in a collision than other older drivers.\nHowever, in Spain each year hundreds of young people die in road traffic collisions, which are the leading cause of death in the 15 to 29 year age group. Therefore the problem of road collisions is even more worrying for young people in this age group than for others outside it.\n \n(Página 253 del manual 'Learning to drive')\n",
+      "primary_topic_id": "routine.safety",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.safety"
       ],
@@ -737,10 +766,10 @@
       "local_image": "/tests/exam/1063/q21.jpg",
       "selected_letter": "B",
       "help": "Mechanics and maintenance\n \n10 Suspension system\n10.2 Consequences of having a suspension system in poor condition\nThe vehicle loses stability, especially when negotiating bends or in a side wind and there is an increased risk of aquaplaning.\nThe stopping distance is increased, especially on irregular or wet road surfaces.\nThe effectiveness of the ABS is reduced.\nIncreased wear, causing more breakdowns to other parts of the vehicle.\nThe height of the lights will vary when driving and can dazzle other drivers.\nThere is a general reduction of comfort while driving and driver fatigue increases.\n(Página 244 del manual 'Learning to drive')\n\nMechanics and maintenance\n \n10 Suspension system\n10.4 Breakdowns\nSymptom\nExcessive movement in bends and corners.\nCause\n- Defective torsion bar, hydraulic dampers etc.\n(Página 244 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
-        "driving.weather",
-        "incidents.towing"
+        "vehicle.mechanics"
       ],
       "canonical_id": "2d6bc219c10f06f3d8dca6f4"
     },
@@ -773,8 +802,9 @@
       "local_image": "/tests/exam/1063/q22.jpg",
       "selected_letter": "C",
       "help": "Maneouvres            \n           \n5.5 Overtaking    \n5.5.2 Prior checks\nBefore overtaking, the driver must check ahead:\nThat they can return to the right after the manoeuvre with no risk to other road users.\n(Página 188 del manual 'Learning to drive')\n",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
         "driving.overtaking"
       ],
       "canonical_id": "48bf23a3c281d293031fb52c"
@@ -808,11 +838,12 @@
       "local_image": "/tests/exam/1063/q23.jpg",
       "help": "Priorities, level crossings and tunnels      \n     \n5 Narrow Sections    \n5.2 Narrowing section without signed priority\n5.2.2 Sections of roadway with a steep gradient\nWhere the road section is narrow and there is a steep gradient and in the absence of road signs (that determine priority) the vehicle going uphill has right of way - unless it is able to reach a lay-by, where it is able to wait for the other vehicle to pass.\n(Página 209 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.priority",
+        "priority.narrow",
         "priority.tram",
-        "priority.sign",
-        "priority.general"
+        "signs.priority"
       ],
       "canonical_id": "950eb3a7309661ce428d0ec7"
     },
@@ -845,9 +876,11 @@
       "local_image": "/tests/exam/1063/q24.jpg",
       "selected_letter": "C",
       "help": "9 Airbags\n \nThe main functions of the airbag are to:\nGently cushion the movement of the occupants colliding against it and consume part of the kinetic energy.\nPrevent the occupants impacting and hitting against the inside of the vehicle and thereby reducing the risk of injury.\nProtect the face and eyes from any fragmented glass or other materials that could occur in a collision.\n(Página 80 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.visibility",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.passive"
+        "vehicle.passive",
+        "vehicle.visibility"
       ],
       "canonical_id": "c28d8600cbcd4df4416d95d5"
     },
@@ -880,8 +913,9 @@
       "local_image": "/tests/exam/1063/q25.jpg",
       "selected_letter": "C",
       "help": "7 Seat belts\n \n7.2 Use\nVehicles for up to nine occupants including driver\nIn this type of vehicle, minors who are 135 centimetres tall or less must travel in the back seats and use the pertinent child retention systems.\nMinors who are taller than 135 centimetres may travel either in the front or back seats, with officially approved seatbelts that are properly fastened.\nHowever, because the seat belt is designed for adults, for safety it is advisable that they use approved child retention devices adapted to their size and weight.\n(Página 76 del manual 'Learning to drive')\n",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "routine.seatbelts"
       ],
       "canonical_id": "fdc591e3423de3f3e06ff451"
@@ -915,9 +949,9 @@
       "local_image": "/tests/exam/1063/q26.jpg",
       "selected_letter": "A",
       "help": "11 Crash helmets\n \n11.1 Tips for buying a crash helmet\nVisors:\nVisors are strongly recommended. However, it is important to ensure that these do not mist up; therefore, special covers are available that increase the anti-mist properties. When the helmet does not include eye protection it is highly recommended that safety glasses are used, although this use is not mandatory. Without eye protection, there is obviously the risk that something may enter the eye (an insect, a particle of sand or dust, etc.,) which may cause the rider to become distracted; however, the cold and/or the wind constantly in the eyes also increases visual fatigue.\n(Página 82 del manual 'Learning to drive')\n",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.passengers",
-        "vehicle.motorcycles",
         "routine.helmets"
       ],
       "canonical_id": "fc299c8eca70126cb55ce90c"
@@ -951,6 +985,8 @@
       "local_image": "/tests/exam/1063/q27.jpg",
       "selected_letter": "B",
       "help": "Physical condition of the driver    \n \n4 Reaction time\nThe reaction time can be increased by:\nfatigue or tiredness,\ndrowsiness, sleepiness,\nthe advancement of age,\nthe loss of vision and poor hearing,\npoor state of health,\nthe use of medications,\nthe intake of alcohol, drugs or other narcotics substances,\nheavy and excessive meals,\nthe excessive heat in the cockpit of the vehicle,\nthe emotional state.\nthe attention level of the driver.\nAll these listed factors have the serious potential consequence of reducing the driver’s ability to react and therefore the result is an increase in the reaction time.\n(Página 32 del manual 'Learning to drive')\n\n12 Distances\n \n12.1 The reaction distance\nThe reaction distance is the distance travelled by the vehicle from the time of seeing a hazard until he reacts to it.\nIt is dependant on the speed and the driver’s reaction time, which in turn depends, on many other factors, such as, the driver’s reflexes, their psycho-physical state (level of alertness, whether or not the driver is under the influence of alcohol etc.) Even the environment can affect the time it takes for a driver to react to any given circumstance (the passenger compartment temperature, noise, etc.)\nA reaction time of 0.75 seconds is considered to be normal, during which time the vehicle will travel a distance, determined by the speed at which the vehicle is travelling.\n(Página 179 del manual 'Learning to drive')\n",
+      "primary_topic_id": "routine.reaction",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.reaction"
       ],
@@ -985,9 +1021,10 @@
       "local_image": "/tests/exam/1063/q28.jpg",
       "help": "3 Circumstantial signalling, beaconing elements and vehicle restraint systems\n \n3.2 Beaconing elements\n3.2.2 Guiding devices\n3.2.2.10 Longitudinal auditory guides\nSmall grooves in the pavement or raised markings that, when driven over, produce vibration and/or sound. Their purpose is to alert drivers to unintended deviations from the vehicle’s trajectory.\n(Página 114 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.weather"
+        "driving.lanes"
       ],
       "canonical_id": "fbfe3f62aa99d40340e30233"
     },
@@ -1020,8 +1057,10 @@
       "local_image": "/tests/exam/1063/q29.jpg",
       "selected_letter": "B",
       "help": "11 Crash helmets\n \n11.1 Tips for buying a crash helmet\nVisors:\nVisors are strongly recommended. However, it is important to ensure that these do not mist up; therefore, special covers are available that increase the anti-mist properties. When the helmet does not include eye protection it is highly recommended that safety glasses are used, although this use is not mandatory. Without eye protection, there is obviously the risk that something may enter the eye (an insect, a particle of sand or dust, etc.,) which may cause the rider to become distracted; however, the cold and/or the wind constantly in the eyes also increases visual fatigue.\n(Página 82 del manual 'Learning to drive')\n",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
+        "conditions.fog",
         "routine.helmets"
       ],
       "canonical_id": "3d0b046ca437fcd92cf43bb0"
@@ -1055,11 +1094,12 @@
       "local_image": "/tests/exam/1063/q30.jpg",
       "selected_letter": "A",
       "help": "12 Distances\n \n12.5 Safety distance\nAny driver of a vehicle driving behind another must leave space that allows them to stop without colliding in the event of sudden braking, taking into account, in particular, speed, grip and braking conditions. However, a group of cyclists does not need to keep this distance, paying close attention to avoid collisions.\nWhen it is possible for vehicles behind you to overtake, then in addition to leaving a sufficient separation distance so that in case of sudden braking by the vehicle ahead of you – you don’t crash into the back of it, you should additionally leave a gap to allow overtaking vehicles to overtake safely. (Note: that his rule is not applicable to a group of cyclists travelling together.)\nVehicles with a MAM greater than 3500 kgs, vehicles and combinations / sets of vehicles over 10m long, must keep a minimum safety distance of 50 m.\n(Página 180 del manual 'Learning to drive')\n\n12 Distances\n \n12.5 Safety distance\nThe obligation to leave a safety distance where it is possible for the vehicle behind to overtake is not applicable to the following circumstances:\nIn a built-up-area (within town and cities etc.).\nWhere overtaking is forbidden.\nWhere there is more than 1 lane for the direction travelled.\nWhen intense traffic does not permit overtaking.\n(Página 180 del manual 'Learning to drive')\n",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking",
-        "driving.braking",
-        "vehicle.motorcycles",
-        "documents.permissions"
+        "numbers.distances",
+        "signs.mandatory",
+        "signs.priority"
       ],
       "canonical_id": "3506b2cfe5de64bfa0a1a747"
     }

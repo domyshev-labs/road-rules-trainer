@@ -31,10 +31,12 @@
       "source_ordinal": 1,
       "local_image": "/tests/exam/1039/q01.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.parking",
-        "incidents.towing"
+        "signs.parking",
+        "signs.priority",
+        "signs.restrictions"
       ],
       "canonical_id": "9fa9235dd150c16a1018dd37"
     },
@@ -67,8 +69,9 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q02.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "routine.health"
       ],
       "canonical_id": "2ffe80df3e34eeb208391eea"
@@ -102,8 +105,9 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q03.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
         "driving.overtaking"
       ],
       "canonical_id": "13252167a0902bde58777ed5"
@@ -137,10 +141,11 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q04.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.cargo",
-        "vehicle.motorcycles",
-        "routine.ecodriving"
+        "routine.ecodriving",
+        "vehicle.lights"
       ],
       "canonical_id": "bbdd2c47becb3e4413ef0d7d"
     },
@@ -173,11 +178,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q05.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.overtaking",
-        "documents.permissions",
-        "incidents.towing"
+        "driving.overtaking"
       ],
       "canonical_id": "51536bad0d1a81278c8bae69"
     },
@@ -210,9 +214,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q06.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.braking",
-        "documents.permissions"
+        "driving.reversing"
       ],
       "canonical_id": "cb29166c852e974d2d8e7a64"
     },
@@ -245,8 +250,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q07.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.restrictions",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "signs.restrictions"
       ],
       "canonical_id": "e385f8423208822672414fd8"
     },
@@ -279,10 +286,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q08.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.weather",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.weather",
-        "vehicle.tyres"
+        "driving.weather"
       ],
       "canonical_id": "eb84fd75521698935eafd635"
     },
@@ -315,6 +322,8 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q09.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.speed",
+      "classification_review_required": false,
       "topic_ids": [
         "signs.speed"
       ],
@@ -349,10 +358,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q10.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.visibility",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.visibility",
-        "documents.permissions"
+        "vehicle.visibility"
       ],
       "canonical_id": "7e42ae6cecc434cb8ae00bd5"
     },
@@ -385,8 +394,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q11.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "signs.restrictions",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.motorcycles"
+        "signs.restrictions"
       ],
       "canonical_id": "972f580ede8902cfa4533a2c"
     },
@@ -419,8 +430,9 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q12.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
         "driving.overtaking"
       ],
       "canonical_id": "c6151e08c99782a569441a22"
@@ -454,8 +466,9 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q13.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.passengers",
         "routine.seatbelts"
       ],
       "canonical_id": "3ed81cc7670c387dbeacfaae"
@@ -489,10 +502,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q14.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.overtaking",
-        "documents.permissions"
+        "driving.overtaking"
       ],
       "canonical_id": "6548c7d983ee3d084b63c9a7"
     },
@@ -525,8 +538,9 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q15.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.cargo",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
         "vehicle.cargo"
       ],
       "canonical_id": "9c41204b8bab110724b06332"
@@ -560,6 +574,8 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q16.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.helmets"
       ],
@@ -594,6 +610,8 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q17.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.pedestrians",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.pedestrians"
       ],
@@ -628,11 +646,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q18.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "driving.lanes",
-        "vehicle.passengers",
-        "documents.permissions"
+        "numbers.speeds"
       ],
       "canonical_id": "cbab8d9eab07fac9f8f197a4"
     },
@@ -665,8 +682,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q19.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "documents.registration",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions"
+        "documents.registration"
       ],
       "canonical_id": "79c8626d9526bc4636eb3575"
     },
@@ -699,8 +718,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q20.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "conditions.wind",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather"
+        "conditions.wind"
       ],
       "canonical_id": "2af512e76700db5dca69f053"
     },
@@ -733,9 +754,11 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q21.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "routine.distraction"
+        "routine.distraction",
+        "vehicle.mechanics"
       ],
       "canonical_id": "9fa1b816c135916df6fe730e"
     },
@@ -768,11 +791,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q22.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "priority.general",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.warning",
-        "priority.cyclists",
-        "priority.general",
-        "driving.pedestrians"
+        "priority.general"
       ],
       "canonical_id": "d1e9ef567f36d2b817ea2c46"
     },
@@ -805,9 +827,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q23.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
-        "driving.braking"
+        "driving.parking"
       ],
       "canonical_id": "75a2aaca15a9f8d3a8462c33"
     },
@@ -840,6 +863,8 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q24.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.seatbelts"
       ],
@@ -874,11 +899,11 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q25.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.crossings",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.overtaking",
-        "driving.pedestrians",
-        "documents.permissions"
+        "driving.crossings",
+        "driving.overtaking"
       ],
       "canonical_id": "cd0ef7726dab62612117d8da"
     },
@@ -911,8 +936,9 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q26.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
         "driving.lanes"
       ],
       "canonical_id": "4edd02286ff2700dd8e11033"
@@ -946,9 +972,12 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q27.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.parking"
+        "signs.parking",
+        "signs.priority",
+        "signs.restrictions"
       ],
       "canonical_id": "a423b760572d67c54eea6543"
     },
@@ -981,9 +1010,11 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q28.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "signs.parking",
+      "classification_review_required": false,
       "topic_ids": [
         "signs.parking",
-        "driving.parking"
+        "signs.restrictions"
       ],
       "canonical_id": "55c7a72e239dd35ea30ff8f7"
     },
@@ -1016,9 +1047,12 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q29.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "conditions.fog",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking",
-        "driving.weather"
+        "conditions.fog",
+        "signs.mandatory",
+        "signs.warning"
       ],
       "canonical_id": "a45a88e4cd77288a70d5861c"
     },
@@ -1051,8 +1085,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1039/q30.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "driving.parking"
       ],
       "canonical_id": "57ba135859184cc0d705659c"
     }

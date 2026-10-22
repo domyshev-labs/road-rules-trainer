@@ -33,11 +33,12 @@
       "source_test_id": 1015,
       "source_ordinal": 1,
       "summary_ru": "Допускается ли обгон на круговом перекрёстке",
-      "primary_topic_id": "driving.overtaking",
+      "primary_topic_id": "driving.roundabouts",
       "topic_ids": [
         "driving.overtaking",
         "driving.roundabouts"
       ],
+      "classification_review_required": false,
       "canonical_id": "d734aeb60fa9de04c8c26ac2"
     },
     {
@@ -72,9 +73,9 @@
       "summary_ru": "Экономичное вождение повышает безопасность",
       "primary_topic_id": "routine.ecodriving",
       "topic_ids": [
-        "routine.ecodriving",
-        "routine.safety"
+        "routine.ecodriving"
       ],
+      "classification_review_required": false,
       "canonical_id": "4bf20f86896c12263458f58c"
     },
     {
@@ -110,8 +111,10 @@
       "primary_topic_id": "numbers.alcohol",
       "topic_ids": [
         "numbers.alcohol",
+        "priority.emergency",
         "routine.alcohol"
       ],
+      "classification_review_required": false,
       "canonical_id": "500f7443f7b1b7d7f37e182b"
     },
     {
@@ -144,10 +147,11 @@
       "source_test_id": 1015,
       "source_ordinal": 4,
       "summary_ru": "Обычная дорога менее безопасна, чем автомагистраль",
-      "primary_topic_id": "routine.safety",
+      "primary_topic_id": "driving.roads",
       "topic_ids": [
-        "routine.safety"
+        "driving.roads"
       ],
+      "classification_review_required": false,
       "canonical_id": "ff77863fdae774617995ad50"
     },
     {
@@ -183,8 +187,9 @@
       "primary_topic_id": "signs.parking",
       "topic_ids": [
         "signs.parking",
-        "driving.parking"
+        "signs.restrictions"
       ],
+      "classification_review_required": false,
       "canonical_id": "cf1d9c4078930b4e1a1cbcfb"
     },
     {
@@ -221,6 +226,7 @@
       "topic_ids": [
         "routine.safety"
       ],
+      "classification_review_required": false,
       "canonical_id": "2127b7e9ac5b3ce5b02c4407"
     },
     {
@@ -257,6 +263,7 @@
       "topic_ids": [
         "driving.lanes"
       ],
+      "classification_review_required": false,
       "canonical_id": "94c97983ec88d7f3111d7108"
     },
     {
@@ -291,9 +298,11 @@
       "summary_ru": "Телефон мешает поддерживать подходящую скорость",
       "primary_topic_id": "routine.distraction",
       "topic_ids": [
-        "routine.distraction"
+        "routine.distraction",
+        "speed.adaptation"
       ],
       "classification_note_en": "Speed is mentioned, but the tested fact is distraction, not a numeric speed limit.",
+      "classification_review_required": false,
       "canonical_id": "806e1f4ed813daa7f62e7ad9"
     },
     {
@@ -329,8 +338,9 @@
       "primary_topic_id": "numbers.speeds",
       "topic_ids": [
         "numbers.speeds",
-        "vehicle.classification"
+        "speed.adaptation"
       ],
+      "classification_review_required": false,
       "canonical_id": "520ef2d645e2913a38ee0dcb"
     },
     {
@@ -363,11 +373,11 @@
       "source_test_id": 1015,
       "source_ordinal": 10,
       "summary_ru": "По снегу медленно и на максимально высокой подходящей передаче",
-      "primary_topic_id": "driving.weather",
+      "primary_topic_id": "conditions.ice",
       "topic_ids": [
-        "driving.weather",
-        "driving.braking"
+        "conditions.ice"
       ],
+      "classification_review_required": false,
       "canonical_id": "1c1ab7c5b813de7c890d5e9d"
     },
     {
@@ -400,11 +410,11 @@
       "source_test_id": 1015,
       "source_ordinal": 11,
       "summary_ru": "Шумящие дети отвлекают водителя",
-      "primary_topic_id": "routine.distraction",
+      "primary_topic_id": "vehicle.children",
       "topic_ids": [
-        "routine.distraction",
-        "vehicle.passengers"
+        "vehicle.children"
       ],
+      "classification_review_required": false,
       "canonical_id": "582b97f65ea31af6d34337b9"
     },
     {
@@ -437,10 +447,12 @@
       "source_test_id": 1015,
       "source_ordinal": 12,
       "summary_ru": "Предупреждение о сужении дороги",
-      "primary_topic_id": "signs.warning",
+      "primary_topic_id": "priority.narrow",
       "topic_ids": [
+        "priority.narrow",
         "signs.warning"
       ],
+      "classification_review_required": false,
       "canonical_id": "1692fc2cf4ecda5dfa69f937"
     },
     {
@@ -477,6 +489,7 @@
       "topic_ids": [
         "priority.officer"
       ],
+      "classification_review_required": false,
       "canonical_id": "7c8e5425c3036bf5f0abef77"
     },
     {
@@ -511,10 +524,9 @@
       "summary_ru": "Пассажир мотоцикла затрудняет блокировку заднего колеса",
       "primary_topic_id": "driving.braking",
       "topic_ids": [
-        "driving.braking",
-        "vehicle.motorcycles",
-        "vehicle.passengers"
+        "driving.braking"
       ],
+      "classification_review_required": false,
       "canonical_id": "3bfcdbdc4390e20830d90e7d"
     },
     {
@@ -549,9 +561,11 @@
       "summary_ru": "Ограничение массы: фактическая масса с грузом, а не разрешённая максимальная",
       "primary_topic_id": "signs.restrictions",
       "topic_ids": [
-        "signs.restrictions"
+        "signs.restrictions",
+        "vehicle.cargo"
       ],
       "classification_note_en": "Tests actual laden mass versus maximum authorised mass; the displayed 5.5 t value is not a memorised universal threshold.",
+      "classification_review_required": false,
       "canonical_id": "d7d7b1331e9fbb7e070ad268"
     },
     {
@@ -586,9 +600,10 @@
       "summary_ru": "Дальний свет в тумане разрешён, но не рекомендуется",
       "primary_topic_id": "vehicle.lights",
       "topic_ids": [
-        "vehicle.lights",
-        "driving.weather"
+        "conditions.fog",
+        "vehicle.lights"
       ],
+      "classification_review_required": false,
       "canonical_id": "1a89776e06d7c40a814e9c8a"
     },
     {
@@ -625,6 +640,7 @@
       "topic_ids": [
         "vehicle.visibility"
       ],
+      "classification_review_required": false,
       "canonical_id": "cecaf60d723a77e47b2a39af"
     },
     {
@@ -661,6 +677,7 @@
       "topic_ids": [
         "driving.overtaking"
       ],
+      "classification_review_required": false,
       "canonical_id": "b12103188ad33b887f7fc09d"
     },
     {
@@ -696,9 +713,9 @@
       "primary_topic_id": "numbers.displacement",
       "topic_ids": [
         "numbers.displacement",
-        "vehicle.classification",
-        "vehicle.motorcycles"
+        "vehicle.classification"
       ],
+      "classification_review_required": false,
       "canonical_id": "957f8b9bbfd588d7a83bfe8a"
     },
     {
@@ -735,6 +752,7 @@
       "topic_ids": [
         "routine.health"
       ],
+      "classification_review_required": false,
       "canonical_id": "7356e96218f35faf3cfb26fe"
     },
     {
@@ -771,6 +789,7 @@
       "topic_ids": [
         "driving.braking"
       ],
+      "classification_review_required": false,
       "canonical_id": "243421693653223d76061fff"
     },
     {
@@ -807,6 +826,7 @@
       "topic_ids": [
         "signs.warning"
       ],
+      "classification_review_required": false,
       "canonical_id": "801361402ed7a5b823e89054"
     },
     {
@@ -843,6 +863,7 @@
       "topic_ids": [
         "vehicle.cargo"
       ],
+      "classification_review_required": false,
       "canonical_id": "1331528930dac2178fc18755"
     },
     {
@@ -880,6 +901,7 @@
         "incidents.towing"
       ],
       "classification_note_en": "The original Spanish question and source-confirmed answer must be retained when importing; do not substitute older remembered towing rules.",
+      "classification_review_required": false,
       "canonical_id": "8f73e3d1665080797c4c07a4"
     },
     {
@@ -917,6 +939,7 @@
         "documents.permissions",
         "vehicle.classification"
       ],
+      "classification_review_required": false,
       "canonical_id": "4064b395b4624b3e6e0d01e8"
     },
     {
@@ -949,11 +972,12 @@
       "source_test_id": 1015,
       "source_ordinal": 26,
       "summary_ru": "Жёлтый зигзаг: можно остановиться, стоянка запрещена",
-      "primary_topic_id": "signs.markings",
+      "primary_topic_id": "vehicle.cargo",
       "topic_ids": [
-        "signs.markings",
-        "driving.parking"
+        "driving.parking",
+        "vehicle.cargo"
       ],
+      "classification_review_required": false,
       "canonical_id": "a50c68d6aa0f308a012f3165"
     },
     {
@@ -991,6 +1015,7 @@
         "documents.itv"
       ],
       "classification_note_en": "Tests responsibility for ITV, not its periodicity. Do not tag as ITV deadlines.",
+      "classification_review_required": false,
       "canonical_id": "ba49073e5c4bfa4843c05908"
     },
     {
@@ -1025,10 +1050,9 @@
       "summary_ru": "Выбор шлема: сертификация, размер и материал",
       "primary_topic_id": "routine.helmets",
       "topic_ids": [
-        "routine.helmets",
-        "vehicle.passive",
-        "vehicle.motorcycles"
+        "routine.helmets"
       ],
+      "classification_review_required": false,
       "canonical_id": "42acfd655c53ef3fe88024e6"
     },
     {
@@ -1065,6 +1089,7 @@
       "topic_ids": [
         "routine.distraction"
       ],
+      "classification_review_required": false,
       "canonical_id": "03df55d1d2e5b93c79b56e7c"
     },
     {
@@ -1099,9 +1124,11 @@
       "summary_ru": "Частая прерывистая разметка предупреждает об особой опасности",
       "primary_topic_id": "signs.markings",
       "topic_ids": [
+        "priority.tram",
         "signs.markings"
       ],
       "classification_note_en": "The original English translation incorrectly says unbroken line; Spanish says broken line. Preserve the source and review the translation before publishing.",
+      "classification_review_required": false,
       "canonical_id": "db5e87ac1305f098ba67d6bc"
     }
   ]

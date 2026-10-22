@@ -33,8 +33,10 @@
       "source_ordinal": 1,
       "local_image": "exam-1035-q01.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "incidents.statistics",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.pedestrians"
+        "incidents.statistics"
       ]
     },
     {
@@ -66,8 +68,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q02.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "routine.health"
       ]
     },
     {
@@ -99,10 +103,12 @@
       "help_status": "captured",
       "local_image": "exam-1035-q03.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
+        "priority.lights",
         "priority.officer",
-        "priority.lights"
+        "signs.priority"
       ]
     },
     {
@@ -134,6 +140,8 @@
       "help_status": "captured",
       "local_image": "exam-1035-q04.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.drugs",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.drugs"
       ]
@@ -167,9 +175,11 @@
       "help_status": "captured",
       "local_image": "exam-1035-q05.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.health",
-        "routine.ecodriving"
+        "routine.ecodriving",
+        "routine.health"
       ]
     },
     {
@@ -201,6 +211,8 @@
       "help_status": "captured",
       "local_image": "exam-1035-q06.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.alcohol",
         "routine.distraction",
@@ -236,8 +248,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q07.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions"
+        "speed.adaptation"
       ]
     },
     {
@@ -269,10 +283,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q08.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.pedestrians",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.pedestrians",
-        "vehicle.visibility"
+        "driving.pedestrians"
       ]
     },
     {
@@ -304,8 +318,11 @@
       "help_status": "captured",
       "local_image": "exam-1035-q09.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions"
+        "driving.turns",
+        "vehicle.mechanics"
       ]
     },
     {
@@ -337,8 +354,9 @@
       "help_status": "captured",
       "local_image": "exam-1035-q10.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
         "driving.overtaking"
       ]
     },
@@ -371,8 +389,9 @@
       "help_status": "captured",
       "local_image": "exam-1035-q11.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.ecodriving",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.braking",
         "routine.ecodriving"
       ]
     },
@@ -405,9 +424,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q12.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.warning",
-        "priority.general"
+        "signs.priority"
       ]
     },
     {
@@ -439,8 +459,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q13.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "vehicle.mechanics"
       ]
     },
     {
@@ -472,6 +494,8 @@
       "help_status": "captured",
       "local_image": "exam-1035-q14.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.helmets"
       ]
@@ -505,8 +529,9 @@
       "help_status": "captured",
       "local_image": "exam-1035-q15.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.drugs",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions",
         "routine.drugs"
       ]
     },
@@ -539,10 +564,9 @@
       "help_status": "captured",
       "local_image": "exam-1035-q16.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "incidents.towing",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.weather",
-        "documents.permissions",
         "incidents.towing"
       ]
     },
@@ -575,8 +599,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q17.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.crossings",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes"
+        "driving.crossings"
       ]
     },
     {
@@ -608,12 +634,11 @@
       "help_status": "captured",
       "local_image": "exam-1035-q18.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "numbers.distances",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
-        "driving.overtaking",
-        "driving.weather",
-        "driving.braking",
-        "vehicle.visibility"
+        "conditions.fog",
+        "numbers.distances"
       ]
     },
     {
@@ -645,6 +670,8 @@
       "help_status": "captured",
       "local_image": "exam-1035-q19.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.lanes"
       ]
@@ -678,10 +705,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q20.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.overtaking",
-        "driving.pedestrians"
+        "driving.overtaking"
       ]
     },
     {
@@ -713,8 +740,9 @@
       "help_status": "captured",
       "local_image": "exam-1035-q21.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "routine.fatigue"
       ]
     },
@@ -747,6 +775,8 @@
       "help_status": "captured",
       "local_image": "exam-1035-q22.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.safety",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.safety"
       ]
@@ -780,10 +810,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q23.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "driving.lanes",
-        "driving.braking"
+        "driving.parking"
       ]
     },
     {
@@ -815,9 +845,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q24.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.passengers",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.cargo",
-        "documents.permissions"
+        "vehicle.passengers"
       ]
     },
     {
@@ -849,9 +880,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q25.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
         "numbers.alcohol",
-        "driving.weather",
         "routine.alcohol"
       ]
     },
@@ -884,7 +916,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q26.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
+        "signs.priority",
         "signs.warning"
       ]
     },
@@ -917,9 +952,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q27.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights",
-        "vehicle.motorcycles"
+        "vehicle.lights"
       ]
     },
     {
@@ -951,10 +987,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q28.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.overtaking",
-        "driving.pedestrians"
+        "driving.overtaking"
       ]
     },
     {
@@ -986,6 +1022,8 @@
       "help_status": "captured",
       "local_image": "exam-1035-q29.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.fatigue"
       ]
@@ -1019,9 +1057,10 @@
       "help_status": "captured",
       "local_image": "exam-1035-q30.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "vehicle.motorcycles"
+        "driving.lanes"
       ]
     }
   ]

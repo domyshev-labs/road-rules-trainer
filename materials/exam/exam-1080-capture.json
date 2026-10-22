@@ -3,7 +3,7 @@
   "collection": "Exam collection",
   "collection_type": "exam",
   "source_test_id": 1080,
-  "status": "in_progress",
+  "status": "captured",
   "questions": [
     {
       "answers": [
@@ -33,7 +33,13 @@
       "help_status": "captured",
       "local_image": "exam-1080-q01.jpg",
       "help": "ALCOHOL AND OTHER DRUGS        \n     \n17.1 Effects of the most common drugs    \n17.1.5 Amphetamines\nIt reduces the feeling of fatigue, which may have serious consequences for the driver’s health and safety.\nIt delays the onset of the need for sleep but this inevitably leads to a rebound effect, where the driver needs to sleep later.\n(Página 44 del manual 'Learning to drive')\n",
-      "selected_letter": "C"
+      "selected_letter": "C",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.drugs",
+        "routine.fatigue"
+      ]
     },
     {
       "answers": [
@@ -63,7 +69,13 @@
       "help_status": "captured",
       "local_image": "exam-1080-q02.jpg",
       "help": "4 Traffic lights  \n   \n4.2 Traffic lights for vehicles\n4.2.6 Black arrow\nA black arrow on a red light (background) or on a yellow background (intermittent or not) has the same meaning as if were a red or amber light (without the arrow). The difference in this instance is that the arrow, limits the meaning exclusively to the direction shown.  \n(Página 116 del manual 'Learning to drive')\n\n4 Traffic lights  \n   \n4.2 Traffic lights for vehicles\n4.2.6 Black arrow\nNote: When a flashing amber light with a black arrow lights up, you may remain in your lane. There is no obligation to go in the direction and way indicated by the arrow.\n(Página 116 del manual 'Learning to drive')\n",
-      "selected_letter": "C"
+      "selected_letter": "C",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.turns",
+        "priority.lights"
+      ]
     },
     {
       "answers": [
@@ -93,7 +105,13 @@
       "help_status": "captured",
       "local_image": "exam-1080-q03.jpg",
       "help": "DRIVING ASSIST SYSTEMS\n \n13 Intelligent Speed Assistant (ISA)\nThe system helps to ensure the driver is aware of and respects the speed limit, acting on the transmission system to adapt the vehicle’s speed to the limit on the road along which it is travelling.\n \n(Página 92 del manual 'Learning to drive')\n\nDRIVING ASSIST SYSTEMS  \n   \n13 Intelligent Speed Assistant (ISA)\nThe system is linked to the TSR system, using a frontfacing camera and GPS in combination with a digital map to detect the speed limit for each stretch of road, informing the driver graphically through the instrument panel. It also automatically adapts the vehicle’s maximum speed to the limits in force on each stretch of the road, and does not allow the driver to accelerate beyond the speed allowed.\nIt can be activated and deactivated manually by clicking on a button or by pressing the accelerator.\n(Página 93 del manual 'Learning to drive')\n",
-      "selected_letter": "B"
+      "selected_letter": "B",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds",
+        "speed.adaptation"
+      ]
     },
     {
       "answers": [
@@ -123,7 +141,14 @@
       "help_status": "captured",
       "local_image": "exam-1080-q04.jpg",
       "help": "Maneouvres          \n       \n7 ‘U’ turn    \n7.3 Circumstances when it is prohibited to undertake a ‘U’ turn\nIt is specifically prohibited to carry out a ‘U’ turn:\nAt level crossings (although it is not prohibited in their immediate surroundings).\nIn tunnels, underpasses and sections of the road affected by the signal “unnel”.\nOn motorways and dual carriageways, except in the places designated for this purpose.\nOn one-way roads and one-way sections of roads.\nIn general, in all sections of the road where overtaking is prohibited, unless a ‘’turn is expressly authorized.\n(Página 195 del manual 'Learning to drive')\n",
-      "selected_letter": "B"
+      "selected_letter": "B",
+      "primary_topic_id": "driving.uturns",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.turns",
+        "driving.uturns"
+      ]
     },
     {
       "answers": [
@@ -153,7 +178,12 @@
       "help_status": "captured",
       "local_image": "exam-1080-q05.jpg",
       "help": "Road traffic collisions          \n   \n7 Obligations after a collision\nAny one implicated, present or has knowledge of a traffic collision is obligated to:\nHelp or summons assistance, to attend the victims, (if there are any).\nAssist to avoid further danger or injuries from occurring.\nHelp re-establish, when possible, the flow and safety of other traffic.\nAssist and relay the facts of the situation and how the traffic incident occurred.\nCommunicate, and inform (in all cases) your identity and that of anyone involved in the collision, when and if requested.\n(Página 258 del manual 'Learning to drive')\n",
-      "selected_letter": "C"
+      "selected_letter": "C",
+      "primary_topic_id": "incidents.scene",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.scene"
+      ]
     },
     {
       "answers": [
@@ -183,7 +213,13 @@
       "help_status": "captured",
       "local_image": "exam-1080-q06.jpg",
       "help": "Transporting people and loads      \n       \n3 Transport of load\n3.5 Load size\nAs a general rule, loads cannot protrude from the vehicle floor: neither in front or in back or from the sides. It can protrude from the roof of the vehicle provided that it meets this condition.  \n(Página 217 del manual 'Learning to drive')\n\nTransporting people and loads        \n         \n3 Transport of load  \n3.5 Load size\nAlso exceptionally, in vehicles not exclusively designed to transport merchandise the load may protrude to the rear only as follows:\nUp to 10 percent of the length of the vehicle, if the load is divisible.\nUp to 15 percent of the length of the vehicle, if the load is indivisible.\n(Página 218 del manual 'Learning to drive')\n",
-      "selected_letter": "A"
+      "selected_letter": "A",
+      "primary_topic_id": "numbers.dimensions",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.dimensions",
+        "vehicle.cargo"
+      ]
     },
     {
       "answers": [
@@ -213,7 +249,13 @@
       "help_status": "captured",
       "local_image": "exam-1080-q07.jpg",
       "help": "20 The reversing light(s)\n \nThe reversing light(s) illuminates the route behind the vehicle when it is travelling backwards (in reverse gear). It is also used to warn other users, behind that the vehicle that is reversing, that it is approaching them.\nThe reversing lights may consist of a single light or two lights that must be white in colour. These lights illuminate automatically when reverse gear is selected.\n(Página 106 del manual 'Learning to drive')\n",
-      "selected_letter": "B"
+      "selected_letter": "B",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.reversing",
+        "vehicle.lights"
+      ]
     },
     {
       "answers": [
@@ -243,21 +285,29 @@
       "help_status": "captured",
       "local_image": "exam-1080-q08.jpg",
       "help": "Journeys and defensive and efficient driving        \n         \nDEFENSIVE DRIVING  \n6 Maintaining space\n6.1 Travelling\n6.1.1 Space to the front\nHowever, under certain circumstances, this interval should be increased for safety reasons by at least one second more, namely:\nWhen driving in adverse environmental conditions (like rain or at night).\nWhen the state of the driver is not the most conducive to safe driving, for example, if the driver is tired or sleepy.\nWhen the vehicle behind is approaching very fast.\n(Página 273 del manual 'Learning to drive')\n",
-      "selected_letter": "B"
+      "selected_letter": "B",
+      "primary_topic_id": "numbers.distances",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.distances"
+      ]
     },
     {
       "answers": [
         {
           "letter": "A",
-          "text": "Ante la línea de detención, sin rebasarla.\nBefore the stop line, without going over it."
+          "text": "Ante la línea de detención, sin rebasarla.\nBefore the stop line, without going over it.",
+          "correct": true
         },
         {
           "letter": "B",
-          "text": "Inmediatamente antes del cruce, aun cuando rebase la línea de detención.\nImmediately before the junction, even if you go over the stop line."
+          "text": "Inmediatamente antes del cruce, aun cuando rebase la línea de detención.\nImmediately before the junction, even if you go over the stop line.",
+          "correct": false
         },
         {
           "letter": "C",
-          "text": "Ante la señal.\nBefore the sign."
+          "text": "Ante la señal.\nBefore the sign.",
+          "correct": false
         }
       ],
       "image_url": "d16d1523-03a9-474c-8af5-4ea519edb219M.jpg",
@@ -269,7 +319,766 @@
       "collection_type": "exam",
       "help_status": "captured",
       "local_image": "exam-1080-q09.jpg",
-      "help": "5 Vertical Signs        \n     \n5.3 Regulation road signs  \n5.3.2 ‘Priority’ signs\nR-2 Stop\nObligation for all drivers to stop their vehicle before the stop-line or, if one is not on the road surface or visible, immediately before the junction, giving way to vehicles that travel on the road they are approaching.  \n(Página 124 del manual 'Learning to drive')\n\n5 Vertical Signs        \n     \n5.3 Regulation road signs  \n5.3.2 ‘Priority’ signs\nR-2 Stop\nIf, for exceptional circumstances, a driver stops in a place where there is not enough visibility, the driver must re-stop in a place where he has proper visibility before committing himself to entering the new road. Consideration must always be given to safety.\nNote: Failing to comply with the requirement to stop at a stop sign or give way sign will result in the loss of 4 points.\n(Página 124 del manual 'Learning to drive')\n"
+      "help": "5 Vertical Signs        \n     \n5.3 Regulation road signs  \n5.3.2 ‘Priority’ signs\nR-2 Stop\nObligation for all drivers to stop their vehicle before the stop-line or, if one is not on the road surface or visible, immediately before the junction, giving way to vehicles that travel on the road they are approaching.  \n(Página 124 del manual 'Learning to drive')\n\n5 Vertical Signs        \n     \n5.3 Regulation road signs  \n5.3.2 ‘Priority’ signs\nR-2 Stop\nIf, for exceptional circumstances, a driver stops in a place where there is not enough visibility, the driver must re-stop in a place where he has proper visibility before committing himself to entering the new road. Consideration must always be given to safety.\nNote: Failing to comply with the requirement to stop at a stop sign or give way sign will result in the loss of 4 points.\n(Página 124 del manual 'Learning to drive')\n",
+      "selected_letter": "A",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.sign",
+        "signs.markings"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, cuando no se invade un cruce de vías.\nYes, but without crossing into a junction.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, hasta 25 metros.\nYes, up to 25 metres.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, está prohibido.\nNo, it is prohibited.",
+          "correct": false
+        }
+      ],
+      "image_url": "e486e425-e73d-47ad-800e-196274e380cbM.jpg",
+      "number": "10.",
+      "question": "Si su vehículo está estacionado en batería, ¿está permitido circular marcha atrás para incorporarse a la circulación?\nIf your vehicle is bay parked, can you reverse to join traffic?",
+      "source_ordinal": 10,
+      "question_id": "exam:1080:10",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q10.jpg",
+      "help": "Maneouvres        \n \n8 Reversing\nAs a general rule, reversing backwards is prohibited. However, as an exception it is permissible (but only when travelling a minimum distance backwards – in reverse gear), in the following two cases:\nWhen reversing forms part of one of the following manoeuvre, parking, stopping or joining the traffic flow. In this instance the distance travelled in reverse gear must not be further than 15 metres and you must not invade a junction.\n(Página 195 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.merging",
+        "driving.reversing",
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "100 kilómetros por hora.\n100 kilometres per hour.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "80 kilómetros por hora.\n80 kilometres per hour.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "70 kilómetros por hora.\n70 kilometres per hour.",
+          "correct": false
+        }
+      ],
+      "image_url": "f16c9cad-e15b-4401-972b-01f5e1ccbbe1M.jpg",
+      "number": "11.",
+      "question": "En esta vía, la velocidad máxima permitida a un turismo con remolque es...\nThe maximum speed permitted for a car pulling a trailer on this road is...",
+      "source_ordinal": 11,
+      "question_id": "exam:1080:11",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q11.jpg",
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Por la izquierda para poder ver a los vehículos de frente y no ser sorprendido por estos.\nOn the left to see vehicles ahead and not be surprised by them.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Siempre por la izquierda.\nAlways on the left.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Siempre por la derecha.\nAlways on the right.",
+          "correct": true
+        }
+      ],
+      "image_url": "a6fed6e9-287c-46fd-ab6a-e0d67037cac1M.jpg",
+      "number": "12.",
+      "question": "La persona que empuje un ciclomotor de dos ruedas, ¿por dónde circulará fuera de poblado?\nWhere should a person pushing a two-wheeled moped walk outside a populated area?",
+      "source_ordinal": 12,
+      "question_id": "exam:1080:12",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q12.jpg",
+      "help": "(Página 56 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "source_note": "Source help contains only a manual page reference. Equivalent previously source-confirmed interurban moped-pushing question states the right-hand side.",
+      "selected_letter": "C",
+      "primary_topic_id": "vehicle.motorcycles",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "utilizar en todo momento el aire acondicionado.\nto use air conditioning at all times.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "circular con las ventanillas subidas.\nto drive with the windows up.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "circular con las ventanillas bajadas.\nto drive with the windows down.",
+          "correct": false
+        }
+      ],
+      "image_url": "a1104861-721f-4097-aa3c-80a0f5e901d9M.jpg",
+      "number": "13.",
+      "question": "Para ahorrar combustible es recomendable...\nTo save fuel, it is recommended...",
+      "source_ordinal": 13,
+      "question_id": "exam:1080:13",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q13.jpg",
+      "help": "Journeys and defensive and efficient driving\n \n10 Factors affecting consumption\n10.1 Air resistance\nDriving with the windows lowered increases resistance to the vehicle in motion, increasing consumption (this may be increased by up to 5%).\nIt is better to ventilate the vehicle by using a suitable device, designed for the circulation of air.\nTowing a trailer or caravan, especially if it exceeds the height or width of the towing vehicle, consumes more fuel. The use of deflectors is recommended in order to aid resistance and save fuel.\n(Página 277 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "routine.ecodriving",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.ecodriving"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "acepte un mayor nivel de riesgo en la conducción.\naccepting a higher level of risk when driving.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "disminuya el tiempo de reacción.\nreduced reaction time.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "acepte un menor nivel de riesgo en la conducción.\naccepting a lower level of risk when driving.",
+          "correct": false
+        }
+      ],
+      "image_url": "2a99479c-3c9f-4862-a534-b187e2958985M.jpg",
+      "number": "14.",
+      "question": "El sueño al volante puede hacer que...\nDriving whilst drowsy can result in...",
+      "source_ordinal": 14,
+      "question_id": "exam:1080:14",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q14.jpg",
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES\n \n11.1 Causes of drowsiness\nAffects the drivers perception of the surrounding area. The vision becomes blurred and the ability to perceive the surroundings is altered. It is more difficult to focus the eye and the eyes become fatigued. In addition, there is an increase in sensitivity to glare.\nCauses changes in behaviour (anxiety, hostility etc.) and makes the driver liable to take more risks.\n(Página 40 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.fatigue"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "45 km/h.\n45 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "70 km/h.\n70 km/h.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "100 km/h.\n100 km/h.",
+          "correct": false
+        }
+      ],
+      "image_url": "0b091a1a-3bd4-4123-bfab-97619b3dcea9M.jpg",
+      "number": "15.",
+      "question": "¿Cuál es la velocidad máxima para un cuadriciclo pesado?\nWhat is the maximum speed for a heavy quadricycle?",
+      "source_ordinal": 15,
+      "question_id": "exam:1080:15",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q15.jpg",
+      "help": "5 Generic speed      \n     \n5.1 Maximum speed limits on interurban roads     \n5.1.3 Other maximum speed limits outside of built-upareas\nBuses in which passengers travel standing up because it is authorised and buses that are not equipped with seat belts: 80 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycles: 70 km/h.\n(Página 173 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds",
+        "vehicle.classification"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Haciéndoles exageradas y estridentes señales acústicas.\nUsing clear and loud sound signals.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Invitándoles por señas a que crucen la calzada.\nInviting them to cross the roads with signals.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Prestando atención a los peatones que circulen hablando por el móvil.\nPaying attention to pedestrians talking on their mobile phone.",
+          "correct": true
+        }
+      ],
+      "image_url": "dc33d133-3b94-469a-9aef-03bca0c218cdM.jpg",
+      "number": "16.",
+      "question": "¿Cómo se puede evitar el atropello a peatones?\nHow can pedestrian collisions be avoided?",
+      "source_ordinal": 16,
+      "question_id": "exam:1080:16",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q16.jpg",
+      "help": "Road traffic collisions        \n         \nRISK GROUPS        \n5 Pedestrians  \n5.3 Recommendations to drivers\nModerate the speed, especially in built up areas. Driving over 50 kilometres per hour is deadly.\nUse extreme caution when approaching places frequented by pedestrians (areas where pedestrians cross, bus stops, especially near areas for school transport, etc.) Also, when approaching stationary vehicles, especially when people are still inside them. It is possible that the occupants will open the door and get out.\nPay special attention to pedestrians who are talking on the phone, since in many cases they are not paying attention to the traffic.\nWatch out for pedestrians on (or near) the road or near places of celebration or entertainment.\nExercise extreme care at the exits to garages, especially if there is a ramp. Drivers should reduce speed and ensure that there is no danger to any pedestrian.\n(Página 252 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.distraction"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A la máxima de la vía.\nThe road's maximum speed limit.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A velocidad adecuada a la vía.\nA speed suitable for the road.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "A la mínima de la vía.\nThe road's minimum limit.",
+          "correct": false
+        }
+      ],
+      "image_url": "80c31472-90cb-4c5d-ad8c-9837d7cd5a81M.jpg",
+      "number": "17.",
+      "question": "El conductor de un vehículo que se incorpore a una vía mediante un carril de aceleración, ¿a qué velocidad debe hacerlo?\nAt what speed should a vehicle joining a road via an acceleration lane travel?",
+      "source_ordinal": 17,
+      "question_id": "exam:1080:17",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q17.jpg",
+      "help": "Maneouvres    \n   \n3 Joining the traffic flow  \n3.2.3 Execution\nIf a vehicle joins the traffic stream, using an acceleration lane, then their speed should be adapted, to a suitable speed that allows them to fit into the flow of traffic.\nIf there is a need to stop on the acceleration lane, because it is not possible to fit into the traffic stream, and the driver needs to give-way to the traffic on the road he wishes to join, then he should wait at the beginning of the acceleration lane.\nThis allows the vehicle to build up the necessary speed, using all the length of the acceleration lane, when a suitable opportunity becomes available.\nRemember: Sometimes, it is sensible to build up the speed on the acceleration lane in order than you can join the principle road ahead of the vehicles using it.\n(Página 185 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.merging",
+        "speed.adaptation"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "solo se puede pagar con tarjeta.\nyou can only pay by card.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "se puede pagar mediante el sistema de telepeaje o en metálico.\nyou can pay either using the electronic toll system or cash.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "es obligatorio efectuar el pago del peaje mediante el sistema de peaje dinámico o telepeaje.\nit is compulsory to pay the toll using the dynamic or electronic toll system.",
+          "correct": true
+        }
+      ],
+      "image_url": "7ea73a10-c2c0-40c2-91b8-7f00a70cb050M.jpg",
+      "number": "18.",
+      "question": "Esta señal indica que...\nThis sign means...",
+      "source_ordinal": 18,
+      "question_id": "exam:1080:18",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q18.jpg",
+      "help": "5 Vertical Signs                                            \n                                         \n5.3 Regulation road signs          \n5.3.6 Obligation road signs  \nR-418 Road reserved for vehicles equipped with a telepass system\nVehicles travelling in the lane or lanes indicated must be equipped with a telepass (telepeaje) device and must use this system to pay the toll. (The device must be in working order.).\n(Página 129 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "signs.mandatory",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.mandatory"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí.\nYes.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "No, solo dependen de la cantidad y el tipo de alcohol ingerido.\nIt depends on the type and amount of alcohol ingested.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, el alcohol solo afecta a las características físicas.\nNo, alcohol only affects physical characteristics.",
+          "correct": false
+        }
+      ],
+      "image_url": "678edb01-a379-4142-8e25-c47f10b4f9ceM.jpg",
+      "number": "19.",
+      "question": "Las circunstancias personales como el estrés, ¿pueden influir en los efectos del alcohol?\nCan personal circumstances such as stress influence the effects of alcohol?",
+      "source_ordinal": 19,
+      "question_id": "exam:1080:19",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q19.jpg",
+      "help": "ALCOHOL AND OTHER DRUGS    \n     \n16.1 Factors affecting alcohol limits\nPersonal circumstances. Personal circumstances, such as fatigue, stress, pregnancy or certain diseases, may enhance the negative effects of alcohol.\nGiven all these factors, it is very difficult to predict whether a driver is going to give a positive response to testing after consuming alcohol. In fact, the only way to find out what the BAC of a driver is to use a special device specifically for that purpose, such as an breathalyzer.\n(Página 42 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.alcohol",
+        "routine.emotions"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que va a seguir de frente.\nThat they will continue forwards.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Que va a girar a la derecha.\nThat they will turn right.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Que va a girar a la izquierda.\nThat they will turn left.",
+          "correct": false
+        }
+      ],
+      "image_url": "cde360e9-c532-4b61-9b1c-9dda3b67fa07M.jpg",
+      "number": "20.",
+      "question": "¿Qué está indicando este conductor?\nWhat is this driver indicating?",
+      "source_ordinal": 20,
+      "question_id": "exam:1080:20",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q20.jpg",
+      "selected_letter": "B",
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nAll sideways movements, change of direction or ‘U’ turns must be warned of by the following means:\nUsing the directional indicator (lighting signal) that corresponds to the direction that the vehicle will be turning, or\nWith the arm horizontally extended and the palm of the hand indicating that the movement (change of course) is towards the side shown –i.e. left (for a left hand drive car –this is the correct method of indicating a movement to the left).\nWith the arm horizontally extended and bent upwards, and with the palm of the hand facing upwards and indicating that the movement (change of course) is to the opposite side –normally to the right. (Again this is normal practise for a left hand drive car / motor vehicle).\n(Página 183 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "driving.turns",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.turns"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "En el lado derecho o izquierdo, si se realiza fuera de la calzada y del arcén.\nOn the right or left side, if off the road and the hard shoulder.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Solo en las zonas habilitadas para ello.\nOnly in the areas designated for this purpose.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Fuera de la calzada, en el lado derecho, dejando libre la parte transitable del arcén.\nOff the road, on the right-hand side, leaving the passable part of the hard shoulder free.",
+          "correct": false
+        }
+      ],
+      "image_url": "a229c59c-bb9d-43f3-9454-7bbac89f9d7fM.jpg",
+      "number": "21.",
+      "question": "En esta autopista, ¿dónde está permitido estacionar?\nOn this motorway, where is parking allowed?",
+      "source_ordinal": 21,
+      "question_id": "exam:1080:21",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q21.jpg",
+      "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nOn tramlines or so close to them that it affects their circulation.\nIn places when visibility of signalling is prevented to users who are affected or obligated to perform manoeuvres.\nOn motorways and dual carriageways – except in places authorised.\n(Página 199 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "signs.parking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.parking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "debe seguir una de las direcciones y sentidos que señalan las flechas.\nyou must follow one of the directions indicated by the arrows.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "las únicas direcciones aconsejadas son seguir de frente o girar a la derecha.\nthe only recommended directions are to continue forward or turn to the right.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "a su altura puede realizar un cambio de sentido de la marcha a la derecha.\nwhen reached, there can be a change of direction to the right.",
+          "correct": false
+        }
+      ],
+      "image_url": "99a637d4-c17b-44bf-8a2c-77c47db0a04fM.jpg",
+      "number": "22.",
+      "question": "Esta señal indica que...\nThis sign means...",
+      "source_ordinal": 22,
+      "question_id": "exam:1080:22",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q22.jpg",
+      "help": "5 Vertical Signs                                      \n                                   \n5.3 Regulation road signs    \n5.3.6 Obligation road signs  \nR-403a, b and c Only direction permitted to travel\nThe arrows indicate the only directions and movements that vehicles may take. They prohibit U-turns.\n(Página 128 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "signs.mandatory",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.mandatory"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "aumentar su tiempo de reacción.\nto increase their reaction time.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "relajar su atención.\nto relax their attention.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "actuar mejor y más rápido ante cualquier imprevisto.\nto act better and faster in the face of any unforeseen event.",
+          "correct": true
+        }
+      ],
+      "image_url": "4bfe26de-40db-4f96-8498-ad24362f1a95M.jpg",
+      "number": "23.",
+      "question": "Una adecuada posición al volante permite al conductor...\nA suitable position at the steering wheel allows the driver...",
+      "source_ordinal": 23,
+      "question_id": "exam:1080:23",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q23.jpg",
+      "selected_letter": "C",
+      "help": "Accommodation    \n   \n10 Settings  \n10.1 Driving seat adjustment\nThe correct seating positioning, in relation to the steering wheel, enables the driver to respond better and faster. Sitting too close to the steering wheel causes an increase of fatigue, since any movements will be very limited due to the incorrect positioning.\nThis enhances the danger of not being able to react quickly in case of an unexpected occurrence.\n(Página 91 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "vehículos a motor.\nmotor vehicles.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "turismos y motocicletas.\ncars and motorcycles.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "toda clase de vehículos.\nall vehicles.",
+          "correct": false
+        }
+      ],
+      "image_url": "de7f5611-01cd-45a9-bffb-8c7958e89bbdM.jpg",
+      "number": "24.",
+      "question": "La señal prohíbe la entrada a...\nThis sign prohibits entry to...",
+      "source_ordinal": 24,
+      "question_id": "exam:1080:24",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q24.jpg",
+      "help": "5 Vertical Signs                        \n                     \n5.3 Regulation road signs            \n5.3.3 Prohibition of entry signs - ‘No entry’\nR-102 No entry to motor vehicles\nNo entry to motor vehicles.\n(Does not restrict access to mopeds).\n(Página 124 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "A",
+      "primary_topic_id": "signs.restrictions",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.restrictions"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "se considera vehículo a motor.\nare considered motor vehicles.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "tiene la consideración de ciclomotor.\nare considered mopeds.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "no se considera vehículo a motor.\nare not considered motor vehicles.",
+          "correct": true
+        }
+      ],
+      "image_url": "1ec40bb3-43fc-4d59-89c9-c80f7a7f1935M.jpg",
+      "number": "25.",
+      "question": "La bicicleta de pedales con pedaleo asistido…\nPedal-assist bicycles...",
+      "source_ordinal": 25,
+      "question_id": "exam:1080:25",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q25.jpg",
+      "help": "2. Definitions relating to vehicles        \n     \n2.2 Motor Vehicles\nVehicle powered by a motor.\nThis definition excludes mopeds, trams, vehicles for people with reduced mobility, pedal-assist cycles and personal mobility vehicles, because although a motor powers them, they are subject to specific traffic rules.\n(Página 6 del manual 'Learning to drive')\n\n5. Vehicles not considered motor vehicles       \n     \n5.5 Pedal-assist cycle\nCycle, equipped with pedals and an auxiliary electric motor, with a maximum continuous rated power of 250 W or less, whose power reduces gradually and ultimately cuts out before the vehicle’s speed reaches 25 km/h or if the cyclist stops pedalling.  \n5.5.1 Pedal-assist bicycle\nPedal-assist cycle with two wheels.\n(Página 9 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "vehicle.classification",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.classification"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "no se puede marcar desde un teléfono móvil bloqueado.\ncannot be dialled from a locked mobile phone.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "funciona sin disponer de cobertura de la propia operadora.\nworks without having operator coverage.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "es un número de uso exclusivamente nacional.\nis a national number only.",
+          "correct": false
+        }
+      ],
+      "image_url": "7e22c5cc-e76b-4c80-bfcb-513420dd3e85M.jpg",
+      "number": "26.",
+      "question": "El número de emergencias 112...\nThe emergency number 112...",
+      "source_ordinal": 26,
+      "question_id": "exam:1080:26",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q26.jpg",
+      "help_status": "verified_external",
+      "help": "Editorial explanation verified against the official 112 service: an emergency call can use another available operator network when the caller's own network is unavailable. It does not work without any mobile network coverage at all.",
+      "source_note": "No source Ayuda. Verified before answering: https://www.comunidad.madrid/salud/atencion-urgencias-emergencias-sanitarias",
+      "selected_letter": "B",
+      "primary_topic_id": "incidents.emergency_call",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.emergency_call"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Desorientación.\nDisorientation.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Impulsividad.\nImpulsivity.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Somnolencia y pérdida de concentración.\nDrowsiness and loss of concentration.",
+          "correct": true
+        }
+      ],
+      "image_url": "0f75f198-e0fb-469f-ab43-86e4f596126aM.jpg",
+      "number": "27.",
+      "question": "¿Qué efectos puede producir un resfriado en la conducción?\nWhat effects can a cold produce on driving?",
+      "source_ordinal": 27,
+      "question_id": "exam:1080:27",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q27.jpg",
+      "help": "ILLNESS AND MEDICATION  \n   \n19 The consequences of illnesses and drugs in traffic collisions\nTo drive a vehicle requires certain conditions relating to the physical and mental aptitude of the driver to be initially satisfied and thereafter maintained. It is therefore necessary to go to a designated medical centre for drivers who will verify whether there is a serious impediment to the applicant or driver, which will prevent them performing this task safely.\nA mild illness does not have to exclude driving, although it can reduce the ability to drive safely (for example, a common cold can cause sleepiness and loss of concentration). Therefore, you should always ask your doctor about the precautions to be taken before driving, especially if you have a chronic illness.\n(Página 46 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.fatigue",
+        "routine.health"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "el alumbrado de corto alcance y el de largo alcance.\nthe low-beam and the main-beam headlights.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "el alumbrado de corto alcance.\nthe low-beam headlights.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "el alumbrado de corto alcance o el de largo alcance indistintamente.\neither the low-beam or the main-beam headlights.",
+          "correct": false
+        }
+      ],
+      "image_url": "99004a6a-cb1f-4da2-a2b6-057bdec556e0M.jpg",
+      "number": "28.",
+      "question": "Si circula de noche por una vía urbana y no puede ver un vehículo pintado de oscuro a 50 metros, debe utilizar la luz de posición y...\nIf you are driving at night on an urban road and you cannot see a darkpainted vehicle 50 metres away, you must use your position light and…",
+      "source_ordinal": 28,
+      "question_id": "exam:1080:28",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q28.jpg",
+      "selected_letter": "B",
+      "help": "8 Headlights - Low beam / dipped beam / short range\n \n8.2 Use of the low beam headlights\nAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:\nBetween the hours of sunset and sunrise:\n- Inside and outside towns and cities on roads that are sufficiently illuminated.\n- On roads inside town and cities that are insufficiently illuminated.\n(Página 101 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Informar al conductor de una posible colisión con un peatón o vehículo situado en el ángulo muerto.\nIt informs the driver of possible collisions with pedestrians or vehicles located in their blind spot.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Ayudar al conductor a guiar su coche y garantizar que no se salga del carril de manera involuntaria.\nIt helps the driver by guiding the car and guaranteeing that it does not depart from the lane unintentionally.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Ayudar al conductor a mantener una velocidad adecuada al entorno del carril.\nIt helps the driver maintain a suitable speed in the lane.",
+          "correct": false
+        }
+      ],
+      "image_url": "9c0cc5f7-2d86-4163-8051-7a9c638c4f45M.jpg",
+      "number": "29.",
+      "question": "El sistema avanzado de mantenimiento de carril (LKA), ¿qué función tiene?\nWhat does the lane keep assist system (LKA) do?",
+      "source_ordinal": 29,
+      "question_id": "exam:1080:29",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q29.jpg",
+      "help": "DRIVING ASSIST SYSTEMS  \n   \n15 Lane Keep Assist (LKA)\nThe system controls the direction of the vehicle to keep it inside the lane, preventing it from drifting outside the lane if the driver is distracted or drowsy. Together with the LDW system, it monitors the vehicle’s position with respect to the lines delimiting the lane along which it is travelling. If the vehicle leaves, or is about to leave, the lane and the indicators have not been activated, it gently steers the vehicle back to the correct position.\n(Página 93 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "B",
+      "primary_topic_id": "vehicle.adas",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.adas",
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "El sistema de monitorización de la disponibilidad del conductor.\nThe driver availability monitoring system.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "El sistema registrador de datos de incidencias (EDR).\nThe event data recorder system (EDR).",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "El sistema de advertencia de somnolencia y distracción (DDR).\nThe driver distraction and drowsiness system (DDR).",
+          "correct": true
+        }
+      ],
+      "image_url": "9b5e3f59-d90d-44b4-a256-dfd668d6d482M.jpg",
+      "number": "30.",
+      "question": "¿Qué sistema avanzado de asistencia a la conducción (ADAS) evalúa el estado de alerta del conductor y le avisa en caso necesario?\nWhich advanced driver assistance system (ADAS) assesses the driver's alertness and warns the driver if necessary?",
+      "source_ordinal": 30,
+      "question_id": "exam:1080:30",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "local_image": "exam-1080-q30.jpg",
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES  \n   \n13 Driver Distraction and Drowsiness Recognition (DDR)\nThe system assesses the driver’s level of attention in situations where he/she may lose concentration at the wheel, because of fatigue, sleepiness or other reasons.\nThe system monitors several aspects of the driver’s face, including how open his/her eyes are. It also analyses driving patterns and the driver’s reactions, combining them with driving speed data, the time and the use of indicators. If it detects that the driver is tired, it warns him/her by an acoustic or visual alert (displaying a coffee cup on the dashboard) or by making the steering wheel or seat vibrate, indicating the need for a break.\n(Página 40 del manual 'Learning to drive')\n",
+      "help_status": "captured",
+      "selected_letter": "C",
+      "primary_topic_id": "vehicle.adas",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.distraction",
+        "routine.fatigue",
+        "vehicle.adas"
+      ]
     }
-  ]
+  ],
+  "source_result": {
+    "correct": 30,
+    "wrong": 0,
+    "unanswered": 0
+  },
+  "deferred_ordinals": []
 }

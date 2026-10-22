@@ -34,10 +34,10 @@
       "local_image": "exam-1023-q01.jpg",
       "verification_note": "Official BOE 2025 road markings rule expressly exempts vehicles obliged to use hard shoulder from hatched area exclusion. Image shows moped following shoulder. https://www.boe.es/eli/es/rd/2025/06/10/465/dof/spa/pdf",
       "selected_letter": "B",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
-        "driving.lanes",
-        "vehicle.motorcycles"
+        "signs.markings"
       ]
     },
     {
@@ -69,8 +69,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q02.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "routine.health"
       ]
     },
     {
@@ -102,8 +104,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q03.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "incidents.statistics",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.classification"
+        "incidents.statistics"
       ]
     },
     {
@@ -135,10 +139,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q04.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "priority.general",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.lights",
-        "driving.parking",
-        "driving.pedestrians"
+        "priority.general"
       ]
     },
     {
@@ -170,8 +174,9 @@
       "help_status": "captured",
       "local_image": "exam-1023-q05.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
-        "incidents.scene",
         "routine.alcohol"
       ]
     },
@@ -204,10 +209,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q06.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.distances",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking",
-        "driving.braking",
-        "vehicle.visibility"
+        "numbers.distances"
       ]
     },
     {
@@ -239,12 +244,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q07.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "priority.cyclists",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.cyclists",
-        "priority.general",
-        "driving.lanes",
-        "driving.pedestrians",
-        "documents.permissions"
+        "priority.cyclists"
       ]
     },
     {
@@ -276,10 +279,9 @@
       "help_status": "captured",
       "local_image": "exam-1023-q08.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.passengers",
-        "vehicle.motorcycles",
-        "incidents.scene",
         "routine.helmets"
       ]
     },
@@ -312,11 +314,11 @@
       "help_status": "captured",
       "local_image": "exam-1023-q09.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
         "priority.tram",
-        "driving.weather",
-        "vehicle.lights",
-        "vehicle.visibility"
+        "vehicle.lights"
       ]
     },
     {
@@ -348,10 +350,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q10.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
-        "driving.lanes",
-        "documents.permissions"
+        "driving.parking"
       ]
     },
     {
@@ -383,9 +385,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q11.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "priority.officer",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.officer",
-        "driving.weather"
+        "priority.officer"
       ]
     },
     {
@@ -417,10 +420,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q12.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.weather",
-        "driving.braking",
-        "vehicle.visibility",
         "vehicle.tyres"
       ]
     },
@@ -453,6 +456,8 @@
       "help_status": "captured",
       "local_image": "exam-1023-q13.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.visibility",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.visibility"
       ]
@@ -486,9 +491,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q14.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking",
-        "documents.permissions"
+        "driving.overtaking"
       ]
     },
     {
@@ -520,10 +526,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q15.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights",
-        "vehicle.motorcycles",
-        "vehicle.classification"
+        "vehicle.lights"
       ]
     },
     {
@@ -555,8 +561,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q16.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights"
+        "routine.distraction"
       ]
     },
     {
@@ -588,6 +596,8 @@
       "help_status": "captured",
       "local_image": "exam-1023-q17.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.fatigue"
       ]
@@ -621,8 +631,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q18.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions"
+        "speed.adaptation"
       ]
     },
     {
@@ -654,10 +666,9 @@
       "help_status": "captured",
       "local_image": "exam-1023-q19.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.passengers",
-        "vehicle.motorcycles",
-        "vehicle.classification",
         "routine.helmets"
       ]
     },
@@ -690,8 +701,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q20.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.motorcycles",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes"
+        "vehicle.motorcycles"
       ]
     },
     {
@@ -723,6 +736,8 @@
       "help_status": "captured",
       "local_image": "exam-1023-q21.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.lights"
       ]
@@ -756,9 +771,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q22.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.lanes",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.weather"
+        "signs.lanes"
       ]
     },
     {
@@ -790,6 +806,8 @@
       "help_status": "captured",
       "local_image": "exam-1023-q23.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "numbers.dimensions",
+      "classification_review_required": false,
       "topic_ids": [
         "numbers.dimensions",
         "vehicle.cargo"
@@ -824,9 +842,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q24.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.parking",
-        "driving.parking"
+        "signs.parking"
       ]
     },
     {
@@ -858,10 +877,11 @@
       "help_status": "captured",
       "local_image": "exam-1023-q25.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "priority.sign",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.parking",
-        "vehicle.visibility",
-        "incidents.towing"
+        "priority.sign"
       ]
     },
     {
@@ -893,8 +913,9 @@
       "help_status": "captured",
       "local_image": "exam-1023-q26.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "routine.alcohol"
       ]
     },
@@ -927,10 +948,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q27.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.parking",
-        "driving.braking"
+        "vehicle.tyres"
       ]
     },
     {
@@ -962,12 +983,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q28.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.overtaking",
-        "driving.pedestrians",
-        "vehicle.passengers",
-        "vehicle.motorcycles"
+        "driving.overtaking"
       ]
     },
     {
@@ -999,8 +1018,9 @@
       "help_status": "captured",
       "local_image": "exam-1023-q29.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "routine.alcohol"
       ]
     },
@@ -1033,9 +1053,10 @@
       "help_status": "captured",
       "local_image": "exam-1023-q30.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "documents.permissions"
+        "driving.lanes"
       ]
     }
   ]

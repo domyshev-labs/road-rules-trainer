@@ -71,6 +71,7 @@ func (app *App) routes() {
 	app.mux.HandleFunc("POST /api/auth/verify-code", app.verifyCode)
 	app.mux.Handle("GET /api/auth/me", app.requireUser(http.HandlerFunc(app.me)))
 	app.mux.Handle("POST /api/auth/logout", app.requireUser(http.HandlerFunc(app.logout)))
+	app.mux.Handle("GET /api/questions/progress", app.requireUser(http.HandlerFunc(app.questionKnowledge)))
 	app.mux.Handle("GET /api/topics/progress", app.requireUser(http.HandlerFunc(app.topicSummaries)))
 	app.mux.Handle("GET /api/topics/{topicID}", app.requireUser(http.HandlerFunc(app.topic)))
 	app.mux.Handle("POST /api/topics/{topicID}/answers", app.requireUser(http.HandlerFunc(app.answerTopic)))
@@ -294,7 +295,7 @@ func (app *App) test(w http.ResponseWriter, r *http.Request) {
 		app.writeError(w, http.StatusNotFound, "Билет не найден")
 		return
 	}
-	rows, err := app.db.Query(`SELECT q.id,q.ordinal,q.number,c.prompt,c.help_en,c.help_es,c.help_ru,q.image_path,a.letter,a.text FROM questions q JOIN question_memberships m ON m.question_id=q.id JOIN question_contents c ON c.id=m.content_id JOIN answers a ON a.question_id=q.id WHERE q.test_id=? ORDER BY q.ordinal,a.letter`, testID)
+	rows, err := app.db.Query(`SELECT q.id,q.ordinal,q.number,c.id,c.prompt,c.help_en,c.help_es,c.help_ru,q.image_path,a.letter,a.text FROM questions q JOIN question_memberships m ON m.question_id=q.id JOIN question_contents c ON c.id=m.content_id JOIN answers a ON a.question_id=q.id WHERE q.test_id=? ORDER BY q.ordinal,a.letter`, testID)
 	if err != nil {
 		app.serverError(w, err)
 		return
@@ -306,14 +307,14 @@ func (app *App) test(w http.ResponseWriter, r *http.Request) {
 	var currentQuestion map[string]any
 	for rows.Next() {
 		var id, ordinal int
-		var number, prompt, en, es, ru, image, letter, answerText string
-		if err := rows.Scan(&id, &ordinal, &number, &prompt, &en, &es, &ru, &image, &letter, &answerText); err != nil {
+		var number, contentID, prompt, en, es, ru, image, letter, answerText string
+		if err := rows.Scan(&id, &ordinal, &number, &contentID, &prompt, &en, &es, &ru, &image, &letter, &answerText); err != nil {
 			app.serverError(w, err)
 			return
 		}
 		if ordinal != currentOrdinal {
 			currentOrdinal = ordinal
-			currentQuestion = map[string]any{"number": number, "question": prompt, "answers": make([]map[string]string, 0, 3), "help": en, "image_url": image, "local_image": image}
+			currentQuestion = map[string]any{"canonical_id": contentID, "number": number, "question": prompt, "answers": make([]map[string]string, 0, 3), "help": en, "image_url": image, "local_image": image}
 			questions = append(questions, currentQuestion)
 			translations[strconv.Itoa(ordinal)] = map[string]string{"en": en, "es": es, "ru": ru}
 		}
@@ -690,6 +691,9 @@ func (app *App) securityHeaders(next http.Handler) http.Handler {
 		w.Header().Set("X-Content-Type-Options", "nosniff")
 		w.Header().Set("Referrer-Policy", "same-origin")
 		w.Header().Set("X-Frame-Options", "DENY")
+		if strings.HasPrefix(r.URL.Path, "/api/") {
+			w.Header().Set("Cache-Control", "no-store")
+		}
 		next.ServeHTTP(w, r)
 	})
 }

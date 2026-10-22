@@ -1,0 +1,675 @@
+{
+  "9d5ec06ea5105d8a5de632f9": {
+    "primary_topic_id": "driving.pedestrians",
+    "topic_ids": [
+      "driving.pedestrians"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "89e0cae27ff26a6892bbf2f1": {
+    "primary_topic_id": "driving.pedestrians",
+    "topic_ids": [
+      "driving.pedestrians"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "da15d52ec526c719ba6f1aae": {
+    "primary_topic_id": "driving.pedestrians",
+    "topic_ids": [
+      "driving.pedestrians"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "cc4a4b4f280d0daa077d84c6": {
+    "primary_topic_id": "driving.pedestrians",
+    "topic_ids": [
+      "driving.pedestrians"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "2da21699b680af089d809eb6": {
+    "primary_topic_id": "driving.pedestrians",
+    "topic_ids": [
+      "driving.pedestrians"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "042bd1dd2a8b170784bcba62": {
+    "primary_topic_id": "vehicle.cargo",
+    "topic_ids": [
+      "vehicle.cargo"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "869eaa1a9d95a80c4ee55f51": {
+    "primary_topic_id": "vehicle.tyres",
+    "topic_ids": [
+      "vehicle.tyres"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "56b1770c69774108f39dac01": {
+    "primary_topic_id": "vehicle.tyres",
+    "topic_ids": [
+      "vehicle.tyres"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "8b6b8aa4ac73e944c83789c1": {
+    "primary_topic_id": "vehicle.tyres",
+    "topic_ids": [
+      "vehicle.tyres"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "0a3f8fb2412275aa1fed8885": {
+    "primary_topic_id": "vehicle.tyres",
+    "topic_ids": [
+      "vehicle.tyres"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "b16c5f7e0bb7dd9210f75336": {
+    "primary_topic_id": "vehicle.tyres",
+    "topic_ids": [
+      "vehicle.tyres"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "69dee8c1fa9e6fb6084ce720": {
+    "primary_topic_id": "vehicle.tyres",
+    "topic_ids": [
+      "vehicle.tyres"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "0e8736d43a8ac332832f0caf": {
+    "primary_topic_id": "routine.fatigue",
+    "topic_ids": [
+      "routine.fatigue"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "7adb696e907d9f9bdaaf4048": {
+    "primary_topic_id": "routine.fatigue",
+    "topic_ids": [
+      "routine.fatigue"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "a2dec5e28ca7471d6616f681": {
+    "primary_topic_id": "routine.fatigue",
+    "topic_ids": [
+      "routine.fatigue"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "623edbf2a62ada5074f19999": {
+    "primary_topic_id": "vehicle.mechanics",
+    "topic_ids": [
+      "vehicle.mechanics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "2d6bc219c10f06f3d8dca6f4": {
+    "primary_topic_id": "vehicle.mechanics",
+    "topic_ids": [
+      "vehicle.mechanics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "8d84147cf353e92fedaa2f90": {
+    "primary_topic_id": "vehicle.mechanics",
+    "topic_ids": [
+      "vehicle.mechanics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "56a8b4cc51141d3d2ec425df": {
+    "primary_topic_id": "vehicle.mechanics",
+    "topic_ids": [
+      "vehicle.mechanics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "72cf93d148c7f3fe8417acb6": {
+    "primary_topic_id": "vehicle.mechanics",
+    "topic_ids": [
+      "vehicle.mechanics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "21895c5b04b99dae43e8690f": {
+    "primary_topic_id": "vehicle.mechanics",
+    "topic_ids": [
+      "vehicle.mechanics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "401ccffe947f9d0a011bd8e5": {
+    "primary_topic_id": "routine.safety",
+    "topic_ids": [
+      "routine.safety"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "2127b7e9ac5b3ce5b02c4407": {
+    "primary_topic_id": "routine.safety",
+    "topic_ids": [
+      "routine.safety"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "24c73ff23389d184df11b6bc": {
+    "primary_topic_id": "routine.safety",
+    "topic_ids": [
+      "routine.safety"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "dbac1f3269876d021204f4ea": {
+    "primary_topic_id": "routine.safety",
+    "topic_ids": [
+      "routine.safety"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "eeba9ba6013220cbd0176aad": {
+    "primary_topic_id": "driving.turns",
+    "topic_ids": [
+      "driving.turns"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "d2460b547bdceeb88f3799a1": {
+    "primary_topic_id": "vehicle.visibility",
+    "topic_ids": [
+      "vehicle.visibility"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "c211cb7452b16b2f8996b73b": {
+    "primary_topic_id": "incidents.statistics",
+    "topic_ids": [
+      "incidents.statistics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "376f42283ddcb483dc75a3a0": {
+    "primary_topic_id": "incidents.statistics",
+    "topic_ids": [
+      "incidents.statistics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "aa29e499b735851dd71662af": {
+    "primary_topic_id": "incidents.statistics",
+    "topic_ids": [
+      "incidents.statistics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "cb1db0c1b41078595717a66c": {
+    "primary_topic_id": "incidents.statistics",
+    "topic_ids": [
+      "incidents.statistics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "792a3c8a1f920115adcca312": {
+    "primary_topic_id": "incidents.statistics",
+    "topic_ids": [
+      "incidents.statistics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "9a0eb713ec8e5161c42f8008": {
+    "primary_topic_id": "incidents.statistics",
+    "topic_ids": [
+      "incidents.statistics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "99eae7262060ffeed29be656": {
+    "primary_topic_id": "incidents.statistics",
+    "topic_ids": [
+      "incidents.statistics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "37e28ec86fc1728d986441d9": {
+    "primary_topic_id": "signs.vehicle_plates",
+    "topic_ids": [
+      "signs.vehicle_plates"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "68e439b208aaf57b43483181": {
+    "primary_topic_id": "signs.vehicle_plates",
+    "topic_ids": [
+      "signs.vehicle_plates"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "ae40175f7fadf1b606834cc4": {
+    "primary_topic_id": "vehicle.classification",
+    "topic_ids": [
+      "vehicle.classification"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "b1455b8cd70bd9e346fd5239": {
+    "primary_topic_id": "vehicle.classification",
+    "topic_ids": [
+      "vehicle.classification"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "6335cb3fbd506f642ddba5b6": {
+    "primary_topic_id": "vehicle.classification",
+    "topic_ids": [
+      "vehicle.classification"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "d9cd28278eb7e7d1960e9e7d": {
+    "primary_topic_id": "speed.adaptation",
+    "topic_ids": [
+      "speed.adaptation"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "3db5f9104c10fa9aef83b8dd": {
+    "primary_topic_id": "speed.adaptation",
+    "topic_ids": [
+      "speed.adaptation"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "be2750b520a5144f4584a503": {
+    "primary_topic_id": "speed.adaptation",
+    "topic_ids": [
+      "speed.adaptation"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "ac93db197e633c2036734fab": {
+    "primary_topic_id": "speed.adaptation",
+    "topic_ids": [
+      "speed.adaptation"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "07aa230ac2946516140bd45a": {
+    "primary_topic_id": "speed.adaptation",
+    "topic_ids": [
+      "speed.adaptation"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "953a6a70a41f0ddd5f968366": {
+    "primary_topic_id": "speed.adaptation",
+    "topic_ids": [
+      "speed.adaptation"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "0de379452ca68304e8c23acc": {
+    "primary_topic_id": "driving.lanes",
+    "topic_ids": [
+      "driving.lanes"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "0159c4fa0799d2607a15c729": {
+    "primary_topic_id": "driving.lanes",
+    "topic_ids": [
+      "driving.lanes"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "abe9924181aa113b0c3c259a": {
+    "primary_topic_id": "driving.lanes",
+    "topic_ids": [
+      "driving.lanes"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "79c8626d9526bc4636eb3575": {
+    "primary_topic_id": "documents.registration",
+    "topic_ids": [
+      "documents.registration"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "df49979ba5becc3879c3d69b": {
+    "primary_topic_id": "documents.insurance",
+    "topic_ids": [
+      "documents.insurance"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "6eee55bede68e9806d9e8c3a": {
+    "primary_topic_id": "documents.insurance",
+    "topic_ids": [
+      "documents.insurance"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "74572236f874a3fe8e858a9d": {
+    "primary_topic_id": "incidents.scene",
+    "topic_ids": [
+      "incidents.scene"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "6404fef4b2583719f30eb577": {
+    "primary_topic_id": "incidents.scene",
+    "topic_ids": [
+      "incidents.scene"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "471ed772ecc3def65414a110": {
+    "primary_topic_id": "incidents.scene",
+    "topic_ids": [
+      "incidents.scene"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "e14390b0508bcb9316a93de5": {
+    "primary_topic_id": "incidents.scene",
+    "topic_ids": [
+      "incidents.scene"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "e80f6fc51e995bba8a75150e": {
+    "primary_topic_id": "incidents.scene",
+    "topic_ids": [
+      "incidents.scene"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "9ac3de1e4e720bc65de361a0": {
+    "primary_topic_id": "signs.warning",
+    "topic_ids": [
+      "signs.warning"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "62b26c21a0e0423970ea9cc1": {
+    "primary_topic_id": "signs.warning",
+    "topic_ids": [
+      "signs.warning"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "3c7831b76c70cfb19b1aa8d6": {
+    "primary_topic_id": "priority.narrow",
+    "topic_ids": [
+      "priority.narrow"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "6764a09ea02e77f524f7d49f": {
+    "primary_topic_id": "incidents.emergency_call",
+    "topic_ids": [
+      "incidents.emergency_call"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "5014d5193ed9764196e41a02": {
+    "primary_topic_id": "vehicle.lights",
+    "topic_ids": [
+      "vehicle.lights"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "1e83444f8ce70cfb8decc4aa": {
+    "primary_topic_id": "vehicle.lights",
+    "topic_ids": [
+      "vehicle.lights"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "dad5d000b042a34602ee4de2": {
+    "primary_topic_id": "transport.animals",
+    "topic_ids": [
+      "transport.animals"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "8198958f619bec1529f7ccfa": {
+    "primary_topic_id": "transport.animals",
+    "topic_ids": [
+      "transport.animals"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "180d504d59ac10b6b8c12727": {
+    "primary_topic_id": "transport.animals",
+    "topic_ids": [
+      "transport.animals"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "204ff15660311bf4c1f440a1": {
+    "primary_topic_id": "transport.animals",
+    "topic_ids": [
+      "transport.animals"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "a2342f13db5663b02f493a10": {
+    "primary_topic_id": "transport.animals",
+    "topic_ids": [
+      "transport.animals"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "dae06868d3ce97d6ba434c53": {
+    "primary_topic_id": "transport.animals",
+    "topic_ids": [
+      "transport.animals"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "94b00632297cfd05ce64f7eb": {
+    "primary_topic_id": "driving.weather",
+    "topic_ids": [
+      "driving.weather"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "ef6a6b0274c80d5ab1f41c83": {
+    "primary_topic_id": "incidents.first_aid",
+    "topic_ids": [
+      "incidents.first_aid"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "ba52b217225a56f6348604d0": {
+    "primary_topic_id": "incidents.first_aid",
+    "topic_ids": [
+      "incidents.first_aid"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "8cd2d7392b7801ce459a0ed2": {
+    "primary_topic_id": "incidents.first_aid",
+    "topic_ids": [
+      "incidents.first_aid"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "b00e6d81929800eab6596d0a": {
+    "primary_topic_id": "signs.information",
+    "topic_ids": [
+      "signs.information"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "464e9163de264eed38aaf532": {
+    "primary_topic_id": "vehicle.motorcycles",
+    "topic_ids": [
+      "vehicle.motorcycles"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "126ee9b6d4f66aef6444a9b0": {
+    "primary_topic_id": "eco.environment",
+    "topic_ids": [
+      "eco.environment"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "9162a8fc2225ab4be7fd612e": {
+    "primary_topic_id": "signs.markings",
+    "topic_ids": [
+      "signs.markings"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "ce2fff3b97d2dc424cbb4f37": {
+    "primary_topic_id": "routine.ergonomics",
+    "topic_ids": [
+      "routine.ergonomics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "65799e85fd21a8e40ac90697": {
+    "primary_topic_id": "routine.ergonomics",
+    "topic_ids": [
+      "routine.ergonomics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "775821a180ccc759ca7c9541": {
+    "primary_topic_id": "vehicle.adas",
+    "topic_ids": [
+      "vehicle.adas"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "c191bf7ba23c7ce89071ed1f": {
+    "primary_topic_id": "vehicle.passive",
+    "topic_ids": [
+      "vehicle.passive"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "b0b34b557134d4cbb96b4bbf": {
+    "primary_topic_id": "vehicle.passive",
+    "topic_ids": [
+      "vehicle.passive"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "e2d50f8894e98cb2af7b9283": {
+    "primary_topic_id": "vehicle.passive",
+    "topic_ids": [
+      "vehicle.passive"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "0198e55ad81c5eabdad8655e": {
+    "primary_topic_id": "routine.ecodriving",
+    "topic_ids": [
+      "routine.ecodriving"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "c12ae95b17f94ea79c454bd8": {
+    "primary_topic_id": "driving.signals",
+    "topic_ids": [
+      "driving.signals"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "ea80cd45b523f26879327440": {
+    "primary_topic_id": "driving.signals",
+    "topic_ids": [
+      "driving.signals"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "6b2e8522511c04f9fc31e06d": {
+    "primary_topic_id": "priority.general",
+    "topic_ids": [
+      "priority.general"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "ddfc299f91c9733ad33023df": {
+    "primary_topic_id": "vehicle.children",
+    "topic_ids": [
+      "vehicle.children"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "4050460f5580332eee2f0209": {
+    "primary_topic_id": "conditions.ice",
+    "topic_ids": [
+      "conditions.ice"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "00488f6b28839a5a03b8bfdc": {
+    "primary_topic_id": "conditions.heat",
+    "topic_ids": [
+      "conditions.heat"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "7892bd01ef332f6809ee3524": {
+    "primary_topic_id": "conditions.heat",
+    "topic_ids": [
+      "conditions.heat"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "f9398027f665e6480eb6ac64": {
+    "primary_topic_id": "conditions.dark",
+    "topic_ids": [
+      "conditions.dark"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "831d44010852d9a7ad2662c2": {
+    "primary_topic_id": "driving.parking",
+    "topic_ids": [
+      "driving.parking"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "397dc1b94d4bf3368e728166": {
+    "primary_topic_id": "routine.distraction",
+    "topic_ids": [
+      "routine.distraction"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "c874bf405f8e69c4c9977b01": {
+    "primary_topic_id": "signs.general",
+    "topic_ids": [
+      "signs.general"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "4889383eead5c32f11272c61": {
+    "primary_topic_id": "incidents.scene",
+    "topic_ids": [
+      "incidents.scene"
+    ],
+    "basis": "Prompt and correct answer require road users to assist and cooperate after a collision."
+  },
+  "2191675f1d2fc0bd98045ab0": {
+    "primary_topic_id": "numbers.dimensions",
+    "topic_ids": [
+      "numbers.dimensions",
+      "vehicle.cargo"
+    ],
+    "basis": "Prompt and answer ask about lateral protrusion of luggage."
+  }
+}

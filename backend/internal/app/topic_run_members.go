@@ -87,21 +87,21 @@ func (app *App) runMembers(userID, topicID string, id int64, members []topicRefe
 	if len(ids) == 0 {
 		return nil, "", fmt.Errorf("run not found")
 	}
-	filtered := []topicReference{}
-	for _, ref := range members {
-		if ids[ref.CanonicalID] {
-			filtered = append(filtered, ref)
-		}
-	}
-	return filtered, kind, nil
+	filtered, err := historicalTopicMembers(ids, members)
+	return filtered, kind, err
 }
 func (app *App) newTopicQuestions(userID, topicID string, members []topicReference) ([]string, map[string]int64, error) {
-	var fullID int64
-	err := app.db.QueryRow(`SELECT id FROM topic_runs WHERE user_id=? AND topic_id=? AND kind='full' AND parent_id IS NULL ORDER BY id DESC LIMIT 1`, userID, topicID).Scan(&fullID)
-	if err == sql.ErrNoRows {
-		return []string{}, map[string]int64{}, nil
-	}
+	known, err := app.globalAnswers(userID)
 	if err != nil {
+		return nil, nil, err
+	}
+	added, err := app.reorganizedQuestions(userID, topicID)
+	if err != nil {
+		return nil, nil, err
+	}
+	var fullID int64
+	err = app.db.QueryRow(`SELECT id FROM topic_runs WHERE user_id=? AND topic_id=? AND kind='full' AND parent_id IS NULL ORDER BY id DESC LIMIT 1`, userID, topicID).Scan(&fullID)
+	if err != nil && err != sql.ErrNoRows {
 		return nil, nil, err
 	}
 	rows, err := app.db.Query(`SELECT m.content_id,r.id,EXISTS(SELECT 1 FROM topic_answers a WHERE a.user_id=r.user_id AND a.topic_id=r.topic_id AND a.content_id=m.content_id) FROM topic_runs r JOIN topic_run_members m ON m.run_id=r.id WHERE r.user_id=? AND r.topic_id=? AND r.parent_id IS NULL AND r.id>=? ORDER BY r.id`, userID, topicID, fullID)
@@ -132,8 +132,9 @@ func (app *App) newTopicQuestions(userID, topicID string, members []topicReferen
 	}
 	pending := []string{}
 	for _, ref := range members {
-		if !baseline[ref.CanonicalID] && !answered[ref.CanonicalID] {
+		if _, done := known[ref.CanonicalID]; !done && ((fullID > 0 && !baseline[ref.CanonicalID]) || added[ref.CanonicalID]) && !answered[ref.CanonicalID] {
 			pending = append(pending, ref.CanonicalID)
+			answered[ref.CanonicalID] = true
 		}
 	}
 	return pending, runs, nil
@@ -150,6 +151,11 @@ func (app *App) startNewTopicQuestions(w http.ResponseWriter, r *http.Request) {
 		app.serverError(w, err)
 		return
 	}
+	candidateIDs, _, err := app.newTopicQuestions(userID, topicID, members)
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
 	tx, err := app.db.Begin()
 	if err != nil {
 		app.serverError(w, err)
@@ -160,17 +166,17 @@ func (app *App) startNewTopicQuestions(w http.ResponseWriter, r *http.Request) {
 	var id int64
 	err = tx.QueryRow(`SELECT id FROM topic_runs WHERE user_id=? AND topic_id=? AND kind='new' AND parent_id IS NULL AND completed_at IS NULL AND id>(SELECT MAX(id) FROM topic_runs WHERE user_id=? AND topic_id=? AND kind='full' AND parent_id IS NULL) ORDER BY id LIMIT 1`, userID, topicID, userID, topicID).Scan(&id)
 	if err == sql.ErrNoRows {
-		// Determine membership inside the same transaction as batch creation.
+		// Use the same global-knowledge and reorganization semantics as the overview.
+		// Gather candidates before entering this transaction (the database has one connection).
 		pending := []string{}
-		for _, ref := range members {
-			var isNew bool
-			checkErr := tx.QueryRow(`SELECT NOT EXISTS(SELECT 1 FROM topic_run_members WHERE run_id=(SELECT MAX(id) FROM topic_runs WHERE user_id=? AND topic_id=? AND kind='full' AND parent_id IS NULL) AND content_id=?) AND NOT EXISTS(SELECT 1 FROM topic_answers WHERE user_id=? AND topic_id=? AND content_id=?)`, userID, topicID, ref.CanonicalID, userID, topicID, ref.CanonicalID).Scan(&isNew)
-			if checkErr != nil {
-				app.serverError(w, checkErr)
+		for _, content := range candidateIDs {
+			var done bool
+			if err = tx.QueryRow(`SELECT EXISTS(SELECT 1 FROM question_progress WHERE user_id=? AND content_id=?)`, userID, content).Scan(&done); err != nil {
+				app.serverError(w, err)
 				return
 			}
-			if isNew {
-				pending = append(pending, ref.CanonicalID)
+			if !done {
+				pending = append(pending, content)
 			}
 		}
 		if len(pending) == 0 {

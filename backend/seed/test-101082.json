@@ -31,9 +31,10 @@
       "source_ordinal": 1,
       "local_image": "/tests/exam/1082/q01.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "signs.general",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.lights",
-        "driving.lanes"
+        "signs.general"
       ],
       "canonical_id": "c874bf405f8e69c4c9977b01"
     },
@@ -66,6 +67,8 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1082/q02.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.lights"
       ],
@@ -100,6 +103,8 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1082/q03.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "numbers.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
         "numbers.alcohol",
         "routine.alcohol"
@@ -135,9 +140,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1082/q04.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "transport.trailers",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "vehicle.motorcycles"
+        "transport.trailers"
       ],
       "canonical_id": "fea231edc27ca5ddc7069f57"
     },
@@ -170,8 +176,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1082/q05.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking"
+        "routine.health"
       ],
       "canonical_id": "10ac921e2d7e4ecda1e8b44c"
     },
@@ -208,10 +216,10 @@
         "note_en": "DGT states that animals driven in a herd or flock must proceed at a walk (iran al paso), confirming that running livestock is not permitted."
       },
       "selected_letter": "C",
+      "primary_topic_id": "transport.animals",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.pedestrians",
-        "documents.permissions"
+        "transport.animals"
       ],
       "canonical_id": "dae06868d3ce97d6ba434c53"
     },
@@ -244,7 +252,10 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1082/q07.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.speed",
+      "classification_review_required": false,
       "topic_ids": [
+        "signs.speed",
         "signs.warning"
       ],
       "canonical_id": "b5b320a3706a35522593811c"
@@ -278,10 +289,11 @@
       "help_status": "captured",
       "local_image": "/tests/exam/1082/q08.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.roundabouts",
         "driving.overtaking",
-        "documents.permissions"
+        "priority.general"
       ],
       "canonical_id": "336aee08ad4d7faba69bdf13"
     },
@@ -314,9 +326,10 @@
       "local_image": "/tests/exam/1082/q09.jpg",
       "help_status": "captured",
       "selected_letter": "A",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "incidents.scene"
+        "incidents.first_aid"
       ],
       "canonical_id": "776a2a4effd82f841fcb673a"
     },
@@ -349,8 +362,12 @@
       "local_image": "/tests/exam/1082/q10.jpg",
       "help_status": "captured",
       "selected_letter": "A",
+      "primary_topic_id": "numbers.distances",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking"
+        "driving.overtaking",
+        "driving.tunnels",
+        "numbers.distances"
       ],
       "canonical_id": "68c7f38076721504eed62d42"
     },
@@ -383,8 +400,10 @@
       "local_image": "/tests/exam/1082/q11.jpg",
       "help_status": "captured",
       "selected_letter": "A",
+      "primary_topic_id": "numbers.capacity",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.cargo"
+        "numbers.capacity"
       ],
       "canonical_id": "3035809b4bff9a3d096f24e8"
     },
@@ -417,8 +436,9 @@
       "local_image": "/tests/exam/1082/q12.jpg",
       "help_status": "captured",
       "selected_letter": "C",
+      "primary_topic_id": "routine.emotions",
+      "classification_review_required": false,
       "topic_ids": [
-        "incidents.towing",
         "routine.emotions"
       ],
       "canonical_id": "c58eedcaa9c83afb064b81e4"
@@ -452,8 +472,10 @@
       "local_image": "/tests/exam/1082/q13.jpg",
       "help_status": "captured",
       "selected_letter": "B",
+      "primary_topic_id": "signs.warning",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "signs.warning"
       ],
       "canonical_id": "a5d9b46bd7cddaae0de84271"
     },
@@ -486,6 +508,8 @@
       "local_image": "/tests/exam/1082/q14.jpg",
       "help_status": "captured",
       "selected_letter": "C",
+      "primary_topic_id": "driving.roundabouts",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.roundabouts"
       ],
@@ -520,9 +544,10 @@
       "local_image": "/tests/exam/1082/q15.jpg",
       "help_status": "captured",
       "selected_letter": "C",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "incidents.scene"
+        "signs.information"
       ],
       "canonical_id": "5c34b21a2538711906bbb0cc"
     },
@@ -555,9 +580,10 @@
       "local_image": "/tests/exam/1082/q16.jpg",
       "help_status": "captured",
       "selected_letter": "B",
+      "primary_topic_id": "driving.turns",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "vehicle.motorcycles"
+        "driving.turns"
       ],
       "canonical_id": "f53957bc5fc91fada8993386"
     },
@@ -590,8 +616,9 @@
       "local_image": "/tests/exam/1082/q17.jpg",
       "help_status": "captured",
       "selected_letter": "B",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "routine.fatigue"
       ],
       "canonical_id": "48c90137349160821fb7dea0"
@@ -625,9 +652,11 @@
       "local_image": "/tests/exam/1082/q18.jpg",
       "help_status": "captured",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.classification",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.parking",
-        "vehicle.cargo"
+        "vehicle.classification"
       ],
       "canonical_id": "cc614407b0f02423885dac50"
     },
@@ -660,9 +689,11 @@
       "local_image": "/tests/exam/1082/q19.jpg",
       "help_status": "captured",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.deadlines.itv",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.deadlines.itv",
-        "documents.itv"
+        "documents.itv",
+        "numbers.deadlines.itv"
       ],
       "canonical_id": "49c5ebbefc33d06f8c1383a6"
     },
@@ -695,8 +726,10 @@
       "local_image": "/tests/exam/1082/q20.jpg",
       "help_status": "captured",
       "selected_letter": "C",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
       "topic_ids": [
-        "incidents.scene"
+        "incidents.first_aid"
       ],
       "canonical_id": "2ef3e7bee091c6d58840a5d0"
     },
@@ -729,9 +762,10 @@
       "local_image": "/tests/exam/1082/q21.jpg",
       "help_status": "captured",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights",
-        "documents.permissions"
+        "vehicle.lights"
       ],
       "canonical_id": "650ff1db98bdca1837bfc48e"
     },
@@ -764,10 +798,11 @@
       "local_image": "/tests/exam/1082/q22.jpg",
       "help_status": "captured",
       "selected_letter": "A",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.lights",
-        "priority.tram",
-        "incidents.towing"
+        "driving.signals",
+        "priority.lights"
       ],
       "canonical_id": "f8e58fddcca4d28e07bd1e39"
     },
@@ -800,10 +835,10 @@
       "local_image": "/tests/exam/1082/q23.jpg",
       "help_status": "captured",
       "selected_letter": "B",
+      "primary_topic_id": "driving.roundabouts",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.roundabouts",
-        "driving.lanes",
-        "driving.pedestrians"
+        "driving.roundabouts"
       ],
       "canonical_id": "6d09ff45a9dd4081e6ac1c4c"
     },
@@ -836,8 +871,9 @@
       "local_image": "/tests/exam/1082/q24.jpg",
       "help_status": "captured",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.cargo",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
         "vehicle.cargo"
       ],
       "canonical_id": "4ef797d27e4977b915ae210e"
@@ -871,9 +907,12 @@
       "local_image": "/tests/exam/1082/q25.jpg",
       "help_status": "captured",
       "selected_letter": "B",
+      "primary_topic_id": "signs.speed",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.speed",
-        "priority.lights"
+        "numbers.speeds",
+        "priority.lights",
+        "signs.speed"
       ],
       "canonical_id": "7f419701e8751629b7e84c37"
     },
@@ -906,6 +945,8 @@
       "local_image": "/tests/exam/1082/q26.jpg",
       "help_status": "captured",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.tyres"
       ],
@@ -940,8 +981,9 @@
       "local_image": "/tests/exam/1082/q27.jpg",
       "help_status": "captured",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.motorcycles",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.cargo",
         "vehicle.motorcycles"
       ],
       "canonical_id": "7c5c949efe9bddd6e6d54a00"
@@ -975,8 +1017,10 @@
       "local_image": "/tests/exam/1082/q28.jpg",
       "help_status": "captured",
       "selected_letter": "C",
+      "primary_topic_id": "numbers.dimensions",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.visibility",
+        "numbers.dimensions",
         "vehicle.cargo"
       ],
       "canonical_id": "3000dccf72c6ccf7be961673"
@@ -1010,10 +1054,10 @@
       "local_image": "/tests/exam/1082/q29.jpg",
       "help_status": "captured",
       "selected_letter": "B",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "vehicle.lights",
-        "vehicle.motorcycles"
+        "driving.reversing"
       ],
       "canonical_id": "8dfc9602b3465ee20f4bfd80"
     }

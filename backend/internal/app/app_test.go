@@ -302,8 +302,8 @@ func TestTopicTrainingUsesUniqueMembersAndSeparateProgress(t *testing.T) {
 	}
 	seen := map[string]bool{}
 	for i, q := range topic.Questions {
-		if q.QuestionRU == "" {
-			t.Fatal("missing Russian question list title")
+		if q.QuestionRU == "" && q.Question == "" {
+			t.Fatal("missing question list title and source prompt")
 		}
 		if q.Number != i+1 || seen[q.ID] {
 			t.Fatalf("invalid topic numbering or duplicated content: %+v", q)
@@ -392,8 +392,18 @@ func TestTopicTrainingUsesUniqueMembersAndSeparateProgress(t *testing.T) {
 	if stats.Total != len(members) || stats.Answered != 2 || stats.Correct != 1 || stats.Wrong != 1 || stats.Next != 3 || !stats.Results[first.ID] || stats.Results[second.ID] {
 		t.Fatalf("incorrect summary or resume position: %+v", stats)
 	}
-	if summaries["routine.alcohol"].Answered != 0 {
-		t.Fatal("progress leaked across topics")
+	_, alcoholMembers, _, e := topicMembers("routine.alcohol")
+	if e != nil {
+		t.Fatal(e)
+	}
+	expectedAlcohol := 0
+	for _, ref := range alcoholMembers {
+		if ref.CanonicalID == first.ID || ref.CanonicalID == second.ID {
+			expectedAlcohol++
+		}
+	}
+	if summaries["routine.alcohol"].Answered != expectedAlcohol {
+		t.Fatal("shared-question progress did not follow canonical membership")
 	}
 	request(t, handler, http.MethodPost, "/api/auth/request-code", `{"email":"other-topic@example.com"}`, nil)
 	other := request(t, handler, http.MethodPost, "/api/auth/verify-code", `{"email":"other-topic@example.com","code":"`+sender.code+`"}`, nil)

@@ -184,6 +184,14 @@ func openDatabase(path string) (*sql.DB, error) {
 		db.Close()
 		return nil, fmt.Errorf("seed database: %w", err)
 	}
+	if err := migrateGlobalProgress(db); err != nil {
+		db.Close()
+		return nil, fmt.Errorf("migrate global progress: %w", err)
+	}
+	if err := reconcileTopicMemberships(db); err != nil {
+		db.Close()
+		return nil, fmt.Errorf("reconcile topic memberships: %w", err)
+	}
 	return db, nil
 }
 

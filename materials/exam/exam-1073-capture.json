@@ -34,11 +34,10 @@
       "local_image": "exam-1073-q01.jpg",
       "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nAt junctions and there proximity, where it is difficult for other vehicles to turn and on roads outside of town (interurban roads) if stopping would be dangerous to others and reduce visibility.\n(Página 199 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
-        "vehicle.visibility",
-        "documents.permissions",
-        "incidents.towing"
+        "driving.parking"
       ]
     },
     {
@@ -70,6 +69,8 @@
       "local_image": "exam-1073-q02.jpg",
       "selected_letter": "B",
       "help": "Priorities, level crossings and tunnels  \n   \n2 Junctions    \n2.2 Priorities at junctions  \n2.2.1 Junctions without signals and signs\nHowever there are exceptions to this rule:\nVehicles that travel on rails always have priority.\n(Página 203 del manual 'Learning to drive')\n\nPriorities, level crossings and tunnels    \n     \n2 Junctions    \n2.2 Priorities at junctions\n2.2.2 Signed junctions\nWhen there is a “unction with priority”signal at the junction or there are “oad with priority”signs on the road, then drivers that travel on them will have right of way over oncoming vehicles or those vehicles coming from another road.\n(Página 204 del manual 'Learning to drive')\n",
+      "primary_topic_id": "priority.tram",
+      "classification_review_required": false,
       "topic_ids": [
         "priority.tram"
       ]
@@ -103,11 +104,11 @@
       "local_image": "exam-1073-q03.jpg",
       "help": "10 Front fog lights\n \n10.2 Use of front fog lights\nFront fog lights if fitted can be used\nDay or night in circumstances where visibility is compromised:\n- Fog, heavy rain, snowfall, plumes of smoke, dust clouds, any other analogous circumstances.\nIn any of these cases, the lights must be used, so that if the front fog light is not used, the dipped headlights must be used and, even, the full-beam headlights.\n(Página 103 del manual 'Learning to drive')\n\n11 Rear fog light(s)\n \n11.2 Use of the rear fog light\nIt is only permissible to use the rear fog light when the environmental and meteorological conditions cause visibility to be seriously reduced. It is not permitted to use the rear fog lights under any other circumstances.\n(Página 103 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.lights",
-        "vehicle.visibility",
-        "documents.permissions"
+        "conditions.fog",
+        "vehicle.lights"
       ]
     },
     {
@@ -139,8 +140,10 @@
       "local_image": "exam-1073-q04.jpg",
       "selected_letter": "C",
       "help": "6 Automobiles  \n \n6.5 Vehicle derived from a car\nAn automobile used to provide a service or to exclusively transport merchandise, with bodywork derived from a car and with only one row of seats.\n(Página 10 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.classification",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather"
+        "vehicle.classification"
       ]
     },
     {
@@ -172,9 +175,10 @@
       "local_image": "exam-1073-q05.jpg",
       "help": "7 Headlights – main beam / high beam / long range    \n     \n7.2 Use of main beam / high beam / long range headlights  \nYou must not flash your headlights for any other purpose other than those legally permitted.\nThe use of full-beam headlights is prohibited:\nIf the vehicle is stopped or parked.\nWithin city limits.\n(Página 101 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights",
-        "documents.permissions"
+        "vehicle.lights"
       ]
     },
     {
@@ -206,8 +210,10 @@
       "local_image": "exam-1073-q06.jpg",
       "help": "Maneouvres  \n \n3 Joining the traffic flow\n3.2.1 Observation\nRegardless of where the driving is joining from, he must do so without endangering other road users.\n(Página 184 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "driving.merging",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.merging"
+        "driving.merging"
       ]
     },
     {
@@ -239,9 +245,10 @@
       "local_image": "exam-1073-q07.jpg",
       "help": "6 Road marks            \n           \n6.2 Longitudinal road markings  \nContinuous longitudinal lines adjacent to broken lines\nWhen the marking consists of a continuous longitudinal line adjacent to a broken line, drivers must observe only the line on the side on which they are travelling.\n(Página 154 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
-        "driving.lanes"
+        "signs.markings"
       ]
     },
     {
@@ -273,9 +280,10 @@
       "local_image": "exam-1073-q08.jpg",
       "help": "Road traffic collisions  \n   \n1 A public health problem\nMoreover, in addition to the human drama, it is important to highlight the enormous economic impact (either directly or indirectly) that occurs as a result of a traffic collision.\nCosts derived from road traffic accidents are classified as human, material, healthcare and administrative.\nHuman costs include the loss of lives, productive capacity and physical and psychological suffering. Material costs consist of damages caused on vehicles and their loads as well as on the road and the environment. Healthcare costs comprise first aid, care and treatment of the wounded, rehabilitation and adaptations. Administrative costs hold those of police officers and firefighters and insurance and services management.\nPeople believe that an accident has little effect on them but the cost is borne by taxpayers. The cost of vehicle insurance is also affected, as premiums are affected by collision data and the cost of accidents.\nFor these reasons, various international organisations, including the World Health Organisation (WHO), believe that road collisions are a priority public health problem throughout the world.\nThere is a serious need to work together to reduce the high numbers of dead and seriously injured on the roads.\n(Página 248 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.classification",
-        "incidents.scene"
+        "incidents.first_aid"
       ]
     },
     {
@@ -307,8 +315,12 @@
       "local_image": "exam-1073-q09.jpg",
       "help": "Maneouvres    \n   \n3 Joining the traffic flow\n3.3 Obligation to assist this manoeuvre\nAlthough drivers that wish to join into the flow of traffic, must give way to other motorists, if at all possible, other drivers have the obligation to help to facilitate the manouevre .i.e. assist others to join the traffic flow.\nMotorists are obliged to help public transport vehicles that have stopped at an official stop, and need to remerge into the traffic flow.\n(Página 185 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.merging"
+        "driving.merging",
+        "signs.mandatory",
+        "signs.priority"
       ]
     },
     {
@@ -340,8 +352,10 @@
       "local_image": "exam-1073-q10.jpg",
       "help": "12 Distances\n \n12.1 The reaction distance\nThe reaction distance is the distance travelled by the vehicle from the time of seeing a hazard until he reacts to it.\nIt is dependant on the speed and the driver’s reaction time, which in turn depends, on many other factors, such as, the driver’s reflexes, their psycho-physical state (level of alertness, whether or not the driver is under the influence of alcohol etc.) Even the environment can affect the time it takes for a driver to react to any given circumstance (the passenger compartment temperature, noise, etc.)\nA reaction time of 0.75 seconds is considered to be normal, during which time the vehicle will travel a distance, determined by the speed at which the vehicle is travelling.\n(Página 179 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "speed.stopping",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "speed.stopping"
       ]
     },
     {
@@ -373,9 +387,10 @@
       "local_image": "exam-1073-q11.jpg",
       "help": "ALCOHOL AND OTHER DRUGS\n \n15 The effects of alcohol in road traffic collisions\nAlcohol is a psycho-depressive drug, that, even in small doses, negatively affects driving, disrupting the driver’s skills and abilities. It goes into the bloodstream and spreads throughout the body, affecting mainly the brain and the eyes.\n(Página 40 del manual 'Learning to drive')\n\nALCOHOL AND OTHER DRUGS      \n     \n16 Alcohol limits  \nOne of the reasons that drivers with less experience of driving have a lower blood alcohol content set, is that novice drivers have not yet become automated in their movements and responses, which are ultimately needed for effective driving, so the effects of alcohol are even more harmful to them.\nAll drivers should bear in mind that although the BAC is less than the maximum allowed by law, the effects of alcohol on the body are sufficient to result in a traffic collision.\nTherefore, the only truly safe blood alcohol content for driving is 0.0 g/l.\n(Página 41 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "numbers.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "documents.permissions",
+        "numbers.alcohol",
         "routine.alcohol"
       ]
     },
@@ -408,10 +423,10 @@
       "local_image": "exam-1073-q12.jpg",
       "help": "Maneouvres                  \n       \n9 Immobilisation: Stationary vehicles Detention (Halting)      \n9.2 Emergency detention (halting due to an emergency)  \nVehicles that have been involved in an accident or breakdown:\nIf they are able to continue their journey but need an assistance service, they should leave the traffic lanes as soon as possible and head to the first available exit using the right-hand hard shoulder, regardless of maximum authorised mass.\nIf they are unable to continue their journey, they must stop on the right-hand hard shoulder or at the place where they cause the least obstruction to traffic, using the left-hand hard shoulder or central reservation if needed.\n(Página 196 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "incidents.towing",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.weather",
-        "documents.permissions",
+        "driving.parking",
         "incidents.towing"
       ]
     },
@@ -444,14 +459,10 @@
       "local_image": "exam-1073-q13.jpg",
       "help": "6 Road marks  \n   \n6.3 Transverse road markings\nContinuous transverse markings\nA continuous line positioned across one or more lanes serves as a stop line. It indicates that no vehicle, animal, or its load may cross it, in compliance with the obligation imposed by any of the following signs or elements:\nA mandatory stop sign (R-2) or a road marking indicating STOP.\nA sign prohibiting passage without stopping (R-200)\nA pedestrian crossing marked on the road.\nA traffic light, a stop signal issued by a traffic officer, or the presence of a level crossing or movable bridge.\nIf there is insufficient visibility from the point of stopping, the driver must stop again at a location where visibility is adequate, without endangering any other road users.\n(Página 154 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.priority",
-        "signs.markings",
-        "priority.sign",
-        "driving.lanes",
-        "driving.parking",
-        "vehicle.cargo",
-        "documents.permissions"
+        "signs.markings"
       ]
     },
     {
@@ -483,6 +494,8 @@
       "local_image": "exam-1073-q14.jpg",
       "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.4 Parking and stopping / waiting – unacceptable practises\nAdditionally parking is considered to be either dangerous or a serious obstruction to others and create both a risk and hazard in the following places:\nWhen they are parked in a place delimited and signed accordingly as an area for public transport.\nWhen they are in a space specifically reserved for emergency and safety /security reasons.\nWhen done in specifically-signalled prohibited spaces on public roads rated for preferential attention.\nWhen they are parked in the middle of the road.\n(Página 199 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.parking"
       ]
@@ -516,6 +529,8 @@
       "local_image": "exam-1073-q15.jpg",
       "help": "6 Road marks                    \n                   \n6.2 Longitudinal road markings    \nContinuous longitudinal markings\nA continuous longitudinal marking means that no driver, whether operating a vehicle or leading an animal, must:\nCross it.\nDrive on it.\nDrive to the left of the marking when it separates opposing directions of traffic (except in cases provided for in the traffic regulations).\nA longitudinal marking formed by two continuous parallel lines has the same meaning as one formed by a single continuous line.\n(Página 153 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
         "signs.markings"
       ]
@@ -549,6 +564,8 @@
       "local_image": "exam-1073-q16.jpg",
       "help": "ALCOHOL AND OTHER DRUGS    \n     \n16.1 Factors affecting alcohol limits\nWhether the stomach is empty or full. The amount of alcohol in the blood is higher when drinking on an empty stomach. This is affected by the amount of food and the type of food, which are both factors in varying the speed at which the alcohol enters into the blood. However, this only slows the absorption, in the end the alcohol always reaches the blood.\nAge. Children under 18 and those over 65 are often more vulnerable to the effects of alcohol.\n(Página 42 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.alcohol"
       ]
@@ -582,9 +599,11 @@
       "local_image": "exam-1073-q17.jpg",
       "help": "9 Airbags\n \nHowever, the airbag is not effective unless it is used with a seat belt. In the event of a collision, unless the seat belt is fastened, (buckled) there is a high risk that the head will hit the airbag when it is still inflating and, because of the force exerted in this inflation process, serious injuries can occur, which can even be fatal.\n(Página 80 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.passive",
-        "routine.seatbelts"
+        "routine.seatbelts",
+        "vehicle.passive"
       ]
     },
     {
@@ -616,8 +635,10 @@
       "local_image": "exam-1073-q18.jpg",
       "help": "Road traffic collisions          \n           \nRISK GROUPS        \n5 Pedestrians  \n5.3 Recommendations to drivers\nDo not park on the pavement, as pedestrian are more likely to walk out into the road.\nUse extreme caution when reversing; many incidents occur when vehicles are reversing because the driver has not seen the pedestrian.\n(Página 253 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.pedestrians"
+        "driving.reversing"
       ]
     },
     {
@@ -649,12 +670,10 @@
       "local_image": "exam-1073-q19.jpg",
       "help": "Maneouvres        \n     \n7 ‘U’ turn  \n7.3 Circumstances when it is prohibited to undertake a ‘U’ turn\nAlso, where it is not permissible to overtake (and therefore it is not possible to undertake a ‘U’ turn):\nIntersections and their proximities, although the manoeuvre is permitted when there is an express priority sign on the road.\nAt pedestrian crossing and in the proximity of these crossings.\nCarrying out a ‘U’ turn where it is not permitted (under the regulations) could result in the deduction of 3 points.\n(Página 195 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "driving.uturns",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.priority",
-        "priority.sign",
-        "driving.overtaking",
-        "driving.pedestrians",
-        "documents.permissions"
+        "driving.uturns"
       ]
     },
     {
@@ -686,10 +705,10 @@
       "local_image": "exam-1073-q20.jpg",
       "help": "3 Moderate speed\n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nWhen approaching to places with reduced visibility or a narrowing of the road.\nWhen passing another vehicle, if the circumstances of the road, vehicle or weather and environmental conditions do not allow you to do so with sufficient safety.\n(Página 172 del manual 'Learning to drive')\n\n5 Generic speed      \n   \n5.3 Minimum generic speed\nIt is only permitted to drive below the minimum speed limits:\nIn the case of bicycles, animal traction vehicles, special vehicles and vehicles that fall under the special transport system.\nWhen the circumstances of the traffic, of the vehicle or of the road in question make it difficult to maintain a speed above the minimum without posing a risk to traffic.\n(Página 175 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "conditions.fog",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "driving.weather",
-        "vehicle.visibility"
+        "conditions.fog"
       ]
     },
     {
@@ -721,8 +740,9 @@
       "local_image": "exam-1073-q21.jpg",
       "selected_letter": "C",
       "help": "ACTIVE SAFETY FEATURES  \n \n3 Brakes\n3.4 Braking performance\nThe braking performance depends upon:\nThe correct state of maintenance and care of the braking system.\nThe correct pressure (application) being applied on the brake pedal that ultimately leads to the necessary pressure being transmitted to the brakes. The greater the force applied to the pedal, the greater the pressure that is exerted on the drum shoes or the disc pads of the brakes and therefore the result is more effective braking.\nThe condition of the tyres and adhesion quality of the tyres onto the road surface.\nThe condition of the road surface, the speed and the mass of the vehicle and its load.\nThe proper distribution of brake action on all wheels.\n(Página 65 del manual 'Learning to drive')\n\n12 Distances\n \n12.2 The braking distance\nThe braking distance is the distance the vehicle travels from the point at which the driver first applies the brakes, until the vehicle come to a complete stop.\nThis distance can vary depending on:\nThe speed of the vehicle at the point the brakes are applied.\nThe mass of the vehicle and its load.\nThe technical condition of the vehicle (brakes, tyres, shock absorbers, etc.)\nThe environmental conditions and the condition of the road surface (snow, rain, state of the surface, etc.)\nThe driver (psychophysical status –mental and physical state, experience, etc.)\nAn increase in speed causes the braking distance to increase, but this is at a greater rate than the speed increase.\nThus, when the velocity is doubled the braking distance is four times higher.\n(Página 179 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.cargo",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.braking",
         "vehicle.cargo"
       ]
     },
@@ -755,10 +775,10 @@
       "local_image": "exam-1073-q22.jpg",
       "help": "5 Vertical Signs        \n     \n5.3 Regulation road signs  \n5.3.2 ‘Priority’ signs\nR-2 Stop\nObligation for all drivers to stop their vehicle before the stop-line or, if one is not on the road surface or visible, immediately before the junction, giving way to vehicles that travel on the road they are approaching.  \n(Página 124 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "driving.crossings",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.priority",
-        "priority.sign",
-        "driving.weather"
+        "driving.crossings"
       ]
     },
     {
@@ -790,9 +810,11 @@
       "local_image": "exam-1073-q23.jpg",
       "help": "Maneouvres      \n     \n5 Overtaking\n5.8 Situations when you must not overtake\nIt is also prohibited to overtake:\nIn tunnels, underpasses and track sections covered by a Tunnel sign (S-5) with two-way traffic, if the vehicle which you intend to overtake only has one lane for their traffic.\n(Página 191 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.overtaking"
+        "driving.overtaking",
+        "driving.tunnels"
       ]
     },
     {
@@ -824,8 +846,10 @@
       "local_image": "exam-1073-q24.jpg",
       "help": "Maneouvres    \n \n7 ‘U’ turn\n7.1 Concept\nIf there is a slip road, it is compulsory to use it to perform the manoeuvre, even when there is not a sign to this end.\n(Página 194 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "driving.uturns",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "driving.uturns"
       ]
     },
     {
@@ -855,8 +879,10 @@
       "deferred": true,
       "deferred_reason": "The question asks a statistical comparison by vehicle type, provides no Ayuda, and no primary reference was found that establishes the correct option. Deferred to avoid guessing and affecting statistics.",
       "source_note": "No answer was selected; source confirmation is still required.",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "incidents.first_aid"
       ]
     },
     {
@@ -888,10 +914,12 @@
       "local_image": "exam-1073-q26.jpg",
       "help": "Safe driving\n \n10 Driving in cross winds (lateral winds)\nWhen driving in side winds it is necessary to:\nReduce the speed. The stronger the wind, the lower the speed.\nHold the steering wheel firmer but not rigidly and be ready to counter-turn the steering wheel if warranted.\nAnticipate the possible effects of strong winds –debris in the road, trees, branches, stones, etc.\nWhen there are heavy winds, it is advisable to keep the windows closed so that objects do not enter the vehicle.\n(Página 233 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "conditions.wind",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.motorcycles",
-        "incidents.towing"
+        "conditions.wind",
+        "incidents.towing",
+        "speed.adaptation"
       ]
     },
     {
@@ -923,8 +951,9 @@
       "local_image": "exam-1073-q27.jpg",
       "help": "12 Reflective markers\n \nA reflective marker is a device used to indicate the presence of a vehicle by means of reflecting back the light. They do not contain their own light source and work by reflecting light back, for example from other vehicles headlights. They act as a safety feature to warn of the presence of a vehicle, particularly at night or in adverse weather conditions.\nReflectors will be in the following colours:\nWhite to the front.\nRed to the rear.\nYellow to the sides (although they can be red if they are grouped and combined or built into a device on the rear of the vehicle).\n(Página 104 del manual 'Learning to drive')\n\n12 Reflective markers\n \n12.1 Obligatory fitment of reflectors\nMotorcycles and mopeds with two wheels will generally have one obligatory reflector fitted to the rear. However, vehicles with three or more wheels (three-wheeled moped, light quadricycles, motorcycles with a trailer) are required to have one or two reflectors fitted to the rear.\nTrailers and semi-trailers must have two reflectors fitted to the front and two, red triangular, reflectors on the rear, with the option of having two extra red (non triangular) reflectors on the rear if its width exceeds 2.10m (the optional reflectors are not applicable to agricultural trailers).\nIt is also obligatory, if the vehicle exceeds 6 metres in length, to have 2 lateral reflectors fitted to the sides.\n(Página 104 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "vehicle.lights"
       ]
     },
@@ -958,9 +987,10 @@
       "help": "9 Animals  \n \nAnimal drivers must take care to not enter pedestrian zones.\nLoose livestock and working or saddled animals and beasts of burden will also travel on the right-hand hard shoulder. If they have to use the roadway, they must travel as close as possible to its right edge.\nFlocks of animals or herded animals must be kept, as far as possible to the right hand edge of the roadway (that is, in the direction of travel) and\nit must be ensured that they never occupy more than the right hand side of the roadway.\nAnimals are prohibited on motorways or dual carriageways. Said prohibition includes animal traction vehicles.\nIt is prohibited to leave animals unattended on any type or road or its immediate surroundings, always assuring that they cannot invade the road.\n(Página 59 del manual 'Learning to drive')\n",
       "source_note": "DGT explicitly confirms that herded animals must proceed at a walk (irán al paso): https://www.dgt.es/muevete-con-seguridad/viaja-seguro/a-pie/index.html . The source English phrase at an even pace is less precise.",
       "selected_letter": "A",
+      "primary_topic_id": "transport.animals",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.pedestrians"
+        "transport.animals"
       ]
     },
     {
@@ -992,6 +1022,8 @@
       "local_image": "exam-1073-q29.jpg",
       "selected_letter": "B",
       "help": "Accommodation    \n     \n10 Settings\n10.2 Setting the rear-view mirrors\nIt is necessary to set the rear view mirrors prior to commencing driving. The vehicle must be stationary and, if it is possible, on level and flat ground.  \n(Página 91 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.visibility",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.visibility"
       ]
@@ -1025,9 +1057,9 @@
       "local_image": "exam-1073-q30.jpg",
       "help": "Journeys and defensive and efficient driving\n \n12 Technical Improvements that reduce consumption\n12.2 The Eco mode\nThis function optimises fuel consumption. It takes into account all the consumption elements (engine power, gear shifting in automatic vehicles, heating and/or air-conditioning, etc.).\nLimiting the acceleration provides a low consumption when driving in urban and peri-urban areas. Limiting the heating and air-conditioning allows saving fuel without hindering thermal comfort.\nThis provides a more economical and environmentally friendly driving (10% fuel savings in the latest generation diesel engines).\nIt is switched on and off manually.\n(Página 278 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "routine.ecodriving",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.braking",
-        "documents.permissions",
         "routine.ecodriving"
       ]
     }

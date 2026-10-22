@@ -15,6 +15,7 @@ type topicRunSummary struct {
 	Answered    int              `json:"answered"`
 	Correct     int              `json:"correct"`
 	Wrong       int              `json:"wrong"`
+	Inherited   int              `json:"inherited"`
 	StartedAt   string           `json:"started_at"`
 	CompletedAt *string          `json:"completed_at"`
 	Review      *topicRunSummary `json:"review,omitempty"`
@@ -25,7 +26,14 @@ func ensureTopicRun(tx *sql.Tx, userID, topicID string, members []topicReference
 	var id int64
 	err := tx.QueryRow(`SELECT id FROM topic_runs WHERE user_id=? AND topic_id=? AND parent_id IS NULL AND kind='full' ORDER BY id DESC LIMIT 1`, userID, topicID).Scan(&id)
 	if err == nil {
-		return id, snapshotLegacyMembers(tx, id, members)
+		if err = snapshotLegacyMembers(tx, id, members); err != nil {
+			return 0, err
+		}
+		id, err = refreshReorganizedRun(tx, userID, topicID, id, members)
+		if err != nil {
+			return 0, err
+		}
+		return id, inheritTopicProgress(tx, id)
 	}
 	if err != sql.ErrNoRows {
 		return 0, err
@@ -45,10 +53,10 @@ func ensureTopicRun(tx *sql.Tx, userID, topicID string, members []topicReference
 	if err = saveRunMembers(tx, id, members); err != nil {
 		return 0, err
 	}
-	return id, completeTopicRun(tx, id)
+	return id, inheritTopicProgress(tx, id)
 }
 func completeTopicRun(tx *sql.Tx, id int64) error {
-	_, err := tx.Exec(`UPDATE topic_runs SET completed_at=COALESCE(completed_at,(SELECT MAX(answered_at) FROM topic_run_answers WHERE run_id=?)) WHERE id=? AND total>0 AND total<=(SELECT COUNT(*) FROM topic_run_answers WHERE run_id=?)`, id, id, id)
+	_, err := tx.Exec(`UPDATE topic_runs SET completed_at=COALESCE(completed_at,CASE WHEN julianday((SELECT MAX(answered_at) FROM topic_run_progress WHERE run_id=?))<julianday(started_at) THEN started_at ELSE (SELECT MAX(answered_at) FROM topic_run_progress WHERE run_id=?) END) WHERE id=? AND total>0 AND total<=(SELECT COUNT(*) FROM topic_run_progress WHERE run_id=?)`, id, id, id, id)
 	return err
 }
 func (app *App) currentTopicRun(userID, topicID string, members []topicReference) (int64, error) {
@@ -64,7 +72,7 @@ func (app *App) currentTopicRun(userID, topicID string, members []topicReference
 	return id, tx.Commit()
 }
 func (app *App) topicHistory(userID, topicID string) ([]topicRunSummary, error) {
-	rows, err := app.db.Query(`SELECT r.kind,r.id,r.parent_id,r.total,r.started_at,r.completed_at,COUNT(a.content_id),COALESCE(SUM(a.correct),0) FROM topic_runs r LEFT JOIN topic_run_answers a ON a.run_id=r.id WHERE r.user_id=? AND r.topic_id=? GROUP BY r.id ORDER BY r.id DESC`, userID, topicID)
+	rows, err := app.db.Query(`SELECT r.kind,r.id,r.parent_id,r.total,r.started_at,r.completed_at,COUNT(a.content_id),COALESCE(SUM(a.correct),0),COALESCE(SUM(a.inherited),0) FROM topic_runs r LEFT JOIN topic_run_progress a ON a.run_id=r.id WHERE r.user_id=? AND r.topic_id=? GROUP BY r.id ORDER BY r.id DESC`, userID, topicID)
 	if err != nil {
 		return nil, err
 	}
@@ -74,7 +82,7 @@ func (app *App) topicHistory(userID, topicID string) ([]topicRunSummary, error) 
 	for rows.Next() {
 		var item topicRunSummary
 		var parent sql.NullInt64
-		if err := rows.Scan(&item.Kind, &item.ID, &parent, &item.Total, &item.StartedAt, &item.CompletedAt, &item.Answered, &item.Correct); err != nil {
+		if err := rows.Scan(&item.Kind, &item.ID, &parent, &item.Total, &item.StartedAt, &item.CompletedAt, &item.Answered, &item.Correct, &item.Inherited); err != nil {
 			return nil, err
 		}
 		item.Wrong = item.Answered - item.Correct
@@ -107,7 +115,7 @@ func (app *App) startTopicReview(w http.ResponseWriter, r *http.Request) {
 	defer tx.Rollback()
 	var completed sql.NullString
 	var wrong int
-	err = tx.QueryRow(`SELECT completed_at,(SELECT COUNT(*) FROM topic_run_answers WHERE run_id=r.id AND correct=0) FROM topic_runs r WHERE id=? AND user_id=? AND topic_id=? AND parent_id IS NULL`, parent, userID, topicID).Scan(&completed, &wrong)
+	err = tx.QueryRow(`SELECT completed_at,(SELECT COUNT(*) FROM topic_run_progress WHERE run_id=r.id AND correct=0) FROM topic_runs r WHERE id=? AND user_id=? AND topic_id=? AND parent_id IS NULL`, parent, userID, topicID).Scan(&completed, &wrong)
 	if err == sql.ErrNoRows {
 		app.writeError(w, 404, "Прохождение не найдено")
 		return
@@ -138,7 +146,7 @@ func (app *App) startTopicReview(w http.ResponseWriter, r *http.Request) {
 	app.writeJSON(w, 200, map[string]int64{"id": id})
 }
 func (app *App) reviewMembers(userID, topicID string, id int64, members []topicReference) ([]topicReference, error) {
-	rows, err := app.db.Query(`SELECT a.content_id FROM topic_runs r JOIN topic_run_answers a ON a.run_id=r.parent_id WHERE r.id=? AND r.user_id=? AND r.topic_id=? AND a.correct=0`, id, userID, topicID)
+	rows, err := app.db.Query(`SELECT a.content_id FROM topic_runs r JOIN topic_run_progress a ON a.run_id=r.parent_id WHERE r.id=? AND r.user_id=? AND r.topic_id=? AND a.correct=0`, id, userID, topicID)
 	if err != nil {
 		return nil, err
 	}
@@ -157,11 +165,5 @@ func (app *App) reviewMembers(userID, topicID string, id int64, members []topicR
 	if len(ids) == 0 {
 		return nil, fmt.Errorf("review not found")
 	}
-	filtered := []topicReference{}
-	for _, ref := range members {
-		if ids[ref.CanonicalID] {
-			filtered = append(filtered, ref)
-		}
-	}
-	return filtered, nil
+	return historicalTopicMembers(ids, members)
 }

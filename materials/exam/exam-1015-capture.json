@@ -44,11 +44,12 @@
       "source_test_id": 1015,
       "source_ordinal": 1,
       "summary_ru": "Допускается ли обгон на круговом перекрёстке",
-      "primary_topic_id": "driving.overtaking",
+      "primary_topic_id": "driving.roundabouts",
       "topic_ids": [
         "driving.overtaking",
         "driving.roundabouts"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -82,9 +83,9 @@
       "summary_ru": "Экономичное вождение повышает безопасность",
       "primary_topic_id": "routine.ecodriving",
       "topic_ids": [
-        "routine.ecodriving",
-        "routine.safety"
-      ]
+        "routine.ecodriving"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -119,8 +120,10 @@
       "primary_topic_id": "numbers.alcohol",
       "topic_ids": [
         "numbers.alcohol",
+        "priority.emergency",
         "routine.alcohol"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -152,10 +155,11 @@
       "source_test_id": 1015,
       "source_ordinal": 4,
       "summary_ru": "Обычная дорога менее безопасна, чем автомагистраль",
-      "primary_topic_id": "routine.safety",
+      "primary_topic_id": "driving.roads",
       "topic_ids": [
-        "routine.safety"
-      ]
+        "driving.roads"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -190,8 +194,9 @@
       "primary_topic_id": "signs.parking",
       "topic_ids": [
         "signs.parking",
-        "driving.parking"
-      ]
+        "signs.restrictions"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -226,7 +231,8 @@
       "primary_topic_id": "routine.safety",
       "topic_ids": [
         "routine.safety"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -261,7 +267,8 @@
       "primary_topic_id": "driving.lanes",
       "topic_ids": [
         "driving.lanes"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -295,9 +302,11 @@
       "summary_ru": "Телефон мешает поддерживать подходящую скорость",
       "primary_topic_id": "routine.distraction",
       "topic_ids": [
-        "routine.distraction"
+        "routine.distraction",
+        "speed.adaptation"
       ],
-      "classification_note_en": "Speed is mentioned, but the tested fact is distraction, not a numeric speed limit."
+      "classification_note_en": "Speed is mentioned, but the tested fact is distraction, not a numeric speed limit.",
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -332,8 +341,9 @@
       "primary_topic_id": "numbers.speeds",
       "topic_ids": [
         "numbers.speeds",
-        "vehicle.classification"
-      ]
+        "speed.adaptation"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -365,11 +375,11 @@
       "source_test_id": 1015,
       "source_ordinal": 10,
       "summary_ru": "По снегу медленно и на максимально высокой подходящей передаче",
-      "primary_topic_id": "driving.weather",
+      "primary_topic_id": "conditions.ice",
       "topic_ids": [
-        "driving.weather",
-        "driving.braking"
-      ]
+        "conditions.ice"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -401,11 +411,11 @@
       "source_test_id": 1015,
       "source_ordinal": 11,
       "summary_ru": "Шумящие дети отвлекают водителя",
-      "primary_topic_id": "routine.distraction",
+      "primary_topic_id": "vehicle.children",
       "topic_ids": [
-        "routine.distraction",
-        "vehicle.passengers"
-      ]
+        "vehicle.children"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -437,10 +447,12 @@
       "source_test_id": 1015,
       "source_ordinal": 12,
       "summary_ru": "Предупреждение о сужении дороги",
-      "primary_topic_id": "signs.warning",
+      "primary_topic_id": "priority.narrow",
       "topic_ids": [
+        "priority.narrow",
         "signs.warning"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -475,7 +487,8 @@
       "primary_topic_id": "priority.officer",
       "topic_ids": [
         "priority.officer"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -509,10 +522,9 @@
       "summary_ru": "Пассажир мотоцикла затрудняет блокировку заднего колеса",
       "primary_topic_id": "driving.braking",
       "topic_ids": [
-        "driving.braking",
-        "vehicle.motorcycles",
-        "vehicle.passengers"
-      ]
+        "driving.braking"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -546,9 +558,11 @@
       "summary_ru": "Ограничение массы: фактическая масса с грузом, а не разрешённая максимальная",
       "primary_topic_id": "signs.restrictions",
       "topic_ids": [
-        "signs.restrictions"
+        "signs.restrictions",
+        "vehicle.cargo"
       ],
-      "classification_note_en": "Tests actual laden mass versus maximum authorised mass; the displayed 5.5 t value is not a memorised universal threshold."
+      "classification_note_en": "Tests actual laden mass versus maximum authorised mass; the displayed 5.5 t value is not a memorised universal threshold.",
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -582,9 +596,10 @@
       "summary_ru": "Дальний свет в тумане разрешён, но не рекомендуется",
       "primary_topic_id": "vehicle.lights",
       "topic_ids": [
-        "vehicle.lights",
-        "driving.weather"
-      ]
+        "conditions.fog",
+        "vehicle.lights"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -619,7 +634,8 @@
       "primary_topic_id": "vehicle.visibility",
       "topic_ids": [
         "vehicle.visibility"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -654,7 +670,8 @@
       "primary_topic_id": "driving.overtaking",
       "topic_ids": [
         "driving.overtaking"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -689,9 +706,9 @@
       "primary_topic_id": "numbers.displacement",
       "topic_ids": [
         "numbers.displacement",
-        "vehicle.classification",
-        "vehicle.motorcycles"
-      ]
+        "vehicle.classification"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -726,7 +743,8 @@
       "primary_topic_id": "routine.health",
       "topic_ids": [
         "routine.health"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -761,7 +779,8 @@
       "primary_topic_id": "driving.braking",
       "topic_ids": [
         "driving.braking"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -796,7 +815,8 @@
       "primary_topic_id": "signs.warning",
       "topic_ids": [
         "signs.warning"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -831,7 +851,8 @@
       "primary_topic_id": "vehicle.cargo",
       "topic_ids": [
         "vehicle.cargo"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -867,7 +888,8 @@
       "topic_ids": [
         "incidents.towing"
       ],
-      "classification_note_en": "The original Spanish question and source-confirmed answer must be retained when importing; do not substitute older remembered towing rules."
+      "classification_note_en": "The original Spanish question and source-confirmed answer must be retained when importing; do not substitute older remembered towing rules.",
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -903,7 +925,8 @@
       "topic_ids": [
         "documents.permissions",
         "vehicle.classification"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -935,11 +958,12 @@
       "source_test_id": 1015,
       "source_ordinal": 26,
       "summary_ru": "Жёлтый зигзаг: можно остановиться, стоянка запрещена",
-      "primary_topic_id": "signs.markings",
+      "primary_topic_id": "vehicle.cargo",
       "topic_ids": [
-        "signs.markings",
-        "driving.parking"
-      ]
+        "driving.parking",
+        "vehicle.cargo"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -975,7 +999,8 @@
       "topic_ids": [
         "documents.itv"
       ],
-      "classification_note_en": "Tests responsibility for ITV, not its periodicity. Do not tag as ITV deadlines."
+      "classification_note_en": "Tests responsibility for ITV, not its periodicity. Do not tag as ITV deadlines.",
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -1009,10 +1034,9 @@
       "summary_ru": "Выбор шлема: сертификация, размер и материал",
       "primary_topic_id": "routine.helmets",
       "topic_ids": [
-        "routine.helmets",
-        "vehicle.passive",
-        "vehicle.motorcycles"
-      ]
+        "routine.helmets"
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -1047,7 +1071,8 @@
       "primary_topic_id": "routine.distraction",
       "topic_ids": [
         "routine.distraction"
-      ]
+      ],
+      "classification_review_required": false
     },
     {
       "answers": [
@@ -1081,9 +1106,11 @@
       "summary_ru": "Частая прерывистая разметка предупреждает об особой опасности",
       "primary_topic_id": "signs.markings",
       "topic_ids": [
+        "priority.tram",
         "signs.markings"
       ],
-      "classification_note_en": "The original English translation incorrectly says unbroken line; Spanish says broken line. Preserve the source and review the translation before publishing."
+      "classification_note_en": "The original English translation incorrectly says unbroken line; Spanish says broken line. Preserve the source and review the translation before publishing.",
+      "classification_review_required": false
     }
   ],
   "collection_type": "exam",

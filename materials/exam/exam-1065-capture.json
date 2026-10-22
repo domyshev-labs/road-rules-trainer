@@ -32,9 +32,9 @@
       "deferred": true,
       "proposed_answer": "C",
       "deferred_reason": "Automatic review rejected the answer because it could not verify intersection image; proposed C based on visible green traffic light. Deferred under user instruction.",
+      "primary_topic_id": "vehicle.motorcycles",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
-        "priority.lights",
         "vehicle.motorcycles"
       ]
     },
@@ -67,11 +67,10 @@
       "help_status": "captured",
       "local_image": "exam-1065-q02.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
-        "driving.parking",
-        "driving.braking",
-        "documents.permissions"
+        "driving.parking"
       ]
     },
     {
@@ -103,11 +102,10 @@
       "help_status": "captured",
       "local_image": "exam-1065-q03.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "vehicle.lights",
-        "vehicle.passengers",
-        "vehicle.motorcycles"
+        "vehicle.lights"
       ]
     },
     {
@@ -139,8 +137,10 @@
       "help_status": "captured",
       "local_image": "exam-1065-q04.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes"
+        "signs.markings"
       ]
     },
     {
@@ -172,6 +172,8 @@
       "help_status": "captured",
       "local_image": "exam-1065-q05.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.pedestrians",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.pedestrians"
       ]
@@ -205,10 +207,10 @@
       "help_status": "captured",
       "local_image": "exam-1065-q06.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "priority.officer",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
-        "priority.officer",
-        "priority.lights"
+        "priority.officer"
       ]
     },
     {
@@ -240,8 +242,9 @@
       "help_status": "captured",
       "local_image": "exam-1065-q07.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
         "vehicle.lights"
       ]
     },
@@ -274,6 +277,8 @@
       "help_status": "captured",
       "local_image": "exam-1065-q08.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.tyres"
       ]
@@ -307,10 +312,10 @@
       "help_status": "captured",
       "local_image": "exam-1065-q09.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.priority",
-        "priority.sign",
-        "priority.general"
+        "signs.priority"
       ]
     },
     {
@@ -342,6 +347,8 @@
       "help_status": "captured",
       "local_image": "exam-1065-q10.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.fatigue"
       ]
@@ -375,8 +382,12 @@
       "help_status": "captured",
       "local_image": "exam-1065-q11.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.uturns",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "driving.turns",
+        "driving.uturns",
+        "signs.restrictions"
       ]
     },
     {
@@ -408,11 +419,12 @@
       "help_status": "captured",
       "local_image": "exam-1065-q12.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
         "driving.overtaking",
-        "driving.pedestrians",
-        "vehicle.motorcycles"
+        "numbers.distances",
+        "signs.markings"
       ]
     },
     {
@@ -444,10 +456,9 @@
       "help_status": "captured",
       "local_image": "exam-1065-q13.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "incidents.towing",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "vehicle.visibility",
-        "vehicle.motorcycles",
         "incidents.towing"
       ]
     },
@@ -480,8 +491,10 @@
       "help_status": "captured",
       "local_image": "exam-1065-q14.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "incidents.scene",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.classification"
+        "incidents.scene"
       ]
     },
     {
@@ -513,8 +526,10 @@
       "help_status": "captured",
       "local_image": "exam-1065-q15.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "speed.adaptation"
       ]
     },
     {
@@ -546,8 +561,9 @@
       "help_status": "captured",
       "local_image": "exam-1065-q16.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.passive",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "vehicle.passive"
       ]
     },
@@ -580,6 +596,8 @@
       "help_status": "captured",
       "local_image": "exam-1065-q17.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.drugs",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.drugs",
         "routine.ecodriving"
@@ -614,8 +632,11 @@
       "help_status": "captured",
       "local_image": "exam-1065-q18.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.temporary",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.pedestrians"
+        "driving.turns",
+        "signs.temporary"
       ]
     },
     {
@@ -646,9 +667,9 @@
       "deferred": true,
       "proposed_answer": "C",
       "deferred_reason": "Ambiguous source: question asks obligation to carry a reflective vest on motorcycles, while help discusses wearing one after breakdown and says obligatory equipment. Defer for separate verification rather than guess.",
+      "primary_topic_id": "vehicle.motorcycles",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "vehicle.visibility",
         "vehicle.motorcycles"
       ]
     },
@@ -681,8 +702,9 @@
       "help_status": "captured",
       "local_image": "exam-1065-q20.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "routine.distraction"
       ]
     },
@@ -715,13 +737,10 @@
       "help_status": "captured",
       "local_image": "exam-1065-q21.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.passengers",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.vehicle_plates",
-        "driving.weather",
-        "vehicle.visibility",
-        "vehicle.passengers",
-        "documents.permissions",
-        "incidents.scene"
+        "vehicle.passengers"
       ]
     },
     {
@@ -753,6 +772,8 @@
       "help_status": "captured",
       "local_image": "exam-1065-q22.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.distraction"
       ]
@@ -785,8 +806,11 @@
       "deferred": true,
       "proposed_answer": "A",
       "deferred_reason": "Automatic review rejected answer due to unavailable road marking image; proposed stop before stop line.",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "signs.markings",
+        "signs.priority"
       ]
     },
     {
@@ -817,9 +841,9 @@
       "deferred": true,
       "proposed_answer": "C",
       "deferred_reason": "Automatic review could not verify intersection vehicle positions. Proposed yield to red approaching from the right.",
-      "topic_ids": [
-        "signs.mandatory"
-      ]
+      "primary_topic_id": null,
+      "classification_review_required": true,
+      "topic_ids": []
     },
     {
       "answers": [
@@ -850,10 +874,11 @@
       "help_status": "captured",
       "local_image": "exam-1065-q25.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "signs.lanes",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.lanes",
         "priority.tram",
-        "driving.lanes"
+        "signs.lanes"
       ]
     },
     {
@@ -884,9 +909,11 @@
       "deferred": true,
       "proposed_answer": "B",
       "deferred_reason": "Automatic review could not verify motorway road type from image; proposed 120 km/h.",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.overtaking",
-        "vehicle.passengers"
+        "numbers.speeds"
       ]
     },
     {
@@ -918,11 +945,11 @@
       "help_status": "captured",
       "local_image": "exam-1065-q27.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.uturns",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.visibility",
-        "vehicle.classification",
-        "documents.permissions"
+        "driving.turns",
+        "driving.uturns"
       ]
     },
     {
@@ -954,6 +981,8 @@
       "help_status": "captured",
       "local_image": "exam-1065-q28.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "documents.permissions",
+      "classification_review_required": false,
       "topic_ids": [
         "documents.permissions",
         "routine.ecodriving"
@@ -988,9 +1017,10 @@
       "help_status": "captured",
       "local_image": "exam-1065-q29.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.motorcycles",
+        "conditions.fog",
         "routine.helmets"
       ]
     },
@@ -1023,10 +1053,11 @@
       "help_status": "captured",
       "local_image": "exam-1065-q30.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
-        "vehicle.lights",
-        "documents.permissions"
+        "driving.signals",
+        "signs.priority"
       ]
     }
   ],

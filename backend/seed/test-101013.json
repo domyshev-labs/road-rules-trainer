@@ -33,12 +33,12 @@
       "source_test_id": 1013,
       "source_ordinal": 1,
       "summary_ru": "Знак обязательного направления движения на круге",
-      "primary_topic_id": "signs.mandatory",
+      "primary_topic_id": "vehicle.mechanics",
       "topic_ids": [
-        "signs.mandatory",
-        "driving.roundabouts"
+        "vehicle.mechanics"
       ],
       "classification_note_en": "The roundabout sign prescribes direction; it does not itself give priority.",
+      "classification_review_required": false,
       "canonical_id": "bb2a9988d66c0afb763dbf6b"
     },
     {
@@ -75,6 +75,7 @@
       "topic_ids": [
         "routine.fatigue"
       ],
+      "classification_review_required": false,
       "canonical_id": "bffcecc8be7bf8b11fa95e71"
     },
     {
@@ -107,13 +108,14 @@
       "source_test_id": 1013,
       "source_ordinal": 3,
       "summary_ru": "Норма алкоголя в крови в первые два года стажа",
-      "primary_topic_id": "numbers.alcohol",
+      "primary_topic_id": "numbers.deadlines.novice",
       "topic_ids": [
-        "numbers.alcohol",
-        "routine.alcohol",
-        "numbers.deadlines.novice"
+        "documents.permissions",
+        "numbers.deadlines.novice",
+        "routine.alcohol"
       ],
       "classification_note_en": "The two-year period is a novice restriction, not the validity period of the driving licence.",
+      "classification_review_required": false,
       "canonical_id": "114d2e304e747c8bf6860f52"
     },
     {
@@ -148,9 +150,9 @@
       "summary_ru": "Выбор полосы на загородном круговом перекрёстке",
       "primary_topic_id": "driving.roundabouts",
       "topic_ids": [
-        "driving.roundabouts",
-        "driving.lanes"
+        "driving.roundabouts"
       ],
+      "classification_review_required": false,
       "canonical_id": "4abaa4e79eebbeba2ea471c7"
     },
     {
@@ -183,10 +185,12 @@
       "source_test_id": 1013,
       "source_ordinal": 5,
       "summary_ru": "Первое действие на месте ДТП: защитить и обозначить зону",
-      "primary_topic_id": "incidents.scene",
+      "primary_topic_id": "incidents.first_aid",
       "topic_ids": [
+        "incidents.first_aid",
         "incidents.scene"
       ],
+      "classification_review_required": false,
       "canonical_id": "5d5a4ad082a9cbd94250df7e"
     },
     {
@@ -219,11 +223,11 @@
       "source_test_id": 1013,
       "source_ordinal": 6,
       "summary_ru": "Как пешеходам обходить площади и круговые перекрёстки",
-      "primary_topic_id": "driving.pedestrians",
+      "primary_topic_id": "driving.roundabouts",
       "topic_ids": [
-        "driving.pedestrians",
         "driving.roundabouts"
       ],
+      "classification_review_required": false,
       "canonical_id": "6261bf8dcc45e399fef75d49"
     },
     {
@@ -256,10 +260,11 @@
       "source_test_id": 1013,
       "source_ordinal": 7,
       "summary_ru": "Красный флаг регулировщика: закрытие дороги",
-      "primary_topic_id": "priority.officer",
+      "primary_topic_id": "vehicle.motorcycles",
       "topic_ids": [
-        "priority.officer"
+        "vehicle.motorcycles"
       ],
+      "classification_review_required": false,
       "canonical_id": "e02330d12b2deb4771d4ce06"
     },
     {
@@ -296,6 +301,7 @@
       "topic_ids": [
         "routine.drugs"
       ],
+      "classification_review_required": false,
       "canonical_id": "4ba3417e1ed8cff852442a79"
     },
     {
@@ -328,11 +334,11 @@
       "source_test_id": 1013,
       "source_ordinal": 9,
       "summary_ru": "Молодые водители: недооценка риска",
-      "primary_topic_id": "routine.emotions",
+      "primary_topic_id": "routine.safety",
       "topic_ids": [
-        "routine.emotions",
         "routine.safety"
       ],
+      "classification_review_required": false,
       "canonical_id": "f1145717815c3cabb4c5fa8d"
     },
     {
@@ -369,6 +375,7 @@
       "topic_ids": [
         "driving.lanes"
       ],
+      "classification_review_required": false,
       "canonical_id": "0159c4fa0799d2607a15c729"
     },
     {
@@ -401,10 +408,11 @@
       "source_test_id": 1013,
       "source_ordinal": 11,
       "summary_ru": "Обязанность помогать другим включаться в поток",
-      "primary_topic_id": "priority.merging",
+      "primary_topic_id": "driving.merging",
       "topic_ids": [
-        "priority.merging"
+        "driving.merging"
       ],
+      "classification_review_required": false,
       "canonical_id": "c737f6a95c8444023d1f72e1"
     },
     {
@@ -437,11 +445,11 @@
       "source_test_id": 1013,
       "source_ordinal": 12,
       "summary_ru": "Где пешеходы чаще попадают в ДТП",
-      "primary_topic_id": "routine.safety",
+      "primary_topic_id": "driving.pedestrians",
       "topic_ids": [
-        "routine.safety",
         "driving.pedestrians"
       ],
+      "classification_review_required": false,
       "canonical_id": "cce9e50067b5fc31826aa752"
     },
     {
@@ -478,6 +486,7 @@
       "topic_ids": [
         "priority.cyclists"
       ],
+      "classification_review_required": false,
       "canonical_id": "cf182b9e2f5cd9e5689ca235"
     },
     {
@@ -510,12 +519,13 @@
       "source_test_id": 1013,
       "source_ordinal": 14,
       "summary_ru": "Таблички грузовика: опасный груз и длина более 12 м",
-      "primary_topic_id": "signs.vehicle_plates",
+      "primary_topic_id": "vehicle.dangerous_goods",
       "topic_ids": [
         "signs.vehicle_plates",
-        "vehicle.dangerous_goods",
-        "numbers.dimensions"
+        "signs.warning",
+        "vehicle.dangerous_goods"
       ],
+      "classification_review_required": false,
       "canonical_id": "722a4e0dfc8d949b6ca8dc24"
     },
     {
@@ -552,6 +562,7 @@
       "topic_ids": [
         "vehicle.lights"
       ],
+      "classification_review_required": false,
       "canonical_id": "7fe05fdd62a62817a56fdcb8"
     },
     {
@@ -584,12 +595,12 @@
       "source_test_id": 1013,
       "source_ordinal": 16,
       "summary_ru": "Жёлтый указатель окончания левой полосы при дорожных работах",
-      "primary_topic_id": "signs.lanes",
+      "primary_topic_id": "signs.temporary",
       "topic_ids": [
         "signs.lanes",
-        "signs.temporary",
-        "driving.lanes"
+        "signs.temporary"
       ],
+      "classification_review_required": false,
       "canonical_id": "647307727c44bf9e8a2c2c87"
     },
     {
@@ -624,9 +635,11 @@
       "summary_ru": "Задняя противотуманная фара при сильном дожде",
       "primary_topic_id": "vehicle.lights",
       "topic_ids": [
-        "vehicle.lights",
-        "driving.weather"
+        "conditions.fog",
+        "driving.weather",
+        "vehicle.lights"
       ],
+      "classification_review_required": false,
       "canonical_id": "710074f7a194af7ae963112f"
     },
     {
@@ -664,6 +677,7 @@
         "routine.distraction",
         "routine.reaction"
       ],
+      "classification_review_required": false,
       "canonical_id": "2c23299d6ff6413eeed6b29e"
     },
     {
@@ -698,9 +712,9 @@
       "summary_ru": "Максимальная скорость в полосе встречного направления для разгрузки потока",
       "primary_topic_id": "numbers.speeds",
       "topic_ids": [
-        "numbers.speeds",
-        "driving.lanes"
+        "numbers.speeds"
       ],
+      "classification_review_required": false,
       "canonical_id": "72fa77674714b7479b0d2fb4"
     },
     {
@@ -735,10 +749,10 @@
       "summary_ru": "Разрешает ли категория B сельскохозяйственный трактор тяжелее 3,5 т",
       "primary_topic_id": "documents.permissions",
       "topic_ids": [
-        "documents.permissions",
-        "vehicle.classification"
+        "documents.permissions"
       ],
       "classification_note_en": "The stem contains 3,500 kg, but the tested fact is permission to drive agricultural vehicles, not recall of a mass limit.",
+      "classification_review_required": false,
       "canonical_id": "9bc0e7103c8b9ef0f518abe9"
     },
     {
@@ -771,11 +785,12 @@
       "source_test_id": 1013,
       "source_ordinal": 21,
       "summary_ru": "Девять детей в девятиместном автомобиле с водителем",
-      "primary_topic_id": "numbers.capacity",
+      "primary_topic_id": "vehicle.children",
       "topic_ids": [
         "numbers.capacity",
-        "vehicle.passengers"
+        "vehicle.children"
       ],
+      "classification_review_required": false,
       "canonical_id": "e5e6da041623148c083d455d"
     },
     {
@@ -808,10 +823,12 @@
       "source_test_id": 1013,
       "source_ordinal": 22,
       "summary_ru": "Обозначение и защита выступающего груза",
-      "primary_topic_id": "vehicle.cargo",
+      "primary_topic_id": "numbers.dimensions",
       "topic_ids": [
+        "numbers.dimensions",
         "vehicle.cargo"
       ],
+      "classification_review_required": false,
       "canonical_id": "5b40104fb50443c8b5871c19"
     },
     {
@@ -844,12 +861,12 @@
       "source_test_id": 1013,
       "source_ordinal": 23,
       "summary_ru": "Движение по льду: малая скорость без необходимости тормозить",
-      "primary_topic_id": "driving.weather",
+      "primary_topic_id": "conditions.ice",
       "topic_ids": [
-        "driving.weather",
-        "driving.braking"
+        "conditions.ice"
       ],
       "classification_note_en": "Qualitative speed advice is not a numeric speed-limit question.",
+      "classification_review_required": false,
       "canonical_id": "f274aec6aa10f559a7f97de1"
     },
     {
@@ -888,6 +905,7 @@
         "priority.tram"
       ],
       "classification_note_en": "Tests which vehicles the signal applies to, not a general rule giving trams priority.",
+      "classification_review_required": false,
       "canonical_id": "d856101c0a987689c1225c97"
     },
     {
@@ -920,11 +938,11 @@
       "source_test_id": 1013,
       "source_ordinal": 25,
       "summary_ru": "Сильная ссора увеличивает время реакции",
-      "primary_topic_id": "routine.emotions",
+      "primary_topic_id": "routine.reaction",
       "topic_ids": [
-        "routine.emotions",
         "routine.reaction"
       ],
+      "classification_review_required": false,
       "canonical_id": "a3e25feedca158bc5a3b3d2e"
     },
     {
@@ -960,9 +978,9 @@
       "primary_topic_id": "numbers.dimensions",
       "topic_ids": [
         "numbers.dimensions",
-        "vehicle.cargo",
-        "vehicle.motorcycles"
+        "vehicle.cargo"
       ],
+      "classification_review_required": false,
       "canonical_id": "69ed8f2a72932928ee4512b2"
     },
     {
@@ -995,12 +1013,13 @@
       "source_test_id": 1013,
       "source_ordinal": 27,
       "summary_ru": "Знак запрета стоянки 16–31: последний день месяца",
-      "primary_topic_id": "signs.parking",
+      "primary_topic_id": "signs.priority",
       "topic_ids": [
-        "signs.parking",
         "numbers.dates",
-        "driving.parking"
+        "signs.parking",
+        "signs.priority"
       ],
+      "classification_review_required": false,
       "canonical_id": "f18a3e953ed43772de3f8080"
     },
     {
@@ -1037,6 +1056,7 @@
       "topic_ids": [
         "vehicle.passive"
       ],
+      "classification_review_required": false,
       "canonical_id": "8e012a5eb175be00ec2df2af"
     },
     {
@@ -1071,9 +1091,9 @@
       "summary_ru": "Когда можно пересекать краевую линию",
       "primary_topic_id": "signs.markings",
       "topic_ids": [
-        "signs.markings",
-        "driving.lanes"
+        "signs.markings"
       ],
+      "classification_review_required": false,
       "canonical_id": "9162a8fc2225ab4be7fd612e"
     },
     {
@@ -1106,11 +1126,12 @@
       "source_test_id": 1013,
       "source_ordinal": 30,
       "summary_ru": "Минимальная глубина протектора 1,6 мм",
-      "primary_topic_id": "numbers.technical",
+      "primary_topic_id": "vehicle.tyres",
       "topic_ids": [
         "numbers.technical",
         "vehicle.tyres"
       ],
+      "classification_review_required": false,
       "canonical_id": "6c64acdcef575ccba9c378cf"
     }
   ]

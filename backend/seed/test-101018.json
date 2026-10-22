@@ -31,7 +31,10 @@
       "source_ordinal": 1,
       "local_image": "/tests/exam/1018/q01.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.crossings",
+      "classification_review_required": false,
       "topic_ids": [
+        "driving.crossings",
         "signs.warning"
       ],
       "canonical_id": "916bd5fa2463e2fd633c60f1"
@@ -64,9 +67,10 @@
       "source_ordinal": 2,
       "local_image": "/tests/exam/1018/q02.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.turns",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.lights",
-        "driving.lanes"
+        "driving.turns"
       ],
       "canonical_id": "3a0ae37851af75975db4e72e"
     },
@@ -98,6 +102,8 @@
       "source_ordinal": 3,
       "local_image": "/tests/exam/1018/q03.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.alcohol",
         "routine.distraction"
@@ -132,9 +138,10 @@
       "source_ordinal": 4,
       "local_image": "/tests/exam/1018/q04.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.safety",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.pedestrians",
-        "vehicle.motorcycles"
+        "routine.safety"
       ],
       "canonical_id": "401ccffe947f9d0a011bd8e5"
     },
@@ -166,8 +173,9 @@
       "source_ordinal": 5,
       "local_image": "/tests/exam/1018/q05.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "routine.fatigue"
       ],
       "canonical_id": "f99a4d4a981fddcbf0e37ad7"
@@ -200,8 +208,9 @@
       "source_ordinal": 6,
       "local_image": "/tests/exam/1018/q06.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights",
         "routine.distraction"
       ],
       "canonical_id": "b80b5a1076f6142a810bbd01"
@@ -234,11 +243,10 @@
       "source_ordinal": 7,
       "local_image": "/tests/exam/1018/q07.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "incidents.fire",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.vehicle_plates",
-        "driving.weather",
-        "vehicle.visibility",
-        "incidents.scene"
+        "incidents.fire"
       ],
       "canonical_id": "09c8194161751e9df953780f"
     },
@@ -270,8 +278,12 @@
       "source_ordinal": 8,
       "local_image": "/tests/exam/1018/q08.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.lights"
+        "driving.signals",
+        "priority.lights",
+        "vehicle.lights"
       ],
       "canonical_id": "2b32fff7867654a27d1643b5"
     },
@@ -303,10 +315,12 @@
       "source_ordinal": 9,
       "local_image": "/tests/exam/1018/q09.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.cargo",
         "routine.distraction",
-        "routine.ecodriving"
+        "routine.ecodriving",
+        "vehicle.lights"
       ],
       "canonical_id": "2114b20d31e54865785531e1"
     },
@@ -338,9 +352,10 @@
       "source_ordinal": 10,
       "local_image": "/tests/exam/1018/q10.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "eco.noise",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.lights",
-        "driving.pedestrians"
+        "eco.noise"
       ],
       "canonical_id": "0bf5a43507abc101e2f08d51"
     },
@@ -372,8 +387,9 @@
       "source_ordinal": 11,
       "local_image": "/tests/exam/1018/q11.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions",
         "incidents.towing",
         "routine.seatbelts"
       ],
@@ -407,8 +423,9 @@
       "source_ordinal": 12,
       "local_image": "/tests/exam/1018/q12.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
         "driving.overtaking"
       ],
       "canonical_id": "082ec159a6c01b5a8446133c"
@@ -441,9 +458,13 @@
       "source_ordinal": 13,
       "local_image": "/tests/exam/1018/q13.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.uturns",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.overtaking"
+        "driving.overtaking",
+        "driving.signals",
+        "driving.uturns",
+        "vehicle.mechanics"
       ],
       "canonical_id": "c6604986dfb25e0ac536b551"
     },
@@ -475,11 +496,11 @@
       "source_ordinal": 14,
       "local_image": "/tests/exam/1018/q14.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "signs.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
-        "driving.pedestrians",
-        "vehicle.cargo",
-        "documents.permissions"
+        "signs.parking",
+        "vehicle.cargo"
       ],
       "canonical_id": "265cb3638ce1f27c301dc654"
     },
@@ -511,8 +532,10 @@
       "source_ordinal": 15,
       "local_image": "/tests/exam/1018/q15.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.braking"
+        "vehicle.lights"
       ],
       "canonical_id": "295ce4711f023b7446187cf1"
     },
@@ -544,9 +567,12 @@
       "source_ordinal": 16,
       "local_image": "/tests/exam/1018/q16.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
       "topic_ids": [
         "priority.lights",
-        "driving.lanes"
+        "signs.lanes",
+        "signs.restrictions"
       ],
       "canonical_id": "dc14db078e78ba097abf2845"
     },
@@ -578,10 +604,11 @@
       "source_ordinal": 17,
       "local_image": "/tests/exam/1018/q17.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "vehicle.visibility",
-        "incidents.towing"
+        "incidents.towing",
+        "vehicle.lights"
       ],
       "canonical_id": "93b61a9931ffa829fa2dbf95"
     },
@@ -613,8 +640,10 @@
       "source_ordinal": 18,
       "local_image": "/tests/exam/1018/q18.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "incidents.scene",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "incidents.scene"
       ],
       "canonical_id": "625b1bc16d8e1fd37ac0de72"
     },
@@ -646,8 +675,10 @@
       "source_ordinal": 19,
       "local_image": "/tests/exam/1018/q19.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.turns",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "driving.turns"
       ],
       "canonical_id": "eeba9ba6013220cbd0176aad"
     },
@@ -679,12 +710,12 @@
       "source_ordinal": 20,
       "local_image": "/tests/exam/1018/q20.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.lanes",
-        "signs.temporary",
-        "signs.markings",
         "priority.tram",
-        "driving.lanes"
+        "signs.markings",
+        "signs.temporary"
       ],
       "canonical_id": "b9804e1bd9e668ab748001a1"
     },
@@ -716,11 +747,11 @@
       "source_ordinal": 21,
       "local_image": "/tests/exam/1018/q21.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.deadlines.itv",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.deadlines.itv",
-        "vehicle.motorcycles",
-        "vehicle.classification",
-        "documents.itv"
+        "documents.itv",
+        "numbers.deadlines.itv"
       ],
       "canonical_id": "4e17a274d27ed3081f556c8c"
     },
@@ -752,8 +783,11 @@
       "source_ordinal": 22,
       "local_image": "/tests/exam/1018/q22.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "documents.points",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions"
+        "documents.permissions",
+        "documents.points"
       ],
       "canonical_id": "1fe646671263e8ab80ce4582"
     },
@@ -786,10 +820,10 @@
       "local_image": "/tests/exam/1018/q23.jpg",
       "source_note": "Reviewed with official DGT March 2026 test: ordinary drivers cannot stop in bus lanes. Option B overgeneralizes to all vehicles, including authorized buses. Option A matches the question about the ordinary driver. Source https://revista.dgt.es/es/test/Test-num-277.shtml",
       "selected_letter": "A",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.parking",
-        "documents.permissions"
+        "driving.parking"
       ],
       "canonical_id": "e1f922eaab0d707035e109fd"
     },
@@ -821,9 +855,10 @@
       "source_ordinal": 24,
       "local_image": "/tests/exam/1018/q24.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.markings",
-        "priority.lights"
+        "signs.markings"
       ],
       "canonical_id": "db1849c8cfb7232f7e2e8e49"
     },
@@ -855,9 +890,10 @@
       "source_ordinal": 25,
       "local_image": "/tests/exam/1018/q25.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.tyres",
-        "incidents.towing"
+        "vehicle.mechanics"
       ],
       "canonical_id": "8d84147cf353e92fedaa2f90"
     },
@@ -889,10 +925,11 @@
       "source_ordinal": 26,
       "local_image": "/tests/exam/1018/q26.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "signs.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "driving.parking",
-        "incidents.towing"
+        "signs.parking",
+        "signs.restrictions"
       ],
       "canonical_id": "590b984e784e6e810d03360f"
     },
@@ -924,12 +961,11 @@
       "source_ordinal": 27,
       "local_image": "/tests/exam/1018/q27.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.roundabouts",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.general",
         "driving.roundabouts",
-        "driving.lanes",
-        "driving.pedestrians",
-        "documents.permissions"
+        "priority.cyclists"
       ],
       "canonical_id": "c4151cc4ed2d64533d5b4d30"
     },
@@ -961,8 +997,10 @@
       "source_ordinal": 28,
       "local_image": "/tests/exam/1018/q28.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.pedestrians"
+        "driving.parking"
       ],
       "canonical_id": "914e53ff144051e4173b49c3"
     },
@@ -994,8 +1032,9 @@
       "source_ordinal": 29,
       "local_image": "/tests/exam/1018/q29.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "routine.fatigue"
       ],
       "canonical_id": "f7233914dbb3d0e15133f987"
@@ -1028,9 +1067,10 @@
       "source_ordinal": 30,
       "local_image": "/tests/exam/1018/q30.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.roundabouts",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.roundabouts",
-        "driving.pedestrians"
+        "driving.roundabouts"
       ],
       "canonical_id": "81333a085b8c7d1e4ca3a9f7"
     }

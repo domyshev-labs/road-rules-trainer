@@ -182,6 +182,22 @@ func (app *App) topic(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
+	if reviewID == 0 {
+		tx, e := app.db.Begin()
+		if e != nil {
+			app.serverError(w, e)
+			return
+		}
+		if e = inheritTopicProgress(tx, runID); e != nil {
+			tx.Rollback()
+			app.serverError(w, e)
+			return
+		}
+		if e = tx.Commit(); e != nil {
+			app.serverError(w, e)
+			return
+		}
+	}
 	questions := make([]topicQuestion, 0, len(members))
 	for i, ref := range members {
 		q, err := app.loadTopicQuestion(ref)
@@ -198,9 +214,9 @@ func (app *App) topic(w http.ResponseWriter, r *http.Request) {
 		var selected string
 		var correct bool
 		if reviewID > 0 {
-			err = app.db.QueryRow(`SELECT selected_text,correct FROM topic_run_answers WHERE run_id=? AND content_id=?`, reviewID, q.ID).Scan(&selected, &correct)
+			err = app.db.QueryRow(`SELECT selected_text,correct FROM topic_run_progress WHERE run_id=? AND content_id=?`, reviewID, q.ID).Scan(&selected, &correct)
 		} else {
-			err = app.db.QueryRow(`SELECT selected_text,correct FROM topic_run_answers WHERE run_id=? AND content_id=?`, runID, q.ID).Scan(&selected, &correct)
+			err = app.db.QueryRow(`SELECT selected_text,correct FROM topic_run_progress WHERE run_id=? AND content_id=?`, runID, q.ID).Scan(&selected, &correct)
 		}
 		if err == nil {
 			q.Progress = makeTopicProgress(q, selected, correct)
@@ -317,7 +333,7 @@ func (app *App) answerTopic(w http.ResponseWriter, r *http.Request) {
 	}
 	var selected string
 	var correct bool
-	err = tx.QueryRow(`SELECT selected_text,correct FROM topic_run_answers WHERE run_id=? AND content_id=?`, runID, q.ID).Scan(&selected, &correct)
+	err = tx.QueryRow(`SELECT selected_text,correct FROM topic_run_progress WHERE run_id=? AND content_id=?`, runID, q.ID).Scan(&selected, &correct)
 	if err != nil {
 		app.serverError(w, err)
 		return
@@ -362,7 +378,7 @@ func (app *App) resetTopic(w http.ResponseWriter, r *http.Request) {
 	}
 	for _, ref := range members {
 		var answered bool
-		if err = tx.QueryRow(`SELECT EXISTS(SELECT 1 FROM topic_answers WHERE user_id=? AND topic_id=? AND content_id=?)`, current.ID, id, ref.CanonicalID).Scan(&answered); err != nil {
+		if err = tx.QueryRow(`SELECT EXISTS(SELECT 1 FROM question_progress WHERE user_id=? AND content_id=?)`, current.ID, ref.CanonicalID).Scan(&answered); err != nil {
 			app.serverError(w, err)
 			return
 		}
@@ -435,37 +451,41 @@ func (app *App) topicSummaries(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 	type summary struct {
-		Total          int               `json:"total"`
-		Answered       int               `json:"answered"`
-		Correct        int               `json:"correct"`
-		Wrong          int               `json:"wrong"`
-		NextQuestion   int               `json:"next_question"`
-		Results        map[string]bool   `json:"results"`
-		Runs           []topicRunSummary `json:"runs"`
-		NewCount       int               `json:"new_count"`
-		NewQuestionIDs []string          `json:"new_question_ids"`
-		QuestionRuns   map[string]int64  `json:"question_runs"`
-		Completed      bool              `json:"completed"`
+		Total            int               `json:"total"`
+		Answered         int               `json:"answered"`
+		Correct          int               `json:"correct"`
+		Wrong            int               `json:"wrong"`
+		NextQuestion     int               `json:"next_question"`
+		Results          map[string]bool   `json:"results"`
+		Runs             []topicRunSummary `json:"runs"`
+		NewCount         int               `json:"new_count"`
+		NewQuestionIDs   []string          `json:"new_question_ids"`
+		QuestionRuns     map[string]int64  `json:"question_runs"`
+		Completed        bool              `json:"completed"`
+		RepeatInProgress bool              `json:"repeat_in_progress"`
 	}
 	result := map[string]*summary{}
 	for id, set := range members {
 		result[id] = &summary{Total: len(set), Results: map[string]bool{}}
 	}
 	current := r.Context().Value(userContextKey).(user)
-	rows, err := app.db.Query(`SELECT topic_id,content_id,correct FROM topic_answers WHERE user_id=?`, current.ID)
+	rows, err := app.db.Query(`SELECT content_id,correct FROM question_progress WHERE user_id=?`, current.ID)
 	if err != nil {
 		app.serverError(w, err)
 		return
 	}
 	defer rows.Close()
 	for rows.Next() {
-		var id, content string
+		var content string
 		var correct bool
-		if err = rows.Scan(&id, &content, &correct); err != nil {
+		if err = rows.Scan(&content, &correct); err != nil {
 			app.serverError(w, err)
 			return
 		}
-		if item, ok := result[id]; ok && members[id][content] {
+		for id, item := range result {
+			if !members[id][content] {
+				continue
+			}
 			item.Results[content] = correct
 			item.Answered++
 			if correct {
@@ -481,7 +501,12 @@ func (app *App) topicSummaries(w http.ResponseWriter, r *http.Request) {
 	}
 	rows.Close()
 	for id, item := range result {
-		if item.Answered > 0 {
+		var legacy bool
+		if err = app.db.QueryRow(`SELECT EXISTS(SELECT 1 FROM topic_answers WHERE user_id=? AND topic_id=?) OR EXISTS(SELECT 1 FROM topic_runs WHERE user_id=? AND topic_id=? AND parent_id IS NULL)`, current.ID, id, current.ID, id).Scan(&legacy); err != nil {
+			app.serverError(w, err)
+			return
+		}
+		if legacy {
 			if _, err = app.currentTopicRun(current.ID, id, refsByTopic[id]); err != nil {
 				app.serverError(w, err)
 				return
@@ -511,13 +536,54 @@ func (app *App) topicSummaries(w http.ResponseWriter, r *http.Request) {
 				break
 			}
 		}
+		fullRuns := 0
+		for _, run := range item.Runs {
+			if run.Kind == "full" {
+				fullRuns++
+			}
+		}
+		if fullRuns > 1 && len(item.Runs) > 0 {
+			for _, run := range item.Runs {
+				if run.Kind == "full" {
+					item.RepeatInProgress = run.CompletedAt == nil
+					break
+				}
+			}
+		}
+		repeatAnswered := map[string]bool{}
+		if item.RepeatInProgress {
+			answeredRows, e := app.db.Query(`SELECT content_id FROM topic_run_answers WHERE run_id=?`, fullID)
+			if e != nil {
+				app.serverError(w, e)
+				return
+			}
+			for answeredRows.Next() {
+				var content string
+				if e = answeredRows.Scan(&content); e != nil {
+					answeredRows.Close()
+					app.serverError(w, e)
+					return
+				}
+				repeatAnswered[content] = true
+			}
+			e = answeredRows.Err()
+			answeredRows.Close()
+			if e != nil {
+				app.serverError(w, e)
+				return
+			}
+		}
 		number := 0
 		for _, content := range ids {
 			if fullID > 0 && item.QuestionRuns[content] != fullID {
 				continue
 			}
 			number++
-			if _, answered := item.Results[content]; !answered {
+			_, answered := item.Results[content]
+			if item.RepeatInProgress {
+				answered = repeatAnswered[content]
+			}
+			if !answered {
 				item.NextQuestion = number
 				break
 			}

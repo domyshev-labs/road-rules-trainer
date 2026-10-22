@@ -107,7 +107,7 @@ Minor and major increments are agreed with the user separately. Failed deploymen
 
 The home page keeps collection shortcuts and search above a separately scrolling topic tree. The taxonomy has two levels: sections and leaf topics. Document-related deadlines are direct children of Documents and deadlines; stable topic identifiers preserve existing answers when a leaf moves between sections.
 
-`GET /api/topics/progress` returns authenticated per-leaf totals, answered/correct/wrong counts, answered question states and the first unanswered question number. Counts exclude deferred questions and stale memberships. Both the home list and topic trainer use canonical-ID ordering and independent topic progress. Source-ticket attempts remain separate. Russian interface labels include translated thematic ticket names while captured source titles remain unchanged.
+`GET /api/topics/progress` returns authenticated per-leaf totals, answered/correct/wrong counts, answered question states and the first unanswered question number. Counts exclude deferred questions and stale memberships. Both the home list and topic trainer use canonical-ID ordering. Question coverage is shared across topics and source tickets by user and canonical content ID. Source-ticket attempts and topic-run history remain separate immutable event records. Russian interface labels include translated thematic ticket names while captured source titles remain unchanged.
 
 Question lists show their own sequence number followed by the Russian prompt, without repeating the topic name or an English second line. Russian navigation translations are stored by canonical question ID in `materials/question-titles-ru.json` and included in both library artifacts by the importer. They were generated locally with Argos en_ru 1.9, with road terminology corrections and manual overrides; source prompts, answer keys and progress identities are unchanged. Topic API responses include the same `question_ru` field. Coverage tests verify consistency of existing translations; newly captured questions may retain their original prompt.
 
@@ -142,3 +142,34 @@ search, collection and scroll snapshot. Navigation never resets answer history.
 Hovering, focusing or tapping the section name in a topic opens an interactive
 section panel using the same hierarchy, statistics and topic actions as home.
 Section counts summarize completed leaf topics rather than question totals.
+
+### Content-based taxonomy and shared question coverage
+
+The taxonomy has eleven subject sections and exactly two levels. Classification
+reads only question prompts and answer choices, never explanations. The tested
+fact determines a primary leaf and directly relevant secondary leaves. Stable
+canonical IDs and existing leaf IDs survive reparenting. Editorial exceptions
+are in `materials/topic-overrides.json`; `scripts/audit-topics.py` checks complete
+coverage, valid leaves, primary labels and preservation of all prior question IDs.
+`materials/reviewed-exam-topics.json` is retained as historical material and is
+not consumed by the new classifier. New captures without a classification must
+be reviewed before the taxonomy audit can pass.
+
+`question_progress` derives the user's latest normal answer from legacy topic
+answers, actual topic-run answers and full source-ticket attempts. Mistake
+reviews cannot replace this normal-training result. No original answer events
+are rewritten. The authenticated `/api/questions/progress` endpoint exposes
+feedback only for questions the current user has already answered.
+
+First topic runs carry earlier answers in a separate `topic_run_inherited`
+snapshot; history labels these as inherited rather than fabricated new answers.
+Fresh intentional repeats remain blank and completed historical runs remain
+frozen. When a topic loses members, a new current snapshot reflects the new
+membership, while historical runs and reviews can still load removed questions.
+
+Persistent taxonomy membership changes identify unanswered additions following
+reorganization, including topics without an existing run. New markers survive
+restarts and disappear when that question is answered anywhere in normal
+training. Previously answered additions are immediately covered. Truly new
+questions use the existing isolated new-question batch workflow. API responses
+and client requests bypass HTTP caches to avoid stale progress.

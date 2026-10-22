@@ -1,9 +1,10 @@
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, useTransition } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState, useTransition } from 'react';
 import { createPortal } from 'react-dom';
 import { readRoute, useTrainingNavigation } from './navigation';
 
 type Answer = { letter: string; text: string; correct?: boolean };
 type Question = {
+  canonical_id?: string;
   number: string;
   question: string;
   answers: Answer[];
@@ -49,10 +50,12 @@ type SavedProgress = {
   answers?: AnswerHistory;
   history?: AttemptHistory[];
   pendingRestart?: boolean;
+  freshRepeat?: boolean;
   serverAttemptId?: string | null;
   correctLetters?: Record<string, string>;
   updatedAt: string;
 };
+type QuestionKnowledge = Record<string, { selected_text: string; correct_text: string; correct: boolean; answered_at: string }>;
 type ProgressStore = Record<string, SavedProgress>;
 type TicketStats = {
   answered: number;
@@ -83,6 +86,7 @@ async function api<T>(path: string, init?: RequestInit): Promise<T> {
     ...init,
     headers: init?.body ? { 'Content-Type': 'application/json', ...init.headers } : init?.headers,
     credentials: 'same-origin',
+    cache: 'no-store',
   });
   if (!response.ok) {
     const payload = await response.json().catch(() => ({})) as { error?: string };
@@ -744,9 +748,9 @@ type LibraryQuestion = { canonical_id: string; test_id: number; source_test_id: 
 type TopicNode = { id: string; label_ru: string; parent_id: string | null };
 type LibraryData = { nodes: TopicNode[]; questions: LibraryQuestion[] };
 
-type TopicRun = { kind: 'full' | 'new'; id: number; total: number; answered: number; correct: number; wrong: number; started_at: string; completed_at: string | null; review?: TopicRun };
+type TopicRun = { inherited?: number; kind: 'full' | 'new'; id: number; total: number; answered: number; correct: number; wrong: number; started_at: string; completed_at: string | null; review?: TopicRun };
 type TopicLaunch = { reviewParent?: number; newQuestions?: boolean; runId?: number };
-type TopicSummary = { new_count: number; new_question_ids: string[]; question_runs: Record<string, number>; completed: boolean; runs: TopicRun[]; total: number; answered: number; correct: number; wrong: number; next_question: number; results: Record<string, boolean> };
+type TopicSummary = { repeat_in_progress?: boolean; new_count: number; new_question_ids: string[]; question_runs: Record<string, number>; completed: boolean; runs: TopicRun[]; total: number; answered: number; correct: number; wrong: number; next_question: number; results: Record<string, boolean> };
 function questionCount(count: number) {
   const form = new Intl.PluralRules('ru').select(count);
   return `${count} ${form === 'one' ? 'вопрос' : form === 'few' ? 'вопроса' : 'вопросов'}`;
@@ -786,7 +790,7 @@ function TopicStatistics({ stats, total, onReview }: { stats?: TopicSummary; tot
     <strong>История прохождений</strong>
     {!stats?.runs.length && <p>Прохождений пока нет.</p>}
     {stats?.runs.map((run, index) => <section key={run.id}><b>{run.kind === 'new' ? 'Новые вопросы' : `Прохождение ${stats.runs.slice(index).filter((item) => item.kind === 'full').length}`}</b><time>{new Date(run.started_at).toLocaleString('ru-RU')}</time>
-      <p>{run.completed_at ? 'Завершено' : 'В процессе'} · {run.answered}/{run.total} · ✓ {run.correct} · × {run.wrong}</p>
+      <p>{run.completed_at ? 'Завершено' : 'В процессе'} · {run.answered}/{run.total} · ✓ {run.correct} · × {run.wrong}</p>{!!run.inherited && <p>Ранее отвечено в других темах или билетах: {run.inherited}</p>}
       {run.review ? <><p>Работа над ошибками: {run.review.completed_at ? 'выполнена' : 'в процессе'} · {run.review.answered}/{run.review.total} · ✓ {run.review.correct} · × {run.review.wrong}</p>
         <button type="button" onClick={() => { setAnchor(null); onReview(run.id); }}>{run.review.completed_at ? 'Посмотреть работу над ошибками' : 'Продолжить работу над ошибками'}</button></>
         : run.completed_at && run.wrong > 0 ? <button type="button" onClick={() => { setAnchor(null); onReview(run.id); }}>Сделать работу над ошибками</button> : <p>{run.completed_at ? 'Ошибок нет' : 'Работа над ошибками доступна после завершения'}</p>}
@@ -845,9 +849,9 @@ function TopicHeading({ section, title }: { section: React.ReactNode; title: str
 }
 type LibraryView = { search: string; expanded: string[]; scrollTop: number; collection: TicketCollection | null; completedTopic?: { id: string; question: string } };
 
-function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, getStats, view, onRemember, sectionId }: {
+function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, getStats, view, onRemember, sectionId, knowledge }: {
   catalog: CatalogEntry[]; library: LibraryData; onOpen: (id: number, index?: number) => void; onOpenTopic: (id: string, question?: string, options?: TopicLaunch) => void;
-  sectionId?: string; getStats: (entry: CatalogEntry) => TicketStats; view: LibraryView; onRemember: (snapshot: LibraryView) => void;
+  knowledge?: QuestionKnowledge; sectionId?: string; getStats: (entry: CatalogEntry) => TicketStats; view: LibraryView; onRemember: (snapshot: LibraryView) => void;
 }) {
   const root = useRef<HTMLElement>(null);
   const scroll = useRef<HTMLDivElement>(null);
@@ -897,7 +901,7 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, getStats, view
     if (unique) items = items.filter((q) => { if (seen.has(q.canonical_id)) return false; seen.add(q.canonical_id); return true; });
     if (node) items = [...items].sort((a, b) => a.canonical_id.localeCompare(b.canonical_id));
     return <div className="library-questions">{items.map((q, index) => ({ q, index })).filter(({ q }) => matches(q)).map(({ q, index }) => {
-      const result = node ? summaries?.[node.id]?.results[q.canonical_id] : undefined;
+      const result = node ? summaries?.[node.id]?.results[q.canonical_id] : knowledge?.[q.canonical_id]?.correct;
       return <button type="button" key={q.question_id} data-question-id={q.canonical_id} disabled={!q.verified} onClick={() => {
         if (!node) { openTicket(q.test_id, q.index ?? undefined); return; }
         const stats = summaries?.[node.id];
@@ -905,7 +909,7 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, getStats, view
           ? { newQuestions: true } : { runId: stats?.question_runs[q.canonical_id] };
         openTopic(node.id, q.canonical_id, options);
       }}>
-        <span className={`library-question-id ${node ? 'topic-question-row' : ''}`}>{node ? <><b className="topic-list-number">{index + 1}</b><span className="library-question-title">{q.question_ru || q.question.split('\n').filter(Boolean).at(-1)}</span><i className={result === false ? 'wrong-mark' : ''}>{result === undefined ? '' : result ? '✓' : '×'}</i></> : `${q.test_id >= 100000 ? 'Экзамен' : 'Тематический билет'} ${q.source_test_id} / ${String(q.source_ordinal).padStart(2, '0')}`}</span>
+        <span className={`library-question-id ${node ? 'topic-question-row' : ''}`}>{node ? <><b className="topic-list-number">{index + 1}</b><span className="library-question-title">{q.question_ru || q.question.split('\n').filter(Boolean).at(-1)}</span><i className={result === false ? 'wrong-mark' : ''}>{result === undefined ? '' : result ? '✓' : '×'}</i></> : `${q.test_id >= 100000 ? 'Экзамен' : 'Тематический билет'} ${q.source_test_id} / ${String(q.source_ordinal).padStart(2, '0')}`}{!node && result !== undefined && <i className={result ? '' : 'wrong-mark'}>{result ? '✓' : '×'}</i>}</span>
         {!node && <span>{q.question_ru || q.question.split('\n').filter(Boolean).at(-1)}</span>}{!q.verified && <small>Отложен · ответ не подтверждён</small>}
       </button>;
     })}</div>;
@@ -923,11 +927,12 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, getStats, view
         if (stats?.new_count) { openTopic(node.id, undefined, { newQuestions: true }); return; }
         const fullRun = stats?.runs.find((run) => run.kind === 'full');
         const failedRun = stats?.wrong ? stats.runs.find((run) => run.id >= (fullRun?.id ?? 0) && run.completed_at && run.wrong > 0) : undefined;
+        if (stats?.repeat_in_progress) { openTopic(node.id); return; }
         if (stats?.completed) {
           if (failedRun) openTopic(node.id, undefined, { reviewParent: failedRun.id });
           else void repeatTopic(node.id);
         } else openTopic(node.id);
-      }}>{stats?.new_count ? 'Пройти новые' : stats?.answered ? stats.completed ? stats.wrong > 0 ? 'Повторить вопросы с ошибками' : 'Пройти тему снова' : 'Продолжить тему' : 'Начать тему'}{stats?.new_count ? <small>{questionCount(stats.new_count)}</small> : stats && stats.answered > 0 && !stats.completed && <small>с вопроса {stats.next_question}</small>}</button>
+      }}>{stats?.new_count ? 'Пройти новые' : stats?.repeat_in_progress ? 'Продолжить тему' : stats?.answered ? stats.completed ? stats.wrong > 0 ? 'Повторить вопросы с ошибками' : 'Пройти тему снова' : 'Продолжить тему' : 'Начать тему'}{stats?.new_count ? <small>{questionCount(stats.new_count)}</small> : stats && (stats.answered > 0 || stats.repeat_in_progress) && (!stats.completed || stats.repeat_in_progress) && <small>с вопроса {stats.next_question}</small>}</button>
       {!!stats?.new_count && <span className="topic-new-badge" tabIndex={0} title={`Новых неотвеченных вопросов: ${stats.new_count}. Они проходят отдельно; предыдущие результаты сохраняются.`} aria-label={`New: новых вопросов — ${stats.new_count}`}>New</span>}
       {!!stats?.new_count && stats.runs.some((run) => run.kind === 'full' && !run.completed_at) && <button type="button" className="repeat-full-topic" onClick={() => openTopic(node.id)}>Продолжить основное прохождение</button>}
       {!stats?.new_count && stats?.completed && stats.wrong > 0 && <button className="repeat-full-topic" type="button" onClick={() => void repeatTopic(node.id)}>Пройти всю тему снова</button>}</div>}{children.map(topic)}{!children.length && questionList(own, true, node)}{!count && <p className="library-empty">Вопросы появятся по мере пополнения коллекции.</p>}</div>
@@ -1120,6 +1125,8 @@ function readInitialTicket() { const route = readRoute(); return route.screen ==
 
 function TrainerApp() {
   const questionPanelRef = useRef<HTMLDivElement>(null);
+  const [knowledge, setKnowledge] = useState<QuestionKnowledge>({});
+  const [freshRepeat, setFreshRepeat] = useState(false);
   const [testId, setTestId] = useState(1015);
   const { route, navigate } = useTrainingNavigation();
   const home = route.screen === 'home';
@@ -1185,6 +1192,13 @@ function TrainerApp() {
   }, [route, initialTestReady, testId, test, order, position, navigate]);
 
   useEffect(() => {
+    if (!home) return;
+    let active=true;
+    void api<QuestionKnowledge>('/api/questions/progress').then(data=>{if(active)setKnowledge(data);}).catch(()=>undefined);
+    return ()=>{active=false;};
+  },[home]);
+
+  useEffect(() => {
     document.documentElement.classList.toggle('trainer-viewport', !home);
     return () => document.documentElement.classList.remove('trainer-viewport');
   }, [home]);
@@ -1214,15 +1228,18 @@ function TrainerApp() {
     let active = true;
     async function loadTest() {
       try {
-        const [loaded, remoteProgress, remoteCatalog] = await Promise.all([
+        const [loaded, remoteProgress, remoteCatalog, questionKnowledge] = await Promise.all([
           api<TestRecord>(`/api/tests/${testId}`),
           api<Record<string, TicketStats>>('/api/progress'),
           api<CatalogEntry[]>('/api/catalog'),
+          api<QuestionKnowledge>('/api/questions/progress'),
         ]);
         if (!active) return;
         const persisted = readProgress();
         const saved = persisted[String(testId)];
         setTest(loaded);
+        setKnowledge(questionKnowledge);
+        setFreshRepeat(saved?.freshRepeat ?? false);
         setSavedProgress(persisted);
         setServerProgress(remoteProgress);
         setCatalog(remoteCatalog);
@@ -1299,7 +1316,8 @@ function TrainerApp() {
         setServerStatistics(null);
         setAttemptReady(true);
         setTranslations(loaded.translations ?? null);
-      } catch {
+      } catch (error) {
+        if (import.meta.env.DEV) console.error('Ticket load failed', error);
         if (active) setLoadError('Не удалось загрузить билет. Обновите страницу.');
       }
     }
@@ -1327,13 +1345,14 @@ function TrainerApp() {
       answers: attemptAnswers,
       history: attemptHistory,
       pendingRestart: false,
+      freshRepeat,
       serverAttemptId,
       correctLetters,
       updatedAt: new Date().toISOString(),
     };
 
     writeProgress({ ...readProgress(), [String(testId)]: progress });
-  }, [attemptAnswers, attemptHistory, attemptId, attemptReady, attemptStartedAt, correctLetters, finished, mistakes, order, position, roundMode, score, selected, serverAttemptId, test, testId, ticketAnswered, ticketCorrect, ticketWrong]);
+  }, [attemptAnswers, attemptHistory, attemptId, attemptReady, attemptStartedAt, correctLetters, finished, freshRepeat, mistakes, order, position, roundMode, score, selected, serverAttemptId, test, testId, ticketAnswered, ticketCorrect, ticketWrong]);
 
   useEffect(() => {
     questionPanelRef.current?.scrollTo({ top: 0 });
@@ -1372,14 +1391,15 @@ function TrainerApp() {
   const questions = test?.questions ?? [];
   const questionIndex = order[position] ?? 0;
   const question = questions[questionIndex];
-  const answered = selected !== null || String(questionIndex) in attemptAnswers;
-  const selectedIsCorrect = attemptAnswers[String(questionIndex)] ?? false;
-  const correctLetter = correctLetters[String(questionIndex)];
-  const hasNextQuestion = order.some((candidate) => candidate !== questionIndex && !(String(candidate) in attemptAnswers));
-  const progress = useMemo(
-    () => order.length ? Math.round((Object.keys(attemptAnswers).length / order.length) * 100) : 0,
-    [attemptAnswers, order.length],
-  );
+  const inherited = !freshRepeat && roundMode === 'full' && question?.canonical_id ? knowledge[question.canonical_id] : undefined;
+  const isAnswered = (index: number) => String(index) in attemptAnswers || (!freshRepeat && roundMode === 'full' && !!knowledge[questions[index]?.canonical_id ?? '']);
+  const answered = selected !== null || isAnswered(questionIndex);
+  const selectedIsCorrect = inherited?.correct ?? attemptAnswers[String(questionIndex)] ?? false;
+  const sameText = (a: string, b: string) => a.toLowerCase().replace(/\s+/g,' ').trim() === b.toLowerCase().replace(/\s+/g,' ').trim();
+  const correctLetter = correctLetters[String(questionIndex)] ?? question?.answers.find(a=>inherited && sameText(a.text,inherited.correct_text))?.letter;
+  const selectedLetter = selected ?? question?.answers.find(a=>inherited && sameText(a.text,inherited.selected_text))?.letter;
+  const hasNextQuestion = position < order.length-1 || order.some((index)=>!isAnswered(index));
+  const progress = order.length ? Math.round(order.filter(isAnswered).length / order.length * 100) : 0;
 
   async function chooseAnswer(letter: string) {
     if (answered || submittingAnswer) return;
@@ -1400,6 +1420,7 @@ function TrainerApp() {
         body: JSON.stringify({ question: questionIndex + 1, selected_letter: letter }),
       });
       setSelected(letter);
+      if (question.canonical_id && roundMode === 'full') setKnowledge(current=>({...current,[question.canonical_id!]:{selected_text:question.answers.find(a=>a.letter===letter)!.text,correct_text:question.answers.find(a=>a.letter===result.correct_letter)!.text,correct:result.correct,answered_at:new Date().toISOString()}}));
       setCorrectLetters((current) => ({ ...current, [String(questionIndex)]: result.correct_letter }));
       setAttemptAnswers((current) => ({ ...current, [String(questionIndex)]: result.correct }));
       if (roundMode === 'full') setTicketAnswered(Math.min(Object.keys(attemptAnswers).length + 1, questions.length));
@@ -1424,13 +1445,16 @@ function TrainerApp() {
   }
 
   function nextQuestionPosition() {
-    const afterCurrent = order.findIndex((questionIndex, index) => index > position && !(String(questionIndex) in attemptAnswers));
-    return afterCurrent >= 0 ? afterCurrent : order.findIndex((questionIndex) => !(String(questionIndex) in attemptAnswers));
+    const afterCurrent = order.findIndex((questionIndex, index) => index > position && !isAnswered(questionIndex));
+    if (afterCurrent >= 0) return afterCurrent;
+    const earlier = order.findIndex((questionIndex) => !isAnswered(questionIndex));
+    return earlier >= 0 ? earlier : position < order.length-1 ? position+1 : -1;
   }
 
   function nextQuestion() {
     const nextPosition = nextQuestionPosition();
     if (nextPosition < 0) {
+      if (!freshRepeat && roundMode === 'full') { if (serverAttemptId) void api(`/api/attempts/${serverAttemptId}/complete`, {method:'POST'}).catch(()=>undefined); setHome(true); return; }
       if (roundMode === 'full') setTicketAnswered(questions.length);
       setFinished(true);
       if (serverAttemptId) void api(`/api/attempts/${serverAttemptId}/complete`, { method: 'POST' }).catch(() => undefined);
@@ -1442,6 +1466,7 @@ function TrainerApp() {
   }
 
   function startRound(nextOrder: number[], mode: RoundMode = 'full') {
+    setFreshRepeat(true);
     navigate({ screen: 'ticket', id: testId, index: nextOrder[0] });
     const archived = makeAttemptHistory({
       attemptId,
@@ -1506,6 +1531,7 @@ function TrainerApp() {
       answers: {},
       history,
       pendingRestart: true,
+      freshRepeat: true,
       serverAttemptId: null,
       correctLetters: {},
       updatedAt: new Date().toISOString(),
@@ -1515,6 +1541,11 @@ function TrainerApp() {
   }
 
   function getTicketStats(entry: CatalogEntry): TicketStats {
+    if (library) {
+      const records=library.questions.filter(q=>q.verified && q.test_id===entry.id);
+      const covered=records.map(q=>knowledge[q.canonical_id]).filter(Boolean);
+      return {total:records.length,answered:covered.length,correct:covered.filter(q=>q.correct).length,wrong:covered.filter(q=>!q.correct).length,completed:records.length>0&&covered.length===records.length};
+    }
     if (entry.id === testId && attemptReady && ticketAnswered > 0) {
       return { answered: ticketAnswered, correct: ticketCorrect, wrong: ticketWrong };
     }
@@ -1582,7 +1613,7 @@ function TrainerApp() {
       setHome(true);
     }} />;
   }
-  if (home && catalog.length && library) return <QuestionLibrary view={libraryView} onRemember={rememberLibrary} catalog={catalog} library={library} onOpen={openLibraryQuestion} onOpenTopic={(id, question, options) => { setActiveTopic({ id, question, ...options }); }} getStats={getTicketStats} />;
+  if (home && catalog.length && library) return <QuestionLibrary view={libraryView} knowledge={knowledge} onRemember={rememberLibrary} catalog={catalog} library={library} onOpen={openLibraryQuestion} onOpenTopic={(id, question, options) => { setActiveTopic({ id, question, ...options }); }} getStats={getTicketStats} />;
   if (home || !test || !question || !order.length || !catalog.length) return <PageLoader />;
 
   const currentEntry = catalog.find((entry) => entry.id === testId) ?? catalog[0];
@@ -1713,7 +1744,7 @@ function TrainerApp() {
               const state = answered
                 ? answer.letter === correctLetter
                   ? 'correct'
-                  : answer.letter === selected
+                  : answer.letter === selectedLetter
                     ? 'wrong'
                     : 'muted'
                 : '';
@@ -1756,7 +1787,7 @@ function TrainerApp() {
           <footer className="question-navigation"><div className="controls">
             <button className="shuffle-button" onClick={() => resetTicketProgress(testId)}>↻ Начать заново</button>
             <NextQuestionButton key={`${testId}:${questionIndex}:${roundMode}`} disabled={!answered || submittingAnswer}
-              label={`${hasNextQuestion ? 'Следующий вопрос' : 'Результат'} →`}
+              label={`${hasNextQuestion ? 'Следующий вопрос' : freshRepeat ? 'Результат' : 'Завершить билет'} →`}
               imageUrl={questions[order[nextQuestionPosition()]]?.image_url} onNext={nextQuestion} />
           </div></footer>
         </div>

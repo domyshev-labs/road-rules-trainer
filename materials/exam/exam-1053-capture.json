@@ -34,8 +34,13 @@
       "local_image": "exam-1053-q01.jpg",
       "help": "Maneouvres      \n     \n5 Overtaking\n5.8 Situations when you must not overtake\nIt is also prohibited to overtake:\nIn tunnels, underpasses and track sections covered by a Tunnel sign (S-5) with two-way traffic, if the vehicle which you intend to overtake only has one lane for their traffic.\n(Página 191 del manual 'Learning to drive')\n\nManeouvres      \n     \n5 Overtaking\n5.8 Situations when you must not overtake\nNonetheless, vehicles that have more than one lane for their driving direction may overtake, provided that they do so without invading the lanes travelling in the opposite direction.\n(Página 192 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking"
+        "driving.overtaking",
+        "driving.tunnels",
+        "priority.tram",
+        "signs.lanes"
       ]
     },
     {
@@ -67,6 +72,8 @@
       "local_image": "exam-1053-q02.jpg",
       "help": "5 Vertical Signs              \n         \n5.4 Indication Road Signs        \n5.4.2 General indication road signs  \nS-26a, b and c Exit distance panels (300 m, 200 m, and 100 m)\nThese signs, used on motorways or dual carriageways, indicate that the next exit is approximately 300, 200, or 100 metres away, respectively.\nIf the exit is on the left, the diagonal or diagonals will slope from left to right, and the signs will be placed on the left-hand side of the carriageway.\n(Página 134 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
       "topic_ids": [
         "signs.information"
       ]
@@ -100,7 +107,10 @@
       "local_image": "exam-1053-q03.jpg",
       "selected_letter": "C",
       "help": "3 Documentation for the vehicle\n \n3.1 Registration certificate\nIn order to drive a motor vehicle, or use a trailer or semitrailer (with a MAM above 750 kilograms) or ride a moped, it is necessary to first register them and to have the corresponding licence plates issued and affixed.\nThe vehicle registration certificate accredits the registration of the vehicle and authorises its use on public roads.\n(Página 24 del manual 'Learning to drive')\n",
+      "primary_topic_id": "documents.permissions",
+      "classification_review_required": false,
       "topic_ids": [
+        "documents.permissions",
         "documents.registration"
       ]
     },
@@ -134,9 +144,10 @@
       "help": "On a wet road, reduce speed before the bend and avoid excessive motorcycle lean. A wider turn, where possible within the lane, reduces the lean needed.",
       "source_note": "No Ayuda supplied. Independently checked against official DGT motorcycle guidance: https://revista.dgt.es/revista/hemeroteca/083%20TySV.pdf and https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/para-colaboradores-y-empresas/GUIA-MONITORES-MOTOCICLETA-NIPO.pdf",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.motorcycles",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.motorcycles",
-        "driving.weather"
+        "vehicle.motorcycles"
       ]
     },
     {
@@ -168,9 +179,10 @@
       "local_image": "exam-1053-q05.jpg",
       "selected_letter": "A",
       "help": "CONTROLS AND ELEMENTS OF THE VEHICLE\n \n1 Foot controls\n1.2 Brake Pedal\nThe brake pedal, when applied, works on the service brake to slow down and/or stop the vehicle. Under normal driving conditions is should be applied smoothly and progressively, thus reducing the speed as required or until the vehicle is stopped safely.\nThe foot brake acts on all four wheels of the vehicle.\nNote: This brake pedal also operates the emergency braking system, that automatically works, should the service brake fail.\n(Página 84 del manual 'Learning to drive')\n",
+      "primary_topic_id": "driving.braking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.braking",
-        "vehicle.mechanics"
+        "driving.braking"
       ]
     },
     {
@@ -202,9 +214,10 @@
       "local_image": "exam-1053-q06.jpg",
       "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nWhen there are pedestrians on the part of the road that is being used or if rationally it could be foreseen, especially if it is children, the elderly, the blind or disabled people.\nThere are cyclists, using the roadway or the likelihood of cyclists –particularly at a junction or in the proximities of a cycle way or crossing.\n(Página 171 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.cyclists",
-        "routine.safety"
+        "driving.parking"
       ]
     },
     {
@@ -236,9 +249,11 @@
       "local_image": "exam-1053-q07.jpg",
       "selected_letter": "B",
       "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')\n",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "driving.overtaking"
+        "driving.overtaking",
+        "numbers.speeds"
       ]
     },
     {
@@ -270,9 +285,10 @@
       "local_image": "exam-1053-q08.jpg",
       "selected_letter": "A",
       "help": "ACTIVE SAFETY FEATURES          \n           \n4 Wheels        \n4.2 Tyres\n4.2.5 Tyre wear\nOver time the rubber on the tyre ages, it becomes brittle and whereby the tyre can not meet the minimum legal requirements. If the tyre has not needed replacing before it should be replaced when it is 5 years old regardless of use, for reasons of safety.    \n(Página 71 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.tyres",
-        "numbers.technical"
+        "vehicle.tyres"
       ]
     },
     {
@@ -304,8 +320,10 @@
       "local_image": "exam-1053-q09.jpg",
       "selected_letter": "B",
       "help": "Priorities, level crossings and tunnels  \n   \n3 Cyclists, pedestrians and animals  \n3.3 Pedestrians\nDrivers / riders must accord right of way (priority of passage) to pedestrians in the following cases:\nOn pedestrian crossings, on pavements and in other pedestrian areas.\nWhen the driver turns into another road and there is a pedestrian crossing the road at the junction, even if there isn’ an approved pedestrian crossing marked at this location.\n(Página 206 del manual 'Learning to drive')\n",
+      "primary_topic_id": "priority.general",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.pedestrians"
+        "priority.general"
       ]
     },
     {
@@ -337,8 +355,10 @@
       "local_image": "exam-1053-q10.jpg",
       "help": "5 Vertical Signs                \n             \n5.2 Signs that warn of danger\nP-33 Reduced visibility\nDanger due to the proximity of a road section, where traffic may be hindered by a loss of visibility, due to fog, rain, snow, etc.\n(Página 123 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "conditions.dark",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.warning"
+        "conditions.dark"
       ]
     },
     {
@@ -370,9 +390,10 @@
       "local_image": "exam-1053-q11.jpg",
       "help": "Road traffic collisions                    \n                     \n6. Groups of drivers most at risk of a collision        \n6.3 Drivers of two-wheeled vehicles    \n6.3.1 Bicycles\nTo prevent collisions involving cyclists, the following is recommended:\nLeave sufficient lateral safety clearance when overtaking, especially if driving a large vehicle (due to the air shocks it can cause), on slopes (since due to the effort and pedalling cyclists can have oscillating trajectories), on windy days (when they can easily be destabilised) or if the cyclist is carrying a passenger.\n(Página 256 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking",
-        "priority.cyclists"
+        "driving.overtaking"
       ]
     },
     {
@@ -404,7 +425,10 @@
       "local_image": "exam-1053-q12.jpg",
       "selected_letter": "C",
       "help": "Road signalling      \n       \n1 General rules  \n1.3 Compliance\nIf there are traffic lights or vertical traffic signs with different instructions on the left and the right, those planning to turn left or continue straight must only heed those located immediately to their left.\n(Página 109 del manual 'Learning to drive')\n",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
       "topic_ids": [
+        "driving.turns",
         "priority.lights"
       ]
     },
@@ -437,6 +461,8 @@
       "local_image": "exam-1053-q13.jpg",
       "help": "DISTRACTIONS        \n   \n5 Collisions due to distractions\nA distraction occurs when something, inside or outside the vehicle, causes the driver’s attention to be diverted away from driving. Even when this occurs for a very short period of time, the driver receives less relevant information than necessary to drive safely.\nDistractions, directly or indirectly, cause four out of ten road traffic collisions. The last ten years has seen a 75% rise caused by this risk factor.\n(Página 33 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.distraction"
       ]
@@ -470,6 +496,8 @@
       "local_image": "exam-1053-q14.jpg",
       "selected_letter": "B",
       "help": "Transporting people and loads  \n   \n1 Generally\nIt is necessary therefore to pay special attention to the following:\nThe correct seating position for the driver.\nPassenger seating and comfort.\nThe correct placement of items transported, to assure that there is no obstruction or danger to the vehicle occupants or other road users.\n(Página 214 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.passengers",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.passengers"
       ]
@@ -503,8 +531,11 @@
       "local_image": "exam-1053-q15.jpg",
       "help": "Road traffic collisions        \n       \n8 The rule - PAH  \n8.1 Protect: Measures to restore traffic safety\nThe driver of a vehicle, meaning those involved and those who are not, should comply with the following steps:\nEnsure the immobilisation of the vehicle or vehicles involved using the handbrake. Turn off the lighting and ignition of the vehicles involved.\nEnsure there is no smoking or naked flames (matches, lighters, etc.) in the vicinity of the collision scene in order to avoid fires.\nIf there is already a fire, it should be put out with a fire extinguisher pointing it at the base of the flames or if there isn’ one available with earth, sand or blankets, but never with water.\n(Página 259 del manual 'Learning to drive')\n\nRoad traffic collisions            \n           \n8 The rule - PAH    \n8.3 Help: Assisting the injured  \n8.3.2 Moving casualties\nNever move someone from inside the vehicle, unless there life is in immediate danger (vehicle fire, heart attack, etc.)\nIt is better to enter the vehicle, evaluate and attend to their injuries and wait for specialised help to remove them.\n(Página 260 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "incidents.fire",
+      "classification_review_required": false,
       "topic_ids": [
-        "incidents.scene"
+        "incidents.fire",
+        "incidents.first_aid"
       ]
     },
     {
@@ -536,8 +567,12 @@
       "local_image": "exam-1053-q16.jpg",
       "help": "2 Driver documentation      \n     \n2.2 The penalty point system    \nLoss of points\nPoints are subtracted for each sanction that entails its loss. As a general rule, no more than eight points can be lost in a single day.\nWhen drivers receive a non-appealable sanction in an administrative proceeding for committing any of the serious or very serious infractions that entail a loss of points, the points that are lost will be automatically and simultaneously deducted at the time when the violation is entered into the Registry of Drivers and Offenders. If one year has passed since the penalty became final and the related offence has not been recorded, the points will not be deducted.\nA licence can be withdrawn as a consequence of losing all available points. It is then not possible to obtain a new licence for six months (three months for a professional driver).\n(Página 20 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "documents.points",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.points"
+        "documents.permissions",
+        "documents.points",
+        "numbers.deadlines.licences"
       ]
     },
     {
@@ -569,8 +604,10 @@
       "local_image": "exam-1053-q17.jpg",
       "help": "5 Vertical Signs          \n       \n5.2 Signs that warn of danger  \nP-15 Uneven surface\nDanger due to the proximity of a projection or pothole in the road or pavement in poor condition. The sign advises you to reduce your speed, as the hazard to be encountered could result in damage to your vehicle, such as the suspension etc., if it is negotiated too fast.\n(Página 121 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.warning"
+        "signs.information"
       ]
     },
     {
@@ -602,9 +639,10 @@
       "local_image": "exam-1053-q18.jpg",
       "help": "Priorities, level crossings and tunnels    \n   \n4 Vehicles in response to emergency situations\n4.3 Non high-priority vehicles in an emergency situation\nThis driver should use his horn (audible warning instrument) intermittently and also put on the hazard-warning lights (if the vehicle has these) or shake a handkerchief or something similar out of the window.\nThe driver must obey all the road traffic legislations and laws, such as road signs, rights of way particularly at junctions etc.\n(Página 208 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
       "topic_ids": [
-        "incidents.scene",
-        "routine.safety"
+        "incidents.first_aid"
       ]
     },
     {
@@ -636,9 +674,10 @@
       "local_image": "exam-1053-q19.jpg",
       "help": "5 Generic speed      \n   \n5.3 Minimum generic speed\nIt is only permitted to drive below the minimum speed limits:\nIn the case of bicycles, animal traction vehicles, special vehicles and vehicles that fall under the special transport system.\nWhen the circumstances of the traffic, of the vehicle or of the road in question make it difficult to maintain a speed above the minimum without posing a risk to traffic.\n(Página 175 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "conditions.ice",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "driving.weather"
+        "conditions.ice"
       ]
     },
     {
@@ -670,9 +709,10 @@
       "local_image": "exam-1053-q20.jpg",
       "help": "Maneouvres    \n   \n5 Overtaking\n5.8 Situations when you must not overtake  \nSpecifically, it is prohibited to overtake:\nIn any place or circumstance where visibility is not sufficient to be able to complete the manoeuvre or abort it once started, unless the two directions of traffic are clearly marked out and the manoeuvre can be completed without moving into the zone reserved for the opposite direction, specifically:\n- On bends and changes in gradient with reduced visibility.\n- When the weather conditions significantly reduce visibility (fog, heavy rain or when the sun is low, dazzling drivers). In these circumstances, you should never overtake.\n- Behind a vehicle which is also overtaking if, due to its size or other features, it prevents the vehicle’s driver from seeing the road ahead.\n(Página 191 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking",
-        "vehicle.visibility"
+        "driving.overtaking"
       ]
     },
     {
@@ -704,11 +744,11 @@
       "local_image": "exam-1053-q21.jpg",
       "selected_letter": "B",
       "help": "Road traffic collisions      \n     \n2 Road traffic collisions can be avoided  \n2.2 Factors involved in collisions\nGenerally, the factors that influence the occurrence of a traffic collision are varied, but always one or more of these factors are involved: the vehicle, the road (& environment) and the driver.\nNot all risk factors are equally important. Of every 100 collisions, only between 4 and 13 are due mainly to vehicle factors (for example, a defective tyre or deficient brakes) and only between 10 and 35 are due mainly to the road and related environment factors (for example, when the roadway is wet and the vehicle loses control).\nMost collisions, between 70 and 90%, are due to the human factor (for example, the driver becomes distracted, or speeds or is under the influence of alcohol etc).\n(Página 249 del manual 'Learning to drive')\n",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety",
         "routine.alcohol",
-        "routine.fatigue",
-        "driving.weather"
+        "routine.fatigue"
       ]
     },
     {
@@ -740,9 +780,10 @@
       "local_image": "exam-1053-q22.jpg",
       "selected_letter": "C",
       "help": "Mechanics and maintenance\n \n11 Braking system\n11.2 Breakdowns\nSymptom\nThe braking is not efficient.\nCause\n- Lack of brake fluid.\n- Worn brake pads or shoes.\n(Página 245 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.mechanics",
-        "driving.braking"
+        "vehicle.mechanics"
       ]
     },
     {
@@ -774,6 +815,8 @@
       "local_image": "exam-1053-q23.jpg",
       "help": "Transporting people and loads  \n \n3 Transport of load\n3.2 Placement of the load\nWhen cargo is transported in, or on any type of vehicle, it must be carried in such a manner that it does not compromise the safety or stability of the vehicle.\nThe carriage of cargo will have a particular noticeable effect when the vehicle has only two wheels. The weight must be distributed so as not to adversely affect the lateral balance. If side boxes (panniers) are used on a motorbike etc., then the weight should be evenly distributed on both sides. Any load carried must be securely fastened.\n(Página 216 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.cargo",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.cargo"
       ]
@@ -807,9 +850,10 @@
       "local_image": "exam-1053-q24.jpg",
       "help": "2 Driver documentation          \n       \n2.4 Classes of driving permits  \n2.4.3 A2 permit\nIt grants authorisation to drive motorcycles, with or without a sidecar, of a power not exceeding 35 kW and with a power/weight ratio not exceeding 0.2 kW/kg and not derived from a vehicle of more than double its power.\nIt grants authorisation to haul a trailer or semi-trailer whose MAM does not exceed 50 percent of the unladen mass of the motorcycle.\nThe minimum age that it can be obtained is 18.\nObtaining the class-A2 permit entails the concession of the class-A1 permit, therefore authorising holders to drive the vehicles permitted with this permit.\n(Página 21 del manual 'Learning to drive')\n\n2 Driver documentation          \n       \n2.4 Classes of driving permits  \n2.4.4 A permit\nIt grants authorisation to drive:\nAll types of motorcycles, with or without sidecars.\nMotor tricycles.\nIt grants authorisation to haul a trailer or semi-trailer whose MAM does not exceed 50 percent of the unladen mass of the motorcycle or motor tricycle.\nThe minimum age it can be obtained is 20, although until holders turn 21, they cannot drive motor tricycles with a power exceeding 15 kW.\nIt can only be issued to drivers who have already held a valid class-A2 license for at least two years.\n(Página 21 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "documents.permissions",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions",
-        "vehicle.motorcycles"
+        "documents.permissions"
       ]
     },
     {
@@ -841,9 +885,11 @@
       "local_image": "exam-1053-q25.jpg",
       "help": "3 Documentation for the vehicle            \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\nVehicles in category N1:\nVehicles designed and constructed mainly for the carriage of goods with a maximum mass not exceeding 3.5 tonnes.   \nFrequency of inspection according to age of the vehicle\n- Up to two years: Exempt.\n- From two to six years: Biennial.\n- From six to ten years: Annual.\n- Over ten years: Half-yearly.    \n(Página 26 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "numbers.deadlines.itv",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.deadlines.itv",
-        "documents.itv"
+        "documents.itv",
+        "numbers.deadlines.itv"
       ]
     },
     {
@@ -875,8 +921,10 @@
       "local_image": "exam-1053-q26.jpg",
       "selected_letter": "A",
       "help": "Safe driving\n \n2 Bends\nThere is more likelihood of encountering the dangerous effects of centrifugal force and leaving the road, when:\nThe speed of the vehicle is too high and disproportionate to the angle of the bend being negotiated.\nThe curve is very sharp –that is it is a closed bend (the curve has a shorter radius).\nThe vehicle has a high mass or / and carrying a heavy cargo.\nThe degree of the bend and therefore the potential danger is indicated by the number of direction panels at the entrance into the bend. One panel indicates a low level bend, two panels, indicates a moderate bend and three panels warn of a higher potential danger bend.\n(Página 223 del manual 'Learning to drive')\n",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "speed.adaptation"
       ]
     },
     {
@@ -908,9 +956,10 @@
       "local_image": "exam-1053-q27.jpg",
       "help": "4 Reserved lanes for certain vehicles  \n   \n4.2 Lane for high occupancy vehicles (VAO)\nThe VAO lanes are restricted to use by:\nMotorcycles with two and three wheels.\nStandard family cars and mixed adaptable vehicles.\nNote: Anyone of these vehicles will be able to use a VAO lane, even though it is occupied by only the driver, when there is a V-15 road sign displayed that refersto use by a disabled person.\n(Página 163 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "vehicle.motorcycles"
+        "driving.lanes"
       ]
     },
     {
@@ -942,6 +991,8 @@
       "local_image": "exam-1053-q28.jpg",
       "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
         "numbers.speeds"
       ]
@@ -975,9 +1026,10 @@
       "local_image": "exam-1053-q29.jpg",
       "help": "8 Speed limits are a necessity\n \nSpeed limits are not capricious. There are numerous factors that determine the implementation of a certain speed limit being imposed, (for example; the designated speed, the acceptable degree of congestion, the demands of existing traffic, etc.) The aim of a set speed limit is to allow vehicles to travel with the maximum guarantee of safety and fluidity.\nOne of the most important criteria is the designated speed of the road (the maximum safe speed that can be maintained on a section of road under favourable conditions). This means that a road is designated to be used at a certain generic or specific speed limit and traffic is not allowed to do a higher speed than that specified. To do otherwise means that safety will be compromised.\n(Página 177 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "routine.safety"
+        "numbers.speeds"
       ]
     },
     {
@@ -1009,9 +1061,11 @@
       "local_image": "exam-1053-q30.jpg",
       "selected_letter": "B",
       "help": "11 Competitions – roadraces\n \nIt is prohibited to race on the public highways or in public places. An exception exists when the relevant authorities have authorised an area or location to be used for racing purposes and in accordance with specific controls.\nRacing on the public roads and highways, in competitions of unauthorised races - Could result in the deduction for 6 points.\n(Página 178 del manual 'Learning to drive')\n",
+      "primary_topic_id": "documents.points",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.points",
-        "routine.safety"
+        "documents.permissions",
+        "documents.points"
       ]
     }
   ],

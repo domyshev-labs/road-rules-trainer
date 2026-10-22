@@ -34,6 +34,8 @@
       "local_image": "exam-1032-q01.jpg",
       "selected_letter": "A",
       "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES\n \n10.1 Circumstances that cause fatigue\nCertain situations cause the emergence of fatigue because they require an increase in concentration as driving becomes more difficult or uncomfortable for the driver.\n(Página 37 del manual 'Learning to drive')\n\nFACTORS THAT AFFECT PHYSICAL CAPABILITIES  \n   \n10.1 Circumstances that cause fatigue  \n10.1.1 Road and environmental circumstances\nDriving on a road with heavy traffic or with many curves.\nDriving on a poorly maintained road.\nDriving an unfamiliar route.\nDriving with adverse weather conditions (like fog, rain, snow or excessive heat).\nIt is necessary to rest more often when driving in unfavourable conditions (for example, a lot of traffic, or in bad weather etc.)\n(Página 37 del manual 'Learning to drive')\n",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.fatigue"
       ]
@@ -67,8 +69,10 @@
       "local_image": "exam-1032-q02.jpg",
       "selected_letter": "C",
       "help": "11 Immobilisation ordered by the police\n \nVehicles can also be immobilised when:\nThe vehicle surpasses the levels of gases, fumes or noise permitted by regulation, depending on the vehicle type.\n(Página 201 del manual 'Learning to drive')\n",
+      "primary_topic_id": "eco.noise",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.mechanics"
+        "eco.noise"
       ]
     },
     {
@@ -100,9 +104,10 @@
       "local_image": "exam-1032-q03.jpg",
       "selected_letter": "A",
       "help": "9 The negative effects of speed\n \nIn summary, the higher the speed the farther the driver needs to look ahead and plan in order to avoid a hazard and an occurrence which has not been anticipated. An appropriate speed allows time to detect hazards and other emergencies and provides the driver with time to react and avoid the hazard.\nDriving for a long period of time at high speed increases the onset of fatigue and can result in increased hostility and aggressiveness in the driver due to the stresses involved in driving at a high speed. This obviously has an effect on the safety and security of the vehicle.\nRemember that driving at high speeds on wide roads in good conditions can make drivers feel like they are driving slower than they really are.\n(Página 178 del manual 'Learning to drive')\n",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety",
-        "numbers.speeds"
+        "speed.adaptation"
       ]
     },
     {
@@ -134,6 +139,8 @@
       "local_image": "exam-1032-q04.jpg",
       "selected_letter": "B",
       "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nThe validity of arm signals depends on:\nThe signal being seen and understood by other road users.\nBeing accurately given and indicated in sufficient time.\n(Página 182 del manual 'Learning to drive')\n",
+      "primary_topic_id": "driving.signals",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.signals"
       ]
@@ -167,9 +174,10 @@
       "local_image": "exam-1032-q05.jpg",
       "selected_letter": "B",
       "help": "5 Vertical Signs              \n         \n5.4 Indication Road Signs        \n5.4.2 General indication road signs  \nS-34 Emergency lay-by\nIndicates the location of a space where vehicles can pull over in case of an emergency to keep the road clear.\n(Página 134 del manual 'Learning to drive')\n",
+      "primary_topic_id": "driving.merging",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.information",
-        "incidents.scene"
+        "driving.merging"
       ]
     },
     {
@@ -202,8 +210,10 @@
       "selected_letter": "A",
       "help": "Road signalling      \n       \n1 General rules  \n1.3 Compliance\nWhen there are vertical signalling or traffic lights, the users will have to obey the sign that is located immediately to the right of the road or lane.\nIf a vertical signal does not exist or there is no traffic light at this location, the users who intend to turn left or follow the road ahead must obey the sign located immediately to their left.\n(Página 109 del manual 'Learning to drive')\n",
       "source_note": "Selected answer was incorrect; answer key comes from the visible correction supplied by the source.",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.lights"
+        "driving.parking"
       ]
     },
     {
@@ -235,8 +245,10 @@
       "local_image": "exam-1032-q07.jpg",
       "help": "Road traffic collisions\n \n3 Characteristics of road collisions\nRelated studies that have investigated traffic collisions, show that:\nIn cities, the accidents that cause the most mortalities are collisions with pedestrians.\nMost of the victims, especially resulting in deaths, occur on intercity routes.\nMost collisions occur on the straight and not on bends.\nAutopistas and autovias are generally safer than conventional roads.\nMost accidents occur during public holidays (especially, Easter, summer and December).\nWeekends and public festivals (bank holidays) are the most dangerous days, especially during the hours in the morning.\nMost accidents occur during the daytime when people are going to or leaving work, especially at the end of the working day.\n(Página 250 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "incidents.statistics",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "incidents.statistics"
       ]
     },
     {
@@ -268,9 +280,10 @@
       "local_image": "exam-1032-q08.jpg",
       "help": "Maneouvres  \n   \n5 Overtaking  \n5.6 Obligations of the driver of the vehicle being overtaken  \n5.6.1 Before the overtake\nMoreover, if a driver realises that they are going to be overtaken, they must leave as much space as possible, provided that there are no obstacles. As a general rule, they should keep to the right-hand side of the lane, without going into the hard shoulder.\nHowever, if they are going to turn left or park or stop on that side, they should keep to the left-hand side, where possible, but without impeding vehicles travelling in the opposite direction.\n(Página 190 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.overtaking",
-        "driving.lanes"
+        "driving.overtaking"
       ]
     },
     {
@@ -302,6 +315,8 @@
       "local_image": "exam-1032-q09.jpg",
       "help": "7 Seat belts\n \n7.4 The correct fastening of seat belts\nThe belt (chest down)\nThe belt must pass on the collar bone, (clavicle) that is midway between the shoulder and neck, and must descend through the centre of the chest.\nIt should be applied correctly and adjustments should be made either to the seat or height of the belt to ensure this. Wrongly adjusted or located it can cause serious injury in the event of an accident. If it is placed onto the shoulder, it could slide of in a collision and minimise the effectiveness of the seat belt.\n(Página 77 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.seatbelts"
       ]
@@ -335,6 +350,8 @@
       "local_image": "exam-1032-q10.jpg",
       "help": "DISTRACTIONS\n \n7 Smoking\nSmoking, besides being harmful to health, affects driving because, amongst other factors, it causes distractions when searching and lighting the cigarette, makes one of the hands useless or generates vision problems due to smoke.\nSmoking also causes excessive carbon monoxide to build up in the smoker’s body and therefore, alters the capabilities needed to drive safely causing a decrease in the level of attention needed at the wheel.\n(Página 35 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.distraction"
       ]
@@ -368,9 +385,11 @@
       "local_image": "exam-1032-q11.jpg",
       "help": "ALCOHOL AND OTHER DRUGS    \n   \n16 Alcohol limits\nLegal limits  \nVehicles: All vehicles, including bicycles and personal mobility vehicles (except those listed below).\nBrAC: 0,25 mg/l  \nBAC: 0,5 g/l\n(Página 41 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.alcohol",
-        "numbers.alcohol"
+        "numbers.alcohol",
+        "routine.alcohol"
       ]
     },
     {
@@ -402,7 +421,10 @@
       "local_image": "exam-1032-q12.jpg",
       "selected_letter": "A",
       "help": "ILLNESS AND MEDICATION  \n   \n21 Some drugs that can affect driving  \n21.1 Antihistamines\nThese are drugs used to combat allergies.  \nThe most dangerous ones to affect driving are the socalled ‘first generation’ type. The risk of an accident under the influence of these drugs is similar to that of driving with a blood alcohol content between 0.5 g/l and 0.8 g/l.\nThe most modern (third generation) do usually cause drowsiness, but can produce adverse effects when mixed alcohol or other drugs.\nMany antihistamines do not require a prescription, so there may be people who take these drugs without knowing their side effects. As always, if in doubt consult the doctor or pharmacist.\n(Página 48 del manual 'Learning to drive')\n",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
       "topic_ids": [
+        "routine.alcohol",
         "routine.health"
       ]
     },
@@ -435,8 +457,12 @@
       "local_image": "exam-1032-q13.jpg",
       "help": "Priorities, level crossings and tunnels  \n \n5 Narrow Sections\n5.2 Narrowing section without signed priority\nWhen there is a narrow stretch of road and there are no signs or signals to determine priority, the vehicle that has entered into the restricted area first will normal continue through having priority over vehicles coming from the opposite direction.\nIf there is however doubt or conflict, the vehicle that has the greatest difficulty manoeuvring will have preference.\n(Página 209 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.narrow"
+        "priority.narrow",
+        "priority.tram",
+        "signs.markings"
       ]
     },
     {
@@ -468,9 +494,10 @@
       "local_image": "exam-1032-q14.jpg",
       "selected_letter": "C",
       "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nWhen there are pedestrians on the part of the road that is being used or if rationally it could be foreseen, especially if it is children, the elderly, the blind or disabled people.\nThere are cyclists, using the roadway or the likelihood of cyclists –particularly at a junction or in the proximities of a cycle way or crossing.\n(Página 171 del manual 'Learning to drive')\n",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.pedestrians",
-        "routine.safety"
+        "driving.parking"
       ]
     },
     {
@@ -502,9 +529,10 @@
       "local_image": "exam-1032-q15.jpg",
       "help": "Road traffic collisions          \n           \nRISK GROUPS        \n5 Pedestrians  \n5.3 Recommendations to drivers\nDo not park on the pavement, as pedestrian are more likely to walk out into the road.\nUse extreme caution when reversing; many incidents occur when vehicles are reversing because the driver has not seen the pedestrian.\n(Página 253 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.reversing",
-        "driving.pedestrians"
+        "driving.reversing"
       ]
     },
     {
@@ -537,6 +565,8 @@
       "help": "21 Audible warning instrument - horn\n \nThe purpose of the audible warning instrument, horn, is to warn others of the presence of your vehicle.\nThe sound emitted must be uniform and of sufficient intensity. Only certain vehicles are permitted to emit a sound of varied pitch – such as emergency service vehicles.\nOccasionally signs (R-310) may be displayed which forbids the sounding of the horn, except to prevent an accident.\n(Página 106 del manual 'Learning to drive')\n",
       "source_note": "Independently verified against Reglamento General de Circulación, article 110(1): señales acústicas de sonido no estridente. Official text: https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a110",
       "selected_letter": "C",
+      "primary_topic_id": "driving.signals",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.signals"
       ]
@@ -570,8 +600,11 @@
       "local_image": "exam-1032-q17.jpg",
       "help": "4 Traffic lights\n \n4.2 Traffic lights for vehicles\n4.2.1 Non intermittent red light (steady red)\nIf the traffic light is within the intersection or on the opposite side, vehicles must not enter the intersection or pass, if it exists, the stop line located before it.\nNote: Failure to stop at a red light could result in 4 points being deducted.\n(Página 115 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.turns",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.lights"
+        "driving.parking",
+        "driving.turns"
       ]
     },
     {
@@ -603,9 +636,10 @@
       "local_image": "exam-1032-q18.jpg",
       "help": "1 Speed  \n \n1.1 Basics\nInappropriate speed: This is driving at a speed not suited to the circumstances such as, the weather conditions, the circumstances of the road, traffic, the vehicle or the condition of the driver. The speed may be inappropriate but is within the permitted limits.\nAppropriate speed: This is the adoption of an adequate speed which, while respecting the maximum and minimum limits, is suited to the changing traffic conditions, the road, the vehicle or the state of the driver. The appropriate speed allows the driver (and vehicle) to react to any obstacle or unexpected hazard that may occur.\n(Página 170 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "routine.safety"
+        "speed.adaptation"
       ]
     },
     {
@@ -637,8 +671,10 @@
       "local_image": "exam-1032-q19.jpg",
       "selected_letter": "C",
       "help": "Safe driving    \n \n7 Driving on ice\nWhen there is the presence of ice on the road, drivers should adopt the same precaution as travelling on snow. This means that, similar to snow, there is a risk of sliding and skidding. Always operate the hand controls and foot controls smoothly.\nTurn the steering wheel, gently as it is particularly sensitive and the steering will feel very light when driving on ice. This is because there is reduced grip (adhesion) between the tyres and icy road surface. Smoothly and progressively, operate the clutch, accelerator and brake. \nIt is better to raise the foot slowly off the accelerator in a bid to lose speed. Try to avoid using the brakes, and always brake gently where necessary, so as not to lose control of the car.\n \n(Página 230 del manual 'Learning to drive')\n",
+      "primary_topic_id": "conditions.ice",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather"
+        "conditions.ice"
       ]
     },
     {
@@ -670,9 +706,10 @@
       "local_image": "exam-1032-q20.jpg",
       "help": "Maneouvres        \n \n8 Reversing\nAs a general rule, reversing backwards is prohibited. However, as an exception it is permissible (but only when travelling a minimum distance backwards – in reverse gear), in the following two cases:\nWhen reversing forms part of one of the following manoeuvre, parking, stopping or joining the traffic flow. In this instance the distance travelled in reverse gear must not be further than 15 metres and you must not invade a junction.\n(Página 195 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.reversing",
-        "numbers.distances"
+        "driving.reversing"
       ]
     },
     {
@@ -704,7 +741,10 @@
       "local_image": "exam-1032-q21.jpg",
       "help": "5 Vertical Signs                                    \n                                 \n5.3 Regulation road signs      \n5.3.5 Other signs relating to prohibition or restriction  \nR-309 Limited parking area\nParking is limited to a specific period of time. There is an obligation for drivers to indicate (as regulated) the time when parking began. The sign may detail (or a complementary sign may accompany this sign) the maximum parking time allowed and the hours when the restriction is in effect. It may also indicate if parking is subject to payment.\n(Página 127 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "signs.parking",
+      "classification_review_required": false,
       "topic_ids": [
+        "numbers.dates",
         "signs.parking"
       ]
     },
@@ -737,7 +777,10 @@
       "local_image": "exam-1032-q22.jpg",
       "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES\n \n11.1 Causes of drowsiness\nThe use of stimulants and sedatives. Some substances, like alcohol or certain medicines, can have a sedative effect. Large meals that\nare rich in fats may also promote the need for sleep. Light stimulants (coffee, tea, some energy drinks etc.,) may be useful in the short term, but the effects can wear off suddenly, catching the driver off guard.\nIndividual differences. Some people are more awake in the morning and may become sleepier in the afternoon, whilst others are not so affected by the lack of sleep, medication or monotony when driving.\n(Página 39 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
+        "driving.parking",
         "routine.fatigue"
       ]
     },
@@ -770,9 +813,10 @@
       "local_image": "exam-1032-q23.jpg",
       "help": "6 Vehicles of two and three weels  \n   \n6.1 Mopeds, motorcycles and vehicles of three wheels  \nDrivers and passengers of:\nMotorcycles (with or without sidecars)\nmotor tricycles and heavy quadricycles\nmopeds\nquad-ATV\nmust suitably use, that is, properly positioned and buckled, approved or certified helmets according to current legislation, when they drive in both urban and interurban roads.\nAn exemption exists if the person has an approved certificate issued for serious medical reasons.\n(Página 57 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.helmets",
-        "vehicle.motorcycles"
+        "routine.helmets"
       ]
     },
     {
@@ -804,8 +848,11 @@
       "local_image": "exam-1032-q24.jpg",
       "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n   \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)  \n7.3.2 Enabled in a contrary direction due to road works\nWhere a contra-flow exists due to road works and a lane has been enabled for travel in the opposite direction, then, all types of vehicles are eligible to use the lane(s) – unless expressly prohibited by road signs. The same conditions, as above, are still applicable.\n(Página 166 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "signs.temporary",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
+        "signs.lanes",
+        "signs.restrictions",
         "signs.temporary"
       ]
     },
@@ -838,6 +885,8 @@
       "local_image": "exam-1032-q25.jpg",
       "selected_letter": "C",
       "help": "ALCOHOL AND OTHER DRUGS  \n   \n16.1 Factors affecting alcohol limits\nThe time that has elapsed since the alcohol was consumed. It is possible to detect alcohol 5 minutes after consuming it. Over time this increases and a maximum is reached (called peak blood alcohol content) about an hour later. (Note: This may vary between 30 and 90 minutes) The level starts to fall below this maximum level very slowly with the effects lasting for    several hours and it will not completely disappear for a further period of time.\nThe type of drink and method of ingestion. Alcohol is absorbed more quickly in distilled beverages (such as whiskey or gin) than through fermented drinks (such as beer or wine). In addition, hot drinks or carbonated drinks (fizzy ones such as tonics or other soft drinks) accelerate the absorption of alcohol.\n(Página 42 del manual 'Learning to drive')\n",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.alcohol"
       ]
@@ -871,9 +920,10 @@
       "local_image": "exam-1032-q26.jpg",
       "help": "Maneouvres        \n   \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.2 Localities where this is permissible\nOn interurban roads, stopping and parking must be done always on the right side of the road, off the carriageway and leaving the passable part of the hard shoulder free.\n(Página 198 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
-        "driving.lanes"
+        "driving.parking"
       ]
     },
     {
@@ -905,6 +955,8 @@
       "local_image": "exam-1032-q27.jpg",
       "help": "CONTROLS AND ELEMENTS OF THE VEHICLE    \n     \n2 Hand controls  \n2.3 The gear lever (changes and selection)\nIt is important to engage the correct gear in relation to the vehicle speed.\nFirst gear, provides the greatest force for the driving wheels, but is the slowest. Normally it is used to move off, to get the vehicle moving or to manoeuvre the vehicle at very low speeds – this is, when the gear is engaging, and is said to be at ‘the bite’ position.It is important to engage the correct gear, as under certain circumstances, using the wrong gear can result in the vehicle gaining speed. It is also possible to use ‘engine braking’ as a means of slowing the vehicle down.\n(Página 85 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "driving.braking",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.braking"
       ]
@@ -938,6 +990,8 @@
       "local_image": "exam-1032-q28.jpg",
       "selected_letter": "C",
       "help": "ILLNESS AND MEDICATION  \n   \n20 Some illnesses that can affect driving  \n20.2 Stress\nStress can have the following effects on the driver:\nAn increase in the level of aggressiveness, competitiveness and hostility toward other drivers.\nBehaviour that may become reckless and where there is the possibility of taking high level risks when driving.\nAn increase in the tendency to disregard road signs and traffic rules.\nA reduction in the ability to make decisions. It takes more time to think and reactions become slower with the potential for more errors.\nA lower level of concentration whilst driving in traffic, which increases the likelihood of being distracted.\nThe speeding up and emergence of fatigue when driving.\n(Página 47 del manual 'Learning to drive')\n",
+      "primary_topic_id": "routine.emotions",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.emotions"
       ]
@@ -971,9 +1025,10 @@
       "local_image": "exam-1032-q29.jpg",
       "help": "5 Vertical Signs                          \n                       \n5.3 Regulation road signs                \n5.3.3 Prohibition of entry signs - ‘No entry’  \nR-105 No entry for mopeds\nProhibits access to mopeds. Also prohibits entry to vehicles for persons with reduced mobility.\n(Página 125 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "signs.restrictions",
+      "classification_review_required": false,
       "topic_ids": [
-        "signs.restrictions",
-        "vehicle.motorcycles"
+        "signs.restrictions"
       ]
     },
     {
@@ -1005,6 +1060,8 @@
       "local_image": "exam-1032-q30.jpg",
       "help": "Journeys and defensive and efficient driving           \n         \n1 Preparation for the trip      \n1.3 Accessories, spare parts and tools      \nCars\n- The V-16 light-emitting hazard warning device.\n- A certified, high-visibility reflective vest inside the interior of the vehicle. It must be visible from at least 150 metres away. If the vehicle is an escort vehicle, protecting and accompanying others, vests must be worn by the driver and each member of the crew.\n- A full-size spare or a temporary tyre, with the tools needed to change tyres, or an alternative system to changing them that offers sufficient guarantees for the mobility of the vehicle. In these cases, the vehicles will be driven in observance of the limitations of each alternative.\n(Página 270 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "incidents.scene",
+      "classification_review_required": false,
       "topic_ids": [
         "incidents.scene"
       ]

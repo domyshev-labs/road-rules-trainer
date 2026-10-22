@@ -32,9 +32,10 @@
       "local_image": "/tests/exam/1043/q01.jpg",
       "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nWhere signalling exists that state it is prohibited.\nIn bends and gradient changes (and the general proximity) where there is reduced visibility and vision.\nIn tunnels, underpasses and on roads signed with the ‘unnel’sign.\nOn crossings (railway crossings, cycle crossings and pedestrian crossings) and routes reserved for cyclists and pedestrians.\nIn lanes or parts of roads reserved exclusively for driving or service of specific users.    \n(Página 199 del manual 'Learning to drive')\n\nManeouvres                    \n               \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.5 Prohibited Places  \nParking is prohibited in the following places:\nWhere there are signs that prohibit parking.\nOn pavements, boulevards and other areas allocated for pedestrians to walk.\nNonetheless, municipalities—y municipal ordinance—ay regulate the stopping and parking of two-wheeled vehicles on pavements and boulevards, provided that it does not damage or obstruct pedestrian traffic, attending to the needs of those who may be carrying voluminous objects and, especially, those persons with disabilities.\nIn areas designated for loading and unloading.\n(Página 200 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
-        "driving.pedestrians"
+        "driving.parking"
       ],
       "canonical_id": "c786695bed2a86c2d839422b"
     },
@@ -67,9 +68,11 @@
       "local_image": "/tests/exam/1043/q02.jpg",
       "selected_letter": "A",
       "help": "ALCOHOL AND OTHER DRUGS    \n   \n16 Alcohol limits\nLegal limits\nVehicles: Vehicles used for carrying: passengers with more than nine seats, school pupils and minors, dangerous goods, public service vehicles that carry passengers, emergency service vehicles and special transport vehicles.  \nBrAC: 0,15 mg/l \nBAC: 0,3 g/l\n(Página 41 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.dangerous_goods",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.alcohol",
         "numbers.alcohol",
+        "routine.alcohol",
         "vehicle.dangerous_goods"
       ],
       "canonical_id": "ee0a98b5038c5ccaead080a3"
@@ -103,6 +106,8 @@
       "local_image": "/tests/exam/1043/q03.jpg",
       "help": "5 Vertical Signs        \n   \n5.4 Indication Road Signs  \n5.4.2 General indication road signs  \nS-1 Motorway\nIndicates the beginning of a motorway and, therefore, the point from which the special traffic rules for this type of road apply. It may also indicate a slip road leading to a motorway.\n(Página 131 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
       "topic_ids": [
         "signs.information"
       ],
@@ -137,6 +142,8 @@
       "local_image": "/tests/exam/1043/q04.jpg",
       "help": "6 Road marks            \n           \n6.2 Longitudinal road markings  \nContinuous longitudinal lines adjacent to broken lines\nWhen the marking consists of a continuous longitudinal line adjacent to a broken line, drivers must observe only the line on the side on which they are travelling.\n(Página 154 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
       "topic_ids": [
         "signs.markings"
       ],
@@ -171,8 +178,10 @@
       "local_image": "/tests/exam/1043/q05.jpg",
       "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)\n7.3.1 For traffic flow reasons\nThe users of these lanes (that have been set up for the opposite direction to normal) must:\nUse during the day and at night, at least low beam headlights.\nTravel at a speed at or above the minimum speed of 60 km/h and not in excess of the maximum speed of 80 km/h (or as otherwise specified on the signs).\nNot move to the side invading the lane or lanes destined for the normal direction of movement, not even to overtake.\n(Página 166 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes"
+        "driving.overtaking"
       ],
       "canonical_id": "20a4e8a08012a49e0923ecd1"
     },
@@ -205,9 +214,11 @@
       "local_image": "/tests/exam/1043/q06.jpg",
       "help": "Transporting people and loads              \n               \n3 Transport of load  \n3.7 Loading and unloading\nWhenever possible loading and unloading a vehicle, both inside and outside a built-up-area, should be carried out off the public road.  \nExceptionally, when this is not possible, the following should be complied with:\nIn compliance with the laws relating to parking and stopping and in built-upareas, in conformity of the municipal requirements concerning hours and suitable places etc.\nFrom the side of the vehicle closest to the edge of the roadway.\nAs quickly as possible.\nWith minimal noise and without causing annoyance.\n(Página 219 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.cargo",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.cargo",
-        "driving.parking"
+        "driving.parking",
+        "vehicle.cargo"
       ],
       "canonical_id": "f1cd02ee5438d3b7e6bd3e5f"
     },
@@ -240,9 +251,10 @@
       "local_image": "/tests/exam/1043/q07.jpg",
       "selected_letter": "A",
       "help": "17 Hazard Warning lights – emergency warning signals\n \nWhen activated all the directional indicators fitted to the vehicle flash simultaneously.\nAnd, when in use, a red light must be illuminated within the vehicle on the instrument warning panel or dashboard. This will normally consist of a red flashing triangle.\nIt is an obligatory requirement that all automobiles and trailers and semitrailers are fitted with hazard warning lights and it is optional for motorbikes.\n(Página 105 del manual 'Learning to drive')\n",
+      "primary_topic_id": "signs.warning",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights",
-        "vehicle.motorcycles"
+        "signs.warning"
       ],
       "canonical_id": "184074e58ec3a1371d96e45c"
     },
@@ -275,6 +287,8 @@
       "local_image": "/tests/exam/1043/q08.jpg",
       "help": "5 Vertical Signs                \n             \n5.2 Signs that warn of danger\nP-50 Other dangers\nThis sign warns of a danger other than those indicated by the other signs.\n(Página 123 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "signs.warning",
+      "classification_review_required": false,
       "topic_ids": [
         "signs.warning"
       ],
@@ -309,9 +323,11 @@
       "local_image": "/tests/exam/1043/q09.jpg",
       "help": "ILLNESS AND MEDICATION  \n   \n20 Some illnesses that can affect driving  \n20.3 Depression\nDepression affects the capabilities of the driver:\nIncreasing distractions. The driver focuses all his attention on his thoughts and neglects the surroundings.\nMaking valuable information become lost or irrelevant. The driver fails to detect significant information needed for safety and requiring driver reaction, especially in more complex situations.\nIncreasing insecurity. Depression interferes in the decision-making process, so the driver can make mistakes or act unpredictably.\nIncreasing the propensity for sleepiness and fatigue. It is advisable not to drive at night or in environments where road monotony may occur or for long periods of time.\nIncreasing irritability and anxiety. A trivial event can provoke a disproportionate reaction by the driver.\nIn addition, there is usually the need for psychotropic drugs, which can directly affect the ability to drive.\n(Página 48 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.health",
-        "routine.distraction"
+        "routine.distraction",
+        "routine.health"
       ],
       "canonical_id": "5293459ed50b79d7293b3cf7"
     },
@@ -344,9 +360,10 @@
       "local_image": "/tests/exam/1043/q10.jpg",
       "help": "12 Distances\n \n12.1 The reaction distance\nThe reaction distance is the distance travelled by the vehicle from the time of seeing a hazard until he reacts to it.\nIt is dependant on the speed and the driver’s reaction time, which in turn depends, on many other factors, such as, the driver’s reflexes, their psycho-physical state (level of alertness, whether or not the driver is under the influence of alcohol etc.) Even the environment can affect the time it takes for a driver to react to any given circumstance (the passenger compartment temperature, noise, etc.)\nA reaction time of 0.75 seconds is considered to be normal, during which time the vehicle will travel a distance, determined by the speed at which the vehicle is travelling.\n(Página 179 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "speed.stopping",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.reaction",
-        "numbers.distances"
+        "speed.stopping"
       ],
       "canonical_id": "453ece9cb4dc83afa801ec69"
     },
@@ -379,9 +396,10 @@
       "local_image": "/tests/exam/1043/q11.jpg",
       "help": "VISIBILITY    \n     \n8 Rear-view    \n8.1 Obligatory requirements regarding rear-view mirrors\nFor mopeds (with two wheels) it is an obligatory requirement to have a rear-view mirror fitted to the left side. A mirror on the right side remains optional.\n(Página 90 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.visibility",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.visibility",
-        "vehicle.motorcycles"
+        "vehicle.visibility"
       ],
       "canonical_id": "557d046ef729330f04d685e1"
     },
@@ -414,6 +432,8 @@
       "local_image": "/tests/exam/1043/q12.jpg",
       "help": "5 Pedestrians\n \n5.3 Walking at night\nOutside built-up-areas, between sunset and sunrise or in meteorological or environmental conditions that significantly reduce visibility, all pedestrians, when moving along the road or hard shoulder, must be equipped with a luminous or retro reflective homologated element which is visible at a minimum distance of 150 metres for drivers approaching them.\n(Página 56 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.pedestrians",
+      "classification_review_required": false,
       "topic_ids": [
         "driving.pedestrians"
       ],
@@ -448,8 +468,10 @@
       "local_image": "/tests/exam/1043/q13.jpg",
       "selected_letter": "A",
       "help": "Journeys and defensive and efficient driving      \n   \nEFFICIENT DRIVING  \n7 Pollution\nEnsure that the vehicle is maintained correctly, disposing of all contaminants safely.\nAvoid dropping contaminating substances onto the road –such oil, coolant, diesel, petrol, etc.\nNot wash the vehicle on public roads and the public thoroughfare.\nNot throw, deposit or leave on the road or its surroundings any object that can cause damage, generate fires or cause accidents.\nNot emit electro magnetic disturbances, noise, gases or smoke that are higher than the permitted legal limits.\nEscaping gases from motorised vehicles, such as carbon monoxide, not only contaminate the atmosphere but are, additionally hazardous to human health.\nAlthough the amount of pollutants can be reduced by correct maintenance, particularly to the fuel and ignition systems, gases still escape from the motor vehicle particularly the exhaust.\n(Página 275 del manual 'Learning to drive')\n\n2 Drivers  \n \n2.1 Prohibitions\nYou are prohibited to drive or use a vehicle:\nOn all public city roads and interurban roads, it is prohibited to drive a motor vehicle or moped in which the exhaust system is not fitted out with a silencer, or when the gases expelled by engines, instead of moving through an effective silencer, leave the engine by a silencer that is incomplete, inadequate, worn down or equipped with a resonator exhaust pipe.\n(Página 53 del manual 'Learning to drive')\n",
+      "primary_topic_id": "eco.noise",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.mechanics"
+        "eco.noise"
       ],
       "canonical_id": "bfe796978f2ff08748890f1f"
     },
@@ -482,9 +504,11 @@
       "local_image": "/tests/exam/1043/q14.jpg",
       "help": "ACTIVE SAFETY FEATURES      \n       \n4 Wheels    \n4.2 Tyres  \n4.2.3 The tread pattern\nThe tread pattern is the set of grooves in the tread of a tire. In addition to gripping the road surface, it must guarantee good drainage away of the surface water from the tyre. The adhesion between the tyre and the road is reduced when the tyre is worn.\nAll tyres, (including retreads) must always comply with the legal requirements. This includes, not only the tyre tread and depth of pattern but also other abnormalities relating to the tyre-wall and tread, inflation pressure, bulges, exposed cords, cuts and other signs of irregular wear, and also the mixing of tyres etc. Basically the carcass (housing) must comply with all legal requirements.\nTyres must, throughout their use on public roads, have a depth in the main grooves of the tread which must be at least:\n1.6 millimetres for vehicles in categories M1, N1, O1 and O2.\n1.0 millimetres for vehicles in categories M2, M3, N2, N3, O3 and O4.\n(Página 70 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.tyres",
-        "numbers.technical"
+        "numbers.technical",
+        "vehicle.tyres"
       ],
       "canonical_id": "b0eaeb7bd52f88dcf31cd900"
     },
@@ -517,8 +541,10 @@
       "local_image": "/tests/exam/1043/q15.jpg",
       "selected_letter": "A",
       "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nIn the proximity of a bus, either, nearing or stationary at a bus stop, especially a bus carrying out school transport.\nOutside populated areas when approaching vehicles stopped on the road, assistance vehicles providing a service or bicycles using the road or hard shoulder.\nWhen travelling on slippery roads or when you encounter surface water or gravel or other objects that may affect yours and other road users safety if negotiated at an ‘xcesive speed’\n(Página 172 del manual 'Learning to drive')\n",
+      "primary_topic_id": "incidents.towing",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "incidents.towing"
       ],
       "canonical_id": "176a8d77baf7518d47cf2386"
     },
@@ -551,9 +577,10 @@
       "local_image": "/tests/exam/1043/q16.jpg",
       "help": "Transporting people and loads              \n               \n3 Transport of load  \n3.7 Loading and unloading\nIt is also additionally prohibited from placing (or depositing) merchandise on to the roadway, the hard shoulder, or the footpath (or pedestrian area).\nMerchandise must be directly transferred from the vehicle to its destination or vice versa.\n(Página 219 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.cargo",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.cargo",
-        "driving.pedestrians"
+        "vehicle.cargo"
       ],
       "canonical_id": "f446ccfc49c6b91addd68d13"
     },
@@ -586,8 +613,11 @@
       "local_image": "/tests/exam/1043/q17.jpg",
       "selected_letter": "B",
       "help": "8 Speed limits are a necessity\n \nSpeed limits are not capricious. There are numerous factors that determine the implementation of a certain speed limit being imposed, (for example; the designated speed, the acceptable degree of congestion, the demands of existing traffic, etc.) The aim of a set speed limit is to allow vehicles to travel with the maximum guarantee of safety and fluidity.\nOne of the most important criteria is the designated speed of the road (the maximum safe speed that can be maintained on a section of road under favourable conditions). This means that a road is designated to be used at a certain generic or specific speed limit and traffic is not allowed to do a higher speed than that specified. To do otherwise means that safety will be compromised.\n(Página 177 del manual 'Learning to drive')\n",
+      "primary_topic_id": "signs.speed",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds"
+        "numbers.speeds",
+        "signs.speed"
       ],
       "canonical_id": "0e3608e35ed345983f941afb"
     },
@@ -620,6 +650,8 @@
       "local_image": "/tests/exam/1043/q18.jpg",
       "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES  \n \n10.1 Circumstances that cause fatigue\n10.1.3 Driver circumstances\nChanges of normal driving habits. Most people only drive for short distances and during the day. Therefore special care must be taken when driving long distances (for example, during holidays) and especially when driving at night.\nBeing a novice driver as this entails not having acquired all of the automated processes involved in driving, and therefore more concentration is required.\nAdopting an inappropriate driving posture and position in the seat. This can result in pain, stiffness or muscular overload at the end of the journey.\n(Página 37 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.fatigue"
       ],
@@ -654,9 +686,11 @@
       "local_image": "/tests/exam/1043/q19.jpg",
       "help": "10 Front fog lights\n \n10.2 Use of front fog lights\nFront fog lights if fitted can be used\nDay or night in circumstances where visibility is compromised:\n- Fog, heavy rain, snowfall, plumes of smoke, dust clouds, any other analogous circumstances.\nIn any of these cases, the lights must be used, so that if the front fog light is not used, the dipped headlights must be used and, even, the full-beam headlights.\n(Página 103 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights",
-        "driving.weather"
+        "driving.weather",
+        "vehicle.lights"
       ],
       "canonical_id": "8f98d0e76a65a91896654089"
     },
@@ -689,6 +723,8 @@
       "local_image": "/tests/exam/1043/q20.jpg",
       "selected_letter": "C",
       "help": "ACTIVE SAFETY FEATURES  \n   \n4 Wheels\n4.2 Tyres\nThe tread of the tyre is the part that is in contact with the road surface. The adhesion depends largely on the type and condition of the tyre, (composition, tread pattern, wear, etc.) the weight of the vehicle transmitted through to the tyres and the composition and state of the road surface. Favourable adherence is provided by road surfaces, which are in good condition made either of tarmarcadum, asphalt or concrete. Whilst adhesion is reduced on roads that are in bad condition, or made out of cobblestones, or are wet, covered in snow, ice, leaves, oil, etc.\nFaults associated with the tyres are the main cause of road traffic collisions attributable to the vehicle, they account for more casualties than all other vehicle systems put together.\n(Página 68 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
       "topic_ids": [
         "vehicle.tyres"
       ],
@@ -723,6 +759,8 @@
       "local_image": "/tests/exam/1043/q21.jpg",
       "help": "ALCOHOL AND OTHER DRUGS\n \n18.1 Tests to detect alcohol and drugs\nTests to detect alcohol will consist in a test of exhaled air by means of an authorized device.\n(Página 45 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.alcohol"
       ],
@@ -757,9 +795,10 @@
       "local_image": "/tests/exam/1043/q22.jpg",
       "selected_letter": "B",
       "help": "Mechanics and maintenance        \n         \n6 Lubrication system      \n6.2 Maintenance\nThe oil must be changed with the vehicle in a horizontal position, without the engine running but with the motor warmed up slightly. When replacing the oil make sure that no oil falls on to the ground. It should be collected in a suitable container and disposed of correctly, as oil is a pollutant.\n(Página 241 del manual 'Learning to drive')\n",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.mechanics",
-        "routine.ecodriving"
+        "vehicle.mechanics"
       ],
       "canonical_id": "d955eb10caddacb875f327b7"
     },
@@ -792,9 +831,10 @@
       "local_image": "/tests/exam/1043/q23.jpg",
       "help": "DRIVING ASSIST SYSTEMS    \n   \n14 Lane Departure Warning (LDW)\nThis system warns the driver if the vehicle is leaving the lane. To do this, it uses cameras or sensors that detect the edges of the lane along which you are driving. If the vehicle goes outside these limits and the indicators have not been activated, the LDW system warns the driver with a signal that can be acoustic, optical (on the dashboard) or tactile (the steering wheel or seat vibrates).  \n \n(Página 93 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes",
-        "routine.safety"
+        "driving.lanes"
       ],
       "canonical_id": "1ff8db140e24650c4d6dbe96"
     },
@@ -827,8 +867,11 @@
       "local_image": "/tests/exam/1043/q24.jpg",
       "help": "Priorities, level crossings and tunnels  \n \n5 Narrow Sections\n5.2 Narrowing section without signed priority\nWhen there is a narrow stretch of road and there are no signs or signals to determine priority, the vehicle that has entered into the restricted area first will normal continue through having priority over vehicles coming from the opposite direction.\nIf there is however doubt or conflict, the vehicle that has the greatest difficulty manoeuvring will have preference.\n(Página 209 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "priority.narrow",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.narrow"
+        "priority.narrow",
+        "priority.sign"
       ],
       "canonical_id": "1eccdc14bc4a8aa147b207ba"
     },
@@ -861,9 +904,10 @@
       "local_image": "/tests/exam/1043/q25.jpg",
       "selected_letter": "B",
       "help": "Safe driving        \n     \n7 Driving on ice\n7.1 Adhesion\nThe same precautions as driving on a road surface covered in snow should be adopted when driving on ice. Grip will be affected when you drive on an icy surface, therefore it is necessary to reduce the speed and increase the safety separation distance.\nThe braking distance can be up to ten times greater on ice than on a dry road.\n(Página 231 del manual 'Learning to drive')\n",
+      "primary_topic_id": "speed.stopping",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "driving.braking"
+        "speed.stopping"
       ],
       "canonical_id": "c1da549f05aaf9b71c9535cc"
     },
@@ -896,9 +940,14 @@
       "local_image": "/tests/exam/1043/q26.jpg",
       "help": "Road signalling        \n         \n1 General rules  \n1.4 Order of priority amongst the signalling devices  \n1 Signals and orders given by agents of the authority in charge of traffic surveillance exercising the functions of their jobs.  \n2 Circumstantial signage and beaconing that alters the normal use of the road, delimiting devices, and beaconing signals.\n3 Traffic lights.  \n4 Traffic road signs.  \n5 Road markings.  \n \n(Página 109 del manual 'Learning to drive')\n\nRoad signalling        \n         \n1 General rules  \n1.4 Order of priority amongst the signalling devices\nIf the instructions indicated by different signals seem to contradict each other, the priority signal will have priority, according to the order set out above, or the most restrictive for signals of the same type.\nIf the contradiction takes place between two road signals of the same type, then the most restrictive will prevail.\n(Página 109 del manual 'Learning to drive')\n",
       "selected_letter": "C",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
       "topic_ids": [
+        "driving.signals",
+        "priority.lights",
         "priority.officer",
-        "priority.lights"
+        "signs.priority",
+        "vehicle.lights"
       ],
       "canonical_id": "c7829f97bda7704c7d4788e9"
     },
@@ -931,9 +980,12 @@
       "local_image": "/tests/exam/1043/q27.jpg",
       "help": "ALCOHOL AND OTHER DRUGS  \n   \n18.1 Tests to detect alcohol and drugs  \nIf the test result is positive or even negative and the person presents obvious symptoms of being under the influence of alcohol, the investigating official will require a second test of exhaled air to test for alcohol. This provides further factual evidence and acts to compare the first test.\nUnder these circumstances, the ‘official’ (police officer) shall inform the person concerned that there is a requirement for the second controlled test and that they have the right to inform other appropriate parties of this, so that witnesses can be present. There is a minimum time set of ten minutes between these tests.\n(Página 45 del manual 'Learning to drive')\n",
       "selected_letter": "B",
+      "primary_topic_id": "numbers.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.alcohol",
-        "numbers.alcohol"
+        "numbers.alcohol",
+        "numbers.deadlines.novice",
+        "routine.alcohol"
       ],
       "canonical_id": "2e02da4538a9ddf090e78476"
     },
@@ -966,8 +1018,10 @@
       "local_image": "/tests/exam/1043/q28.jpg",
       "help": "3 Use of lanes\n \n3.1 In general\nThe driver of an automobile or a special vehicle with a weight in excess of 3,500 kg MAM will have to comply with the following rules:\nIn two-way roadways, with three lanes –one for either direction and a centre lane, where the lanes are defined by longitudinal broken lines, you must travel in the lane located to the right and never in the lane to the far left.\nThe centre lane is a shared lane, for use by vehicles overtaking (in either direction) and for turning left.\n(Página 162 del manual 'Learning to drive')\n",
       "selected_letter": "A",
+      "primary_topic_id": "driving.turns",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.lanes"
+        "driving.turns"
       ],
       "canonical_id": "cd8564bcb18a04e3373b4a84"
     },
@@ -1000,6 +1054,8 @@
       "local_image": "/tests/exam/1043/q29.jpg",
       "selected_letter": "C",
       "help": "5 Generic speed      \n     \n5.1 Maximum speed limits on interurban roads     \n5.1.3 Other maximum speed limits outside of built-upareas\nBuses in which passengers travel standing up because it is authorised and buses that are not equipped with seat belts: 80 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycles: 70 km/h.\n(Página 173 del manual 'Learning to drive')\n",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
         "numbers.speeds",
         "vehicle.classification"
@@ -1036,6 +1092,8 @@
       "help": "This pictogram identifies electric vehicles and indicates that the associated signage applies to those vehicles.",
       "source_note": "No Ayuda is provided for this question. Verified against DGT instruction MOV 2022/12 (electric-vehicle pictogram), https://www.dgt.es/comunicacion/notas-de-prensa/los-ministerios-de-interior-transportes-y-transicion-ecologica-presentan-la-nueva-senalizacion-de-los-puntos-de-recarga-electrica-en-las-vias/",
       "selected_letter": "B",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
       "topic_ids": [
         "signs.information"
       ],

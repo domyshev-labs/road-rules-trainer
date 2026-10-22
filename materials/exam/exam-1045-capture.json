@@ -33,9 +33,9 @@
       "source_ordinal": 1,
       "local_image": "exam-1045-q01.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "documents.permissions",
         "routine.distraction"
       ]
     },
@@ -68,8 +68,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q02.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather"
+        "signs.information"
       ]
     },
     {
@@ -101,9 +103,11 @@
       "help_status": "captured",
       "local_image": "exam-1045-q03.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "incidents.fire",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
-        "driving.weather"
+        "driving.tunnels",
+        "incidents.fire"
       ]
     },
     {
@@ -135,9 +139,11 @@
       "help_status": "captured",
       "local_image": "exam-1045-q04.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights",
-        "documents.permissions"
+        "incidents.towing",
+        "vehicle.lights"
       ]
     },
     {
@@ -165,9 +171,9 @@
       "source_ordinal": 5,
       "help_status": "captured",
       "local_image": "exam-1045-q05.jpg",
-      "topic_ids": [
-        "routine.safety"
-      ]
+      "primary_topic_id": null,
+      "classification_review_required": true,
+      "topic_ids": []
     },
     {
       "answers": [
@@ -198,9 +204,11 @@
       "help_status": "captured",
       "local_image": "exam-1045-q06.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights",
-        "documents.permissions"
+        "driving.signals",
+        "vehicle.lights"
       ]
     },
     {
@@ -232,10 +240,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q07.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.cargo",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
-        "vehicle.cargo",
-        "documents.permissions"
+        "vehicle.cargo"
       ]
     },
     {
@@ -267,8 +275,11 @@
       "help_status": "captured",
       "local_image": "exam-1045-q08.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.crossings",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions"
+        "driving.crossings",
+        "driving.uturns"
       ]
     },
     {
@@ -300,8 +311,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q09.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "signs.information"
       ]
     },
     {
@@ -333,8 +346,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q10.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "documents.insurance",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "documents.insurance"
       ]
     },
     {
@@ -366,8 +381,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q11.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions"
+        "driving.reversing"
       ]
     },
     {
@@ -399,10 +416,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q12.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.visibility",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.visibility",
-        "documents.permissions"
+        "vehicle.visibility"
       ]
     },
     {
@@ -434,6 +451,8 @@
       "help_status": "captured",
       "local_image": "exam-1045-q13.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
       "topic_ids": [
         "priority.lights"
       ]
@@ -467,6 +486,8 @@
       "help_status": "captured",
       "local_image": "exam-1045-q14.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.alcohol",
         "routine.ecodriving"
@@ -501,8 +522,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q15.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "routine.health"
       ]
     },
     {
@@ -530,9 +553,10 @@
       "source_ordinal": 16,
       "help_status": "captured",
       "local_image": "exam-1045-q16.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "documents.permissions"
+        "numbers.speeds"
       ]
     },
     {
@@ -564,6 +588,8 @@
       "help_status": "captured",
       "local_image": "exam-1045-q17.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
       "topic_ids": [
         "routine.distraction"
       ]
@@ -597,8 +623,11 @@
       "help_status": "captured",
       "local_image": "exam-1045-q18.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "driving.signals",
+      "classification_review_required": false,
       "topic_ids": [
-        "routine.safety"
+        "driving.signals",
+        "driving.turns"
       ]
     },
     {
@@ -630,8 +659,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q19.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "driving.roads",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.pedestrians"
+        "driving.roads"
       ]
     },
     {
@@ -663,8 +694,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q20.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.tyres"
+        "vehicle.mechanics"
       ]
     },
     {
@@ -696,12 +729,12 @@
       "help_status": "captured",
       "local_image": "exam-1045-q21.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "priority.cyclists",
+      "classification_review_required": false,
       "topic_ids": [
         "priority.cyclists",
-        "priority.general",
-        "driving.lanes",
-        "driving.pedestrians",
-        "documents.permissions"
+        "priority.sign",
+        "signs.lanes"
       ]
     },
     {
@@ -733,8 +766,9 @@
       "help_status": "captured",
       "local_image": "exam-1045-q22.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
         "routine.seatbelts"
       ]
     },
@@ -767,9 +801,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q23.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
       "topic_ids": [
-        "vehicle.lights",
-        "vehicle.motorcycles"
+        "vehicle.lights"
       ]
     },
     {
@@ -801,10 +836,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q24.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.parking",
-        "driving.braking",
-        "vehicle.motorcycles"
+        "driving.parking"
       ]
     },
     {
@@ -836,10 +871,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q25.jpg",
       "selected_letter": "B",
+      "primary_topic_id": "vehicle.passengers",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.weather",
-        "vehicle.passengers",
-        "vehicle.motorcycles"
+        "vehicle.passengers"
       ]
     },
     {
@@ -867,8 +902,10 @@
       "source_ordinal": 26,
       "help_status": "captured",
       "local_image": "exam-1045-q26.jpg",
+      "primary_topic_id": "driving.turns",
+      "classification_review_required": false,
       "topic_ids": [
-        "priority.lights"
+        "driving.turns"
       ]
     },
     {
@@ -900,8 +937,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q27.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
       "topic_ids": [
-        "driving.braking"
+        "vehicle.mechanics"
       ]
     },
     {
@@ -933,10 +972,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q28.jpg",
       "selected_letter": "C",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
-        "numbers.displacement",
-        "vehicle.motorcycles"
+        "numbers.speeds"
       ]
     },
     {
@@ -968,8 +1007,10 @@
       "help_status": "captured",
       "local_image": "exam-1045-q29.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "driving.roads",
+      "classification_review_required": false,
       "topic_ids": [
-        "documents.permissions"
+        "driving.roads"
       ]
     },
     {
@@ -1001,10 +1042,11 @@
       "help_status": "captured",
       "local_image": "exam-1045-q30.jpg",
       "selected_letter": "A",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
       "topic_ids": [
-        "numbers.speeds",
         "driving.overtaking",
-        "vehicle.passengers"
+        "numbers.speeds"
       ]
     }
   ]
