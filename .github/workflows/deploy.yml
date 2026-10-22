@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: road-rules-trainer-production
@@ -25,9 +25,18 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Select release version
+        shell: bash
+        run: |
+          BASE_VERSION="$(sed -n 's/  "version": "\(.*\)",/\1/p' package.json)"
+          VERSION="$(docker run --rm -i --env "BASE_VERSION=$BASE_VERSION" --env "RELEASE_TAGS=$(git tag --list 'v*')" --entrypoint node node:22-alpine --input-type=module - < scripts/next-release.mjs)"
+          echo "APP_VERSION=$VERSION" >> "$GITHUB_ENV"
 
       - name: Build image
-        run: docker build --tag "$IMAGE_NAME" .
+        run: docker build --build-arg "APP_VERSION=$APP_VERSION" --build-arg "GIT_SHA=$GITHUB_SHA" --tag "$IMAGE_NAME" .
 
       - name: Verify image
         shell: bash
@@ -52,6 +61,11 @@ jobs:
           docker logs "${APP_NAME}-check"
           docker rm --force "${APP_NAME}-check"
           exit 1
+
+      - name: Back up database and prune verified backups
+        shell: bash
+        run: |
+          docker run --rm -i --volume "${DATA_VOLUME}:/app/data" --env "RELEASE_ID=v${APP_VERSION}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" --entrypoint sh "$IMAGE_NAME" -s < scripts/backup-database.sh
 
       - name: Replace production container
         shell: bash
@@ -82,3 +96,12 @@ jobs:
 
           docker logs "$APP_NAME"
           exit 1
+
+      - name: Tag verified deployment
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag --annotate "v$APP_VERSION" "$GITHUB_SHA" --message "Production release v$APP_VERSION"
+          git push origin "refs/tags/v$APP_VERSION"
+          echo "Deployed v$APP_VERSION from $GITHUB_SHA" >> "$GITHUB_STEP_SUMMARY"

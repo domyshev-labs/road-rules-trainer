@@ -1,0 +1,1023 @@
+{
+  "source": "",
+  "collection": "Exam collection",
+  "collection_type": "exam",
+  "source_test_id": 1043,
+  "status": "captured",
+  "questions": [
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sobre las aceras y paseos.\nOn pavements and pedestrian areas.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "En vías calificadas de atención preferente.\nOn roads rated for preferential attention.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "En curvas y cambios de rasante.\nOn bends and changes in road level.",
+          "correct": false
+        }
+      ],
+      "image_url": "8dcf93d4-de25-4d82-8f18-a81bd837ef60M.jpg",
+      "number": "1.",
+      "question": "Entre otros lugares, ¿dónde está prohibido estacionar en zona urbana?\nWhere is it prohibited to park in an urban area, among other places?",
+      "source_ordinal": 1,
+      "question_id": "exam:1043:01",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q01.jpg",
+      "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nWhere signalling exists that state it is prohibited.\nIn bends and gradient changes (and the general proximity) where there is reduced visibility and vision.\nIn tunnels, underpasses and on roads signed with the ‘unnel’sign.\nOn crossings (railway crossings, cycle crossings and pedestrian crossings) and routes reserved for cyclists and pedestrians.\nIn lanes or parts of roads reserved exclusively for driving or service of specific users.    \n(Página 199 del manual 'Learning to drive')\n\nManeouvres                    \n               \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.5 Prohibited Places  \nParking is prohibited in the following places:\nWhere there are signs that prohibit parking.\nOn pavements, boulevards and other areas allocated for pedestrians to walk.\nNonetheless, municipalities—y municipal ordinance—ay regulate the stopping and parking of two-wheeled vehicles on pavements and boulevards, provided that it does not damage or obstruct pedestrian traffic, attending to the needs of those who may be carrying voluminous objects and, especially, those persons with disabilities.\nIn areas designated for loading and unloading.\n(Página 200 del manual 'Learning to drive')\n",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.parking",
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "es de 0,15 miligramos por litro en aire espirado.\nis 0.15 milligrams per litre of exhaled air.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "depende de la masa máxima autorizada del vehículo con el que se realice el transporte.\ndepends on the maximum authorized mass of the vehicle transporting the merchandise.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "es de 0,3 miligramos por litro en aire espirado.\nis 0.3 milligrams per litre of exhaled air.",
+          "correct": false
+        }
+      ],
+      "image_url": "07a0c247-fd17-429b-a603-81e8aeb41fbcM.jpg",
+      "number": "2.",
+      "question": "La tasa máxima de alcohol en aire espirado para conducir vehículos que transportan mercancías peligrosas...\nThe maximum limit of alcohol in exhaled air permitted when driving vehicles transporting dangerous merchandise...",
+      "source_ordinal": 2,
+      "question_id": "exam:1043:02",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q02.jpg",
+      "selected_letter": "A",
+      "help": "ALCOHOL AND OTHER DRUGS    \n   \n16 Alcohol limits\nLegal limits\nVehicles: Vehicles used for carrying: passengers with more than nine seats, school pupils and minors, dangerous goods, public service vehicles that carry passengers, emergency service vehicles and special transport vehicles.  \nBrAC: 0,15 mg/l \nBAC: 0,3 g/l\n(Página 41 del manual 'Learning to drive')\n",
+      "topic_ids": [
+        "routine.alcohol",
+        "numbers.alcohol",
+        "vehicle.dangerous_goods"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "el principio de una autopista.\nthe beginning of a motorway.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "el principio de una autovía.\nthe beginning of a dual carriageway.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "el final de una autopista.\nthe end of a motorway.",
+          "correct": false
+        }
+      ],
+      "image_url": "23b77fe5-09d6-463a-9f8a-7f543dc02030M.jpg",
+      "number": "3.",
+      "question": "Esta señal indica...\nThis sign indicates...",
+      "source_ordinal": 3,
+      "question_id": "exam:1043:03",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q03.jpg",
+      "help": "5 Vertical Signs        \n   \n5.4 Indication Road Signs  \n5.4.2 General indication road signs  \nS-1 Motorway\nIndicates the beginning of a motorway and, therefore, the point from which the special traffic rules for this type of road apply. It may also indicate a slip road leading to a motorway.\n(Página 131 del manual 'Learning to drive')\n",
+      "selected_letter": "A",
+      "topic_ids": [
+        "signs.information"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Ninguna de las dos.\nNeither of them.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "La marca situada en el lado contrario por el que se circula.\nThe line situated on the opposite side of the lane in which I am driving.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "La marca situada en el lado por el que se circula.\nThe line situated on the side of the lane in which I am driving.",
+          "correct": true
+        }
+      ],
+      "image_url": "370f2d26-0a8c-476a-9a2f-d8a13b50592aM.jpg",
+      "number": "4.",
+      "question": "Hay una marca longitudinal continua adosada a otra discontinua, ¿cuál de las dos debe tener en cuenta?\nThere is a continuous longitudinal line next to another dashed line. Which of the two must you take into account?",
+      "source_ordinal": 4,
+      "question_id": "exam:1043:04",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q04.jpg",
+      "help": "6 Road marks            \n           \n6.2 Longitudinal road markings  \nContinuous longitudinal lines adjacent to broken lines\nWhen the marking consists of a continuous longitudinal line adjacent to a broken line, drivers must observe only the line on the side on which they are travelling.\n(Página 154 del manual 'Learning to drive')\n",
+      "selected_letter": "C",
+      "topic_ids": [
+        "signs.markings"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, pero solo para adelantar.\nYes, but only to overtake.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, siempre que, al hacerlo, no derriben los conos que delimitan ese carril.\nYes, provided that, when doing so, they do not knock over the cones that limit this lane.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, ni siquiera para adelantar.\nNo, not even in order to overtake.",
+          "correct": true
+        }
+      ],
+      "image_url": "009080df-49e0-422c-9029-122a49b5b119M.jpg",
+      "number": "5.",
+      "question": "Estos vehículos circulan por un carril habilitado en sentido contrario al habitual, ¿pueden desplazarse al carril normal de circulación?\nThese vehicles are driving on a lane adapted for the direction contrary to what is usual for this lane. Are they permitted to move into the normal lane for driving?",
+      "source_ordinal": 5,
+      "question_id": "exam:1043:05",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q05.jpg",
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)\n7.3.1 For traffic flow reasons\nThe users of these lanes (that have been set up for the opposite direction to normal) must:\nUse during the day and at night, at least low beam headlights.\nTravel at a speed at or above the minimum speed of 60 km/h and not in excess of the maximum speed of 80 km/h (or as otherwise specified on the signs).\nNot move to the side invading the lane or lanes destined for the normal direction of movement, not even to overtake.\n(Página 166 del manual 'Learning to drive')\n",
+      "selected_letter": "C",
+      "topic_ids": [
+        "driving.lanes"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "únicamente por el lado derecho de la calzada.\nonly on the right hand side of the road.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "depositando la mercancía en la calzada para agilizar el trabajo.\nby depositing the goods on the road in order to speed up the work.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "respetando siempre las normas de parada y estacionamiento.\nalways respecting the rules for stopping and parking.",
+          "correct": true
+        }
+      ],
+      "image_url": "c6e8e17c-0e16-480f-aba9-c9d53d8a4703M.jpg",
+      "number": "6.",
+      "question": "Las operaciones de carga y descarga se deben realizar...\nLoading and unloading operations must be carried out...",
+      "source_ordinal": 6,
+      "question_id": "exam:1043:06",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q06.jpg",
+      "help": "Transporting people and loads              \n               \n3 Transport of load  \n3.7 Loading and unloading\nWhenever possible loading and unloading a vehicle, both inside and outside a built-up-area, should be carried out off the public road.  \nExceptionally, when this is not possible, the following should be complied with:\nIn compliance with the laws relating to parking and stopping and in built-upareas, in conformity of the municipal requirements concerning hours and suitable places etc.\nFrom the side of the vehicle closest to the edge of the roadway.\nAs quickly as possible.\nWith minimal noise and without causing annoyance.\n(Página 219 del manual 'Learning to drive')\n",
+      "selected_letter": "C",
+      "topic_ids": [
+        "vehicle.cargo",
+        "driving.parking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí.\nYes.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, cuando es de más de 125 centímetros cúbicos.\nYes, when it is larger than 125 cubic centimetres.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": false
+        }
+      ],
+      "image_url": "fc4fa153-2452-4a64-964a-6f77d449d86bM.jpg",
+      "number": "7.",
+      "question": "Una motocicleta, ¿puede disponer de señal de emergencia?\nCan a motorcycle have hazard warning lights?",
+      "source_ordinal": 7,
+      "question_id": "exam:1043:07",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q07.jpg",
+      "selected_letter": "A",
+      "help": "17 Hazard Warning lights – emergency warning signals\n \nWhen activated all the directional indicators fitted to the vehicle flash simultaneously.\nAnd, when in use, a red light must be illuminated within the vehicle on the instrument warning panel or dashboard. This will normally consist of a red flashing triangle.\nIt is an obligatory requirement that all automobiles and trailers and semitrailers are fitted with hazard warning lights and it is optional for motorbikes.\n(Página 105 del manual 'Learning to drive')\n",
+      "topic_ids": [
+        "vehicle.lights",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "indica la proximidad de un tramo con tráfico denso.\nindicates the proximity of a stretch with dense traffic.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "reitera la información dada por otra señal de peligro anterior.\nrepeats the information given by another previous danger sign.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "indica la proximidad de un peligro distinto de los advertidos por otras señales.\nindicates the proximity of a danger different to those warned of by different signs.",
+          "correct": true
+        }
+      ],
+      "image_url": "1f72d55c-6515-41f6-8160-18c81e4d4c4bM.jpg",
+      "number": "8.",
+      "question": "La señal...\nThe sign...",
+      "source_ordinal": 8,
+      "question_id": "exam:1043:08",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q08.jpg",
+      "help": "5 Vertical Signs                \n             \n5.2 Signs that warn of danger\nP-50 Other dangers\nThis sign warns of a danger other than those indicated by the other signs.\n(Página 123 del manual 'Learning to drive')\n",
+      "selected_letter": "C",
+      "topic_ids": [
+        "signs.warning"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "una percepción más eficiente.\nmore efficient perception.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "un aumento de las distracciones.\nan increase in distractions.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "mayor capacidad de reacción.\ngreater capacity for reaction.",
+          "correct": false
+        }
+      ],
+      "image_url": "e7da23e4-297b-4cb5-b04d-5e64137568d4M.jpg",
+      "number": "9.",
+      "question": "La depresión puede producir en la conducción...\nDepression in a driver can result in...",
+      "source_ordinal": 9,
+      "question_id": "exam:1043:09",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q09.jpg",
+      "help": "ILLNESS AND MEDICATION  \n   \n20 Some illnesses that can affect driving  \n20.3 Depression\nDepression affects the capabilities of the driver:\nIncreasing distractions. The driver focuses all his attention on his thoughts and neglects the surroundings.\nMaking valuable information become lost or irrelevant. The driver fails to detect significant information needed for safety and requiring driver reaction, especially in more complex situations.\nIncreasing insecurity. Depression interferes in the decision-making process, so the driver can make mistakes or act unpredictably.\nIncreasing the propensity for sleepiness and fatigue. It is advisable not to drive at night or in environments where road monotony may occur or for long periods of time.\nIncreasing irritability and anxiety. A trivial event can provoke a disproportionate reaction by the driver.\nIn addition, there is usually the need for psychotropic drugs, which can directly affect the ability to drive.\n(Página 48 del manual 'Learning to drive')\n",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.health",
+        "routine.distraction"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "distancia de reacción.\nreaction distance.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "distancia de frenado.\nbraking distance.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "distancia de detención.\nstopping distance.",
+          "correct": false
+        }
+      ],
+      "image_url": "b071c0a9-d07c-4622-a28c-16b198db95caM.jpg",
+      "number": "10.",
+      "question": "La distancia que recorre el vehículo desde que se percibe un estímulo hasta que se responde al mismo se llama...\nThe distance a vehicle travels from the moment a stimulus is perceived by the driver until he responds it is called...",
+      "source_ordinal": 10,
+      "question_id": "exam:1043:10",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q10.jpg",
+      "help": "12 Distances\n \n12.1 The reaction distance\nThe reaction distance is the distance travelled by the vehicle from the time of seeing a hazard until he reacts to it.\nIt is dependant on the speed and the driver’s reaction time, which in turn depends, on many other factors, such as, the driver’s reflexes, their psycho-physical state (level of alertness, whether or not the driver is under the influence of alcohol etc.) Even the environment can affect the time it takes for a driver to react to any given circumstance (the passenger compartment temperature, noise, etc.)\nA reaction time of 0.75 seconds is considered to be normal, during which time the vehicle will travel a distance, determined by the speed at which the vehicle is travelling.\n(Página 179 del manual 'Learning to drive')\n",
+      "selected_letter": "A",
+      "topic_ids": [
+        "routine.reaction",
+        "numbers.distances"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "dos retrovisores, uno en cada lado.\ntwo rear view mirrors, one on either side.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "solo el retrovisor izquierdo.\nonly a left rear mirror.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "solo el retrovisor derecho.\nonly a right rear mirror.",
+          "correct": false
+        }
+      ],
+      "image_url": "2aefc4ff-9aab-431e-96e5-b46e9a381a7bM.jpg",
+      "number": "11.",
+      "question": "Un ciclomotor de dos ruedas está obligado a llevar...\nA two-wheeled moped must have...",
+      "source_ordinal": 11,
+      "question_id": "exam:1043:11",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q11.jpg",
+      "help": "VISIBILITY    \n     \n8 Rear-view    \n8.1 Obligatory requirements regarding rear-view mirrors\nFor mopeds (with two wheels) it is an obligatory requirement to have a rear-view mirror fitted to the left side. A mirror on the right side remains optional.\n(Página 90 del manual 'Learning to drive')\n",
+      "selected_letter": "B",
+      "topic_ids": [
+        "vehicle.visibility",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, pero es aconsejable.\nNo, but it is recommendable.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, en cualquier vía.\nYes, on any road.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, fuera de poblado.\nYes, outside a built up area.",
+          "correct": true
+        }
+      ],
+      "image_url": "66249c96-1904-48fb-aac2-393801a8daa5M.jpg",
+      "number": "12.",
+      "question": "Los peatones que circulen de noche por el arcén, ¿deben ir provistos de un elemento luminoso o reflectante?\nMust pedestrians that walk at night on the hard shoulder wear an illuminated or reflective element?",
+      "source_ordinal": 12,
+      "question_id": "exam:1043:12",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q12.jpg",
+      "help": "5 Pedestrians\n \n5.3 Walking at night\nOutside built-up-areas, between sunset and sunrise or in meteorological or environmental conditions that significantly reduce visibility, all pedestrians, when moving along the road or hard shoulder, must be equipped with a luminous or retro reflective homologated element which is visible at a minimum distance of 150 metres for drivers approaching them.\n(Página 56 del manual 'Learning to drive')\n",
+      "selected_letter": "C",
+      "topic_ids": [
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "El vehículo hace más ruido.\nThe vehicle makes more noise.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "El vehículo consume más combustible.\nThe vehicle consumes more fuel.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Disminuye el ruido.\nThe noise decreases.",
+          "correct": false
+        }
+      ],
+      "image_url": "de9dc4af-2c6c-4a47-852e-79548e8fa828M.jpg",
+      "number": "13.",
+      "question": "Cuando se estropea el tubo de escape, ¿qué sucede?\nWhen the exhaust pipe is damaged, what happens?",
+      "source_ordinal": 13,
+      "question_id": "exam:1043:13",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q13.jpg",
+      "selected_letter": "A",
+      "help": "Journeys and defensive and efficient driving      \n   \nEFFICIENT DRIVING  \n7 Pollution\nEnsure that the vehicle is maintained correctly, disposing of all contaminants safely.\nAvoid dropping contaminating substances onto the road –such oil, coolant, diesel, petrol, etc.\nNot wash the vehicle on public roads and the public thoroughfare.\nNot throw, deposit or leave on the road or its surroundings any object that can cause damage, generate fires or cause accidents.\nNot emit electro magnetic disturbances, noise, gases or smoke that are higher than the permitted legal limits.\nEscaping gases from motorised vehicles, such as carbon monoxide, not only contaminate the atmosphere but are, additionally hazardous to human health.\nAlthough the amount of pollutants can be reduced by correct maintenance, particularly to the fuel and ignition systems, gases still escape from the motor vehicle particularly the exhaust.\n(Página 275 del manual 'Learning to drive')\n\n2 Drivers  \n \n2.1 Prohibitions\nYou are prohibited to drive or use a vehicle:\nOn all public city roads and interurban roads, it is prohibited to drive a motor vehicle or moped in which the exhaust system is not fitted out with a silencer, or when the gases expelled by engines, instead of moving through an effective silencer, leave the engine by a silencer that is incomplete, inadequate, worn down or equipped with a resonator exhaust pipe.\n(Página 53 del manual 'Learning to drive')\n",
+      "topic_ids": [
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Inflar más los neumáticos.\nInflate the tyres more.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Utilizar neumáticos radiales en las ruedas delanteras y diagonales en las traseras.\nUse radial tyres on the front wheels and cross-ply tyres on the rear wheels.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Cuidar que la profundidad del dibujo del neumático nunca sea inferior a 1,6 mm.\nEnsure that the depth of the tread of the tyre is never less than 1.6 mm.",
+          "correct": true
+        }
+      ],
+      "image_url": "1a10341c-ed55-43b4-a4b3-9e7f9b1578b5M.jpg",
+      "number": "14.",
+      "question": "Para que el vehículo se agarre bien a la calzada, ¿qué debe hacer?\nWhat must you do to ensure that the vehicle has a good grip on the road?",
+      "source_ordinal": 14,
+      "question_id": "exam:1043:14",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q14.jpg",
+      "help": "ACTIVE SAFETY FEATURES      \n       \n4 Wheels    \n4.2 Tyres  \n4.2.3 The tread pattern\nThe tread pattern is the set of grooves in the tread of a tire. In addition to gripping the road surface, it must guarantee good drainage away of the surface water from the tyre. The adhesion between the tyre and the road is reduced when the tyre is worn.\nAll tyres, (including retreads) must always comply with the legal requirements. This includes, not only the tyre tread and depth of pattern but also other abnormalities relating to the tyre-wall and tread, inflation pressure, bulges, exposed cords, cuts and other signs of irregular wear, and also the mixing of tyres etc. Basically the carcass (housing) must comply with all legal requirements.\nTyres must, throughout their use on public roads, have a depth in the main grooves of the tread which must be at least:\n1.6 millimetres for vehicles in categories M1, N1, O1 and O2.\n1.0 millimetres for vehicles in categories M2, M3, N2, N3, O3 and O4.\n(Página 70 del manual 'Learning to drive')\n",
+      "selected_letter": "C",
+      "topic_ids": [
+        "vehicle.tyres",
+        "numbers.technical"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Solo en vías fuera de poblado.\nOnly on roads outside a built up area.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, en cualquier tipo de vía.\nYes, on all types of road.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": false
+        }
+      ],
+      "image_url": "8dcf93d4-de25-4d82-8f18-a81bd837ef60M.jpg",
+      "number": "15.",
+      "question": "Al aproximarse a un vehículo inmovilizado en la calzada, ¿es obligatorio moderar la velocidad?\nWhen approaching an immobilized vehicle on the road, must you slow down?",
+      "source_ordinal": 15,
+      "question_id": "exam:1043:15",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q15.jpg",
+      "selected_letter": "A",
+      "help": "3 Moderate speed  \n \nAll drivers should travel at a moderate speed and, if necessary, even stop their vehicle when the circumstances require it. The following are circumstances that are likely to be encountered and where speed should be moderated to take into account the given situation:\nIn the proximity of a bus, either, nearing or stationary at a bus stop, especially a bus carrying out school transport.\nOutside populated areas when approaching vehicles stopped on the road, assistance vehicles providing a service or bicycles using the road or hard shoulder.\nWhen travelling on slippery roads or when you encounter surface water or gravel or other objects that may affect yours and other road users safety if negotiated at an ‘xcesive speed’\n(Página 172 del manual 'Learning to drive')\n",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, siempre que no pasen peatones.\nYes, provided that there are no pedestrians.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, salvo que se señalice el lugar para evitar el peligro a los peatones.\nNo, unless you signal the area to avoid danger to pedestrians.",
+          "correct": false
+        }
+      ],
+      "image_url": "9e29fbe6-fed9-4195-ae37-71e349fc3269M.jpg",
+      "number": "16.",
+      "question": "Al descargar mercancías de un vehículo, ¿está permitido depositarlas en la acera?\nWhen unloading goods from a vehicle, are you permitted to deposit them on the pavement?",
+      "source_ordinal": 16,
+      "question_id": "exam:1043:16",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q16.jpg",
+      "help": "Transporting people and loads              \n               \n3 Transport of load  \n3.7 Loading and unloading\nIt is also additionally prohibited from placing (or depositing) merchandise on to the roadway, the hard shoulder, or the footpath (or pedestrian area).\nMerchandise must be directly transferred from the vehicle to its destination or vice versa.\n(Página 219 del manual 'Learning to drive')\n",
+      "selected_letter": "A",
+      "topic_ids": [
+        "vehicle.cargo",
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "De su trazado y del número de curvas.\nThe design and the number of bends.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "De su trazado y del tráfico que vaya a soportar.\nThe design and the traffic that the road will hold.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "De criterios económicos, fundamentalmente.\nMainly economic criteria.",
+          "correct": false
+        }
+      ],
+      "image_url": "81ec028c-e85e-4d77-aba1-af2eaf22cdc1M.jpg",
+      "number": "17.",
+      "question": "Los límites de velocidad que se establecen para una vía, ¿de qué dependen?\nWhat do the speed limits that are established on roads depend on?",
+      "source_ordinal": 17,
+      "question_id": "exam:1043:17",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q17.jpg",
+      "selected_letter": "B",
+      "help": "8 Speed limits are a necessity\n \nSpeed limits are not capricious. There are numerous factors that determine the implementation of a certain speed limit being imposed, (for example; the designated speed, the acceptable degree of congestion, the demands of existing traffic, etc.) The aim of a set speed limit is to allow vehicles to travel with the maximum guarantee of safety and fluidity.\nOne of the most important criteria is the designated speed of the road (the maximum safe speed that can be maintained on a section of road under favourable conditions). This means that a road is designated to be used at a certain generic or specific speed limit and traffic is not allowed to do a higher speed than that specified. To do otherwise means that safety will be compromised.\n(Página 177 del manual 'Learning to drive')\n",
+      "topic_ids": [
+        "numbers.speeds"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Mantener posturas inadecuadas en el asiento.\nSitting with an incorrect posture in the seat.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Mantener los hábitos normales de conducción.\nMaintaining his normal driving habits.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Circular a velocidad moderada.\nDriving at a moderate speed.",
+          "correct": false
+        }
+      ],
+      "image_url": "3537729f-ac62-4e8e-8d5e-2de0a1e0d965M.jpg",
+      "number": "18.",
+      "question": "¿Qué circunstancias del conductor pueden favorecer la aparición de la fatiga?\nWhat circumstances in the driver may cause the onset of fatigue?",
+      "source_ordinal": 18,
+      "question_id": "exam:1043:18",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q18.jpg",
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES  \n \n10.1 Circumstances that cause fatigue\n10.1.3 Driver circumstances\nChanges of normal driving habits. Most people only drive for short distances and during the day. Therefore special care must be taken when driving long distances (for example, during holidays) and especially when driving at night.\nBeing a novice driver as this entails not having acquired all of the automated processes involved in driving, and therefore more concentration is required.\nAdopting an inappropriate driving posture and position in the seat. This can result in pain, stiffness or muscular overload at the end of the journey.\n(Página 37 del manual 'Learning to drive')\n",
+      "selected_letter": "A",
+      "topic_ids": [
+        "routine.fatigue"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí.\nYes.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Solo durante la noche.\nOnly during the night.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": false
+        }
+      ],
+      "image_url": "c2d94800-b715-4bcc-9cd3-da9a1c54a090M.jpg",
+      "number": "19.",
+      "question": "Al circular con lluvia intensa, ¿es obligatorio utilizar algún alumbrado?\nWhen driving in intense rain, it is mandatory to use any kind of lights?",
+      "source_ordinal": 19,
+      "question_id": "exam:1043:19",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q19.jpg",
+      "help": "10 Front fog lights\n \n10.2 Use of front fog lights\nFront fog lights if fitted can be used\nDay or night in circumstances where visibility is compromised:\n- Fog, heavy rain, snowfall, plumes of smoke, dust clouds, any other analogous circumstances.\nIn any of these cases, the lights must be used, so that if the front fog light is not used, the dipped headlights must be used and, even, the full-beam headlights.\n(Página 103 del manual 'Learning to drive')\n",
+      "selected_letter": "A",
+      "topic_ids": [
+        "vehicle.lights",
+        "driving.weather"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Los frenos.\nThe brakes.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "La amortiguación.\nThe suspension.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Los neumáticos.\nThe tyres.",
+          "correct": true
+        }
+      ],
+      "image_url": "b0b3c259-d698-4d35-a7d3-fa641208f905M.jpg",
+      "number": "20.",
+      "question": "¿Qué elementos del vehículo requieren una mayor supervisión por parte del conductor?\nWhat elements of the vehicle require greater supervision from the driver?",
+      "source_ordinal": 20,
+      "question_id": "exam:1043:20",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q20.jpg",
+      "selected_letter": "C",
+      "help": "ACTIVE SAFETY FEATURES  \n   \n4 Wheels\n4.2 Tyres\nThe tread of the tyre is the part that is in contact with the road surface. The adhesion depends largely on the type and condition of the tyre, (composition, tread pattern, wear, etc.) the weight of the vehicle transmitted through to the tyres and the composition and state of the road surface. Favourable adherence is provided by road surfaces, which are in good condition made either of tarmarcadum, asphalt or concrete. Whilst adhesion is reduced on roads that are in bad condition, or made out of cobblestones, or are wet, covered in snow, ice, leaves, oil, etc.\nFaults associated with the tyres are the main cause of road traffic collisions attributable to the vehicle, they account for more casualties than all other vehicle systems put together.\n(Página 68 del manual 'Learning to drive')\n",
+      "topic_ids": [
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Análisis de sangre.\nA blood test.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Caminar sobre una línea recta.\nWalking on a straight line.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Prueba del aire espirado mediante etilómetro.\nA test of exhaled air by means of a breathalyzer.",
+          "correct": true
+        }
+      ],
+      "image_url": "0d6068e1-f2d5-4e13-9d5c-20997d00b054M.jpg",
+      "number": "21.",
+      "question": "¿Cuál es la prueba más frecuente en los controles de alcoholemia?\nWhat is the most frequent test carried out at a sobriety checkpoint?",
+      "source_ordinal": 21,
+      "question_id": "exam:1043:21",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q21.jpg",
+      "help": "ALCOHOL AND OTHER DRUGS\n \n18.1 Tests to detect alcohol and drugs\nTests to detect alcohol will consist in a test of exhaled air by means of an authorized device.\n(Página 45 del manual 'Learning to drive')\n",
+      "selected_letter": "C",
+      "topic_ids": [
+        "routine.alcohol"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Tirarlo en una alcantarilla o desagüe.\nPour it into a sewer or drain.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Entregarlo en un contenedor de recuperación de aceite.\nPut it in an oil recovery container.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Tirarlo en tierra.\nDump it on the ground.",
+          "correct": false
+        }
+      ],
+      "image_url": "346a5035-c378-4ff6-9894-849f98d01951M.jpg",
+      "number": "22.",
+      "question": "¿Qué se debe hacer con el aceite usado del vehículo?\nWhat should you do with the used oil from the vehicle?",
+      "source_ordinal": 22,
+      "question_id": "exam:1043:22",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q22.jpg",
+      "selected_letter": "B",
+      "help": "Mechanics and maintenance        \n         \n6 Lubrication system      \n6.2 Maintenance\nThe oil must be changed with the vehicle in a horizontal position, without the engine running but with the motor warmed up slightly. When replacing the oil make sure that no oil falls on to the ground. It should be collected in a suitable container and disposed of correctly, as oil is a pollutant.\n(Página 241 del manual 'Learning to drive')\n",
+      "topic_ids": [
+        "vehicle.mechanics",
+        "routine.ecodriving"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "evalúa el estado de alerta del conductor analizando los sistemas del vehículo y le avisa en caso necesario.\nevaluates the driver's alertness by analysing the vehicle's systems and notifying them if necessary.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "detecta automáticamente una situación de emergencia y activa el sistema de frenado.\nautomatically detects an emergency situation and activates the braking system.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "alerta al conductor de que el vehículo ha abandonado involuntariamente el carril por el que circulaba.\nalerts the driver that the vehicle has unintentionally left the lane it was driving in.",
+          "correct": true
+        }
+      ],
+      "image_url": "7b78cecd-42da-4af5-b87e-a7bf3b343cdfM.jpg",
+      "number": "23.",
+      "question": "El sistema de advertencia de abandono de carril (LDW)...\nThe lane departure warning system (LDW)...",
+      "source_ordinal": 23,
+      "question_id": "exam:1043:23",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q23.jpg",
+      "help": "DRIVING ASSIST SYSTEMS    \n   \n14 Lane Departure Warning (LDW)\nThis system warns the driver if the vehicle is leaving the lane. To do this, it uses cameras or sensors that detect the edges of the lane along which you are driving. If the vehicle goes outside these limits and the indicators have not been activated, the LDW system warns the driver with a signal that can be acoustic, optical (on the dashboard) or tactile (the steering wheel or seat vibrates).  \n \n(Página 93 del manual 'Learning to drive')\n",
+      "selected_letter": "C",
+      "topic_ids": [
+        "driving.lanes",
+        "routine.safety"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "El vehículo que tenga que dar marcha atrás mayor distancia.\nThe vehicle that must reverse the greater distance.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "El vehículo que haya llegado primero.\nThe vehicle that has arrived first.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "El vehículo que haya entrado primero.\nThe vehicle that has entered first.",
+          "correct": true
+        }
+      ],
+      "image_url": "96f860f7-bc70-4147-8ebe-22b7c552b948M.jpg",
+      "number": "24.",
+      "question": "¿Qué vehículo tendrá preferencia de paso en un estrechamiento cuando la prioridad no esté expresamente señalizada?\nWhich vehicle will have priority on a narrow stretch when priority is not expressly signposted?",
+      "source_ordinal": 24,
+      "question_id": "exam:1043:24",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q24.jpg",
+      "help": "Priorities, level crossings and tunnels  \n \n5 Narrow Sections\n5.2 Narrowing section without signed priority\nWhen there is a narrow stretch of road and there are no signs or signals to determine priority, the vehicle that has entered into the restricted area first will normal continue through having priority over vehicles coming from the opposite direction.\nIf there is however doubt or conflict, the vehicle that has the greatest difficulty manoeuvring will have preference.\n(Página 209 del manual 'Learning to drive')\n",
+      "selected_letter": "C",
+      "topic_ids": [
+        "priority.narrow"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "la distancia de frenado disminuye.\nthe braking distance decreases.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "la distancia de frenado aumenta.\nthe braking distance increases.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "la distancia de frenado se mantiene igual que en condiciones normales.\nthe braking distance is the same as in normal conditions.",
+          "correct": false
+        }
+      ],
+      "image_url": "def57902-3c57-407b-a62d-8fceb31bb5afM.jpg",
+      "number": "25.",
+      "question": "Cuando la calzada está helada...\nWhen the road is icy...",
+      "source_ordinal": 25,
+      "question_id": "exam:1043:25",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q25.jpg",
+      "selected_letter": "B",
+      "help": "Safe driving        \n     \n7 Driving on ice\n7.1 Adhesion\nThe same precautions as driving on a road surface covered in snow should be adopted when driving on ice. Grip will be affected when you drive on an icy surface, therefore it is necessary to reduce the speed and increase the safety separation distance.\nThe braking distance can be up to ten times greater on ice than on a dry road.\n(Página 231 del manual 'Learning to drive')\n",
+      "topic_ids": [
+        "driving.weather",
+        "driving.braking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, siempre que antes de cruzar deje pasar a todos los vehículos.\nYes, provided that before I pass, I let all the other vehicles pass.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, porque la luz verde me lo permite.\nYes, because the green light permits me to pass.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, porque la señal del agente tiene prioridad respecto a las otras dos señales.\nNo, because the sign by the traffic agent has priority over the other signs.",
+          "correct": true
+        }
+      ],
+      "image_url": "b0b08b68-bbe7-4071-a750-18bbd5bc3cdcM.jpg",
+      "number": "26.",
+      "question": "Si la luz del semáforo pasa a verde y el agente mantiene el brazo en alto, ¿puede pasar?\nIf the light on the traffic light changes to green and the traffic agent keeps his arm in the air, can you pass?",
+      "source_ordinal": 26,
+      "question_id": "exam:1043:26",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q26.jpg",
+      "help": "Road signalling        \n         \n1 General rules  \n1.4 Order of priority amongst the signalling devices  \n1 Signals and orders given by agents of the authority in charge of traffic surveillance exercising the functions of their jobs.  \n2 Circumstantial signage and beaconing that alters the normal use of the road, delimiting devices, and beaconing signals.\n3 Traffic lights.  \n4 Traffic road signs.  \n5 Road markings.  \n \n(Página 109 del manual 'Learning to drive')\n\nRoad signalling        \n         \n1 General rules  \n1.4 Order of priority amongst the signalling devices\nIf the instructions indicated by different signals seem to contradict each other, the priority signal will have priority, according to the order set out above, or the most restrictive for signals of the same type.\nIf the contradiction takes place between two road signals of the same type, then the most restrictive will prevail.\n(Página 109 del manual 'Learning to drive')\n",
+      "selected_letter": "C",
+      "topic_ids": [
+        "priority.officer",
+        "priority.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, para ello debe tener una tasa superior a 0,25 miligramos por litro.\nNo, the level must be above 0.25 milligrams per litre to do this.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, para una mayor garantía y a efectos de contraste.\nYes, for greater assurance and for contrast purposes.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Solo si está implicado directamente en un accidente de circulación.\nOnly if the driver has been directly involved in a road traffic accident.",
+          "correct": false
+        }
+      ],
+      "image_url": "fc3d9fe4-2cde-46b0-98d3-1cf54172acd4M.jpg",
+      "number": "27.",
+      "question": "Si un conductor novel presenta una tasa del alcohol en aire espirado de 0,20 miligramos por litro, el agente de tráfico, ¿le podrá realizar una segunda prueba de alcoholemia?\nIf a new driver has a breath alcohol level of 0.20 milligrams per litre, can the traffic officer carry out a second breath alcohol test?",
+      "source_ordinal": 27,
+      "question_id": "exam:1043:27",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q27.jpg",
+      "help": "ALCOHOL AND OTHER DRUGS  \n   \n18.1 Tests to detect alcohol and drugs  \nIf the test result is positive or even negative and the person presents obvious symptoms of being under the influence of alcohol, the investigating official will require a second test of exhaled air to test for alcohol. This provides further factual evidence and acts to compare the first test.\nUnder these circumstances, the ‘official’ (police officer) shall inform the person concerned that there is a requirement for the second controlled test and that they have the right to inform other appropriate parties of this, so that witnesses can be present. There is a minimum time set of ten minutes between these tests.\n(Página 45 del manual 'Learning to drive')\n",
+      "selected_letter": "B",
+      "topic_ids": [
+        "routine.alcohol",
+        "numbers.alcohol"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "En el carril central.\nIn the central lane.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "En el carril situado más a la derecha.\nIn the lane situated furthest to the right.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "En el carril situado más a la izquierda, si no está ocupado.\nIn the lane situated furthest to the left, if it is not occupied.",
+          "correct": false
+        }
+      ],
+      "image_url": "56e8d7b5-4790-49ef-a324-6fc06cba253bM.jpg",
+      "number": "28.",
+      "question": "En esta vía de doble sentido de circulación y tres carriles, ¿dónde debe colocarse para cambiar de dirección a la izquierda?\nOn this two-way, three lane road, where must you place yourself in order to turn left?",
+      "source_ordinal": 28,
+      "question_id": "exam:1043:28",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q28.jpg",
+      "help": "3 Use of lanes\n \n3.1 In general\nThe driver of an automobile or a special vehicle with a weight in excess of 3,500 kg MAM will have to comply with the following rules:\nIn two-way roadways, with three lanes –one for either direction and a centre lane, where the lanes are defined by longitudinal broken lines, you must travel in the lane located to the right and never in the lane to the far left.\nThe centre lane is a shared lane, for use by vehicles overtaking (in either direction) and for turning left.\n(Página 162 del manual 'Learning to drive')\n",
+      "selected_letter": "A",
+      "topic_ids": [
+        "driving.lanes"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "45 km/h.\n45 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "100 km/h.\n100 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "70 km/h.\n70 km/h.",
+          "correct": true
+        }
+      ],
+      "image_url": "0bd6e620-aefd-4e52-9caa-a758c3b0060fM.jpg",
+      "number": "29.",
+      "question": "¿Cuál es la velocidad máxima para un cuadriciclo pesado en esta vía?\nWhat is the maximum speed for a heavy quadricycle on this road?",
+      "source_ordinal": 29,
+      "question_id": "exam:1043:29",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1043-q29.jpg",
+      "selected_letter": "C",
+      "help": "5 Generic speed      \n     \n5.1 Maximum speed limits on interurban roads     \n5.1.3 Other maximum speed limits outside of built-upareas\nBuses in which passengers travel standing up because it is authorised and buses that are not equipped with seat belts: 80 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycles: 70 km/h.\n(Página 173 del manual 'Learning to drive')\n",
+      "topic_ids": [
+        "numbers.speeds",
+        "vehicle.classification"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "La existencia de una estación de recarga eléctrica y de vehículos híbridos enchufables.\nThe existence of an electric and plug-in hybrid vehicle charging station.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Que el alcance de la señalización se refiere a vehículos eléctricos.\nThat the scope of the signage refers to electric vehicles.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "La existencia de una estación de recarga eléctrica.\nThe existence of an electric charging station.",
+          "correct": false
+        }
+      ],
+      "image_url": "fbfe0905-59e8-4702-b523-188f31c3bff5M.jpg",
+      "number": "30.",
+      "question": "¿Qué indica el pictograma de la imagen?\nWhat does the pictogram in the image indicate?",
+      "source_ordinal": 30,
+      "question_id": "exam:1043:30",
+      "source_test_id": 1043,
+      "collection_type": "exam",
+      "help_status": "verified_external",
+      "local_image": "exam-1043-q30.jpg",
+      "help": "This pictogram identifies electric vehicles and indicates that the associated signage applies to those vehicles.",
+      "source_note": "No Ayuda is provided for this question. Verified against DGT instruction MOV 2022/12 (electric-vehicle pictogram), https://www.dgt.es/comunicacion/notas-de-prensa/los-ministerios-de-interior-transportes-y-transicion-ecologica-presentan-la-nueva-senalizacion-de-los-puntos-de-recarga-electrica-en-las-vias/",
+      "selected_letter": "B",
+      "topic_ids": [
+        "signs.information"
+      ]
+    }
+  ],
+  "source_result": {
+    "correct": 30,
+    "wrong": 0,
+    "unanswered": 0
+  },
+  "deferred_ordinals": []
+}

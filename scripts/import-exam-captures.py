@@ -45,8 +45,12 @@ def classify(q):
  return tags or ['routine.safety']
 refs=[]
 for path in sorted(materials.glob('exam-*-capture.json')):
- d=json.load(open(path));sid=d['source_test_id'];tid=100000+sid;verified=[]
+ d=json.load(open(path))
+ if d.get('status') == 'in_progress': continue
+ d['source']='';sid=d['source_test_id'];tid=100000+sid;verified=[]
  for n,q in enumerate(d['questions'],1):
+  # Keep only the image filename; remote origins must not be persisted.
+  q['image_url']=(q.get('image_url') or '').rsplit('/',1)[-1]
   ordinal=q.get('source_ordinal',n);q['source_ordinal']=ordinal;q['question_id']=f'exam:{sid}:{ordinal:02}';q['topic_ids']=classify(q)
   valid=sum(a.get('correct') is True for a in q['answers'])==1 and not q.get('deferred')
   ref={'test_id':tid,'source_test_id':sid,'source_ordinal':ordinal,'question_id':q['question_id'],'question':q['question'],'topic_ids':q['topic_ids'],'verified':valid,'index':len(verified) if valid else None}
@@ -70,7 +74,7 @@ for node in tax['nodes']:
 save(repo/'public/library.json',{'nodes':tax['nodes'],'questions':refs})
 if (materials/'deferred-questions.json').resolve() != (repo/'materials/exam/deferred-questions.json').resolve():
  shutil.copyfile(materials/'deferred-questions.json',repo/'materials/exam/deferred-questions.json')
-(repo/'materials/exam/README.md').write_text('''# Exam collection captures\n\nCollection: English, Exam collection.\n\nQuestion identity is collection + source ticket + source ordinal. Exam training IDs are 100000 + source ticket; thematic IDs are unchanged. Raw captures retain all original question numbers, explanations, source image URLs and source-confirmed answers. Only questions with exactly one confirmed answer are imported for training. Deferred questions have no confirmed answer and remain in the captures and deferred list; proposed answers are not answer keys. Training array indexes may differ from source ordinals when deferred questions are excluded. Images for confirmed questions are in public/tests/exam/<source ticket>/q<source ordinal>.jpg.\n\nTopic navigation supports multiple labels per question. The first 60 exam questions use the reviewed classification; remaining questions use provisional keyword-assisted classifications from their prompt and source headings. These labels need editorial review. Collection membership is independent of topic membership.\n''')
+(repo/'materials/exam/README.md').write_text('''# Exam collection captures\n\nCollection: English, Exam collection.\n\nQuestion identity is collection + source ticket + source ordinal. Exam training IDs are 100000 + source ticket; thematic IDs are unchanged. Raw captures retain all original question numbers, explanations, image filenames and source-confirmed answers. Only questions with exactly one confirmed answer are imported for training. Deferred questions have no confirmed answer and remain in the captures and deferred list; proposed answers are not answer keys. Training array indexes may differ from source ordinals when deferred questions are excluded. Images for confirmed questions are in public/tests/exam/<source ticket>/q<source ordinal>.jpg.\n\nTopic navigation supports multiple labels per question. Questions listed in reviewed-exam-topics.json use the reviewed classification; remaining questions use provisional keyword-assisted classifications from their prompt and source headings. These labels need editorial review. Collection membership is independent of topic membership.\n''')
 print('References',len(refs),'verified',sum(q['verified'] for q in refs),'deferred',sum(not q['verified'] for q in refs))
 
 import hashlib

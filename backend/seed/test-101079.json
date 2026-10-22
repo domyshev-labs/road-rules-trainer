@@ -201,6 +201,7 @@
       "source_ordinal": 6,
       "help_status": "captured",
       "selected_letter": "A",
+      "image_url": "",
       "topic_ids": [
         "driving.weather"
       ],
@@ -832,6 +833,7 @@
       "source_ordinal": 24,
       "help_status": "captured",
       "selected_letter": "B",
+      "image_url": "",
       "topic_ids": [
         "priority.officer",
         "driving.weather",

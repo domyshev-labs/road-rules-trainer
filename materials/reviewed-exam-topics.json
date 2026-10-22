@@ -400,6 +400,593 @@
       "topic_ids": [
         "signs.markings"
       ]
+    },
+    {
+      "question_id": "exam:1032:01",
+      "topic_ids": [
+        "routine.fatigue"
+      ]
+    },
+    {
+      "question_id": "exam:1032:02",
+      "topic_ids": [
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "question_id": "exam:1032:03",
+      "topic_ids": [
+        "routine.safety",
+        "numbers.speeds"
+      ]
+    },
+    {
+      "question_id": "exam:1032:04",
+      "topic_ids": [
+        "driving.signals"
+      ]
+    },
+    {
+      "question_id": "exam:1032:05",
+      "topic_ids": [
+        "signs.information",
+        "incidents.scene"
+      ]
+    },
+    {
+      "question_id": "exam:1032:06",
+      "topic_ids": [
+        "priority.lights"
+      ]
+    },
+    {
+      "question_id": "exam:1032:07",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1032:08",
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.lanes"
+      ]
+    },
+    {
+      "question_id": "exam:1032:09",
+      "topic_ids": [
+        "routine.seatbelts"
+      ]
+    },
+    {
+      "question_id": "exam:1032:10",
+      "topic_ids": [
+        "routine.distraction"
+      ]
+    },
+    {
+      "question_id": "exam:1032:11",
+      "topic_ids": [
+        "routine.alcohol",
+        "numbers.alcohol"
+      ]
+    },
+    {
+      "question_id": "exam:1032:12",
+      "topic_ids": [
+        "routine.health"
+      ]
+    },
+    {
+      "question_id": "exam:1032:13",
+      "topic_ids": [
+        "priority.narrow"
+      ]
+    },
+    {
+      "question_id": "exam:1032:14",
+      "topic_ids": [
+        "driving.pedestrians",
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1032:15",
+      "topic_ids": [
+        "driving.reversing",
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "question_id": "exam:1032:16",
+      "topic_ids": [
+        "driving.signals"
+      ]
+    },
+    {
+      "question_id": "exam:1032:17",
+      "topic_ids": [
+        "priority.lights"
+      ]
+    },
+    {
+      "question_id": "exam:1032:18",
+      "topic_ids": [
+        "numbers.speeds",
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1032:19",
+      "topic_ids": [
+        "driving.weather"
+      ]
+    },
+    {
+      "question_id": "exam:1032:20",
+      "topic_ids": [
+        "driving.reversing",
+        "numbers.distances"
+      ]
+    },
+    {
+      "question_id": "exam:1032:21",
+      "topic_ids": [
+        "signs.parking"
+      ]
+    },
+    {
+      "question_id": "exam:1032:22",
+      "topic_ids": [
+        "routine.fatigue"
+      ]
+    },
+    {
+      "question_id": "exam:1032:23",
+      "topic_ids": [
+        "routine.helmets",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "question_id": "exam:1032:24",
+      "topic_ids": [
+        "driving.lanes",
+        "signs.temporary"
+      ]
+    },
+    {
+      "question_id": "exam:1032:25",
+      "topic_ids": [
+        "routine.alcohol"
+      ]
+    },
+    {
+      "question_id": "exam:1032:26",
+      "topic_ids": [
+        "driving.parking",
+        "driving.lanes"
+      ]
+    },
+    {
+      "question_id": "exam:1032:27",
+      "topic_ids": [
+        "driving.braking"
+      ]
+    },
+    {
+      "question_id": "exam:1032:28",
+      "topic_ids": [
+        "routine.emotions"
+      ]
+    },
+    {
+      "question_id": "exam:1032:29",
+      "topic_ids": [
+        "signs.restrictions",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "question_id": "exam:1032:30",
+      "topic_ids": [
+        "incidents.scene"
+      ]
+    },
+    {
+      "question_id": "exam:1043:01",
+      "topic_ids": [
+        "driving.parking",
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "question_id": "exam:1043:02",
+      "topic_ids": [
+        "routine.alcohol",
+        "numbers.alcohol",
+        "vehicle.dangerous_goods"
+      ]
+    },
+    {
+      "question_id": "exam:1043:03",
+      "topic_ids": [
+        "signs.information"
+      ]
+    },
+    {
+      "question_id": "exam:1043:04",
+      "topic_ids": [
+        "signs.markings"
+      ]
+    },
+    {
+      "question_id": "exam:1043:05",
+      "topic_ids": [
+        "driving.lanes"
+      ]
+    },
+    {
+      "question_id": "exam:1043:06",
+      "topic_ids": [
+        "vehicle.cargo",
+        "driving.parking"
+      ]
+    },
+    {
+      "question_id": "exam:1043:07",
+      "topic_ids": [
+        "vehicle.lights",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "question_id": "exam:1043:08",
+      "topic_ids": [
+        "signs.warning"
+      ]
+    },
+    {
+      "question_id": "exam:1043:09",
+      "topic_ids": [
+        "routine.health",
+        "routine.distraction"
+      ]
+    },
+    {
+      "question_id": "exam:1043:10",
+      "topic_ids": [
+        "routine.reaction",
+        "numbers.distances"
+      ]
+    },
+    {
+      "question_id": "exam:1043:11",
+      "topic_ids": [
+        "vehicle.visibility",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "question_id": "exam:1043:12",
+      "topic_ids": [
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "question_id": "exam:1043:13",
+      "topic_ids": [
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "question_id": "exam:1043:14",
+      "topic_ids": [
+        "vehicle.tyres",
+        "numbers.technical"
+      ]
+    },
+    {
+      "question_id": "exam:1043:15",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1043:16",
+      "topic_ids": [
+        "vehicle.cargo",
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "question_id": "exam:1043:17",
+      "topic_ids": [
+        "numbers.speeds"
+      ]
+    },
+    {
+      "question_id": "exam:1043:18",
+      "topic_ids": [
+        "routine.fatigue"
+      ]
+    },
+    {
+      "question_id": "exam:1043:19",
+      "topic_ids": [
+        "vehicle.lights",
+        "driving.weather"
+      ]
+    },
+    {
+      "question_id": "exam:1043:20",
+      "topic_ids": [
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "question_id": "exam:1043:21",
+      "topic_ids": [
+        "routine.alcohol"
+      ]
+    },
+    {
+      "question_id": "exam:1043:22",
+      "topic_ids": [
+        "vehicle.mechanics",
+        "routine.ecodriving"
+      ]
+    },
+    {
+      "question_id": "exam:1043:23",
+      "topic_ids": [
+        "driving.lanes",
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1043:24",
+      "topic_ids": [
+        "priority.narrow"
+      ]
+    },
+    {
+      "question_id": "exam:1043:25",
+      "topic_ids": [
+        "driving.weather",
+        "driving.braking"
+      ]
+    },
+    {
+      "question_id": "exam:1043:26",
+      "topic_ids": [
+        "priority.officer",
+        "priority.lights"
+      ]
+    },
+    {
+      "question_id": "exam:1043:27",
+      "topic_ids": [
+        "routine.alcohol",
+        "numbers.alcohol"
+      ]
+    },
+    {
+      "question_id": "exam:1043:28",
+      "topic_ids": [
+        "driving.lanes"
+      ]
+    },
+    {
+      "question_id": "exam:1043:29",
+      "topic_ids": [
+        "numbers.speeds",
+        "vehicle.classification"
+      ]
+    },
+    {
+      "question_id": "exam:1043:30",
+      "topic_ids": [
+        "signs.information"
+      ]
+    },
+    {
+      "question_id": "exam:1053:01",
+      "topic_ids": [
+        "driving.overtaking"
+      ]
+    },
+    {
+      "question_id": "exam:1053:02",
+      "topic_ids": [
+        "signs.information"
+      ]
+    },
+    {
+      "question_id": "exam:1053:03",
+      "topic_ids": [
+        "documents.registration"
+      ]
+    },
+    {
+      "question_id": "exam:1053:04",
+      "topic_ids": [
+        "vehicle.motorcycles",
+        "driving.weather"
+      ]
+    },
+    {
+      "question_id": "exam:1053:05",
+      "topic_ids": [
+        "driving.braking",
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "question_id": "exam:1053:06",
+      "topic_ids": [
+        "priority.cyclists",
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1053:07",
+      "topic_ids": [
+        "numbers.speeds",
+        "driving.overtaking"
+      ]
+    },
+    {
+      "question_id": "exam:1053:08",
+      "topic_ids": [
+        "vehicle.tyres",
+        "numbers.technical"
+      ]
+    },
+    {
+      "question_id": "exam:1053:09",
+      "topic_ids": [
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "question_id": "exam:1053:10",
+      "topic_ids": [
+        "signs.warning"
+      ]
+    },
+    {
+      "question_id": "exam:1053:11",
+      "topic_ids": [
+        "driving.overtaking",
+        "priority.cyclists"
+      ]
+    },
+    {
+      "question_id": "exam:1053:12",
+      "topic_ids": [
+        "priority.lights"
+      ]
+    },
+    {
+      "question_id": "exam:1053:13",
+      "topic_ids": [
+        "routine.distraction"
+      ]
+    },
+    {
+      "question_id": "exam:1053:14",
+      "topic_ids": [
+        "vehicle.passengers"
+      ]
+    },
+    {
+      "question_id": "exam:1053:15",
+      "topic_ids": [
+        "incidents.scene"
+      ]
+    },
+    {
+      "question_id": "exam:1053:16",
+      "topic_ids": [
+        "documents.points"
+      ]
+    },
+    {
+      "question_id": "exam:1053:17",
+      "topic_ids": [
+        "signs.warning"
+      ]
+    },
+    {
+      "question_id": "exam:1053:18",
+      "topic_ids": [
+        "incidents.scene",
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1053:19",
+      "topic_ids": [
+        "numbers.speeds",
+        "driving.weather"
+      ]
+    },
+    {
+      "question_id": "exam:1053:20",
+      "topic_ids": [
+        "driving.overtaking",
+        "vehicle.visibility"
+      ]
+    },
+    {
+      "question_id": "exam:1053:21",
+      "topic_ids": [
+        "routine.safety",
+        "routine.alcohol",
+        "routine.fatigue",
+        "driving.weather"
+      ]
+    },
+    {
+      "question_id": "exam:1053:22",
+      "topic_ids": [
+        "vehicle.mechanics",
+        "driving.braking"
+      ]
+    },
+    {
+      "question_id": "exam:1053:23",
+      "topic_ids": [
+        "vehicle.cargo"
+      ]
+    },
+    {
+      "question_id": "exam:1053:24",
+      "topic_ids": [
+        "documents.permissions",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "question_id": "exam:1053:25",
+      "topic_ids": [
+        "numbers.deadlines.itv",
+        "documents.itv"
+      ]
+    },
+    {
+      "question_id": "exam:1053:26",
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1053:27",
+      "topic_ids": [
+        "driving.lanes",
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "question_id": "exam:1053:28",
+      "topic_ids": [
+        "numbers.speeds"
+      ]
+    },
+    {
+      "question_id": "exam:1053:29",
+      "topic_ids": [
+        "numbers.speeds",
+        "routine.safety"
+      ]
+    },
+    {
+      "question_id": "exam:1053:30",
+      "topic_ids": [
+        "documents.points",
+        "routine.safety"
+      ]
     }
   ]
 }

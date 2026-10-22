@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"net/http"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 
@@ -148,6 +149,39 @@ func (app *App) topic(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	current := r.Context().Value(userContextKey).(user)
+	reviewID, runID := int64(0), int64(0)
+	kind := "full"
+	if value := r.URL.Query().Get("review"); value != "" {
+		reviewID, err = strconv.ParseInt(value, 10, 64)
+		if err != nil || reviewID <= 0 {
+			app.writeError(w, 422, "Некорректная работа над ошибками")
+			return
+		}
+		members, err = app.reviewMembers(current.ID, id, reviewID, members)
+		if err != nil {
+			app.writeError(w, 404, "Работа над ошибками не найдена")
+			return
+		}
+	} else {
+		if value := r.URL.Query().Get("run"); value != "" {
+			runID, err = strconv.ParseInt(value, 10, 64)
+			if err != nil || runID <= 0 {
+				app.writeError(w, 422, "Некорректное прохождение")
+				return
+			}
+		} else {
+			runID, err = app.currentTopicRun(current.ID, id, members)
+			if err != nil {
+				app.serverError(w, err)
+				return
+			}
+		}
+		members, kind, err = app.runMembers(current.ID, id, runID, members)
+		if err != nil {
+			app.writeError(w, 404, "Прохождение не найдено")
+			return
+		}
+	}
 	questions := make([]topicQuestion, 0, len(members))
 	for i, ref := range members {
 		q, err := app.loadTopicQuestion(ref)
@@ -163,7 +197,11 @@ func (app *App) topic(w http.ResponseWriter, r *http.Request) {
 		}
 		var selected string
 		var correct bool
-		err = app.db.QueryRow(`SELECT selected_text,correct FROM topic_answers WHERE user_id=? AND topic_id=? AND content_id=?`, current.ID, id, q.ID).Scan(&selected, &correct)
+		if reviewID > 0 {
+			err = app.db.QueryRow(`SELECT selected_text,correct FROM topic_run_answers WHERE run_id=? AND content_id=?`, reviewID, q.ID).Scan(&selected, &correct)
+		} else {
+			err = app.db.QueryRow(`SELECT selected_text,correct FROM topic_run_answers WHERE run_id=? AND content_id=?`, runID, q.ID).Scan(&selected, &correct)
+		}
 		if err == nil {
 			q.Progress = makeTopicProgress(q, selected, correct)
 		} else if err != sql.ErrNoRows {
@@ -172,13 +210,15 @@ func (app *App) topic(w http.ResponseWriter, r *http.Request) {
 		}
 		questions = append(questions, q)
 	}
-	app.writeJSON(w, http.StatusOK, map[string]any{"id": id, "title": title, "questions": questions})
+	app.writeJSON(w, http.StatusOK, map[string]any{"id": id, "title": title, "questions": questions, "run_id": runID, "kind": kind})
 }
 func (app *App) answerTopic(w http.ResponseWriter, r *http.Request) {
 	id := r.PathValue("topicID")
 	var input struct {
 		QuestionID     string `json:"question_id"`
 		SelectedLetter string `json:"selected_letter"`
+		ReviewID       int64  `json:"review_id"`
+		RunID          int64  `json:"run_id"`
 	}
 	if !app.decodeJSON(w, r, &input) {
 		return
@@ -187,6 +227,36 @@ func (app *App) answerTopic(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		app.writeError(w, http.StatusNotFound, "Подтема не найдена")
 		return
+	}
+	current := r.Context().Value(userContextKey).(user)
+	if input.ReviewID < 0 {
+		app.writeError(w, 422, "Некорректная работа над ошибками")
+		return
+	}
+	if input.RunID < 0 || (input.RunID > 0 && input.ReviewID > 0) {
+		app.writeError(w, 422, "Некорректное прохождение")
+		return
+	}
+	if input.ReviewID == 0 {
+		if input.RunID == 0 {
+			input.RunID, err = app.currentTopicRun(current.ID, id, members)
+			if err != nil {
+				app.serverError(w, err)
+				return
+			}
+		}
+		members, _, err = app.runMembers(current.ID, id, input.RunID, members)
+		if err != nil {
+			app.writeError(w, 404, "Прохождение не найдено")
+			return
+		}
+	}
+	if input.ReviewID > 0 {
+		members, err = app.reviewMembers(current.ID, id, input.ReviewID, members)
+		if err != nil {
+			app.writeError(w, 404, "Работа над ошибками не найдена")
+			return
+		}
 	}
 	var ref *topicReference
 	for i := range members {
@@ -215,15 +285,48 @@ func (app *App) answerTopic(w http.ResponseWriter, r *http.Request) {
 		app.writeError(w, http.StatusUnprocessableEntity, "Некорректный вариант ответа")
 		return
 	}
-	current := r.Context().Value(userContextKey).(user)
-	_, err = app.db.Exec(`INSERT INTO topic_answers(user_id,topic_id,content_id,selected_text,correct,answered_at) VALUES(?,?,?,?,?,?) ON CONFLICT(user_id,topic_id,content_id) DO NOTHING`, current.ID, id, q.ID, choice.Text, choice.Correct, time.Now().UTC().Format(time.RFC3339Nano))
+	tx, err := app.db.Begin()
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+	defer tx.Rollback()
+	runID := input.ReviewID
+	if runID == 0 {
+		runID = input.RunID
+		var currentCycle bool
+		err = tx.QueryRow(`SELECT ? >= COALESCE(MAX(id),0) FROM topic_runs WHERE user_id=? AND topic_id=? AND kind='full' AND parent_id IS NULL`, runID, current.ID, id).Scan(&currentCycle)
+		if err != nil {
+			app.serverError(w, err)
+			return
+		}
+		if !currentCycle {
+			app.writeError(w, 409, "Уже начато новое прохождение. Вернитесь к списку тем.")
+			return
+		}
+		_, err = tx.Exec(`INSERT INTO topic_answers(user_id,topic_id,content_id,selected_text,correct,answered_at) VALUES(?,?,?,?,?,?) ON CONFLICT(user_id,topic_id,content_id) DO NOTHING`, current.ID, id, q.ID, choice.Text, choice.Correct, time.Now().UTC().Format(time.RFC3339Nano))
+		if err != nil {
+			app.serverError(w, err)
+			return
+		}
+	}
+	_, err = tx.Exec(`INSERT INTO topic_run_answers(run_id,content_id,selected_text,correct,answered_at) VALUES(?,?,?,?,?) ON CONFLICT DO NOTHING`, runID, q.ID, choice.Text, choice.Correct, time.Now().UTC().Format(time.RFC3339Nano))
 	if err != nil {
 		app.serverError(w, err)
 		return
 	}
 	var selected string
 	var correct bool
-	if err = app.db.QueryRow(`SELECT selected_text,correct FROM topic_answers WHERE user_id=? AND topic_id=? AND content_id=?`, current.ID, id, q.ID).Scan(&selected, &correct); err != nil {
+	err = tx.QueryRow(`SELECT selected_text,correct FROM topic_run_answers WHERE run_id=? AND content_id=?`, runID, q.ID).Scan(&selected, &correct)
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+	if err = completeTopicRun(tx, runID); err != nil {
+		app.serverError(w, err)
+		return
+	}
+	if err = tx.Commit(); err != nil {
 		app.serverError(w, err)
 		return
 	}
@@ -231,12 +334,62 @@ func (app *App) answerTopic(w http.ResponseWriter, r *http.Request) {
 }
 func (app *App) resetTopic(w http.ResponseWriter, r *http.Request) {
 	id := r.PathValue("topicID")
-	if _, _, _, err := topicMembers(id); err != nil {
-		app.writeError(w, http.StatusNotFound, "Подтема не найдена")
+	_, members, _, err := topicMembers(id)
+	if err != nil {
+		app.writeError(w, 404, "Подтема не найдена")
 		return
 	}
 	current := r.Context().Value(userContextKey).(user)
-	if _, err := app.db.Exec(`DELETE FROM topic_answers WHERE user_id=? AND topic_id=?`, current.ID, id); err != nil {
+	tx, err := app.db.Begin()
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+	defer tx.Rollback()
+	runID, err := ensureTopicRun(tx, current.ID, id, members)
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+	var completed sql.NullString
+	if err = tx.QueryRow(`SELECT completed_at FROM topic_runs WHERE id=?`, runID).Scan(&completed); err != nil {
+		app.serverError(w, err)
+		return
+	}
+	if !completed.Valid {
+		app.writeError(w, 409, "Сначала завершите текущее прохождение")
+		return
+	}
+	for _, ref := range members {
+		var answered bool
+		if err = tx.QueryRow(`SELECT EXISTS(SELECT 1 FROM topic_answers WHERE user_id=? AND topic_id=? AND content_id=?)`, current.ID, id, ref.CanonicalID).Scan(&answered); err != nil {
+			app.serverError(w, err)
+			return
+		}
+		if !answered {
+			app.writeError(w, 409, "Сначала ответьте на оставшиеся вопросы темы")
+			return
+		}
+	}
+	result, err := tx.Exec(`INSERT INTO topic_runs(user_id,topic_id,total,started_at) VALUES(?,?,?,?)`, current.ID, id, len(members), time.Now().UTC().Format(time.RFC3339Nano))
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+	nextID, err := result.LastInsertId()
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+	if err = saveRunMembers(tx, nextID, members); err != nil {
+		app.serverError(w, err)
+		return
+	}
+	if _, err = tx.Exec(`DELETE FROM topic_answers WHERE user_id=? AND topic_id=?`, current.ID, id); err != nil {
+		app.serverError(w, err)
+		return
+	}
+	if err = tx.Commit(); err != nil {
 		app.serverError(w, err)
 		return
 	}
@@ -262,6 +415,7 @@ func (app *App) topicSummaries(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 	members := map[string]map[string]bool{}
+	refsByTopic := map[string][]topicReference{}
 	for _, node := range library.Nodes {
 		if !parents[node.ID] {
 			members[node.ID] = map[string]bool{}
@@ -273,17 +427,25 @@ func (app *App) topicSummaries(w http.ResponseWriter, r *http.Request) {
 		}
 		for _, tag := range q.TopicIDs {
 			if set, ok := members[tag]; ok {
+				if !set[q.CanonicalID] {
+					refsByTopic[tag] = append(refsByTopic[tag], q)
+				}
 				set[q.CanonicalID] = true
 			}
 		}
 	}
 	type summary struct {
-		Total        int             `json:"total"`
-		Answered     int             `json:"answered"`
-		Correct      int             `json:"correct"`
-		Wrong        int             `json:"wrong"`
-		NextQuestion int             `json:"next_question"`
-		Results      map[string]bool `json:"results"`
+		Total          int               `json:"total"`
+		Answered       int               `json:"answered"`
+		Correct        int               `json:"correct"`
+		Wrong          int               `json:"wrong"`
+		NextQuestion   int               `json:"next_question"`
+		Results        map[string]bool   `json:"results"`
+		Runs           []topicRunSummary `json:"runs"`
+		NewCount       int               `json:"new_count"`
+		NewQuestionIDs []string          `json:"new_question_ids"`
+		QuestionRuns   map[string]int64  `json:"question_runs"`
+		Completed      bool              `json:"completed"`
 	}
 	result := map[string]*summary{}
 	for id, set := range members {
@@ -317,15 +479,46 @@ func (app *App) topicSummaries(w http.ResponseWriter, r *http.Request) {
 		app.serverError(w, err)
 		return
 	}
+	rows.Close()
 	for id, item := range result {
+		if item.Answered > 0 {
+			if _, err = app.currentTopicRun(current.ID, id, refsByTopic[id]); err != nil {
+				app.serverError(w, err)
+				return
+			}
+		}
+		item.Runs, err = app.topicHistory(current.ID, id)
+		if err != nil {
+			app.serverError(w, err)
+			return
+		}
+		item.NewQuestionIDs, item.QuestionRuns, err = app.newTopicQuestions(current.ID, id, refsByTopic[id])
+		if err != nil {
+			app.serverError(w, err)
+			return
+		}
+		item.NewCount = len(item.NewQuestionIDs)
+		item.Completed = item.Total > 0 && item.Answered == item.Total
 		ids := make([]string, 0, len(members[id]))
 		for content := range members[id] {
 			ids = append(ids, content)
 		}
 		sort.Strings(ids)
-		for i, content := range ids {
+		fullID := int64(0)
+		for _, run := range item.Runs {
+			if run.Kind == "full" {
+				fullID = run.ID
+				break
+			}
+		}
+		number := 0
+		for _, content := range ids {
+			if fullID > 0 && item.QuestionRuns[content] != fullID {
+				continue
+			}
+			number++
 			if _, answered := item.Results[content]; !answered {
-				item.NextQuestion = i + 1
+				item.NextQuestion = number
 				break
 			}
 		}

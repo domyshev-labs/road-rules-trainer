@@ -358,6 +358,46 @@
       "id": "incidents.towing",
       "label_ru": "Поломка и буксировка",
       "parent_id": "incidents"
+    },
+    {
+      "id": "signs.information",
+      "label_ru": "Информационные знаки",
+      "parent_id": "signs"
+    },
+    {
+      "id": "priority.narrow",
+      "label_ru": "Узкие участки",
+      "parent_id": "priority"
+    },
+    {
+      "id": "driving.signals",
+      "label_ru": "Сигналы и предупреждения",
+      "parent_id": "driving"
+    },
+    {
+      "id": "driving.reversing",
+      "label_ru": "Движение задним ходом",
+      "parent_id": "driving"
+    },
+    {
+      "id": "vehicle.mechanics",
+      "label_ru": "Устройство и обслуживание",
+      "parent_id": "vehicle"
+    },
+    {
+      "id": "documents.registration",
+      "label_ru": "Регистрация и документы автомобиля",
+      "parent_id": "documents"
+    },
+    {
+      "id": "documents.points",
+      "label_ru": "Баллы и действие удостоверения",
+      "parent_id": "documents"
+    },
+    {
+      "id": "numbers.distances",
+      "label_ru": "Расстояния и интервалы",
+      "parent_id": "numbers"
     }
   ]
 }

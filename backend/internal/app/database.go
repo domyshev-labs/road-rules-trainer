@@ -81,6 +81,30 @@ CREATE TABLE IF NOT EXISTS topic_answers (
  answered_at TEXT NOT NULL,
  PRIMARY KEY(user_id,topic_id,content_id)
 );
+CREATE TABLE IF NOT EXISTS topic_runs (
+ id INTEGER PRIMARY KEY AUTOINCREMENT,
+ user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+ topic_id TEXT NOT NULL,
+ parent_id INTEGER REFERENCES topic_runs(id),
+ total INTEGER NOT NULL,
+ started_at TEXT NOT NULL,
+ completed_at TEXT
+);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_topic_review_parent ON topic_runs(parent_id) WHERE parent_id IS NOT NULL;
+CREATE INDEX IF NOT EXISTS idx_topic_runs_user ON topic_runs(user_id,topic_id,id);
+CREATE TABLE IF NOT EXISTS topic_run_members (
+ run_id INTEGER NOT NULL REFERENCES topic_runs(id) ON DELETE CASCADE,
+ content_id TEXT NOT NULL REFERENCES question_contents(id),
+ PRIMARY KEY(run_id,content_id)
+);
+CREATE TABLE IF NOT EXISTS topic_run_answers (
+ run_id INTEGER NOT NULL REFERENCES topic_runs(id) ON DELETE CASCADE,
+ content_id TEXT NOT NULL REFERENCES question_contents(id),
+ selected_text TEXT NOT NULL,
+ correct INTEGER NOT NULL CHECK(correct IN (0,1)),
+ answered_at TEXT NOT NULL,
+ PRIMARY KEY(run_id,content_id)
+);
 CREATE TABLE IF NOT EXISTS answers (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   question_id INTEGER NOT NULL REFERENCES questions(id) ON DELETE CASCADE,
@@ -151,6 +175,10 @@ func openDatabase(path string) (*sql.DB, error) {
 	if _, err := db.Exec(schema); err != nil {
 		db.Close()
 		return nil, fmt.Errorf("apply schema: %w", err)
+	}
+	if err := migrateTopicRunKinds(db); err != nil {
+		db.Close()
+		return nil, fmt.Errorf("migrate topic runs: %w", err)
 	}
 	if err := seedDatabase(db); err != nil {
 		db.Close()

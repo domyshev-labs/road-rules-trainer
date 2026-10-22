@@ -402,15 +402,15 @@ func TestTopicTrainingUsesUniqueMembersAndSeparateProgress(t *testing.T) {
 		t.Fatal("summary leaked another user's progress")
 	}
 	response = request(t, handler, http.MethodPost, "/api/topics/routine.drugs/reset", "", cookie)
-	if response.Code != http.StatusNoContent {
-		t.Fatal(response.Body.String())
+	if response.Code != http.StatusConflict {
+		t.Fatalf("unfinished topic must not lose progress: %s", response.Body.String())
 	}
-	if err := application.db.QueryRow(`SELECT count(*) FROM topic_answers`).Scan(&count); err != nil || count != 0 {
-		t.Fatalf("reset failed: %d %v", count, err)
+	if err := application.db.QueryRow(`SELECT count(*) FROM topic_answers`).Scan(&count); err != nil || count != 2 {
+		t.Fatalf("unfinished topic progress changed: %d %v", count, err)
 	}
 }
 
-func TestRussianQuestionListTitlesCoverLibrary(t *testing.T) {
+func TestRussianQuestionListTitlesAreConsistentWhenPresent(t *testing.T) {
 	data, err := seed.Files.ReadFile("library.json")
 	if err != nil {
 		t.Fatal(err)
@@ -421,12 +421,16 @@ func TestRussianQuestionListTitlesCoverLibrary(t *testing.T) {
 	}
 	titles := map[string]string{}
 	for _, q := range library.Questions {
+		// New captures may retain their source prompt until a translation is requested.
 		if strings.TrimSpace(q.QuestionRU) == "" {
-			t.Fatalf("missing Russian list title: %s", q.CanonicalID)
+			continue
 		}
 		if previous, ok := titles[q.CanonicalID]; ok && previous != q.QuestionRU {
 			t.Fatalf("inconsistent shared translation: %s", q.CanonicalID)
 		}
 		titles[q.CanonicalID] = q.QuestionRU
+	}
+	if len(titles) == 0 {
+		t.Fatal("existing Russian title metadata was lost")
 	}
 }

@@ -1,0 +1,275 @@
+{
+  "source": "",
+  "collection": "Exam collection",
+  "collection_type": "exam",
+  "source_test_id": 1080,
+  "status": "in_progress",
+  "questions": [
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Se produce una fuerte somnolencia.\nThey cause severe drowsiness.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Aumentan la sensación de fatiga.\nThey increase the feeling of fatigue.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Disminuyen la sensación de fatiga y producen falsa seguridad.\nThey reduce the feeling of fatigue and cause a false sense of security.",
+          "correct": true
+        }
+      ],
+      "image_url": "14d27c70-df7c-4393-9759-784d869ce726M.jpg",
+      "number": "1.",
+      "question": "¿Cómo afectan las anfetaminas a la conducción?\nHow do amphetamines affect driving?",
+      "source_ordinal": 1,
+      "question_id": "exam:1080:01",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1080-q01.jpg",
+      "help": "ALCOHOL AND OTHER DRUGS        \n     \n17.1 Effects of the most common drugs    \n17.1.5 Amphetamines\nIt reduces the feeling of fatigue, which may have serious consequences for the driver’s health and safety.\nIt delays the onset of the need for sleep but this inevitably leads to a rebound effect, where the driver needs to sleep later.\n(Página 44 del manual 'Learning to drive')\n",
+      "selected_letter": "C"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Girar a la izquierda o continuar de frente.\nTurn left or continue straight ahead.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Girar a la derecha o girar a la izquierda.\nTurn right or turn left.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Girar a la derecha o continuar de frente.\nTurn right or continue straight ahead.",
+          "correct": true
+        }
+      ],
+      "image_url": "7f7394e3-68f3-4f12-9aeb-540c43441f6fM.jpg",
+      "number": "2.",
+      "question": "Cuando se encienda la luz verde del semáforo, ¿qué deben hacer estos vehículos?\nWhen the green traffic light is lit, what should these vehicles do?",
+      "source_ordinal": 2,
+      "question_id": "exam:1080:02",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1080-q02.jpg",
+      "help": "4 Traffic lights  \n   \n4.2 Traffic lights for vehicles\n4.2.6 Black arrow\nA black arrow on a red light (background) or on a yellow background (intermittent or not) has the same meaning as if were a red or amber light (without the arrow). The difference in this instance is that the arrow, limits the meaning exclusively to the direction shown.  \n(Página 116 del manual 'Learning to drive')\n\n4 Traffic lights  \n   \n4.2 Traffic lights for vehicles\n4.2.6 Black arrow\nNote: When a flashing amber light with a black arrow lights up, you may remain in your lane. There is no obligation to go in the direction and way indicated by the arrow.\n(Página 116 del manual 'Learning to drive')\n",
+      "selected_letter": "C"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Se encarga de no rebasar una velocidad de circulación, velocidad limitada, que previamente haya elegido el conductor.\nIt is responsible for not exceeding a speed, the limited speed, previously chosen by the driver.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Muestra el límite de velocidad en la vía por la que se circula y ayuda al conductor a mantener una velocidad apropiada en ese entorno proporcionándole una información adecuada.\nIt displays the speed limit on the road on which it is being driven and helps the driver to maintain an appropriate speed in that environment by providing appropriate information.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Ayuda a mantener la velocidad de circulación en el valor constante que elija el conductor, sin necesidad de pisar el acelerador.\nIt helps to maintain the driving speed at a constant speed chosen by the driver, without needing to step on the accelerator.",
+          "correct": false
+        }
+      ],
+      "image_url": "ff260b90-690d-4a0c-99ea-2de083e25a2dM.jpg",
+      "number": "3.",
+      "question": "¿Qué función realiza el asistente inteligente de velocidad (ISA)?\nWhat does the Intelligent Speed Assistant (ISA) do?",
+      "source_ordinal": 3,
+      "question_id": "exam:1080:03",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1080-q03.jpg",
+      "help": "DRIVING ASSIST SYSTEMS\n \n13 Intelligent Speed Assistant (ISA)\nThe system helps to ensure the driver is aware of and respects the speed limit, acting on the transmission system to adapt the vehicle’s speed to the limit on the road along which it is travelling.\n \n(Página 92 del manual 'Learning to drive')\n\nDRIVING ASSIST SYSTEMS  \n   \n13 Intelligent Speed Assistant (ISA)\nThe system is linked to the TSR system, using a frontfacing camera and GPS in combination with a digital map to detect the speed limit for each stretch of road, informing the driver graphically through the instrument panel. It also automatically adapts the vehicle’s maximum speed to the limits in force on each stretch of the road, and does not allow the driver to accelerate beyond the speed allowed.\nIt can be activated and deactivated manually by clicking on a button or by pressing the accelerator.\n(Página 93 del manual 'Learning to drive')\n",
+      "selected_letter": "B"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "se trate de una glorieta.\nit is a roundabout.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "está prohibido adelantar, salvo que el cambio de sentido esté autorizado.\nit is prohibited to overtake, unless a change of direction is authorised.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "no se pueda marchar hacia adelante.\nyou cannot proceed forward.",
+          "correct": false
+        }
+      ],
+      "image_url": "a717df41-5473-4e6b-9620-01b3fcda1fd5M.jpg",
+      "number": "4.",
+      "question": "Como norma general, está prohibido cambiar el sentido de la marcha cuando...\nAs a general rule, changing direction on the road is prohibited when...",
+      "source_ordinal": 4,
+      "question_id": "exam:1080:04",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1080-q04.jpg",
+      "help": "Maneouvres          \n       \n7 ‘U’ turn    \n7.3 Circumstances when it is prohibited to undertake a ‘U’ turn\nIt is specifically prohibited to carry out a ‘U’ turn:\nAt level crossings (although it is not prohibited in their immediate surroundings).\nIn tunnels, underpasses and sections of the road affected by the signal “unnel”.\nOn motorways and dual carriageways, except in the places designated for this purpose.\nOn one-way roads and one-way sections of roads.\nIn general, in all sections of the road where overtaking is prohibited, unless a ‘’turn is expressly authorized.\n(Página 195 del manual 'Learning to drive')\n",
+      "selected_letter": "B"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "después de avisar a la autoridad, modificar el estado de las cosas, para restablecer la circulación.\nafter notifying the authorities, make changes to keep traffic moving.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "trasladar inmediatamente a los heridos en su vehículo, sin esperar la ayuda sanitaria.\nimmediately transfer the injured parties in their vehicle, without waiting for the medical services.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "comunicar, en todo caso, su identidad a otras personas implicadas en el accidente, si se lo pidiesen.\nin any case, give your identity to other people involved in the accident, if they ask for it.",
+          "correct": true
+        }
+      ],
+      "image_url": "b96ce140-baad-4eb2-aa9c-b5c14cb5f85eM.jpg",
+      "number": "5.",
+      "question": "Todo usuario de la vía implicado en un accidente de circulación deberá, en la medida de lo posible...\nAll road users involved in a traffic accident must, as far as possible...",
+      "source_ordinal": 5,
+      "question_id": "exam:1080:05",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1080-q05.jpg",
+      "help": "Road traffic collisions          \n   \n7 Obligations after a collision\nAny one implicated, present or has knowledge of a traffic collision is obligated to:\nHelp or summons assistance, to attend the victims, (if there are any).\nAssist to avoid further danger or injuries from occurring.\nHelp re-establish, when possible, the flow and safety of other traffic.\nAssist and relay the facts of the situation and how the traffic incident occurred.\nCommunicate, and inform (in all cases) your identity and that of anyone involved in the collision, when and if requested.\n(Página 258 del manual 'Learning to drive')\n",
+      "selected_letter": "C"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, cuando el equipaje es ancho y no se puede dividir.\nYes, when the luggage is wide and it cannot be divided.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, pero el ancho total tiene que ser menor de 2,5 metros.\nYes, but the total width must be less than 2.5 metres.",
+          "correct": false
+        }
+      ],
+      "image_url": "18f67b0f-7077-409e-bb8a-908c7a624d34M.jpg",
+      "number": "6.",
+      "question": "El equipaje en la baca de un turismo, ¿puede sobresalir por los lados?\nCan luggage on a car's roof rack protrude from the sides?",
+      "source_ordinal": 6,
+      "question_id": "exam:1080:06",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1080-q06.jpg",
+      "help": "Transporting people and loads      \n       \n3 Transport of load\n3.5 Load size\nAs a general rule, loads cannot protrude from the vehicle floor: neither in front or in back or from the sides. It can protrude from the roof of the vehicle provided that it meets this condition.  \n(Página 217 del manual 'Learning to drive')\n\nTransporting people and loads        \n         \n3 Transport of load  \n3.5 Load size\nAlso exceptionally, in vehicles not exclusively designed to transport merchandise the load may protrude to the rear only as follows:\nUp to 10 percent of the length of the vehicle, if the load is divisible.\nUp to 15 percent of the length of the vehicle, if the load is indivisible.\n(Página 218 del manual 'Learning to drive')\n",
+      "selected_letter": "A"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que está averiado.\nIt has a mechanical failure.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Que está efectuando la maniobra de marcha atrás.\nIt is completing a reversing manoeuvre.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Que está parado en doble fila.\nIt is double parked.",
+          "correct": false
+        }
+      ],
+      "image_url": "b6c79b74-2d52-4894-ad55-b6299a381291M.jpg",
+      "number": "7.",
+      "question": "¿Qué indican las luces blancas traseras del vehículo?\nWhat do the rear white lights of the vehicle indicate?",
+      "source_ordinal": 7,
+      "question_id": "exam:1080:07",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1080-q07.jpg",
+      "help": "20 The reversing light(s)\n \nThe reversing light(s) illuminates the route behind the vehicle when it is travelling backwards (in reverse gear). It is also used to warn other users, behind that the vehicle that is reversing, that it is approaching them.\nThe reversing lights may consist of a single light or two lights that must be white in colour. These lights illuminate automatically when reverse gear is selected.\n(Página 106 del manual 'Learning to drive')\n",
+      "selected_letter": "B"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "echarse a un lado inmediatamente para que pueda adelantar.\nmove to the side immediately so they can overtake.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "aumentar la distancia de seguridad por delante siempre que sea posible.\nincrease the safety distance ahead whenever possible.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "frenar bruscamente para alejar al coche que circula detrás.\nto brake abruptly to get the car driving behind to move away.",
+          "correct": false
+        }
+      ],
+      "image_url": "ae60ba30-5f1a-4ccb-ba54-857dcd9784a9M.jpg",
+      "number": "8.",
+      "question": "Cuando otro vehículo que circula detrás de su turismo está muy próximo, se recomienda...\nWhen another vehicle travelling behind your car is very close, it is recommended...",
+      "source_ordinal": 8,
+      "question_id": "exam:1080:08",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1080-q08.jpg",
+      "help": "Journeys and defensive and efficient driving        \n         \nDEFENSIVE DRIVING  \n6 Maintaining space\n6.1 Travelling\n6.1.1 Space to the front\nHowever, under certain circumstances, this interval should be increased for safety reasons by at least one second more, namely:\nWhen driving in adverse environmental conditions (like rain or at night).\nWhen the state of the driver is not the most conducive to safe driving, for example, if the driver is tired or sleepy.\nWhen the vehicle behind is approaching very fast.\n(Página 273 del manual 'Learning to drive')\n",
+      "selected_letter": "B"
+    },
+    {
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Ante la línea de detención, sin rebasarla.\nBefore the stop line, without going over it."
+        },
+        {
+          "letter": "B",
+          "text": "Inmediatamente antes del cruce, aun cuando rebase la línea de detención.\nImmediately before the junction, even if you go over the stop line."
+        },
+        {
+          "letter": "C",
+          "text": "Ante la señal.\nBefore the sign."
+        }
+      ],
+      "image_url": "d16d1523-03a9-474c-8af5-4ea519edb219M.jpg",
+      "number": "9.",
+      "question": "¿Dónde debe detenerse en este cruce?\nWhere should you stop at this junction?",
+      "source_ordinal": 9,
+      "question_id": "exam:1080:09",
+      "source_test_id": 1080,
+      "collection_type": "exam",
+      "help_status": "captured",
+      "local_image": "exam-1080-q09.jpg",
+      "help": "5 Vertical Signs        \n     \n5.3 Regulation road signs  \n5.3.2 ‘Priority’ signs\nR-2 Stop\nObligation for all drivers to stop their vehicle before the stop-line or, if one is not on the road surface or visible, immediately before the junction, giving way to vehicles that travel on the road they are approaching.  \n(Página 124 del manual 'Learning to drive')\n\n5 Vertical Signs        \n     \n5.3 Regulation road signs  \n5.3.2 ‘Priority’ signs\nR-2 Stop\nIf, for exceptional circumstances, a driver stops in a place where there is not enough visibility, the driver must re-stop in a place where he has proper visibility before committing himself to entering the new road. Consideration must always be given to safety.\nNote: Failing to comply with the requirement to stop at a stop sign or give way sign will result in the loss of 4 points.\n(Página 124 del manual 'Learning to drive')\n"
+    }
+  ]
+}

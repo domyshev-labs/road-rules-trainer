@@ -4,7 +4,10 @@ WORKDIR /src
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY . .
-RUN npm run build
+ARG APP_VERSION=dev
+ARG GIT_SHA=unknown
+ENV VITE_APP_VERSION=$APP_VERSION
+RUN npm run build && printf '{"version":"%s","commit":"%s"}\n' "$APP_VERSION" "$GIT_SHA" > dist/version.json
 
 FROM golang:1.24-alpine AS backend
 
@@ -25,6 +28,10 @@ RUN apk add --no-cache ca-certificates sqlite \
 WORKDIR /app
 COPY --from=backend /road-rules-server /usr/local/bin/road-rules-server
 COPY --from=frontend /src/dist /app/web
+
+ARG APP_VERSION=dev
+ARG GIT_SHA=unknown
+LABEL org.opencontainers.image.version=$APP_VERSION org.opencontainers.image.revision=$GIT_SHA
 
 USER app
 ENV ADDRESS=:8080 DATABASE_PATH=/app/data/road-rules.db STATIC_DIR=/app/web COOKIE_SECURE=true
