@@ -97,11 +97,20 @@ jobs:
           docker logs "$APP_NAME"
           exit 1
 
+      - name: Record successful release
+        shell: bash
+        run: |
+          docker run --rm -i --env "APP_VERSION=$APP_VERSION" --env "GITHUB_SHA=$GITHUB_SHA" --env "DEPLOYED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)" --env "RELEASE_HISTORY=$(cat backend/seed/releases.json)" --entrypoint node node:22-alpine --input-type=module - < scripts/record-release.mjs > release-record.json
+          cp release-record.json backend/seed/releases.json
+          docker exec -i "$APP_NAME" sh -c 'cat > /app/data/releases.json.tmp && mv /app/data/releases.json.tmp /app/data/releases.json' < release-record.json
+
       - name: Tag verified deployment
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git tag --annotate "v$APP_VERSION" "$GITHUB_SHA" --message "Production release v$APP_VERSION"
-          git push origin "refs/tags/v$APP_VERSION"
+          git add backend/seed/releases.json
+          git commit --message "Record production release v$APP_VERSION [skip ci]"
+          git push --atomic origin HEAD:main "refs/tags/v$APP_VERSION"
           echo "Deployed v$APP_VERSION from $GITHUB_SHA" >> "$GITHUB_STEP_SUMMARY"

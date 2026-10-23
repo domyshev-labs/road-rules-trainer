@@ -173,3 +173,10 @@ restarts and disappear when that question is answered anywhere in normal
 training. Previously answered additions are immediately covered. Truly new
 questions use the existing isolated new-question batch workflow. API responses
 and client requests bypass HTTP caches to avoid stale progress.
+
+
+## Answer timeline and release history
+
+The authenticated `/api/statistics/linear` endpoint returns the current user's most recent 30, 50, 100, 250, 500 or 1000 persisted answer events, in chronological order. It includes topic and ticket attempts, including mistake reviews. Inherited progress is excluded and migrated legacy rows are deduplicated. Answer records remain one per question per attempt; overwritten intermediate choices cannot be recovered.
+
+Release highlights live in `backend/seed/releases.json`. Before a release, add an entry for the next patch version with `deployed_at: null` and concise interface-language highlights. After production passes its health check, the workflow records the actual UTC deployment timestamp and deployed commit, atomically publishes the metadata in the persistent data directory, and commits the release record with `[skip ci]`. The annotated version tag always points to the deployed application commit, not the subsequent metadata-only commit. Normal pushes are used; concurrent branch changes cause a safe push rejection rather than rewriting history. `/api/releases` serves the recorded history, with the embedded history as the initial fallback. The interface formats timestamps in the browser's local timezone.

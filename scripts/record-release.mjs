@@ -1,0 +1,10 @@
+import { readFileSync } from 'node:fs';
+const history = JSON.parse(process.env.RELEASE_HISTORY || readFileSync(new URL('../backend/seed/releases.json', import.meta.url), 'utf8'));
+const version = process.env.APP_VERSION;
+const deployedAt = process.env.DEPLOYED_AT;
+if (!/^\d+\.\d+\.\d+$/.test(version || '') || !deployedAt || !Number.isFinite(Date.parse(deployedAt))) throw new Error('Verified deployment metadata is required');
+const pending = history.find(release => !release.deployed_at);
+const release = history.find(release => release.version === version) || { version, changes: pending?.changes || [] };
+release.deployed_at = new Date(deployedAt).toISOString();
+release.commit = process.env.GITHUB_SHA;
+console.log(JSON.stringify([release, ...history.filter(item => item.version !== version && item.deployed_at)], null, 2));

@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, useTransition } from 'react';
 import { createPortal } from 'react-dom';
+import { LinearStatistics, ReleaseDetails } from './LinearStatistics';
 import { readRoute, useTrainingNavigation } from './navigation';
 
 type Answer = { letter: string; text: string; correct?: boolean };
@@ -629,7 +630,7 @@ function AccountMenu({ user, onLogout }: { user: AuthUser; onLogout: () => Promi
     try { await onLogout(); } finally { setBusy(false); setOpen(false); }
   }
   return <div className="account-menu-shell" ref={menu}>
-    <span className="app-version" aria-label="Версия приложения">{import.meta.env.VITE_APP_VERSION || 'dev'}</span>
+    <ReleaseDetails />
     <button ref={trigger} type="button" className="account-menu-trigger" aria-label="Меню пользователя" aria-expanded={open} aria-controls="account-menu" onClick={() => setOpen(!open)}>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
     </button>
@@ -849,9 +850,9 @@ function TopicHeading({ section, title }: { section: React.ReactNode; title: str
 }
 type LibraryView = { search: string; expanded: string[]; scrollTop: number; collection: TicketCollection | null; completedTopic?: { id: string; question: string } };
 
-function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, getStats, view, onRemember, sectionId, knowledge }: {
+function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, getStats, view, onRemember, sectionId, knowledge, onStatistics }: {
   catalog: CatalogEntry[]; library: LibraryData; onOpen: (id: number, index?: number) => void; onOpenTopic: (id: string, question?: string, options?: TopicLaunch) => void;
-  knowledge?: QuestionKnowledge; sectionId?: string; getStats: (entry: CatalogEntry) => TicketStats; view: LibraryView; onRemember: (snapshot: LibraryView) => void;
+  onStatistics?: () => void; knowledge?: QuestionKnowledge; sectionId?: string; getStats: (entry: CatalogEntry) => TicketStats; view: LibraryView; onRemember: (snapshot: LibraryView) => void;
 }) {
   const root = useRef<HTMLElement>(null);
   const scroll = useRef<HTMLDivElement>(null);
@@ -923,7 +924,7 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, getStats, view
     const stats = summaries?.[node.id];
     if (query && !items.some(matches) && !node.label_ru.toLocaleLowerCase().includes(query)) return null;
     return <details className={`library-branch ${children.length ? 'library-section' : ''}`} key={node.id} data-library-id={node.id} open={!!query || expanded.includes(node.id)} onToggle={(event) => { if (!query) toggleBranch(node.id, event.currentTarget.open); }}><summary><span className="library-node-title">{node.label_ru}</span>{children.length ? <span className="topic-counts"><span>Тем: {children.length}</span><span>Пройдено: {summaries ? children.filter((child) => summaries[child.id]?.completed && !summaries[child.id]?.new_count).length : '…'}</span></span> : <TopicStatistics stats={stats} total={count} onReview={(parent) => openTopic(node.id, undefined, { reviewParent: parent })} />}</summary>
-      <div className="library-children">{!children.length && count > 0 && <div className="topic-start-actions"><button type="button" className="primary library-start" disabled={!summaries} onClick={() => {
+      <div className="library-children">{!children.length && count > 0 && <div className="topic-start-actions"><button type="button" className="primary library-start" data-new-tooltip={stats?.new_count ? `Новых неотвеченных вопросов: ${stats.new_count}` : undefined} disabled={!summaries} onClick={() => {
         if (stats?.new_count) { openTopic(node.id, undefined, { newQuestions: true }); return; }
         const fullRun = stats?.runs.find((run) => run.kind === 'full');
         const failedRun = stats?.wrong ? stats.runs.find((run) => run.id >= (fullRun?.id ?? 0) && run.completed_at && run.wrong > 0) : undefined;
@@ -932,9 +933,9 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, getStats, view
           if (failedRun) openTopic(node.id, undefined, { reviewParent: failedRun.id });
           else void repeatTopic(node.id);
         } else openTopic(node.id);
-      }}>{stats?.new_count ? 'Пройти новые' : stats?.repeat_in_progress ? 'Продолжить тему' : stats?.answered ? stats.completed ? stats.wrong > 0 ? 'Повторить вопросы с ошибками' : 'Пройти тему снова' : 'Продолжить тему' : 'Начать тему'}{stats?.new_count ? <small>{questionCount(stats.new_count)}</small> : stats && (stats.answered > 0 || stats.repeat_in_progress) && (!stats.completed || stats.repeat_in_progress) && <small>с вопроса {stats.next_question}</small>}</button>
-      {!!stats?.new_count && <span className="topic-new-badge" tabIndex={0} title={`Новых неотвеченных вопросов: ${stats.new_count}. Они проходят отдельно; предыдущие результаты сохраняются.`} aria-label={`New: новых вопросов — ${stats.new_count}`}>New</span>}
-      {!!stats?.new_count && stats.runs.some((run) => run.kind === 'full' && !run.completed_at) && <button type="button" className="repeat-full-topic" onClick={() => openTopic(node.id)}>Продолжить основное прохождение</button>}
+      }}>{stats?.new_count ? 'Пройти новые' : stats?.repeat_in_progress ? 'Продолжить тему' : stats?.answered ? stats.completed ? stats.wrong > 0 ? 'Повторить вопросы с ошибками' : 'Пройти тему снова' : 'Продолжить тему' : 'Начать тему'}{stats?.new_count ? <span className="topic-new-badge">New<small>{questionCount(stats.new_count)}</small></span> : stats && (stats.answered > 0 || stats.repeat_in_progress) && (!stats.completed || stats.repeat_in_progress) && <small>с вопроса {stats.next_question}</small>}</button>
+
+      {!!stats?.new_count && stats.runs.some((run) => run.kind === 'full' && !run.completed_at) && <button type="button" className="repeat-full-topic continue-main" title={(() => { const run = stats.runs.find((item) => item.kind === 'full' && !item.completed_at); return run ? `Пройдено: ${run.answered} · Осталось: ${Math.max(0, run.total - run.answered)} (без новых вопросов)` : undefined; })()} onClick={() => openTopic(node.id)}>Продолжить основное прохождение</button>}
       {!stats?.new_count && stats?.completed && stats.wrong > 0 && <button className="repeat-full-topic" type="button" onClick={() => void repeatTopic(node.id)}>Пройти всю тему снова</button>}</div>}{children.map(topic)}{!children.length && questionList(own, true, node)}{!count && <p className="library-empty">Вопросы появятся по мере пополнения коллекции.</p>}</div>
     </details>;
   }
@@ -942,7 +943,7 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, getStats, view
     {!sectionId && <>
     <header className="library-header"><a href="/" className="library-brand">Теория вождения</a></header>
     <section className="library-intro"><h1>Выбери предметную тематику для тренировки сейчас</h1>
-      <div className="library-totals"><span><strong>{catalog.filter((e) => e.collection === 'Thematic Test').length}</strong> тематических билета</span><span><strong>{catalog.filter((e) => e.collection === 'Exam Test').length}</strong> экзаменационных билетов</span><span><strong>{library.questions.filter((q) => !q.verified).length}</strong> отложенных вопросов</span></div>
+      <div className="library-totals"><span><strong>{catalog.filter((e) => e.collection === 'Thematic Test').length}</strong> тематических билета</span><span><strong>{catalog.filter((e) => e.collection === 'Exam Test').length}</strong> экзаменационных билетов</span><span><strong>{library.questions.filter((q) => !q.verified).length}</strong> отложенных вопросов</span><button className="dashboard-statistics" onClick={() => { rememberView(); onStatistics?.(); }}>Статистика ↗</button></div>
       <input aria-label="Поиск вопросов" placeholder="Тема, номер билета или текст вопроса…" value={search} onChange={(event) => setSearch(event.target.value)} />
     </section>
     <nav className="library-collections" aria-label="Коллекции билетов">{(['Thematic Test', 'Exam Test'] as TicketCollection[]).map((item) => <button key={item} onClick={() => setCollection(item)}><strong>{collectionName(item)}</strong><span>{catalog.filter((e) => e.collection === item).length} билета <b>›</b></span></button>)}</nav>
@@ -1012,9 +1013,18 @@ function NextQuestionButton({ label = 'Следующий вопрос →', dis
   </button>;
 }
 
+function useFeedbackPosition() {
+  const [left, setLeft] = useState(() => { try { return localStorage.getItem('feedback-position') === 'left'; } catch { return false; } });
+  return [left, () => setLeft((value) => { try { localStorage.setItem('feedback-position', value ? 'right' : 'left'); } catch { /* Storage may be unavailable. */ } return !value; })] as const;
+}
+function AnswerResult({ correct, letter, left, onMove, onHelp }: { correct: boolean; letter: string; left: boolean; onMove: () => void; onHelp: () => void }) {
+  return <aside className={`feedback anchored-feedback ${correct ? 'success' : 'error'}`} aria-live="polite"><div className="feedback-title"><div className="feedback-outcome"><span aria-hidden="true">{correct ? '✓' : '×'}</span><strong>{correct ? 'Верно' : `Неверно · правильный ответ ${letter}`}</strong></div><div className="feedback-actions"><button type="button" className="feedback-move" onClick={onMove} aria-label={left ? 'Вернуть результат над кнопками' : 'Перенести результат под фото'} title={left ? 'Вернуть над кнопками' : 'Перенести под фото'}>{left ? '→' : '←'}</button><button type="button" className="feedback-help-button" aria-label="Открыть объяснение" onClick={onHelp}>?</button></div></div></aside>;
+}
+
 function TopicTrainer({ topicId, initialQuestion, reviewParent, newQuestions, runId, path, sectionNavigation, onQuestion, onBack, onFinish }: {
   topicId: string; initialQuestion?: string; reviewParent?: number; newQuestions?: boolean; runId?: number; path: string; sectionNavigation: React.ReactNode; onQuestion: (question: string, replace?: boolean, runId?: number) => void; onBack: () => void; onFinish: (question: string) => void;
 }) {
+  const [feedbackLeft, moveFeedback] = useFeedbackPosition();
   const [requestedQuestion] = useState(initialQuestion);
   const [topic, setTopic] = useState<TopicRecord | null>(null);
   const [reviewID, setReviewID] = useState<number | undefined>();
@@ -1099,7 +1109,7 @@ function TopicTrainer({ topicId, initialQuestion, reviewParent, newQuestions, ru
       </header>
       <div className="progress-row"><span>Вопрос {position + 1} из {total}</span><div className="progress-track"><div style={{ width: `${progress}%` }} /></div><span>{progress}%</span></div>
       <section className="quiz-card">
-        <div className="visual-panel"><div className="question-number">#{position + 1}</div><div className="visual-media">{q.image_url ? <img src={q.image_url} alt={`Иллюстрация к вопросу ${position + 1}`} /> : <span className="visual-empty">Вопрос без иллюстрации</span>}</div></div>
+        <div className={`visual-panel ${feedbackLeft && q.progress ? 'has-feedback' : ''}`}><div className="question-number">#{position + 1}</div><div className="visual-media">{q.image_url ? <img src={q.image_url} alt={`Иллюстрация к вопросу ${position + 1}`} /> : <span className="visual-empty">Вопрос без иллюстрации</span>}</div>{feedbackLeft && q.progress && <AnswerResult correct={q.progress.correct} letter={q.progress.correct_letter} left={feedbackLeft} onMove={moveFeedback} onHelp={() => setHelpOpen(true)} />}</div>
         <div className="question-panel fixed-question-layout">
           <div className="question-content">
           <div className="question-heading-row"><h2><BilingualText text={q.question} /></h2></div>
@@ -1108,11 +1118,11 @@ function TopicTrainer({ topicId, initialQuestion, reviewParent, newQuestions, ru
             return <button type="button" className={`answer ${state}`} key={choice.letter} disabled={!!q.progress || busy} onClick={() => answer(choice.letter)}><span className="answer-letter">{choice.letter}</span><BilingualText text={choice.text} /></button>;
           })}</div>
           {error && <p role="alert" className="answer-error">{error}</p>}
-          {q.progress && <aside className={`feedback ${q.progress.correct ? 'success' : 'error'}`} aria-live="polite"><div className="feedback-title"><div className="feedback-outcome"><span aria-hidden="true">{q.progress.correct ? '✓' : '×'}</span><strong>{q.progress.correct ? 'Верно' : `Неверно · правильный ответ ${q.progress.correct_letter}`}</strong></div><button className="feedback-help-button" aria-label="Открыть объяснение" onClick={() => setHelpOpen(true)}>?</button></div></aside>}
+
           {done === total && <p className="topic-completed">{reviewParent ? 'Работа над ошибками завершена' : topic.kind === 'new' ? 'Новые вопросы пройдены' : 'Тема пройдена'}. Верно: {correct} из {total}. Можно вернуться к списку тем.</p>}
           </div>
           </div>
-          <footer className="question-navigation"><div className="controls topic-controls"><button className="secondary" disabled={position === 0 || busy} onClick={() => goTo(position - 1)}>← Предыдущий</button><NextQuestionButton key={q.id} label={finishReady ? reviewParent ? 'Завершить работу над ошибками' : topic.kind === 'new' ? 'Завершить новые вопросы' : 'Завершить тему' : 'Следующий вопрос →'} disabled={busy || ((filteredRun || lastQuestion) && !q.progress)} imageUrl={topic.questions[nextPosition]?.image_url} onNext={() => finishReady ? onFinish(q.id) : goTo(nextPosition)} /></div>
+          <footer className="question-navigation">{!feedbackLeft && q.progress && <AnswerResult correct={q.progress.correct} letter={q.progress.correct_letter} left={feedbackLeft} onMove={moveFeedback} onHelp={() => setHelpOpen(true)} />}<div className="controls topic-controls"><button className="secondary" disabled={position === 0 || busy} onClick={() => goTo(position - 1)}>← Предыдущий</button><NextQuestionButton key={q.id} label={finishReady ? reviewParent ? 'Завершить работу над ошибками' : topic.kind === 'new' ? 'Завершить новые вопросы' : 'Завершить тему' : 'Следующий вопрос →'} disabled={busy || ((filteredRun || lastQuestion) && !q.progress)} imageUrl={topic.questions[nextPosition]?.image_url} onNext={() => finishReady ? onFinish(q.id) : goTo(nextPosition)} /></div>
           <button className="return-link" type="button" disabled={busy} onClick={onBack}><span className="return-arrow" aria-hidden="true">↩</span><span className="return-text">Вернуться</span></button></footer>
         </div>
       </section>
@@ -1124,6 +1134,7 @@ function TopicTrainer({ topicId, initialQuestion, reviewParent, newQuestions, ru
 function readInitialTicket() { const route = readRoute(); return route.screen === 'ticket' ? route.id : undefined; }
 
 function TrainerApp() {
+  const [feedbackLeft, moveFeedback] = useFeedbackPosition();
   const questionPanelRef = useRef<HTMLDivElement>(null);
   const [knowledge, setKnowledge] = useState<QuestionKnowledge>({});
   const [freshRepeat, setFreshRepeat] = useState(false);
@@ -1613,7 +1624,8 @@ function TrainerApp() {
       setHome(true);
     }} />;
   }
-  if (home && catalog.length && library) return <QuestionLibrary view={libraryView} knowledge={knowledge} onRemember={rememberLibrary} catalog={catalog} library={library} onOpen={openLibraryQuestion} onOpenTopic={(id, question, options) => { setActiveTopic({ id, question, ...options }); }} getStats={getTicketStats} />;
+  if (route.screen === 'statistics') return <LinearStatistics onBack={() => navigate({ screen: 'home' })} />;
+  if (home && catalog.length && library) return <QuestionLibrary onStatistics={() => navigate({ screen: 'statistics' })} view={libraryView} knowledge={knowledge} onRemember={rememberLibrary} catalog={catalog} library={library} onOpen={openLibraryQuestion} onOpenTopic={(id, question, options) => { setActiveTopic({ id, question, ...options }); }} getStats={getTicketStats} />;
   if (home || !test || !question || !order.length || !catalog.length) return <PageLoader />;
 
   const currentEntry = catalog.find((entry) => entry.id === testId) ?? catalog[0];
@@ -1724,7 +1736,7 @@ function TrainerApp() {
       </div>
 
       <section className="quiz-card">
-        <div className="visual-panel">
+        <div className={`visual-panel ${feedbackLeft && answered ? 'has-feedback' : ''}`}>
           <div className="question-number">#{question.number.replace(/\.$/, '')}</div>
           <div className="visual-media">
             {question.image_url ? <img
@@ -1732,6 +1744,7 @@ function TrainerApp() {
               alt={`Иллюстрация к вопросу ${question.number}`}
             /> : <span className="visual-empty">Вопрос без иллюстрации</span>}
           </div>
+          {feedbackLeft && answered && <AnswerResult correct={selectedIsCorrect} letter={correctLetter} left={feedbackLeft} onMove={moveFeedback} onHelp={() => setHelpOpen(true)} />}
         </div>
 
         <div className="question-panel fixed-question-layout">
@@ -1764,27 +1777,11 @@ function TrainerApp() {
 
           {answerError && <p className="answer-error" role="alert">{answerError}</p>}
 
-          {answered && (
-            <aside className={`feedback ${selectedIsCorrect ? 'success' : 'error'}`} aria-live="polite">
-              <div className="feedback-title">
-                <div className="feedback-outcome">
-                  <span aria-hidden="true">{selectedIsCorrect ? '✓' : '×'}</span>
-                  <strong>{selectedIsCorrect ? 'Верно' : `Неверно · правильный ответ ${correctLetter}`}</strong>
-                </div>
-                <button type="button" className="feedback-help-button" aria-label="Открыть объяснение" title="Ayuda · объяснение" onClick={() => setHelpOpen(true)}>
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <circle cx="12" cy="12" r="9" />
-                    <path d="M12 10.8v6" />
-                    <path d="M12 7.4h.01" />
-                  </svg>
-                </button>
-              </div>
-            </aside>
-          )}
+
 
           </div>
           </div>
-          <footer className="question-navigation"><div className="controls">
+          <footer className="question-navigation">{!feedbackLeft && answered && <AnswerResult correct={selectedIsCorrect} letter={correctLetter} left={feedbackLeft} onMove={moveFeedback} onHelp={() => setHelpOpen(true)} />}<div className="controls">
             <button className="shuffle-button" onClick={() => resetTicketProgress(testId)}>↻ Начать заново</button>
             <NextQuestionButton key={`${testId}:${questionIndex}:${roundMode}`} disabled={!answered || submittingAnswer}
               label={`${hasNextQuestion ? 'Следующий вопрос' : freshRepeat ? 'Результат' : 'Завершить билет'} →`}
