@@ -635,7 +635,8 @@ button { font:inherit; }
 .topic-start-actions { align-items:flex-start; gap:12px; margin-bottom:16px; }
 .topic-start-actions .continue-main { flex-basis:auto; align-self:flex-start; }
 .topic-start-actions:has(.continue-main) { flex-direction:column; }
-.topic-start-actions .topic-new-badge { margin-left:4px; display:inline-flex; flex-direction:column; gap:1px; padding:3px 6px; }
+.topic-start-primary { display:flex; align-items:center; gap:32px; }
+.topic-start-actions .topic-new-badge { margin-left:0; display:inline-flex; flex-direction:row; gap:8px; padding:3px 6px; white-space:nowrap; }
 .topic-start-actions .topic-new-badge small { font-size:8px; line-height:1.1; font-weight:600; }
 .question-navigation { gap:16px; }
 .anchored-feedback { margin:0; padding:12px 16px; flex:none; }
@@ -658,7 +659,7 @@ button { font:inherit; }
 .linear-caption { color:var(--muted); font-size:13px; }
 .linear-good-text { color:#187a43; }
 .linear-bad-text { color:#b6322b; }
-.linear-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:9px; margin-top:20px; }
+.linear-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:9px; margin-top:20px; height:300px; overflow-y:auto; align-content:start; padding:3px; scrollbar-gutter:stable; }
 .linear-chip { display:flex; align-items:center; gap:8px; min-width:0; padding:11px; border:1px solid; border-radius:9px; cursor:pointer; text-align:left; font:inherit; font-size:13px; }
 .linear-chip.passed { background:#e2f3e7; color:#216b3c; border-color:#acd1b7; }
 .linear-chip.failed { background:#fbe6e3; color:#a12d26; border-color:#e7aca5; }
@@ -698,3 +699,18 @@ button { font:inherit; }
 
 .library-start[data-new-tooltip] { position:relative; }
 .library-start[data-new-tooltip]:is(:hover,:focus-visible)::after { content:attr(data-new-tooltip); position:absolute; bottom:calc(100% + 9px); left:0; width:max-content; max-width:270px; white-space:normal; padding:8px 11px; color:#283f50; background:#fff; border:1px solid #c5d6e2; border-radius:8px; box-shadow:0 5px 15px #17354c25; font-size:12px; font-weight:500; z-index:10; pointer-events:none; }
+
+/* Topic summary uses the same selected answer range as the timeline. */
+.topic-statistics-table { margin-top:28px; }
+.topic-statistics-table h2 { margin:0; font-size:23px; }
+.topic-statistics-filter { display:flex; flex-wrap:wrap; gap:8px; border:0; padding:0; margin:16px 0; }
+.topic-statistics-filter legend { margin-bottom:8px; color:#637e91; font-size:13px; }
+.topic-statistics-filter label { position:relative; cursor:pointer; }
+.topic-statistics-filter input { position:absolute; opacity:0; width:1px; height:1px; }
+.topic-statistics-filter span { display:block; padding:8px 14px; border:1px solid #bcd1e1; border-radius:8px; background:#fff; }
+.topic-statistics-filter input:checked + span { color:#fff; background:#1975bd; border-color:#1975bd; }
+.topic-statistics-filter input:focus-visible + span { outline:2px solid #1975bd; outline-offset:3px; }
+.topic-statistics-table table { width:100%; border-collapse:collapse; text-align:left; font-size:14px; }
+.topic-statistics-table th,.topic-statistics-table td { padding:12px 10px; border-bottom:1px solid #cbdce8; }
+.topic-statistics-table tbody th { font-weight:500; }
+.topic-statistics-table td,.topic-statistics-table thead th:not(:first-child) { text-align:right; white-space:nowrap; }
