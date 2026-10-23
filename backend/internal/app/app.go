@@ -69,6 +69,7 @@ func (app *App) routes() {
 	app.mux.HandleFunc("GET /api/health", app.health)
 	app.mux.HandleFunc("GET /api/releases", app.releases)
 	app.mux.Handle("GET /api/statistics/linear", app.requireUser(http.HandlerFunc(app.linearStatistics)))
+	app.mux.Handle("GET /api/statistics/topics", app.requireUser(http.HandlerFunc(app.topicStatistics)))
 	app.mux.HandleFunc("POST /api/auth/request-code", app.requestCode)
 	app.mux.HandleFunc("POST /api/auth/verify-code", app.verifyCode)
 	app.mux.Handle("GET /api/auth/me", app.requireUser(http.HandlerFunc(app.me)))

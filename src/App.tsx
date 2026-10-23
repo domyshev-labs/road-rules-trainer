@@ -634,7 +634,7 @@ function AccountMenu({ user, onLogout }: { user: AuthUser; onLogout: () => Promi
     <button ref={trigger} type="button" className="account-menu-trigger" aria-label="Меню пользователя" aria-expanded={open} aria-controls="account-menu" onClick={() => setOpen(!open)}>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
     </button>
-    {open && <section id="account-menu" className="account-menu-panel" aria-label="Аккаунт"><p>{user.email}</p><hr /><button type="button" disabled={busy} onClick={signOut}>{busy ? 'Выходим…' : 'Выйти'}</button></section>}
+    {open && <section id="account-menu" className="account-menu-panel" aria-label="Аккаунт"><p>{user.email}</p><hr /><button type="button" onClick={() => { setOpen(false); if (readRoute().screen !== 'statistics') { window.history.pushState(null, '', '?screen=statistics'); window.dispatchEvent(new PopStateEvent('popstate')); } }}>Статистика</button><button type="button" disabled={busy} onClick={signOut}>{busy ? 'Выходим…' : 'Выйти'}</button></section>}
   </div>;
 }
 
