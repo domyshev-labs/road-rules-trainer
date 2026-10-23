@@ -1,0 +1,1078 @@
+{
+  "source": "",
+  "collection": "Exam collection",
+  "collection_type": "exam",
+  "source_test_id": 1047,
+  "status": "captured",
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Los vehículos que se aproximan por la izquierda.\nVehicles approaching from the left."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Los vehículos que se aproximan por la derecha.\nVehicles approaching from the right."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Los vehículos que se hallen dentro de la intersección de circulación giratoria.\nVehicles that are on the junction."
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels\n \n2 Junctions  \n2.2 Priorities at junctions\n2.2.1 Junctions without signals and signs\nAs a general rule, if there are no signs indicating who has right of way at a junction then you must give way to vehicles approaching from the right.\nEven if the road from the right is, narrower or appears a more minor road – you are still obligated to give the road users using this road priority of passage.\n(Página 203 del manual 'Learning to drive')\n\nPriorities, level crossings and tunnels          \n           \n2 Junctions\n2.4 Junctions where traffic rotates\nThe purpose of roundabouts is to prevent vehicles blocking each other’s path, improving the flow of traffic and reducing the risk of accidents.\nThe right of way rules are as explained in article 2.2.\n(Página 205 del manual 'Learning to drive')",
+      "image_url": "995d2a5d-a7a3-4458-a0ab-ad4ba79e9b0eM.jpg",
+      "number": "1.",
+      "question": "En una intersección de circulación giratoria, que no tiene señalizada la preferencia de paso y que no es una glorieta, ¿qué vehículos tienen prioridad?\nAt a rotating traffic junction which does not indicate right-of-way and is not a roundabout, which vehicles have priority?",
+      "source_ordinal": 1,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:01",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q01.jpg",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.roundabouts",
+        "signs.priority"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Únicamente en vía urbana.\nOnly on urban roads."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, en ningún caso.\nNo, never."
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels\n \n4 Vehicles in response to emergency situations\n4.1 High-priority vehicles\nWhen the drivers of high priority vehicles travel in response to an emergency situation, they will advise other road users of their presence and purpose by means of luminous signals – that is coloured flashing or rotating lights and audible signals (siren).\nThe following vehicles are classed as high priority vehicles:\nThe police.\nThe fire service.\nCivil defence (civil protection) and rescue.\nAmbulance, paramedic and medical assistance services (either private or public).\n(Página 207 del manual 'Learning to drive')\n\nPriorities, level crossings and tunnels    \n   \n4 Vehicles in response to emergency situations  \n4.1 High-priority vehicles\nThe emergency services will use the audible signals and the coloured lights together, (simultaneously) but as an exception the audible signal can be omitted, as long as this does not cause danger to other road users. Regardless of whether the lights and sirens are used together or only the lights are used, all other road users must accord right of way to high priority vehicles that are responding to an emergency situation.  \nVehicles for the maintenance of road facilities and infrastructure and assistance vehicles on public roads when on assistance service will also take priority over other vehicles and road users.\n \n \n(Página 207 del manual 'Learning to drive')",
+      "image_url": "54849272-f532-4baa-a380-05c30e04ef8cM.jpg",
+      "number": "2.",
+      "question": "Un vehículo de bomberos circula excepcionalmente solo con las luces azules giratorias encendidas, ¿tiene prioridad de paso?\nA fire brigade vehicle is travelling exceptionally with just the rotating blue lights, does it have right-of-way?",
+      "source_ordinal": 2,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:02",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1047-q02.jpg",
+      "primary_topic_id": "incidents.fire",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.fire",
+        "vehicle.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "El principio de una autopista o un ramal de un nudo que conduce a ella.\nThe beginning of a motorway or a slip road leading to a motorway."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Entrada a una autovía o ramal que conduce a ella.\nEntrance to a dual carriageway or route leading to it."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Salida de autopista.\nMotorway exit."
+        }
+      ],
+      "help": "5 Vertical Signs        \n   \n5.4 Indication Road Signs  \n5.4.2 General indication road signs  \nS-1 Motorway\nIndicates the beginning of a motorway and, therefore, the point from which the special traffic rules for this type of road apply. It may also indicate a slip road leading to a motorway.\n(Página 131 del manual 'Learning to drive')",
+      "image_url": "23b77fe5-09d6-463a-9f8a-7f543dc02030M.jpg",
+      "number": "3.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "source_ordinal": 3,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:03",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1047-q03.jpg",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.information"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, salvo las señales de \"ceda el paso\" y \"stop\".\nNo, except for the \"give way\" and \"stop\" signs."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, en ningún caso.\nNo, never."
+        }
+      ],
+      "help": "6 Road marks            \n         \n6.4 Horizontal traffic signs  \nHorizontal traffic signs are markings painted on the carriageway with the same meaning as their vertical counterparts. The obligation imposed by horizontal signs located within a lane bounded by longitudinal lines applies solely to vehicles travelling within that specific lane.\n(Página 155 del manual 'Learning to drive')",
+      "image_url": "5556a632-f21f-4218-91d7-956650f08df9M.jpg",
+      "number": "4.",
+      "question": "Las señales horizontales, ¿tienen el mismo significado que las correspondientes señales verticales?\nDo horizontal signs have the same meaning as the corresponding vertical signs?",
+      "source_ordinal": 4,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:04",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q04.jpg",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.markings"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No debe hacer nada.\nDo nothing."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Levantar el pie del acelerador o pisar un poco el freno.\nTake their foot off the accelerator or gently apply the brakes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Circular obligatoriamente por el arcén.\nThey must drive on the hard shoulder."
+        }
+      ],
+      "help": "Maneouvres  \n \n5 Overtaking\n5.7 What to do if the overtaking vehicle is travelling in the opposite direction\nAny action taken must always aim to avoid an accident, so if the overtaking vehicle is travelling in the opposite direction, even if overtaking incorrectly, the driver must cooperate, leaving as much space as possible so the manoeuvre can be completed safely, including braking or moving right, and using the hard shoulder if needed.\n(Página 191 del manual 'Learning to drive')",
+      "image_url": "ea6a299b-9139-4b16-8bc1-fb8a667b1781M.jpg",
+      "number": "5.",
+      "question": "El vehículo blanco está adelantando incorrectamente. ¿Qué puede hacer el conductor del vehículo verde para facilitar el adelantamiento?\nThe white vehicle is overtaking incorrectly. What can the driver of the green vehicle do to facilitate the overtaking manoeuvre?",
+      "source_ordinal": 5,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:05",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q05.jpg",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "que permita no tener que acelerar en todo su desarrollo.\nthat allows you to not have to speed up on the bend."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "inferior a la mitad de la genérica permitida en la vía.\nless than half the speed limit."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "que permita no tener que frenar en todo su desarrollo.\nthat allows you to not have to brake on the bend."
+        }
+      ],
+      "help": "Safe driving\n \n2 Bends\nIt is therefore necessary to plan and prepare in order to negotiate a bend successfully:\n On the approach and before entering the bend:\n- Adapt the speed of your vehicle, changing, if necessary to a lower gear that is appropriate for the bend.\n- If it necessary to brake do so before entering the curve, never when negotiating the bend.\n- Place the vehicle, as close as possible to the right hand side of the roadway.\n(Página 223 del manual 'Learning to drive')\n\nSafe driving\n \n2 Bends\nWhilst driving around the bend / inside the curve:\n- Turn the steering wheel softly, without crossing the hands, and ensuring that the steering is proportionate to the degree and angle of the bend.\n- Avoid coarse or hurried movements of the steering wheel. Don’ accelerate harshly or fiercely and avoid hurried or abrupt braking. If necessary for any reason, to brake whilst in the curve you should to so softly, thus trying to avoid the potential to skid.\n- Accelerate softly and progressively from the start of the curve to help the tyre grip and adhere to the road surface. This action helps the vehicle recover its course and maintain traction.\n(Página 223 del manual 'Learning to drive')",
+      "image_url": "8ea7b4f1-c801-435f-8447-1ef193d96638M.jpg",
+      "number": "6.",
+      "question": "Para tomar una curva adecuadamente, siempre que sea posible, durante el desarrollo de la curva, se debe circular a una velocidad…\nTo take a bend properly, whenever possible, when driving through the bend, you must drive at a speed...",
+      "source_ordinal": 6,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:06",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1047-q06.jpg",
+      "primary_topic_id": "driving.braking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.braking"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Paso a nivel sin barreras.\nLevel crossing without barriers."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Paso a nivel provisto de barreras o semibarreras.\nLevel crossing with barriers or half-barriers."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cruce de tranvía.\nTram crossing."
+        }
+      ],
+      "help": "5 Vertical Signs    \n   \n5.2 Signs that warn of danger  \nP-7 Level crossing with barriers\nDanger due to the proximity of a level crossing with barriers or half-barriers.\n(Página 120 del manual 'Learning to drive')",
+      "image_url": "363c3a59-36d7-4e7e-9300-da054724f8e1M.jpg",
+      "number": "7.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "source_ordinal": 7,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:07",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q07.jpg",
+      "primary_topic_id": "driving.crossings",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.crossings"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, cuando la pase el automóvil al que va enganchado.\nYes, when the vehicle towing it takes it."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, cada seis meses.\nYes, every six months."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, cada dos años.\nYes, every two years."
+        }
+      ],
+      "help": "3 Documentation for the vehicle              \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\nVehicles in category O2 (except towed caravans in this category):\nTrailers designed and constructed for the carriage of goods or people, or as accommodation.\nFrequency of inspection according to age of the vehicle\n- Up to ten years: Annual.\n- Over ten years: Half-yearly.\n(Página 26 del manual 'Learning to drive')",
+      "image_url": "9407b663-3b78-4dc3-9cc4-d68271453afaM.jpg",
+      "number": "8.",
+      "question": "El remolque de la imagen de 1.250 kg de MMA y con una antigüedad de más de diez años, ¿debe someterse a inspecciones técnicas periódicas?\nThe trailer in the image has a MAM of 1,250 kg and is over ten years old. Does it require a periodic technical inspection?",
+      "source_ordinal": 8,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:08",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q08.jpg",
+      "primary_topic_id": "numbers.deadlines.itv",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.itv",
+        "numbers.deadlines.itv"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Reducir la velocidad hasta la que permita detener el vehículo dentro de la zona iluminada.\nReduce your speed until the vehicle can be stopped within the illuminated area."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Encender el alumbrado antiniebla.\nTurn on the fog lamps."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Detener el vehículo hasta que pueda arreglarla.\nStop the vehicle until it can be fixed."
+        }
+      ],
+      "help": "3 General rules regarding use of the lighting system\n \nFor safety reasons, to make the vehicle more visible, it is advisable to use lights before and during dusk and dawn.\nIf a light becomes damaged, or the intensity is reduced during a journey, then the light must be repaired or the bulb replaced immediately, if however this is not possible the speed must be  reduced to a suitable speed, whereby the vehicle can be stopped within the area illuminated.\n(Página 97 del manual 'Learning to drive')",
+      "image_url": "30e92a2d-fd15-4a6d-9870-743d20534a7eM.jpg",
+      "number": "9.",
+      "question": "En caso de avería de la luz de largo alcance del vehículo, ¿qué debe hacer?\nIf the vehicle's full-beam headlights stop working, what should you do?",
+      "source_ordinal": 9,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:09",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1047-q09.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.towing",
+        "vehicle.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, los jóvenes entre 18 y 29 son los más vulnerables.\nNo, young people between 18 and 29 are the most vulnerable."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS    \n     \n16.1 Factors affecting alcohol limits\nWhether the stomach is empty or full. The amount of alcohol in the blood is higher when drinking on an empty stomach. This is affected by the amount of food and the type of food, which are both factors in varying the speed at which the alcohol enters into the blood. However, this only slows the absorption, in the end the alcohol always reaches the blood.\nAge. Children under 18 and those over 65 are often more vulnerable to the effects of alcohol.\n(Página 42 del manual 'Learning to drive')",
+      "image_url": "b2c6b18c-2e90-4540-b453-99bf43787c73M.jpg",
+      "number": "10.",
+      "question": "Las personas mayores, ¿suelen ser más vulnerables a los efectos del alcohol?\nAre older people usually more vulnerable to the effects of alcohol?",
+      "source_ordinal": 10,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:10",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q10.jpg",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.alcohol"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "los dos sentidos o en sentido único, según disponga la señalización.\nin both directions or in a single direction, as indicated by signs."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "sentido único, en cualquier caso.\nin a single direction, in any event."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "los dos sentidos, siempre.\nin both directions, always."
+        }
+      ],
+      "help": "2 Use of the road  \n   \n2.1 Roads with several carriageways\nWhere there are three carriageways, use is as follows:\nThe central carriageway is normally used by traffic travelling in opposing directions (two-way roadway) or in one direction. The direction may be permanent or temporary and therefore it is necessary to consult the road signs and signals on this type of carriageway.\nThe lateral roads will normally be destined to one way traffic, without excluding the possibility of using the same or any of their lanes for traffic moving in the opposite direction, if duly signposted.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "a3e53c30-20d3-4b43-9011-8784c5b2097fM.jpg",
+      "number": "11.",
+      "question": "En vías divididas en tres calzadas, la central podrá estar destinada a la circulación en...\nOn roads divided into three lanes, the central lane can be used for travel...",
+      "source_ordinal": 11,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:11",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1047-q11.jpg",
+      "primary_topic_id": "signs.lanes",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.lanes"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "al día siguiente del accidente.\nthe day after the accident."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "a las cuatro horas del accidente.\nfour hours after the accident."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "durante la primera hora tras el accidente, llamada \"hora de oro\".\nduring the first hour after the accident, known as the \"golden hour\"."
+        }
+      ],
+      "help": "Road traffic collisions          \n   \n7 Obligations after a collision\nAfter an accident, there are three times when the lives of the victims are in serious danger:\nThe first moment occurs during the first seconds or minutes after the accident (immediate death).\nThe second moment occurs during the first or second hour after the accident, when 75% of deaths usually occur. In this period, resuscitation and stabilization measures are of maximum benefit to the victims. This period is called the “olden hour”\nThe last important moment occurs days or weeks after the accident (late mortality).\n(Página 257 del manual 'Learning to drive')",
+      "image_url": "c4835825-3e78-4f8c-b2b2-1702f16b6df4M.jpg",
+      "number": "12.",
+      "question": "La mayoría de las muertes en accidentes de tráfico se producen...\nMost traffic accident deaths occur...",
+      "source_ordinal": 12,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:12",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1047-q12.jpg",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.first_aid"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero solo en poblado.\nYes, but only in populated areas."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solo en autopistas.\nOnly on motorways."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, en todo tipo de vías, siempre que esté permitido.\nYes, on all types of roads, provided that it is allowed."
+        }
+      ],
+      "help": "Maneouvres        \n \n8 Reversing\nAs a general rule, reversing backwards is prohibited. However, as an exception it is permissible (but only when travelling a minimum distance backwards – in reverse gear), in the following two cases:\nWhen it is not possible to continue forwards, or change direction (turn to the left or right) or complete a ‘U’ turn. For example the road ahead is blocked, or closed or there is a narrow stretch of roadway etc.).\n(Página 195 del manual 'Learning to drive')\n\nManeouvres          \n   \n8 Reversing\nReversing is always prohibited on motorways and dual carriageways (under all circumstances – except that a concession is made for high-priority vehicles / emergency vehicles when responding under an emergency situation).\nDriving in reverse on a motorway or a dual carriageway could result in the deduction of 4 points.\n(Página 195 del manual 'Learning to drive')",
+      "image_url": "70b185a5-b6dc-457c-bf22-954ab148cd92M.jpg",
+      "number": "13.",
+      "question": "Se encuentra en una vía en la que no puede circular hacia adelante ni cambiar de dirección o sentido, ¿puede dar marcha atrás?\nYou are on a road where you cannot drive forward or change direction. Can you reverse?",
+      "source_ordinal": 13,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:13",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1047-q13.jpg",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.reversing",
+        "driving.uturns"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Una salida a 100 metros.\nAn exit in 100 metres."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Que se debe circular a 100 km/h.\nYou must drive at 100 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "La velocidad máxima en un tramo de obras.\nThe maximum speed on a stretch undergoing construction works."
+        }
+      ],
+      "help": "5 Vertical Signs                                \n                             \n5.3 Regulation road signs  \n5.3.5 Other signs relating to prohibition or restriction  \nR-301 Maximum speed\nWhen it is located in a road without priority, it loses validity when clearing a junction with a road with priority.\nIf the limit indicated on the sign coincides with the maximum speed allowed for that road, it is a reminder that it is prohibited to exceed that speed.\n(Página 126 del manual 'Learning to drive')\n\nSafe driving      \n       \n3 Road works  \n3.1 Signage in Sections Undergoing Roadworks or Maintenance Tasks\nWhere danger and regulatory signs are installed in these sections and their conventional background colour is white, they shall instead have a yellow background.\nWhere lane signs are installed, the background shall be yellow instead of blue, and the symbols shall be black instead of white.\nIf new direction signs are required due to roadworks or maintenance tasks, they shall have a yellow background with black characters, regardless of the type of road.\nIf new road markings are used in sections undergoing roadworks, they shall be yellow in colour.\n(Página 225 del manual 'Learning to drive')",
+      "image_url": "000185a2-e190-4659-9497-1f6a489730a7M.jpg",
+      "number": "14.",
+      "question": "¿Qué le indica la señal?\nWhat does this sign symbolise?",
+      "source_ordinal": 14,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:14",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1047-q14.jpg",
+      "primary_topic_id": "signs.speed",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.tram",
+        "signs.speed",
+        "signs.temporary"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Avanzar hasta donde tenga visibilidad suficiente, aunque rebase la línea discontinua.\nMove to where they have sufficient visibility, even if they go over the broken line."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Detenerse siempre ante la línea discontinua, y después comprobar que no se acerca ningún vehículo.\nAlways stop before the broken line, and then check that no vehicle is approaching."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Detenerse siempre después de la línea discontinua, y después comprobar que no se acerca ningún vehículo.\nAlways stop after the broken line, and then check that no vehicle is approaching."
+        }
+      ],
+      "help": "6 Road marks        \n         \n6.3 Transverse road markings  \nBroken transversal line\nA broken line marked across one or more lanes indicates that, except in abnormal conditions that reduce visibility, no vehicle, animal, or its load should cross it when required to give way in accordance with any of the following signs or signals:\nA vertical ‘Give Way’ sign (R-1) or road marking.\nA flashing green or amber arrow on a traffic light).\nWhere no priority signs are present, in accordance with applicable priority rules.\n(Página 155 del manual 'Learning to drive')",
+      "image_url": "256bf2c7-ce2e-4cb6-92e4-36edb2757a4cM.jpg",
+      "number": "15.",
+      "question": "Si desde la línea de detención no hay visibilidad, ¿qué debe hacer la conductora del ciclomotor?\nIf there is no visibility from the stop line, what should the moped driver do?",
+      "source_ordinal": 15,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:15",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1047-q15.jpg",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.markings"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Momento de alarma, momento crítico y muerte tardía.\nAlarm, critical moment and late death."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Muerte inmediata, hora de oro y muerte tardía.\nImmediate death, golden hour and late death."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Muerte inmediata, momento crítico y hora de oro.\nImmediate death, critical moment and golden hour."
+        }
+      ],
+      "help": "Road traffic collisions          \n   \n7 Obligations after a collision\nAfter an accident, there are three times when the lives of the victims are in serious danger:\nThe first moment occurs during the first seconds or minutes after the accident (immediate death).\nThe second moment occurs during the first or second hour after the accident, when 75% of deaths usually occur. In this period, resuscitation and stabilization measures are of maximum benefit to the victims. This period is called the “olden hour”\nThe last important moment occurs days or weeks after the accident (late mortality).\n(Página 257 del manual 'Learning to drive')",
+      "image_url": "5d751d2f-edea-4303-bc89-1bbdaf8a85d5M.jpg",
+      "number": "16.",
+      "question": "Tras un accidente, hay tres momentos en los que la vida de las personas implicadas se encuentra en grave peligro. Estos son:\nAfter an accident, there are three times when the lives of the victims are in serious danger. These are:",
+      "source_ordinal": 16,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:16",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q16.jpg",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.first_aid"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "40 kilómetros por hora por una vía interurbana insuficientemente iluminada.\n40 kilometres per hour on a poorly lit intercity road."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "20 km/h por una vía interurbana o travesía insuficientemente iluminada.\n20 km/h on a poorly lit intercity road or through road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "20 km/h por una vía interurbana insuficientemente iluminada.\n20 km/h on an intercity road that is poorly lit."
+        }
+      ],
+      "help": "7 Headlights – main beam / high beam / long range\n \n7.2 Use of main beam / high beam / long range headlights\nExcept when using dipped (low beam) headlight, all vehicles (required to have main beam headlights fitted) must use them when travelling, outside a built-uparea and at more than 40 km/h:\nBetween the hours of sunset and sunrise when driving on an insufficiently illuminated road.\n(Página 100 del manual 'Learning to drive')\n\n7 Headlights – main beam / high beam / long range    \n     \n7.2 Use of main beam / high beam / long range headlights  \nYou must not flash your headlights for any other purpose other than those legally permitted.\nThe use of full-beam headlights is prohibited:\nIf the vehicle is stopped or parked.\nWithin city limits.\n(Página 101 del manual 'Learning to drive')",
+      "image_url": "b9d5edb1-7c25-4e60-b9c1-044cf270b56aM.jpg",
+      "number": "17.",
+      "question": "Es obligatorio utilizar el alumbrado de largo alcance o carretera al circular a más de...\nYou must use full-beam headlights when travelling at over...",
+      "source_ordinal": 17,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:17",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1047-q17.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, normalmente las luces se adaptan a la carga.\nNo, the lights are usually adapted to the load."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, si el peso está distribuido uniformemente.\nNo, if the weight is evenly distributed."
+        }
+      ],
+      "help": "Safe driving\n \n4 Night time driving\n4.2 Glare\nTo avoid dazzling others, it is necessary:\nEnsure that any load carried is correctly distributed within your vehicle and / or your lights are suitably adjusted to take into account a heavier load.\nFailure to do this will cause the beam of your headlights to be raised, potentially higher, than is legally permitted. Excess weight at the rear causes the back to be lowered and the front (lights) to be raised.\n(Página 226 del manual 'Learning to drive')",
+      "image_url": "36840c60-ab7d-4d1d-9148-eac6a8ef0ad5M.jpg",
+      "number": "18.",
+      "question": "Si la furgoneta dispone de un mando para regular las luces, ¿debe su conductor, si es necesario, regular las luces cuando transporte carga pesada?\nIf the van has a control to adjust the lights, should the driver adjust the lights when carrying heavy loads, if necessary?",
+      "source_ordinal": 18,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:18",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q18.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.cargo",
+        "vehicle.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "El número de espacios reservados a la parada y estacionamiento de taxis libres y en servicio.\nThe number of spaces reserved for free and operating taxis to stop and park."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "El número máximo de personas transportadas.\nThe maximum number of people carried."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "La tarifa aplicable.\nThe applicable rate."
+        }
+      ],
+      "help": "5 Vertical Signs          \n     \n5.4 Indication Road Signs    \n5.4.2 General indication road signs  \nS-18 Parking reserved for taxis\nIndicates the place reserved to park taxis that are available and in service. (Vehicles that are not taxis are forbidden to stop or park.) If a number is written on the sign, it indicates the total number of reserved spaces for this purpose.\n(Página 133 del manual 'Learning to drive')",
+      "image_url": "74e292a1-68af-4f37-881b-3dee0df9431dM.jpg",
+      "number": "19.",
+      "question": "¿Qué indica el número que aparece en la señal?\nWhat does the number shown in the sign indicate?",
+      "source_ordinal": 19,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:19",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1047-q19.jpg",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.parking",
+        "signs.priority"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "bicicletas y peatones.\nbicycles and pedestrians."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "peatones.\npedestrians."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "todos los usuarios de la vía.\nall road users."
+        }
+      ],
+      "help": "5 Vertical Signs                                          \n                                       \n5.3 Regulation road signs        \n5.3.6 Obligation road signs  \nR-410 Reserved and compulsory path for pedestrians\nPedestrians must use the path at whose entrance the sign is placed, and it is prohibited for all other users to enter.\n(Página 128 del manual 'Learning to drive')",
+      "image_url": "2f7bbb0a-efd4-4164-8a89-bc13577bfa9eM.jpg",
+      "number": "20.",
+      "question": "Esta señal permite el paso a…\nThis sign allows the passage of...",
+      "source_ordinal": 20,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:20",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q20.jpg",
+      "primary_topic_id": "driving.pedestrians",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Engrasar los discos periódicamente.\nGrease the disks periodically."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Revisar el nivel del líquido de frenos.\nCheck the level of the brake fluid."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Pisar a fondo el pedal de freno para comprobar su eficacia.\nFully apply the brake pedal to check its effectiveness."
+        }
+      ],
+      "help": "Mechanics and maintenance\n \n11 Braking system\n11.1 Maintenance\nSome maintenance actions can be performed by the driver; but for others, it is preferable to have a professional mechanic carry these out.\nCheck the brake fluid levels frequently as indicated in the owner’ manual.\nIt must be between the maximum and minimum level allowed.\nA decrease in the level indicates a leak in the system. This will be visible by marks left on the floor under the vehicle.\n(Página 245 del manual 'Learning to drive')",
+      "image_url": "ed615d31-7859-4fe8-afc6-f23563cbc250M.jpg",
+      "number": "21.",
+      "question": "Para el buen mantenimiento del sistema de frenos, ¿qué se debe hacer?\nFor good maintenance of the brake system, what should you do?",
+      "source_ordinal": 21,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:21",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q21.jpg",
+      "primary_topic_id": "vehicle.mechanics",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, porque en este caso puede deberse a una mala combustión.\nYes, because it may be due to inefficient combustion."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, porque solo es un problema de refrigeración que suele desaparecer.\nNo, because it is only a cooling problem that usually disappears."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, porque el motor puede estar quemando aceite.\nYes, because the engine might be burning oil."
+        }
+      ],
+      "help": "Mechanics and maintenance  \n   \n3 The fuel supply system – fuel to engine  \n3.2 Breakdowns\nSymptom\nBlack smoke from the exhaust.\nCause\n- The fuel is too rich / excessive fuel in the mix.\n- Air filter is obstructed or dirty.\n(Página 236 del manual 'Learning to drive')",
+      "image_url": "de8c6147-2628-4574-b6ea-775ac5753eecM.jpg",
+      "number": "22.",
+      "question": "¿Es conveniente hacer una revisión exhaustiva del estado del vehículo si el humo que despide el tubo de escape es de color negro?\nShould you carry out a thorough review of the vehicle's condition if the smoke coming from the exhaust is black?",
+      "source_ordinal": 22,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:22",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1047-q22.jpg",
+      "primary_topic_id": "eco.noise",
+      "classification_review_required": false,
+      "topic_ids": [
+        "eco.noise",
+        "routine.distraction"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Ceder el paso a los vehículos que vengan por la derecha.\nGive way to vehicles approaching from the right."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Detenerme y después ceder el paso.\nStop and give way."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Pasar sin detenerme.\nProceed without stopping."
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels\n \n2 Junctions  \n2.2 Priorities at junctions\n2.2.1 Junctions without signals and signs\nAs a general rule, if there are no signs indicating who has right of way at a junction then you must give way to vehicles approaching from the right.\nEven if the road from the right is, narrower or appears a more minor road – you are still obligated to give the road users using this road priority of passage.\n(Página 203 del manual 'Learning to drive')",
+      "image_url": "8185b43a-ea74-4e89-9c13-95da3b71fa0fM.jpg",
+      "number": "23.",
+      "question": "Ante este semáforo apagado, ¿qué debe hacer?\nWhat should you do if this traffic light is turned off?",
+      "source_ordinal": 23,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:23",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1047-q23.jpg",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.lights"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "En las autopistas.\nOn motorways."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "En las vías interurbanas.\nOn interurban roads."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "En las vías urbanas.\nOn urban roads."
+        }
+      ],
+      "help": "Road traffic collisions                  \n                   \n6. Groups of drivers most at risk of a collision      \n6.3 Drivers of two-wheeled vehicles  \n6.3.1 Bicycles\nCyclist accidents usually occur at weekends, especially with the arrival of good weather, when more cyclists are on the road, and mostly on urban roads. However, the highest number of cyclist fatalities occurred on interurban roads, mainly on conventional roads, and especially on straight roads and at intersections, most of them due to collisions with another vehicle, although there are also accidents where cyclists leave the road, are run over and even fall off the road.\n(Página 256 del manual 'Learning to drive')",
+      "image_url": "b3ab37f6-81b0-4171-88f9-329594bf318fM.jpg",
+      "number": "24.",
+      "question": "Los accidentes de ciclistas, ¿dónde se producen con mayor frecuencia?\nWhere do most accidents involving cyclists occur?",
+      "source_ordinal": 24,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:24",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1047-q24.jpg",
+      "primary_topic_id": "transport.cycles",
+      "classification_review_required": false,
+      "topic_ids": [
+        "transport.cycles"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, porque la señal solo prohíbe el paso a automóviles.\nYes, because the sign only prohibits the passage of cars."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, porque no es un vehículo a motor.\nYes, because it is not a motor vehicle."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No.\nNo."
+        }
+      ],
+      "help": "5 Vertical Signs                      \n                   \n5.3 Regulation road signs            \n5.3.3 Prohibition of entry signs - ‘No entry’\nR-100 Driving forbidden\nProhibited to drive (ride etc) all types of vehicles in either direction.\n(Página 124 del manual 'Learning to drive')",
+      "image_url": "30fe5370-cdd2-438f-a03b-410687b90df1M.jpg",
+      "number": "25.",
+      "question": "A la vista de esta señal, ¿puede pasar conduciendo un ciclo?\nCan you ride a bicycle if you see this sign?",
+      "source_ordinal": 25,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:25",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1047-q25.jpg",
+      "primary_topic_id": "transport.cycles",
+      "classification_review_required": false,
+      "topic_ids": [
+        "transport.cycles"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, cuando pase la ITV el automóvil al que van enganchados.\nYes, when the vehicle to which it is attached takes the ITV."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, cada dos años.\nYes, every two years."
+        }
+      ],
+      "help": "3 Documentation for the vehicle    \n   \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\nThis document states that the vehicle has met the relevant legal requirements in order to be used on a road. It is obligatory for all motor vehicles including mopeds and all trailers and semi-trailers (light and non-light / heavy; i.e. regardless or their weight).\nMay be issued on paper or using electronic media.\nFor combinations of vehicle-trailer or semi-trailer up to 750 kilograms MAM, the driver must carry the ITV card of the towing vehicle, where will be confirmed that the vehicle is equipped with a towbar that is compatible with the trailer as well as the ITV card of the light trailer itself.\n(Página 25 del manual 'Learning to drive')",
+      "image_url": "eecc956e-d030-4a16-b308-93a6d6488e01M.jpg",
+      "number": "26.",
+      "question": "Los remolques ligeros con más de dos años de antigüedad, ¿deben pasar la ITV?\nShould light trailers over two years old take the ITV?",
+      "source_ordinal": 26,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:26",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q26.jpg",
+      "primary_topic_id": "numbers.deadlines.itv",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.itv",
+        "numbers.deadlines.itv"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Aproximadamente el 10 %.\nApproximately 10 %."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Entre el 15 y el 20 %.\nBetween 15 % and 20 %."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Cerca del 75 %.\nClose to 75 %."
+        }
+      ],
+      "help": "Road traffic collisions          \n   \n7 Obligations after a collision\nAfter an accident, there are three times when the lives of the victims are in serious danger:\nThe first moment occurs during the first seconds or minutes after the accident (immediate death).\nThe second moment occurs during the first or second hour after the accident, when 75% of deaths usually occur. In this period, resuscitation and stabilization measures are of maximum benefit to the victims. This period is called the “olden hour”\nThe last important moment occurs days or weeks after the accident (late mortality).\n(Página 257 del manual 'Learning to drive')",
+      "image_url": "96f037fc-79f7-408e-935c-fa5cf90cbfe1M.jpg",
+      "number": "27.",
+      "question": "¿Qué porcentaje de mortalidad tiene lugar durante la llamada hora de oro?\nHow many deaths occur during the so-called golden hour?",
+      "source_ordinal": 27,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:27",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1047-q27.jpg",
+      "primary_topic_id": "incidents.first_aid",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.first_aid"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "la tarjeta ITV.\nthe ITV (MOT) card."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "el manual de instrucciones del fabricante.\nthe manufacturer's instruction manual."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "el permiso de circulación.\nthe vehicle registration certificate."
+        }
+      ],
+      "help": "3 Documentation for the vehicle    \n   \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\nThis document states that the vehicle has met the relevant legal requirements in order to be used on a road. It is obligatory for all motor vehicles including mopeds and all trailers and semi-trailers (light and non-light / heavy; i.e. regardless or their weight).\nMay be issued on paper or using electronic media.\nFor combinations of vehicle-trailer or semi-trailer up to 750 kilograms MAM, the driver must carry the ITV card of the towing vehicle, where will be confirmed that the vehicle is equipped with a towbar that is compatible with the trailer as well as the ITV card of the light trailer itself.\n(Página 25 del manual 'Learning to drive')\n\n3 Documentation for the vehicle  \n \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\nThe technical inspection card records the following:\nOn the front, certification of the vehicle’s characteristics.\nOn the reverse side, the record of regular inspections.\nCertain modifications carried out after the registration of the vehicle must be carried out with the corresponding permit and must be stipulated on the ITV card.\n(Página 25 del manual 'Learning to drive')",
+      "image_url": "12435783-9dec-483d-9bfe-ab093ca41b9aM.jpg",
+      "number": "28.",
+      "question": "El documento en el que aparece, entre otros datos, el registro de las inspecciones periódicas y acredita que un vehículo reúne las condiciones técnicas necesarias para circular es…\nThe document which contains, among other data, the inspection record, and certifies that a vehicle meets the technical conditions necessary for it to drive on public roads is...",
+      "source_ordinal": 28,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:28",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1047-q28.jpg",
+      "primary_topic_id": "documents.itv",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.itv",
+        "documents.registration"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Se desgasta más por los lados.\nIt wears more on the sides."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Se agarra peor a la calzada.\nIts grip on the road is worse."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Se agarra mejor a la calzada.\nIt grips the road better."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES      \n       \n4 Wheels    \n4.2 Tyres\n4.2.4 Inflation pressure\nIf the inflation pressure is greater than that recommended:\nThere is a reduction of the surface area in contact with the road surface and therefore reduced adhesion.\nThe wear is more pronounced through the centre of the tread.\nThe irregularities of the ground are not absorbed, thus producing vehicle vibrations.\nThe suspension elements undergo greater deterioration.\n(Página 70 del manual 'Learning to drive')",
+      "image_url": "cbeff68b-7bf4-4740-b54f-1c35f96c5266M.jpg",
+      "number": "29.",
+      "question": "Cuando un neumático tiene mucho aire, ¿qué ocurre?\nWhen a tyre is overinflated, what happens?",
+      "source_ordinal": 29,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:29",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1047-q29.jpg",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, pero solo para no ser sancionado.\nYes, but only to avoid a penalty."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, ya que los límites inferiores son solo orientativos.\nNo, since the lower limits are for guidance only."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, para evitar causar accidentes.\nYes, to avoid causing accidents."
+        }
+      ],
+      "help": "5 Generic speed    \n \n5.3 Minimum generic speed\nWhen you drive below these minimum limits you are said to travel at an abnormally reduced speed. This is considered an inadequate speed, as there is an increased risk of danger and a higher risk of a collision as a result of people overtaking the slower moving vehicles. It also adds to road congestion as it hampers the movement of other road users.\n(Página 174 del manual 'Learning to drive')",
+      "image_url": "ddc3bd9c-32ea-499a-9a63-f27a6ecc062eM.jpg",
+      "number": "30.",
+      "question": "¿Es importante cumplir con los límites inferiores de velocidad?\nIs it important to comply with minimum speed limits?",
+      "source_ordinal": 30,
+      "source_test_id": 1047,
+      "question_id": "exam:1047:30",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1047-q30.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds"
+      ]
+    }
+  ],
+  "result": {
+    "correct": 30,
+    "incorrect": 0,
+    "unanswered": 0
+  },
+  "captured_at": "2026-10-23T06:32:55.303Z"
+}

@@ -604,8 +604,8 @@ button { font:inherit; }
 .topic-start-actions { display:flex; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:10px; }
 .topic-start-actions .library-start,.topic-start-actions .repeat-full-topic { margin:0; }
 .topic-start-actions .library-start small { font-size:.85em; font-weight:500; }
-.topic-new-badge { display:inline-flex; align-items:center; justify-content:center; padding:4px 8px; border:1px solid #a6c9ee; border-radius:7px; background:#e6f2ff; color:#136ab2; font-size:11px; font-weight:800; cursor:help; }
-.topic-new-badge:focus-visible { outline:2px solid #1677c4; outline-offset:2px; }
+.topic-new-badge { display:inline-flex; align-items:center; justify-content:center; margin-left:8px; padding:2px 6px; border:1px solid #efbe72; border-radius:6px; background:#fff0d5; color:#92500d; font-size:10px; line-height:1.3; font-weight:750; cursor:help; }
+.topic-new-badge:focus-visible { outline:2px solid #b96a16; outline-offset:2px; }
 
 .app-version { color:var(--muted, #647b8d); font-size:12px; font-weight:600; font-variant-numeric:tabular-nums; }
 

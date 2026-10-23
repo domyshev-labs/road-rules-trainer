@@ -1,6 +1,6 @@
 {
   "collection_type": "exam",
-  "observed_at": "2026-10-21T19:38:20.205051+00:00",
+  "observed_at": "2026-10-23T11:39:15.970Z",
   "visited": [
     1013,
     1015,
@@ -14,18 +14,29 @@
     1028,
     1030,
     1032,
+    1034,
     1035,
+    1037,
     1039,
     1040,
+    1042,
     1043,
     1045,
+    1047,
     1049,
+    1050,
     1053,
     1055,
+    1057,
     1058,
+    1060,
+    1062,
     1063,
     1065,
+    1067,
+    1068,
     1069,
+    1070,
     1073,
     1075,
     1079,
@@ -39,17 +50,6 @@
     "green"
   ],
   "blue": [
-    1034,
-    1037,
-    1042,
-    1047,
-    1050,
-    1057,
-    1060,
-    1062,
-    1067,
-    1068,
-    1070,
     1072,
     1077,
     1078
@@ -109,7 +109,7 @@
     1094,
     1095
   ],
-  "next_ticket": 1034,
+  "next_ticket": 1072,
   "state": "stopped_at_user_request",
-  "note": "Stopped after 1040 at user request. All 30 captured exam tickets are imported locally; taxonomy and shared progress are being reorganized. No commits or deployment authorized."
+  "note": "Stopped after completing 1070 at user request. All 41 captured exam tickets imported and validated locally for deployment. Session interruption during 1070 is recorded in its capture; final restored attempt result 30/30. Next unvisited blue ticket: 1072."
 }

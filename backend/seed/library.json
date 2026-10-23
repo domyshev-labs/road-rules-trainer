@@ -6057,6 +6057,446 @@
       "canonical_id": "6404fef4b2583719f30eb577"
     },
     {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 1,
+      "question_id": "exam:1034:01",
+      "question": "Bajo los efectos del estrés la conducción se vuelve...\nUnder the effects of stress, driving becomes...",
+      "topic_ids": [
+        "routine.emotions"
+      ],
+      "primary_topic_id": "routine.emotions",
+      "verified": true,
+      "index": 0,
+      "canonical_id": "d24a9bb391dce331f70f470b"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 2,
+      "question_id": "exam:1034:02",
+      "question": "Un agente con el brazo levantado verticalmente obliga a los vehículos que se aproximan de frente a...\nA traffic agent with his arm lifted vertically obliges the vehicles that approach him from the front to...",
+      "topic_ids": [
+        "priority.officer"
+      ],
+      "primary_topic_id": "priority.officer",
+      "verified": true,
+      "index": 1,
+      "canonical_id": "92eb549c532adfda5fc58ea6"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 3,
+      "question_id": "exam:1034:03",
+      "question": "Los chalecos reflectantes...\nReflective jackets...",
+      "topic_ids": [
+        "incidents.scene"
+      ],
+      "primary_topic_id": "incidents.scene",
+      "verified": true,
+      "index": 2,
+      "canonical_id": "bd34bf8db132ebc5083f8e47"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 4,
+      "question_id": "exam:1034:04",
+      "question": "¿Es obligatorio obedecer la indicación de este operario?\nIs it mandatory to obey the indications of this worker?",
+      "topic_ids": [
+        "priority.tram",
+        "signs.temporary"
+      ],
+      "primary_topic_id": "signs.temporary",
+      "verified": true,
+      "index": 3,
+      "canonical_id": "7849d5ccfe86f328a07db5e1"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 5,
+      "question_id": "exam:1034:05",
+      "question": "La conducción bajo los efectos del alcohol o de las drogas, ¿está considerada delito en el código penal?\nIs driving under the effects of alcohol or drugs considered to be a crime according to the penal code?",
+      "topic_ids": [
+        "routine.alcohol",
+        "routine.drugs"
+      ],
+      "primary_topic_id": "routine.drugs",
+      "verified": true,
+      "index": 4,
+      "canonical_id": "922b1d391a49763c6678fdf2"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 6,
+      "question_id": "exam:1034:06",
+      "question": "Si a la entrada de un túnel hay un semáforo en rojo, ¿qué debe hacer?\nIf there is a red light at the entrance of a tunnel, what must you do?",
+      "topic_ids": [
+        "driving.tunnels",
+        "priority.lights"
+      ],
+      "primary_topic_id": "priority.lights",
+      "verified": true,
+      "index": 5,
+      "canonical_id": "bf5016a675d3a486a95fe2e2"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 7,
+      "question_id": "exam:1034:07",
+      "question": "¿Qué le indica la flecha verde del semáforo?\nWhat does the green light on the traffic light indicate?",
+      "topic_ids": [
+        "priority.lights",
+        "vehicle.mechanics"
+      ],
+      "primary_topic_id": "priority.lights",
+      "verified": true,
+      "index": 6,
+      "canonical_id": "0dbefbd0c032a7c9477d792f"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 8,
+      "question_id": "exam:1034:08",
+      "question": "En esta curva de visibilidad reducida, ¿está permitido cambiar de sentido?\nOn this bend with reduced visibility, are you permitted to do a U-turn?",
+      "topic_ids": [
+        "driving.uturns"
+      ],
+      "primary_topic_id": "driving.uturns",
+      "verified": true,
+      "index": 7,
+      "canonical_id": "117456c7254a2729d14fd72f"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 9,
+      "question_id": "exam:1034:09",
+      "question": "En un viaje es aconsejable planificar...\nOn a trip it is advisable to plan...",
+      "topic_ids": [
+        "routine.fatigue"
+      ],
+      "primary_topic_id": "routine.fatigue",
+      "verified": true,
+      "index": 8,
+      "canonical_id": "7adb696e907d9f9bdaaf4048",
+      "question_ru": "В поездке желательно спланировать…"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 10,
+      "question_id": "exam:1034:10",
+      "question": "Circular por debajo del límite máximo de velocidad, ¿puede causar accidentes?\nCan driving under the maximum speed limit cause accidents?",
+      "topic_ids": [
+        "numbers.speeds",
+        "speed.adaptation"
+      ],
+      "primary_topic_id": "numbers.speeds",
+      "verified": true,
+      "index": 9,
+      "canonical_id": "f9873cf30b304a8b6dfe4b91",
+      "question_ru": "Может ли вождение с максимальной скоростью привести к несчастным случаям?"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 11,
+      "question_id": "exam:1034:11",
+      "question": "Debe cambiar el alumbrado de largo alcance por el de corto alcance...\nYou must change the main beam headlamps for dipped beam headlamps...",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 10,
+      "canonical_id": "af4ed692d12cfd204987f463"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 12,
+      "question_id": "exam:1034:12",
+      "question": "Los accidentes de tráfico, ¿son una de las principales causas de lesiones?\nAre traffic accidents one of the main causes of injuries?",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "primary_topic_id": "routine.safety",
+      "verified": true,
+      "index": 11,
+      "canonical_id": "53f1b8e20aadbdcf8f91426f"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 13,
+      "question_id": "exam:1034:13",
+      "question": "Un conjunto de turismo con remolque ligero, que mide menos de 7 metros, ¿por dónde debe circular?\nWhere must a group consisting of a private car with a light trailer measuring less than 7 metres drive?",
+      "topic_ids": [
+        "transport.trailers"
+      ],
+      "primary_topic_id": "transport.trailers",
+      "verified": true,
+      "index": 12,
+      "canonical_id": "5c4fd2ab294c798522cdb8fa"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 14,
+      "question_id": "exam:1034:14",
+      "question": "Si circula y tiene dudas sobre las condiciones de luminosidad, ¿qué debe hacer?\nIf you are driving and you have doubts on the light conditions, what should you do?",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 13,
+      "canonical_id": "13565cdd2f4f8bc883fb2ca0",
+      "question_ru": "Если вы за рулем и у вас есть сомнения по поводу условий освещения, что вы должны делать?"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 15,
+      "question_id": "exam:1034:15",
+      "question": "¿Qué indica este panel bajo la señal de ceda el paso?\nWhat does this panel under the give way sign indicate?",
+      "topic_ids": [
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 14,
+      "canonical_id": "82bb6d9651108d905c9bee6b"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 16,
+      "question_id": "exam:1034:16",
+      "question": "Esta señal prohíbe...\nThis sign prohibits...",
+      "topic_ids": [
+        "signs.parking",
+        "signs.priority",
+        "signs.restrictions"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 15,
+      "canonical_id": "7e82c3947a55a86e11364ad1",
+      "question_ru": "Этот знак запрещает…"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 17,
+      "question_id": "exam:1034:17",
+      "question": "Los airbags son sistemas muy seguros pero...\nAirbags are very safe systems but...",
+      "topic_ids": [
+        "vehicle.passive"
+      ],
+      "primary_topic_id": "vehicle.passive",
+      "verified": true,
+      "index": 16,
+      "canonical_id": "67709235e74c17a0709cf66d"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 18,
+      "question_id": "exam:1034:18",
+      "question": "Si estaciona su vehículo, deberá...\nIf you park your vehicle, you must...",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 17,
+      "canonical_id": "ad7878fe82621807c9ab4106"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 19,
+      "question_id": "exam:1034:19",
+      "question": "Hay nieve y solo tiene cadenas para dos ruedas. ¿Dónde debe ponerlas?\nThere is snow and you only have chains for two wheels. Where should you put them?",
+      "topic_ids": [
+        "conditions.ice"
+      ],
+      "primary_topic_id": "conditions.ice",
+      "verified": true,
+      "index": 18,
+      "canonical_id": "e48976167ab5f9f57bfda041",
+      "question_ru": "Есть снег, и у вас есть только цепи на два колеса. Куда вы их положите?"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 20,
+      "question_id": "exam:1034:20",
+      "question": "Si el vehículo de detrás se acerca demasiado, es conveniente...\nIf the vehicle behind comes too close, it is recommendable to...",
+      "topic_ids": [
+        "numbers.distances"
+      ],
+      "primary_topic_id": "numbers.distances",
+      "verified": true,
+      "index": 19,
+      "canonical_id": "409d0d16e0adbabbc599b37f",
+      "question_ru": "Если автомобиль подъезжает слишком близко, рекомендуется…"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 21,
+      "question_id": "exam:1034:21",
+      "question": "Debe señalizar toda maniobra que suponga realizar...\nYou must signal all manoeuvres that involve carrying out...",
+      "topic_ids": [
+        "driving.reversing"
+      ],
+      "primary_topic_id": "driving.reversing",
+      "verified": true,
+      "index": 20,
+      "canonical_id": "11306dcc793de4a79a82a8bc"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 22,
+      "question_id": "exam:1034:22",
+      "question": "Un vehículo le está adelantando y no puede terminar la maniobra con seguridad, ¿qué debe hacer?\nA vehicle is overtaking you and it cannot finish the manoeuvre safely. What should you do?",
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 21,
+      "canonical_id": "a6db5ffdeb2a04d07ccba25d"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 23,
+      "question_id": "exam:1034:23",
+      "question": "Vehículo es todo aparato...\nA vehicle is any apparatus...",
+      "topic_ids": [
+        "vehicle.classification"
+      ],
+      "primary_topic_id": "vehicle.classification",
+      "verified": true,
+      "index": 22,
+      "canonical_id": "66ee362abe628ce936b24ad0"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 24,
+      "question_id": "exam:1034:24",
+      "question": "Los peatones, ¿tienen el mismo derecho que los conductores a utilizar las vías públicas?\nDo pedestrians have the same right as drivers to use public roads?",
+      "topic_ids": [
+        "driving.pedestrians"
+      ],
+      "primary_topic_id": "driving.pedestrians",
+      "verified": true,
+      "index": 23,
+      "canonical_id": "c82be9534abf94ac862dbd8d"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 25,
+      "question_id": "exam:1034:25",
+      "question": "Los resaltos en los pasos para peatones, ¿se consideran obstáculos en la calzada?\nAre raised pedestrian crossings considered to be obstacles on the road?",
+      "topic_ids": [
+        "driving.pedestrians"
+      ],
+      "primary_topic_id": "driving.pedestrians",
+      "verified": true,
+      "index": 24,
+      "canonical_id": "d5ed180c13450595025393b0",
+      "question_ru": "Рассматриваются ли пешеходные переходы в качестве препятствий на дороге?"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 26,
+      "question_id": "exam:1034:26",
+      "question": "Si tiene que circular con su motocicleta por una zona especialmente deslizante, ¿qué precauciones debe tomar?\nIf you have to ride your motorcycle in an especially slippery area, what precautions should you take?",
+      "topic_ids": [
+        "vehicle.motorcycles"
+      ],
+      "primary_topic_id": "vehicle.motorcycles",
+      "verified": true,
+      "index": 25,
+      "canonical_id": "6ef2110de0f8059c4fca3dfa",
+      "question_ru": "Если вам приходится ездить на мотоцикле в особенно скользкой зоне, какие меры предосторожности вы должны принять?"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 27,
+      "question_id": "exam:1034:27",
+      "question": "Son remolques ligeros aquellos cuya MMA...\nLight trailers are those whose MAM...",
+      "topic_ids": [
+        "transport.trailers"
+      ],
+      "primary_topic_id": "transport.trailers",
+      "verified": true,
+      "index": 26,
+      "canonical_id": "095f79a3f303c504fc42e070",
+      "question_ru": "Легкие трейлеры - это те, чья мама…"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 28,
+      "question_id": "exam:1034:28",
+      "question": "En esta intersección, ¿debe ceder el paso a los ciclistas?\nAt this junction, should you give way to cyclists?",
+      "topic_ids": [
+        "priority.cyclists"
+      ],
+      "primary_topic_id": "priority.cyclists",
+      "verified": true,
+      "index": 27,
+      "canonical_id": "027b10f07703a51861618804",
+      "question_ru": "На этом перекрестке вы должны уступить место велосипедистам?"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 29,
+      "question_id": "exam:1034:29",
+      "question": "Después de ingerir medicamentos tranquilizantes, el tiempo de reacción...\nAfter ingesting tranquillising drugs, the reaction time...",
+      "topic_ids": [
+        "routine.health",
+        "routine.reaction"
+      ],
+      "primary_topic_id": "routine.health",
+      "verified": true,
+      "index": 28,
+      "canonical_id": "dc48f5e22535a044f4a4e2ec",
+      "question_ru": "После приема успокаивающих препаратов время реакции…"
+    },
+    {
+      "test_id": 101034,
+      "source_test_id": 1034,
+      "source_ordinal": 30,
+      "question_id": "exam:1034:30",
+      "question": "Los vehículos para personas de movilidad reducida, ¿están obligados a circular por el arcén?\nAre vehicles for persons with reduced mobility required to drive on the edge of the road?",
+      "topic_ids": [
+        "driving.lanes"
+      ],
+      "primary_topic_id": "driving.lanes",
+      "verified": true,
+      "index": 29,
+      "canonical_id": "239a20f7eee652a0a849e679",
+      "question_ru": "Требуются ли транспортные средства для лиц с ограниченной мобильностью для движения по краю дороги?"
+    },
+    {
       "test_id": 101035,
       "source_test_id": 1035,
       "source_ordinal": 1,
@@ -6514,6 +6954,441 @@
       "index": 29,
       "canonical_id": "95abfe43388768e4aa742381",
       "question_ru": "Придорожная полоса на правой стороне дороги достаточна для движения транспорта. Какие транспортные средства должны, как правило, ездить по обочине дороги?"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 1,
+      "question_id": "exam:1037:01",
+      "question": "El conductor del vehículo que utiliza el carril adicional...\nThe driver of the vehicle that is using the additional lane...",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 0,
+      "canonical_id": "6420c78cf0fee05618f2e6f4"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 2,
+      "question_id": "exam:1037:02",
+      "question": "Si circula por una carretera con dos carriles para su sentido, ¿puede permanecer en el carril izquierdo tras efectuar un adelantamiento?\nIf you are driving on a road with two lanes in each direction, may you remain in the left lane after carrying out an overtaking manoeuvre?",
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 1,
+      "canonical_id": "b405e1230557ba86cbabc2b2"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 3,
+      "question_id": "exam:1037:03",
+      "question": "El alcohol, ¿produce los mismos efectos en todas las personas?\nDoes alcohol affect everyone in the same way?",
+      "topic_ids": [
+        "routine.alcohol"
+      ],
+      "primary_topic_id": "routine.alcohol",
+      "verified": true,
+      "index": 2,
+      "canonical_id": "957d36e3bba0f46ecffab350"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 4,
+      "question_id": "exam:1037:04",
+      "question": "Para conducir con más seguridad, es necesario...\nTo drive more safely, you must...",
+      "topic_ids": [
+        "speed.adaptation"
+      ],
+      "primary_topic_id": "speed.adaptation",
+      "verified": true,
+      "index": 3,
+      "canonical_id": "cf2d916d1e48d5d34ae12811"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 5,
+      "question_id": "exam:1037:05",
+      "question": "Como norma general, en una vía interurbana de doble sentido de la circulación está permitido parar fuera de la calzada...\nAs a general rule, on a two-way interurban road, it is permitted to pull over off the road...",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 4,
+      "canonical_id": "7f5bca30c69c8c03521753ae"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 6,
+      "question_id": "exam:1037:06",
+      "question": "Al aproximarse a un semáforo con una o dos luces amarillas intermitentes, ¿qué hay que hacer?\nWhat must you do on approaching a traffic light with one or two flashing amber lights?",
+      "topic_ids": [
+        "driving.signals",
+        "priority.lights",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "priority.lights",
+      "verified": true,
+      "index": 5,
+      "canonical_id": "7a8c5beb5d1d27520f244216"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 7,
+      "question_id": "exam:1037:07",
+      "question": "¿Qué significa esta señal?\nWhat does this sign mean?",
+      "topic_ids": [
+        "conditions.ice",
+        "signs.speed"
+      ],
+      "primary_topic_id": "signs.speed",
+      "verified": true,
+      "index": 6,
+      "canonical_id": "eabe5bcdfc300b9a6089a5c4"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 8,
+      "question_id": "exam:1037:08",
+      "question": "Cuando se acerque un vehículo prioritario en servicio urgente, los demás conductores deben...\nWhen a priority vehicle on an emergency service approaches, other drivers must...",
+      "topic_ids": [
+        "priority.emergency"
+      ],
+      "primary_topic_id": "priority.emergency",
+      "verified": true,
+      "index": 7,
+      "canonical_id": "9e48e9f3b15986b479de1c32"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 9,
+      "question_id": "exam:1037:09",
+      "question": "La maniobra de marcha atrás está totalmente prohibida en...\nA reverse manoeuvre is totally prohibited on...",
+      "topic_ids": [
+        "driving.reversing"
+      ],
+      "primary_topic_id": "driving.reversing",
+      "verified": true,
+      "index": 8,
+      "canonical_id": "46c3cb6630f24c86a165250a"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 10,
+      "question_id": "exam:1037:10",
+      "question": "¿Puede entrar en esta intersección saturada en la que tiene prioridad de paso?\nCan you enter this crowded intersection in which you have right of way?",
+      "topic_ids": [
+        "priority.general"
+      ],
+      "primary_topic_id": "priority.general",
+      "verified": true,
+      "index": 9,
+      "canonical_id": "85847086e3d2112b4372bbe2"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 11,
+      "question_id": "exam:1037:11",
+      "question": "Antes de iniciar un adelantamiento, ¿qué debe hacer?\nWhat must you do before initiating an overtaking manoeuvre?",
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 10,
+      "canonical_id": "fa0a31d87d0373126407decc"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 12,
+      "question_id": "exam:1037:12",
+      "question": "La intención de inmovilizar el vehículo debe advertirla...\nYou must warn of your intention to stop your vehicle...",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 11,
+      "canonical_id": "c20b6851520c5f0902ea4452"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 13,
+      "question_id": "exam:1037:13",
+      "question": "Las personas que beben y conducen...\nPeople who drink and drive...",
+      "topic_ids": [
+        "incidents.statistics",
+        "routine.alcohol"
+      ],
+      "primary_topic_id": "routine.alcohol",
+      "verified": true,
+      "index": 12,
+      "canonical_id": "4650ed5877ee2558058118ee"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 14,
+      "question_id": "exam:1037:14",
+      "question": "¿Puede circular conduciendo un ciclomotor a partir de la señal?\nCan you ride a moped after this sign?",
+      "topic_ids": [
+        "vehicle.motorcycles"
+      ],
+      "primary_topic_id": "vehicle.motorcycles",
+      "verified": true,
+      "index": 13,
+      "canonical_id": "b47722c90f975e36d12c3b28"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 15,
+      "question_id": "exam:1037:15",
+      "question": "El semáforo de la derecha está en verde y el de la izquierda está en rojo. Para continuar de frente, ¿qué debe hacer si circula por el carril derecho?\nThe traffic light on the right is green and the one on the left is red. To continue straight ahead, what should you do if you are in the right-hand lane?",
+      "topic_ids": [
+        "priority.lights"
+      ],
+      "primary_topic_id": "priority.lights",
+      "verified": true,
+      "index": 14,
+      "canonical_id": "a433081c8b2668e699c8629e"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 16,
+      "question_id": "exam:1037:16",
+      "question": "Para anticiparse al peligro y tomar decisiones seguras debe...\nIn order to anticipate danger and take safe decisions, you must...",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "primary_topic_id": "routine.safety",
+      "verified": true,
+      "index": 15,
+      "canonical_id": "76f83406c873839a7acb3588"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 17,
+      "question_id": "exam:1037:17",
+      "question": "¿Qué indica esta señal?\nWhat does this sign indicate?",
+      "topic_ids": [
+        "signs.information"
+      ],
+      "primary_topic_id": "signs.information",
+      "verified": true,
+      "index": 16,
+      "canonical_id": "6b50d6c35f9cab2f78a20a5d"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 18,
+      "question_id": "exam:1037:18",
+      "question": "Estas señales indican la velocidad máxima...\nThese signs indicate the maximum speed...",
+      "topic_ids": [
+        "numbers.speeds",
+        "signs.speed"
+      ],
+      "primary_topic_id": "signs.speed",
+      "verified": true,
+      "index": 17,
+      "canonical_id": "9e4b43b55094868c9b23959d"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 19,
+      "question_id": "exam:1037:19",
+      "question": "Los accidentes de tráfico producen entre otras consecuencias...\nTraffic accidents cause, among other consequences...",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "primary_topic_id": "routine.safety",
+      "verified": true,
+      "index": 18,
+      "canonical_id": "cad13f531ca5d67c0f8e38a0"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 20,
+      "question_id": "exam:1037:20",
+      "question": "¿Qué vehículos son los más afectados por el viento lateral?\nWhat vehicles are most affected by side wind?",
+      "topic_ids": [
+        "conditions.wind"
+      ],
+      "primary_topic_id": "conditions.wind",
+      "verified": true,
+      "index": 19,
+      "canonical_id": "6211ed04de5d631a9f79d1d8",
+      "question_ru": "Какие транспортные средства больше всего страдают от бокового ветра?"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 21,
+      "question_id": "exam:1037:21",
+      "question": "Un vehículo tiene una anchura superior a 2,10 metros, ¿cuándo es obligatorio encender la luz de gálibo?\nA vehicle has a width of over 2.10 meters. When is it mandatory to turn on the clearance lights?",
+      "topic_ids": [
+        "driving.tunnels",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 20,
+      "canonical_id": "4fead0de2eafbf66ca575120",
+      "question_ru": "Автомобиль имеет ширину более 2,10 метра. Когда обязательно включать огни зазора?"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 22,
+      "question_id": "exam:1037:22",
+      "question": "Al llegar a este paso a nivel se encuentra las barreras en movimiento, ¿qué debe hacer?\nWhat must you do when you reach this level crossing and you find the barriers moving?",
+      "topic_ids": [
+        "driving.crossings"
+      ],
+      "primary_topic_id": "driving.crossings",
+      "verified": true,
+      "index": 21,
+      "canonical_id": "5a6d8f55d21b7bf098f51f0a"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 23,
+      "question_id": "exam:1037:23",
+      "question": "Es conveniente que el traje del conductor o pasajero de una motocicleta sea...\nIt is recommendable that the suit of the rider or passenger of a motorcycle is...",
+      "topic_ids": [
+        "incidents.scene"
+      ],
+      "primary_topic_id": "incidents.scene",
+      "verified": true,
+      "index": 22,
+      "canonical_id": "ed6b26e6a783a1b03db97efd",
+      "question_ru": "Рекомендуется, чтобы костюм водителя или пассажира мотоцикла был…"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 24,
+      "question_id": "exam:1037:24",
+      "question": "A la vista de la señalización, el vehículo de la fotografía, ¿puede continuar la marcha?\nCan the vehicle in the photograph continue to drive if he sees this sign?",
+      "topic_ids": [
+        "priority.lights",
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 23,
+      "canonical_id": "316bcaa3e6ccfa48fdc1eb21"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 25,
+      "question_id": "exam:1037:25",
+      "question": "Para las motocicletas, ¿es obligatorio el uso del alumbrado de corto alcance durante el día?\nIs it mandatory for motorcycles to use dipped beam headlights during the day?",
+      "topic_ids": [
+        "numbers.dates",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 24,
+      "canonical_id": "af45921a0aebd7286a69f043"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 26,
+      "question_id": "exam:1037:26",
+      "question": "En una autopista con tres carriles para cada sentido, ¿qué distancia de seguridad debe dejar un turismo con el vehículo que circula delante?\nOn a motorway with three lanes in each direction, what safety distance must a private car leave from the vehicle driving in front?",
+      "topic_ids": [
+        "driving.parking",
+        "numbers.distances"
+      ],
+      "primary_topic_id": "numbers.distances",
+      "verified": true,
+      "index": 25,
+      "canonical_id": "c34fe76aecea4adb911a8fe4"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 27,
+      "question_id": "exam:1037:27",
+      "question": "El estado de los neumáticos, ¿influye en el frenado?\nDoes the condition of the tyres affect braking?",
+      "topic_ids": [
+        "vehicle.tyres"
+      ],
+      "primary_topic_id": "vehicle.tyres",
+      "verified": true,
+      "index": 26,
+      "canonical_id": "1e3320dab6500a0b4ee55581"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 28,
+      "question_id": "exam:1037:28",
+      "question": "En carretera, los animales deben circular...\nOn roads, animals must travel...",
+      "topic_ids": [
+        "transport.animals"
+      ],
+      "primary_topic_id": "transport.animals",
+      "verified": true,
+      "index": 27,
+      "canonical_id": "e358364c221bac78415c96b7"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 29,
+      "question_id": "exam:1037:29",
+      "question": "¿Está permitido llevar las puertas o el maletero abiertos para aumentar la capacidad de carga?\nAre you allowed to have the car doors or the boot open to carry a larger load?",
+      "topic_ids": [
+        "numbers.dimensions",
+        "vehicle.cargo"
+      ],
+      "primary_topic_id": "numbers.dimensions",
+      "verified": true,
+      "index": 28,
+      "canonical_id": "2d770cdd2d89816c3aa1df94",
+      "question_ru": "Разрешается ли вам открывать двери автомобиля или багажник, чтобы нести большую нагрузку?"
+    },
+    {
+      "test_id": 101037,
+      "source_test_id": 1037,
+      "source_ordinal": 30,
+      "question_id": "exam:1037:30",
+      "question": "Circulando a una velocidad superior a la velocidad máxima permitida está circulando...\nDriving at a speed higher than the maximum permitted speed is…",
+      "topic_ids": [
+        "numbers.speeds"
+      ],
+      "primary_topic_id": "numbers.speeds",
+      "verified": true,
+      "index": 29,
+      "canonical_id": "89204420c32831ea188bb1b1",
+      "question_ru": "Вождение на скорости, превышающей максимально допустимую скорость…"
     },
     {
       "test_id": 101039,
@@ -7418,6 +8293,449 @@
       "question_ru": "Вы должны ехать на умеренной скорости и, при необходимости, останавливать автомобиль при приближении…"
     },
     {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 1,
+      "question_id": "exam:1042:01",
+      "question": "Los paneles de las esquinas del camión, ¿qué indican?\nWhat do the panels on the corners of the truck mean?",
+      "topic_ids": [
+        "numbers.dimensions",
+        "vehicle.cargo"
+      ],
+      "primary_topic_id": "numbers.dimensions",
+      "verified": true,
+      "index": 0,
+      "canonical_id": "696fac33920c404b4f8478c3"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 2,
+      "question_id": "exam:1042:02",
+      "question": "En caso de atropello a peatones, ¿en qué tipo de vías se producen los accidentes más graves?\nIf a pedestrian is knocked down, on what type of roads do the most serious accidents occur?",
+      "topic_ids": [
+        "driving.pedestrians"
+      ],
+      "primary_topic_id": "driving.pedestrians",
+      "verified": true,
+      "index": 1,
+      "canonical_id": "29203176369a0022d82bb231"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 3,
+      "question_id": "exam:1042:03",
+      "question": "Bajo los efectos del calor es posible que...\nUnder the effects of heat, it is possible that...",
+      "topic_ids": [
+        "routine.emotions",
+        "routine.reaction"
+      ],
+      "primary_topic_id": "routine.emotions",
+      "verified": true,
+      "index": 2,
+      "canonical_id": "a7cef3418581fa0f65cbaa8d",
+      "question_ru": "Под воздействием тепла возможно, что…"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 4,
+      "question_id": "exam:1042:04",
+      "question": "Ante esta situación...\nIn this situation...",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 3,
+      "canonical_id": "b00cec8a5e805f8631c3fd7d"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 5,
+      "question_id": "exam:1042:05",
+      "question": "¿Qué condiciones tienen que tener los neumáticos de una motocicleta?\nWhat conditions must motorcycle tyres have?",
+      "topic_ids": [
+        "vehicle.tyres"
+      ],
+      "primary_topic_id": "vehicle.tyres",
+      "verified": true,
+      "index": 4,
+      "canonical_id": "fda384ad8d55bb951862c901"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 6,
+      "question_id": "exam:1042:06",
+      "question": "¿En qué caso el estacionamiento perturba gravemente la circulación?\nIn which case does parking seriously obstruct traffic?",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 5,
+      "canonical_id": "94745b2934f312d8026c9c99",
+      "question_ru": "В каком случае парковка серьезно препятствует движению транспорта?"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 7,
+      "question_id": "exam:1042:07",
+      "question": "Esta señal indica...\nThis sign indicates...",
+      "topic_ids": [
+        "signs.information"
+      ],
+      "primary_topic_id": "signs.information",
+      "verified": true,
+      "index": 6,
+      "canonical_id": "ef9debc769bf23092e5e8501"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 8,
+      "question_id": "exam:1042:08",
+      "question": "En un tramo de vía con un carril de aceleración, ¿se considera adelantamiento que un vehículo avance más rápidamente que otro que lo hace por el carril normal?\nOn a stretch of road with an acceleration lane, is it considered to be an overtaking manoeuvre if a vehicle advances faster than another that is driving on a normal lane?",
+      "topic_ids": [
+        "driving.merging",
+        "driving.overtaking",
+        "priority.tram",
+        "vehicle.classification"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 7,
+      "canonical_id": "2d9d6c0b5321397234529442"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 9,
+      "question_id": "exam:1042:09",
+      "question": "¿Puede estacionar su vehículo junto al borde de esta calzada?\nCan you park your vehicle next to the kerb of this road?",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 8,
+      "canonical_id": "3648f76ec8b635e16bd2706d"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 10,
+      "question_id": "exam:1042:10",
+      "question": "¿Quién es el responsable de que el vehículo se encuentre al corriente de las inspecciones técnicas?\nWho is responsible for ensuring that a vehicle is up to date with technical inspections?",
+      "topic_ids": [
+        "documents.itv"
+      ],
+      "primary_topic_id": "documents.itv",
+      "verified": true,
+      "index": 9,
+      "canonical_id": "fd946883fa99319314425ef0"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 11,
+      "question_id": "exam:1042:11",
+      "question": "Esta señal prohíbe...\nThis sign prohibits...",
+      "topic_ids": [
+        "eco.environment",
+        "signs.restrictions"
+      ],
+      "primary_topic_id": "eco.environment",
+      "verified": true,
+      "index": 10,
+      "canonical_id": "41d39f1f2c02b2aabb4c21b9",
+      "question_ru": "Этот знак запрещает…"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 12,
+      "question_id": "exam:1042:12",
+      "question": "Para advertir que va a realizar una maniobra, mantendrá la señalización luminosa hasta...\nIn order to warn that you are going to carry out a manoeuvre, you will keep your warning light on until...",
+      "topic_ids": [
+        "signs.warning"
+      ],
+      "primary_topic_id": "signs.warning",
+      "verified": true,
+      "index": 11,
+      "canonical_id": "75017475cf2f7389c56d4618"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 13,
+      "question_id": "exam:1042:13",
+      "question": "La edad avanzada, ¿puede ser un factor que favorezca la distracción al volante?\nCan older age be a factor that leads to distraction at the wheel?",
+      "topic_ids": [
+        "routine.distraction"
+      ],
+      "primary_topic_id": "routine.distraction",
+      "verified": true,
+      "index": 12,
+      "canonical_id": "1d08c207abb17d159556225e"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 14,
+      "question_id": "exam:1042:14",
+      "question": "¿Qué separación lateral debe dejar la motocicleta que está adelantando al camión?\nWhat lateral separation must the motorcycle that is overtaking the truck leave?",
+      "topic_ids": [
+        "driving.overtaking",
+        "numbers.distances"
+      ],
+      "primary_topic_id": "numbers.distances",
+      "verified": true,
+      "index": 13,
+      "canonical_id": "807c547b7932e8ed9d60203f",
+      "question_ru": "Какое боковое разделение должен оставить мотоцикл, обгоняющий грузовик?"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 15,
+      "question_id": "exam:1042:15",
+      "question": "Los conductores jóvenes suelen tener más accidentes...\nYoung drivers usually have more accidents...",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "primary_topic_id": "routine.safety",
+      "verified": true,
+      "index": 14,
+      "canonical_id": "0a97e6397408c09332d8aa24"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 16,
+      "question_id": "exam:1042:16",
+      "question": "En una carretera, ¿está permitido cambiar el sentido de la marcha?\nAre you permitted to do a U-turn on a conventional road?",
+      "topic_ids": [
+        "driving.uturns"
+      ],
+      "primary_topic_id": "driving.uturns",
+      "verified": true,
+      "index": 15,
+      "canonical_id": "f836ca75a16787309600cfb4"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 17,
+      "question_id": "exam:1042:17",
+      "question": "Esta señal prohíbe...\nThis sign prohibits...",
+      "topic_ids": [
+        "numbers.dimensions",
+        "signs.restrictions",
+        "vehicle.cargo"
+      ],
+      "primary_topic_id": "numbers.dimensions",
+      "verified": true,
+      "index": 16,
+      "canonical_id": "5af8daa90a2eef60e8b16c5e"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 18,
+      "question_id": "exam:1042:18",
+      "question": "En una carretera de tres carriles en cada sentido, ¿cuándo se puede circular por el carril izquierdo?\nOn a road with three lanes in each direction, when can you drive in the left hand lane?",
+      "topic_ids": [
+        "driving.lanes"
+      ],
+      "primary_topic_id": "driving.lanes",
+      "verified": true,
+      "index": 17,
+      "canonical_id": "5dee7daa53271fc635714391",
+      "question_ru": "На дороге с тремя полосами движения в каждом направлении, когда можно проехать по левой полосе?"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 19,
+      "question_id": "exam:1042:19",
+      "question": "Un agente de circulación ordena reanudar la marcha con ayuda de un silbato, ¿cómo serán los toques?\nA traffic officer orders you to continue driving with the aid of a whistle. How will he blow it?",
+      "topic_ids": [
+        "priority.officer"
+      ],
+      "primary_topic_id": "priority.officer",
+      "verified": true,
+      "index": 18,
+      "canonical_id": "cedd9d788ce7b69956122634"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 20,
+      "question_id": "exam:1042:20",
+      "question": "Para evitar los accidentes con motocicletas es recomendable...\nIn order to avoid motorcycle accidents, it is recommendable...",
+      "topic_ids": [
+        "vehicle.motorcycles"
+      ],
+      "primary_topic_id": "vehicle.motorcycles",
+      "verified": true,
+      "index": 19,
+      "canonical_id": "3ea095eafefb1b7d904f11d9",
+      "question_ru": "Чтобы избежать несчастных случаев на мотоцикле, рекомендуется…"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 21,
+      "question_id": "exam:1042:21",
+      "question": "Un camión de 3.500 kilogramos de MMA, ¿puede llevar como repuesto una rueda de uso temporal?\nCan a truck with 3,500 kilograms of MAM carry a temporary wheel as a spare wheel?",
+      "topic_ids": [
+        "vehicle.tyres"
+      ],
+      "primary_topic_id": "vehicle.tyres",
+      "verified": true,
+      "index": 20,
+      "canonical_id": "b16c5f7e0bb7dd9210f75336",
+      "question_ru": "Может ли грузовик с 3500 килограммами РММ иметь докатку в качестве запасного колеса?"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 22,
+      "question_id": "exam:1042:22",
+      "question": "Los turismos que arrastren un remolque ligero, ¿están obligados a llevar entre sus accesorios un equipo homologado de extinción de incendios?\nAre private cars pulling a trailer obliged to carry among their accessories an authorized fire extinguisher?",
+      "topic_ids": [
+        "incidents.fire"
+      ],
+      "primary_topic_id": "incidents.fire",
+      "verified": true,
+      "index": 21,
+      "canonical_id": "d48f59ec6b75374d6c9a6543"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 23,
+      "question_id": "exam:1042:23",
+      "question": "El filtro de aceite, ¿cuándo hay que cambiarlo?\nWhen do you have to change the oil filter?",
+      "topic_ids": [
+        "vehicle.mechanics"
+      ],
+      "primary_topic_id": "vehicle.mechanics",
+      "verified": true,
+      "index": 22,
+      "canonical_id": "51580351d6b119c3f89620e2",
+      "question_ru": "Когда нужно менять масляный фильтр?"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 24,
+      "question_id": "exam:1042:24",
+      "question": "Si un cuadriciclo ligero tiene cinturones de seguridad, ¿es obligatorio ponerse el casco?\nIf your light quadricycle has seatbelts, must you wear a helmet?",
+      "topic_ids": [
+        "routine.helmets",
+        "routine.seatbelts",
+        "vehicle.classification"
+      ],
+      "primary_topic_id": "routine.helmets",
+      "verified": true,
+      "index": 23,
+      "canonical_id": "bed78fb721287bc32c1b519d"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 25,
+      "question_id": "exam:1042:25",
+      "question": "Esta señal, ¿qué indica?\nWhat does this sign indicate?",
+      "topic_ids": [
+        "numbers.distances"
+      ],
+      "primary_topic_id": "numbers.distances",
+      "verified": true,
+      "index": 24,
+      "canonical_id": "a450a094857e6048ee325294"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 26,
+      "question_id": "exam:1042:26",
+      "question": "Un conductor novel, ¿qué tasa máxima de alcoholemia tiene permitida en aire espirado para circular?\nFor a new driver, what is the maximum alcohol level in exhaled air permitted for driving?",
+      "topic_ids": [
+        "numbers.alcohol",
+        "numbers.deadlines.novice",
+        "routine.alcohol"
+      ],
+      "primary_topic_id": "numbers.alcohol",
+      "verified": true,
+      "index": 25,
+      "canonical_id": "dbfb04d1b6619673448d999e"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 27,
+      "question_id": "exam:1042:27",
+      "question": "Después de pasar por un charco de agua, ¿qué se debe comprobar primero?\nAfter crossing a rain puddle, what should you check first?",
+      "topic_ids": [
+        "driving.weather"
+      ],
+      "primary_topic_id": "driving.weather",
+      "verified": true,
+      "index": 26,
+      "canonical_id": "24fdbfd70df1223a2dcb7246"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 28,
+      "question_id": "exam:1042:28",
+      "question": "¿Qué indica esta señal?\nWhat does this sign indicate?",
+      "topic_ids": [
+        "signs.lanes"
+      ],
+      "primary_topic_id": "signs.lanes",
+      "verified": true,
+      "index": 27,
+      "canonical_id": "e4bb38f961c37f88df70f27f"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 29,
+      "question_id": "exam:1042:29",
+      "question": "Si un peatón circula de noche por una vía interurbana, está obligado a utilizar...\nIf a pedestrian goes along an interurban road at night, they are required to use…",
+      "topic_ids": [
+        "driving.pedestrians"
+      ],
+      "primary_topic_id": "driving.pedestrians",
+      "verified": true,
+      "index": 28,
+      "canonical_id": "b7c89f15bfd6909a658ecff8"
+    },
+    {
+      "test_id": 101042,
+      "source_test_id": 1042,
+      "source_ordinal": 30,
+      "question_id": "exam:1042:30",
+      "question": "En autopista, ¿cuál es la velocidad máxima a la que puede adelantar un turismo?\nOn a motorway, what is the maximum speed at which a car can overtake?",
+      "topic_ids": [
+        "driving.overtaking",
+        "numbers.speeds"
+      ],
+      "primary_topic_id": "numbers.speeds",
+      "verified": true,
+      "index": 29,
+      "canonical_id": "8d0bb1c37d4ee164ec1a90bc",
+      "question_ru": "Какова максимальная скорость, с которой автомобиль может обогнать?"
+    },
+    {
       "test_id": 101043,
       "source_test_id": 1043,
       "source_ordinal": 1,
@@ -8319,6 +9637,455 @@
       "question_ru": "На обычной дороге с какой скоростью может обогнать грузовик?"
     },
     {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 1,
+      "question_id": "exam:1047:01",
+      "question": "En una intersección de circulación giratoria, que no tiene señalizada la preferencia de paso y que no es una glorieta, ¿qué vehículos tienen prioridad?\nAt a rotating traffic junction which does not indicate right-of-way and is not a roundabout, which vehicles have priority?",
+      "topic_ids": [
+        "driving.roundabouts",
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 0,
+      "canonical_id": "7751e4ec79803418b9948f8e"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 2,
+      "question_id": "exam:1047:02",
+      "question": "Un vehículo de bomberos circula excepcionalmente solo con las luces azules giratorias encendidas, ¿tiene prioridad de paso?\nA fire brigade vehicle is travelling exceptionally with just the rotating blue lights, does it have right-of-way?",
+      "topic_ids": [
+        "incidents.fire",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "incidents.fire",
+      "verified": true,
+      "index": 1,
+      "canonical_id": "ec1903808790cc53fcab5408"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 3,
+      "question_id": "exam:1047:03",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "topic_ids": [
+        "signs.information"
+      ],
+      "primary_topic_id": "signs.information",
+      "verified": true,
+      "index": 2,
+      "canonical_id": "c1dae15d2e10fa317a4c714f"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 4,
+      "question_id": "exam:1047:04",
+      "question": "Las señales horizontales, ¿tienen el mismo significado que las correspondientes señales verticales?\nDo horizontal signs have the same meaning as the corresponding vertical signs?",
+      "topic_ids": [
+        "signs.markings"
+      ],
+      "primary_topic_id": "signs.markings",
+      "verified": true,
+      "index": 3,
+      "canonical_id": "0804ca024db962dc1b4ae2d3"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 5,
+      "question_id": "exam:1047:05",
+      "question": "El vehículo blanco está adelantando incorrectamente. ¿Qué puede hacer el conductor del vehículo verde para facilitar el adelantamiento?\nThe white vehicle is overtaking incorrectly. What can the driver of the green vehicle do to facilitate the overtaking manoeuvre?",
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 4,
+      "canonical_id": "76edc441adbf8df023a98e33",
+      "question_ru": "Белое транспортное средство обгоняет неправильно. Что может сделать водитель зеленого автомобиля, чтобы облегчить маневр обгона?"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 6,
+      "question_id": "exam:1047:06",
+      "question": "Para tomar una curva adecuadamente, siempre que sea posible, durante el desarrollo de la curva, se debe circular a una velocidad…\nTo take a bend properly, whenever possible, when driving through the bend, you must drive at a speed...",
+      "topic_ids": [
+        "driving.braking"
+      ],
+      "primary_topic_id": "driving.braking",
+      "verified": true,
+      "index": 5,
+      "canonical_id": "5aa2f651c8175b434b5ddaa5",
+      "question_ru": "Чтобы правильно взять поворот, по возможности, проезжая через поворот, нужно ехать со скоростью…"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 7,
+      "question_id": "exam:1047:07",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "topic_ids": [
+        "driving.crossings"
+      ],
+      "primary_topic_id": "driving.crossings",
+      "verified": true,
+      "index": 6,
+      "canonical_id": "8cccf5c5a5ca78387815df72",
+      "question_ru": "Что означает этот знак?"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 8,
+      "question_id": "exam:1047:08",
+      "question": "El remolque de la imagen de 1.250 kg de MMA y con una antigüedad de más de diez años, ¿debe someterse a inspecciones técnicas periódicas?\nThe trailer in the image has a MAM of 1,250 kg and is over ten years old. Does it require a periodic technical inspection?",
+      "topic_ids": [
+        "documents.itv",
+        "numbers.deadlines.itv"
+      ],
+      "primary_topic_id": "numbers.deadlines.itv",
+      "verified": true,
+      "index": 7,
+      "canonical_id": "9c7a3ed16f210ba865265b57"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 9,
+      "question_id": "exam:1047:09",
+      "question": "En caso de avería de la luz de largo alcance del vehículo, ¿qué debe hacer?\nIf the vehicle's full-beam headlights stop working, what should you do?",
+      "topic_ids": [
+        "incidents.towing",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 8,
+      "canonical_id": "c2684e34ed8dbcfa534a4880"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 10,
+      "question_id": "exam:1047:10",
+      "question": "Las personas mayores, ¿suelen ser más vulnerables a los efectos del alcohol?\nAre older people usually more vulnerable to the effects of alcohol?",
+      "topic_ids": [
+        "routine.alcohol"
+      ],
+      "primary_topic_id": "routine.alcohol",
+      "verified": true,
+      "index": 9,
+      "canonical_id": "ef07284e684a9c08ef57409f"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 11,
+      "question_id": "exam:1047:11",
+      "question": "En vías divididas en tres calzadas, la central podrá estar destinada a la circulación en...\nOn roads divided into three lanes, the central lane can be used for travel...",
+      "topic_ids": [
+        "signs.lanes"
+      ],
+      "primary_topic_id": "signs.lanes",
+      "verified": true,
+      "index": 10,
+      "canonical_id": "c0b20a70d50bbe6d8126ba48",
+      "question_ru": "На дорогах, разделенных на три полосы, центральная полоса может использоваться для путешествий…"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 12,
+      "question_id": "exam:1047:12",
+      "question": "La mayoría de las muertes en accidentes de tráfico se producen...\nMost traffic accident deaths occur...",
+      "topic_ids": [
+        "incidents.first_aid"
+      ],
+      "primary_topic_id": "incidents.first_aid",
+      "verified": true,
+      "index": 11,
+      "canonical_id": "ef6a6b0274c80d5ab1f41c83",
+      "question_ru": "Большинство дорожно-транспортных происшествий происходит…"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 13,
+      "question_id": "exam:1047:13",
+      "question": "Se encuentra en una vía en la que no puede circular hacia adelante ni cambiar de dirección o sentido, ¿puede dar marcha atrás?\nYou are on a road where you cannot drive forward or change direction. Can you reverse?",
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.reversing",
+        "driving.uturns"
+      ],
+      "primary_topic_id": "driving.reversing",
+      "verified": true,
+      "index": 12,
+      "canonical_id": "397e468c8dec2097d7ee2bee"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 14,
+      "question_id": "exam:1047:14",
+      "question": "¿Qué le indica la señal?\nWhat does this sign symbolise?",
+      "topic_ids": [
+        "priority.tram",
+        "signs.speed",
+        "signs.temporary"
+      ],
+      "primary_topic_id": "signs.speed",
+      "verified": true,
+      "index": 13,
+      "canonical_id": "493a6d16bf3c9b97690364e6"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 15,
+      "question_id": "exam:1047:15",
+      "question": "Si desde la línea de detención no hay visibilidad, ¿qué debe hacer la conductora del ciclomotor?\nIf there is no visibility from the stop line, what should the moped driver do?",
+      "topic_ids": [
+        "signs.markings"
+      ],
+      "primary_topic_id": "signs.markings",
+      "verified": true,
+      "index": 14,
+      "canonical_id": "d0b43751aac2bb1ce5940531"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 16,
+      "question_id": "exam:1047:16",
+      "question": "Tras un accidente, hay tres momentos en los que la vida de las personas implicadas se encuentra en grave peligro. Estos son:\nAfter an accident, there are three times when the lives of the victims are in serious danger. These are:",
+      "topic_ids": [
+        "incidents.first_aid"
+      ],
+      "primary_topic_id": "incidents.first_aid",
+      "verified": true,
+      "index": 15,
+      "canonical_id": "0488fe757f88bbf7a25a1173",
+      "question_ru": "После ДТП бывает три раза, когда жизни пострадавших оказываются в серьезной опасности. Это:"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 17,
+      "question_id": "exam:1047:17",
+      "question": "Es obligatorio utilizar el alumbrado de largo alcance o carretera al circular a más de...\nYou must use full-beam headlights when travelling at over...",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 16,
+      "canonical_id": "b10be9b5c2467a3dcfad8d83",
+      "question_ru": "Вы должны использовать фары с полным лучом, когда путешествуете по…"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 18,
+      "question_id": "exam:1047:18",
+      "question": "Si la furgoneta dispone de un mando para regular las luces, ¿debe su conductor, si es necesario, regular las luces cuando transporte carga pesada?\nIf the van has a control to adjust the lights, should the driver adjust the lights when carrying heavy loads, if necessary?",
+      "topic_ids": [
+        "vehicle.cargo",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 17,
+      "canonical_id": "9842d01ba740faa92d494379",
+      "question_ru": "Если у фургона есть управление для регулировки огней, должен ли водитель регулировать огни при перевозке тяжелых грузов, если это необходимо?"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 19,
+      "question_id": "exam:1047:19",
+      "question": "¿Qué indica el número que aparece en la señal?\nWhat does the number shown in the sign indicate?",
+      "topic_ids": [
+        "signs.parking",
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 18,
+      "canonical_id": "caa5ae4631b88065e22373a8"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 20,
+      "question_id": "exam:1047:20",
+      "question": "Esta señal permite el paso a…\nThis sign allows the passage of...",
+      "topic_ids": [
+        "driving.pedestrians"
+      ],
+      "primary_topic_id": "driving.pedestrians",
+      "verified": true,
+      "index": 19,
+      "canonical_id": "efc0de82581e31c87b7cea3c"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 21,
+      "question_id": "exam:1047:21",
+      "question": "Para el buen mantenimiento del sistema de frenos, ¿qué se debe hacer?\nFor good maintenance of the brake system, what should you do?",
+      "topic_ids": [
+        "vehicle.mechanics"
+      ],
+      "primary_topic_id": "vehicle.mechanics",
+      "verified": true,
+      "index": 20,
+      "canonical_id": "f57f09696d6bf4dcf85fd799",
+      "question_ru": "Для хорошего обслуживания тормозной системы, что делать?"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 22,
+      "question_id": "exam:1047:22",
+      "question": "¿Es conveniente hacer una revisión exhaustiva del estado del vehículo si el humo que despide el tubo de escape es de color negro?\nShould you carry out a thorough review of the vehicle's condition if the smoke coming from the exhaust is black?",
+      "topic_ids": [
+        "eco.noise",
+        "routine.distraction"
+      ],
+      "primary_topic_id": "eco.noise",
+      "verified": true,
+      "index": 21,
+      "canonical_id": "a47646fe40103441fe1b836e",
+      "question_ru": "Следует ли проводить тщательную проверку состояния автомобиля, если дым, исходящий от выхлопа, черный?"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 23,
+      "question_id": "exam:1047:23",
+      "question": "Ante este semáforo apagado, ¿qué debe hacer?\nWhat should you do if this traffic light is turned off?",
+      "topic_ids": [
+        "priority.lights"
+      ],
+      "primary_topic_id": "priority.lights",
+      "verified": true,
+      "index": 22,
+      "canonical_id": "a6e806f5109e1b784042f7d6",
+      "question_ru": "Что делать, если этот светофор выключен?"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 24,
+      "question_id": "exam:1047:24",
+      "question": "Los accidentes de ciclistas, ¿dónde se producen con mayor frecuencia?\nWhere do most accidents involving cyclists occur?",
+      "topic_ids": [
+        "transport.cycles"
+      ],
+      "primary_topic_id": "transport.cycles",
+      "verified": true,
+      "index": 23,
+      "canonical_id": "7a044fb2abcc53b225ad2900"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 25,
+      "question_id": "exam:1047:25",
+      "question": "A la vista de esta señal, ¿puede pasar conduciendo un ciclo?\nCan you ride a bicycle if you see this sign?",
+      "topic_ids": [
+        "transport.cycles"
+      ],
+      "primary_topic_id": "transport.cycles",
+      "verified": true,
+      "index": 24,
+      "canonical_id": "46b740de79d1447a4a708426",
+      "question_ru": "Можно ли ездить на велосипеде, увидев этот знак?"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 26,
+      "question_id": "exam:1047:26",
+      "question": "Los remolques ligeros con más de dos años de antigüedad, ¿deben pasar la ITV?\nShould light trailers over two years old take the ITV?",
+      "topic_ids": [
+        "documents.itv",
+        "numbers.deadlines.itv"
+      ],
+      "primary_topic_id": "numbers.deadlines.itv",
+      "verified": true,
+      "index": 25,
+      "canonical_id": "bc80da029d90362de92b390c",
+      "question_ru": "Нужно ли зажигать трейлеры старше двух лет на ITV?"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 27,
+      "question_id": "exam:1047:27",
+      "question": "¿Qué porcentaje de mortalidad tiene lugar durante la llamada hora de oro?\nHow many deaths occur during the so-called golden hour?",
+      "topic_ids": [
+        "incidents.first_aid"
+      ],
+      "primary_topic_id": "incidents.first_aid",
+      "verified": true,
+      "index": 26,
+      "canonical_id": "ba52b217225a56f6348604d0",
+      "question_ru": "Сколько смертей происходит в так называемый «золотой час»?"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 28,
+      "question_id": "exam:1047:28",
+      "question": "El documento en el que aparece, entre otros datos, el registro de las inspecciones periódicas y acredita que un vehículo reúne las condiciones técnicas necesarias para circular es…\nThe document which contains, among other data, the inspection record, and certifies that a vehicle meets the technical conditions necessary for it to drive on public roads is...",
+      "topic_ids": [
+        "documents.itv",
+        "documents.registration"
+      ],
+      "primary_topic_id": "documents.itv",
+      "verified": true,
+      "index": 27,
+      "canonical_id": "b9a21943a000c3100162c227"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 29,
+      "question_id": "exam:1047:29",
+      "question": "Cuando un neumático tiene mucho aire, ¿qué ocurre?\nWhen a tyre is overinflated, what happens?",
+      "topic_ids": [
+        "vehicle.tyres"
+      ],
+      "primary_topic_id": "vehicle.tyres",
+      "verified": true,
+      "index": 28,
+      "canonical_id": "6290e9e63fff3ec66b671b52",
+      "question_ru": "Когда шина завышена, что происходит?"
+    },
+    {
+      "test_id": 101047,
+      "source_test_id": 1047,
+      "source_ordinal": 30,
+      "question_id": "exam:1047:30",
+      "question": "¿Es importante cumplir con los límites inferiores de velocidad?\nIs it important to comply with minimum speed limits?",
+      "topic_ids": [
+        "numbers.speeds"
+      ],
+      "primary_topic_id": "numbers.speeds",
+      "verified": true,
+      "index": 29,
+      "canonical_id": "33172d62da527dafc0fd562b",
+      "question_ru": "Важно ли соблюдать минимальные ограничения скорости?"
+    },
+    {
       "test_id": 101049,
       "source_test_id": 1049,
       "source_ordinal": 1,
@@ -8774,6 +10541,448 @@
       "index": 28,
       "canonical_id": "1085dd397dca4bbbc7b2fc4b",
       "question_ru": "Минимальная скорость, разрешенная для легкового автомобиля на этой дороге, составляет…"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 1,
+      "question_id": "exam:1050:01",
+      "question": "Para tratar de controlar o reducir una hemorragia por el oído, ¿cree usted que es conveniente taponarlo?\nTo try to control or reduce bleeding from the ear, should you plug it?",
+      "topic_ids": [
+        "incidents.first_aid"
+      ],
+      "primary_topic_id": "incidents.first_aid",
+      "verified": true,
+      "index": 0,
+      "canonical_id": "98638ab22e716e01af8afb09",
+      "question_ru": "Чтобы попытаться контролировать или уменьшить кровотечение из уха, вы должны подключить его?"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 2,
+      "question_id": "exam:1050:02",
+      "question": "¿A qué velocidad máxima puede circular por una autopista un turismo que arrastra un remolque ligero?\nWhat is the maximum speed permitted for a car pulling a trailer on a motorway?",
+      "topic_ids": [
+        "numbers.speeds"
+      ],
+      "primary_topic_id": "numbers.speeds",
+      "verified": true,
+      "index": 1,
+      "canonical_id": "c3c4438ca750823ce3b44fee"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 3,
+      "question_id": "exam:1050:03",
+      "question": "La utilización del carril habilitado para VAO...\nThe use of a High Occupancy Vehicle lane...",
+      "topic_ids": [
+        "transport.trailers"
+      ],
+      "primary_topic_id": "transport.trailers",
+      "verified": true,
+      "index": 2,
+      "canonical_id": "9121fe60e70662ad3e6e0ee0"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 4,
+      "question_id": "exam:1050:04",
+      "question": "Este panel complementario, ¿qué indica?\nWhat does this complementary panel indicate?",
+      "topic_ids": [
+        "priority.general"
+      ],
+      "primary_topic_id": "priority.general",
+      "verified": true,
+      "index": 3,
+      "canonical_id": "5e7e82f8aa3ff458c52c6819"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 5,
+      "question_id": "exam:1050:05",
+      "question": "¿Qué es una detención?\nWhat is a standstill?",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 4,
+      "canonical_id": "239e9a9a7689c59debd71ed8"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 6,
+      "question_id": "exam:1050:06",
+      "question": "Esta señal, ¿qué indica?\nWhat does this sign mean?",
+      "topic_ids": [
+        "signs.restrictions"
+      ],
+      "primary_topic_id": "signs.restrictions",
+      "verified": true,
+      "index": 5,
+      "canonical_id": "a3622fe6c6dd2bc884c8e716",
+      "question_ru": "Что означает этот знак?"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 7,
+      "question_id": "exam:1050:07",
+      "question": "Un conjunto de vehículos de más de 7 metros de longitud que circula por esta vía de poblado con tres carriles para el mismo sentido delimitados por marcas longitudinales, además del carril derecho, ¿qué carriles puede utilizar?\nA combination vehicle measuring over 7 metres long is driving along a road in a populated area with three lanes in the same direction, marked out with longitudinal lines. In addition to the right-hand lane, which lanes can it use?",
+      "topic_ids": [
+        "driving.lanes"
+      ],
+      "primary_topic_id": "driving.lanes",
+      "verified": true,
+      "index": 6,
+      "canonical_id": "d0176c35b2bed91474378c63"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 8,
+      "question_id": "exam:1050:08",
+      "question": "Al aproximarse a ciclos circulando, ¿es obligatorio moderar la velocidad?\nWhen approaching a cyclist, is it compulsory to adjust your speed?",
+      "topic_ids": [
+        "transport.cycles"
+      ],
+      "primary_topic_id": "transport.cycles",
+      "verified": true,
+      "index": 7,
+      "canonical_id": "167ad2508366c09e75c9c656",
+      "question_ru": "При приближении к велосипедисту обязательно корректировать скорость?"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 9,
+      "question_id": "exam:1050:09",
+      "question": "En el caso de accidente o avería, si el vehículo está inmovilizado sin posibilidad de reemprender la marcha, los ocupantes…\nIn the event of an accident or breakdown, if the vehicle is stationary without the option of restarting, the occupants...",
+      "topic_ids": [
+        "incidents.towing"
+      ],
+      "primary_topic_id": "incidents.towing",
+      "verified": true,
+      "index": 8,
+      "canonical_id": "0ad52926560b17c52f7a1fca"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 10,
+      "question_id": "exam:1050:10",
+      "question": "Para ahorrar carburante, ¿qué debe hacer?\nWhat should you do to save fuel?",
+      "topic_ids": [
+        "routine.ecodriving"
+      ],
+      "primary_topic_id": "routine.ecodriving",
+      "verified": true,
+      "index": 9,
+      "canonical_id": "3f11a22015aa92812a9e1013",
+      "question_ru": "Что нужно сделать, чтобы сэкономить топливо?"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 11,
+      "question_id": "exam:1050:11",
+      "question": "En una glorieta regulada exclusivamente por esta señal, ¿quién tiene prioridad de paso?\nOn a roundabout regulated exclusively by this sign, who has priority?",
+      "topic_ids": [
+        "driving.roundabouts",
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 10,
+      "canonical_id": "0b8000d846bba94e9837195a"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 12,
+      "question_id": "exam:1050:12",
+      "question": "Un menor de edad con estatura de 140 centímetros, ¿puede ocupar el asiento delantero de un turismo?\nCan a child who is 140 centimetres tall sit in the front seat of a car?",
+      "topic_ids": [
+        "routine.seatbelts",
+        "vehicle.children"
+      ],
+      "primary_topic_id": "vehicle.children",
+      "verified": true,
+      "index": 11,
+      "canonical_id": "161ceffd96222419a2f881b1"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 13,
+      "question_id": "exam:1050:13",
+      "question": "Los excesos de velocidad...\nSpeeding...",
+      "topic_ids": [
+        "routine.distraction"
+      ],
+      "primary_topic_id": "routine.distraction",
+      "verified": true,
+      "index": 12,
+      "canonical_id": "1138ec6d4eedc68e8308f46b",
+      "question_ru": "Скорость…"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 14,
+      "question_id": "exam:1050:14",
+      "question": "Hablar por un teléfono móvil con dispositivo de manos libres durante la conducción...\nTalking on a mobile phone with a hands-free device while driving...",
+      "topic_ids": [
+        "routine.distraction"
+      ],
+      "primary_topic_id": "routine.distraction",
+      "verified": true,
+      "index": 13,
+      "canonical_id": "32858fe8dd5fbcaaa3196729",
+      "question_ru": "Разговаривая по мобильному телефону с устройством без рук во время вождения…"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 15,
+      "question_id": "exam:1050:15",
+      "question": "Si se ve obligado a trasladar en su turismo a un herido, ¿debe respetar las normas de circulación?\nIf you are forced to transport an injured person in your car, do you need to follow traffic rules?",
+      "topic_ids": [
+        "documents.insurance",
+        "incidents.first_aid"
+      ],
+      "primary_topic_id": "documents.insurance",
+      "verified": true,
+      "index": 14,
+      "canonical_id": "2268d9e947a9da99ad2f3e8a"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 16,
+      "question_id": "exam:1050:16",
+      "question": "El conductor de una motocicleta que cuenta con estructura de autoprotección y cinturón de seguridad, ¿está obligado a utilizar casco?\nIs the driver of a motorcycle with a self-protection structure and a seat belt required to wear a helmet?",
+      "topic_ids": [
+        "routine.helmets",
+        "routine.seatbelts"
+      ],
+      "primary_topic_id": "routine.helmets",
+      "verified": true,
+      "index": 15,
+      "canonical_id": "54760a7da9e79512906a907a"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 17,
+      "question_id": "exam:1050:17",
+      "question": "Esta señal, ¿prohíbe cambiar de dirección a la izquierda?\nDoes this sign prohibit changing direction to the left?",
+      "topic_ids": [
+        "signs.restrictions"
+      ],
+      "primary_topic_id": "signs.restrictions",
+      "verified": true,
+      "index": 16,
+      "canonical_id": "1a4f1812a838223111733acf"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 18,
+      "question_id": "exam:1050:18",
+      "question": "Circula con su turismo por esta vía interurbana con un carril para cada sentido; si no pretende adelantar al camión, ¿qué distancia de seguridad debe dejar?\nYou are driving your car along this intercity road with a lane in each direction; if you do not intend to overtake the lorry, what stopping distance should you leave?",
+      "topic_ids": [
+        "driving.overtaking",
+        "numbers.distances",
+        "speed.stopping"
+      ],
+      "primary_topic_id": "speed.stopping",
+      "verified": true,
+      "index": 17,
+      "canonical_id": "72e097a712be6bd9368e5db2",
+      "question_ru": "Вы едете на своем автомобиле по этой междугородней дороге с полосой движения в каждом направлении; если вы не намерены обгонять грузовик, на какой остановке вы должны выйти?"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 19,
+      "question_id": "exam:1050:19",
+      "question": "Fumar durante la conducción...\nSmoking while driving...",
+      "topic_ids": [
+        "routine.distraction"
+      ],
+      "primary_topic_id": "routine.distraction",
+      "verified": true,
+      "index": 18,
+      "canonical_id": "7341c3dbe0c968436d7b1529"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 20,
+      "question_id": "exam:1050:20",
+      "question": "Los daños a los vehículos y su carga, a la vía y el entorno y al medioambiente, ¿cómo se llaman?\nWhat is damage to vehicles and their load, the road and the environment called?",
+      "topic_ids": [
+        "vehicle.cargo"
+      ],
+      "primary_topic_id": "vehicle.cargo",
+      "verified": true,
+      "index": 19,
+      "canonical_id": "f27ddee3483a388aa06b7c68",
+      "question_ru": "Как называется повреждение транспортных средств и их груза, дороги и окружающей среды?"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 21,
+      "question_id": "exam:1050:21",
+      "question": "La señal indica la obligación para los conductores de circular con el alumbrado de corto alcance al menos desde el lugar en que esté situada la señal hasta otra de…\nThis sign means that drivers must use their dipped-beam headlights at least from the location where this sign is located until another which...",
+      "topic_ids": [
+        "signs.mandatory",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 20,
+      "canonical_id": "870754948d0fdd7792075c1b",
+      "question_ru": "Этот знак означает, что водители должны использовать свои фары ближнего света, по крайней мере, из того места, где этот знак расположен, до другого, которое может быть использовано…"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 22,
+      "question_id": "exam:1050:22",
+      "question": "En el caso de perder todos los puntos del permiso de conducir, ¿qué situación conllevará?\nIf you lose all the points on your driving licence, what will happen?",
+      "topic_ids": [
+        "documents.permissions",
+        "documents.points",
+        "numbers.deadlines.licences"
+      ],
+      "primary_topic_id": "documents.points",
+      "verified": true,
+      "index": 21,
+      "canonical_id": "eba5f3e3361f182260011198"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 23,
+      "question_id": "exam:1050:23",
+      "question": "La realización de marchas ciclistas, ¿requerirá autorización previa?\nIs prior authorisation required for cycling events?",
+      "topic_ids": [
+        "transport.cycles"
+      ],
+      "primary_topic_id": "transport.cycles",
+      "verified": true,
+      "index": 22,
+      "canonical_id": "1f90515740168b3fd4ba1580"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 24,
+      "question_id": "exam:1050:24",
+      "question": "En un turismo, el mando que se resalta en la imagen regula la...\nIn a car, the control highlighted in this image adjusts...",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 23,
+      "canonical_id": "fd074ebf155a9f75ad52b340"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 25,
+      "question_id": "exam:1050:25",
+      "question": "¿Qué indican estas marcas viales?\nWhat do these road signs indicate?",
+      "topic_ids": [
+        "driving.crossings",
+        "signs.markings"
+      ],
+      "primary_topic_id": "driving.crossings",
+      "verified": true,
+      "index": 24,
+      "canonical_id": "3b20f3dc0eeca8b76253094b"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 26,
+      "question_id": "exam:1050:26",
+      "question": "Debido a un pinchazo sustituye una de las ruedas de su vehículo por la de uso temporal, ¿cuántos kilómetros podrá circular en esas condiciones?\nYou replace one of your wheels with a temporary wheel due to a puncture. How far can you travel in these conditions?",
+      "topic_ids": [
+        "vehicle.tyres"
+      ],
+      "primary_topic_id": "vehicle.tyres",
+      "verified": true,
+      "index": 25,
+      "canonical_id": "97b503db2b5e51c946ab0597"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 27,
+      "question_id": "exam:1050:27",
+      "question": "¿Qué personas incurren en la omisión de socorro a las víctimas de un accidente de tráfico?\nWhich people are guilty of failure to provide assistance to victims of a traffic accident?",
+      "topic_ids": [
+        "incidents.first_aid"
+      ],
+      "primary_topic_id": "incidents.first_aid",
+      "verified": true,
+      "index": 26,
+      "canonical_id": "8e17d04d8d4a239e062cebc8"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 28,
+      "question_id": "exam:1050:28",
+      "question": "Esta señal significa que...\nThis sign means...",
+      "topic_ids": [
+        "driving.braking"
+      ],
+      "primary_topic_id": "driving.braking",
+      "verified": true,
+      "index": 27,
+      "canonical_id": "12d9be97bf15a97243f59ce6"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 29,
+      "question_id": "exam:1050:29",
+      "question": "¿Por qué es necesario y obligatorio ponerse el cinturón de seguridad?\nWhy is it necessary and compulsory to wear a seat belt?",
+      "topic_ids": [
+        "routine.seatbelts"
+      ],
+      "primary_topic_id": "routine.seatbelts",
+      "verified": true,
+      "index": 28,
+      "canonical_id": "f7bd694de3f59846b9cb30b8",
+      "question_ru": "Почему необходимо и обязательно носить ремень безопасности?"
+    },
+    {
+      "test_id": 101050,
+      "source_test_id": 1050,
+      "source_ordinal": 30,
+      "question_id": "exam:1050:30",
+      "question": "¿Está permitido circular por una autovía, sin causa justificada, por debajo del límite mínimo de velocidad establecido para dicha vía?\nAre you allowed to drive on a dual carriageway below the minimum speed limit established for that road without just cause?",
+      "topic_ids": [
+        "numbers.speeds",
+        "speed.adaptation"
+      ],
+      "primary_topic_id": "numbers.speeds",
+      "verified": true,
+      "index": 29,
+      "canonical_id": "7eb78f0774daa15a8218c155",
+      "question_ru": "Разрешено ли вам ездить по дороге с разделенными проезжими частями ниже минимального ограничения скорости, установленного для этой дороги, без уважительной причины?"
     },
     {
       "test_id": 101053,
@@ -9687,6 +11896,458 @@
       "question_ru": "Когда ездишь быстрее…"
     },
     {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 1,
+      "question_id": "exam:1057:01",
+      "question": "No pueden circular por autopista...\nA motorway cannot be used by...",
+      "topic_ids": [
+        "vehicle.motorcycles"
+      ],
+      "primary_topic_id": "vehicle.motorcycles",
+      "verified": true,
+      "index": 0,
+      "canonical_id": "6d864b48623e510e06dabc8f",
+      "question_ru": "Автомагистраль не может быть использована…"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 2,
+      "question_id": "exam:1057:02",
+      "question": "El conductor de la furgoneta, ¿puede hacer una parada en doble fila para descargar?\nCan a van driver double park to unload?",
+      "topic_ids": [
+        "driving.parking",
+        "vehicle.cargo"
+      ],
+      "primary_topic_id": "vehicle.cargo",
+      "verified": true,
+      "index": 1,
+      "canonical_id": "2791df5746b5ca7db4e4d605"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 3,
+      "question_id": "exam:1057:03",
+      "question": "Al cargar combustible en el vehículo es obligatorio...\nWhen fuelling a vehicle, it is mandatory...",
+      "topic_ids": [
+        "routine.ecodriving",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 2,
+      "canonical_id": "2c51c129f382388c846c0e1b",
+      "question_ru": "При заправке автомобиля он является обязательным…"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 4,
+      "question_id": "exam:1057:04",
+      "question": "En un paso para peatones sin semáforos o agente que lo regule, ¿cuándo tienen preferencia los peatones?\nOn pedestrian crossings with no traffic lights or traffic officers, when do pedestrians have right-of-way?",
+      "topic_ids": [
+        "priority.lights"
+      ],
+      "primary_topic_id": "priority.lights",
+      "verified": true,
+      "index": 3,
+      "canonical_id": "9474e5a4e848f4355355d821",
+      "question_ru": "На пешеходных переходах без светофоров или регулировщиков, когда пешеходы имеют приоритет?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 5,
+      "question_id": "exam:1057:05",
+      "question": "La señal de la imagen prohíbe el acceso a...\nThe sign in the image prohibits access to...",
+      "topic_ids": [
+        "signs.restrictions"
+      ],
+      "primary_topic_id": "signs.restrictions",
+      "verified": true,
+      "index": 4,
+      "canonical_id": "8d95da21e774ad1ca6cd345a",
+      "question_ru": "Знак на изображении запрещает доступ к…"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 6,
+      "question_id": "exam:1057:06",
+      "question": "El cojín elevador con respaldo es un dispositivo de retención que es apto para la utilización por niños de entre...\nA booster seat with a backrest is a restraint system suitable for children between...",
+      "topic_ids": [
+        "vehicle.children"
+      ],
+      "primary_topic_id": "vehicle.children",
+      "verified": true,
+      "index": 5,
+      "canonical_id": "88c3db65291e5d78ff2721bf"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 7,
+      "question_id": "exam:1057:07",
+      "question": "Cuando se realiza un giro, las luces angulares se encienden o giran iluminando...\nWhen taking a bend, corner lamps light up or turn illuminating...",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 6,
+      "canonical_id": "97658398a945dc19b428da86",
+      "question_ru": "При наклоне угловые лампы загораются или включаются, освещая…"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 8,
+      "question_id": "exam:1057:08",
+      "question": "Si se matricula hoy una caravana de la categoría O2 para llevarla enganchada a un turismo, ¿cada cuánto tiempo debe presentarla a inspección técnica periódica durante los primeros seis años?\nIf you register an O2 category caravan today to be towed by a car, how often should you submit it to a periodic technical inspection for the first six years?",
+      "topic_ids": [
+        "documents.itv",
+        "documents.permissions",
+        "documents.registration",
+        "incidents.towing",
+        "numbers.deadlines.itv"
+      ],
+      "primary_topic_id": "numbers.deadlines.itv",
+      "verified": true,
+      "index": 7,
+      "canonical_id": "2be810e0cd3231b1500ebb74",
+      "question_ru": "Если вы сегодня регистрируете караван категории О2 для буксировки на автомобиле, как часто вы должны представлять его на периодическую техническую проверку в течение первых шести лет?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 9,
+      "question_id": "exam:1057:09",
+      "question": "Con fuerte viento lateral se deberá...\nWhen there are strong side winds, you must...",
+      "topic_ids": [
+        "conditions.wind"
+      ],
+      "primary_topic_id": "conditions.wind",
+      "verified": true,
+      "index": 8,
+      "canonical_id": "f0ce820c72d1b2ad71ccf6fd"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 10,
+      "question_id": "exam:1057:10",
+      "question": "Este ciclista...\nThis cyclist...",
+      "topic_ids": [
+        "transport.cycles"
+      ],
+      "primary_topic_id": "transport.cycles",
+      "verified": true,
+      "index": 9,
+      "canonical_id": "9881fc1f54ef102542284eb5",
+      "question_ru": "Этот велосипедист…"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 11,
+      "question_id": "exam:1057:11",
+      "question": "En un carril reservado para autobuses y taxis que está señalizado con un semáforo con una franja blanca vertical intermitente...\nIn a lane reserved for buses and taxis which has a traffic light with a white flashing vertical strip...",
+      "topic_ids": [
+        "driving.signals",
+        "priority.lights",
+        "signs.lanes",
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 10,
+      "canonical_id": "32da308831d84f8aee5d8f0b"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 12,
+      "question_id": "exam:1057:12",
+      "question": "Antes de entrar en la autopista deberá...\nBefore joining a motorway, you must...",
+      "topic_ids": [
+        "driving.roads"
+      ],
+      "primary_topic_id": "driving.roads",
+      "verified": true,
+      "index": 11,
+      "canonical_id": "e0a97de0312111570f3e9cd8"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 13,
+      "question_id": "exam:1057:13",
+      "question": "La señal horizontal indica...\nThe horizontal sign indicates...",
+      "topic_ids": [
+        "signs.lanes",
+        "signs.markings",
+        "signs.speed"
+      ],
+      "primary_topic_id": "signs.speed",
+      "verified": true,
+      "index": 12,
+      "canonical_id": "fbd6699eb2f0d034fec46556"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 14,
+      "question_id": "exam:1057:14",
+      "question": "El alcohol, ¿modifica el campo visual del conductor?\nDoes alcohol affect the driver's visual field?",
+      "topic_ids": [
+        "routine.alcohol"
+      ],
+      "primary_topic_id": "routine.alcohol",
+      "verified": true,
+      "index": 13,
+      "canonical_id": "d549783bca25f0f15d1e5609"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 15,
+      "question_id": "exam:1057:15",
+      "question": "Esta señal indica peligro por...\nThis sign indicates danger due to...",
+      "topic_ids": [
+        "conditions.wind",
+        "signs.warning"
+      ],
+      "primary_topic_id": "conditions.wind",
+      "verified": true,
+      "index": 14,
+      "canonical_id": "7e1a70a1f756b42510525de4"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 16,
+      "question_id": "exam:1057:16",
+      "question": "Si circula de día por un túnel suficientemente iluminado, dentro de poblado, ¿qué alumbrado debe utilizar?\nIf you are driving during the day through a well-lit tunnel, within a populated area, which lights should you use?",
+      "topic_ids": [
+        "driving.tunnels",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 15,
+      "canonical_id": "03fd6cf0c437686aa00f411e"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 17,
+      "question_id": "exam:1057:17",
+      "question": "El conductor que ha tomado alcohol...\nA driver who has drunk alcohol...",
+      "topic_ids": [
+        "routine.alcohol"
+      ],
+      "primary_topic_id": "routine.alcohol",
+      "verified": true,
+      "index": 16,
+      "canonical_id": "8bf255e179b15b99a9bf251f"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 18,
+      "question_id": "exam:1057:18",
+      "question": "¿A qué velocidad, como máximo, está permitido circular por una autovía con este vehículo de tres ruedas asimilado a motocicleta?\nWhat is the speed limit for this motorcycle-type three-wheeled vehicle on a motorway?",
+      "topic_ids": [
+        "numbers.speeds"
+      ],
+      "primary_topic_id": "numbers.speeds",
+      "verified": true,
+      "index": 17,
+      "canonical_id": "2f49f195b198fdaad275a892",
+      "question_ru": "Каково ограничение скорости для трехколесного транспортного средства мотоцикла на автомагистрали?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 19,
+      "question_id": "exam:1057:19",
+      "question": "Un turismo con remolque, ¿puede circular por un carril VAO?\nCan a car towing a trailer use an HOV lane?",
+      "topic_ids": [
+        "incidents.towing"
+      ],
+      "primary_topic_id": "incidents.towing",
+      "verified": true,
+      "index": 18,
+      "canonical_id": "f2d22ca8fb2cf07dab5ff2df"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 20,
+      "question_id": "exam:1057:20",
+      "question": "Un conjunto de vehículos de más de 7 metros de longitud que circula por una vía con tres carriles para el mismo sentido, además del carril derecho, ¿qué carriles puede utilizar?\nA combination vehicle measuring over 7 metres long is driving along a road with three lanes in the same direction. In addition to the right-hand lane, which lanes can it use?",
+      "topic_ids": [
+        "driving.lanes"
+      ],
+      "primary_topic_id": "driving.lanes",
+      "verified": true,
+      "index": 19,
+      "canonical_id": "875fb66276997cac67b2162c",
+      "question_ru": "Комбинированное транспортное средство длиной более 7 метров движется по дороге с тремя полосами движения в одном направлении. В дополнение к правой полосе, какие полосы он может использовать?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 21,
+      "question_id": "exam:1057:21",
+      "question": "Si tiene que auxiliar a las víctimas de un accidente de tráfico lo primero que tiene que tener en cuenta es...\nIf you need to help victims of a traffic accident, the first thing to consider is...",
+      "topic_ids": [
+        "incidents.first_aid"
+      ],
+      "primary_topic_id": "incidents.first_aid",
+      "verified": true,
+      "index": 20,
+      "canonical_id": "08ac4d87e07db1fa77db51e3"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 22,
+      "question_id": "exam:1057:22",
+      "question": "Al girar el vehículo, ¿debe dar prioridad a los animales?\nWhen the vehicle turns, should it give way to the animals?",
+      "topic_ids": [
+        "priority.general"
+      ],
+      "primary_topic_id": "priority.general",
+      "verified": true,
+      "index": 21,
+      "canonical_id": "6c08dc4be66769b681d1b1fa",
+      "question_ru": "Когда автомобиль поворачивается, должен ли он уступить место животным?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 23,
+      "question_id": "exam:1057:23",
+      "question": "¿Cuáles son los principales grupos vulnerables en el tráfico?\nWhat are the main vulnerable groups in traffic?",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "primary_topic_id": "routine.safety",
+      "verified": true,
+      "index": 22,
+      "canonical_id": "319db1ce5df3c76ccf61909d",
+      "question_ru": "Каковы основные уязвимые группы в дорожном движении?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 24,
+      "question_id": "exam:1057:24",
+      "question": "Hay nieve en la calzada, ¿cuándo es obligatorio usar cadenas?\nThere is snow on the road, when is it compulsory to use chains?",
+      "topic_ids": [
+        "conditions.ice"
+      ],
+      "primary_topic_id": "conditions.ice",
+      "verified": true,
+      "index": 23,
+      "canonical_id": "3a151bee6ad61519f5499151",
+      "question_ru": "На дороге идет снег, когда обязательно пользоваться цепями?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 25,
+      "question_id": "exam:1057:25",
+      "question": "¿Qué significa esta señal?\nWhat does this sign mean?",
+      "topic_ids": [
+        "signs.information"
+      ],
+      "primary_topic_id": "signs.information",
+      "verified": true,
+      "index": 24,
+      "canonical_id": "e362f3c3553d2270235cd37a",
+      "question_ru": "Что означает этот знак?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 26,
+      "question_id": "exam:1057:26",
+      "question": "En el semáforo se enciende la luz amarilla no intermitente, ¿qué debe hacer?\nThere is a non-flashing amber traffic light. What should you do?",
+      "topic_ids": [
+        "driving.signals",
+        "priority.lights"
+      ],
+      "primary_topic_id": "priority.lights",
+      "verified": true,
+      "index": 25,
+      "canonical_id": "d1d8498b71415fcdd96595ea",
+      "question_ru": "Имеется не мигающий янтарный светофор. Что вы должны делать?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 27,
+      "question_id": "exam:1057:27",
+      "question": "¿En qué tipo de accidentes es más frecuente que se produzca el latigazo cervical?\nIn which types of accident is whiplash most common?",
+      "topic_ids": [
+        "vehicle.passive"
+      ],
+      "primary_topic_id": "vehicle.passive",
+      "verified": true,
+      "index": 26,
+      "canonical_id": "c191bf7ba23c7ce89071ed1f",
+      "question_ru": "В каких типах несчастных случаев хлыстовая травма наиболее распространена?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 28,
+      "question_id": "exam:1057:28",
+      "question": "¿Cómo gestiona el sistema de activación automática de alumbrado el encendido y apagado de las luces del vehículo?\nHow does the automatic lighting system turn on and switch off the vehicle's lights?",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 27,
+      "canonical_id": "28f93edadf108a12cf27e456",
+      "question_ru": "Как включается и выключается система автоматического освещения автомобиля?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 29,
+      "question_id": "exam:1057:29",
+      "question": "¿Es correcto que el conductor de un turismo utilice un cojín en su asiento?\nIs it acceptable for the driver of a passenger car to use a seat cushion?",
+      "topic_ids": [
+        "routine.seatbelts"
+      ],
+      "primary_topic_id": "routine.seatbelts",
+      "verified": true,
+      "index": 28,
+      "canonical_id": "bc3e541caee286305009c2d7",
+      "question_ru": "Допустимо ли водителю легкового автомобиля использовать подушку для сидения?"
+    },
+    {
+      "test_id": 101057,
+      "source_test_id": 1057,
+      "source_ordinal": 30,
+      "question_id": "exam:1057:30",
+      "question": "¿Qué debe tener en cuenta si conduce una motocicleta llevando a un pasajero?\nWhat should you be aware of when you ride a motorbike with a passenger?",
+      "topic_ids": [
+        "speed.stopping"
+      ],
+      "primary_topic_id": "speed.stopping",
+      "verified": true,
+      "index": 29,
+      "canonical_id": "1b659ca681eb7b1c49e92c99",
+      "question_ru": "Что нужно знать, когда вы едете на мотоцикле с пассажиром?"
+    },
+    {
       "test_id": 101058,
       "source_test_id": 1058,
       "source_ordinal": 1,
@@ -10150,6 +12811,919 @@
       "index": null,
       "canonical_id": "exam:1058:30",
       "question_ru": "По данным ДТП, на каком из этих транспортных средств больше всего аварий, в зависимости от средств передвижения?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 1,
+      "question_id": "exam:1060:01",
+      "question": "La flecha pintada sobre el carril derecho, ¿qué indica cuando se circula sobre él?\nWhen driving in the right-hand lane, what does the arrow indicate?",
+      "topic_ids": [
+        "signs.mandatory",
+        "signs.markings"
+      ],
+      "primary_topic_id": "signs.markings",
+      "verified": true,
+      "index": 0,
+      "canonical_id": "6191b5eac7ef15b36b14ba8a"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 2,
+      "question_id": "exam:1060:02",
+      "question": "Un conductor que señaliza un cambio de carril, ¿tiene preferencia sobre los conductores de los vehículos que circulan por el carril al que se pretende desplazar?\nIf a driver is indicating a lane change, do they have priority over vehicles already travelling in that lane?",
+      "topic_ids": [
+        "priority.sign",
+        "signs.lanes"
+      ],
+      "primary_topic_id": "signs.lanes",
+      "verified": true,
+      "index": 1,
+      "canonical_id": "7b73494b377ce18398381f8a",
+      "question_ru": "Если водитель указывает на изменение полосы движения, имеют ли они приоритет перед транспортными средствами, уже путешествующими по этой полосе?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 3,
+      "question_id": "exam:1060:03",
+      "question": "Para evitar un accidente, un conductor con fatiga al volante debe parar a descansar de forma adecuada cuanto antes porque...\nTo avoid an accident, a driver who is tired at the wheel must stop to rest in a suitable location as soon as possible because...",
+      "topic_ids": [
+        "driving.parking",
+        "routine.fatigue"
+      ],
+      "primary_topic_id": "routine.fatigue",
+      "verified": true,
+      "index": 2,
+      "canonical_id": "adc3d51bd75f19eb9ccaa0d8",
+      "question_ru": "Чтобы избежать аварии, водитель, который устал за рулем, должен остановиться, чтобы отдохнуть в подходящем месте как можно скорее…"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 4,
+      "question_id": "exam:1060:04",
+      "question": "En un control preventivo, ¿quiénes están obligados a someterse a las pruebas que se establezcan para la detección de alcoholemia?\nAt a sobriety checkpoint, who is required to take a test to detect the presence of alcohol?",
+      "topic_ids": [
+        "routine.alcohol"
+      ],
+      "primary_topic_id": "routine.alcohol",
+      "verified": true,
+      "index": 3,
+      "canonical_id": "2b81b98cb6c671e9f894123a",
+      "question_ru": "На контрольно-пропускном пункте по трезвости кто должен сдать анализ на наличие алкоголя?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 5,
+      "question_id": "exam:1060:05",
+      "question": "Si no pretende adelantar, ¿cuándo deberá mantener una distancia de seguridad de al menos 100 metros con el vehículo que circule delante?\nIf you do not intend to overtake, when must you leave a distance of at least 100 metres from the vehicle in front?",
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.tunnels",
+        "numbers.distances"
+      ],
+      "primary_topic_id": "numbers.distances",
+      "verified": true,
+      "index": 4,
+      "canonical_id": "ea926846289f0bf36e847c2c",
+      "question_ru": "Если вы не планируете обгонять, когда вы должны оставить расстояние не менее 100 метров от автомобиля впереди?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 6,
+      "question_id": "exam:1060:06",
+      "question": "Si circula por una vía interurbana insuficientemente iluminada a una velocidad inferior a 40 km/h, ¿qué luces deberá llevar encendidas?\nIf driving along a poorly lit intercity road at a speed under 40 km/h, which lights should be used?",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 5,
+      "canonical_id": "c07042663043d74a4c1a9a66"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 7,
+      "question_id": "exam:1060:07",
+      "question": "Cuando una señal imponga la obligación de detenerse, ¿hasta cuándo no se podrá reanudar la marcha?\nIf a sign requires you to stop, when can you start driving again?",
+      "topic_ids": [
+        "signs.mandatory",
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 6,
+      "canonical_id": "67bca8aa01aadcc1e1942910"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 8,
+      "question_id": "exam:1060:08",
+      "question": "¿Dónde debe colocar el navegador GPS portátil en el vehículo?\nWhere should a portable GPS navigator be positioned in the vehicle?",
+      "topic_ids": [
+        "routine.distraction",
+        "vehicle.passive"
+      ],
+      "primary_topic_id": "vehicle.passive",
+      "verified": true,
+      "index": 7,
+      "canonical_id": "8ddc7f94168bd493274e94ba"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 9,
+      "question_id": "exam:1060:09",
+      "question": "Un vehículo de dos ruedas provisto de un motor de combustión interna podrá ser catalogado como motocicleta siempre que...\nA two-wheeled vehicle with an internal combustion engine can be classified as a motorcycle, provided that...",
+      "topic_ids": [
+        "numbers.displacement",
+        "vehicle.classification"
+      ],
+      "primary_topic_id": "numbers.displacement",
+      "verified": true,
+      "index": 8,
+      "canonical_id": "d2fed8d04e834325e094571f"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 10,
+      "question_id": "exam:1060:10",
+      "question": "¿Cuál es la velocidad máxima a la que le está permitido circular por una autovía con una autocaravana de MMA inferior a 3.500 kg?\nWhat is the speed limit for a motorhome with a MAM under 3,500 kg travelling on a dual carriageway?",
+      "topic_ids": [
+        "numbers.speeds"
+      ],
+      "primary_topic_id": "numbers.speeds",
+      "verified": true,
+      "index": 9,
+      "canonical_id": "7fac0afe2ac6af78795d35ae",
+      "question_ru": "Каково ограничение скорости для автодома с РММ менее 3500 кг, проезжающего по дороге с разделенными проезжими частями?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 11,
+      "question_id": "exam:1060:11",
+      "question": "¿De qué le advierte la señal V-27, triángulo virtual?\nWhat does the virtual triangle V-27 sign warn you about?",
+      "topic_ids": [
+        "incidents.scene",
+        "signs.vehicle_plates",
+        "signs.warning"
+      ],
+      "primary_topic_id": "incidents.scene",
+      "verified": true,
+      "index": 10,
+      "canonical_id": "336e38c74f14d15611fb853e"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 12,
+      "question_id": "exam:1060:12",
+      "question": "En caso de sufrir un reventón circulando por una vía a velocidad elevada, ¿es aconsejable pisar el pedal de freno con brusquedad?\nIf you suffer a burst tyre at high speed, should you step on the brake pedal abruptly?",
+      "topic_ids": [
+        "vehicle.tyres"
+      ],
+      "primary_topic_id": "vehicle.tyres",
+      "verified": true,
+      "index": 11,
+      "canonical_id": "f36d84010b0360648ddcc180",
+      "question_ru": "Если вы страдаете от разрыва шины на высокой скорости, вы должны резко наступить на педаль тормоза?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 13,
+      "question_id": "exam:1060:13",
+      "question": "Está prohibido parar...\nIt is prohibited to stop...",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 12,
+      "canonical_id": "cd4ed2713b986e40c44308be",
+      "question_ru": "Запрещается останавливать…"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 14,
+      "question_id": "exam:1060:14",
+      "question": "Esta señal, ¿prohíbe la entrada a los camiones?\nDoes this sign prohibit entry to lorries?",
+      "topic_ids": [
+        "signs.restrictions"
+      ],
+      "primary_topic_id": "signs.restrictions",
+      "verified": true,
+      "index": 13,
+      "canonical_id": "88b437ae42693245a0a0c9d5",
+      "question_ru": "Запрещает ли этот знак въезд в грузовые автомобили?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 15,
+      "question_id": "exam:1060:15",
+      "question": "En general, bajo los efectos del alcohol los conductores...\nIn general, under the effects of alcohol, drivers...",
+      "topic_ids": [
+        "routine.alcohol"
+      ],
+      "primary_topic_id": "routine.alcohol",
+      "verified": true,
+      "index": 14,
+      "canonical_id": "d9e7d5fcbe2c87cfe857fea8"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 16,
+      "question_id": "exam:1060:16",
+      "question": "¿Cómo advertirá de su propósito de efectuar una parada en el carril derecho a los conductores de los vehículos que circulan por detrás del suyo?\nHow do you warn drivers behind you that you intend to stop in the right-hand lane?",
+      "topic_ids": [
+        "driving.parking",
+        "driving.signals"
+      ],
+      "primary_topic_id": "driving.signals",
+      "verified": true,
+      "index": 15,
+      "canonical_id": "9515dc779fb1bb1bf456a1d9"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 17,
+      "question_id": "exam:1060:17",
+      "question": "De los siguientes, ¿cuál es un síntoma característico de la aparición de la fatiga en el conductor?\nWhat is a classic sign of driver fatigue?",
+      "topic_ids": [
+        "routine.fatigue"
+      ],
+      "primary_topic_id": "routine.fatigue",
+      "verified": true,
+      "index": 16,
+      "canonical_id": "3e6e3d97ea4a1986a9fd601a"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 18,
+      "question_id": "exam:1060:18",
+      "question": "Para evitar un accidente en caso de frenada brusca, ¿debe adaptar la velocidad y la distancia de seguridad con el vehículo de delante si circula con una furgoneta cargada?\nTo avoid an accident in the event of sudden braking, should you adapt the speed and stopping distance from the vehicle in front if you are driving in a loaded van?",
+      "topic_ids": [
+        "numbers.distances",
+        "speed.stopping",
+        "vehicle.cargo"
+      ],
+      "primary_topic_id": "speed.stopping",
+      "verified": true,
+      "index": 17,
+      "canonical_id": "9dfc8cefcc678b1aefb2f37f",
+      "question_ru": "Чтобы избежать аварии в случае внезапного торможения, следует ли адаптировать скорость и остановочный путь от впереди идущего автомобиля, если вы едете в загруженном фургоне?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 19,
+      "question_id": "exam:1060:19",
+      "question": "Si el recorrido que va a realizar con su vehículo es corto, ¿está permitido llevar a un niño pequeño en brazos?\nIf your journey is going to be short, is it permitted to carry a small child in your arms?",
+      "topic_ids": [
+        "vehicle.children"
+      ],
+      "primary_topic_id": "vehicle.children",
+      "verified": true,
+      "index": 18,
+      "canonical_id": "c7ac1d28cda3df94f509ca81",
+      "question_ru": "Если ваша поездка будет короткой, можно ли носить маленького ребенка на руках?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 20,
+      "question_id": "exam:1060:20",
+      "question": "El permiso de la clase B con más de tres años de antigüedad, ¿permite conducir por territorio español una motocicleta con sidecar?\nIs it permitted to drive a motorcycle with a sidecar within Spain using a class B licence which is at least three years old?",
+      "topic_ids": [
+        "documents.permissions"
+      ],
+      "primary_topic_id": "documents.permissions",
+      "verified": true,
+      "index": 19,
+      "canonical_id": "49e386ddb764a2600dfc87b6",
+      "question_ru": "Можно ли в Испании управлять мотоциклом с коляской, если категория B открыта не менее трёх лет?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 21,
+      "question_id": "exam:1060:21",
+      "question": "¿En qué situación suelen tener menos accidentes las personas mayores como peatones?\nIn which situation do the elderly tend to have fewer accidents as pedestrians?",
+      "topic_ids": [
+        "driving.pedestrians"
+      ],
+      "primary_topic_id": "driving.pedestrians",
+      "verified": true,
+      "index": 20,
+      "canonical_id": "f8417a786e5fc776ad7609e3",
+      "question_ru": "В какой ситуации пожилые люди, как правило, имеют меньше несчастных случаев в качестве пешеходов?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 22,
+      "question_id": "exam:1060:22",
+      "question": "En los lugares donde se impida la visibilidad de la señalización a los usuarios a quienes les afecta está prohibido...\nIn places where sign visibility is impeded for users which must obey it, it is prohibited to...",
+      "topic_ids": [
+        "signs.parking",
+        "signs.priority",
+        "signs.restrictions"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 21,
+      "canonical_id": "46b85bae09e6082e332081fa"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 23,
+      "question_id": "exam:1060:23",
+      "question": "En los accidentes de motocicleta, ¿cuáles son las infracciones más frecuentes cometidas por sus conductores?\nIn motorcycle accidents, what are the most frequent offences committed by drivers?",
+      "topic_ids": [
+        "vehicle.motorcycles"
+      ],
+      "primary_topic_id": "vehicle.motorcycles",
+      "verified": true,
+      "index": 22,
+      "canonical_id": "7cb2a1e59f83a6a45632f7c5",
+      "question_ru": "Какие наиболее частые правонарушения совершают водители при авариях на мотоциклах?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 24,
+      "question_id": "exam:1060:24",
+      "question": "El vehículo rojo se quiere incorporar a la circulación proveniente del garaje particular de una vivienda, ¿debe cederle el paso?\nThe red vehicle intends to join traffic from a home's private garage, do you need to give way?",
+      "topic_ids": [
+        "driving.merging",
+        "priority.merging"
+      ],
+      "primary_topic_id": "priority.merging",
+      "verified": true,
+      "index": 23,
+      "canonical_id": "f5f86419cc9ce9b3b949b7aa",
+      "question_ru": "Красное транспортное средство собирается присоединиться к движению из частного гаража дома, вам нужно уступить дорогу?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 25,
+      "question_id": "exam:1060:25",
+      "question": "La mayoría de los vehículos disponen de un filtro en el habitáculo. ¿Debe sustituirse?\nMost vehicles have a filter in the passenger compartment. Should it be replaced?",
+      "topic_ids": [
+        "vehicle.passengers"
+      ],
+      "primary_topic_id": "vehicle.passengers",
+      "verified": true,
+      "index": 24,
+      "canonical_id": "9d5efcd56ac2575d2bc4a3e0"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 26,
+      "question_id": "exam:1060:26",
+      "question": "¿Cuál es una de las infracciones que cometen los conductores con mayor riesgo para los peatones?\nWhat is one of the most dangerous offences committed by drivers for pedestrians?",
+      "topic_ids": [
+        "priority.general"
+      ],
+      "primary_topic_id": "priority.general",
+      "verified": true,
+      "index": 25,
+      "canonical_id": "f5619bc8302d875efce57a9a",
+      "question_ru": "Что является одним из наиболее опасных правонарушений, совершаемых водителями для пешеходов?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 27,
+      "question_id": "exam:1060:27",
+      "question": "¿Está permitido que los usuarios de la vía pública modifiquen, oculten o retiren la señalización de la vía?\nIs it permitted for public road users to modify, hide or remove road signs?",
+      "topic_ids": [
+        "signs.general"
+      ],
+      "primary_topic_id": "signs.general",
+      "verified": true,
+      "index": 26,
+      "canonical_id": "ca42f68ff907542bdb342248"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 28,
+      "question_id": "exam:1060:28",
+      "question": "La cámara de marcha atrás transmite una vista del entorno trasero del vehículo...\nThe reversing camera transmits a view of the vehicle's rear environment...",
+      "topic_ids": [
+        "driving.reversing"
+      ],
+      "primary_topic_id": "driving.reversing",
+      "verified": true,
+      "index": 27,
+      "canonical_id": "5cfe137fbc58cc2a981d9e5e",
+      "question_ru": "Реверсивная камера передает вид задней среды автомобиля…"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 29,
+      "question_id": "exam:1060:29",
+      "question": "Además del airbag frontal, ¿existen otros tipos de airbag?\nIn addition to the front airbag, are there other types of airbag?",
+      "topic_ids": [
+        "vehicle.passive"
+      ],
+      "primary_topic_id": "vehicle.passive",
+      "verified": true,
+      "index": 28,
+      "canonical_id": "4264ec1ca3bec7f2ff10d048",
+      "question_ru": "Помимо подушки безопасности, существуют ли другие типы подушек безопасности?"
+    },
+    {
+      "test_id": 101060,
+      "source_test_id": 1060,
+      "source_ordinal": 30,
+      "question_id": "exam:1060:30",
+      "question": "En esta situación usted no quiere adelantar al camión. ¿Qué distancia debe dejar?\nIn this situation you do not want to overtake the lorry. What distance should you leave?",
+      "topic_ids": [
+        "driving.overtaking",
+        "numbers.distances"
+      ],
+      "primary_topic_id": "numbers.distances",
+      "verified": true,
+      "index": 29,
+      "canonical_id": "b89b51a6836d9653247d6c81",
+      "question_ru": "В этой ситуации вам не захочется обгонять грузовик. Какое расстояние вы должны оставить?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 1,
+      "question_id": "exam:1062:01",
+      "question": "El arcén de esta carretera no está pavimentado, ¿debe circular por él un ciclomotor?\nThe hard shoulder of this road is not paved, should a moped use it?",
+      "topic_ids": [
+        "driving.lanes"
+      ],
+      "primary_topic_id": "driving.lanes",
+      "verified": true,
+      "index": 0,
+      "canonical_id": "ad6946295f6899e35f2f4f07",
+      "question_ru": "Придорожная часть этой дороги не вымощена, должен ли мопед использовать ее?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 2,
+      "question_id": "exam:1062:02",
+      "question": "El tipo de vía por la que se circula, ¿influye en el consumo de carburante?\nDoes the type of road you are travelling on influence fuel consumption?",
+      "topic_ids": [
+        "routine.ecodriving"
+      ],
+      "primary_topic_id": "routine.ecodriving",
+      "verified": true,
+      "index": 1,
+      "canonical_id": "a42582db74e804454e950e2a",
+      "question_ru": "Влияет ли тип дороги, по которой вы путешествуете, на расход топлива?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 3,
+      "question_id": "exam:1062:03",
+      "question": "Si presencia un accidente, ¿qué debe hacer si no sabe atender a los heridos?\nIf an accident occurs, what should you do if you do not know how to care for the injured people?",
+      "topic_ids": [
+        "incidents.first_aid"
+      ],
+      "primary_topic_id": "incidents.first_aid",
+      "verified": true,
+      "index": 2,
+      "canonical_id": "1b4dddb1e0507ec4bef481d9"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 4,
+      "question_id": "exam:1062:04",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "topic_ids": [
+        "signs.parking"
+      ],
+      "primary_topic_id": "signs.parking",
+      "verified": true,
+      "index": 3,
+      "canonical_id": "c961d54e25bc5ab917799854",
+      "question_ru": "Что означает этот знак?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 5,
+      "question_id": "exam:1062:05",
+      "question": "La lluvia, ¿exige al conductor tomar más precauciones de las habituales?\nDoes rain require a driver to take more precautions than usual?",
+      "topic_ids": [
+        "driving.weather",
+        "vehicle.tyres"
+      ],
+      "primary_topic_id": "vehicle.tyres",
+      "verified": true,
+      "index": 4,
+      "canonical_id": "5985cdf3dc5be83432a4d8a6",
+      "question_ru": "Требует ли дождь от водителя больше мер предосторожности, чем обычно?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 6,
+      "question_id": "exam:1062:06",
+      "question": "Si se encuentra detenido ante una señal de stop, ¿puede utilizar su teléfono móvil?\nIf you are at a stop sign, can you use your mobile phone?",
+      "topic_ids": [
+        "routine.distraction",
+        "routine.helmets",
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 5,
+      "canonical_id": "fe30da8802032f9a39477ec8"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 7,
+      "question_id": "exam:1062:07",
+      "question": "En un vehículo de menos de 5 metros de longitud, destinado al transporte de mercancías, ¿cuánto puede sobresalir una carga de longitud indivisible por su parte delantera?\nIn a vehicle less than 5 metres long, intended for the transport of goods, by how much can a load of indivisible length protrude from the front?",
+      "topic_ids": [
+        "numbers.dimensions",
+        "vehicle.cargo"
+      ],
+      "primary_topic_id": "numbers.dimensions",
+      "verified": true,
+      "index": 6,
+      "canonical_id": "96919f98aa2d49feb34136f9",
+      "question_ru": "В транспортном средстве длиной менее 5 метров, предназначенном для перевозки грузов, на сколько может выступать спереди груз неделимой длины?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 8,
+      "question_id": "exam:1062:08",
+      "question": "Circulando por un paso inferior su vehículo sufre una avería que no le impide continuar la marcha, ¿qué debe hacer?\nWhen travelling along an underpass, your vehicle suffers a fault that does not prevent you from continuing to drive. What should you do?",
+      "topic_ids": [
+        "driving.tunnels",
+        "incidents.towing"
+      ],
+      "primary_topic_id": "driving.tunnels",
+      "verified": true,
+      "index": 7,
+      "canonical_id": "cf5c249a13c1d90102cf8235"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 9,
+      "question_id": "exam:1062:09",
+      "question": "El conductor de un turismo debe circular con el alumbrado de su vehículo encendido...\nThe car driver must travel with the vehicle's lights on...",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 8,
+      "canonical_id": "69464034f6ca6cdb41018346",
+      "question_ru": "Водитель автомобиля должен путешествовать с включенными огнями автомобиля…"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 10,
+      "question_id": "exam:1062:10",
+      "question": "Según las estadísticas, ¿qué grupo de conductores suele ser más proclive a sufrir un siniestro?\nAccording to statistics, which group of drivers is usually more likely to suffer an accident?",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "primary_topic_id": "routine.safety",
+      "verified": true,
+      "index": 9,
+      "canonical_id": "9d0720a533c1be4bddeef63e",
+      "question_ru": "Согласно статистике, какая группа водителей чаще всего попадает в ДТП?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 11,
+      "question_id": "exam:1062:11",
+      "question": "Cuando la presión de inflado de los neumáticos es inferior a la recomendada...\nIf the tyres are below the recommended inflation pressure....",
+      "topic_ids": [
+        "routine.ecodriving",
+        "vehicle.tyres"
+      ],
+      "primary_topic_id": "vehicle.tyres",
+      "verified": true,
+      "index": 10,
+      "canonical_id": "5fd08436d9e941842900696a",
+      "question_ru": "Если шины находятся ниже рекомендуемого инфляционного давления…"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 12,
+      "question_id": "exam:1062:12",
+      "question": "En una vía de doble sentido de circulación, ¿en qué caso no le está permitido adelantar detrás de otro vehículo que ya está adelantando?\nOn a two-way road, when is it not permitted to overtake behind another vehicle which is already overtaking?",
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 11,
+      "canonical_id": "eb7dbe21f5b8a9bad24a7182"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 13,
+      "question_id": "exam:1062:13",
+      "question": "¿Qué debe hacer siempre que se acerque a un autobús del que bajan niños?\nWhat should you do whenever approaching a bus from which children are alighting?",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 12,
+      "canonical_id": "25a1e19441be1de52ccdbd24",
+      "question_ru": "Что делать, если вы подъезжаете к автобусу, из которого садятся дети?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 14,
+      "question_id": "exam:1062:14",
+      "question": "El sistema de alerta de tráfico cruzado (RCTA) supervisa...\nThe rear cross traffic alert system (RCTA) monitors...",
+      "topic_ids": [
+        "vehicle.adas"
+      ],
+      "primary_topic_id": "vehicle.adas",
+      "verified": true,
+      "index": 13,
+      "canonical_id": "775821a180ccc759ca7c9541",
+      "question_ru": "Система оповещения о перекрёстном движении (RCTA) отслеживает…"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 15,
+      "question_id": "exam:1062:15",
+      "question": "El conductor de un vehículo no prioritario que se vea forzado a realizar un servicio de urgencia...\nThe driver of a non-priority vehicle who is forced to carry out emergency maintenance...",
+      "topic_ids": [
+        "driving.signals",
+        "priority.emergency",
+        "signs.warning",
+        "vehicle.mechanics"
+      ],
+      "primary_topic_id": "priority.emergency",
+      "verified": true,
+      "index": 14,
+      "canonical_id": "1b57597428aa2e64a8decd70"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 16,
+      "question_id": "exam:1062:16",
+      "question": "Entre la puesta y la salida del sol, en un tramo con muchas curvas, señalizadas con la señal de curvas peligrosas, ¿está permitido usar la luz antiniebla delantera?\nAre you permitted to use the front fog light between dusk and dawn on a stretch of road with many bends, with a sign warning of dangerous bends?",
+      "topic_ids": [
+        "conditions.fog",
+        "priority.narrow",
+        "priority.tram",
+        "signs.warning",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 15,
+      "canonical_id": "9759e4a3be2e2795fadc320a",
+      "question_ru": "Разрешено ли использовать передний противотуманный свет между сумерками и рассветом на участке дороги с множеством поворотов, с предупреждением об опасных поворотах?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 17,
+      "question_id": "exam:1062:17",
+      "question": "¿Cómo se denomina el automóvil con cuatro ruedas o más, concebido y construido para el transporte de mercancías cuya cabina está integrada en el resto de la carrocería y con un máximo de 9 plazas, incluido el conductor?\nWhat is the name of the car with four wheels or more, designed and built for the transport of goods, whose cabin is integrated into the rest of the bodywork and with a maximum of 9 seats, including the driver?",
+      "topic_ids": [
+        "eco.noise",
+        "vehicle.passive"
+      ],
+      "primary_topic_id": "eco.noise",
+      "verified": true,
+      "index": 16,
+      "canonical_id": "94b1498add86fe2749a0ff69",
+      "question_ru": "Как называется автомобиль с четырьмя колесами и более, спроектированный и построенный для перевозки грузов, кабина которого интегрирована в остальную часть кузова и имеет максимум 9 кресел, включая водителя?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 18,
+      "question_id": "exam:1062:18",
+      "question": "Circular a velocidad anormalmente reducida, sin causa que lo justifique, ¿es correcto?\nIs it permitted to travel at an abnormally low speed, without any reason to justify it?",
+      "topic_ids": [
+        "speed.adaptation"
+      ],
+      "primary_topic_id": "speed.adaptation",
+      "verified": true,
+      "index": 17,
+      "canonical_id": "773bf2d8a5c323ca59d95692"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 19,
+      "question_id": "exam:1062:19",
+      "question": "Un conductor, ¿se puede distraer si come o bebe mientras conduce?\nCan a driver be distracted if eating or drinking while driving?",
+      "topic_ids": [
+        "routine.distraction"
+      ],
+      "primary_topic_id": "routine.distraction",
+      "verified": true,
+      "index": 18,
+      "canonical_id": "7ca38261c48f7e8cca447311"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 20,
+      "question_id": "exam:1062:20",
+      "question": "En una vía interurbana de doble sentido y tres carriles separados por líneas discontinuas, ¿dónde se situará el conductor de un turismo para cambiar de dirección a la izquierda?\nOn a two-way intercity road with three lanes separated by broken lines, where will a car driver position themselves to turn left?",
+      "topic_ids": [
+        "driving.turns",
+        "signs.markings"
+      ],
+      "primary_topic_id": "signs.markings",
+      "verified": true,
+      "index": 19,
+      "canonical_id": "b5f3ae728496b02a956ea57d",
+      "question_ru": "На двухсторонней междугородней дороге с тремя полосами, разделенными разбитыми линиями, где водитель автомобиля будет располагаться, чтобы повернуть налево?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 21,
+      "question_id": "exam:1062:21",
+      "question": "La parte delantera del vehículo, ¿por qué no debe modificarse?\nWhy should you not modify the front of your vehicle?",
+      "topic_ids": [
+        "driving.pedestrians"
+      ],
+      "primary_topic_id": "driving.pedestrians",
+      "verified": true,
+      "index": 20,
+      "canonical_id": "52a232f2ff1869f7eac163ca",
+      "question_ru": "Почему не стоит менять переднюю часть автомобиля?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 22,
+      "question_id": "exam:1062:22",
+      "question": "Siempre que el recorrido hacia atrás no supere los 15 metros ni invada un cruce de vías, podrá circular marcha atrás...\nProvided that the reverse manoeuvre does not exceed 15 metres or enter a junction, you can reverse...",
+      "topic_ids": [
+        "driving.reversing"
+      ],
+      "primary_topic_id": "driving.reversing",
+      "verified": true,
+      "index": 21,
+      "canonical_id": "cf46acd82883e03252981daa",
+      "question_ru": "При условии, что реверсивный маневр не превышает 15 метров и не входит в перекресток, вы можете развернуть его в обратном направлении…"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 23,
+      "question_id": "exam:1062:23",
+      "question": "¿Cuál es el número máximo de plazas autorizadas, incluida la del conductor, que puede tener una furgoneta para poder circular?\nWhat is the maximum number of authorised seats, including the driver's, that a van can have to be allowed to drive?",
+      "topic_ids": [
+        "vehicle.classification",
+        "vehicle.passengers"
+      ],
+      "primary_topic_id": "vehicle.classification",
+      "verified": true,
+      "index": 22,
+      "canonical_id": "47ca70141737ace4df940931"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 24,
+      "question_id": "exam:1062:24",
+      "question": "El alcohol puede detectarse en la sangre a partir de los 5 minutos de haberlo consumido, pero, ¿cuándo alcanza su máximo nivel (pico de alcoholemia)?\nAlcohol can be detected in the blood 5 minutes after consumption, but when does it reach its highest level (peak blood alcohol)?",
+      "topic_ids": [
+        "numbers.alcohol",
+        "routine.alcohol",
+        "routine.ecodriving"
+      ],
+      "primary_topic_id": "numbers.alcohol",
+      "verified": true,
+      "index": 23,
+      "canonical_id": "3e1fd8cce2e37562fb431308"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 25,
+      "question_id": "exam:1062:25",
+      "question": "El conductor de un vehículo que se encuentra esta señal de frente, ¿tiene prioridad de paso en el próximo paso estrecho?\nWhen a driver approaches this sign, do they have right-of-way in the next section of road?",
+      "topic_ids": [
+        "priority.narrow",
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 24,
+      "canonical_id": "39167b448448ef1fd33e5b94"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 26,
+      "question_id": "exam:1062:26",
+      "question": "En un cambio de rasante de reducida visibilidad, ¿puede adelantar a una bicicleta?\nAt a change of level with reduced visibility, can you overtake a bicycle?",
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 25,
+      "canonical_id": "0b0546c888dd02b2c03a9931"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 27,
+      "question_id": "exam:1062:27",
+      "question": "¿Qué le ocurre a un chaleco reflectante al mantenerlo expuesto a la luz del sol (como en el respaldo del asiento)?\nWhat happens to a hi-vis jacket when it is exposed to direct sunlight (like on the back of a seat)?",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 26,
+      "canonical_id": "c1c1f93148d0410eb5d32e83",
+      "question_ru": "Что происходит с курткой, когда она подвергается воздействию прямых солнечных лучей (например, на задней части сиденья)?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 28,
+      "question_id": "exam:1062:28",
+      "question": "¿Le está permitido a un turismo con remolque circular por el arcén de una autopista?\nIs a car with a trailer allowed to drive on the hard shoulder of a motorway?",
+      "topic_ids": [
+        "incidents.towing"
+      ],
+      "primary_topic_id": "incidents.towing",
+      "verified": true,
+      "index": 27,
+      "canonical_id": "a5a74fce180336b0da5f6f3b",
+      "question_ru": "Разрешено ли автомобилю с прицепом ездить по обочине автомагистрали?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 29,
+      "question_id": "exam:1062:29",
+      "question": "El conductor de una motocicleta circula con el casco desabrochado, ¿es correcto?\nA motorcyclist is riding with an unfastened helmet, is this correct?",
+      "topic_ids": [
+        "routine.helmets"
+      ],
+      "primary_topic_id": "routine.helmets",
+      "verified": true,
+      "index": 28,
+      "canonical_id": "c8b5689462b0336d4c07ce2d",
+      "question_ru": "Велосипедист едет с непристегнутым шлемом, это правильно?"
+    },
+    {
+      "test_id": 101062,
+      "source_test_id": 1062,
+      "source_ordinal": 30,
+      "question_id": "exam:1062:30",
+      "question": "Se debe mantener una separación lateral adecuada...\nYou must maintain adequate lateral clearance…",
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 29,
+      "canonical_id": "022ec058bc87195628f52b28",
+      "question_ru": "Вы должны поддерживать адекватный боковой клиренс…"
     },
     {
       "test_id": 101063,
@@ -11069,6 +14643,882 @@
       "question_ru": "При остановке, вы должны указать это каким-либо образом?"
     },
     {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 1,
+      "question_id": "exam:1067:01",
+      "question": "Con esta señal, ¿está permitido utilizar con su turismo el carril de la derecha?\nWith this sign, is it permitted to use the right-hand lane with your car?",
+      "topic_ids": [
+        "signs.lanes"
+      ],
+      "primary_topic_id": "signs.lanes",
+      "verified": true,
+      "index": 0,
+      "canonical_id": "8f9ce8657129f64478feb0b4"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 2,
+      "question_id": "exam:1067:02",
+      "question": "En esta situación, ¿cuál es la distancia de seguridad entre vehículos?\nIn this situation, what is the safe distance between vehicles?",
+      "topic_ids": [
+        "numbers.distances"
+      ],
+      "primary_topic_id": "numbers.distances",
+      "verified": true,
+      "index": 1,
+      "canonical_id": "0e6ffc771a715edacaf7e431"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 3,
+      "question_id": "exam:1067:03",
+      "question": "Si un conductor presencia un accidente de tráfico, ¿está obligado a prestar auxilio a los accidentados?\nIf a driver witnesses a traffic accident, are they obliged to provide assistance to the injured parties?",
+      "topic_ids": [
+        "incidents.first_aid"
+      ],
+      "primary_topic_id": "incidents.first_aid",
+      "verified": true,
+      "index": 2,
+      "canonical_id": "a21fd19a3392bdc2fb4aeffe"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 4,
+      "question_id": "exam:1067:04",
+      "question": "Los conductores noveles, ¿pueden verse afectados en mayor medida por la fatiga?\nCan new drivers be more affected by fatigue?",
+      "topic_ids": [
+        "routine.fatigue"
+      ],
+      "primary_topic_id": "routine.fatigue",
+      "verified": true,
+      "index": 3,
+      "canonical_id": "7293da6d71b19c5384ba0e70"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 5,
+      "question_id": "exam:1067:05",
+      "question": "Mientras conduce, ¿qué teléfonos está permitido utilizar?\nWhile driving, what telephones are you allowed to use?",
+      "topic_ids": [
+        "routine.distraction"
+      ],
+      "primary_topic_id": "routine.distraction",
+      "verified": true,
+      "index": 4,
+      "canonical_id": "734ff21d58cc8378c76502b9"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 6,
+      "question_id": "exam:1067:06",
+      "question": "En los camiones de menos de 3.500 kg de MMA, ¿qué ocupantes están obligados a ponerse el cinturón de seguridad?\nIn lorries with under 3,500 kg MAM, which occupants are required to wear a seat belt?",
+      "topic_ids": [
+        "routine.seatbelts"
+      ],
+      "primary_topic_id": "routine.seatbelts",
+      "verified": true,
+      "index": 5,
+      "canonical_id": "a347fb006efc337428cd09bf"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 7,
+      "question_id": "exam:1067:07",
+      "question": "Las hojas caídas en la calzada, ¿pueden influir en la conducción?\nCan leaves which have fallen on the road influence driving?",
+      "topic_ids": [
+        "signs.markings"
+      ],
+      "primary_topic_id": "signs.markings",
+      "verified": true,
+      "index": 6,
+      "canonical_id": "ef1df545f11e2cb6bc79f1aa"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 8,
+      "question_id": "exam:1067:08",
+      "question": "Esta señal prohíbe...\nThis sign prohibits…",
+      "topic_ids": [
+        "signs.restrictions"
+      ],
+      "primary_topic_id": "signs.restrictions",
+      "verified": true,
+      "index": 7,
+      "canonical_id": "1324acfb28a557c43a36cc16"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 9,
+      "question_id": "exam:1067:09",
+      "question": "¿Cuál es el crédito inicial de puntos asignados a un conductor que obtiene su primer permiso de conducción?\nWhat is the initial points balance assigned to a driver that gets their first driving licence?",
+      "topic_ids": [
+        "documents.permissions",
+        "documents.points",
+        "numbers.deadlines.novice"
+      ],
+      "primary_topic_id": "documents.points",
+      "verified": true,
+      "index": 8,
+      "canonical_id": "f35b97075c200b31b3761658"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 10,
+      "question_id": "exam:1067:10",
+      "question": "¿Cuándo puede estacionar a la vista de esta señal?\nWhen can you park in view of this sign?",
+      "topic_ids": [
+        "numbers.dates",
+        "signs.parking"
+      ],
+      "primary_topic_id": "signs.parking",
+      "verified": true,
+      "index": 9,
+      "canonical_id": "df270774fb05feff2ca57fc5",
+      "question_ru": "Когда можно припарковаться на виду у этого знака?"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 11,
+      "question_id": "exam:1067:11",
+      "question": "En poblado, ¿está permitido que los vehículos hagan uso de las advertencias acústicas?\nIn a populated area, are vehicles allowed to make use of sound warnings?",
+      "topic_ids": [
+        "driving.signals"
+      ],
+      "primary_topic_id": "driving.signals",
+      "verified": true,
+      "index": 10,
+      "canonical_id": "fac5181bb28cc3c5491b7371"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 12,
+      "question_id": "exam:1067:12",
+      "question": "Ve estas señales. ¿Debe adaptar la velocidad?\nLook at these signs. Should you adapt your speed?",
+      "topic_ids": [
+        "signs.speed",
+        "signs.warning"
+      ],
+      "primary_topic_id": "signs.speed",
+      "verified": true,
+      "index": 11,
+      "canonical_id": "fc17eeccdd94330df2a1f24d"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 13,
+      "question_id": "exam:1067:13",
+      "question": "Para reducir los accidentes de tráfico, ¿deben colaborar todos los agentes sociales?\nTo reduce traffic accidents, should all social agents collaborate?",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "primary_topic_id": "routine.safety",
+      "verified": true,
+      "index": 12,
+      "canonical_id": "24c73ff23389d184df11b6bc",
+      "question_ru": "Чтобы уменьшить количество дорожно-транспортных происшествий, все социальные агенты должны сотрудничать?"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 14,
+      "question_id": "exam:1067:14",
+      "question": "El calor al volante...\nHeat at the wheel...",
+      "topic_ids": [
+        "conditions.heat"
+      ],
+      "primary_topic_id": "conditions.heat",
+      "verified": true,
+      "index": 13,
+      "canonical_id": "7892bd01ef332f6809ee3524",
+      "question_ru": "Тепло за рулем…"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 15,
+      "question_id": "exam:1067:15",
+      "question": "El vehículo rojo va a girar a la izquierda. ¿Puede circular por el arcén para adelantarlo por la derecha?\nThe red vehicle is turning left. Can you travel along the hard shoulder to overtake it on the right?",
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.turns"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 14,
+      "canonical_id": "832da530be03d405fbc74352"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 16,
+      "question_id": "exam:1067:16",
+      "question": "¿Qué significa el triángulo pintado en el suelo?\nWhat does the painted triangle on the ground mean?",
+      "topic_ids": [
+        "incidents.scene",
+        "signs.mandatory",
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 15,
+      "canonical_id": "5243560728f1c8b9d3241e80"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 17,
+      "question_id": "exam:1067:17",
+      "question": "¿Cómo se puede evitar el atropello a peatones?\nHow can pedestrian collisions be avoided?",
+      "topic_ids": [
+        "driving.pedestrians"
+      ],
+      "primary_topic_id": "driving.pedestrians",
+      "verified": true,
+      "index": 16,
+      "canonical_id": "aabb611f0ab15f3d8266046b"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 18,
+      "question_id": "exam:1067:18",
+      "question": "Una fila escolar va a cruzar la calzada, ¿es obligatorio cederle el paso?\nA group of schoolchildren will cross the road. Is it compulsory to give way to them?",
+      "topic_ids": [
+        "priority.general"
+      ],
+      "primary_topic_id": "priority.general",
+      "verified": true,
+      "index": 17,
+      "canonical_id": "05fe05509e97474254d3eecb"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 19,
+      "question_id": "exam:1067:19",
+      "question": "Para estacionar un vehículo, ¿está permitido desabrocharse el cinturón de seguridad?\nIs it permitted to unfasten your seat belt to park a vehicle?",
+      "topic_ids": [
+        "driving.parking",
+        "routine.seatbelts"
+      ],
+      "primary_topic_id": "routine.seatbelts",
+      "verified": true,
+      "index": 18,
+      "canonical_id": "d7bc536fb6b6dd11c3c31d46"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 20,
+      "question_id": "exam:1067:20",
+      "question": "¿Tiene permitido circular una motocicleta por un carril habilitado en sentido contrario al habitual?\nIs a motorcycle allowed to travel in a lane that is enabled for travel in the opposite direction to usual?",
+      "topic_ids": [
+        "driving.lanes"
+      ],
+      "primary_topic_id": "driving.lanes",
+      "verified": true,
+      "index": 19,
+      "canonical_id": "105a1001340ca41a1590d112"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 21,
+      "question_id": "exam:1067:21",
+      "question": "No está permitido utilizar la luz de largo alcance...\nIt is not permitted to use the main beam headlamps…",
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 20,
+      "canonical_id": "8d82b01bd133bc99440cb288",
+      "question_ru": "Не допускается использование фар дальнего света…"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 22,
+      "question_id": "exam:1067:22",
+      "question": "Si se incorpora a la circulación desde un camino privado, ¿qué debe hacer?\nIf you are joining traffic from a private road, what should you do?",
+      "topic_ids": [
+        "documents.insurance",
+        "driving.merging",
+        "priority.merging"
+      ],
+      "primary_topic_id": "documents.insurance",
+      "verified": true,
+      "index": 21,
+      "canonical_id": "e1e91dd3d60072ba498cfe5f"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 23,
+      "question_id": "exam:1067:23",
+      "question": "Al aproximarse a los pasos de peatones que no están regulados por semáforos, ¿qué precauciones se deben tomar?\nWhen approaching pedestrian crossings that are not regulated by traffic lights, what precautions should be taken?",
+      "topic_ids": [
+        "priority.lights"
+      ],
+      "primary_topic_id": "priority.lights",
+      "verified": true,
+      "index": 22,
+      "canonical_id": "17dbb1ceeeff2c3f4adbbeb4"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 24,
+      "question_id": "exam:1067:24",
+      "question": "Para auxiliar a un herido en accidente de circulación. ¿Qué debe hacer?\nTo assist a person who is injured in a traffic accident, what should you do?",
+      "topic_ids": [
+        "incidents.first_aid"
+      ],
+      "primary_topic_id": "incidents.first_aid",
+      "verified": true,
+      "index": 23,
+      "canonical_id": "d54c0b6fc1851931e9882763",
+      "question_ru": "Чтобы помочь человеку, пострадавшему в ДТП, что делать?"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 25,
+      "question_id": "exam:1067:25",
+      "question": "Cuando circula por un tramo de la calzada en el que se han formado balsas de agua, ¿qué medidas de seguridad deberá tomar?\nWhen you travel through a stretch of the road where puddles of water have formed, what safety measures should you take?",
+      "topic_ids": [
+        "priority.tram"
+      ],
+      "primary_topic_id": "priority.tram",
+      "verified": true,
+      "index": 24,
+      "canonical_id": "fbec98933bab865a0ebc57a2"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 26,
+      "question_id": "exam:1067:26",
+      "question": "Los sistemas de seguridad activa ayudan al conductor a...\nActive safety systems help the driver to...",
+      "topic_ids": [
+        "vehicle.adas"
+      ],
+      "primary_topic_id": "vehicle.adas",
+      "verified": true,
+      "index": 25,
+      "canonical_id": "cd06dccc7b6f1c88a43007be"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 27,
+      "question_id": "exam:1067:27",
+      "question": "Para saber la masa máxima remolcable de un turismo, ¿qué documento de los que se citan se debe consultar?\nTo find out the maximum towable mass of a car, what document should be checked?",
+      "topic_ids": [
+        "documents.itv",
+        "incidents.towing"
+      ],
+      "primary_topic_id": "documents.itv",
+      "verified": true,
+      "index": 26,
+      "canonical_id": "01770a0c849f6a90d3b017b5"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 28,
+      "question_id": "exam:1067:28",
+      "question": "El sistema Start-Stop...\nThe Start-Stop system...",
+      "topic_ids": [
+        "driving.parking",
+        "eco.environment",
+        "routine.ecodriving"
+      ],
+      "primary_topic_id": "routine.ecodriving",
+      "verified": true,
+      "index": 27,
+      "canonical_id": "32033e2987dcefe8c98c6190"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 29,
+      "question_id": "exam:1067:29",
+      "question": "¿Está permitida la colocación en un turismo de vidrios tintados no homologados?\nAre you allowed to fit non-approved tinted glass in a passenger car?",
+      "topic_ids": [
+        "vehicle.passengers"
+      ],
+      "primary_topic_id": "vehicle.passengers",
+      "verified": true,
+      "index": 28,
+      "canonical_id": "4c6bb7c0df370367cc82258f",
+      "question_ru": "Разрешено ли помещать неутвержденное тонированное стекло в легковой автомобиль?"
+    },
+    {
+      "test_id": 101067,
+      "source_test_id": 1067,
+      "source_ordinal": 30,
+      "question_id": "exam:1067:30",
+      "question": "Cuando un autobús pretende incorporarse desde una parada señalizada, ¿qué deben hacer los demás conductores?\nWhen a bus intends to pull away from a signalled stop, what should other drivers do?",
+      "topic_ids": [
+        "driving.merging",
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 29,
+      "canonical_id": "7c53ea640a8e8b3944d0b875",
+      "question_ru": "Когда автобус собирается отъехать от сигнальной остановки, что должны делать другие водители?"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 1,
+      "question_id": "exam:1068:01",
+      "question": "En autovía, ¿a qué velocidad máxima puede circular un turismo?\nWhat is the maximum speed permitted for a car on a dual carriageway?",
+      "topic_ids": [
+        "numbers.speeds"
+      ],
+      "primary_topic_id": "numbers.speeds",
+      "verified": true,
+      "index": 0,
+      "canonical_id": "d9d690df8a90f8c659c61484"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 2,
+      "question_id": "exam:1068:02",
+      "question": "Los niños alborotando en los asientos traseros, ¿aumentan las distracciones del conductor?\nCan children playing around in the back seats distract the driver?",
+      "topic_ids": [
+        "routine.distraction",
+        "vehicle.children"
+      ],
+      "primary_topic_id": "vehicle.children",
+      "verified": true,
+      "index": 1,
+      "canonical_id": "0a399ce70538e27f8ec42f97"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 3,
+      "question_id": "exam:1068:03",
+      "question": "En la vía de la fotografía, ¿qué carril debe utilizar para circular, como norma general?\nOn the road in the photograph, which lane should you use to drive, as a general rule?",
+      "topic_ids": [
+        "driving.lanes"
+      ],
+      "primary_topic_id": "driving.lanes",
+      "verified": true,
+      "index": 2,
+      "canonical_id": "d9f5e15d848621de20b81fa0"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 4,
+      "question_id": "exam:1068:04",
+      "question": "En un camión de longitud inferior a 5 metros, una carga indivisible no podrá sobresalir más de...\nIn a lorry under 5 metres long, an indivisible load cannot protrude by more than...",
+      "topic_ids": [
+        "numbers.dimensions",
+        "vehicle.cargo"
+      ],
+      "primary_topic_id": "numbers.dimensions",
+      "verified": true,
+      "index": 3,
+      "canonical_id": "6ffb227f4e8228eda0d2ec5b"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 5,
+      "question_id": "exam:1068:05",
+      "question": "La señal luminosa giratoria que llevan los tractores agrícolas indica...\nThe revolving light device that farming tractors carry indicates...",
+      "topic_ids": [
+        "signs.information"
+      ],
+      "primary_topic_id": "signs.information",
+      "verified": true,
+      "index": 4,
+      "canonical_id": "60eda7b034a552eff590daee"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 6,
+      "question_id": "exam:1068:06",
+      "question": "¿Quiénes están exentos de usar el cinturón de seguridad?\nWho is exempt from wearing a seat belt?",
+      "topic_ids": [
+        "driving.reversing",
+        "routine.seatbelts"
+      ],
+      "primary_topic_id": "driving.reversing",
+      "verified": true,
+      "index": 5,
+      "canonical_id": "f8aa6994c878235f5fa79291"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 7,
+      "question_id": "exam:1068:07",
+      "question": "¿Dónde hay que detenerse para cumplir la señal de stop?\nWhere should we stop to comply with the stop signal?",
+      "topic_ids": [
+        "signs.markings",
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 6,
+      "canonical_id": "1bf872cd18b059aec148609b",
+      "question_ru": "Где остановиться, чтобы выполнить сигнал остановки?"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 8,
+      "question_id": "exam:1068:08",
+      "question": "¿A qué distancia debe colocarse en el asiento para que el airbag sea eficaz?\nWhere should you be positioned in the seat to make the airbag effective?",
+      "topic_ids": [
+        "vehicle.mechanics",
+        "vehicle.passive"
+      ],
+      "primary_topic_id": "vehicle.passive",
+      "verified": true,
+      "index": 7,
+      "canonical_id": "86755ffd7a78a0bcabb1de96"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 9,
+      "question_id": "exam:1068:09",
+      "question": "¿Pueden influir otros factores en un accidente, cuando las condiciones climatológicas son adversas?\nCan other factors influence an accident when weather conditions are adverse?",
+      "topic_ids": [
+        "speed.adaptation"
+      ],
+      "primary_topic_id": "speed.adaptation",
+      "verified": true,
+      "index": 8,
+      "canonical_id": "cebcb53f171ed85ca9f5b3e8",
+      "question_ru": "Могут ли другие факторы влиять на аварию, когда погодные условия неблагоприятны?"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 10,
+      "question_id": "exam:1068:10",
+      "question": "Si padece una enfermedad crónica, ¿qué debe hacer?\nIf you have a chronic illness, what should you do?",
+      "topic_ids": [
+        "routine.health"
+      ],
+      "primary_topic_id": "routine.health",
+      "verified": true,
+      "index": 9,
+      "canonical_id": "bbb96e0d9b1adc09b0022331"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 11,
+      "question_id": "exam:1068:11",
+      "question": "¿Qué objetivo tienen los límites de velocidad de la vía?\nWhat are the objectives of the road speed limits?",
+      "topic_ids": [
+        "numbers.speeds"
+      ],
+      "primary_topic_id": "numbers.speeds",
+      "verified": true,
+      "index": 10,
+      "canonical_id": "1f4cb1718049de7df3a27952"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 12,
+      "question_id": "exam:1068:12",
+      "question": "Está prohibido realizar un cambio de dirección a la izquierda cuando no existe…\nIt is forbidden to change direction to the left when there is no...",
+      "topic_ids": [
+        "driving.turns"
+      ],
+      "primary_topic_id": "driving.turns",
+      "verified": true,
+      "index": 11,
+      "canonical_id": "2088e69d964b0143e2c44c5f"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 13,
+      "question_id": "exam:1068:13",
+      "question": "Las señales de obras...\nRoadworks signs...",
+      "topic_ids": [
+        "priority.tram",
+        "signs.temporary"
+      ],
+      "primary_topic_id": "signs.temporary",
+      "verified": true,
+      "index": 12,
+      "canonical_id": "85719f65e4ff834293b76fa0"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 14,
+      "question_id": "exam:1068:14",
+      "question": "¿Cómo debe comprobar el funcionamiento de su cinturón de seguridad?\nHow should you check your seat belt is working?",
+      "topic_ids": [
+        "documents.points",
+        "routine.seatbelts"
+      ],
+      "primary_topic_id": "documents.points",
+      "verified": true,
+      "index": 13,
+      "canonical_id": "4131e3a005e57490b698f4ee"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 15,
+      "question_id": "exam:1068:15",
+      "question": "En vías urbanas de doble sentido de circulación, ¿en qué lado de la calzada puede estacionar un turismo?\nOn urban two-way roads, on which side of the road can a car park?",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 14,
+      "canonical_id": "dcd7e7fe60dd2cd71aea1648"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 16,
+      "question_id": "exam:1068:16",
+      "question": "Una persona en silla de ruedas, ¿puede circular por una carretera?\nMay a person in a wheelchair travel on a road?",
+      "topic_ids": [
+        "driving.lanes"
+      ],
+      "primary_topic_id": "driving.lanes",
+      "verified": true,
+      "index": 15,
+      "canonical_id": "8deab4757a70636897d21f34"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 17,
+      "question_id": "exam:1068:17",
+      "question": "Al aproximarse a una intersección, observa a un agente con el brazo levantado verticalmente, ¿qué debe hacer?\nAs you approach a junction, you see an officer with his arm raised vertically, what should you do?",
+      "topic_ids": [
+        "priority.officer"
+      ],
+      "primary_topic_id": "priority.officer",
+      "verified": true,
+      "index": 16,
+      "canonical_id": "37ba35a51c502575a8025a26"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 18,
+      "question_id": "exam:1068:18",
+      "question": "¿Cómo se puede evitar el atropello a peatones?\nHow can pedestrian collisions be avoided?",
+      "topic_ids": [
+        "driving.pedestrians"
+      ],
+      "primary_topic_id": "driving.pedestrians",
+      "verified": true,
+      "index": 17,
+      "canonical_id": "0a6f4a5c9ec719afa8e796c3"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 19,
+      "question_id": "exam:1068:19",
+      "question": "¿Puede parar en una zona de parada y estacionamiento de uso exclusivo para transporte público urbano?\nCan you stop in a stopping and parking area exclusively for urban public transport?",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 18,
+      "canonical_id": "3880004db27b760714d2c827"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 20,
+      "question_id": "exam:1068:20",
+      "question": "¿Debe detenerse ante estas marcas viales?\nShould you stop at these road markings?",
+      "topic_ids": [
+        "priority.cyclists",
+        "signs.markings"
+      ],
+      "primary_topic_id": "signs.markings",
+      "verified": true,
+      "index": 19,
+      "canonical_id": "aeb71b53e576b1d7fa097535"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 21,
+      "question_id": "exam:1068:21",
+      "question": "Como norma general, ¿se puede adelantar por la derecha en una autopista?\nAs a general rule, can you overtake on the right on a motorway?",
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 20,
+      "canonical_id": "adc2db0272d69229a1783e19",
+      "question_ru": "Как правило, можно ли обгонять направо по автомагистрали?"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 22,
+      "question_id": "exam:1068:22",
+      "question": "Esta señal indica peligro por la proximidad de...\nThis sign indicates danger due to a nearby...",
+      "topic_ids": [
+        "signs.warning"
+      ],
+      "primary_topic_id": "signs.warning",
+      "verified": true,
+      "index": 21,
+      "canonical_id": "e8caa635fc041fcdb8710578"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 23,
+      "question_id": "exam:1068:23",
+      "question": "En esta vía de doble sentido, el conductor del turismo blanco, ¿dónde situará su vehículo para girar a la izquierda?\nOn this two-way road, where will the driver of the white car place his vehicle to turn left?",
+      "topic_ids": [
+        "driving.turns",
+        "signs.markings"
+      ],
+      "primary_topic_id": "signs.markings",
+      "verified": true,
+      "index": 22,
+      "canonical_id": "dc7e7c8bce139899582e5baf"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 24,
+      "question_id": "exam:1068:24",
+      "question": "Esta marca vial indica un paso...\nThis road marking indicates a crossing...",
+      "topic_ids": [
+        "signs.markings"
+      ],
+      "primary_topic_id": "signs.markings",
+      "verified": true,
+      "index": 23,
+      "canonical_id": "067968e517f172256a5f8697"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 25,
+      "question_id": "exam:1068:25",
+      "question": "La falta de experiencia al volante, ¿puede ser una de las causas que expliquen los accidentes de tráfico que sufren los conductores noveles jóvenes?\nIs a lack of driving experience one of the reasons why traffic accidents are experienced by young novice drivers?",
+      "topic_ids": [
+        "numbers.deadlines.novice"
+      ],
+      "primary_topic_id": "numbers.deadlines.novice",
+      "verified": true,
+      "index": 24,
+      "canonical_id": "66407c8a844b187ee504d3a1"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 26,
+      "question_id": "exam:1068:26",
+      "question": "Esta carretera no tiene arcén, ¿puede estacionar a la derecha, fuera de la calzada?\nThis road does not have a hard shoulder, can you park on the right, off the road?",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 25,
+      "canonical_id": "78945e3283df5fdcf9a3768c"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 27,
+      "question_id": "exam:1068:27",
+      "question": "A la vista de la señal, ¿tienen preferencia de paso los animales domésticos cuando crucen la calzada?\nIn view of the sign, do animals have priority when they cross the road?",
+      "topic_ids": [
+        "priority.sign"
+      ],
+      "primary_topic_id": "priority.sign",
+      "verified": true,
+      "index": 26,
+      "canonical_id": "d86f2aa347d53a7e19d6f2c8"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 28,
+      "question_id": "exam:1068:28",
+      "question": "El lavaparabrisas del vehículo...\nThe vehicle's windscreen wiper system…",
+      "topic_ids": [
+        "vehicle.visibility"
+      ],
+      "primary_topic_id": "vehicle.visibility",
+      "verified": true,
+      "index": 27,
+      "canonical_id": "c6cbec161e03c699e04aeb9f",
+      "question_ru": "Система стеклоочистителя автомобиля…"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 29,
+      "question_id": "exam:1068:29",
+      "question": "En los cambios de carril en un mismo sentido, ¿quién tiene prioridad?\nWhen changing lanes in the same direction, who has right-of-way?",
+      "topic_ids": [
+        "priority.general"
+      ],
+      "primary_topic_id": "priority.general",
+      "verified": true,
+      "index": 28,
+      "canonical_id": "acaa5173b41ca06c82ed995b",
+      "question_ru": "При смене полос движения в одном направлении, кто имеет приоритет?"
+    },
+    {
+      "test_id": 101068,
+      "source_test_id": 1068,
+      "source_ordinal": 30,
+      "question_id": "exam:1068:30",
+      "question": "¿Cómo debe inmovilizar los vehículos accidentados?\nHow should you stop vehicles involved in an accident?",
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "primary_topic_id": "driving.parking",
+      "verified": true,
+      "index": 29,
+      "canonical_id": "c5dbff0e5786b1bcfbd7ed95",
+      "question_ru": "Как остановить автомобили, которые попали в аварию?"
+    },
+    {
       "test_id": 101069,
       "source_test_id": 1069,
       "source_ordinal": 1,
@@ -11532,6 +15982,444 @@
       "index": 27,
       "canonical_id": "6764a09ea02e77f524f7d49f",
       "question_ru": "Нужно ли обращаться в экстренные службы при сообщении о ДТП?"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 1,
+      "question_id": "exam:1070:01",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "topic_ids": [
+        "signs.lanes"
+      ],
+      "primary_topic_id": "signs.lanes",
+      "verified": true,
+      "index": 0,
+      "canonical_id": "34725bb9cb0165f0ece252a9"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 2,
+      "question_id": "exam:1070:02",
+      "question": "¿Qué circunstancias favorecen la aparición de la fatiga?\nWhat circumstances can contribute to tiredness?",
+      "topic_ids": [
+        "routine.fatigue"
+      ],
+      "primary_topic_id": "routine.fatigue",
+      "verified": true,
+      "index": 1,
+      "canonical_id": "aac6dfb2c6843de8fec107c6"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 3,
+      "question_id": "exam:1070:03",
+      "question": "El estrés produce en el conductor...\nDriver stress causes...",
+      "topic_ids": [
+        "routine.emotions"
+      ],
+      "primary_topic_id": "routine.emotions",
+      "verified": true,
+      "index": 2,
+      "canonical_id": "f94fb640771c6293f613e7ae"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 4,
+      "question_id": "exam:1070:04",
+      "question": "La maniobra de marcha atrás, ¿debe señalizarse?\nShould a reversing manoeuvre be signalled?",
+      "topic_ids": [
+        "driving.reversing",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "driving.reversing",
+      "verified": true,
+      "index": 3,
+      "canonical_id": "ae1b2f45176afa5a1ff2b58a"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 5,
+      "question_id": "exam:1070:05",
+      "question": "El cinturón de seguridad en los asientos traseros...\nOn rear seats, the seat belt...",
+      "topic_ids": [
+        "routine.seatbelts"
+      ],
+      "primary_topic_id": "routine.seatbelts",
+      "verified": true,
+      "index": 4,
+      "canonical_id": "591ad6e66c94e7320d6ad133",
+      "question_ru": "На задних сиденьях ремень безопасности…"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 6,
+      "question_id": "exam:1070:06",
+      "question": "El limitador de velocidad...\nThe speed limiter...",
+      "topic_ids": [
+        "numbers.speeds"
+      ],
+      "primary_topic_id": "numbers.speeds",
+      "verified": true,
+      "index": 5,
+      "canonical_id": "0fa3d5aa2cd9e3feda09eb21"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 7,
+      "question_id": "exam:1070:07",
+      "question": "Un vehículo le quiere adelantar. ¿Debe hacer algo para impedirlo?\nA vehicle wants to overtake you. Should you do something to prevent it?",
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 6,
+      "canonical_id": "8e2ef1aade0769468463820f"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 8,
+      "question_id": "exam:1070:08",
+      "question": "En una situación de lluvia y ciclistas circulando, debemos...\nDuring rain with cyclists on the road, we must...",
+      "topic_ids": [
+        "driving.weather"
+      ],
+      "primary_topic_id": "driving.weather",
+      "verified": true,
+      "index": 7,
+      "canonical_id": "38ce91d9c62e7136f2ae0d45"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 9,
+      "question_id": "exam:1070:09",
+      "question": "¿Debe ceder el paso a este camión que sale desde un camino de tierra?\nShould you give way to this lorry coming from an unpaved road?",
+      "topic_ids": [
+        "signs.priority"
+      ],
+      "primary_topic_id": "signs.priority",
+      "verified": true,
+      "index": 8,
+      "canonical_id": "f63169fc7452af0128cc395a"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 10,
+      "question_id": "exam:1070:10",
+      "question": "En vías de dos calzadas separadas por medianas, como norma general, se circulará:\nOn carriageways with two roads divided by central reservations, as a general rule, you will travel:",
+      "topic_ids": [
+        "driving.lanes"
+      ],
+      "primary_topic_id": "driving.lanes",
+      "verified": true,
+      "index": 9,
+      "canonical_id": "4b8a5da5453b01f01f1cc6a7"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 11,
+      "question_id": "exam:1070:11",
+      "question": "Si circula delante de una ambulancia en servicio urgente, ¿debe facilitarle el paso?\nIf you are travelling in front of an ambulance on an emergency call out, should you give way?",
+      "topic_ids": [
+        "incidents.emergency_call",
+        "priority.emergency",
+        "priority.merging"
+      ],
+      "primary_topic_id": "incidents.emergency_call",
+      "verified": true,
+      "index": 10,
+      "canonical_id": "60676982ca0da2db2d87fa2a"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 12,
+      "question_id": "exam:1070:12",
+      "question": "En este carril de aceleración, ¿puede el turismo avanzar más rápido para situarse delante del camión?\nIn this acceleration lane, can the car move faster to get in front of the lorry?",
+      "topic_ids": [
+        "driving.merging",
+        "driving.overtaking"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 11,
+      "canonical_id": "9aefde722dc9a74e970f9593"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 13,
+      "question_id": "exam:1070:13",
+      "question": "Un conductor que está tomando medicamentos debe...\nA driver who is taking medication must...",
+      "topic_ids": [
+        "routine.health"
+      ],
+      "primary_topic_id": "routine.health",
+      "verified": true,
+      "index": 12,
+      "canonical_id": "91530984372c0b36280e1654"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 14,
+      "question_id": "exam:1070:14",
+      "question": "Los accidentes de tráfico, ¿causan costes administrativos?\nDo traffic accidents cause administrative costs?",
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "primary_topic_id": "routine.safety",
+      "verified": true,
+      "index": 13,
+      "canonical_id": "b82515bea0520f6cdb50791c"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 15,
+      "question_id": "exam:1070:15",
+      "question": "El sistema antibloqueo de frenos ABS...\nThe ABS anti-lock braking system...",
+      "topic_ids": [
+        "vehicle.adas",
+        "vehicle.mechanics"
+      ],
+      "primary_topic_id": "vehicle.adas",
+      "verified": true,
+      "index": 14,
+      "canonical_id": "b66e718eb703774bc4c6243e"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 16,
+      "question_id": "exam:1070:16",
+      "question": "¿Es obligatorio llevar iluminada la placa posterior de la matrícula durante la noche?\nIs it compulsory to have the rear licence plate illuminated at night?",
+      "topic_ids": [
+        "documents.registration",
+        "signs.vehicle_plates"
+      ],
+      "primary_topic_id": "signs.vehicle_plates",
+      "verified": true,
+      "index": 15,
+      "canonical_id": "12076d9f370b9ec7d4ad8ed1"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 17,
+      "question_id": "exam:1070:17",
+      "question": "En autopista, un camión que arrastra un remolque ligero puede adelantar como máximo a...\nOn the motorway, a lorry towing a light trailer can overtake at a maximum of...",
+      "topic_ids": [
+        "driving.overtaking",
+        "incidents.towing"
+      ],
+      "primary_topic_id": "driving.overtaking",
+      "verified": true,
+      "index": 16,
+      "canonical_id": "1df7b4719b8cb6638aa98331"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 18,
+      "question_id": "exam:1070:18",
+      "question": "La distribución de la carga, ¿afecta significativamente al consumo de combustible?\nDoes load distribution significantly affect fuel consumption?",
+      "topic_ids": [
+        "routine.ecodriving",
+        "vehicle.cargo"
+      ],
+      "primary_topic_id": "routine.ecodriving",
+      "verified": true,
+      "index": 17,
+      "canonical_id": "5876232107b53344430aea8c"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 19,
+      "question_id": "exam:1070:19",
+      "question": "¿En qué situación el viento implica mayor peligro para la conducción de una motocicleta?\nWhat is the situation where the wind poses the greatest danger to driving a motorcycle?",
+      "topic_ids": [
+        "conditions.wind"
+      ],
+      "primary_topic_id": "conditions.wind",
+      "verified": true,
+      "index": 18,
+      "canonical_id": "061bdfb816a189c36bad844b"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 20,
+      "question_id": "exam:1070:20",
+      "question": "El mal uso de los medicamentos puede ser causa de...\nThe misuse of medicines can cause...",
+      "topic_ids": [
+        "routine.health"
+      ],
+      "primary_topic_id": "routine.health",
+      "verified": true,
+      "index": 19,
+      "canonical_id": "da402d74ac2fd31d6effd4f1"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 21,
+      "question_id": "exam:1070:21",
+      "question": "Quedan obligados a someterse a las pruebas que se establezcan para la detección de alcoholemia...\nWho is required to take a test to detect the presence of alcohol?",
+      "topic_ids": [
+        "routine.alcohol"
+      ],
+      "primary_topic_id": "routine.alcohol",
+      "verified": true,
+      "index": 20,
+      "canonical_id": "7173b48d0a92246963860f6c"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 22,
+      "question_id": "exam:1070:22",
+      "question": "Conducir con sueño, ¿por qué es peligroso?\nWhy is dangerous to drive tired?",
+      "topic_ids": [
+        "routine.fatigue"
+      ],
+      "primary_topic_id": "routine.fatigue",
+      "verified": true,
+      "index": 21,
+      "canonical_id": "7001ac15ab247009ae03bf86"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 23,
+      "question_id": "exam:1070:23",
+      "question": "Está adelantando y ve que hay peligro. ¿Qué debe hacer?\nYou are overtaking and you see that there is danger. What should you do?",
+      "topic_ids": [
+        "driving.overtaking",
+        "signs.lanes",
+        "signs.speed",
+        "signs.warning"
+      ],
+      "primary_topic_id": "signs.speed",
+      "verified": true,
+      "index": 22,
+      "canonical_id": "96c5224cdc716b9fd6163a81"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 24,
+      "question_id": "exam:1070:24",
+      "question": "De noche, la carga que sobresale por detrás debe señalizarse con un panel reflectante y...\nAt night, a load protruding behind must be signalled with a reflective panel and...",
+      "topic_ids": [
+        "numbers.dimensions",
+        "priority.lights",
+        "vehicle.cargo"
+      ],
+      "primary_topic_id": "priority.lights",
+      "verified": true,
+      "index": 23,
+      "canonical_id": "b61861b9b5f144b60856b32a"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 25,
+      "question_id": "exam:1070:25",
+      "question": "Los retrovisores deben observarse...\nThe rear-view mirrors must be checked...",
+      "topic_ids": [
+        "vehicle.visibility"
+      ],
+      "primary_topic_id": "vehicle.visibility",
+      "verified": true,
+      "index": 24,
+      "canonical_id": "8be3e844579e028a73a9b76e"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 26,
+      "question_id": "exam:1070:26",
+      "question": "Los sistemas de seguridad pasiva...\nPassive safety systems…",
+      "topic_ids": [
+        "vehicle.passive"
+      ],
+      "primary_topic_id": "vehicle.passive",
+      "verified": true,
+      "index": 25,
+      "canonical_id": "2c18c8d7a600931548500642"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 27,
+      "question_id": "exam:1070:27",
+      "question": "Para saber la antigüedad de un turismo debe consultar la fecha de...\nTo find out the age of a car, you should check the date of...",
+      "topic_ids": [
+        "documents.registration"
+      ],
+      "primary_topic_id": "documents.registration",
+      "verified": true,
+      "index": 26,
+      "canonical_id": "7ef0a37ec9fb2302b2799adc"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 28,
+      "question_id": "exam:1070:28",
+      "question": "La eficacia del frenado aumenta, entre otras circunstancias, cuando...\nBraking efficiency increases, among other circumstances, when...",
+      "topic_ids": [
+        "vehicle.tyres"
+      ],
+      "primary_topic_id": "vehicle.tyres",
+      "verified": true,
+      "index": 27,
+      "canonical_id": "156729dc6d483b2166ef3381",
+      "question_ru": "Эффективность торможения повышается, в том числе при…"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 29,
+      "question_id": "exam:1070:29",
+      "question": "En carretera desea adelantar a otro vehículo. ¿Cómo puede avisarle?\nYou want to overtake another vehicle on the motorway. How can you warn it?",
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.signals",
+        "vehicle.lights"
+      ],
+      "primary_topic_id": "vehicle.lights",
+      "verified": true,
+      "index": 28,
+      "canonical_id": "83b2191e73391b17dd0983bf",
+      "question_ru": "Вы хотите обогнать другой автомобиль на автомагистрали. Как вы можете это предупредить?"
+    },
+    {
+      "test_id": 101070,
+      "source_test_id": 1070,
+      "source_ordinal": 30,
+      "question_id": "exam:1070:30",
+      "question": "¿Es aconsejable regular los reposacabezas de los asientos traseros?\nIs it advisable to adjust the headrests of the rear seats?",
+      "topic_ids": [
+        "vehicle.passive"
+      ],
+      "primary_topic_id": "vehicle.passive",
+      "verified": true,
+      "index": 29,
+      "canonical_id": "d087c332ee04b3a9603363d3"
     },
     {
       "test_id": 101073,

@@ -1,0 +1,1097 @@
+{
+  "test_id": 101037,
+  "title": "Exam collection · 1037",
+  "collection": "Exam Test",
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "circulará, como máximo, a 100 km/h.\nwill drive at a maximum speed of 100 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "deberá abandonar la vía en cuanto le sea posible.\nmust leave the road as soon as possible."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "llevará encendida, al menos, la luz de cruce.\nwill be using at least the dipped beam headlights."
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.4 Additional circulation lane\nAll vehicles that travel in any of the lanes must:\nTake special care to avoid colliding with the cones and other safety elements placed to create the change or road layout.\nTravel at a maximum speed of 80 km/h and a minimum speed of 60 km/h.\nUse during daylight hours and at night, at least low beam headlights.\nNot enter into a lane where traffic is travelling in an opposite direction.\n(Página 166 del manual 'Learning to drive')\n",
+      "image_url": "7b63e632-fbd0-4549-aa05-93ec63a060b7M.jpg",
+      "number": "1.",
+      "question": "El conductor del vehículo que utiliza el carril adicional...\nThe driver of the vehicle that is using the additional lane...",
+      "source_ordinal": 1,
+      "question_id": "exam:1037:01",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q01.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "canonical_id": "6420c78cf0fee05618f2e6f4"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No, hay que volver al carril derecho, excepto si se va a realizar otro adelantamiento.\nNo, you must return to the right hand lane, unless you are going to carry out another overtaking manoeuvre."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, puesto que no hay tráfico en sentido contrario.\nYes, as there is no traffic coming in the opposite direction."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, en cualquier caso.\nYes, always."
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking\n5.4 Special circumstances\n5.4.2 Overtaking – where the left side must not be entered into\nOn roadways that have at least two lanes reserved for his or her driving direction, drivers who are going to overtake may remain in the lane that they use for said overtaking, after assuring that they can do so without unduly bothering the vehicle drivers driving behind them more quickly.\n(Página 187 del manual 'Learning to drive')\n\nManeouvres                \n               \n5.5 Overtaking\n5.5.5 Completing the overtake\nAfter driving past the vehicle, they intend to overtake, the driver must first signal their sideways movement with the appropriate signals and then rejoin the original lane as soon as possible, gradually and without forcing other road users to change direction or speed.\nA good rule of thumb is to start moving back into the corresponding lane once you can see the front of the vehicle you have overtaken in the rear-view mirror.  \n(Página 189 del manual 'Learning to drive')\n",
+      "image_url": "a17fcd75-e52a-45f0-87ee-2b0f96d56251M.jpg",
+      "number": "2.",
+      "question": "Si circula por una carretera con dos carriles para su sentido, ¿puede permanecer en el carril izquierdo tras efectuar un adelantamiento?\nIf you are driving on a road with two lanes in each direction, may you remain in the left lane after carrying out an overtaking manoeuvre?",
+      "source_ordinal": 2,
+      "question_id": "exam:1037:02",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q02.jpg",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "canonical_id": "b405e1230557ba86cbabc2b2"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, depende solo de la costumbre de beber.\nNo, it only depends on your drinking habits."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "No, puede variar, por ejemplo, según el peso, el sexo y el estado psicofísico.\nNo, it can vary, for example, according to weight, sex and your psychological and physical condition."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS\n \n16.1 Factors affecting alcohol limits\nAlcohol does not affect everyone equally. The main factors affecting alcohol limits are:\nThe amount of alcohol ingested. The more alcohol is consumed, the higher the BAC. It is important to bear in mind that every drink is characterised by the amount of alcohol it contains, so that alcohol content will be higher in a drink with a higher strength (such as rum) than against the same measure of a drink with a lower strength (such as beer).\n(Página 41 del manual 'Learning to drive')\n\nALCOHOL AND OTHER DRUGS\n \n16.1 Factors affecting alcohol limits\nAlcohol does not affect everyone equally. The main factors affecting alcohol limits are:\nThe weight of the person. Having consumed the same amount, a slimmer person will suffer the greater effects of alcohol than a person who is of a thicker set.\nThe sex of the person. Even if a person is of the same weight and has consumed the same volume and strength of drink, there is more likelihood that a woman will reach a higher level of blood alcohol content than a man due to physiological differences between the sexes.\n(Página 41 del manual 'Learning to drive')\n",
+      "image_url": "69e8135c-632b-463b-b49d-4c3138a4ec1aM.jpg",
+      "number": "3.",
+      "question": "El alcohol, ¿produce los mismos efectos en todas las personas?\nDoes alcohol affect everyone in the same way?",
+      "source_ordinal": 3,
+      "question_id": "exam:1037:03",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q03.jpg",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.alcohol"
+      ],
+      "canonical_id": "957d36e3bba0f46ecffab350"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "circular a una velocidad adecuada que se adapte a las circunstancias.\ndrive at a suitable speed that is adapted to the circumstances."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "instalar más dispositivos de seguridad, como los airbags.\ninstall more safety devices, such as airbags."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "reducir la velocidad por debajo de la mínima genérica.\nreduce speed to below that of the generic minimum speed."
+        }
+      ],
+      "help": "1 Speed  \n \n1.1 Basics\nInappropriate speed: This is driving at a speed not suited to the circumstances such as, the weather conditions, the circumstances of the road, traffic, the vehicle or the condition of the driver. The speed may be inappropriate but is within the permitted limits.\nAppropriate speed: This is the adoption of an adequate speed which, while respecting the maximum and minimum limits, is suited to the changing traffic conditions, the road, the vehicle or the state of the driver. The appropriate speed allows the driver (and vehicle) to react to any obstacle or unexpected hazard that may occur.\n(Página 170 del manual 'Learning to drive')\n\n1 Speed  \n \n1.2 Is it dangerous to speed?\nSpeed by itself does not necessarily constitute a risk factor. However, driving at a high speed makes it difficult for the driver to control the vehicle in a situation should the need arise.\nStudies have found that excessive or inappropriate speed is a contributory factor in at least one in four traffic collisions, making it one of the main causes of a traffic collision.\n(Página 170 del manual 'Learning to drive')\n",
+      "image_url": "13b5ab0b-ff25-4332-b28c-d6a206cdf5f0M.jpg",
+      "number": "4.",
+      "question": "Para conducir con más seguridad, es necesario...\nTo drive more safely, you must...",
+      "source_ordinal": 4,
+      "question_id": "exam:1037:04",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q04.jpg",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
+      "topic_ids": [
+        "speed.adaptation"
+      ],
+      "canonical_id": "cf2d916d1e48d5d34ae12811"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "en el lado derecho y sobre la parte transitable del arcén.\non the right-hand side and in the passable part of the hard shoulder."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "en el lado derecho y dejando libre la parte transitable del arcén.\non the right-hand side, leaving the passable part of the hard shoulder free."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "en el lado izquierdo y dejando libre la parte transitable del arcén.\non the left-hand side, leaving the passable part of the hard shoulder free."
+        }
+      ],
+      "help": "Maneouvres        \n   \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking  \n10.2 Localities where this is permissible\nOn interurban roads, stopping and parking must be done always on the right side of the road, off the carriageway and leaving the passable part of the hard shoulder free.\n(Página 198 del manual 'Learning to drive')\n",
+      "image_url": "6d7a2d45-4b15-4a4b-ab76-f6a62d5a4c3bM.jpg",
+      "number": "5.",
+      "question": "Como norma general, en una vía interurbana de doble sentido de la circulación está permitido parar fuera de la calzada...\nAs a general rule, on a two-way interurban road, it is permitted to pull over off the road...",
+      "source_ordinal": 5,
+      "question_id": "exam:1037:05",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q05.jpg",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.parking"
+      ],
+      "canonical_id": "7f5bca30c69c8c03521753ae"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Pasar con precaución.\nPass with care."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Detenerse en las mismas condiciones que si se tratara de una luz roja fija.\nStop as if it was a fixed red light."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Extremar la precaución y, si es necesario, ceder el paso.\nDrive with extreme caution and, if necessary, give way."
+        }
+      ],
+      "help": "4 Traffic lights\n \n4.2 Traffic lights for vehicles\n4.2.4 Intermittent yellow light or two alternatively intermittent yellow lights (flashing)\nThis obligates the driver to take extreme care, proceeding only when it is safe, and where necessary giving way:\nVehicles that approach on the cross street, both from the left and from the right.\nTo pedestrians who are crossing the road, if it applies.\nNote: They do not exempt drivers from obeying other road signs that may require them to stop.\n(Página 115 del manual 'Learning to drive')\n",
+      "image_url": "4ee3fcef-2ab3-4705-ae29-9cc3fda40466M.jpg",
+      "number": "6.",
+      "question": "Al aproximarse a un semáforo con una o dos luces amarillas intermitentes, ¿qué hay que hacer?\nWhat must you do on approaching a traffic light with one or two flashing amber lights?",
+      "source_ordinal": 6,
+      "question_id": "exam:1037:06",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q06.jpg",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.signals",
+        "priority.lights",
+        "vehicle.lights"
+      ],
+      "canonical_id": "7a8c5beb5d1d27520f244216"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Avisa de que puede haber hielo en la calzada.\nIt is warning that there may be ice on the road."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Que en caso de nieve no puede superar la velocidad indicada.\nIf there is snow, you cannot exceed the speed indicated."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Que se aproxima a una zona con nieve en la calzada.\nYou are approaching an area with snow on the road."
+        }
+      ],
+      "help": "5 Vertical Signs                                                    \n                                               \n5.4 Indication Road Signs  \n5.4.6 Complementary (supple mentary) panels  \nS-890a Application of signage in snow conditions\nIndicates, below the corresponding vertical sign, that it applies only when snow conditions are present.\n(Página 150 del manual 'Learning to drive')\n",
+      "image_url": "cc36bd6b-4893-4f10-ba95-1afffb090a92M.jpg",
+      "number": "7.",
+      "question": "¿Qué significa esta señal?\nWhat does this sign mean?",
+      "source_ordinal": 7,
+      "question_id": "exam:1037:07",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q07.jpg",
+      "primary_topic_id": "signs.speed",
+      "classification_review_required": false,
+      "topic_ids": [
+        "conditions.ice",
+        "signs.speed"
+      ],
+      "canonical_id": "eabe5bcdfc300b9a6089a5c4"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "apartarse siempre a su derecha.\nmove out of the way, always to the right."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "detener su vehículo.\nstop their vehicle."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "facilitarle el paso llegando a detenerse si es preciso.\npermit it to pass, by stopping if necessary."
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels    \n   \n4 Vehicles in response to emergency situations\n4.2 Behaviour of other drivers\nWhen other drivers and road users become aware of the presence of a priority service vehicle responding to an emergency situation (that is they hear the audible - siren or / and see the optical - lights) they must take suitable measures to allow the vehicle(s) to pass and accord them right of way.\nThis means, allowing the vehicles to pass by easily, by giving them adequate space and moving out of their path, normally to the right, in plenty of time and if necessary, also stopping. \n(Página 208 del manual 'Learning to drive')\n",
+      "image_url": "186a3799-c6bf-41de-953a-96546d1bda7cM.jpg",
+      "number": "8.",
+      "question": "Cuando se acerque un vehículo prioritario en servicio urgente, los demás conductores deben...\nWhen a priority vehicle on an emergency service approaches, other drivers must...",
+      "source_ordinal": 8,
+      "question_id": "exam:1037:08",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q08.jpg",
+      "primary_topic_id": "priority.emergency",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.emergency"
+      ],
+      "canonical_id": "9e48e9f3b15986b479de1c32"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "las vías reservadas para automóviles.\nroads reserved for automobiles."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "autopistas y autovías.\nmotorways and highways."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la calzada de cualquier vía.\nany road."
+        }
+      ],
+      "help": "Maneouvres          \n   \n8 Reversing\nReversing is always prohibited on motorways and dual carriageways (under all circumstances – except that a concession is made for high-priority vehicles / emergency vehicles when responding under an emergency situation).\nDriving in reverse on a motorway or a dual carriageway could result in the deduction of 4 points.\n(Página 195 del manual 'Learning to drive')\n",
+      "image_url": "efa804f3-ec76-453f-bd38-48d8e45eac01M.jpg",
+      "number": "9.",
+      "question": "La maniobra de marcha atrás está totalmente prohibida en...\nA reverse manoeuvre is totally prohibited on...",
+      "source_ordinal": 9,
+      "question_id": "exam:1037:09",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q09.jpg",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.reversing"
+      ],
+      "canonical_id": "46c3cb6630f24c86a165250a"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, porque cuando se tiene prioridad siempre se puede pasar.\nYes, because when you have priority you can always pass."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, porque no existe señalización que advierta otra cosa.\nYes, because there is no sign that indicates another option."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "No, cuando es previsible quedar detenido dentro u obstaculizando un paso de peatones.\nNo, when it is foreseeable that you will be detained in it or you will obstruct a pedestrian crossing."
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels        \n         \n2 Junctions    \n2.3 Negotiating junctions\n2.3.3 The Clearing stage\nIf it is foreseeable that the vehicle could end up stopped, thus blocking or obstructing cross traffic, no drivers can, even when they have the right of way, enter into:\nTherefore no vehicles may obstruct a:\nJunction.\nPedestrian crossing.\nA cycle crossing.\n(Página 205 del manual 'Learning to drive')\n",
+      "image_url": "164e2073-8a60-464c-87ed-256ce60c8bc0M.jpg",
+      "number": "10.",
+      "question": "¿Puede entrar en esta intersección saturada en la que tiene prioridad de paso?\nCan you enter this crowded intersection in which you have right of way?",
+      "source_ordinal": 10,
+      "question_id": "exam:1037:10",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q10.jpg",
+      "primary_topic_id": "priority.general",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.general"
+      ],
+      "canonical_id": "85847086e3d2112b4372bbe2"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Comprobar que los vehículos de detrás no han iniciado el adelantamiento.\nCheck that the vehicles behind have not begun an overtaking manoeuvre."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Comprobar que los vehículos de detrás no tienen los intermitentes encendidos.\nCheck that the vehicles behind do not have their indicators on."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Comprobar que los vehículos de detrás mantienen la distancia de seguridad.\nCheck that the vehicles behind are keeping their safety distance."
+        }
+      ],
+      "help": "Maneouvres          \n         \n5.5 Overtaking  \n5.5.2 Prior checks\nBefore overtaking, the driver must check ahead:\nThat there is no sign or circumstance which prevents them from overtaking.\nThat they have sufficient visibility.\nThat the lane being used is clear and there is enough space to perform the manoeuvre.\n(Página 188 del manual 'Learning to drive')\n\nManeouvres          \n         \n5.5 Overtaking  \n5.5.2 Prior checks\nBefore overtaking, the driver must check ahead:\nThat the driver in front of them in the same lane has not also indicated their intention to move in the same direction, in which case they have priority. However, if after a reasonable period this driver has not moved, the driver can start to overtake, although they should be suitably warned in advance with the corresponding sound and visual signals.\n(Página 188 del manual 'Learning to drive')\n",
+      "image_url": "5d135384-1cfd-4939-ae76-a171ba0bb896M.jpg",
+      "number": "11.",
+      "question": "Antes de iniciar un adelantamiento, ¿qué debe hacer?\nWhat must you do before initiating an overtaking manoeuvre?",
+      "source_ordinal": 11,
+      "question_id": "exam:1037:11",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q11.jpg",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "canonical_id": "fa0a31d87d0373126407decc"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "con el brazo doblado hacia arriba.\nwith your arm bent upwards."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "siempre con las luces de emergencia.\nalways with your hazard lights."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "con el uso reiterado de las luces de freno.\nwith the repeated use of your brake lights."
+        }
+      ],
+      "help": "18 Brake lights\n \n18.2 Use of the brake lights\nThe driver must warn vehicles behind, by means of applying the braking light(s), whenever he is intending to stop his vehicle. The driver will also use the brake lights when slowing down.\nIt is advisable to reinforce the fact that you are slowing down by touching your brake lights, if the situation is such that the traffic in front is slowing down considerably or coming to a standstill and traffic behind you appears to be approaching fast.\n(Página 106 del manual 'Learning to drive')\n",
+      "image_url": "8dcf93d4-de25-4d82-8f18-a81bd837ef60M.jpg",
+      "number": "12.",
+      "question": "La intención de inmovilizar el vehículo debe advertirla...\nYou must warn of your intention to stop your vehicle...",
+      "source_ordinal": 12,
+      "question_id": "exam:1037:12",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q12.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "canonical_id": "c20b6851520c5f0902ea4452"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "tienen la misma probabilidad de sufrir un accidente.\nhave the same probability of having an accident."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "tienen menor probabilidad de sufrir un accidente.\nhave a lesser probability of having an accident."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "tienen mayor probabilidad de sufrir un accidente.\nhave a greater probability of having an accident."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS    \n   \n16.2 Effects of Alcohol\nIt is clear that alcohol severely impedes the ability to drive safely and, therefore, drivers driving under its effects have an increased chance of being involved in a traffic collision. The risk of having an accident increases with more alcohol. When there is a reading of 0.3 and 0.5 g/l the risk is twice that of a person who has not consumed alcohol; with a rate between 0.5 and 0.8 g/l it is five times higher.\nMoreover, people who are in accidents who have drunk alcohol suffer more serious injuries.\n(Página 43 del manual 'Learning to drive')\n",
+      "image_url": "6aa4e2f4-53fb-4e61-ac4a-366c39a241feM.jpg",
+      "number": "13.",
+      "question": "Las personas que beben y conducen...\nPeople who drink and drive...",
+      "source_ordinal": 13,
+      "question_id": "exam:1037:13",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q13.jpg",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.alcohol",
+        "incidents.statistics"
+      ],
+      "canonical_id": "4650ed5877ee2558058118ee"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, porque prohíbe el paso a todos los vehículos de dos ruedas con motor.\nNo, because the sign prohibits all two-wheeled vehicles with a motor."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, porque no pueden circular los vehículos de dos ruedas.\nNo, because two-wheeled vehicles cannot ride here."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "5 Vertical Signs                          \n                       \n5.3 Regulation road signs              \n5.3.3 Prohibition of entry signs - ‘No entry’  \nR-104 No entry for motorcycles\nProhibits access to motorcycles and three-wheeled vehicles classified as motorcycles.\n(Página 125 del manual 'Learning to drive')\n",
+      "image_url": "ae1ca69a-0356-4def-b23e-638b72443f76M.jpg",
+      "number": "14.",
+      "question": "¿Puede circular conduciendo un ciclomotor a partir de la señal?\nCan you ride a moped after this sign?",
+      "source_ordinal": 14,
+      "question_id": "exam:1037:14",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q14.jpg",
+      "primary_topic_id": "vehicle.motorcycles",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.motorcycles"
+      ],
+      "canonical_id": "b47722c90f975e36d12c3b28"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Cambiar al carril izquierdo y esperar a que se ponga en verde el semáforo de la izquierda.\nChange to the left lane and wait for the traffic light on the left to turn green."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Esperar a que se pongan los dos semáforos en verde.\nWait for both traffic lights to turn green."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Seguir de frente porque me lo permite el semáforo de la derecha.\nContinue straight ahead because the traffic light on the right allows me to do so."
+        }
+      ],
+      "help": "Road signalling      \n       \n1 General rules  \n1.3 Compliance\nIf there are traffic lights or vertical traffic signs with different instructions on the left and the right, those planning to turn left or continue straight must only heed those located immediately to their left.\n(Página 109 del manual 'Learning to drive')\n",
+      "image_url": "e4e99898-41ce-4244-8821-93f92588d1bfM.jpg",
+      "number": "15.",
+      "question": "El semáforo de la derecha está en verde y el de la izquierda está en rojo. Para continuar de frente, ¿qué debe hacer si circula por el carril derecho?\nThe traffic light on the right is green and the one on the left is red. To continue straight ahead, what should you do if you are in the right-hand lane?",
+      "source_ordinal": 15,
+      "question_id": "exam:1037:15",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q15.jpg",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.lights"
+      ],
+      "canonical_id": "a433081c8b2668e699c8629e"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "prestar atención constante a la vía y su entorno.\npay constant attention to the road and your surroundings."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "mirar hasta donde se encuentre transcurridos 5 segundos.\nforesee where you will be in 5 seconds time."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "centrar la atención en el vehículo de delante.\nconcentrate on the vehicle in front."
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving    \n     \nDEFENSIVE DRIVING\n4 Observation\n4.2 Side observations\nThe human peripheral vision is much less accurate than the central field of vision, so it takes longer to understand what is happening on the perimeter of the peripheral vision. It is therefore necessary to constantly review with the eye to see what is happening all around not just ahead but to the sides.\n(Página 272 del manual 'Learning to drive')\n",
+      "image_url": "9d68bb3a-14f0-4db0-88b3-577067cd44e3M.jpg",
+      "number": "16.",
+      "question": "Para anticiparse al peligro y tomar decisiones seguras debe...\nIn order to anticipate danger and take safe decisions, you must...",
+      "source_ordinal": 16,
+      "question_id": "exam:1037:16",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q16.jpg",
+      "primary_topic_id": "routine.safety",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "canonical_id": "76f83406c873839a7acb3588"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Calzada con obras.\nRoad undergoing road works."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Calzada con pavimento irregular.\nRoad with irregular surface."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Arcén con resalto.\nHard shoulder with bumps ahead."
+        }
+      ],
+      "help": "5 Vertical Signs          \n       \n5.2 Signs that warn of danger  \nP-15 Uneven surface\nDanger due to the proximity of a projection or pothole in the road or pavement in poor condition. The sign advises you to reduce your speed, as the hazard to be encountered could result in damage to your vehicle, such as the suspension etc., if it is negotiated too fast.\n(Página 121 del manual 'Learning to drive')\n",
+      "image_url": "33078e6d-fa95-4f39-811f-042655efc6d4M.jpg",
+      "number": "17.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign indicate?",
+      "source_ordinal": 17,
+      "question_id": "exam:1037:17",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q17.jpg",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.information"
+      ],
+      "canonical_id": "6b50d6c35f9cab2f78a20a5d"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "permitida en la curva.\npermitted on the bend."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "permitida en toda la vía.\npermitted throughout the length of the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "aconsejada en la curva.\nrecommended on the bend."
+        }
+      ],
+      "help": "5 Vertical Signs                              \n                           \n5.3 Regulation road signs\n5.3.5 Other signs relating to prohibition or restriction\nR-301 Maximum speed\nProhibits travelling a speed higher than the one indicated on the road sign, in kilometres per hour.\nIt is mandatory from the place it is located until the next “End of speed limit”, “End of prohibitions” or another “Maximum speed limit” road sign, except when it is posted on the same signpost or board as a danger warning road sign. In such cases the prohibition ends when the posted danger ends.\n(Página 126 del manual 'Learning to drive')\n",
+      "image_url": "1862a8cf-5064-44d9-8b92-abdf870cb0bdM.jpg",
+      "number": "18.",
+      "question": "Estas señales indican la velocidad máxima...\nThese signs indicate the maximum speed...",
+      "source_ordinal": 18,
+      "question_id": "exam:1037:18",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q18.jpg",
+      "primary_topic_id": "signs.speed",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds",
+        "signs.speed"
+      ],
+      "canonical_id": "9e4b43b55094868c9b23959d"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "sólo gastos en atención y tratamiento de los heridos.\nonly costs for aid and treatment of injured people."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "daños a la vía y el entorno.\ndamage to the road and the surroundings."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "sólo daños materiales a los vehículos.\nonly material damage to vehicles."
+        }
+      ],
+      "help": "Road traffic collisions  \n   \n1 A public health problem\nMoreover, in addition to the human drama, it is important to highlight the enormous economic impact (either directly or indirectly) that occurs as a result of a traffic collision.\nCosts derived from road traffic accidents are classified as human, material, healthcare and administrative.\nHuman costs include the loss of lives, productive capacity and physical and psychological suffering. Material costs consist of damages caused on vehicles and their loads as well as on the road and the environment. Healthcare costs comprise first aid, care and treatment of the wounded, rehabilitation and adaptations. Administrative costs hold those of police officers and firefighters and insurance and services management.\nPeople believe that an accident has little effect on them but the cost is borne by taxpayers. The cost of vehicle insurance is also affected, as premiums are affected by collision data and the cost of accidents.\nFor these reasons, various international organisations, including the World Health Organisation (WHO), believe that road collisions are a priority public health problem throughout the world.\nThere is a serious need to work together to reduce the high numbers of dead and seriously injured on the roads.\n(Página 248 del manual 'Learning to drive')\n",
+      "image_url": "027b565d-ff5f-4f9c-b344-6879e9d36c28M.jpg",
+      "number": "19.",
+      "question": "Los accidentes de tráfico producen entre otras consecuencias...\nTraffic accidents cause, among other consequences...",
+      "source_ordinal": 19,
+      "question_id": "exam:1037:19",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q19.jpg",
+      "primary_topic_id": "routine.safety",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "canonical_id": "cad13f531ca5d67c0f8e38a0"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Los turismos.\nCars."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Los camiones.\nLorries."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Las motocicletas y los ciclomotores.\nMotorcycles and mopeds."
+        }
+      ],
+      "help": "Safe driving\n \n10 Driving in cross winds (lateral winds)\nCrosswinds can be very dangerous as the affect is to throw the vehicle off its intended course. It may cause an abrupt and sudden, unexpected movement or deviation. This is particularly hazardous for two wheeled vehicles or vehicles pulling a trailer. In cross winds, vehicles may even overturn or drive off the road.\n(Página 232 del manual 'Learning to drive')\n",
+      "image_url": "1c5a53a5-aaaa-4964-81b6-0be49fe5d9a9M.jpg",
+      "number": "20.",
+      "question": "¿Qué vehículos son los más afectados por el viento lateral?\nWhat vehicles are most affected by side wind?",
+      "source_ordinal": 20,
+      "question_id": "exam:1037:20",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q20.jpg",
+      "primary_topic_id": "conditions.wind",
+      "classification_review_required": false,
+      "topic_ids": [
+        "conditions.wind"
+      ],
+      "canonical_id": "6211ed04de5d631a9f79d1d8"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sólo cuando circule por un túnel insuficientemente iluminado.\nOnly when you are driving in an insufficiently lit tunnel."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sólo cuando circule por un túnel entre la puesta y la salida del sol.\nOnly when you are driving in a tunnel between dusk and dawn."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Cuando circule por un túnel a cualquier hora del día.\nWhen you are driving in a tunnel at any time of the day."
+        }
+      ],
+      "help": "4 Position lights  \n \n4.3 Use of the ‘position’ lights – when travelling\nAll vehicles must use the correct lights depending on the circumstances.\nHowever, position lights together with headlights (main beam or low beam) or fog lights, must be used when driving:\nBetween sunset and sunrise.\nIn reduced visibility due to adverse atmospheric or weather conditions, such as fog, intense rain, smoke, dust etc.\nIn tunnels, underpasses or sections road, where the sign for a ‘unnel’ is displayed.\nNote: It is not permissible to use only the position lights.\n(Página 98 del manual 'Learning to drive')\n\n6 End outline marker lights\n \nThese must be the same colour as position lights: 2 lights, white in colour to the front and 2 lights, red in colour to the rear.\nFor vehicles that must also have end outline marker lights, they must also be turned on in the same cases as the position lights.\n(Página 100 del manual 'Learning to drive')\n",
+      "image_url": "4f544861-b772-46db-ba66-84de036eb13cM.jpg",
+      "number": "21.",
+      "question": "Un vehículo tiene una anchura superior a 2,10 metros, ¿cuándo es obligatorio encender la luz de gálibo?\nA vehicle has a width of over 2.10 meters. When is it mandatory to turn on the clearance lights?",
+      "source_ordinal": 21,
+      "question_id": "exam:1037:21",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q21.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.tunnels",
+        "vehicle.lights"
+      ],
+      "canonical_id": "4fead0de2eafbf66ca575120"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Cruzar antes de que las barreras bajen.\nCross before the barriers go down."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Si las barreras están subiendo, cruzar.\nIf the barriers are rising, cross."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Detener el vehículo.\nStop the vehicle."
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels\n \n6 Level crossings and mobile bridges\n6.1 Approaching\nDrivers approaching a level crossing or moveable bridge must be extremely prudent and reduce their speed.\nUsers who find level crossings or moveable bridges closed or with the barrier or semi-barrier in motion when approaching should stop one after the other in the corresponding lane until they can pass.\n(Página 210 del manual 'Learning to drive')\n",
+      "image_url": "8eed5850-dca3-4264-8a08-5e31925ece96M.jpg",
+      "number": "22.",
+      "question": "Al llegar a este paso a nivel se encuentra las barreras en movimiento, ¿qué debe hacer?\nWhat must you do when you reach this level crossing and you find the barriers moving?",
+      "source_ordinal": 22,
+      "question_id": "exam:1037:22",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q22.jpg",
+      "primary_topic_id": "driving.crossings",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.crossings"
+      ],
+      "canonical_id": "5a6d8f55d21b7bf098f51f0a"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "muy amplio y suelto porque lo más importante es la estética y la comodidad.\nvery large and loose because what is most important is fashion and comfort."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "poco vistoso y de colores apagados, para no distraer a los demás conductores.\nvery plain with dark colours, so as not to distract other drivers."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "de piel u otro material similar que proteja de lesiones en caso de accidente.\nof made of leather or a similar material that protects from injuries in the event of an accident."
+        }
+      ],
+      "help": "OTHER FACTORS    \n   \n25 Clothing  \n25.1 The clothing of motorcyclist\nA motorcycle does not provide the rider with a secure and protective shell. This makes the rider vulnerable in road traffic collisions; to the elements, such as, in the cold, wind, rain, and so on. The body of the rider and any passenger realises the force of all of these external elements, the weather and any possible impact. It is therefore absolutely essential to use a dress code that adequately protects them all of the time regardless of the time of year.\nThe motorcyclist’s outfit has to be colourful and eye-catching, and should be made of leather or other similar material. It should have contrasting colours and design, with reflective bands that allow it to be distinguished from a distance.\nA ‘set of leathers’ (a leather jacket and trousers) is advocated, as it will:\nDoes not flap with the air.\nProtects against the wind during the trip.\nProvide protection from possible damage, scrapes and consequent rubbing or contact sores to the rider. In the event of falling off abrasive wounds are minimised.\n(Página 50 del manual 'Learning to drive')\n",
+      "image_url": "3d7638d7-da7f-4b22-a65a-f79255853c85M.jpg",
+      "number": "23.",
+      "question": "Es conveniente que el traje del conductor o pasajero de una motocicleta sea...\nIt is recommendable that the suit of the rider or passenger of a motorcycle is...",
+      "source_ordinal": 23,
+      "question_id": "exam:1037:23",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q23.jpg",
+      "primary_topic_id": "incidents.scene",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.scene"
+      ],
+      "canonical_id": "ed6b26e6a783a1b03db97efd"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No, debe detenerse para obedecer la señal de ceda el paso.\nNo, it must stop to obey the give way sign."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, pero solo si no hay vehículos a los que deba ceder el paso.\nYes, but only if there are no vehicles which it must give way to."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, porque el semáforo concede prioridad de paso.\nYes, because the traffic light gives right of way."
+        }
+      ],
+      "help": "Road signalling        \n         \n1 General rules  \n1.4 Order of priority amongst the signalling devices  \n1 Signals and orders given by agents of the authority in charge of traffic surveillance exercising the functions of their jobs.  \n2 Circumstantial signage and beaconing that alters the normal use of the road, delimiting devices, and beaconing signals.\n3 Traffic lights.  \n4 Traffic road signs.  \n5 Road markings.  \n \n(Página 109 del manual 'Learning to drive')\n",
+      "image_url": "218146f2-63c7-4971-963e-b8ccbb7b2180M.jpg",
+      "number": "24.",
+      "question": "A la vista de la señalización, el vehículo de la fotografía, ¿puede continuar la marcha?\nCan the vehicle in the photograph continue to drive if he sees this sign?",
+      "source_ordinal": 24,
+      "question_id": "exam:1037:24",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q24.jpg",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.lights",
+        "signs.priority"
+      ],
+      "canonical_id": "316bcaa3e6ccfa48fdc1eb21"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, pero es aconsejable.\nNo, but it is advisable."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero únicamente en vía urbana.\nYes, but only on urban roads."
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range    \n     \n8.2 Use of the low beam headlights\nMotorbikes travelling on any road during on the day must use dipped headlights, unless they have their daytime running lights on, provided the visibility conditions are suitable.\n(Página 102 del manual 'Learning to drive')\n",
+      "image_url": "335de3d8-8daf-4f5d-9c90-084e7f94f7d2M.jpg",
+      "number": "25.",
+      "question": "Para las motocicletas, ¿es obligatorio el uso del alumbrado de corto alcance durante el día?\nIs it mandatory for motorcycles to use dipped beam headlights during the day?",
+      "source_ordinal": 25,
+      "question_id": "exam:1037:25",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q25.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.dates",
+        "vehicle.lights"
+      ],
+      "canonical_id": "af45921a0aebd7286a69f043"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "50 metros.\n50 metres."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "La que permita detener el vehículo en caso de frenado brusco y permita que los demás adelanten con seguridad.\nThe distance that permits the vehicle to stop in the event of a sharp brake and which permits others to overtake safely."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "La que permita detener el vehículo en caso de frenado brusco del que va delante sin colisionar con él.\nThe distance that permits the vehicle to stop in the event of a sharp brake by the vehicle driving in front without colliding with it."
+        }
+      ],
+      "help": "12 Distances\n \n12.5 Safety distance\nAny driver of a vehicle driving behind another must leave space that allows them to stop without colliding in the event of sudden braking, taking into account, in particular, speed, grip and braking conditions. However, a group of cyclists does not need to keep this distance, paying close attention to avoid collisions.\nWhen it is possible for vehicles behind you to overtake, then in addition to leaving a sufficient separation distance so that in case of sudden braking by the vehicle ahead of you – you don’t crash into the back of it, you should additionally leave a gap to allow overtaking vehicles to overtake safely. (Note: that his rule is not applicable to a group of cyclists travelling together.)\nVehicles with a MAM greater than 3500 kgs, vehicles and combinations / sets of vehicles over 10m long, must keep a minimum safety distance of 50 m.\n(Página 180 del manual 'Learning to drive')\n",
+      "image_url": "6e9564bf-e923-4738-9909-15210833b2d2M.jpg",
+      "number": "26.",
+      "question": "En una autopista con tres carriles para cada sentido, ¿qué distancia de seguridad debe dejar un turismo con el vehículo que circula delante?\nOn a motorway with three lanes in each direction, what safety distance must a private car leave from the vehicle driving in front?",
+      "source_ordinal": 26,
+      "question_id": "exam:1037:26",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q26.jpg",
+      "primary_topic_id": "numbers.distances",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.parking",
+        "numbers.distances"
+      ],
+      "canonical_id": "c34fe76aecea4adb911a8fe4"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No influye, solamente depende del estado de los frenos.\nNo, it does not affect braking. This only depends on the condition of the brakes."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí influye, porque los neumáticos en buen estado se agarran mejor al suelo y frena mejor.\nYes, because tyres in good condition grip the road better and brake better."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, solamente depende del estado de la calzada.\nNo, it only depends on the state of the road."
+        }
+      ],
+      "help": "12 Distances\n \n12.2 The braking distance\nThe braking distance is the distance the vehicle travels from the point at which the driver first applies the brakes, until the vehicle come to a complete stop.\nThis distance can vary depending on:\nThe speed of the vehicle at the point the brakes are applied.\nThe mass of the vehicle and its load.\nThe technical condition of the vehicle (brakes, tyres, shock absorbers, etc.)\nThe environmental conditions and the condition of the road surface (snow, rain, state of the surface, etc.)\nThe driver (psychophysical status –mental and physical state, experience, etc.)\nAn increase in speed causes the braking distance to increase, but this is at a greater rate than the speed increase.\nThus, when the velocity is doubled the braking distance is four times higher.\n(Página 179 del manual 'Learning to drive')\n",
+      "image_url": "1a10341c-ed55-43b4-a4b3-9e7f9b1578b5M.jpg",
+      "number": "27.",
+      "question": "El estado de los neumáticos, ¿influye en el frenado?\nDoes the condition of the tyres affect braking?",
+      "source_ordinal": 27,
+      "question_id": "exam:1037:27",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q27.jpg",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.tyres"
+      ],
+      "canonical_id": "1e3320dab6500a0b4ee55581"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "por el borde izquierdo de la calzada, como norma general.\non the left hand side of the road, as a general rule."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "lo más cerca posible del borde derecho de la vía.\nas close as possible to the right hand side of the road."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "por la derecha o por la izquierda de la calzada, es indiferente.\neither on the right or on the left of the road."
+        }
+      ],
+      "help": "9 Animals  \n \nAnimal drivers must take care to not enter pedestrian zones.\nLoose livestock and working or saddled animals and beasts of burden will also travel on the right-hand hard shoulder. If they have to use the roadway, they must travel as close as possible to its right edge.\nFlocks of animals or herded animals must be kept, as far as possible to the right hand edge of the roadway (that is, in the direction of travel) and\nit must be ensured that they never occupy more than the right hand side of the roadway.\nAnimals are prohibited on motorways or dual carriageways. Said prohibition includes animal traction vehicles.\nIt is prohibited to leave animals unattended on any type or road or its immediate surroundings, always assuring that they cannot invade the road.\n(Página 59 del manual 'Learning to drive')\n",
+      "image_url": "c42efed9-d898-491c-a4d4-cbfba28aa059M.jpg",
+      "number": "28.",
+      "question": "En carretera, los animales deben circular...\nOn roads, animals must travel...",
+      "source_ordinal": 28,
+      "question_id": "exam:1037:28",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q28.jpg",
+      "primary_topic_id": "transport.animals",
+      "classification_review_required": false,
+      "topic_ids": [
+        "transport.animals"
+      ],
+      "canonical_id": "e358364c221bac78415c96b7"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, excepto en los vehículos destinados al transporte de mercancías.\nNo, except in vehicles intended for the transport of goods."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Las puertas no, pero sí el maletero si está sujeto de forma que no pueda caer la carga.\nNot the doors, but the boot may be open if it is secured in such a way that the load cannot fall out."
+        }
+      ],
+      "help": "2 Drivers  \n   \n2.1 Prohibitions\nIt is prohibited to drive with the vehicle’s doors open or to open the vehicle’s doors before it is fully stopped and to open them or get out of the vehicle without first assuring that this does not involve any danger or obstruction to other users, particularly with regard to bicycle riders.\n(Página 53 del manual 'Learning to drive')\n",
+      "image_url": "1e042387-cd80-4cfe-8bd8-4c642aec14faM.jpg",
+      "number": "29.",
+      "question": "¿Está permitido llevar las puertas o el maletero abiertos para aumentar la capacidad de carga?\nAre you allowed to have the car doors or the boot open to carry a larger load?",
+      "source_ordinal": 29,
+      "question_id": "exam:1037:29",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q29.jpg",
+      "primary_topic_id": "numbers.dimensions",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.dimensions",
+        "vehicle.cargo"
+      ],
+      "canonical_id": "2d770cdd2d89816c3aa1df94"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "a una velocidad máxima.\ndriving at maximum speed."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "con exceso de velocidad.\nspeeding."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "a una velocidad moderada, según las circunstancias.\ndriving at a moderate speed, depending on the circumstances."
+        }
+      ],
+      "help": "1 Speed  \n \n1.1 Basics\nMaximum speed: Maximum speed means the top limit allowed for the vehicle on the road on which it is travelling. When driving at a speed exceeding this speed limit the vehicle is said to be ‘speeding’ (driving in excess of the permitted speed).\nMinimum speed: This is the lowest speed permitted for the vehicle to travel on that particular road. When driving at a speed less than the minimum speed allowed, the vehicle is being driven at an abnormally low speed.\n(Página 170 del manual 'Learning to drive')\n",
+      "image_url": "a43f2036-081d-4d2f-b486-138ded6e02a9M.jpg",
+      "number": "30.",
+      "question": "Circulando a una velocidad superior a la velocidad máxima permitida está circulando...\nDriving at a speed higher than the maximum permitted speed is…",
+      "source_ordinal": 30,
+      "question_id": "exam:1037:30",
+      "source_test_id": 1037,
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1037/q30.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds"
+      ],
+      "canonical_id": "89204420c32831ea188bb1b1"
+    }
+  ]
+}

@@ -671,5 +671,84 @@
       "vehicle.cargo"
     ],
     "basis": "Prompt and answer ask about lateral protrusion of luggage."
+  },
+  "bd34bf8db132ebc5083f8e47": {
+    "primary_topic_id": "incidents.scene",
+    "topic_ids": [
+      "incidents.scene"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "66ee362abe628ce936b24ad0": {
+    "primary_topic_id": "vehicle.classification",
+    "topic_ids": [
+      "vehicle.classification"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "4650ed5877ee2558058118ee": {
+    "primary_topic_id": "routine.alcohol",
+    "topic_ids": [
+      "routine.alcohol",
+      "incidents.statistics"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "76f83406c873839a7acb3588": {
+    "primary_topic_id": "routine.safety",
+    "topic_ids": [
+      "routine.safety"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "e358364c221bac78415c96b7": {
+    "primary_topic_id": "transport.animals",
+    "topic_ids": [
+      "transport.animals"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "97b503db2b5e51c946ab0597": {
+    "primary_topic_id": "vehicle.tyres",
+    "topic_ids": [
+      "vehicle.tyres"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "ca42f68ff907542bdb342248": {
+    "primary_topic_id": "signs.general",
+    "topic_ids": [
+      "signs.general"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "7ca38261c48f7e8cca447311": {
+    "primary_topic_id": "routine.distraction",
+    "topic_ids": [
+      "routine.distraction"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "47ca70141737ace4df940931": {
+    "primary_topic_id": "vehicle.classification",
+    "topic_ids": [
+      "vehicle.classification",
+      "vehicle.passengers"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "734ff21d58cc8378c76502b9": {
+    "primary_topic_id": "routine.distraction",
+    "topic_ids": [
+      "routine.distraction"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
+  },
+  "fac5181bb28cc3c5491b7371": {
+    "primary_topic_id": "driving.signals",
+    "topic_ids": [
+      "driving.signals"
+    ],
+    "basis": "Prompt and confirmed answer reviewed; no explanation used."
   }
 }

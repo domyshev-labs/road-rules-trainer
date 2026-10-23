@@ -1,0 +1,1097 @@
+{
+  "test_id": 101070,
+  "title": "Exam collection · 1070",
+  "collection": "Exam Test",
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Lugar reservado para la parada de autobuses.\nA place reserved for buses stopping."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Carril reservado para autobuses y tranvías.\nLane reserved for buses and trams."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Carril reservado para autobuses.\nLane reserved for buses."
+        }
+      ],
+      "help": "5 Vertical Signs                \n           \n5.4 Indication Road Signs  \n5.4.3 Lane signs  \nS-51a Lane reserved for specific types of vehicles\nIndicates a lane designated exclusively for the circulation of certain specific types of vehicles (buses, motorcycles, three-wheeled vehicles classified as motorcycles, taxis, cycles, etc.). The sign shall include a pictogram representing the authorised type or types of vehicles. On sections where the longitudinal lane marking consists of a broken line, use of the lane by other vehicles is permitted only to carry out manoeuvres other than stopping, parking, turning around or overtaking, always giving priority to vehicles authorised to use the lane.\n(Página 136 del manual 'Learning to drive')",
+      "image_url": "a828e456-cdaa-4daa-aa5e-726a0eff273aM.jpg",
+      "number": "1.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "source_ordinal": 1,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:01",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q01.jpg",
+      "primary_topic_id": "signs.lanes",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.lanes"
+      ],
+      "canonical_id": "34725bb9cb0165f0ece252a9"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Mantener posturas inadecuadas al volante.\nInappropriate positions at the wheel."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Mantener los hábitos normales de conducción.\nMaintaining normal driving habits."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Planificar los viajes y los descansos necesarios.\nPlanning the trips and required breaks."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES  \n \n10.1 Circumstances that cause fatigue\n10.1.3 Driver circumstances\nChanges of normal driving habits. Most people only drive for short distances and during the day. Therefore special care must be taken when driving long distances (for example, during holidays) and especially when driving at night.\nBeing a novice driver as this entails not having acquired all of the automated processes involved in driving, and therefore more concentration is required.\nAdopting an inappropriate driving posture and position in the seat. This can result in pain, stiffness or muscular overload at the end of the journey.\n(Página 37 del manual 'Learning to drive')",
+      "image_url": "8db58fcc-89c6-4e67-a1d4-18786d97daa9M.jpg",
+      "number": "2.",
+      "question": "¿Qué circunstancias favorecen la aparición de la fatiga?\nWhat circumstances can contribute to tiredness?",
+      "source_ordinal": 2,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:02",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q02.jpg",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.fatigue"
+      ],
+      "canonical_id": "aac6dfb2c6843de8fec107c6"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "una mayor rapidez en la toma de decisiones.\nfaster decision-making."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "una mayor agresividad y un comportamiento imprudente al volante.\ngreater aggressiveness and reckless behaviour at the wheel."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "una disminución de la fatiga.\nreduced fatigue."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION  \n   \n20 Some illnesses that can affect driving  \n20.2 Stress\nStress can have the following effects on the driver:\nAn increase in the level of aggressiveness, competitiveness and hostility toward other drivers.\nBehaviour that may become reckless and where there is the possibility of taking high level risks when driving.\nAn increase in the tendency to disregard road signs and traffic rules.\nA reduction in the ability to make decisions. It takes more time to think and reactions become slower with the potential for more errors.\nA lower level of concentration whilst driving in traffic, which increases the likelihood of being distracted.\nThe speeding up and emergence of fatigue when driving.\n(Página 47 del manual 'Learning to drive')",
+      "image_url": "3174e7ae-7c90-4b5c-95a6-735c3337450fM.jpg",
+      "number": "3.",
+      "question": "El estrés produce en el conductor...\nDriver stress causes...",
+      "source_ordinal": 3,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:03",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q03.jpg",
+      "primary_topic_id": "routine.emotions",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.emotions"
+      ],
+      "canonical_id": "f94fb640771c6293f613e7ae"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, utilizando la señal de emergencia o mediante el empleo reiterado de la luz de frenado.\nYes, using the hazard lights or flashing the brake lights."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Sí, con la luz de marcha atrás, si se dispone de ella.\nYes, with the reversing light, if available."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, no es obligatorio señalizar la maniobra de marcha atrás.\nNo, it is not compulsory to signal a reversing manoeuvre."
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nThe reversing light advises and warns that the vehicle is, or is about to, reverse back and that reverse gear has been selected. If an arm signal is used to convey this warning then the driver must extend his arm horizontally and turn the palm of his hand backwards.\n(Página 183 del manual 'Learning to drive')",
+      "image_url": "efa804f3-ec76-453f-bd38-48d8e45eac01M.jpg",
+      "number": "4.",
+      "question": "La maniobra de marcha atrás, ¿debe señalizarse?\nShould a reversing manoeuvre be signalled?",
+      "source_ordinal": 4,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:04",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q04.jpg",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.reversing",
+        "vehicle.lights"
+      ],
+      "canonical_id": "ae1b2f45176afa5a1ff2b58a"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "es importante, pero solo en vías interurbanas.\nis important, but on intercity roads only."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "es responsabilidad única de sus ocupantes, ya que en un accidente serían los únicos perjudicados.\nis the sole responsibility of its occupants, as in an accident they would be the only injured parties."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "puede salvar la vida de sus ocupantes y evita que estos provoquen graves lesiones en los demás.\ncan save the lives of its occupants and prevents them from causing serious injuries to others."
+        }
+      ],
+      "help": "7 Seat belts\n \n7.1 Purpose and effectiveness\nThe purpose of a seat belt is to retain and protect the driver and occupants in the event of sudden stopping, collision or the vehicle rolling over. The seat belt prevents the occupants of a vehicle from being catapulted out of it and absorbs part of the energy of an impact.\nDuring a frontal collision against an indeformable object, a vehicle stops in a tenth of a second, but due to inertia, the occupants will continue moving at the same speed as the vehicle was travelling at. Therefore, there is the likelihood of colliding with the steering wheel or the windshield, which will result in serious injuries being sustained.\nTo avoid this, the seat belt slows the movement of the body by stretching out, as if is made of an elastic material, by an extensible action.\n(Página 75 del manual 'Learning to drive')\n\n7 Seat belts    \n     \n7.6 Misconceptions of safety belts\n“It is dangerous to use a seat belt during pregnancy”\nThe use of seat belts is compulsory for pregnant women, as they have proved that if you are not wearing it, the foetus can suffer major damage in the event of an accident.\nThe abdominal belt must go as low as possible on the hips, to wear it higher could potentially harm the baby. There are devices on the market that adequately prevent the belt from going up onto the abdomen.\n“The belt is only necessary for front seat passengers. In the rear seats it isn’ necessary”\nIf passengers in the rear seats fail to wear a seat belt there is the probability that, in the event of a frontal collision, they will be fired forwards towards the occupants in the front seats and serious injury will be caused.\nThe likelihood for an occupant in the rear seats to cause the death of another passenger in the front seats due to the fact that they are launched forward is up to 8 times greater than if the seat belt is worn.\n(Página 78 del manual 'Learning to drive')",
+      "image_url": "8a88aebb-6c9d-4e8b-a1ff-db4c3b74e52aM.jpg",
+      "number": "5.",
+      "question": "El cinturón de seguridad en los asientos traseros...\nOn rear seats, the seat belt...",
+      "source_ordinal": 5,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:05",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q05.jpg",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.seatbelts"
+      ],
+      "canonical_id": "591ad6e66c94e7320d6ad133"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "regula la velocidad a la que elija el conductor de forma automática y controla la distancia de circulación con respecto al vehículo precedente.\nautomatically regulates the speed that the driver chooses and controls the driving distance to the vehicle in front."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "ayuda a no rebasar una velocidad de circulación que el conductor haya elegido, llamada velocidad limitada.\nhelps the driver keep within the set driving speed, which is called limited speed."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "ayuda a mantener la velocidad de circulación en el valor constante que elija el conductor, denominada velocidad de regulación.\nmaintains a driving speed set by the driver, called regulation speed."
+        }
+      ],
+      "help": "5 Other elements of active safety\n \n5.3 Speed limiters\nThe speed limiter helps the driver keep within the set driving speed, which is called limited speed.\nOnce it is activated, a warning lamp lights up on the instrumentation panel to indicate that this function is activated and a limited speed must be chosen. This speed is registered using the controls on the steering wheel, and it can be changed, memorised and recovered when necessary.\n(Página 74 del manual 'Learning to drive')",
+      "image_url": "aab0f07e-fddd-47c3-aa9d-80794f23b47fM.jpg",
+      "number": "6.",
+      "question": "El limitador de velocidad...\nThe speed limiter...",
+      "source_ordinal": 6,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:06",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q06.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds"
+      ],
+      "canonical_id": "0fa3d5aa2cd9e3feda09eb21"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "Maneouvres  \n \n5 Overtaking\n5.6 Obligations of the driver of the vehicle being overtaken\n5.6.1 Before the overtake\nThe driver who is going to be overtaken must always allow and facilitate the manoeuvre. They must not increase their speed or do anything which prevents or makes it difficult to overtake. Suddenly accelerating or moving sideways when they are about to be overtaken endangers the occupants of both vehicles.\n   \n \n(Página 190 del manual 'Learning to drive')",
+      "image_url": "d6cdff9f-ff31-49e7-938b-92b28927c87dM.jpg",
+      "number": "7.",
+      "question": "Un vehículo le quiere adelantar. ¿Debe hacer algo para impedirlo?\nA vehicle wants to overtake you. Should you do something to prevent it?",
+      "source_ordinal": 7,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:07",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q07.jpg",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking"
+      ],
+      "canonical_id": "8e2ef1aade0769468463820f"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "al estar cerca de ellos hacer señales acústicas para indicar nuestra presencia.\nstay close to them to give sound signals to indicate our presence."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "mantener la velocidad y estar atentos al cumplimiento de la señalización vertical.\nmaintain speed and obey vertical signs."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "extremar la precaución porque existe más probabilidad de caídas.\ntake care because there is a greater likelihood of falls."
+        }
+      ],
+      "help": "Road traffic collisions                      \n                       \n6. Groups of drivers most at risk of a collision          \n6.3 Drivers of two-wheeled vehicles      \n6.3.1 Bicycles\nTo prevent collisions involving cyclists, the following is recommended:\nDo not start or continue an overtake if there is a cyclists approaching in the opposite direction.\nExercise extreme caution in bad weather or poor visibility, because there is the increased likelihood of the rider falling or becoming unstable.\nAvoid using the warning device (horn) near cyclists. It should only be used when there is sufficient distance to avoid scaring or alarming them.\nBe careful when you are parking a vehicle or are near parked cars or other obstacles, as cyclists are able to make sudden movements and change their course quickly.\nExercise caution in housing estates and leisure areas, especially in the summer and school holidays.\n(Página 256 del manual 'Learning to drive')",
+      "image_url": "1559018b-ad3f-473d-9384-f7b3f1116a2dM.jpg",
+      "number": "8.",
+      "question": "En una situación de lluvia y ciclistas circulando, debemos...\nDuring rain with cyclists on the road, we must...",
+      "source_ordinal": 8,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:08",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q08.jpg",
+      "primary_topic_id": "driving.weather",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.weather"
+      ],
+      "canonical_id": "38ce91d9c62e7136f2ae0d45"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, porque debe cumplir con la señal de Stop del personal de la obra.\nYes, because you must comply with the site personnel's stop sign."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, porque debe ceder el paso a todos los vehículos de la derecha.\nYes, because you must give way to vehicles approaching from the right."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, porque tiene preferencia sobre los vehículos que circulen por una vía sin pavimentar.\nNo, because you have priority over vehicles travelling on an unpaved road."
+        }
+      ],
+      "help": "Safe driving  \n   \n3 Road works\nTherefore drivers should adhere to the following when travelling through a section of road works:\nDo not try to overtake, especially when this is not permitted or the width of the carriageway or lane is reduced.\nIt is obligatory to follow the instructions of the road works personnel.\nComply with the law regarding rights of way and priorities, particularly if the road works have created a narrowing of the roadway.\n(Página 224 del manual 'Learning to drive')",
+      "image_url": "0fb5faae-f4fb-45c6-8d52-b847f485b342M.jpg",
+      "number": "9.",
+      "question": "¿Debe ceder el paso a este camión que sale desde un camino de tierra?\nShould you give way to this lorry coming from an unpaved road?",
+      "source_ordinal": 9,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:09",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q09.jpg",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.priority"
+      ],
+      "canonical_id": "f63169fc7452af0128cc395a"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Por la calzada que mejor convenga al destino del conductor.\nOn the road that best suits the driver's destination."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Por la calzada de la izquierda en el sentido de la marcha.\nOn the left-hand road in the direction of travel."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Por la calzada de la derecha en el sentido de la marcha.\nOn the right-hand road in the direction of travel."
+        }
+      ],
+      "help": "2 Use of the road    \n     \n2.1 Roads with several carriageways\nWhere roads are divided into two carriageways, there is normally either a central reservation or barrier that provides a means to separate these carriageways. You must drive on the carriageway located on the right hand side. It is not permitted to drive on the opposite carriageway in a contrary direction to that permitted unless this has been specifically set up and a diversion system is in operation. Neither is it permitted to use the central reservation area to carry out a ‘U’ turn.\n(Página 161 del manual 'Learning to drive')",
+      "image_url": "d733c096-c3f7-4492-a949-fb346ece2895M.jpg",
+      "number": "10.",
+      "question": "En vías de dos calzadas separadas por medianas, como norma general, se circulará:\nOn carriageways with two roads divided by central reservations, as a general rule, you will travel:",
+      "source_ordinal": 10,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:10",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q10.jpg",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.lanes"
+      ],
+      "canonical_id": "4b8a5da5453b01f01f1cc6a7"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Sí, solamente en vía urbana.\nYes, only on urban roads."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí, apartándome a la derecha, normalmente, y deteniéndome si es preciso.\nYes, by moving to the right and stopping if necessary."
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels    \n   \n4 Vehicles in response to emergency situations\n4.2 Behaviour of other drivers\nWhen other drivers and road users become aware of the presence of a priority service vehicle responding to an emergency situation (that is they hear the audible - siren or / and see the optical - lights) they must take suitable measures to allow the vehicle(s) to pass and accord them right of way.\nThis means, allowing the vehicles to pass by easily, by giving them adequate space and moving out of their path, normally to the right, in plenty of time and if necessary, also stopping. \n(Página 208 del manual 'Learning to drive')",
+      "image_url": "9a549980-8be6-4a45-b7c8-c3c798588b1bM.jpg",
+      "number": "11.",
+      "question": "Si circula delante de una ambulancia en servicio urgente, ¿debe facilitarle el paso?\nIf you are travelling in front of an ambulance on an emergency call out, should you give way?",
+      "source_ordinal": 11,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:11",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q11.jpg",
+      "primary_topic_id": "incidents.emergency_call",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.emergency_call",
+        "priority.emergency",
+        "priority.merging"
+      ],
+      "canonical_id": "60676982ca0da2db2d87fa2a"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, porque en este caso no se considera adelantamiento.\nYes, because in this case, it is not considered to be an overtake."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, porque el turismo tiene prioridad.\nYes, because the car has right of way."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, porque no está permitido adelantar por la derecha.\nNo, because you are not to overtake it on the right."
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking  \n5.3 Manoeuvres that are not considered overtakes\n5.3.2 Special lanes\nIt is not considered to be overtaking, when a vehicle travels faster in either an acceleration lane – in order to enter a road; or on a deceleration lane - in order to exit a road and in doing so, passes vehicles. Additionally, this is also the case, in a lane that is marked for a specific route and direction or, a lane for certain predetermined vehicles.\nHowever it is considered to be an overtake, when a vehicle enters into an acceleration or deceleration lane purely in order to pass another vehicle or enters into special lane, whose function is to facilitate slower moving traffic.\n(Página 187 del manual 'Learning to drive')",
+      "image_url": "3fe19af2-d4c9-46d3-a94a-fb39017eea87M.jpg",
+      "number": "12.",
+      "question": "En este carril de aceleración, ¿puede el turismo avanzar más rápido para situarse delante del camión?\nIn this acceleration lane, can the car move faster to get in front of the lorry?",
+      "source_ordinal": 12,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:12",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q12.jpg",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.merging",
+        "driving.overtaking"
+      ],
+      "canonical_id": "9aefde722dc9a74e970f9593"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "no conducir nunca mientras dure el tratamiento.\nnever drive during treatment."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "seguir las indicaciones del médico y tener en cuenta los posibles efectos secundarios que afectan a la conducción.\nfollow the doctor's instructions and take into account the possible side effects that affect driving."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "tomar café para contrarrestar algunos efectos secundarios de los medicamentos.\ndrink coffee to counteract some side effects of medications."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION  \n   \n19 The consequences of illnesses and drugs in traffic collisions\nTo drive a vehicle requires certain conditions relating to the physical and mental aptitude of the driver to be initially satisfied and thereafter maintained. It is therefore necessary to go to a designated medical centre for drivers who will verify whether there is a serious impediment to the applicant or driver, which will prevent them performing this task safely.\nA mild illness does not have to exclude driving, although it can reduce the ability to drive safely (for example, a common cold can cause sleepiness and loss of concentration). Therefore, you should always ask your doctor about the precautions to be taken before driving, especially if you have a chronic illness.\n(Página 46 del manual 'Learning to drive')\n\nILLNESS AND MEDICATION\n \n19 The consequences of illnesses and drugs in traffic collisions\nHow to reduce the risk of accident in case of chronic illness?\nKnow and understand the illness well.\nKnow what sides efects the medication may cause.\nRecognise the first warning signs and knwo how to act.\nAvoid situations that may trigger an occurrence or crisis.\nAvoid driving during a crisis or a phase of severe illness.\n(Página 46 del manual 'Learning to drive')\n\nILLNESS AND MEDICATION\n \n19 The consequences of illnesses and drugs in traffic collisions\nHow to reduce the risk of accident in case of chronic illness?\nDo not modify or abandon the treatment without medical advice.\nDo not consume alcohol while you are taking medication.\nAlways consult a doctor about the associated risks of driving.\n(Página 46 del manual 'Learning to drive')",
+      "image_url": "652d5fb7-75ac-49a1-8fa6-aa7ea1574dbaM.jpg",
+      "number": "13.",
+      "question": "Un conductor que está tomando medicamentos debe...\nA driver who is taking medication must...",
+      "source_ordinal": 13,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:13",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q13.jpg",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.health"
+      ],
+      "canonical_id": "91530984372c0b36280e1654"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, entre otros de policía y bomberos.\nYes, among others, police and fire brigade."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No, solo materiales.\nNo, only material costs."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No, solo causan costes humanos.\nNo, they only cause human costs."
+        }
+      ],
+      "help": "Road traffic collisions  \n   \n1 A public health problem\nMoreover, in addition to the human drama, it is important to highlight the enormous economic impact (either directly or indirectly) that occurs as a result of a traffic collision.\nCosts derived from road traffic accidents are classified as human, material, healthcare and administrative.\nHuman costs include the loss of lives, productive capacity and physical and psychological suffering. Material costs consist of damages caused on vehicles and their loads as well as on the road and the environment. Healthcare costs comprise first aid, care and treatment of the wounded, rehabilitation and adaptations. Administrative costs hold those of police officers and firefighters and insurance and services management.\nPeople believe that an accident has little effect on them but the cost is borne by taxpayers. The cost of vehicle insurance is also affected, as premiums are affected by collision data and the cost of accidents.\nFor these reasons, various international organisations, including the World Health Organisation (WHO), believe that road collisions are a priority public health problem throughout the world.\nThere is a serious need to work together to reduce the high numbers of dead and seriously injured on the roads.\n(Página 248 del manual 'Learning to drive')",
+      "image_url": "96f037fc-79f7-408e-935c-fa5cf90cbfe1M.jpg",
+      "number": "14.",
+      "question": "Los accidentes de tráfico, ¿causan costes administrativos?\nDo traffic accidents cause administrative costs?",
+      "source_ordinal": 14,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:14",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q14.jpg",
+      "primary_topic_id": "routine.safety",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.safety"
+      ],
+      "canonical_id": "b82515bea0520f6cdb50791c"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "hace que el vehículo mantenga su trayectoria.\nkeeps the vehicle driving in the right direction."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "permite mantener el control sobre la dirección.\npermits you to keep control of the steering."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "reduce la distancia de frenado en todos los casos.\nalways reduces the braking distance."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES    \n   \n3 Brakes\n3.5 Improvements in braking systems\n3.5.1 Anti-lock braking system (ABS)\nABS is an important advancement in the field of active vehicle safety, since:\nIt allows the driver to maintain control over the steering. (If the wheels are locked the vehicle will not respond to the way the driver turns the steering wheel).\nIn most cases, ABS reduces the braking distance for the average driver.\nThe effectiveness of ABS is limited by the capacity of the adhesion of the tyres to the road surface. Defective tyres or shock absorbers will reduce the effectiveness of ABS and will extend the braking length.\n(Página 65 del manual 'Learning to drive')",
+      "image_url": "fdc1d6d0-c70a-4abd-a754-209e67b1800eM.jpg",
+      "number": "15.",
+      "question": "El sistema antibloqueo de frenos ABS...\nThe ABS anti-lock braking system...",
+      "source_ordinal": 15,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:15",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q15.jpg",
+      "primary_topic_id": "vehicle.adas",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.adas",
+        "vehicle.mechanics"
+      ],
+      "canonical_id": "b66e718eb703774bc4c6243e"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí.\nYes."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Sí, pero solamente en vías interurbanas.\nYes, but only on intercity roads."
+        }
+      ],
+      "help": "13 Vehicle registration number plate lights\n \nIt is optional for mopeds and special vehicles that are not entitled to travel during the hours of darkness.\n(Página 104 del manual 'Learning to drive')\n\n4 Position lights  \n \n4.3 Use of the ‘position’ lights – when travelling\nAll vehicles must use the correct lights depending on the circumstances.\nHowever, position lights together with headlights (main beam or low beam) or fog lights, must be used when driving:\nBetween sunset and sunrise.\nIn reduced visibility due to adverse atmospheric or weather conditions, such as fog, intense rain, smoke, dust etc.\nIn tunnels, underpasses or sections road, where the sign for a ‘unnel’ is displayed.\nNote: It is not permissible to use only the position lights.\n(Página 98 del manual 'Learning to drive')",
+      "image_url": "2485af8d-5ff9-4bdf-809a-9f174394b9e9M.jpg",
+      "number": "16.",
+      "question": "¿Es obligatorio llevar iluminada la placa posterior de la matrícula durante la noche?\nIs it compulsory to have the rear licence plate illuminated at night?",
+      "source_ordinal": 16,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:16",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q16.jpg",
+      "primary_topic_id": "signs.vehicle_plates",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.registration",
+        "signs.vehicle_plates"
+      ],
+      "canonical_id": "12076d9f370b9ec7d4ad8ed1"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "100 km/h.\n100 km/h."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "120 km/h.\n120 km/h."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "90 km/h.\n90 km/h."
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')",
+      "image_url": "1ef05105-e03d-446a-8cc8-d963c8bdc153M.jpg",
+      "number": "17.",
+      "question": "En autopista, un camión que arrastra un remolque ligero puede adelantar como máximo a...\nOn the motorway, a lorry towing a light trailer can overtake at a maximum of...",
+      "source_ordinal": 17,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:17",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q17.jpg",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking",
+        "incidents.towing"
+      ],
+      "canonical_id": "1df7b4719b8cb6638aa98331"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Sí, por lo que hay que utilizar la baca como última opción.\nYes, which is why a roof rack should be used as a last resort."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Sí, por lo que hay que utilizar la baca como primera opción.\nYes, which is why a roof rack should be used as a first resort."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "No afecta al consumo.\nIt does not affect consumption."
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving\n \n10 Factors affecting consumption\n10.1 Air resistance\nThe majority of fuel consumed is used to overcome air (wind) resistance that acts against the advancing vehicle.\nThis means that anything that increases or changes the aerodynamics lines (the design) of a vehicle has a greater impact on consumption.\nThis is why external accessories, (roof racks, flaps and deflectors, etc.) increase the resistance of the vehicle and, therefore, increase fuel consumption.\nIt is not advisable to leave the roof rack on the vehicle when it is empty and not being used. It is preferable to carry the load in the boot, whenever possible and not on the roof rack.\n(Página 277 del manual 'Learning to drive')",
+      "image_url": "cc1144cf-8c61-4f4a-abce-5aef991e357fM.jpg",
+      "number": "18.",
+      "question": "La distribución de la carga, ¿afecta significativamente al consumo de combustible?\nDoes load distribution significantly affect fuel consumption?",
+      "source_ordinal": 18,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:18",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q18.jpg",
+      "primary_topic_id": "routine.ecodriving",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.ecodriving",
+        "vehicle.cargo"
+      ],
+      "canonical_id": "5876232107b53344430aea8c"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Cuando sople de frente.\nWhen blowing from the front."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "Cuando sople de costado y a ráfagas.\nWhen blowing from the side and gusting."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Cuando sople por detrás.\nWhen blowing from behind."
+        }
+      ],
+      "help": "Safe driving\n \n10 Driving in cross winds (lateral winds)\nCrosswinds can be very dangerous as the affect is to throw the vehicle off its intended course. It may cause an abrupt and sudden, unexpected movement or deviation. This is particularly hazardous for two wheeled vehicles or vehicles pulling a trailer. In cross winds, vehicles may even overturn or drive off the road.\n(Página 232 del manual 'Learning to drive')",
+      "image_url": "ba229f0f-f9d4-416d-b992-19c9fba0e7a5M.jpg",
+      "number": "19.",
+      "question": "¿En qué situación el viento implica mayor peligro para la conducción de una motocicleta?\nWhat is the situation where the wind poses the greatest danger to driving a motorcycle?",
+      "source_ordinal": 19,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:19",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q19.jpg",
+      "primary_topic_id": "conditions.wind",
+      "classification_review_required": false,
+      "topic_ids": [
+        "conditions.wind"
+      ],
+      "canonical_id": "061bdfb816a189c36bad844b"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "un incremento de las alergias.\nan increase in allergies."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "estados de fuerte somnolencia.\nsevere drowsiness."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "mayor riesgo de accidente.\nan increased risk of accident."
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION\n \n21 Some drugs that can affect driving\nMedicines are used to cure and treat illnesses, but a misuse of these substances can lead under certain circumstances to a high number of road traffic collisions.\nNot all drugs negatively affect the abilities needed to drive safely, although it is important to know what affect they may have on the driver. Some drugs are considered safe, such as painkillers; whilst others can cause euphoria, sedation, dizziness, impaired concentration and cognitive ability, passiveness, etc.\n(Página 48 del manual 'Learning to drive')",
+      "image_url": "d759dfa1-8e54-45b7-b1a6-c0056f54be9bM.jpg",
+      "number": "20.",
+      "question": "El mal uso de los medicamentos puede ser causa de...\nThe misuse of medicines can cause...",
+      "source_ordinal": 20,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:20",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q20.jpg",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.health"
+      ],
+      "canonical_id": "da402d74ac2fd31d6effd4f1"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "únicamente los conductores de turismos.\nonly car drivers."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "únicamente los conductores de camiones.\nonly lorry drivers."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "cualquier usuario de la vía que esté implicado directamente como posible responsable en un accidente.\nany road user when directly involved as the potential cause of an accident."
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS    \n     \n18 Screening for blood alcohol or drugs\nIn order to detect this antisocial behaviour, tests to detect alcohol or drugs will be used. These tests are mandatory for:\nAll road users or drivers of vehicles directly involved as possible persons responsible for a traffic accident.\nAny driver of a vehicle showing symptoms of being under the effects of these substances.\n(Página 45 del manual 'Learning to drive')",
+      "image_url": "93c45b65-f0e4-4717-a361-9ed9342ce587M.jpg",
+      "number": "21.",
+      "question": "Quedan obligados a someterse a las pruebas que se establezcan para la detección de alcoholemia...\nWho is required to take a test to detect the presence of alcohol?",
+      "source_ordinal": 21,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:21",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q21.jpg",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.alcohol"
+      ],
+      "canonical_id": "7173b48d0a92246963860f6c"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "Porque disminuye la concentración.\nBecause it decreases concentration."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Porque el viaje dura más.\nBecause the trip lasts longer."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "Porque se circula más rápido.\nBecause you drive faster."
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES  \n   \n11.3 Effects of drowsiness\nDrowsiness / sleepiness:\nIncreases the reaction time.\nIncreases the number of distractions behind the wheel, as it prevents the driver from concentrating on traffic.\nAlters the ability to make decisions when driving. The driver takes longer to take any decision and makes more errors at the wheel, especially in complicated situations when there is a need to respond quickly.\nAlters the mobility of the driver. The muscles relax and movements are slower and less accurate. It is also common to notice a tendency to execute movements automatically, without thinking sufficiently.\n(Página 39 del manual 'Learning to drive')",
+      "image_url": "22ef4a68-609a-4781-b64d-7606f34b9d64M.jpg",
+      "number": "22.",
+      "question": "Conducir con sueño, ¿por qué es peligroso?\nWhy is dangerous to drive tired?",
+      "source_ordinal": 22,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:22",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q22.jpg",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.fatigue"
+      ],
+      "canonical_id": "7001ac15ab247009ae03bf86"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Pedir ayuda al vehículo que estoy adelantando.\nAsk for help from the vehicle I am overtaking."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Aumentar la velocidad y adelantar rápidamente.\nSpeed up and overtake quickly."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Reducir la velocidad, señalizar y volver a mi carril.\nReduce speed, signal and return to my lane."
+        }
+      ],
+      "help": "Maneouvres              \n             \n5.5 Overtaking  \n5.5.4 Performing the overtake\nIf, once you start to overtake, circumstances arise which make it difficult to complete the overtake without taking a risk, such as the vehicle being overtaken speeds up suddenly or traffic appears in the opposite lane, the driver must stop overtaking, quickly reducing their speed and rejoining the original lane, and duly informing other road users with the appropriate signals.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "1deb3d24-ce59-480a-b816-b2c209d0b0dfM.jpg",
+      "number": "23.",
+      "question": "Está adelantando y ve que hay peligro. ¿Qué debe hacer?\nYou are overtaking and you see that there is danger. What should you do?",
+      "source_ordinal": 23,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:23",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q23.jpg",
+      "primary_topic_id": "signs.speed",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking",
+        "signs.lanes",
+        "signs.speed",
+        "signs.warning"
+      ],
+      "canonical_id": "96c5224cdc716b9fd6163a81"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "una luz amarilla o blanca.\nan amber or white light."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "una luz roja.\na red light."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "dos luces amarillo-auto.\ntwo flashing amber lights."
+        }
+      ],
+      "help": "Transporting people and loads          \n         \n3 Transport of load\n3.6 Signalling – the load\nIf the vehicle is being driven between sunset and sunrise and in weather or environmental conditions that significantly reduce visibility, any load which protrudes from the rear of the vehicle must also be identified with a red light.\n(Página 218 del manual 'Learning to drive')",
+      "image_url": "59814bc9-447c-4b69-8be9-b3f2eb0d37a2M.jpg",
+      "number": "24.",
+      "question": "De noche, la carga que sobresale por detrás debe señalizarse con un panel reflectante y...\nAt night, a load protruding behind must be signalled with a reflective panel and...",
+      "source_ordinal": 24,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:24",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q24.jpg",
+      "primary_topic_id": "priority.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.dimensions",
+        "priority.lights",
+        "vehicle.cargo"
+      ],
+      "canonical_id": "b61861b9b5f144b60856b32a"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "con regularidad durante la marcha.\nregularly whilst driving."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "solo cuando sea necesario.\nonly when necessary."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "únicamente al realizar maniobras.\nonly when performing manoeuvres."
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving  \n     \nDEFENSIVE DRIVING\n4 Observation\n4.3 Use of mirrors and monitor the blind spot\nMirrors allow the driver to see what is happening behind and to each side of the vehicle, so it is imperative to use them regularly during the journey, regardless of whether a manoeuvre is going to be performed.\nThe observation should be brief, but frequent, although this will also depend on the type of road being driven.\n(Página 272 del manual 'Learning to drive')",
+      "image_url": "1d35d5e7-ad63-4901-a556-f7a02477e1e2M.jpg",
+      "number": "25.",
+      "question": "Los retrovisores deben observarse...\nThe rear-view mirrors must be checked...",
+      "source_ordinal": 25,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:25",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q25.jpg",
+      "primary_topic_id": "vehicle.visibility",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.visibility"
+      ],
+      "canonical_id": "8be3e844579e028a73a9b76e"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "son muy caros y de difícil mantenimiento.\nare very expensive and difficult to maintain."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "evitan que se produzcan accidentes.\navoid accidents."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "deben utilizarse correctamente porque un mal uso puede suponer un riesgo.\nmust be used correctly because misuse can be a risk."
+        }
+      ],
+      "help": "1 Influence of the vehicle in traffic collisions\n \n1.2 Vehicle safety features\nPassive safety or secondary safety, aim to minimise the damage caused by an accident to those involved, at all times it works to protect the physical body of the individual.\nPassive safety systems (such as seat belts, airbags or headrests) activate automatically in the event of an accident, without requiring the intervention of the driver.\nAlthough its function is to minimise injuries that might occur in an accident, misuse can completely nullify its action. Such misuse could also be dangerous (for example, a head restraint too low could aggravate or cause an injury rather than avoid it).\n(Página 62 del manual 'Learning to drive')",
+      "image_url": "86e14e10-7a98-4c4d-9a36-4365a383af6fM.jpg",
+      "number": "26.",
+      "question": "Los sistemas de seguridad pasiva...\nPassive safety systems…",
+      "source_ordinal": 26,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:26",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q26.jpg",
+      "primary_topic_id": "vehicle.passive",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.passive"
+      ],
+      "canonical_id": "2c18c8d7a600931548500642"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "compra del vehículo.\nthe vehicle purchase."
+        },
+        {
+          "correct": true,
+          "letter": "B",
+          "text": "primera matriculación del vehículo.\nthe first registration of the vehicle."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la tarjeta ITV.\nthe vehicle roadworthiness card (ITV)."
+        }
+      ],
+      "help": "3 Documentation for the vehicle    \n   \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections\nThe validity of the ITV card is limited and is subject to scheduled inspections. This is dependant on the type of vehicle, the age and use of the vehicle.\nIts expiry implies an economic fine and the granting of a term of 10 days in order to pass the service.\nIf, after the indicated period, it has not been presented to the aforementioned inspection, the Traffic Department will initiate the procedure for withdrawing the vehicle from circulation.\nThe age of the vehicle is calculated with effect from the date that it was first registered or from the date when it was granted the right to be used.\n(Página 25 del manual 'Learning to drive')",
+      "image_url": "8f025980-a1b0-4986-937d-f73792bcd9feM.jpg",
+      "number": "27.",
+      "question": "Para saber la antigüedad de un turismo debe consultar la fecha de...\nTo find out the age of a car, you should check the date of...",
+      "source_ordinal": 27,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:27",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q27.jpg",
+      "primary_topic_id": "documents.registration",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.registration"
+      ],
+      "canonical_id": "7ef0a37ec9fb2302b2799adc"
+    },
+    {
+      "answers": [
+        {
+          "correct": true,
+          "letter": "A",
+          "text": "la adherencia de los neumáticos al suelo es mayor.\ntyre grip is greater."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "se pisa el pedal de embrague al mismo tiempo que el pedal de freno.\nthe clutch pedal is pressed at the same time as the brake pedal."
+        },
+        {
+          "correct": false,
+          "letter": "C",
+          "text": "la masa del vehículo es mayor, ya que a mayor masa menor distancia de frenado.\nthe vehicle mass is greater, as the braking distance decreases at higher mass."
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES  \n \n3 Brakes\n3.4 Braking performance\nThe braking performance depends upon:\nThe correct state of maintenance and care of the braking system.\nThe correct pressure (application) being applied on the brake pedal that ultimately leads to the necessary pressure being transmitted to the brakes. The greater the force applied to the pedal, the greater the pressure that is exerted on the drum shoes or the disc pads of the brakes and therefore the result is more effective braking.\nThe condition of the tyres and adhesion quality of the tyres onto the road surface.\nThe condition of the road surface, the speed and the mass of the vehicle and its load.\nThe proper distribution of brake action on all wheels.\n(Página 65 del manual 'Learning to drive')",
+      "image_url": "cbbe555d-e322-4dc0-9684-1f7ea6bfb060M.jpg",
+      "number": "28.",
+      "question": "La eficacia del frenado aumenta, entre otras circunstancias, cuando...\nBraking efficiency increases, among other circumstances, when...",
+      "source_ordinal": 28,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:28",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q28.jpg",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.tyres"
+      ],
+      "canonical_id": "156729dc6d483b2166ef3381"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "Con el intermitente únicamente.\nOnly using your indicators."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Con las señales acústicas únicamente.\nWith acoustic signals only."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Con las luces en ráfaga o con señales acústicas.\nBy flashing your headlights or using acoustic signals."
+        }
+      ],
+      "help": "Maneouvres              \n             \n5.5 Overtaking  \n5.5.3 Signalling the manoeuvre and asking to move over\nThe driver being overtaken can be warned in advance of your intention to overtake them by using suitable sound signals, outside a populated area, or visual signals (flashing by alternating between the main and dipped beams), outside and within populated areas, where their help is required, or when it is mandatory to do so.\n(Página 189 del manual 'Learning to drive')",
+      "image_url": "bbe74b39-6799-4fe3-a547-79ca36759a06M.jpg",
+      "number": "29.",
+      "question": "En carretera desea adelantar a otro vehículo. ¿Cómo puede avisarle?\nYou want to overtake another vehicle on the motorway. How can you warn it?",
+      "source_ordinal": 29,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:29",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q29.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.signals",
+        "vehicle.lights"
+      ],
+      "canonical_id": "83b2191e73391b17dd0983bf"
+    },
+    {
+      "answers": [
+        {
+          "correct": false,
+          "letter": "A",
+          "text": "No.\nNo."
+        },
+        {
+          "correct": false,
+          "letter": "B",
+          "text": "Solo si en ellos viajan menores.\nOnly if minors travel in them."
+        },
+        {
+          "correct": true,
+          "letter": "C",
+          "text": "Sí.\nYes."
+        }
+      ],
+      "help": "10 Head restraints\n \nHead restraints are very effective in the event of a collision, avoiding or reducing the severity of injuries to the neck or vertebrates caused by the sudden movement, forward and back, of the head (whiplash). It is therefore imperative to properly use them, both in front and back seats.\nWhiplash occurs when a person’s head moves backward and then forward suddenly with great force. It is particularly frequent in rear- ending collisions.\nAs well as muscle and head pain it can cause decreased neck mobility, vertigo or dizziness, among other symptoms.\n(Página 80 del manual 'Learning to drive')",
+      "image_url": "00904c8a-ff24-4023-8058-14a1295b6047M.jpg",
+      "number": "30.",
+      "question": "¿Es aconsejable regular los reposacabezas de los asientos traseros?\nIs it advisable to adjust the headrests of the rear seats?",
+      "source_ordinal": 30,
+      "source_test_id": 1070,
+      "question_id": "exam:1070:30",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1070/q30.jpg",
+      "primary_topic_id": "vehicle.passive",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.passive"
+      ],
+      "canonical_id": "d087c332ee04b3a9603363d3"
+    }
+  ]
+}
