@@ -163,8 +163,40 @@ func statisticsOffset(r *http.Request) (int, bool) {
 
 type statisticsTopicRow struct {
 	Topic   string `json:"topic"`
+	TopicID string `json:"topic_id,omitempty"`
+	TestID  int    `json:"test_id,omitempty"`
 	Correct int    `json:"correct"`
 	Wrong   int    `json:"wrong"`
+}
+
+type statisticsCollection struct {
+	ID      string               `json:"id"`
+	Topic   string               `json:"topic"`
+	Correct int                  `json:"correct"`
+	Wrong   int                  `json:"wrong"`
+	Rows    []statisticsTopicRow `json:"rows"`
+}
+
+func statisticsRowLess(a, b statisticsTopicRow, column, direction string) bool {
+	x, y := a.Wrong, b.Wrong
+	if column == "correct" {
+		x, y = a.Correct, b.Correct
+	}
+	// Compare exact fractions; count only breaks equal-percentage ties.
+	left, right := x*max(1, b.Correct+b.Wrong), y*max(1, a.Correct+a.Wrong)
+	if left == right {
+		if x == y {
+			return a.Topic < b.Topic
+		}
+		if direction == "asc" {
+			return x < y
+		}
+		return x > y
+	}
+	if direction == "asc" {
+		return left < right
+	}
+	return left > right
 }
 
 func (app *App) topicStatistics(w http.ResponseWriter, r *http.Request) {
@@ -226,6 +258,7 @@ func (app *App) topicStatistics(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	totals := map[string]statisticsTopicRow{}
+	collections := []statisticsCollection{{ID: "thematic", Topic: "Тематические билеты", Rows: []statisticsTopicRow{}}, {ID: "exam", Topic: "Экзаменационные билеты", Rows: []statisticsTopicRow{}}}
 	for rows.Next() {
 		var topicID string
 		var testID, correct, wrong int
@@ -235,6 +268,8 @@ func (app *App) topicStatistics(w http.ResponseWriter, r *http.Request) {
 		label := statisticsTopicLabel(labels, topicID, testID)
 		row := totals[label]
 		row.Topic = label
+		row.TopicID = topicID
+		row.TestID = testID
 		row.Correct += correct
 		row.Wrong += wrong
 		totals[label] = row
@@ -247,24 +282,28 @@ func (app *App) topicStatistics(w http.ResponseWriter, r *http.Request) {
 	}
 	result := []statisticsTopicRow{}
 	for _, row := range totals {
+		if row.TestID != 0 {
+			index := 0
+			if row.TestID >= 100000 {
+				index = 1
+			}
+			collections[index].Rows = append(collections[index].Rows, row)
+			collections[index].Correct += row.Correct
+			collections[index].Wrong += row.Wrong
+			continue
+		}
 		if filter == "errors" && row.Wrong == 0 || filter == "perfect" && row.Wrong > 0 {
 			continue
 		}
 		result = append(result, row)
 	}
-	sort.Slice(result, func(i, j int) bool {
-		a, b := result[i].Wrong, result[j].Wrong
-		if sortBy == "correct" {
-			a, b = result[i].Correct, result[j].Correct
-		}
-		if a == b {
-			return result[i].Topic < result[j].Topic
-		}
-		if direction == "asc" {
-			return a < b
-		}
-		return a > b
-	})
+	sort.Slice(result, func(i, j int) bool { return statisticsRowLess(result[i], result[j], sortBy, direction) })
+	for i := range collections {
+		sort.Slice(collections[i].Rows, func(a, b int) bool {
+			return statisticsRowLess(collections[i].Rows[a], collections[i].Rows[b], "wrong", "desc")
+		})
+	}
+
 	total := len(result)
 	start := min(offset, total)
 	end := min(start+30, total)
@@ -287,7 +326,7 @@ func (app *App) topicStatistics(w http.ResponseWriter, r *http.Request) {
 		app.writeError(w, 500, "Не удалось прочитать календарь")
 		return
 	}
-	app.writeJSON(w, 200, map[string]any{"rows": result[start:end], "total": total, "has_more": end < total, "days": days})
+	app.writeJSON(w, 200, map[string]any{"rows": result[start:end], "total": total, "has_more": end < total, "days": days, "collections": collections})
 }
 
 func statisticsTopicLabel(labels map[string]string, topicID string, testID int) string {

@@ -195,3 +195,45 @@ func TestStatisticsPaginationAndTopicFilters(t *testing.T) {
 		t.Fatal("topics require authentication")
 	}
 }
+
+func TestStatisticsPercentageSortingAndCollections(t *testing.T) {
+	highRate := statisticsTopicRow{Topic: "High rate", Correct: 1, Wrong: 2}
+	highCount := statisticsTopicRow{Topic: "High count", Correct: 100, Wrong: 20}
+	if !statisticsRowLess(highRate, highCount, "wrong", "desc") || statisticsRowLess(highCount, highRate, "wrong", "desc") {
+		t.Fatal("default ranking must compare percentages, not counts")
+	}
+	if !statisticsRowLess(highCount, highRate, "correct", "desc") {
+		t.Fatal("correct answers must also sort by percentage")
+	}
+	app, sender := newTestApp(t)
+	uid, cookie := signInProgressUser(t, app, sender, "collection-statistics@example.com")
+	for i, minimum := range []int{0, 100000} {
+		var testID, questionID int
+		var letter string
+		err := app.db.QueryRow(`SELECT q.test_id,q.id,a.letter FROM questions q JOIN answers a ON a.question_id=q.id WHERE q.test_id>=? AND q.test_id<? AND a.correct=1 LIMIT 1`, minimum, minimum+100000).Scan(&testID, &questionID, &letter)
+		if err != nil {
+			t.Fatal(err)
+		}
+		id := fmt.Sprintf("grouped-%d", i)
+		if _, err = app.db.Exec(`INSERT INTO attempts VALUES(?,NULL,?,?,'full',1,'2026-10-01T00:00:00Z',NULL)`, id, uid, testID); err != nil {
+			t.Fatal(err)
+		}
+		if _, err = app.db.Exec(`INSERT INTO attempt_answers VALUES(?,?,?,?,'2026-10-01T01:00:00Z')`, id, questionID, letter, i == 0); err != nil {
+			t.Fatal(err)
+		}
+	}
+	response := request(t, app.Handler(), "GET", "/api/statistics/topics?filter=all", "", cookie)
+	var result struct {
+		Rows        []statisticsTopicRow   `json:"rows"`
+		Collections []statisticsCollection `json:"collections"`
+	}
+	if response.Code != 200 || json.Unmarshal(response.Body.Bytes(), &result) != nil {
+		t.Fatal(response.Body.String())
+	}
+	if len(result.Rows) != 0 || len(result.Collections) != 2 {
+		t.Fatal(response.Body.String())
+	}
+	if result.Collections[0].ID != "thematic" || result.Collections[0].Correct != 1 || result.Collections[1].ID != "exam" || result.Collections[1].Wrong != 1 || len(result.Collections[0].Rows) != 1 || len(result.Collections[1].Rows) != 1 {
+		t.Fatal(response.Body.String())
+	}
+}

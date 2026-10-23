@@ -874,9 +874,10 @@ function QuestionLibrary({ catalog, library, onOpen, onOpenTopic, getStats, view
     if (!summaries || !view.completedTopic) return;
     const branch = Array.from(container.querySelectorAll<HTMLElement>('[data-library-id]')).find((item) => item.dataset.libraryId === view.completedTopic?.id);
     const row = Array.from(branch?.querySelectorAll<HTMLElement>('[data-question-id]') ?? []).find((item) => item.dataset.questionId === view.completedTopic?.question);
-    if (row) {
+    const target = row ?? branch;
+    if (target) {
       // Keep the completed answer and the following question or topic in view.
-      container.scrollTop += row.getBoundingClientRect().top - container.getBoundingClientRect().top - 16;
+      container.scrollTop += target.getBoundingClientRect().top - container.getBoundingClientRect().top - 16;
     }
   }, [summaries, view.scrollTop, view.completedTopic]);
   function toggleBranch(id: string, open: boolean) {
@@ -1624,7 +1625,13 @@ function TrainerApp() {
       setHome(true);
     }} />;
   }
-  if (route.screen === 'statistics') return <LinearStatistics onBack={() => navigate({ screen: 'home' })} />;
+  if (route.screen === 'statistics') return <LinearStatistics onBack={() => navigate({ screen: 'home' })} onOpenTopic={(id) => {
+    const expanded = [id];
+    let parent = library?.nodes.find(node => node.id === id)?.parent_id;
+    while (parent) { expanded.unshift(parent); parent = library?.nodes.find(node => node.id === parent)?.parent_id; }
+    setLibraryView(current => ({ ...current, search: '', collection: null, expanded: [...new Set([...current.expanded, ...expanded])], completedTopic: { id, question: '' } }));
+    navigate({ screen: 'home' });
+  }} />;
   if (home && catalog.length && library) return <QuestionLibrary onStatistics={() => navigate({ screen: 'statistics' })} view={libraryView} knowledge={knowledge} onRemember={rememberLibrary} catalog={catalog} library={library} onOpen={openLibraryQuestion} onOpenTopic={(id, question, options) => { setActiveTopic({ id, question, ...options }); }} getStats={getTicketStats} />;
   if (home || !test || !question || !order.length || !catalog.length) return <PageLoader />;
 
