@@ -1,0 +1,1099 @@
+{
+  "test_id": 101085,
+  "title": "Exam collection · 1085",
+  "collection": "Exam Test",
+  "questions": [
+    {
+      "number": "1.",
+      "question": "Si estando en posesión del permiso B conduce un camión de 3.500 kg de MMA, ¿le afecta esta señal?\nIf you have a class B licence and you are driving a lorry with a MAM of 3,500 kg, does this sign affect you?",
+      "image_url": "b558a9c1-62bd-40ce-b29c-78d631e652dbM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, pero únicamente cuando la MMA sea superior al doble de la tara.\nYes, but only when the MAM is more than twice the tare.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí.\nYes.",
+          "correct": false
+        }
+      ],
+      "help": "2 Driver documentation            \n         \n2.4 Classes of driving permits    \n2.4.5 B permit\nIt grants authorisation to drive::\nTwo or three-wheeled mopeds and light quadricycles.\nVehicles for people with reduced mobility.\nMotor vehicles (including motor tricycles and heavy quadricycles) with a maximum authorised mass not exceeding 3,500 kg and designed and constructed for the carriage of no more than eight passengers in addition to the driver. Motor vehicles in this category may be combined with a trailer having a maximum authorised mass which does not exceed 750 kg.\nExample:\nVehicle with 3,500 kg MAM + 750 kg MAM trailer = combination of 4,250 kg MAM\n(Página 22 del manual 'Learning to drive')\n\n5 Vertical Signs                                    \n                                 \n5.3 Regulation road signs      \n5.3.5 Other signs relating to prohibition or restriction    \nR-306 No overtaking for lorries / trucks\nThis sign prohibits lorries / trucks with a maximum authorized mass exceeding 3,500 kilograms from overtaking motor vehicles travelling on the carriageway, even when the manoeuvre does not require rossing into the lane reserved for oncoming traffic.\n(Página 127 del manual 'Learning to drive')\n",
+      "source_ordinal": 1,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:01",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q01.jpg",
+      "primary_topic_id": "signs.restrictions",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.restrictions"
+      ],
+      "canonical_id": "355098ace7ab6b272e93c2fd"
+    },
+    {
+      "number": "2.",
+      "question": "Durante la noche, ¿debe utilizarse la luz antiniebla delantera con alguna otra?\nAt night, should the front fog lamp be used with any other light?",
+      "image_url": "727d8be5-f293-4887-824d-89bf85453e18M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, al menos posición.\nYes, at least the position lamps.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, con la luz de posición y además con las de cruce y/o carretera.\nYes, the position lamps and also the dipped beams and/or full beams.",
+          "correct": true
+        }
+      ],
+      "help": "10 Front fog lights\n \nThey must be used:\nAt least with the position lights, during the day.\nWith the main beam or low beam headlights, at night.\nFront fog lights, if installed, must be fitted independently to the rear fog lights. They can be used together with the main beam or low beam headlights.\n(Página 102 del manual 'Learning to drive')\n",
+      "source_ordinal": 2,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:02",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q02.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "conditions.fog",
+        "vehicle.lights"
+      ],
+      "canonical_id": "6cc1506d7b2506c6510fe16f"
+    },
+    {
+      "number": "3.",
+      "question": "En esta vía de doble sentido de circulación y tres carriles separados por marcas longitudinales discontinuas, ¿qué carril utilizará el vehículo azul para cambiar de dirección a la izquierda?\nOn this two-way road with three lanes divided by broken longitudinal lines, which lane will the blue vehicle use to change direction to the left?",
+      "image_url": "b74a9dae-f44e-4274-880d-9fc840b086feM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "El carril situado a la derecha si está libre.\nThe furthest lane to the right, if free.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "El carril izquierdo si está libre.\nThe left lane if it is free.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "El carril central.\nThe middle lane.",
+          "correct": true
+        }
+      ],
+      "help": "3 Use of lanes\n \n3.1 In general\nThe driver of an automobile or a special vehicle with a weight in excess of 3,500 kg MAM will have to comply with the following rules:\nIn two-way roadways, with three lanes –one for either direction and a centre lane, where the lanes are defined by longitudinal broken lines, you must travel in the lane located to the right and never in the lane to the far left.\nThe centre lane is a shared lane, for use by vehicles overtaking (in either direction) and for turning left.\n(Página 162 del manual 'Learning to drive')\n",
+      "source_ordinal": 3,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:03",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q03.jpg",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.markings"
+      ],
+      "canonical_id": "bf37d8936d3c25020e5b1faa"
+    },
+    {
+      "number": "4.",
+      "question": "A partir de esta señal, en una vía de un solo carril por sentido, ¿está permitido adelantar?\nFrom this sign, on a one-way road, is it permitted to overtake?",
+      "image_url": "04d91063-3bc2-4ab4-9085-3db7dc440b86M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, cuando se acerquen vehículos en sentido contrario.\nNo, if there are oncoming vehicles.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, solo está prohibido dentro del túnel.\nYes, it is only prohibited inside the tunnel.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, está prohibido en el tramo de vía afectado por la señal de túnel.\nNo, it is prohibited on the section of road affected by the tunnel sign.",
+          "correct": true
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking\n5.8 Situations when you must not overtake\nIt is also prohibited to overtake:\nIn tunnels, underpasses and track sections covered by a Tunnel sign (S-5) with two-way traffic, if the vehicle which you intend to overtake only has one lane for their traffic.\n(Página 191 del manual 'Learning to drive')\n",
+      "source_ordinal": 4,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:04",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q04.jpg",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.tunnels",
+        "signs.information"
+      ],
+      "canonical_id": "c4ef6ebdf75ebfec9cd1bb77"
+    },
+    {
+      "number": "5.",
+      "question": "En una carretera convencional con más de un carril para alguno de los sentidos, un derivado de turismo puede adelantar como máximo a...\nOn a conventional road with more than one lane for each direction, a car derivative can overtake at a maximum of...",
+      "image_url": "338c4186-a8a1-4e1e-a6d9-e18c3c44ba5eM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "90 km/h.\n90 km/h.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "80 km/h.\n80 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "120 km/h.\n120 km/h.",
+          "correct": false
+        }
+      ],
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')\n",
+      "source_ordinal": 5,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:05",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q05.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds",
+        "driving.overtaking"
+      ],
+      "canonical_id": "d181c802e2e614129ed6175a"
+    },
+    {
+      "number": "6.",
+      "question": "El titular de un permiso B con una antigüedad de 3 años, ¿puede conducir dentro del territorio español cualquier motocicleta de 125 cc.?\nIs it permitted to drive a 125cc motorcycle within Spain using a class B licence which is three years old?",
+      "image_url": "37e7e53f-71d3-48d8-a185-3597dc73413bM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí.\nYes.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, necesita siempre el permiso de la clase A.\nNo, a class A licence is always required.",
+          "correct": false
+        }
+      ],
+      "help": "2 Driver documentation            \n         \n2.4 Classes of driving permits      \n2.4.5 B permit\nThe minimum age it can be obtained is 18, although until holders turn 21, they cannot drive motor tricycles with a power exceeding 15 kW.\nObtaining it does not entail the concession of AM, A1, A2 or A permits. However, the holder of a class-B permit for longer than 3 years can drive motorcycles authorised by the class-A1 permit within the country.\n(Página 22 del manual 'Learning to drive')\n",
+      "source_ordinal": 6,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:06",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q06.jpg",
+      "primary_topic_id": "documents.permissions",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.permissions",
+        "numbers.displacement"
+      ],
+      "canonical_id": "0225d253e5f403ba231a4b0e"
+    },
+    {
+      "number": "7.",
+      "question": "El automóvil con cuatro ruedas o más, concebido y construido para el transporte de mercancías, cuya cabina no está integrada en el resto de la carrocería y con un máximo de 9 plazas, incluido el conductor, es un...\nA car with four wheels or more, designed and built for the transport of goods, whose cabin is not integrated into the rest of the bodywork and with a maximum of 9 seats, including the driver, is a...",
+      "image_url": "20ccdc0b-dbaa-4fde-b5de-86f8f1502a16M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "vehículo mixto adaptable.\na multipurpose vehicle.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "furgón o furgoneta.\na van.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "camión.\na lorry.",
+          "correct": true
+        }
+      ],
+      "help": "6 Automobiles\n \n6.9 Goods vehicle – lorry / truck\nAn automobile with at least four wheels, constructed to transport merchandise where the cabin is not integrated within the rest of the body. It has a maximum of 9 seats, including the driver.\n(Página 10 del manual 'Learning to drive')\n",
+      "source_ordinal": 7,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:07",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q07.jpg",
+      "primary_topic_id": "vehicle.classification",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.classification"
+      ],
+      "canonical_id": "e23990fbf9d1274970739af5"
+    },
+    {
+      "number": "8.",
+      "question": "Según la situación que se observa en la imagen, ¿qué indica la señal circular colocada encima de la de entrada a poblado?\nAccording to the situation shown in the picture, what does the circular sign placed above the town entrance sign indicate?",
+      "image_url": "9a08a7b7-c4f0-4366-afcb-1c7ed3013116M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Al coincidir con la señal horizontal, indica la velocidad máxima establecida solamente para la travesía.\nWhen coinciding with the horizontal sign, it indicates the maximum speed established solely for the through-road.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "La prohibición de circular a velocidad superior a 40 km/h en todo el poblado.\nProhibited to drive at a speed of more than 40 km/h throughout the town.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Recuerda la velocidad genérica establecida para vías urbanas.\nRemember the generic speed established for urban roads.",
+          "correct": false
+        }
+      ],
+      "help": "5 Vertical Signs    \n \n5.3 Regulation road signs\n5.3.1 Common objective, classes and rules\nRegulation signs placed next to or vertically to a sign bearing the name of a town means that the regulation applies throughout the town, except if there is later another different regulation indicated via other signs on different sections of the road.\n(Página 123 del manual 'Learning to drive')\n",
+      "source_ordinal": 8,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:08",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q08.jpg",
+      "primary_topic_id": "signs.speed",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.speed",
+        "numbers.dates"
+      ],
+      "canonical_id": "c7fcb7c912df8cca927e606f"
+    },
+    {
+      "number": "9.",
+      "question": "La señal indica...\nThe sign indicates...",
+      "image_url": "78884f63-183d-469b-9f2f-dfeb43c5186aM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "vehículo accidentado.\nvehicle involved in an accident.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "desnivel a lo largo de la vía en el lado derecho.\nslope on the road, on the right-hand side.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "una zona con baches y en obras.\nan area with bumps and roadworks.",
+          "correct": false
+        }
+      ],
+      "help": "5 Vertical Signs                \n             \n5.2 Signs that warn of danger\nP-30 Uneven (stepped) road surface\nDanger due to the existence of unevenness along the track on the side indicated by the symbol.\n(Página 123 del manual 'Learning to drive')\n",
+      "source_ordinal": 9,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:09",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q09.jpg",
+      "primary_topic_id": "signs.warning",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.warning"
+      ],
+      "canonical_id": "c3a9d85137f1651fb72ff3c5"
+    },
+    {
+      "number": "10.",
+      "question": "Si nota que su vehículo consume más carburante del habitual, ¿qué sistema del vehículo se debe revisar?\nIf you notice that your vehicle consumes more fuel than usual, what vehicle system should be reviewed?",
+      "image_url": "de8c6147-2628-4574-b6ea-775ac5753eecM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Únicamente el sistema de refrigeración.\nOnly the cooling system.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "El de escape.\nThe exhaust.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "La alimentación y el encendido.\nPower supply and ignition.",
+          "correct": true
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving  \n   \n10 Factors affecting consumption  \n10.2 Vehicle maintenance\nThe periodic fine-tuning of the automobile dramatically affects fuel savings.\nA vehicle should be maintained in perfect condition. This means:\nThe ignition system: Should be correctly tuned with the spark plugs set according to the manufacturer’ guide.\nThe fuel system: The periodic replacement of the air filter is important, as the inability of the air to flow correctly through effects the mixture of fuel that is fed to the engine, the richer the mixture the more fuel is consumed.\n(Página 277 del manual 'Learning to drive')\n\nJourneys and defensive and efficient driving  \n   \n10 Factors affecting consumption  \n10.2 Vehicle maintenance\nThe periodic fine-tuning of the automobile dramatically affects fuel savings.\nA vehicle should be maintained in perfect condition. This means:\nThe cooling and lubrication systems.\nThe inflation pressure of the tyres. Ensuring that the tyres are correctly inflated saves fuel and avoids premature and unnecessary wearing of the tyres.\n(Página 277 del manual 'Learning to drive')\n",
+      "source_ordinal": 10,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:10",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q10.jpg",
+      "primary_topic_id": "routine.ecodriving",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.ecodriving"
+      ],
+      "canonical_id": "abd984c348c634426ddd56fb"
+    },
+    {
+      "number": "11.",
+      "question": "Un camión con una MMA de 3.500 kg y una antigüedad de seis a diez años, está obligado a pasar inspección técnica...\nA lorry with a MAM of 3,500 kg and six to ten years old is obliged to undergo a technical inspection...",
+      "image_url": "004cd58c-c7a7-4e30-b651-c65942d69e08M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "anual.\nannually.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "bienal.\nevery two years.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "semestral.\nhalf-yearly.",
+          "correct": false
+        }
+      ],
+      "help": "3 Documentation for the vehicle            \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\nVehicles in category N1:\nVehicles designed and constructed mainly for the carriage of goods with a maximum mass not exceeding 3.5 tonnes.   \nFrequency of inspection according to age of the vehicle\n- Up to two years: Exempt.\n- From two to six years: Biennial.\n- From six to ten years: Annual.\n- Over ten years: Half-yearly.    \n(Página 26 del manual 'Learning to drive')\n",
+      "source_ordinal": 11,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:11",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q11.jpg",
+      "primary_topic_id": "numbers.deadlines.itv",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.itv",
+        "numbers.deadlines.itv"
+      ],
+      "canonical_id": "0de21f3e582d65adfbc5e3e7"
+    },
+    {
+      "number": "12.",
+      "question": "Para adelantar al ciclista de la imagen, si se dan las condiciones precisas para realizar la maniobra, ¿es correcto rebasar la marca longitudinal continua?\nTo overtake the cyclist in the image, if there are suitable conditions for the manoeuvre, is it acceptable to go over the solid longitudinal line?",
+      "image_url": "a878ef03-6dad-4a28-9395-727886270c2fM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, porque es un tramo de vía con curvas.\nNo, because it is a stretch of road with bends.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, cuando se pueda dejar 1,50 metros de separación lateral.\nNo, if you can keep a side-by-side distance of at least 1.50 metres.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí.\nYes.",
+          "correct": true
+        }
+      ],
+      "help": "Maneouvres            \n           \n5 Overtaking  \n5.8 Situations when you must not overtake\nNevertheless, in sections of roadway, where overtaking is prohibited, after verifying that the manoeuvre can be made without endangering any road user, it is possible to overtake:\npedestrians,\nbicycles,\ncycles,\nmopeds,\nanimals and\nvehicles pulled by animals\nwhen, due to the speed they move at, they can be overtaken without risk to them or to general movement, even though to do so it is necessary to occupy the part of the road reserved for the opposite direction, after making sure that the manoeuvre can be carried out safely.\n(Página 192 del manual 'Learning to drive')\n",
+      "source_ordinal": 12,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:12",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q12.jpg",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking",
+        "signs.markings"
+      ],
+      "canonical_id": "4883de2e72d7830b0e4a8f6c"
+    },
+    {
+      "number": "13.",
+      "question": "El periodo normal de vigencia del permiso de la clase B es de diez años hasta que su titular cumpla los…\nThe normal period of validity of the class B licence is ten years until the holder reaches...",
+      "image_url": "29ab97ee-10b2-4525-bd1a-df8280d7f497M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "55 años.\n55 years.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "65 años.\n65 years.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "70 años.\n70 years.",
+          "correct": false
+        }
+      ],
+      "help": "2 Driver documentation\n \n2.6 Driving licences - conditions of use/validity\nAM, A1, A2, A, B, B+E permits and driving licenses are valid:\nFor 10 years Until their holders turn 65 years old\nFor 5 years After the age of 65.\n(Página 23 del manual 'Learning to drive')\n",
+      "source_ordinal": 13,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:13",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q13.jpg",
+      "primary_topic_id": "numbers.deadlines.licences",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.permissions",
+        "numbers.deadlines.licences"
+      ],
+      "canonical_id": "6b9dbd163878c9acba40f56f"
+    },
+    {
+      "number": "14.",
+      "question": "El automóvil destinado al transporte de personas que tiene cuatro ruedas, al menos, y ocho plazas como máximo, además del asiento del conductor es...\nAn automobile designed for the transport of people, which has at teats four wheels and a maximum of eight seats, as well as the driver's is ...",
+      "image_url": "2a00abb4-4571-4ed1-98d7-1a5743b64a5cM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "un autobús.\na bus.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "un turismo.\na private car.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "un cuadriciclo ligero.\na light quadricycle.",
+          "correct": false
+        }
+      ],
+      "help": "6 Automobiles  \n \n6.4 Car\nAn automobile used to transport people that has:\nAt least four wheels.\nEight seats for passenger use, in addition to a seat for the driver.\n(Página 10 del manual 'Learning to drive')\n",
+      "source_ordinal": 14,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:14",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q14.jpg",
+      "primary_topic_id": "vehicle.classification",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.classification",
+        "numbers.capacity"
+      ],
+      "canonical_id": "443c8ee68c05ea3dc9997fe5"
+    },
+    {
+      "number": "15.",
+      "question": "La señalización tiene por misión...\nSignalling is intended to...",
+      "image_url": "c805e3ac-574f-4b78-919b-78307f38b486M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "confirmar las excepciones de las normas.\nconfirm exceptions to rules.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "advertir, informar, ordenar o reglamentar el comportamiento de los usuarios de la vía.\nwarn, inform, order or regulate the behaviour of road users.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "complementar a las normas.\ncomplement rules.",
+          "correct": false
+        }
+      ],
+      "help": "Road signalling\n \n1 General rules\n1.1 The Concept and reason for signalling\nSignage is the series of signs intended for road users, whose purpose is to order or regulate their behaviour and warn them sufficiently in advance about certain circumstances affecting traffic or the road, thus helping to make driving safer and enabling traffic to move more freely.\n(Página 108 del manual 'Learning to drive')\n",
+      "source_ordinal": 15,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:15",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q15.jpg",
+      "primary_topic_id": "signs.general",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.general"
+      ],
+      "canonical_id": "bfe14925c9d1c3643e34d88a"
+    },
+    {
+      "number": "16.",
+      "question": "Las velocidades máximas específicas, ¿prevalecen sobre las genéricas?\nDo specific maximum speeds prevail over generic speeds?",
+      "image_url": "278538de-15d7-4bef-a1dc-38f99cfd8fc0M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí.\nYes.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Solo las que se fijan a través de las señales de velocidad máxima.\nOnly those fixed through maximum speed signs.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": false
+        }
+      ],
+      "help": "7 Specific speeds\n \nIn relation to generic maximum or minimum speeds, the following shall prevail:\nThose established through the corresponding road signs (upright signs or road markings).\n(Página 176 del manual 'Learning to drive')\n",
+      "source_ordinal": 16,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:16",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q16.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds"
+      ],
+      "canonical_id": "643e88b713d9668f027addfa"
+    },
+    {
+      "number": "17.",
+      "question": "El conductor de un vehículo, ¿cuándo debe ponerse el chaleco reflectante?\nWhen should a vehicle driver put on their hi-vis jacket?",
+      "image_url": "5ef0bdb9-2014-4955-b131-085f00be7f0aM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Es indiferente.\nIt does not matter.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Después de salir del vehículo.\nAfter leaving the vehicle.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Antes de salir del vehículo.\nBefore leaving the vehicle.",
+          "correct": true
+        }
+      ],
+      "help": "Maneouvres              \n   \n9 Immobilisation: Stationary vehicles Detention (Halting)  \n9.2 Emergency detention (halting due to an emergency)\nDrivers of cars, motorcycles, buses, automobiles for the transport of goods, mixed and combination non-special vehicles, if they are going to occupy the roadway or hard shoulder of an interurban road, they must don a high-visibility reflective vest before getting out of the vehicle, which is obligatory equipment.\n(Página 197 del manual 'Learning to drive')\n",
+      "source_ordinal": 17,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:17",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q17.jpg",
+      "primary_topic_id": "incidents.scene",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.scene"
+      ],
+      "canonical_id": "aef5a60c06cd65d5b40f2785"
+    },
+    {
+      "number": "18.",
+      "question": "A los conductores noveles se les permite una tasa de alcoholemia menor...\nNew drivers are allowed a lower alcohol rate...",
+      "image_url": "eb03a01d-8922-43b2-bdd3-8c4bf4ec4571M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "únicamente porque las normas de tráfico lo imponen.\nsolely because of the traffic rules.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "porque en ellos los efectos del alcohol son menores.\nbecause alcohol affects them less.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "porque aún no han automatizado los movimientos necesarios para conducir.\nbecause they have not yet acquired the muscle memory required for driving.",
+          "correct": true
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS      \n     \n16 Alcohol limits  \nOne of the reasons that drivers with less experience of driving have a lower blood alcohol content set, is that novice drivers have not yet become automated in their movements and responses, which are ultimately needed for effective driving, so the effects of alcohol are even more harmful to them.\nAll drivers should bear in mind that although the BAC is less than the maximum allowed by law, the effects of alcohol on the body are sufficient to result in a traffic collision.\nTherefore, the only truly safe blood alcohol content for driving is 0.0 g/l.\n(Página 41 del manual 'Learning to drive')\n",
+      "source_ordinal": 18,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:18",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q18.jpg",
+      "primary_topic_id": "routine.alcohol",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.alcohol"
+      ],
+      "canonical_id": "0adfd3cffef25c6659ad5ea0"
+    },
+    {
+      "number": "19.",
+      "question": "Un furgón, ¿puede utilizar un carril reversible?\nCan a van use a reversible lane?",
+      "image_url": "99a677ae-6fa8-4199-9f47-b6cc7e966294M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí.\nYes.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Solo cuando su masa máxima autorizada no sea superior a 3.500 kilogramos.\nOnly when the maximum authorised mass is not greater than 3,500 kilograms.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": false
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes\n \n7.2 Reversible lanes\nRoad users using these lanes must use (both day and night) at least the lowbeam headlights.\nAs a general rule, these lanes are not limited as to who can use them and the applicable speed limits are those of the roads on which they are located.\n(Página 165 del manual 'Learning to drive')\n",
+      "source_ordinal": 19,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:19",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q19.jpg",
+      "primary_topic_id": "driving.reversing",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.reversing"
+      ],
+      "canonical_id": "a58055b6165d8fee556e1102"
+    },
+    {
+      "number": "20.",
+      "question": "¿Puede circular un ciclomotor que no tenga tubo de escape?\nCan a moped drive without an exhaust pipe?",
+      "image_url": "0f961f9e-ccac-4507-9983-836df98bc330M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Únicamente los que no rebasen la velocidad de 50 km/h.\nOnly those that do not exceed 50 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, está prohibido, salvo si es eléctrico.\nNo, it is prohibited, unless it is electric.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "No, todos los ciclomotores deben tener tubo de escape.\nNo, all mopeds must have an exhaust pipe.",
+          "correct": false
+        }
+      ],
+      "help": "2 Drivers  \n \n2.1 Prohibitions\nYou are prohibited to drive or use a vehicle:\nOn all public city roads and interurban roads, it is prohibited to drive a motor vehicle or moped in which the exhaust system is not fitted out with a silencer, or when the gases expelled by engines, instead of moving through an effective silencer, leave the engine by a silencer that is incomplete, inadequate, worn down or equipped with a resonator exhaust pipe.\n(Página 53 del manual 'Learning to drive')\n\n2 Drivers  \n   \n2.1 Prohibitions\nElectric vehicles do not emit gases, so they do not have an exhaust pipe.\n(Página 53 del manual 'Learning to drive')\n",
+      "source_ordinal": 20,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:20",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q20.jpg",
+      "primary_topic_id": "eco.noise",
+      "classification_review_required": false,
+      "topic_ids": [
+        "eco.noise"
+      ],
+      "canonical_id": "2ce832a1a739d641001abae1"
+    },
+    {
+      "number": "21.",
+      "question": "La fatiga ocular en un conductor, ¿a qué puede deberse?\nWhat can cause visual fatigue in a driver?",
+      "image_url": "82e5a74d-a40c-49f2-a7bc-ed2c81f9cda1M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A un aumento de la capacidad para percibir el entorno.\nIncreased capacity to perceive one's surroundings.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A los efectos del sueño.\nDrowsiness.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "A un aumento del campo visual.\nIncreased visual field.",
+          "correct": false
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES\n \n11.1 Causes of drowsiness\nAffects the drivers perception of the surrounding area. The vision becomes blurred and the ability to perceive the surroundings is altered. It is more difficult to focus the eye and the eyes become fatigued. In addition, there is an increase in sensitivity to glare.\nCauses changes in behaviour (anxiety, hostility etc.) and makes the driver liable to take more risks.\n(Página 40 del manual 'Learning to drive')\n",
+      "source_ordinal": 21,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:21",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q21.jpg",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.fatigue"
+      ],
+      "canonical_id": "a69f1214e60b2eeade12bbbf"
+    },
+    {
+      "number": "22.",
+      "question": "Un asiento ergonómico contribuye a…\nAn ergonomic seat helps...",
+      "image_url": "ebb500b8-da48-4a66-94c9-9f944f3dafedM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "aumentar las distracciones.\nincrease distractions.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "aumentar la aparición de la fatiga.\nincrease the onset of fatigue.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "prevenir la aparición de la fatiga.\nprevent the onset of fatigue.",
+          "correct": true
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES    \n   \n10.1 Circumstances that cause fatigue\n10.1.2 Vehicle circumstances\nDriving at night with insufficient lighting.\nDriving with a vehicle in a poor or noisy condition (for example, having defects in the suspension or steering system).\nPoor design of the seat or other interior elements. An ergonomic seat helps to prevent fatigue.\n(Página 37 del manual 'Learning to drive')\n",
+      "source_ordinal": 22,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:22",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q22.jpg",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.fatigue"
+      ],
+      "canonical_id": "dd5908b2f52592d2da24899c"
+    },
+    {
+      "number": "23.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "image_url": "9cc0abf4-c85a-48a8-a399-536e5aab7453M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "La situación de una obra histórica o artística declarada monumento.\nHistoric or artistic building declared as a monument.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "La obligación de encender las luces de cruce.\nYou must turn on the dipped beams.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "El inicio de un túnel o paso inferior.\nThe start of a tunnel or underpass.",
+          "correct": true
+        }
+      ],
+      "help": "5 Vertical Signs          \n     \n5.4 Indication Road Signs    \n5.4.2 General indication road signs  \nS-5 Tunnel\nIt indicates the beginning of a tunnel, an underpass or a similar section of road.\nThe name of the section of road is shown on the sign and the length of the tunnel in metres.\n(Página 132 del manual 'Learning to drive')\n",
+      "source_ordinal": 23,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:23",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q23.jpg",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.information",
+        "driving.tunnels"
+      ],
+      "canonical_id": "4a41b01a280e658d04d6e7b1"
+    },
+    {
+      "number": "24.",
+      "question": "¿Es recomendable revisar el cinturón de seguridad después de sufrir un accidente?\nIs it advisable to check the seat belt after an accident?",
+      "image_url": "8a88aebb-6c9d-4e8b-a1ff-db4c3b74e52aM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, porque se ha probado su eficacia.\nNo, because its effectiveness has been proven.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, es un elemento de seguridad que no debe cambiarse nunca.\nNo, it is a safety element that should never be changed.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, puede haberse deteriorado el trenzado o los sistemas de anclaje.\nYes, the braiding or anchoring systems may have deteriorated.",
+          "correct": true
+        }
+      ],
+      "help": "7 Seat belts  \n   \n7.4 The correct fastening of seat belts\nIn the event of a collision, the belt could sustain damage and perhaps compromise the wearer’s safety, so it should be replaced by a new one immediately after an accident.\n(Página 78 del manual 'Learning to drive')\n",
+      "source_ordinal": 24,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:24",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q24.jpg",
+      "primary_topic_id": "routine.seatbelts",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.seatbelts"
+      ],
+      "canonical_id": "6cb8d454a61919816e6e785a"
+    },
+    {
+      "number": "25.",
+      "question": "Circula por el carril izquierdo. ¿Qué le indica la flecha?\nYou are driving in the left-hand lane. What does this arrow indicate?",
+      "image_url": "b21abd3d-dc47-4641-969f-6a3e6fbabf77M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que se permite la circulación en paralelo.\nYou can drive in parallel.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Que está cerca la próxima salida.\nThe next exit is near.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Que debe incorporarse cuanto antes al carril derecho.\nYou must join the right-hand lane as soon as possible.",
+          "correct": true
+        }
+      ],
+      "help": "6 Road marks        \n     \n6.5 Arrows  \nReturn arrow\nAnnounces the approach of a continuous longitudinal marking indicating that driving on the left side is prohibited. Therefore, any overtaking manoeuvre must not be initiated—or must be completed as soon as possible if already underway.\n(Página 157 del manual 'Learning to drive')\n",
+      "source_ordinal": 25,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:25",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q25.jpg",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.markings",
+        "driving.lanes"
+      ],
+      "canonical_id": "bb0cf4c89e080707f7b345b2"
+    },
+    {
+      "number": "26.",
+      "question": "Para incorporarse a una vía por un carril de aceleración, ¿dónde debe cerciorarse de que puede realizar la maniobra sin peligro?\nTo join a road via an acceleration lane, where should you make sure that you can perform the manoeuvre safely?",
+      "image_url": "29740838-3909-492b-bbdb-4cea91786cf1M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Al principio del carril de aceleración.\nAt the beginning of the acceleration lane.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "El lugar es indiferente.\nAnywhere.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Al final del carril de aceleración.\nAt the end of the acceleration lane.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres  \n \n3 Joining the traffic flow\n3.2.1 Observation\nIf the driver is joining a road by means of an acceleration lane he must make sure at the beginning of the lane that he can do so, without causing any danger to other road users, particularly those who are travelling on the lane he is joining. When joining the traffic flow (road) you must not cause vehicles on the road to alter their position, course or speed.\n(Página 184 del manual 'Learning to drive')\n",
+      "source_ordinal": 26,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:26",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q26.jpg",
+      "primary_topic_id": "driving.merging",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.merging"
+      ],
+      "canonical_id": "8e47ca103de44e9901b6e2f7"
+    },
+    {
+      "number": "27.",
+      "question": "El agente, con toques de silbato cortos y frecuentes, ordena...\nAn officer, with short and frequent whistle blows, is ordering you to...",
+      "image_url": "b36f9a91-b8df-41e7-88cc-ce495c1e716dM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "acelerar para evitar los atascos.\nspeed up to avoid traffic jams.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "reanudar la marcha.\nstart driving again.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "detenerse.\nstop.",
+          "correct": true
+        }
+      ],
+      "help": "2 Police Officers and corresponding signalling  \n   \n2.2 Signals with the arm\n2.3 Audible signals\nThe police will use a whistle in the following manner:\nTo stop a vehicle: A series or short and frequent blows of the whistle.\nTo make a vehicle continue its course: A long whistle blow.\n(Página 111 del manual 'Learning to drive')\n",
+      "source_ordinal": 27,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:27",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q27.jpg",
+      "primary_topic_id": "priority.officer",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.officer"
+      ],
+      "canonical_id": "7c69e1808337a588f1bf7ec0"
+    },
+    {
+      "number": "28.",
+      "question": "Con las luces de corto alcance, ¿está permitido hacer ráfagas?\nWith low-beam headlights, is flashing permitted?",
+      "image_url": "545ec064-4b8e-4d30-b6dd-a99314aa000eM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, solo en vías interurbanas.\nYes, only on interurban roads.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, solo en vías urbanas.\nYes, only on urban roads.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, tanto en vías urbanas como en vías interurbanas.\nYes, on both urban roads and interurban roads.",
+          "correct": true
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range      \n       \n8.2 Use of the low beam headlights\nRemember: Low beam headlights should be used during daylight hours when lighting is reduced due to adverse meteorological conditions or environmental conditions.\nHeadlights can be used in substitution of the audible warning device (horn).\n(Página 102 del manual 'Learning to drive')\n",
+      "source_ordinal": 28,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:28",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q28.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ],
+      "canonical_id": "94dcff6cffd1f424f6809400"
+    },
+    {
+      "number": "29.",
+      "question": "En las intersecciones señalizadas, ¿cuál es la norma general que prevalece?\nAt signalled intersections, which is the general rule that prevails?",
+      "image_url": "29740838-3909-492b-bbdb-4cea91786cf1M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Abstenerse del cumplimiento de la señalización.\nRefrain from complying with the signs.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Atenerse a la señalización que las regule.\nComply with the signs that regulate them.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Ceder el paso siempre a la derecha.\nAlways give way to the right.",
+          "correct": false
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels  \n   \n2 Junctions    \n2.2 Priorities at junctions\n2.2.2 Signed junctions\nOn the approach to a junction, you should verify and confirm who has right of way according to the traffic controls and signalling devices. The following demonstrate this further:\nl If a junction is being controlled by a police officer or other authorised person, you must obey their orders and signals.\nIf it is regulated by traffic lights you must act according to the lights illuminated, that determine the right of passage.  \n(Página 204 del manual 'Learning to drive')\n\nPriorities, level crossings and tunnels    \n     \n2 Junctions    \n2.2 Priorities at junctions\n2.2.2 Signed junctions\nWhen there is a “unction with priority”signal at the junction or there are “oad with priority”signs on the road, then drivers that travel on them will have right of way over oncoming vehicles or those vehicles coming from another road.\n(Página 204 del manual 'Learning to drive')\n",
+      "source_ordinal": 29,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:29",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q29.jpg",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.information"
+      ],
+      "canonical_id": "37d3cab637f6ae72a9ec0cdf"
+    },
+    {
+      "number": "30.",
+      "question": "¿A qué puede afectar si cambia el carenado de una motocicleta?\nWhat can be affected if you change the fairing of a motorcycle?",
+      "image_url": "0e742c83-ad08-4c80-8ba3-01a4d38b3634M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A la aerodinámica y al consumo.\nAerodynamics and fuel consumption.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "A la visibilidad del vehículo.\nThe vehicle's visibility.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Exclusivamente a la estética.\nOnly the aesthetics.",
+          "correct": false
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving\n \n10 Factors affecting consumption\n10.1 Air resistance\nThe majority of fuel consumed is used to overcome air (wind) resistance that acts against the advancing vehicle.\nThis means that anything that increases or changes the aerodynamics lines (the design) of a vehicle has a greater impact on consumption.\nThis is why external accessories, (roof racks, flaps and deflectors, etc.) increase the resistance of the vehicle and, therefore, increase fuel consumption.\nIt is not advisable to leave the roof rack on the vehicle when it is empty and not being used. It is preferable to carry the load in the boot, whenever possible and not on the roof rack.\n(Página 277 del manual 'Learning to drive')\n",
+      "source_ordinal": 30,
+      "source_test_id": 1085,
+      "question_id": "exam:1085:30",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "/tests/exam/1085/q30.jpg",
+      "primary_topic_id": "routine.ecodriving",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.ecodriving"
+      ],
+      "canonical_id": "81c399a48273b587b7fb49d0"
+    }
+  ]
+}

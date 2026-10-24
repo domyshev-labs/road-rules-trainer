@@ -1174,5 +1174,380 @@
       "vehicle.visibility"
     ],
     "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "70594d8cc1fb49573b0edec4": {
+    "primary_topic_id": "vehicle.visibility",
+    "topic_ids": [
+      "vehicle.visibility",
+      "vehicle.mechanics"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "c76098c2a80bd2ab2dfb7618": {
+    "primary_topic_id": "priority.officer",
+    "topic_ids": [
+      "priority.officer"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "3002fdfcbc659b4a5b9870f4": {
+    "primary_topic_id": "driving.weather",
+    "topic_ids": [
+      "driving.weather",
+      "vehicle.tyres"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "f98b2ef9a6367323b4136175": {
+    "primary_topic_id": "signs.warning",
+    "topic_ids": [
+      "signs.warning",
+      "numbers.dates"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "db680d3e9ca91193b0e71974": {
+    "primary_topic_id": "signs.speed",
+    "topic_ids": [
+      "signs.speed",
+      "numbers.dates"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "61baf1acba026058298bc8ad": {
+    "primary_topic_id": "routine.helmets",
+    "topic_ids": [
+      "routine.helmets"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "77cbf62cb1c31b81bb9f73dd": {
+    "primary_topic_id": "routine.ecodriving",
+    "topic_ids": [
+      "routine.ecodriving"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "50a0a63a376041e1948f2c5d": {
+    "primary_topic_id": "vehicle.classification",
+    "topic_ids": [
+      "vehicle.classification",
+      "vehicle.cargo"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "355098ace7ab6b272e93c2fd": {
+    "primary_topic_id": "signs.restrictions",
+    "topic_ids": [
+      "signs.restrictions"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "c4ef6ebdf75ebfec9cd1bb77": {
+    "primary_topic_id": "driving.overtaking",
+    "topic_ids": [
+      "driving.overtaking",
+      "driving.tunnels",
+      "signs.information"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "d181c802e2e614129ed6175a": {
+    "primary_topic_id": "numbers.speeds",
+    "topic_ids": [
+      "numbers.speeds",
+      "driving.overtaking"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "e23990fbf9d1274970739af5": {
+    "primary_topic_id": "vehicle.classification",
+    "topic_ids": [
+      "vehicle.classification"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "c7fcb7c912df8cca927e606f": {
+    "primary_topic_id": "signs.speed",
+    "topic_ids": [
+      "signs.speed",
+      "numbers.dates"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "c3a9d85137f1651fb72ff3c5": {
+    "primary_topic_id": "signs.warning",
+    "topic_ids": [
+      "signs.warning"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "4883de2e72d7830b0e4a8f6c": {
+    "primary_topic_id": "driving.overtaking",
+    "topic_ids": [
+      "driving.overtaking",
+      "signs.markings"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "443c8ee68c05ea3dc9997fe5": {
+    "primary_topic_id": "vehicle.classification",
+    "topic_ids": [
+      "vehicle.classification",
+      "numbers.capacity"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "bfe14925c9d1c3643e34d88a": {
+    "primary_topic_id": "signs.general",
+    "topic_ids": [
+      "signs.general"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "aef5a60c06cd65d5b40f2785": {
+    "primary_topic_id": "incidents.scene",
+    "topic_ids": [
+      "incidents.scene"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "4a41b01a280e658d04d6e7b1": {
+    "primary_topic_id": "signs.information",
+    "topic_ids": [
+      "signs.information",
+      "driving.tunnels"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "bb0cf4c89e080707f7b345b2": {
+    "primary_topic_id": "signs.markings",
+    "topic_ids": [
+      "signs.markings",
+      "driving.lanes"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "080fccf69cceefb29dac6813": {
+    "primary_topic_id": "priority.sign",
+    "topic_ids": [
+      "priority.sign",
+      "signs.priority"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "5a1eb870d21a89fad0ec1cb1": {
+    "primary_topic_id": "vehicle.cargo",
+    "topic_ids": [
+      "vehicle.cargo",
+      "numbers.dimensions",
+      "vehicle.lights"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "0840e1dd233fee3b96465215": {
+    "primary_topic_id": "driving.parking",
+    "topic_ids": [
+      "driving.parking",
+      "driving.braking",
+      "conditions.ice"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "e6237dcba7505d9e908c76e8": {
+    "primary_topic_id": "driving.overtaking",
+    "topic_ids": [
+      "driving.overtaking",
+      "driving.tunnels",
+      "signs.information"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "c40b83708b3153ac9c4fa425": {
+    "primary_topic_id": "driving.parking",
+    "topic_ids": [
+      "driving.parking",
+      "signs.parking"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "40e12eb9bb7d76b5f49c75d4": {
+    "primary_topic_id": "vehicle.motorcycles",
+    "topic_ids": [
+      "vehicle.motorcycles",
+      "vehicle.passengers"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "7f76ca68548bfd42501986d4": {
+    "primary_topic_id": "driving.lanes",
+    "topic_ids": [
+      "driving.lanes",
+      "vehicle.lights"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "e522766a8afcda7c4e1bc475": {
+    "primary_topic_id": "signs.restrictions",
+    "topic_ids": [
+      "signs.restrictions",
+      "eco.environment"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "c44af68ff2a8396f45d151d5": {
+    "primary_topic_id": "routine.reaction",
+    "topic_ids": [
+      "routine.reaction",
+      "speed.stopping"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "c5382325a442263e857397d9": {
+    "primary_topic_id": "vehicle.classification",
+    "topic_ids": [
+      "vehicle.classification",
+      "numbers.technical"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "be7da72ff385c1e673cdc879": {
+    "primary_topic_id": "vehicle.cargo",
+    "topic_ids": [
+      "vehicle.cargo",
+      "speed.stopping"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "ccf2f98c6007435bce00834c": {
+    "primary_topic_id": "signs.warning",
+    "topic_ids": [
+      "signs.warning",
+      "driving.crossings"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "520fe2cb6f8f86a39f496dbf": {
+    "primary_topic_id": "driving.parking",
+    "topic_ids": [
+      "driving.parking",
+      "signs.parking"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "5a64f5137154232c17fa841c": {
+    "primary_topic_id": "numbers.speeds",
+    "topic_ids": [
+      "numbers.speeds"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "13f689acf022f4669fc664d5": {
+    "primary_topic_id": "eco.environment",
+    "topic_ids": [
+      "eco.environment"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "690f02a44f99951b6f74cdaf": {
+    "primary_topic_id": "routine.alcohol",
+    "topic_ids": [
+      "routine.alcohol",
+      "transport.cycles"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "1815239498fc39248acff495": {
+    "primary_topic_id": "signs.priority",
+    "topic_ids": [
+      "signs.priority",
+      "signs.markings",
+      "priority.sign"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "25aed4acf2e7609a2c7aa8fb": {
+    "primary_topic_id": "priority.general",
+    "topic_ids": [
+      "priority.general"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "c52faf2c1f4d400f068e35c1": {
+    "primary_topic_id": "priority.officer",
+    "topic_ids": [
+      "priority.officer"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "a6b241b8b86df33abefc6049": {
+    "primary_topic_id": "numbers.alcohol",
+    "topic_ids": [
+      "numbers.alcohol",
+      "routine.alcohol"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "08d8d1e2a4276d9de64746b6": {
+    "primary_topic_id": "priority.officer",
+    "topic_ids": [
+      "priority.officer"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "6024fb06c3fc35d88ceb9058": {
+    "primary_topic_id": "signs.priority",
+    "topic_ids": [
+      "signs.priority",
+      "signs.warning",
+      "priority.sign"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "32e9ae899933f32ae5796985": {
+    "primary_topic_id": "routine.alcohol",
+    "topic_ids": [
+      "routine.alcohol"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "2d783b469f42c87021a1e2d4": {
+    "primary_topic_id": "routine.health",
+    "topic_ids": [
+      "routine.health",
+      "routine.fatigue"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "39fdc46b3d288fd72a45e90a": {
+    "primary_topic_id": "routine.helmets",
+    "topic_ids": [
+      "routine.helmets",
+      "incidents.statistics"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "444296d072589edc21f5938e": {
+    "primary_topic_id": "routine.safety",
+    "topic_ids": [
+      "routine.safety"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "4b6738931bbd006282fc436b": {
+    "primary_topic_id": "driving.signals",
+    "topic_ids": [
+      "driving.signals",
+      "driving.reversing"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
+  },
+  "42cf50ca94e55f7bc8e32ad8": {
+    "primary_topic_id": "driving.lanes",
+    "topic_ids": [
+      "driving.lanes",
+      "routine.safety"
+    ],
+    "basis": "Prompt and answer options reviewed; explanations excluded."
   }
 }

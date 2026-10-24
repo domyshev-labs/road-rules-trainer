@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "classification_input": "question prompt and answer choices only; explanations excluded",
-  "unique_questions": 1934,
+  "unique_questions": 2015,
   "previous_question_ids_preserved": 1496,
-  "new_unique_questions": 438,
+  "new_unique_questions": 519,
   "sections": [
     {
       "id": "routine",
@@ -61,6 +61,6 @@
       "topics": 3
     }
   ],
-  "editorial_overrides": 163,
+  "editorial_overrides": 211,
   "unclassified_verified_questions": 0
 }

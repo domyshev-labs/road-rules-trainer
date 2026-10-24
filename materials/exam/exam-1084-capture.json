@@ -1,0 +1,1076 @@
+{
+  "source": "",
+  "collection": "Exam collection",
+  "collection_type": "exam",
+  "source_test_id": 1084,
+  "status": "captured",
+  "questions": [
+    {
+      "number": "1.",
+      "question": "La lluvia en la calzada es más peligrosa cuando...\nRain on the road is more dangerous when...",
+      "image_url": "139ee4fd-7eb2-4c00-bcdf-d20401b90388M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "ya lleva mucho tiempo lloviendo.\nit has been raining for a long time.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "existen charcos en la calzada.\nthere are puddles on the road.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "caen las primeras gotas.\nthe first drops fall.",
+          "correct": true
+        }
+      ],
+      "help": "Safe driving      \n     \n5 Driving in rain    \n5.1 Adhesion - Grip\nAlways be cautious when the first drops of rain fall. Water mixed with dust, or other dirt from the road causes a layer of grease to be formed. This makes the road surface extremely slippery. When it rains heavier the road may be cleaned but this potentially may lead to further problems being caused, due to excess water on the road.\nMotorcycle riders must pay special attention to road markings, as they may be very slippery.\n(Página 228 del manual 'Learning to drive')\n",
+      "source_ordinal": 1,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:01",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q01.jpg",
+      "primary_topic_id": "driving.weather",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.weather"
+      ]
+    },
+    {
+      "number": "2.",
+      "question": "¿Cómo se puede detectar que las escobillas están en mal estado?\nHow can you identify that the brushes are in poor condition?",
+      "image_url": "6e5d66db-0dc0-4970-bf9e-926643a0c01dM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Por la fecha de caducidad.\nOn the expiry date.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Después de la época de lluvias se habrán desgastado.\nAfter the rainy season, they will have worn out.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Observando si la goma está endurecida, en cuyo caso aparecerán chirridos, vibraciones y un funcionamiento defectuoso.\nIf you can see that if the rubber is hard, in which case there will be squealing, vibrations and malfunctions.",
+          "correct": true
+        }
+      ],
+      "help": "VISIBILITY      \n       \n7 Transparent elements around the cockpit    \n7.2 Windscreen wipers\nHowever consideration must be given to the severity of the weather and the speed used must ensure that the visibility of the driver and ultimately safety is not compromised.\nWindscreen wiper blades are an important safety element. For the windscreen to be cleaned properly the wiper blades must be in good condition. They should be regularly inspected, especially in preparation for winter.\nThe blades must be replaced, when they do not clean well (or leave marks), squeak or vibrate, symptoms that the rubber has hardened.\nThe windscreen wipers should not be used when the windscreen is dry as this may cause the windscreen to become smeared and further reduce visibility. It will also cause the glass to become scratched and lead to the wiper blades becoming damaged and wearing quicker.\n(Página 89 del manual 'Learning to drive')\n",
+      "source_ordinal": 2,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:02",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q02.jpg",
+      "primary_topic_id": "vehicle.visibility",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.visibility",
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "number": "3.",
+      "question": "El agente balancea una luz roja o amarilla, ¿a qué obliga?\nThe officer is waving a red or yellow light, what is he indicating?",
+      "image_url": "11592a0f-334a-44d6-ab30-e1e6b962d8a9M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A disminuir la velocidad.\nSlow down.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A pasar por el lado correspondiente al brazo con el que realiza la señal.\nPass on the side corresponding to the arm giving the signal.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A detenerse a los usuarios de la vía hacia los que dirige la luz.\nRoad users towards whom the officer directs the light must stop.",
+          "correct": true
+        }
+      ],
+      "help": "2 Police Officers and corresponding signalling  \n   \n2.2 Signals with the arm\n2.2.3 Officer waving red or yellow light\nRoad users towards whom the officer directs the light must stop.\n(Página 110 del manual 'Learning to drive')\n",
+      "source_ordinal": 3,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:03",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q03.jpg",
+      "primary_topic_id": "priority.officer",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.officer"
+      ]
+    },
+    {
+      "number": "4.",
+      "question": "¿Qué puede hacer para evitar el aquaplaning?\nWhat can you do to avoid aquaplaning?",
+      "image_url": "0fe45af2-b7a5-4ee0-8614-8b3cba39f287M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Acelerar para pasar cuanto antes sobre el agua embalsada.\nSpeed up to pass over the water as soon as possible.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No conducir por los surcos que van dejando los vehículos que van delante.\nDo not drive through the grooves left by vehicles travelling ahead.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Circular con unos neumáticos inflados adecuadamente y una suficiente profundidad en el dibujo de la banda de rodadura.\nDrive with correctly inflated tyres and sufficient tread depth.",
+          "correct": true
+        }
+      ],
+      "help": "Safe driving  \n \n5 Driving in rain\n5.1 Adhesion - Grip\nIn order to maintain the best possible adherence (grip) between your vehicle and the road surface – you should:\nMaintain the tyres. This means the condition, (making sure there are no cuts, bulges, irregular tyre pattern etc.,) and the correct inflation pressure.\n(Página 228 del manual 'Learning to drive')\n\nSafe driving      \n       \n5 Driving in rain\n5.1.1 Aquaplaning\nAquaplaning is caused by the accumulation of water on the road and by irregularities in its surface. Therefore, when it rains, it is necessary to pay special attention to potholes and areas in which puddles may occur.\nThis effect is more likely to occur with inappropriate speed and very wide or badly worn tyres.\nOne of the best solutions to avoid aquaplaning is to reduce the speed in the first instance, so that the tyres can displace the water and the wheels can retain contact with the road surface.\n(Página 228 del manual 'Learning to drive')\n",
+      "source_ordinal": 4,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:04",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q04.jpg",
+      "primary_topic_id": "driving.weather",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.weather",
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "number": "5.",
+      "question": "Este panel se coloca debajo de una señal de peligro para indicar…\nThis panel is placed under a danger sign to indicate...",
+      "image_url": "950d50ae-b213-4486-a8f6-f8405d90abcbM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "la longitud del tramo peligroso.\nthe length of the dangerous section.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "la distancia a la que termina el peligro.\nthe distance when the danger ends.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "la distancia a la que comienza el peligro.\nthe distance at which the danger begins.",
+          "correct": true
+        }
+      ],
+      "help": "5 Vertical Signs                                                  \n                                             \n5.4 Indication Road Signs\n5.4.6 Complementary (supple mentary) panels\nS-800 Distance to the beginning of the danger or hazard indicated\nIt indicates the distance from the place where the roadsign is located, to the place where the danger is found or the hazard begins.\nIf it is placed below a “narrowing roadway” danger warning roadsign, it may indicate the width of the narrow roadway.\n(Página 149 del manual 'Learning to drive')\n",
+      "source_ordinal": 5,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:05",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q05.jpg",
+      "primary_topic_id": "signs.warning",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.warning",
+        "numbers.dates"
+      ]
+    },
+    {
+      "number": "6.",
+      "question": "¿Es conveniente revisar con frecuencia el estado de los neumáticos?\nIs it advisable to regularly check tyre condition?",
+      "image_url": "fc4627a5-80d5-4945-a205-20d312283628M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, solamente cada 5 años como máximo.\nNo, only every 5 years at the latest.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, excepto si los neumáticos son sin cámara.\nYes, except if the tyres do not have an inner tube.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, con el fin de que no se ponga en riesgo nuestra seguridad.\nYes, in order to avoid endangering our safety.",
+          "correct": true
+        }
+      ],
+      "help": "Mechanics and maintenance\n \n12 Wheels and tyres\n12.1 Maintenance\nIt is necessary to periodically check that the rims do not show / display signs of oxidation or corrosion. Additionally, that there are no deformations or dents around the rim, caused by striking the pavement or other objects. It is also necessary to check the wheel bolts (nuts) are secure.\n(Página 245 del manual 'Learning to drive')\n\nMechanics and maintenance\n \n12 Wheels and tyres\n12.1 Maintenance\nCheck the tyre pressures using a properly approved and tested tyre gauge at least once or twice a month. These can be found at public and private locations.\nThis is particularly important prior to commencing a journey where the vehicle will be travelling at high speed or where it will be heavily loaded. A tyre with badly adjusted pressure will wear unevenly as well as presenting an increased risk of a puncture or blow out. Fuel consumption is also increased.\n(Página 245 del manual 'Learning to drive')\n\nMechanics and maintenance  \n   \n12 Wheels and tyres  \n12.1 Maintenance\nPeriodically inspect the tyre. Check that the tread depth is above the tread wear indicators and verify that there are no foreign bodies in the tread (nails, stones, etc.) Also, check for irregular wear, cuts, cracks or deformation – if these are found the tyre may need to be replaced.\nConsult a professional if abnormalities in the tyre(s) are found or the vehicle responds in an unexplained manner.\n(Página 246 del manual 'Learning to drive')\n",
+      "source_ordinal": 6,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:06",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q06.jpg",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "number": "7.",
+      "question": "En caso de padecer una alergia respiratoria, ¿es conveniente conducir con las ventanillas abiertas?\nIn the event of a respiratory allergy, is it advisable to drive with the windows open?",
+      "image_url": "58357d62-d6db-4c62-827e-302b664444a0M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, porque ayuda a una mejor ventilación del vehículo.\nYes, because it helps to improve vehicle ventilation.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, cuando el vehículo esté dotado de un filtro para el aire acondicionado.\nYes, when the vehicle is equipped with a filter for the air conditioning.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": true
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION  \n \n20 Some illnesses that can affect driving\n20.1 Respiratory allergies\nTips for drivers with allergies:\nNot drive with the windows open. The air will contain large quantities of pollen, so it will increase the allergic reaction.\nDo not put the air conditioning on strongly. The direct jets of air will cause an allergic reaction.\nKeep the ventilation ducts clean. Clean the inside of the vehicle frequently, especially if animals are transported, and if possible fit special HEPA filters (high efficiency particulate air).\nThe holding capacity of the cabin air filter is limited. It is recommended to check it periodically, especially at the beginning of spring, replacing it if necessary.\n(Página 47 del manual 'Learning to drive')\n",
+      "source_ordinal": 7,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:07",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q07.jpg",
+      "primary_topic_id": "routine.health",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.health"
+      ]
+    },
+    {
+      "number": "8.",
+      "question": "Esta señal en un carril de un puesto de peaje, ¿qué indica?\nWhat does this sign in a lane at a toll station indicate?",
+      "image_url": "7ea73a10-c2c0-40c2-91b8-7f00a70cb050M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que es un carril para autobuses y camiones.\nIt is a lane for buses and lorries.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Que solo se puede pagar con sistema de telepeaje.\nYou can only pay electronically.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Que se puede pagar con telepeaje o con moneda.\nYou can pay electronically or with cash.",
+          "correct": false
+        }
+      ],
+      "help": "5 Vertical Signs                                            \n                                         \n5.3 Regulation road signs          \n5.3.6 Obligation road signs  \nR-418 Road reserved for vehicles equipped with a telepass system\nVehicles travelling in the lane or lanes indicated must be equipped with a telepass (telepeaje) device and must use this system to pay the toll. (The device must be in working order.).\n(Página 129 del manual 'Learning to drive')\n",
+      "source_ordinal": 8,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:08",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1084-q08.jpg",
+      "primary_topic_id": "signs.lanes",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.lanes"
+      ]
+    },
+    {
+      "number": "9.",
+      "question": "El número de puntos inicialmente asignado al titular de un permiso o licencia de conducción se verá reducido…\nThe number of points initially assigned to the holder of a driving licence or permit will be reduced...",
+      "image_url": "e565f326-352a-4503-b980-08c85f5ebdedM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "al día siguiente de cometer una infracción que lleve aparejada la pérdida de puntos.\nthe day after committing an offence that entails the loss of points.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "en el momento de cometer una infracción que lleve aparejada la pérdida de puntos.\nwhen committing an offence that entails the loss of points.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "cuando la sanción que lleve aparejada la pérdida de puntos sea firme.\nwhen the penalty that entails the loss of points is definitive.",
+          "correct": true
+        }
+      ],
+      "help": "2 Driver documentation      \n     \n2.2 The penalty point system    \nLoss of points\nPoints are subtracted for each sanction that entails its loss. As a general rule, no more than eight points can be lost in a single day.\nWhen drivers receive a non-appealable sanction in an administrative proceeding for committing any of the serious or very serious infractions that entail a loss of points, the points that are lost will be automatically and simultaneously deducted at the time when the violation is entered into the Registry of Drivers and Offenders. If one year has passed since the penalty became final and the related offence has not been recorded, the points will not be deducted.\nA licence can be withdrawn as a consequence of losing all available points. It is then not possible to obtain a new licence for six months (three months for a professional driver).\n(Página 20 del manual 'Learning to drive')\n",
+      "source_ordinal": 9,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:09",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q09.jpg",
+      "primary_topic_id": "documents.points",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.permissions",
+        "documents.points"
+      ]
+    },
+    {
+      "number": "10.",
+      "question": "¿Se permite estacionar en una zona con limitación de tiempo (ORA) sin pagar?\nAre you allowed to park in an area with time limitation (ORA) without paying?",
+      "image_url": "87be7b9b-a224-4e89-ade5-cc0146233943M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, aunque solamente te pondrán una multa.\nNo, although they will only fine you.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, te pueden multar y también inmovilizar el vehículo o retirarlo.\nNo, they can fine you and also immobilize the vehicle or remove it.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sí, por un periodo corto de tiempo.\nYes, for a short period of time.",
+          "correct": false
+        }
+      ],
+      "help": "11 Immobilisation ordered by the police\n \nThe agents of the authority in charge of traffic surveillance in the exercise of their job functions may proceed to immobilise the vehicle, as the result of the alleged infractions, when:\nThe driver refuses to take tests that are established for detecting possible intoxication by alcohol, narcotics, psychotropic drugs, stimulants and other analogous substances or the results of these tests are positive.\nThe vehicle does not have compulsory insurance.\nExcess driving time or too few break times are observed, which are greater than 50 percent of the times established by regulation, except when the driver has been replaced (professional drivers).\nThere is excessive occupation of the vehicle, entailing increasing by 50 percent of the number of authorised occupants, excluding the driver.\nA vehicle is being driven for which a permit of the type C or D is required, lacking the corresponding administrative authorization.\nDrivers do not have the permit that authorises parking in zones with time restrictions or the authorised time is exceeded, until the driver is identified.\nThe immobilisation will be lifted in these cases at the time the reason leading to this action has ended.\n(Página 200 del manual 'Learning to drive')\n\n11 Immobilisation ordered by the police\n \n11.1 Impounding a vehicle\nThe authority in charge of traffic management may proceed to removing the vehicle from the road using a tow truck and taking it to the appointed location in the following cases:\nWhen a vehicle remains parked in lanes or parts of roads reserved exclusively for traffic or for the service of specific users or loading and unloading zones.\nWhen a vehicle remains parked in locations enabled by the municipal authorities as parking with a time limit without placing the parking ticket that authorises parking or when passing triple the time paid pursuant to municipal ordinance.\nWhen the vehicle blocks, makes difficult or entails a hazard for driving.\n(Página 201 del manual 'Learning to drive')\n",
+      "source_ordinal": 10,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:10",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1084-q10.jpg",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.parking"
+      ]
+    },
+    {
+      "number": "11.",
+      "question": "En las detenciones, una referencia útil para guardar la distancia adecuada con el vehículo de delante es ver...\nWhen stopping, a useful reference point to keep the right distance with the vehicle in front is to see...",
+      "image_url": "48ace848-8988-44dc-bae4-a6c254bb90b4M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "la matrícula del vehículo de delante.\nthe vehicle in front's licence plate.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "el paragolpes trasero del vehículo de delante.\nthe vehicle in front's rear bumper.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "el punto en el que las ruedas traseras del vehículo de delante tocan el suelo.\nthe point where the rear wheels of the vehicle in front touch the floor.",
+          "correct": true
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving          \n           \nDEFENSIVE DRIVING    \n6 Maintaining space  \n6.2 Stopping the vehicle\nWhen stopping temporarily (for example, at a traffic light) it is necessary to maintain a frontal minimum distance of 2 or 3 metres from the vehicle ahead (As a guide you should be able to see the rear wheels of the car ahead of you touching the road.)\nMaintaining an adequate gap ensures that;\nIf the vehicle in front rolls backwards the driver behind has ample time to warn the driver of this (prior to impact).\nIf the vehicle ahead stalls or breaks down the driver behind can manoeuvre around it.\nIf a vehicle is hit from behind it is provided with a sufficient gap to prevent it hitting the vehicle ahead.\n(Página 274 del manual 'Learning to drive')\n",
+      "source_ordinal": 11,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:11",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q11.jpg",
+      "primary_topic_id": "numbers.distances",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.parking",
+        "numbers.distances"
+      ]
+    },
+    {
+      "number": "12.",
+      "question": "Un camión con una MMA de 3.500 kg y una antigüedad de dos a seis años, está obligado a pasar inspección técnica...\nA lorry with a MAM of 3,500 kg and two to six years old is obliged to undergo a technical inspection...",
+      "image_url": "a8bb2294-c320-4cc2-b0bd-22c6e967f857M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "semestral.\nhalf-yearly.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "bienal.\nevery two years.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "anual.\nannually.",
+          "correct": false
+        }
+      ],
+      "help": "3 Documentation for the vehicle            \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\nVehicles in category N1:\nVehicles designed and constructed mainly for the carriage of goods with a maximum mass not exceeding 3.5 tonnes.   \nFrequency of inspection according to age of the vehicle\n- Up to two years: Exempt.\n- From two to six years: Biennial.\n- From six to ten years: Annual.\n- Over ten years: Half-yearly.    \n(Página 26 del manual 'Learning to drive')\n",
+      "source_ordinal": 12,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:12",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1084-q12.jpg",
+      "primary_topic_id": "numbers.deadlines.itv",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.itv",
+        "numbers.deadlines.itv"
+      ]
+    },
+    {
+      "number": "13.",
+      "question": "Un camión con una MMA de 3.500 kg y una antigüedad de cinco años, está obligado a pasar la inspección técnica de forma...\nA lorry with a MAM of 3,500 kg and five years old is obliged to undergo a technical inspection...",
+      "image_url": "b52be19a-2fdb-4e6f-aa59-e1d87e51af3bM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "semestral.\nhalf-yearly.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "bienal.\nevery two years.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "anual.\nannually.",
+          "correct": false
+        }
+      ],
+      "help": "3 Documentation for the vehicle            \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\nVehicles in category N1:\nVehicles designed and constructed mainly for the carriage of goods with a maximum mass not exceeding 3.5 tonnes.   \nFrequency of inspection according to age of the vehicle\n- Up to two years: Exempt.\n- From two to six years: Biennial.\n- From six to ten years: Annual.\n- Over ten years: Half-yearly.    \n(Página 26 del manual 'Learning to drive')\n",
+      "source_ordinal": 13,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:13",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1084-q13.jpg",
+      "primary_topic_id": "numbers.deadlines.itv",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.itv",
+        "numbers.deadlines.itv"
+      ]
+    },
+    {
+      "number": "14.",
+      "question": "Los paneles direccionales permanentes indican...\nPermanent directional panels indicate...",
+      "image_url": "0b0bd207-fb06-46f0-bdcb-3e349e7a14aaM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "una curva, el sentido de la misma y el nivel de peligrosidad.\na bend, its direction and its level of danger.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "únicamente una curva y el sentido de la misma.\na bend and its direction only.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "una curva y su nivel de peligrosidad, únicamente.\na bend and its level of danger, only.",
+          "correct": false
+        }
+      ],
+      "help": "3 Circumstantial signals and signalling used for traffic guidance      \n       \n3.2 Barrier and guiding devices    \n3.2.2 Guiding devices    \n3.2.2.3 Permanent directional panels\nElements intended to mark the layout of a curve in relation to the speed reduction required to navigate it more safely, while also indicating the direction of traffic and aiding the driver’s perception.\nThe number of panels indicates the severity of the bend or curve and the degree of danger:\nSingle panel: moderate danger.\nDouble panel: medium danger.\nTriple panel: high danger.\n(Página 113 del manual 'Learning to drive')\n",
+      "source_ordinal": 14,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:14",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1084-q14.jpg",
+      "primary_topic_id": "signs.warning",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.warning"
+      ]
+    },
+    {
+      "number": "15.",
+      "question": "Una furgoneta de 3.000 kg de MMA con una antigüedad de siete años, ¿con qué frecuencia tiene que pasar la ITV?\nFor a van with a MAM of 3,000 kg and seven years old, how often should the periodic technical inspection be carried out?",
+      "image_url": "28e5beac-2f40-4a13-92d2-9b946131fce2M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Bienalmente.\nEvery two years.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Semestralmente.\nEvery six months.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Anualmente.\nAnnually.",
+          "correct": true
+        }
+      ],
+      "help": "3 Documentation for the vehicle            \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\nVehicles in category N1:\nVehicles designed and constructed mainly for the carriage of goods with a maximum mass not exceeding 3.5 tonnes.   \nFrequency of inspection according to age of the vehicle\n- Up to two years: Exempt.\n- From two to six years: Biennial.\n- From six to ten years: Annual.\n- Over ten years: Half-yearly.    \n(Página 26 del manual 'Learning to drive')\n",
+      "source_ordinal": 15,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:15",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q15.jpg",
+      "primary_topic_id": "numbers.deadlines.itv",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.itv",
+        "numbers.deadlines.itv"
+      ]
+    },
+    {
+      "number": "16.",
+      "question": "La línea longitudinal amarilla continua...\nThe continuous yellow longitudinal line...",
+      "image_url": "5eb76a82-5ff6-439c-8ef5-f97f5214e959M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "indica una zona donde la duración del estacionamiento está limitada.\nindicates a parking area with a time limit.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "indica una zona reservada para un uso especial, donde solo puedo parar.\nindicates a reserved area for special use, where I can only stop.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "indica la zona de la vía donde está prohibido parar y estacionar.\nindicates the area of the road where it is forbidden to stop and park.",
+          "correct": true
+        }
+      ],
+      "help": "6 Road marks        \n           \n6.7 Inscriptions and other road markings        \n6.7.2 Other road markings    \nYellow road markings indicating parking or stopping prohibition\nContinuous yellow longitudinal line – stopping and parking prohibited: Indicates that stopping and parking are prohibited along the entire length of the marking on the side of the carriageway where it is located. May signify a temporary restriction, in which case this is indicated by a vertical sign at the start of the section. It may be placed either on the kerb or on the carriageway adjacent to it.\n(Página 158 del manual 'Learning to drive')\n",
+      "source_ordinal": 16,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:16",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q16.jpg",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.markings"
+      ]
+    },
+    {
+      "number": "17.",
+      "question": "El silenciador...\nThe silencer...",
+      "image_url": "74d4d1ce-bfff-4340-ad96-8e85c8736b70M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "disminuye o silencia las explosiones producidas en el interior del motor.\ndecreases or silences the explosions produced inside the engine.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "no tiene influencia en la contaminación.\nhas no influence on pollution.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "no es una parte del sistema de escape de los motores.\nis not part of the engine exhaust system.",
+          "correct": false
+        }
+      ],
+      "help": "2 Drivers  \n \n2.1 Prohibitions\nYou are prohibited to drive or use a vehicle:\nOn all public city roads and interurban roads, it is prohibited to drive a motor vehicle or moped in which the exhaust system is not fitted out with a silencer, or when the gases expelled by engines, instead of moving through an effective silencer, leave the engine by a silencer that is incomplete, inadequate, worn down or equipped with a resonator exhaust pipe.\n(Página 53 del manual 'Learning to drive')\n",
+      "source_ordinal": 17,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:17",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1084-q17.jpg",
+      "primary_topic_id": "eco.noise",
+      "classification_review_required": false,
+      "topic_ids": [
+        "eco.noise"
+      ]
+    },
+    {
+      "number": "18.",
+      "question": "La señal prohíbe circular a más de 60 km/h, ¿cuándo termina la prohibición?\nThe sign prohibits travelling at over 60 km/h. When does the restriction end?",
+      "image_url": "fac6eb02-fe04-4c1b-9b9e-34705062aeecM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Cuando encuentre una señal de “fin de prohibido adelantar”.\nWhen there is a sign indicating that it is permitted to overtake.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Inmediatamente antes de la intersección.\nImmediately before the junction.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Después de la intersección.\nAfter the junction.",
+          "correct": true
+        }
+      ],
+      "help": "5 Vertical Signs                              \n                           \n5.3 Regulation road signs\n5.3.5 Other signs relating to prohibition or restriction\nR-301 Maximum speed\nProhibits travelling a speed higher than the one indicated on the road sign, in kilometres per hour.\nIt is mandatory from the place it is located until the next “End of speed limit”, “End of prohibitions” or another “Maximum speed limit” road sign, except when it is posted on the same signpost or board as a danger warning road sign. In such cases the prohibition ends when the posted danger ends.\n(Página 126 del manual 'Learning to drive')\n",
+      "source_ordinal": 18,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:18",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q18.jpg",
+      "primary_topic_id": "signs.speed",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.speed",
+        "numbers.dates"
+      ]
+    },
+    {
+      "number": "19.",
+      "question": "Si los ocupantes de los asientos traseros de un vehículo son menores de edad y de estatura igual o inferior a 135 cm de altura, ¿qué dispositivos de seguridad deben utilizar?\nIf the occupants of the rear seats of a vehicle are minors and 135 cm tall or shorter, what safety devices should they use?",
+      "image_url": "1d19b85d-2fc1-4fbf-962f-f50d502da334M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "El cinturón de seguridad que viene instalado en el vehículo.\nThe vehicle's seat belt.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Obligatoriamente un sistema de retención infantil soldado a la carrocería del vehículo.\nA child restraint system that is welded to the vehicle's bodywork.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Un dispositivo de retención infantil adaptado a su talla y peso.\nA child restraint system adapted to their height and weight.",
+          "correct": true
+        }
+      ],
+      "help": "7 Seat belts\n \n7.2 Use\nHowever, minors who are 135 centimetres tall or less must use officially approved child retention systems, properly adapted to their height and weight.\nThese retention systems must always be installed in accordance with the manufacturer’s instructions, as they indicate how they must be used and in which vehicle types to ensure safe travel.\n(Página 76 del manual 'Learning to drive')\n\n7 Seat belts\n \n7.2 Use\nVehicles for up to nine occupants including driver\nIn this type of vehicle, minors who are 135 centimetres tall or less must travel in the back seats and use the pertinent child retention systems.\nMinors who are taller than 135 centimetres may travel either in the front or back seats, with officially approved seatbelts that are properly fastened.\nHowever, because the seat belt is designed for adults, for safety it is advisable that they use approved child retention devices adapted to their size and weight.\n(Página 76 del manual 'Learning to drive')\n",
+      "source_ordinal": 19,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:19",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q19.jpg",
+      "primary_topic_id": "vehicle.children",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.children"
+      ]
+    },
+    {
+      "number": "20.",
+      "question": "Al adelantar, ¿cuándo debe volver al carril derecho?\nWhen overtaking, when should you return to the right-hand lane?",
+      "image_url": "86596bea-5ac4-42c9-934b-94cc66d6d554M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Después de 20 segundos.\nAfter 20 seconds.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Después de recorrer 300 metros por delante del turismo.\nAfter travelling 300 metres in front of the car.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Después de ver en el espejo retrovisor la parte delantera del vehículo adelantado.\nAfter seeing the front of the vehicle you have overtaken in the rear-view mirror.",
+          "correct": true
+        }
+      ],
+      "help": "Maneouvres                \n               \n5.5 Overtaking\n5.5.5 Completing the overtake\nAfter driving past the vehicle, they intend to overtake, the driver must first signal their sideways movement with the appropriate signals and then rejoin the original lane as soon as possible, gradually and without forcing other road users to change direction or speed.\nA good rule of thumb is to start moving back into the corresponding lane once you can see the front of the vehicle you have overtaken in the rear-view mirror.  \n(Página 189 del manual 'Learning to drive')\n",
+      "source_ordinal": 20,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:20",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q20.jpg",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking",
+        "vehicle.visibility"
+      ]
+    },
+    {
+      "number": "21.",
+      "question": "Al elegir un casco para conducir una motocicleta, ¿qué debe tener en cuenta?\nWhen choosing a helmet to ride a motorcycle, what should you take into account?",
+      "image_url": "2f835092-20c0-4448-8982-164c2699d999M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que proteja convenientemente de los ruidos.\nThat it adequately protects against noise.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Que tenga buena ventilación para que no se empañe.\nThat it has good ventilation so that it does not fog up.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Que se pueda sujetar sin tener que llevarlo abrochado.\nThat it can be held without having to be worn.",
+          "correct": false
+        }
+      ],
+      "help": "11 Crash helmets\n \n11.1 Tips for buying a crash helmet\nVentilation:\nA helmet with good ventilation will be more comfortable and safer, so it’s important to have a sufficient number of ventilation holes allowing for the entry and exit of air.\n(Página 82 del manual 'Learning to drive')\n",
+      "source_ordinal": 21,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:21",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1084-q21.jpg",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.helmets"
+      ]
+    },
+    {
+      "number": "22.",
+      "question": "En detenciones de más de 60 segundos, es recomendable...\nWhen stopping for more than 60 seconds, it is recommended...",
+      "image_url": "ae60ba30-5f1a-4ccb-ba54-857dcd9784a9M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "apagar el motor.\nto turn off the engine.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "encender todas las luces.\nto turn on all the lights.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "conectar la señal de emergencia.\nto turn on the hazard lights.",
+          "correct": false
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving    \n     \n9 Efficient driving techniques  \n9.4 Decelerating and stopping\nStopping the vehicle should be avoided, as far as possible when driving unless it is necessary. Planning and looking ahead alleviates the need for unnecessary stops.\nLetting the engine idle consumes about half a litre of fuel per hour. In modern vehicles is much better to keep a gear engaged and let the car roll without accelerating. The movement of the vehicle keeps the engine running and the fuel consumption is zero.\nIf it is anticipated that a temporary detention (stop) will be more than 60 seconds is advisable to switch off the engine.\n(Página 277 del manual 'Learning to drive')\n",
+      "source_ordinal": 22,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:22",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1084-q22.jpg",
+      "primary_topic_id": "routine.ecodriving",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.ecodriving"
+      ]
+    },
+    {
+      "number": "23.",
+      "question": "El condutor de un quad-ATV, como el de la imagen, ¿debe utilizar casco?\nDoes the driver of a quad-ATV, like in the image, have to wear a helmet?",
+      "image_url": "567a3173-b28c-4088-8c0b-6c6015c05efdM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, en estos vehículos solo es obligatorio para el pasajero.\nNo, in these vehicles it is only mandatory for the passenger.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, solo es obligatorio para las motocicletas y los ciclomotores.\nNo, it is only mandatory for motorcycles and mopeds.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí.\nYes.",
+          "correct": true
+        }
+      ],
+      "help": "6 Vehicles of two and three weels  \n   \n6.1 Mopeds, motorcycles and vehicles of three wheels  \nDrivers and passengers of:\nMotorcycles (with or without sidecars)\nmotor tricycles and heavy quadricycles\nmopeds\nquad-ATV\nmust suitably use, that is, properly positioned and buckled, approved or certified helmets according to current legislation, when they drive in both urban and interurban roads.\nAn exemption exists if the person has an approved certificate issued for serious medical reasons.\n(Página 57 del manual 'Learning to drive')\n\n6 Vehicles of two and three weels  \n   \n6.1 Mopeds, motorcycles and vehicles of three wheels\nWhen motorcycles, motor tricycles or heavy quadricycles and mopeds have self-protection structures and are equipped with seat belts and are recorded on the corresponding technical inspection card or characteristics certificate, their drivers and passengers will be exempt from wearing the protective helmet, being obliged to use the aforementioned seat belt when they travel on both urban and interurban roads.\nDriving without using a seatbelt, helmet or other mandatory protection elements, or not using them properly, can cost 4 points.\n(Página 57 del manual 'Learning to drive')\n",
+      "source_ordinal": 23,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:23",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q23.jpg",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.helmets"
+      ]
+    },
+    {
+      "number": "24.",
+      "question": "Un camión, que arrastra un remolque de 750 kg de MMA, ¿a qué velocidad máxima puede circular por autovía?\nWhat is the maximum speed that a lorry pulling a trailer over 750 kg MAM can drive at on a dual carriageway?",
+      "image_url": "9407b663-3b78-4dc3-9cc4-d68271453afaM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "90 km/h.\n90 km/h.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "120 km/h.\n120 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "100 km/h.\n100 km/h.",
+          "correct": false
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')\n",
+      "source_ordinal": 24,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:24",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1084-q24.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds"
+      ]
+    },
+    {
+      "number": "25.",
+      "question": "La carga transportada en una furgoneta, entre otras condiciones, debe estar distribuida de forma que…\nA load transported in a van, among other conditions, must be distributed in such a way that...",
+      "image_url": "09941c73-fcb6-4aff-808a-5ed67a5c037aM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "quede apilada preferentemente en la parte delantera, para bajar el centro de gravedad.\nit is preferably stacked at the front, to lower the centre of gravity.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "quede apilada preferentemente en la parte trasera, para bajar el centro de gravedad.\nit is preferably stacked at the back, to lower the centre of gravity.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "no exceda de la MMA por eje.\nit does not exceed the MAM per axle.",
+          "correct": true
+        }
+      ],
+      "help": "Transporting people and loads  \n   \n1 Generally\nTherefore it is prohibited to travel with a mass (passengers or merchandise) above the maximum authorised mass of the vehicle.\nAdditionally, you cannot exceed the maximum authorised mass per axle or the maximum authorised mass of the set or combination.\nIt should be remembered that whatever the vehicle (or model), when it is loaded to the maximum limit, there will still be an effect on the handling and responses – for example an increase in the braking distance, reduction of acceleration, an increase in fuel consumption etc.\n(Página 213 del manual 'Learning to drive')\n",
+      "source_ordinal": 25,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:25",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q25.jpg",
+      "primary_topic_id": "vehicle.cargo",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.cargo"
+      ]
+    },
+    {
+      "number": "26.",
+      "question": "En las intersecciones y sus proximidades de las vías interurbanas, ¿está prohibida la parada?\nAt junctions and nearby on intercity roads, is stopping prohibited?",
+      "image_url": "8aa06655-9a6e-4ae9-8f76-257700d92782M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, cuando se genere peligro por falta de visibilidad.\nYes, if there is danger due to poor visibility.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sí, en cualquier vía.\nYes, on any road.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nAt junctions and there proximity, where it is difficult for other vehicles to turn and on roads outside of town (interurban roads) if stopping would be dangerous to others and reduce visibility.\n(Página 199 del manual 'Learning to drive')\n",
+      "source_ordinal": 26,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:26",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1084-q26.jpg",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.parking"
+      ]
+    },
+    {
+      "number": "27.",
+      "question": "La masa en carga, ¿incluye la masa del personal de servicio y de los pasajeros?\nDoes the laden mass include the mass of service personnel and passengers?",
+      "image_url": "33c9fc38-38ae-4fe1-8031-795fb3bad8e5M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Del personal de servicio sí, pero de los pasajeros no.\nThe service personnel yes, but the passengers no.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No.\nNo.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí.\nYes.",
+          "correct": true
+        }
+      ],
+      "help": "13 Other definitions\n \n13.2 Mass and load\nThis refers to the mass of the vehicle, as per the empty tare weight, plus the driver, passengers and load.\n(Página 17 del manual 'Learning to drive')\n",
+      "source_ordinal": 27,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:27",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q27.jpg",
+      "primary_topic_id": "vehicle.classification",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.classification",
+        "vehicle.cargo"
+      ]
+    },
+    {
+      "number": "28.",
+      "question": "Un camión de 3.500 kg de MMA, ¿está obligado a llevar entre su dotación de accesorios un extintor de incendios?\nDoes a lorry with a MAM of 3,500 kg have to carry a fire extinguisher?",
+      "image_url": "2406dc9f-91e8-4d00-a155-7ec852d652c8M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí.\nYes.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Únicamente cuando transporte mercancías.\nOnly when goods are transported.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": true
+        }
+      ],
+      "help": "Journeys and defensive and efficient driving             \n           \n1 Preparation for the trip      \n1.3 Accessories, spare parts and tools      \nMixed vehicles and automobiles intended for goods transport (except for motor tricycles and heavy quadricycles) with an MAM no greater than 3,500 kg.\n- The V-16 light-emitting hazard warning device or, failing this, two hazard warning triangles.\n- A certified, high-visibility reflective vest inside the interior of the vehicle. It must be visible from at least 150 metres away. If the vehicle is an escort vehicle, protecting and accompanying others, vests must be worn by the driver and each member of the crew.\n- A full-size spare or a temporary tyre, with the tools needed to change tyres, or an alternative system to changing them that offers sufficient guarantees for the mobility of the vehicle. In these cases, the vehicles will be driven in observance of the limitations of each alternative.\n(Página 270 del manual 'Learning to drive')\n\nJourneys and defensive and efficient driving         \n       \n1 Preparation for the trip    \n1.3 Accessories, spare parts and tools    \nBuses, as well as mixed vehicles and automobiles intended for goods transport, the latter two with a MMA exceeding 3,500 kg, and non-special sets of vehicles\n- The V-16 light-emitting hazard warning device or, failing this, two hazard warning triangles.\n- A certified, high-visibility reflective vest inside the interior of the vehicle. It must be visible from at least 150 metres away. If the vehicle is an escort vehicle, protecting and accompanying others, vests must be worn by the driver and each member of the crew.\n- Homologated fire-extinction equipment that is suitable and in usage conditions.\n(Página 270 del manual 'Learning to drive')\n",
+      "source_ordinal": 28,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:28",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q28.jpg",
+      "primary_topic_id": "incidents.fire",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.fire"
+      ]
+    },
+    {
+      "number": "29.",
+      "question": "¿En qué situaciones utilizará el alumbrado por el día?\nIn which situations will you use lights during the day?",
+      "image_url": "04c1c2b2-3719-4dbe-b358-0a6fdb9789dbM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Conduciendo una motocicleta o un ciclomotor solo cuando las condiciones meteorológicas disminuyan la visibilidad.\nWhen riding a motorbike or moped only when visibility is reduced by the weather.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Las motocicletas y los vehículos que circulen por una vía con un carril en sentido contrario.\nMotorbikes and vehicles travelling on a road with a lane where traffic travels in the opposite direction.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Cuando conduzca una motocicleta en cualquier tipo de vía y los vehículos que circulen por carriles habilitados en sentido contrario.\nWhen riding a motorbike on any type of road and on vehicles travelling in a lane open to traffic travelling in the opposite direction.",
+          "correct": true
+        }
+      ],
+      "help": "8 Headlights - Low beam / dipped beam / short range  \n   \n8.2 Use of the low beam headlights\nAll motor vehicles and mopeds must use the low beam headlights (together with the position lights) when travelling:\nAny hour of the day, when driving:\n- On any lane of a road in which an additional circumstantial lane has been enabled.\n- In a lane that has been enabled in a contrary direction to normal, that is, the use is exclusively reserved for certain users or due to exceptional circumstances, the direction for use has been changed.\n- On the lane for the normal driving direction, adjacent to the one enabled for driving in the opposite direction than normal.\n- In a reversible lane.\n(Página 101 del manual 'Learning to drive')\n\n8 Headlights - Low beam / dipped beam / short range    \n     \n8.2 Use of the low beam headlights\nMotorbikes travelling on any road during on the day must use dipped headlights, unless they have their daytime running lights on, provided the visibility conditions are suitable.\n(Página 102 del manual 'Learning to drive')\n",
+      "source_ordinal": 29,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:29",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1084-q29.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ]
+    },
+    {
+      "number": "30.",
+      "question": "El vehículo que circula dentro de una glorieta, ¿debe ceder el paso a un vehículo que quiere entrar por la derecha?\nShould the vehicle that is driving round a roundabout give way to a vehicle that wants to enter from the right?",
+      "image_url": "1fda7ada-3b53-4dac-bd76-5be690855fb8M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, porque tiene preferencia de paso.\nNo, because they have right-of-way.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí, porque el que entra tiene prioridad.\nYes, because the vehicle entering has right-of-way.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, cuando no hay señales de prioridad.\nYes, when there are no right-of-way signs.",
+          "correct": false
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels    \n     \n2 Junctions    \n2.2 Priorities at junctions  \n2.2.1 Junctions without signals and signs\nHowever there are exceptions to this rule:\nVehicles travelling around the roundabout have priority over those wishing to enter onto it.\n(Página 204 del manual 'Learning to drive')\n",
+      "source_ordinal": 30,
+      "source_test_id": 1084,
+      "question_id": "exam:1084:30",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1084-q30.jpg",
+      "primary_topic_id": "driving.roundabouts",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.roundabouts"
+      ]
+    }
+  ],
+  "captured_at": "2026-10-24T11:13:29.515Z",
+  "result": {
+    "correct": 30,
+    "incorrect": 0,
+    "unanswered": 0
+  }
+}

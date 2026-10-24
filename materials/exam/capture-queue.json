@@ -1,6 +1,6 @@
 {
   "collection_type": "exam",
-  "observed_at": "2026-10-24T10:00:19.047Z",
+  "observed_at": "2026-10-24T11:28:00.537506+00:00",
   "visited": [
     1003,
     1007,
@@ -50,7 +50,11 @@
     1079,
     1080,
     1082,
-    1083
+    1083,
+    1084,
+    1085,
+    1087,
+    1092
   ],
   "priority": [
     "blue",
@@ -58,12 +62,7 @@
     "green"
   ],
   "blue": [],
-  "red": [
-    1084,
-    1085,
-    1087,
-    1092
-  ],
+  "red": [],
   "green": [
     1001,
     1002,
@@ -108,7 +107,7 @@
     1094,
     1095
   ],
-  "next_ticket": 1084,
+  "next_ticket": null,
   "state": "stopped_at_user_request",
-  "note": "Stopped after completing 1007, 1012, 1048 and 1052 at user request. Eight tickets captured since v0.3.6 baseline: 1072, 1077, 1078, 1003, 1007, 1012, 1048, 1052. No blue tickets remain; next unvisited red is 1084."
+  "note": "Completed the last four unvisited red tickets: 1084, 1085, 1087 and 1092. Captured 53 of 95 exam tickets. No unvisited blue or red tickets remain; 42 unvisited green tickets remain. Stopped without opening another ticket. Source colors may retain earlier results even after a successful replay."
 }
