@@ -1,0 +1,1073 @@
+{
+  "source": "",
+  "collection": "Exam collection",
+  "collection_type": "exam",
+  "source_test_id": 1003,
+  "status": "captured",
+  "questions": [
+    {
+      "number": "1.",
+      "question": "Va a girar a la derecha, y lo señaliza con el indicador luminoso correspondiente, ¿hasta cuando es necesario mantenerlo encendido?\nYou are going to turn right and you signal this with your right indicator. How long must you keep the indicator on?",
+      "image_url": "a5aa7835-dede-4b19-a58a-e5529e79a4e2M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Hasta que finalice la maniobra.\nUntil the manoeuvre is finished.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "El menor tiempo posible.\nAs short a time as possible.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Hasta que sepa con seguridad que el que me sigue ha visto la indicación.\nUntil I am certain that the driver behind me has seen my signal.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres  \n \n2 Safety rules M.S.M.\n2.2 Signal: Advising and warning of the manoeuvre\nIf the optical warning signs are used (lighting devices) they must remain functional until such time as the manoeuvre is complete. If manoeuvres are signalled using arm gestures, you must finish before starting the operation in question. They must be done with enough advance notice in all cases.\n(Página 183 del manual 'Learning to drive')\n",
+      "source_ordinal": 1,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:01",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q01.jpg",
+      "primary_topic_id": "driving.signals",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.signals",
+        "driving.turns"
+      ]
+    },
+    {
+      "number": "2.",
+      "question": "Un traje adecuado para conducir una motocicleta, debe...\nA suitable suit for riding a motorcycle should be...",
+      "image_url": "d836ad4c-dfc4-4e7e-8ad7-c0ea06668894M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "estar muy ajustado al cuerpo para mejorar la estética.\ntight on the body to look as fashionable as possible.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ser resistente a los golpes y a la abrasión en caso de caída.\nresistant to impact and abrasion, in the event of a fall.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "tener colores oscuros.\ndark in colour.",
+          "correct": false
+        }
+      ],
+      "help": "OTHER FACTORS    \n   \n25 Clothing  \n25.1 The clothing of motorcyclist\nA motorcycle does not provide the rider with a secure and protective shell. This makes the rider vulnerable in road traffic collisions; to the elements, such as, in the cold, wind, rain, and so on. The body of the rider and any passenger realises the force of all of these external elements, the weather and any possible impact. It is therefore absolutely essential to use a dress code that adequately protects them all of the time regardless of the time of year.\nThe motorcyclist’s outfit has to be colourful and eye-catching, and should be made of leather or other similar material. It should have contrasting colours and design, with reflective bands that allow it to be distinguished from a distance.\nA ‘set of leathers’ (a leather jacket and trousers) is advocated, as it will:\nDoes not flap with the air.\nProtects against the wind during the trip.\nProvide protection from possible damage, scrapes and consequent rubbing or contact sores to the rider. In the event of falling off abrasive wounds are minimised.\n(Página 50 del manual 'Learning to drive')\n",
+      "source_ordinal": 2,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:02",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1003-q02.jpg",
+      "primary_topic_id": "vehicle.motorcycles",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.motorcycles"
+      ]
+    },
+    {
+      "number": "3.",
+      "question": "La lluvia...\nRain...",
+      "image_url": "26b7fbf0-376b-4278-86a8-c012c86427b1M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "mejora la visibilidad porque limpia el parabrisas.\nimproves visibility because it cleans the windscreen.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "exige al conductor tomar más precauciones por la falta de adherencia de los neumáticos.\nrequires a driver to take more precautions due to the lack of adherence of the tyres.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "es un fenómeno atmosférico que no influye en la conducción.\nis an atmospheric phenomenon that does not affect driving.",
+          "correct": false
+        }
+      ],
+      "help": "Safe driving\n \n5 Driving in rain\nRain, (depending on the intensity):\nReduces the adhesion (grip) of the tyres on the road. This is the reason why the braking distance increases, and in actual fact it may, double on wet roads.\nReduces the visibility.   \n \n(Página 228 del manual 'Learning to drive')\n",
+      "source_ordinal": 3,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:03",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1003-q03.jpg",
+      "primary_topic_id": "driving.weather",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.weather",
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "number": "4.",
+      "question": "Los costes por primeros auxilios, atención y tratamiento a los heridos, rehabilitación y adaptaciones, ¿cómo se llaman?\nWhat name is given to costs that cover first aid, medical care and treatment of injured people, rehabilitation and adaptation?",
+      "image_url": "fe00c4fc-70bf-4874-b82a-e14d6a064ea8M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Costes materiales.\nMaterial costs.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Costes administrativos.\nAdministrative costs.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Costes sanitarios.\nMedical costs.",
+          "correct": true
+        }
+      ],
+      "help": "Road traffic collisions  \n   \n1 A public health problem\nMoreover, in addition to the human drama, it is important to highlight the enormous economic impact (either directly or indirectly) that occurs as a result of a traffic collision.\nCosts derived from road traffic accidents are classified as human, material, healthcare and administrative.\nHuman costs include the loss of lives, productive capacity and physical and psychological suffering. Material costs consist of damages caused on vehicles and their loads as well as on the road and the environment. Healthcare costs comprise first aid, care and treatment of the wounded, rehabilitation and adaptations. Administrative costs hold those of police officers and firefighters and insurance and services management.\nPeople believe that an accident has little effect on them but the cost is borne by taxpayers. The cost of vehicle insurance is also affected, as premiums are affected by collision data and the cost of accidents.\nFor these reasons, various international organisations, including the World Health Organisation (WHO), believe that road collisions are a priority public health problem throughout the world.\nThere is a serious need to work together to reduce the high numbers of dead and seriously injured on the roads.\n(Página 248 del manual 'Learning to drive')\n",
+      "source_ordinal": 4,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:04",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1003-q04.jpg",
+      "primary_topic_id": "incidents.statistics",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.statistics"
+      ]
+    },
+    {
+      "number": "5.",
+      "question": "Circular por una autopista a 120 km/h con lluvia intensa, es circular a una velocidad...\nDriving on a motorway at 120 km/h in heavy rain is driving...",
+      "image_url": "d281fab7-9733-4bca-80bc-98fc18541cdfM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "inadecuada.\nat an unsuitable speed.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "adecuada.\nat a suitable speed.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "prohibida.\nat a prohibited speed.",
+          "correct": false
+        }
+      ],
+      "help": "1 Speed  \n \n1.1 Basics\nInappropriate speed: This is driving at a speed not suited to the circumstances such as, the weather conditions, the circumstances of the road, traffic, the vehicle or the condition of the driver. The speed may be inappropriate but is within the permitted limits.\nAppropriate speed: This is the adoption of an adequate speed which, while respecting the maximum and minimum limits, is suited to the changing traffic conditions, the road, the vehicle or the state of the driver. The appropriate speed allows the driver (and vehicle) to react to any obstacle or unexpected hazard that may occur.\n(Página 170 del manual 'Learning to drive')\n",
+      "source_ordinal": 5,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:05",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q05.jpg",
+      "primary_topic_id": "driving.weather",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.weather",
+        "speed.adaptation"
+      ]
+    },
+    {
+      "number": "6.",
+      "question": "¿Está permitido realizar una parada en una autovía o autopista?\nIs it permitted to stop on a motorway or dual carriageway?",
+      "image_url": "a229c59c-bb9d-43f3-9454-7bbac89f9d7fM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, en la mediana o el arcén, indistintamente.\nYes, either on the median strip or on the hard shoulder.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, pero solo en el arcén si es transitable.\nYes, but only on the hard shoulder if it is passable.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, solo se puede parar en zonas habilitadas, como las áreas de descanso.\nNo, you may only stop in areas designated for this, such as rest areas.",
+          "correct": true
+        }
+      ],
+      "help": "Maneouvres                  \n             \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking\n10.5 Prohibited Places\nIt is prohibited to stop and park:\nOn tramlines or so close to them that it affects their circulation.\nIn places when visibility of signalling is prevented to users who are affected or obligated to perform manoeuvres.\nOn motorways and dual carriageways – except in places authorised.\n(Página 199 del manual 'Learning to drive')\n",
+      "source_ordinal": 6,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:06",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1003-q06.jpg",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.parking"
+      ]
+    },
+    {
+      "number": "7.",
+      "question": "¿Quién tiene preferencia de paso en esta intersección?\nWho has right of way at this junction?",
+      "image_url": "b3b30828-4165-4978-8ffa-1aa9b89802cdM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "El automóvil.\nThe automobile.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "El que circule por la vía principal.\nThe vehicle driving on the main road.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "El tranvía.\nThe tram.",
+          "correct": true
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels  \n   \n2 Junctions    \n2.2 Priorities at junctions  \n2.2.1 Junctions without signals and signs\nHowever there are exceptions to this rule:\nVehicles that travel on rails always have priority.\n(Página 203 del manual 'Learning to drive')\n",
+      "source_ordinal": 7,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:07",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1003-q07.jpg",
+      "primary_topic_id": "priority.tram",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.tram"
+      ]
+    },
+    {
+      "number": "8.",
+      "question": "Si no hay niebla espesa, ¿en qué otra circunstancia puede emplear la luz antiniebla delantera?\nIn the absence of thick fog, in which other circumstance may you use your front fog lights?",
+      "image_url": "d60b0f86-a3bd-4c0e-88ed-74245e606484M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Solo puede encender la luz antiniebla delantera con niebla espesa.\nYou may only turn on the front fog lights if there is thick fog.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "En tramos de vía estrechos, con una sucesión de curvas peligrosas señalizadas.\nIn narrow stretches of road, with several dangerous and signposted bends.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "En cualquier circunstancia en que disminuya la visibilidad.\nIn any circumstance in which visibility is reduced.",
+          "correct": false
+        }
+      ],
+      "help": "10 Front fog lights  \n \n10.2 Use of front fog lights\nAt night on narrow sections of road:\n- The front fog lights can be also used at night on narrow sections of road (6.50 meters or less) with many bends which are signaled by signs that indicate a succession of bends (signs P-14a and P-14b).\n(Página 103 del manual 'Learning to drive')\n",
+      "source_ordinal": 8,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:08",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1003-q08.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights",
+        "conditions.fog"
+      ]
+    },
+    {
+      "number": "9.",
+      "question": "Si por emergencia queda inmovilizado con su vehículo dentro de un túnel, deberá...\nIf, due to an emergency, your vehicle stops inside a tunnel, you must…",
+      "image_url": "5c42f4da-f029-48c4-a85d-7f16d2a69aa5M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición.\nturn off the engine, turn on the hazard warning lights and keep the position lamps on.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "conectar la señal de emergencia y hacer sonar el claxon.\nturn on the hazard warning lights and honk the horn.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "conectar la señal de emergencia y mantener encendidas las luces de cruce.\nturn on the hazard warning lights and keep the dipped-beam headlamps on.",
+          "correct": false
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels\n \n7 Tunnels and underpasses\n7.1 Stopping in tunnels or underpasses\nIf the stop is due to an emergency, the driver experiencing the emergency must:\nTurn off the engine, put on the hazard warning lighys and leave on the position lights.\nDrive the car, if it is possible, to the area reserved for emergencies (the closest one to your lane, in the same direction). If there isn´t one, stop the vehicle as close as possible to the right side of the roadway.\n(Página 211 del manual 'Learning to drive')\n",
+      "source_ordinal": 9,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:09",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q09.jpg",
+      "primary_topic_id": "incidents.towing",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.towing",
+        "driving.tunnels",
+        "vehicle.lights"
+      ]
+    },
+    {
+      "number": "10.",
+      "question": "Las materias que produzcan polvo o puedan caer, es obligatorio transportarlas...\nMaterials that produce dust or which may fall must be transported…",
+      "image_url": "816da27f-1281-4b33-a953-7483a71a40b3M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "cubriéndolas total y eficazmente.\ncompletely and efficiently covered.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "en contenedores de pequeño tamaño.\nin small containers.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "en vehículos totalmente cerrados.\nin completely closed vehicles.",
+          "correct": false
+        }
+      ],
+      "help": "Transporting people and loads      \n   \n4 Transportation that require special precautions  \n4.2 Miscellaneous issues\nIt is also a requirement when transporting items that may produce dust or debris or potentially fall into the roadway that the load is covered with a suitably sized net or alternatively, transported in a container, so as not to cause annoyance or danger to other road users.  \nMaterials that may be hazardous to health or by their nature may cause annoyance and discomfort to others (foul smelling etc) must be transported in tightly sealed and closed containers and in compliance with the specific regulations concerning their transportation.\n \n(Página 219 del manual 'Learning to drive')\n",
+      "source_ordinal": 10,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:10",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q10.jpg",
+      "primary_topic_id": "vehicle.cargo",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.cargo"
+      ]
+    },
+    {
+      "number": "11.",
+      "question": "El sistema de alumbrado de los vehículos...\nThe lighting system of vehicles...",
+      "image_url": "05ef4630-9fba-4bf6-9bd1-a2bfd27446d0M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "sirve para ver bien de noche.\nis designed to increase visibility at night.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "sirve para que el conductor vea bien la carretera.\nis designed to light the roadway for the driver.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "sirve para que el conductor vea bien la carretera, y su vehículo sea visto por los demás conductores.\nis designed to light the roadway for the driver and for his vehicle to be visible by other drivers.",
+          "correct": true
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES\n \n2 Lighting systems\nThe functions of the lights on the vehicle are to see and be seen.\nThe lighting system allows the driver, in low lighting conditions, to illuminate the roadway in order to view the road and monitor the traffic. In doing so the driver can see any potential hazard in time to react. For this reason, there is a need to frequently check the lighting system so as to ensure compliance with the lighting regulations and operational use. (Lights and bulbs should be checked to ensure they are working correctly. Make sure that the lights are not dirty or broken, etc.)\nThe duration of the bulbs (both conventional and halogen) depends on the evaporation of the filament. That’s why it is recommended, that if one needs replacing, the other one should be changed, too.\n(Página 62 del manual 'Learning to drive')\n",
+      "source_ordinal": 11,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:11",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1003-q11.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ]
+    },
+    {
+      "number": "12.",
+      "question": "Los psicofármacos, ¿pueden alterar las capacidades para conducir con seguridad?\nCan psychotropic drugs affect the ability to drive safely?",
+      "image_url": "14d27c70-df7c-4393-9759-784d869ce726M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, gravemente.\nYes, seriously.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "No, porque no tienen influencia sobre la conducción.\nNo, because they have no effect on the ability to drive.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, excepto que además se ingiera alcohol.\nNo, not unless alcohol is also ingested.",
+          "correct": false
+        }
+      ],
+      "help": "ILLNESS AND MEDICATION    \n   \n21 Some drugs that can affect driving\n21.2 The psychoactive (psychotropic) drugs\nThese are drugs used to treat illnesses such as depression, anxiety or sleep disorders. Many of them can seriously alter the capacity to drive safely.\n(Página 48 del manual 'Learning to drive')\n",
+      "source_ordinal": 12,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:12",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q12.jpg",
+      "primary_topic_id": "routine.drugs",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.drugs"
+      ]
+    },
+    {
+      "number": "13.",
+      "question": "Conduce por una autovía y sufre una avería que le obliga a circular a una velocidad anormalmente reducida, ¿qué debe hacer?\nYou are driving on autovía and suffer a breakdown that forces you to drive at an abnormally low speed, what should you do?",
+      "image_url": "186b21bd-6979-4965-ab4b-1158dc4e734dM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No detenerse en ningún caso.\nDo not stop under any circumstances.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Continuar la marcha hasta llegar al destino, encendiendo el alumbrado de cruce.\nContinue driving until you reach your destination, with your dipped-beam headlamps on.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Circular hasta la primera salida por la que pueda abandonar la vía.\nDrive until the first exit where you can leave the road.",
+          "correct": true
+        }
+      ],
+      "help": "Maneouvres                \n     \n9 Immobilisation: Stationary vehicles Detention (Halting)    \n9.2 Emergency detention (halting due to an emergency)  \nVehicles that have been involved in an accident or breakdown:\nIf they are able to continue their journey, they should do so immediately, ensuring they can drive safely. If the maximum authorised mass does not exceed 3,500 kilograms, and they are travelling at an abnormally low speed, seriously disrupting traffic, they will travel along the right-hand hard shoulder, if passable and wide enough, or, if not, along the essential part of the road. If travelling along a motorway or dual carriageway at an abnormally low speed, they must leave it at the first exit.   \n \n(Página 196 del manual 'Learning to drive')\n",
+      "source_ordinal": 13,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:13",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1003-q13.jpg",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.towing",
+        "speed.adaptation"
+      ]
+    },
+    {
+      "number": "14.",
+      "question": "El seguro obligatorio, ¿cubre los daños en la persona del conductor del vehículo asegurado?\nDoes compulsory civil insurance cover injuries to the driver of the insured car?",
+      "image_url": "94a80fd8-a8ee-433c-aa7c-7d6ace452219M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, en todo caso.\nYes, always.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sí, salvo cuando el conductor es el tomador del seguro.\nYes, except when the driver is the insurer.",
+          "correct": false
+        }
+      ],
+      "help": "3.3 Compulsory (minimum - limited) liability insurance (SOA)  \n \n3.3.1 Cover and exclusions\nFor damages, the driver will be covered for third party responsibility.\nThe basic, minimal cover for insurance will not cover payment(s) to the driver, of the assured vehicle, for injuries received, when he is deemed responsible for their cause.\n(Página 27 del manual 'Learning to drive')\n",
+      "source_ordinal": 14,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:14",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1003-q14.jpg",
+      "primary_topic_id": "documents.insurance",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.insurance"
+      ]
+    },
+    {
+      "number": "15.",
+      "question": "Un agente circula en una moto portando una bandera verde, ¿qué indica?\nA traffic officer is driving a motorcycle displaying a green flag. What does this mean?",
+      "image_url": "64085ed8-4af2-441a-864e-3d2bade59e85M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que la calzada queda de nuevo abierta al tráfico a partir de su paso.\nThat the carriageway is open to traffic again as soon as you pass it.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Que la calzada está abierta, pero hay que extremar la atención.\nThat the road is open, but extreme caution should be exercised.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Que en la calzada se está desarrollando una actividad deportiva.\nThat a sporting activity is taking place on the road.",
+          "correct": false
+        }
+      ],
+      "help": "2 Police Officers and corresponding signalling    \n     \n2.4 Signals from a vehicle\n2.4.2 Green flag\nMeans that after passing the vehicle carrying it, the road is once again open to traffic.\n(Página 111 del manual 'Learning to drive')\n",
+      "source_ordinal": 15,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:15",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q15.jpg",
+      "primary_topic_id": "priority.officer",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.officer"
+      ]
+    },
+    {
+      "number": "16.",
+      "question": "Si inmoviliza el vehículo junto al borde de esta calzada, ¿incumple alguna norma de circulación?\nIf you stop your vehicle next to the edge of this road, are you breaching any traffic rules?",
+      "image_url": "d7246007-710a-4996-a61d-a6f7e30d88c7M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, ya que esta marca vial no prohíbe parar ni estacionar.\nNo, because these road markings do not prohibit stopping or parking.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, porque es una zona de carga y descarga y está prohibido cualquier tipo de inmovilización.\nYes, because it is a loading and unloading zone and any type of stopping is prohibited.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, si es para efectuar una parada.\nNo, not if I am just stopping.",
+          "correct": true
+        }
+      ],
+      "help": "6 Road marks        \n           \n6.7 Inscriptions and other road markings        \n6.7.2 Other road markings    \nYellow road markings indicating parking or stopping prohibition\nZigzag marking: Indicates a part of the carriageway where parking is prohibited for all vehicles, as it is reserved for special use not involving long stays of any vehicle. Commonly used for bus stops (no parking) or loading/unloading zones. Zigzag markings may also be placed adjacent to parking bays where restrictions apply only during specific times—these must be indicated by a vertical sign.\n(Página 158 del manual 'Learning to drive')\n",
+      "source_ordinal": 16,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:16",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1003-q16.jpg",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.parking"
+      ]
+    },
+    {
+      "number": "17.",
+      "question": "Para que el apoyacabezas esté regulado correctamente, la distancia respecto a la cabeza debe ser...\nIn order for the headrest to be adjusted correctly, the distance from the head must be...",
+      "image_url": "a1ecf58f-4c79-4e15-9fbb-3b37d9e4c144M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "la mínima posible y nunca superior a 4 cm.\nthe minimum possible and never over 4 cm.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "la que resulte más cómoda para el conductor.\nthat which is most comfortable for the driver.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "superior a 4 cm.\nover 4 cm.",
+          "correct": false
+        }
+      ],
+      "help": "10 Head restraints\n \n10.1 Head restraints – correct usage\nTo ensure optimum safety, the top of the restraint must be at the same height as the top of the head. There must be very little distance between the head and the restraint: it should be as close as possible, bearing in mind the need to maintain freedom of movement of the head and comfort (approximately 4 cm’s is advised).\nIf the head restraint is adjusted below the nape of neck there is the increased risk of suffering cervical vertebrate (spinal)/neck injury.\n(Página 81 del manual 'Learning to drive')\n",
+      "source_ordinal": 17,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:17",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q17.jpg",
+      "primary_topic_id": "vehicle.passive",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.passive"
+      ]
+    },
+    {
+      "number": "18.",
+      "question": "¿Cómo debe advertir su presencia en la vía este conjunto de vehículos?\nHow must this group of vehicles warn of their presence on the road?",
+      "image_url": "3fb2e486-cc34-4ce2-b50c-9656d3e7be4bM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Empleando tanto de día como de noche una luz rotativa de color amarillo.\nBy using a rotating yellow light at night and during the day.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Con una luz intermitente amarilla.\nWith an intermittent yellow light.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Utilizando la señalización de emergencia.\nBy using hazard warning lights.",
+          "correct": false
+        }
+      ],
+      "help": "10 Special vehicles\n \nAlso, the drivers of special vehicles or whilst engaged in special transport purposes, will have to use the illuminated light, both day and night, whenever they travel on public roads at a speed that does not exceed 40 Km/h. Should this light fail, then the dipped headlight will have to be used along with the hazard warning lights.\n(Página 59 del manual 'Learning to drive')\n",
+      "source_ordinal": 18,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:18",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q18.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ]
+    },
+    {
+      "number": "19.",
+      "question": "En un tramo de vía con la señal \"túnel\", ¿está permitido hacer un cambio de sentido?\nIn a stretch of road with a \"tunnel\" sign, are you permitted to do a U-turn?",
+      "image_url": "f35de7e3-d0b8-405d-9fbe-c30e935c221aM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí.\nYes.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres          \n       \n7 ‘U’ turn    \n7.3 Circumstances when it is prohibited to undertake a ‘U’ turn\nIt is specifically prohibited to carry out a ‘U’ turn:\nAt level crossings (although it is not prohibited in their immediate surroundings).\nIn tunnels, underpasses and sections of the road affected by the signal “unnel”.\nOn motorways and dual carriageways, except in the places designated for this purpose.\nOn one-way roads and one-way sections of roads.\nIn general, in all sections of the road where overtaking is prohibited, unless a ‘’turn is expressly authorized.\n(Página 195 del manual 'Learning to drive')\n",
+      "source_ordinal": 19,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:19",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q19.jpg",
+      "primary_topic_id": "driving.uturns",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.uturns",
+        "driving.tunnels"
+      ]
+    },
+    {
+      "number": "20.",
+      "question": "Una de las principales causas de mortalidad en los accidentes de moto y ciclomotor es...\nOne of the main causes of death in motorcycle and scooter accidents is...",
+      "image_url": "6c08b9c3-7ae6-4022-9e36-458e520b7707M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "los golpes contra el asfalto en las caídas.\nthe impact against the asphalt during a fall.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "no utilizar el casco.\nnot using a helmet.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "el arrollamiento por otros vehículos.\nbeing run over by other vehicles.",
+          "correct": false
+        }
+      ],
+      "help": "Road traffic collisions                          \n                           \n6. Groups of drivers most at risk of a collision              \n6.3 Drivers of two-wheeled vehicles      \n6.3.2 Motorcycles and mopeds\nOne of the main causes of mortality in such incidents is the lack of use of helmets by the occupants of such twowheeled vehicles.\nThe most common type of collision for these types of vehicles is frontal/lateral impacts, particularly when overtaking especially in urban road. The weekend counted for about half of collisions.\n(Página 257 del manual 'Learning to drive')\n",
+      "source_ordinal": 20,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:20",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1003-q20.jpg",
+      "primary_topic_id": "routine.helmets",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.helmets"
+      ]
+    },
+    {
+      "number": "21.",
+      "question": "El vehículo de policía en servicio urgente, ¿podrá circular en sentido contrario en una autopista?\nCan a police vehicle on emergency service drive in the wrong direction on a motorway?",
+      "image_url": "d7268cc0-4e0d-4fef-9593-6233ee73c989M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí.\nYes.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No.\nNo.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, siempre que no exista peligro para los demás usuarios.\nYes, provided that there is no danger for other users.",
+          "correct": true
+        }
+      ],
+      "help": "Priorities, level crossings and tunnels    \n   \n4 Vehicles in response to emergency situations  \nExceptionally, when driving on a motorway or a dual carriageway in emergency service and not compromising the safety of any user, priority vehicle drivers can turn or reverse and drive in the wrong direction, provided that they do so on the hard shoulder, or cross the central reservation or its crossings.\n(Página 208 del manual 'Learning to drive')\n",
+      "source_ordinal": 21,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:21",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1003-q21.jpg",
+      "primary_topic_id": "priority.emergency",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.emergency"
+      ]
+    },
+    {
+      "number": "22.",
+      "question": "Uno de los efectos que algunas drogas pueden producir en el conductor es...\nOne of the effects that some drugs may produce on a driver is...",
+      "image_url": "b06d4f5e-acf1-4618-a906-3094772cf3f8M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "la ampliación del campo visual.\nan increase in the visual field.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "la incorrecta percepción del tiempo y del espacio.\nan incorrect perception of time and space.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "la disminución de la distancia de detención.\na decrease in the stopping distance.",
+          "correct": false
+        }
+      ],
+      "help": "ALCOHOL AND OTHER DRUGS    \n \n17 Influence of drugs in road traffic collisions\nThe consumption of illegal drugs is related to many of the most serious accidents. A person driving under the influence of drugs puts all those around him/her at serious risk of accidents.\nOne of the effects of drugs is that risk perception decreases and some drugs can cause the driver to have an incorrect perception of time and space. The consumption of drugs will never improve reaction time. For people who take drugs and drive, the probability of having an accident is greater. It is forbidden to drive any vehicle with presence of drugs in the body. Substances excluded are those used under medical prescription and for therapeutic purposes, provided that the driver is able to manage the vehicle and drive with diligence, precaution and without distractions.\nDriving with drugs present in the body may result in the loss of 6 points.\n(Página 43 del manual 'Learning to drive')\n",
+      "source_ordinal": 22,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:22",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1003-q22.jpg",
+      "primary_topic_id": "routine.drugs",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.drugs"
+      ]
+    },
+    {
+      "number": "23.",
+      "question": "El carril reversible está abierto. ¿Puede atravesar la línea doble discontinua de la izquierda para adelantar?\nThe reversible lane is open. Are you permitted to cross the double broken line on the left to overtake?",
+      "image_url": "e0a7b247-3d07-4d97-a21e-cceae5acf037M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, porque el carril de la izquierda está libre.\nYes, because the left hand lane is free.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sí, porque la línea es discontinua.\nYes, because it is a broken line.",
+          "correct": false
+        }
+      ],
+      "help": "4 Traffic lights\n \n4.3 Square traffic lights for vehicles or lanes\n4.3.1 Red x-shaped light\nThe red x-shaped light forbids drivers from travelling in this lane.\nDrivers who are in this lane, when the x-shaped light illuminates must leave this lane immediately, but must keep in mind their safety and the safety of others when changing lanes.\n(Página 117 del manual 'Learning to drive')\n\n4 Traffic lights\n \n4.3 Square traffic lights for vehicles or lanes\n4.3.2 Green illuminated arrow\nWhen the green arrow-shaped light points downwards, drivers are allowed to travel in the lane below.\n(Página 117 del manual 'Learning to drive')\n",
+      "source_ordinal": 23,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:23",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1003-q23.jpg",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.lanes",
+        "signs.markings",
+        "driving.overtaking"
+      ]
+    },
+    {
+      "number": "24.",
+      "question": "Los accidentes debidos al sueño suceden...\nAccidents caused by drowsiness occur...",
+      "image_url": "54829159-115a-4e9f-9d2d-a89e5d9b0501M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "siempre por la noche.\nalways at night.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "únicamente cuando el conductor se queda totalmente dormido.\nonly when the driver is completely asleep.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "también antes de que el conductor se quede totalmente dormido.\nalso before the driver falls asleep.",
+          "correct": true
+        }
+      ],
+      "help": "FACTORS THAT AFFECT PHYSICAL CAPABILITIES  \n \n11 Drowsiness\nYou do not need to fall asleep at the wheel to have an accident due to fatigue, as the dangers of drowsiness appear much earlier. It should be remembered that collisions due to falling asleep not only happen at night, falling asleep when driving can occur during the day. This may happen easier if the road conditions are monotonous and there is little traffic.\nIf a person feels the first symptoms of sleepiness and continues driving, sooner or later he or she will lose control and will not be able to avoid an accident.\n(Página 38 del manual 'Learning to drive')\n",
+      "source_ordinal": 24,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:24",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1003-q24.jpg",
+      "primary_topic_id": "routine.fatigue",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.fatigue"
+      ]
+    },
+    {
+      "number": "25.",
+      "question": "¿Es conveniente colocar el soporte de un GPS cerca de un airbag?\nIs it a good idea to place the GPS support near an airbag?",
+      "image_url": "98f1d388-8192-4c4d-9bcd-7660ec9340beM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, en ningún caso.\nNo, never.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, si puede obstaculizar su apertura.\nNo, not if it might obstruct the opening of the airbag.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sí.\nYes.",
+          "correct": false
+        }
+      ],
+      "help": "DISTRACTIONS    \n   \n9 GPS - navigation aids  \n9.1 Suggestions for a correct utilization\nFor portable navigation systems:\nPlace the device in the correct position:\n- At a correct height, that doesn’t impede the view of the road.\n- In a place where the driver is not forced to look away from the road to consult it.\n- In a place that does not interfere with the activation of an airbag.\n(Página 36 del manual 'Learning to drive')\n",
+      "source_ordinal": 25,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:25",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1003-q25.jpg",
+      "primary_topic_id": "vehicle.passive",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.distraction",
+        "vehicle.passive"
+      ]
+    },
+    {
+      "number": "26.",
+      "question": "Esta señal indica...\nThis sign indicates...",
+      "image_url": "0e178419-544e-47d4-90e4-116eb6a8d224M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "el lugar reservado para parada de autobuses.\na place reserved for busses stopping.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "un carril reservado exclusivamente a la circulación de autobuses.\na lane reserved exclusively for busses driving.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "un carril reservado a la circulación de autobuses y taxis.\na lane reserved for busses and taxis.",
+          "correct": false
+        }
+      ],
+      "help": "5 Vertical Signs          \n     \n5.4 Indication Road Signs    \n5.4.2 General indication road signs\nS-19 Bus stop\nIndicates the place reserved for a bus to stop.\n(Página 133 del manual 'Learning to drive')\n",
+      "source_ordinal": 26,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:26",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q26.jpg",
+      "primary_topic_id": "signs.information",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.information"
+      ]
+    },
+    {
+      "number": "27.",
+      "question": "En esta carretera convencional con un carril para cada sentido, ¿a qué velocidad como máximo puede circular un pick-up?\nOn this conventional road with one lane for each direction, what maximum speed can a pick-up truck drive at?",
+      "image_url": "d1a7baa2-754a-4bc0-9dc3-59a46b130f91M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A 90 km/h.\n90 km/h.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "A 110 km/h.\n110 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A 120 km/h.\n120 km/h.",
+          "correct": false
+        }
+      ],
+      "help": "5 Generic speed            \n           \n5.1 Maximum speed limits on interurban roads           \n5.1.2 Conventional roads   \nMotor vehicles must not exceed the following speed limits:\n- Passenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 90 km/h.(1)\n- Buses, passenger car derivatives and mixed adaptable vehicles: 90 km/h.\n- Lorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 80 km/h.  \n- Motor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n(1) On conventional roads with physical separation of the two directions of traffic movement, the road owner may set a speed limit of 100 km/h for passenger cars, motorbikes and camper vans with a Maximum Authorised Mass equal to or less than 3,500 kg.\n(Página 173 del manual 'Learning to drive')\n",
+      "source_ordinal": 27,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:27",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q27.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds"
+      ]
+    },
+    {
+      "number": "28.",
+      "question": "En caso de avería de su motocicleta en una calzada, ¿cómo debe señalizarlo si representa un obstáculo para la circulación?\nIf your motorcycle breaks down on the road, how should you signal it if it obstructs traffic?",
+      "image_url": "a0f1bee7-ad3e-430b-94df-908733d422ceM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Obligatoriamente con las luces de posición.\nThe position lamps are mandatory.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Con la luz de emergencia si la tiene instalada.\nWith the hazard lights if installed.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Con la señal V-16.\nWith the V-16 signal.",
+          "correct": false
+        }
+      ],
+      "help": "17 Hazard Warning lights – emergency warning signals\n \nWhen activated all the directional indicators fitted to the vehicle flash simultaneously.\nAnd, when in use, a red light must be illuminated within the vehicle on the instrument warning panel or dashboard. This will normally consist of a red flashing triangle.\nIt is an obligatory requirement that all automobiles and trailers and semitrailers are fitted with hazard warning lights and it is optional for motorbikes.\n(Página 105 del manual 'Learning to drive')\n\nManeouvres                    \n         \n9 Immobilisation: Stationary vehicles Detention (Halting)        \n9.2 Emergency detention (halting due to an emergency)\nWithout prejudice to turning on the hazard lights if the vehicle has them and, where applicable, the position and clearance lamps, every driver must use the mandatory light-emitting hazard warning device to warn of this circumstance until the road is clear.\n \n \n \n \n(Página 197 del manual 'Learning to drive')\n\nJourneys and defensive and efficient driving           \n         \n1 Preparation for the trip      \n1.3 Accessories, spare parts and tools      \nCars\n- The V-16 light-emitting hazard warning device.\n- A certified, high-visibility reflective vest inside the interior of the vehicle. It must be visible from at least 150 metres away. If the vehicle is an escort vehicle, protecting and accompanying others, vests must be worn by the driver and each member of the crew.\n- A full-size spare or a temporary tyre, with the tools needed to change tyres, or an alternative system to changing them that offers sufficient guarantees for the mobility of the vehicle. In these cases, the vehicles will be driven in observance of the limitations of each alternative.\n(Página 270 del manual 'Learning to drive')\n\nJourneys and defensive and efficient driving             \n           \n1 Preparation for the trip      \n1.3 Accessories, spare parts and tools      \nMixed vehicles and automobiles intended for goods transport (except for motor tricycles and heavy quadricycles) with an MAM no greater than 3,500 kg.\n- The V-16 light-emitting hazard warning device or, failing this, two hazard warning triangles.\n- A certified, high-visibility reflective vest inside the interior of the vehicle. It must be visible from at least 150 metres away. If the vehicle is an escort vehicle, protecting and accompanying others, vests must be worn by the driver and each member of the crew.\n- A full-size spare or a temporary tyre, with the tools needed to change tyres, or an alternative system to changing them that offers sufficient guarantees for the mobility of the vehicle. In these cases, the vehicles will be driven in observance of the limitations of each alternative.\n(Página 270 del manual 'Learning to drive')\n\nJourneys and defensive and efficient driving         \n       \n1 Preparation for the trip    \n1.3 Accessories, spare parts and tools    \nBuses, as well as mixed vehicles and automobiles intended for goods transport, the latter two with a MMA exceeding 3,500 kg, and non-special sets of vehicles\n- The V-16 light-emitting hazard warning device or, failing this, two hazard warning triangles.\n- A certified, high-visibility reflective vest inside the interior of the vehicle. It must be visible from at least 150 metres away. If the vehicle is an escort vehicle, protecting and accompanying others, vests must be worn by the driver and each member of the crew.\n- Homologated fire-extinction equipment that is suitable and in usage conditions.\n(Página 270 del manual 'Learning to drive')\n",
+      "source_ordinal": 28,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:28",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1003-q28.jpg",
+      "primary_topic_id": "incidents.towing",
+      "classification_review_required": false,
+      "topic_ids": [
+        "incidents.towing",
+        "vehicle.lights"
+      ]
+    },
+    {
+      "number": "29.",
+      "question": "El tiempo desde que ve un peligro hasta que actúa, ¿cómo se llama?\nWhat is the time from when you see a hazard until you act called?",
+      "image_url": "8e2be74e-69f8-423e-92c5-01238de80fd4M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Tiempo de frenado.\nBraking time.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Tiempo de detención.\nStopping time.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Tiempo de reacción.\nReaction time.",
+          "correct": true
+        }
+      ],
+      "help": "Physical condition of the driver    \n \n4 Reaction time\nThe reaction time is defined as the time that passes from when a driver sees a hazard (for example an obstacle etc; or hears a noise) until he responds to it.\nThe reaction time is not constant, although under normal conditions, it is approximately 0,75 second.\n(Página 32 del manual 'Learning to drive')\n",
+      "source_ordinal": 29,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:29",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1003-q29.jpg",
+      "primary_topic_id": "routine.reaction",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.reaction"
+      ]
+    },
+    {
+      "number": "30.",
+      "question": "Cuando el semáforo se ponga verde, ¿qué debe hacer?\nWhen the traffic light turns green, what should you do?",
+      "image_url": "1f2e4e85-4d46-4717-bf33-87780e3d3c42M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Obedecer al semáforo, que tiene prioridad sobre la señal de stop.\nObey the traffic light, which has priority over the stop sign.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Obedecer al semáforo, pero debo ceder el paso.\nObey the traffic light, but I must give way to other traffic.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Obedecer la señal de stop.\nObey the stop sign.",
+          "correct": false
+        }
+      ],
+      "help": "Road signalling        \n         \n1 General rules  \n1.4 Order of priority amongst the signalling devices  \n1 Signals and orders given by agents of the authority in charge of traffic surveillance exercising the functions of their jobs.  \n2 Circumstantial signage and beaconing that alters the normal use of the road, delimiting devices, and beaconing signals.\n3 Traffic lights.  \n4 Traffic road signs.  \n5 Road markings.  \n \n(Página 109 del manual 'Learning to drive')\n",
+      "source_ordinal": 30,
+      "source_test_id": 1003,
+      "question_id": "exam:1003:30",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1003-q30.jpg",
+      "primary_topic_id": "signs.priority",
+      "classification_review_required": false,
+      "topic_ids": [
+        "priority.lights",
+        "signs.priority"
+      ]
+    }
+  ],
+  "captured_at": "2026-10-23T21:36:37.704Z",
+  "result": {
+    "correct": 30,
+    "incorrect": 0,
+    "unanswered": 0
+  }
+}

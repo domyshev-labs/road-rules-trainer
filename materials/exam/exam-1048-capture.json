@@ -1,0 +1,1078 @@
+{
+  "source": "",
+  "collection": "Exam collection",
+  "collection_type": "exam",
+  "source_test_id": 1048,
+  "status": "captured",
+  "questions": [
+    {
+      "number": "1.",
+      "question": "En los túneles con un solo carril para cada sentido, ¿está permitido adelantar?\nIn tunnels with a single lane for each direction, is it permitted to overtake?",
+      "image_url": "aa2102f9-2de9-468c-93b3-d46913bc44b3M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Sí.\nYes.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, siempre que el arcén tenga más de 1,50 metros de ancho.\nYes, provided that the hard shoulder is over 1.50 metres wide.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking\n5.8 Situations when you must not overtake\nIt is also prohibited to overtake:\nIn tunnels, underpasses and track sections covered by a Tunnel sign (S-5) with two-way traffic, if the vehicle which you intend to overtake only has one lane for their traffic.\n(Página 191 del manual 'Learning to drive')\n",
+      "source_ordinal": 1,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:01",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q01.jpg",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.tunnels"
+      ]
+    },
+    {
+      "number": "2.",
+      "question": "¿Quién es el responsable de un accidente?\nWho is responsible for an accident?",
+      "image_url": "94a80fd8-a8ee-433c-aa7c-7d6ace452219M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "El portador del seguro.\nThe policyholder.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "El titular del vehículo siempre.\nThe vehicle owner, always.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "El autor del hecho.\nThe person who caused the accident.",
+          "correct": true
+        }
+      ],
+      "help": "4 Responsible people  \n \nAs a general rule, the party liable for the infractions committed will be the author of the event leading to the infraction.\nNonetheless:\nIn cases in which the vehicle is not detained:\n- If it has a customary driver appointed, the party responsible for the infraction will be this party, except when accrediting that there was another driver or that the vehicle was stolen.\n- If it did not have a customary driver appointed, the driver identified by the owner will be liable.\n(Página 29 del manual 'Learning to drive')\n\n4 Responsible people  \n \nAs a general rule, the party liable for the infractions committed will be the author of the event leading to the infraction.\nNonetheless:\nThe owner will be liable for infractions:\nRelated to vehicle documentation, periodic inspections and its maintenance condition, when its deficiencies affect vehicle safety conditions.\nFor parking, except in cases in which the vehicle had a customary driver appointed or a driver is claimed who was responsible for the event.\n(Página 29 del manual 'Learning to drive')\n",
+      "source_ordinal": 2,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:02",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1048-q02.jpg",
+      "primary_topic_id": "routine.safety",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.safety"
+      ]
+    },
+    {
+      "number": "3.",
+      "question": "¿Está permitido colocar en el cristal trasero de su vehículo, unas pegatinas que impidan la visión?\nAre you permitted to affix labels to your rear window which obscure your vision?",
+      "image_url": "79e5221d-187d-416c-bb77-d442e0bc3224M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, si lleva dos espejos retrovisores exteriores.\nYes, if you have two wing mirrors.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "No.\nNo.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, si no dispone de un espejo retrovisor interior.\nNo, if you do not have a rear-view mirror.",
+          "correct": false
+        }
+      ],
+      "help": "VISIBILITY  \n   \n8 Rear-view  \n8.1 Obligatory requirements regarding rear-view mirrors\nThe following are obligatory requirements for vehicles within categories M1 and N1:\nA rear-view interior mirror. This must comply with the field of vision in accordance with the regulations. Should the rear-view interior mirror not accord the required vision through it, that allows viewing of the roadway, when on flat ground of the horizon to a distance of 60 metres behind the vehicle and a width of 20 metres then the rear view mirrors becomes optional but the vehicle must have a second exterior, side mirror, on the right hand side that is the nearside (the side closest to the pavement.\nAn exterior mirror fitted on the left hand side (that is the offside of the vehicle) allowing the minimum vision of the horizon to a distance of 10 metres behind it and a width of 2.50 metres.\nAn exterior mirror on the right hand side (nearside, closest to the pavement) remains optional, unless fitted for the reasons as stated above. When fitted it must give a field of vision as prescribed within the regulations.\n(Página 90 del manual 'Learning to drive')\n\nVISIBILITY  \n   \n8 Rear-view  \n8.1 Obligatory requirements regarding rear-view mirrors\nIt is only permissible to use a vehicle with laminated, plastic sheeting on the windows or curtains, (that are designed to protect against the effects of the sun) when the vehicle has two exterior rear view mirrors.\n(Página 90 del manual 'Learning to drive')\n",
+      "source_ordinal": 3,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:03",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q03.jpg",
+      "primary_topic_id": "vehicle.visibility",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.visibility"
+      ]
+    },
+    {
+      "number": "4.",
+      "question": "Los motociclistas, ¿es aconsejable que utilicen gafas de sol?\nShould motorcyclists wear sunglasses?",
+      "image_url": "4c98bd31-439a-4a18-86a3-8f67cbbfe44aM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, porque todos tienen que llevar, como protección, una pantalla que les tape la cara.\nNo, because everyone has to wear a visor to protect their faces.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No, no es necesario.\nNo, it is not necessary.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, para proteger los ojos.\nYes, to protect the eyes.",
+          "correct": true
+        }
+      ],
+      "help": "11 Crash helmets\n \n11.1 Tips for buying a crash helmet\nVisors:\nVisors are strongly recommended. However, it is important to ensure that these do not mist up; therefore, special covers are available that increase the anti-mist properties. When the helmet does not include eye protection it is highly recommended that safety glasses are used, although this use is not mandatory. Without eye protection, there is obviously the risk that something may enter the eye (an insect, a particle of sand or dust, etc.,) which may cause the rider to become distracted; however, the cold and/or the wind constantly in the eyes also increases visual fatigue.\n(Página 82 del manual 'Learning to drive')\n\nSafe driving  \n \n11 The sun\nThe sun can cause dazzle and discomfort to the drivers of vehicles.\nThe suns rays directly (or indirectly) reflect off surfaces particularly shinny surfaces, such as windows, mirrors, cars etc. and also off of wet road surfaces.\nIn order to protect from this intense light and glare it is advisable to:\nKeep all windows clean (refracted light can cause more discomfort).\nUtilise the sun visor(s) and turn them to the most suitable angle.\nWear sunglasses (but only during the day and never at night or in tunnels.\n(Página 233 del manual 'Learning to drive')\n",
+      "source_ordinal": 4,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:04",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1048-q04.jpg",
+      "primary_topic_id": "transport.cycles",
+      "classification_review_required": false,
+      "topic_ids": [
+        "transport.cycles"
+      ]
+    },
+    {
+      "number": "5.",
+      "question": "¿A qué velocidad máxima tiene permitido circular una furgoneta por una autovía?\nWhat is the speed limit for a van travelling on a dual carriageway?",
+      "image_url": "28e5beac-2f40-4a13-92d2-9b946131fce2M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A 100 km/h, pudiendo superarla en 20 km/h para adelantar.\n100 km/h, and this can be exceeded by 20 km/h to overtake.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A 100 km/h.\n100 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A 90 km/h.\n90 km/h.",
+          "correct": true
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')\n",
+      "source_ordinal": 5,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:05",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1048-q05.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds"
+      ]
+    },
+    {
+      "number": "6.",
+      "question": "El alumbrado de gálibo es obligatorio para...\nA clearance lamp is mandatory for...",
+      "image_url": "5ffddc16-2b31-467d-a862-c13fc369ebf2M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "vehículos de asistencia en carretera.\nroadside assistance vehicles.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "vehículos cuya anchura sea mayor de 2,10 metros.\nvehicles more than 2.10 metres wide.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "vehículos que transporten mercancías peligrosas.\nvehicles transporting dangerous goods.",
+          "correct": false
+        }
+      ],
+      "help": "6 End outline marker lights\n \nThey are obligatory on automobiles, (except for motorcycles and vehicles with three wheels) trailers and semitrailers where the width exceeds 2.10 metres and optional on automobiles (except for motorcycles and three-wheeled vehicles) with a width between 1.80 metres and 2.10 metres. (These lights are also optional on vehicles with cabs.)\n(Página 100 del manual 'Learning to drive')\n",
+      "source_ordinal": 6,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:06",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1048-q06.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ]
+    },
+    {
+      "number": "7.",
+      "question": "Los limpiaparabrisas deben mantenerse en buen estado para circular con seguridad. Para ello se debe...\nWindscreen wipers must be kept in good condition to drive safely. To do this, you must...",
+      "image_url": "8b511605-e6f1-4058-9344-50122568364cM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "realizar la revisión de las escobillas con el fin de asegurar su máxima eficacia.\ncheck the brushes so they work as effectively as possible.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "comprobar que el depósito que contiene el líquido limpiaparabrisas esté siempre al máximo nivel.\ncheck that the tank containing the windscreen wiper fluid is always at the highest level.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "aplicar sobre el parabrisas el líquido que recomienda el fabricante para facilitar el desplazamiento de las escobillas.\napply the liquid recommended by the manufacturer to the windscreen to help the brushes move about easily.",
+          "correct": false
+        }
+      ],
+      "help": "VISIBILITY      \n       \n7 Transparent elements around the cockpit    \n7.2 Windscreen wipers\nHowever consideration must be given to the severity of the weather and the speed used must ensure that the visibility of the driver and ultimately safety is not compromised.\nWindscreen wiper blades are an important safety element. For the windscreen to be cleaned properly the wiper blades must be in good condition. They should be regularly inspected, especially in preparation for winter.\nThe blades must be replaced, when they do not clean well (or leave marks), squeak or vibrate, symptoms that the rubber has hardened.\nThe windscreen wipers should not be used when the windscreen is dry as this may cause the windscreen to become smeared and further reduce visibility. It will also cause the glass to become scratched and lead to the wiper blades becoming damaged and wearing quicker.\n(Página 89 del manual 'Learning to drive')\n",
+      "source_ordinal": 7,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:07",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q07.jpg",
+      "primary_topic_id": "vehicle.visibility",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.visibility",
+        "vehicle.mechanics"
+      ]
+    },
+    {
+      "number": "8.",
+      "question": "Para aumentar la fluidez del tráfico, se ha abierto un carril para circular en sentido contrario al habitual, ¿qué vehículos pueden circular por este carril?\nTo help with traffic flow, a lane has been opened to drive in a different direction to normal. Which vehicles can use this lane?",
+      "image_url": "932d0c46-7d5f-4e80-8fb0-4d10fa62fb85M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Los turismos sin remolque y las motocicletas.\nCars without trailers and motorcycles.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Todos los autorizados a circular por la vía.\nAll vehicles authorised to travel on a road.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Todos los que pueden circular a más de 60 km/h.\nAll vehicles that can travel at over 60 km/h.",
+          "correct": false
+        }
+      ],
+      "help": "7 Special circumstances regarding the circulation of traffic and the utilisation of lanes  \n \n7.3 Lanes that are set up for use in the opposite direction to the normal one (contra-flows)\n7.3.1 For traffic flow reasons\nIn this case use of the lane, set up for traffic to flow in the opposite direction to normal, is limited to motorcycles and cars, however cars with trailers and all other vehicles are prohibited.\n(Página 166 del manual 'Learning to drive')\n",
+      "source_ordinal": 8,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:08",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q08.jpg",
+      "primary_topic_id": "driving.lanes",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.lanes"
+      ]
+    },
+    {
+      "number": "9.",
+      "question": "¿Qué indica la línea longitudinal amarilla?\nWhat does the yellow longitudinal line indicate?",
+      "image_url": "5eb76a82-5ff6-439c-8ef5-f97f5214e959M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Que no se puede parar ni estacionar.\nYou cannot stop or park.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Que se puede parar pero no estacionar.\nYou can stop but not park.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Que se puede parar y estacionar.\nYou can stop and park.",
+          "correct": false
+        }
+      ],
+      "help": "6 Road marks        \n           \n6.7 Inscriptions and other road markings        \n6.7.2 Other road markings    \nYellow road markings indicating parking or stopping prohibition\nContinuous yellow longitudinal line – stopping and parking prohibited: Indicates that stopping and parking are prohibited along the entire length of the marking on the side of the carriageway where it is located. May signify a temporary restriction, in which case this is indicated by a vertical sign at the start of the section. It may be placed either on the kerb or on the carriageway adjacent to it.\n(Página 158 del manual 'Learning to drive')\n",
+      "source_ordinal": 9,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:09",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q09.jpg",
+      "primary_topic_id": "signs.markings",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.markings"
+      ]
+    },
+    {
+      "number": "10.",
+      "question": "En condiciones meteorológicas o ambientales desfavorables, ¿cómo debe ser la separación con los vehículos que circulan delante?\nIn poor weather or environmental conditions, what stopping distance should you leave from the vehicles in front?",
+      "image_url": "584e6126-2d56-4f07-a88d-b47a354a6adeM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Menor, para ver mejor a los vehículos que circulan delante.\nLess, so you can see the vehicles in front better.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Igual que si fueran favorables.\nThe same as if they were good conditions.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Mayor, para así disponer de más tiempo y espacio para reaccionar.\nMore, so you have more time and space to react.",
+          "correct": true
+        }
+      ],
+      "help": "12 Distances\n \n12.5 Safety distance\nThe safety distance is the minimum space that a driver should leave between their vehicle and the vehicle ahead of them. This should be sufficient and enable them to stop, without impacting and colliding with the vehicle ahead of them, in the case of hard or unexpected braking by the preceding vehicle (the vehicle ahead of them). For safety it should always be greater than the stopping distance of the vehicle.\nNot respecting the safety distance from the vehicle in front of you is the main cause of rear-end crashes.\nThis distance should be increased when travelling at higher speeds or in reduced visibility, or where the road has low adhesion qualities and when the driver is unsure of the locality or lacks experience.\nNot maintaining the safety distance with the vehicle driving ahead of you can cost 4 points.\n \n(Página 180 del manual 'Learning to drive')\n",
+      "source_ordinal": 10,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:10",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1048-q10.jpg",
+      "primary_topic_id": "speed.stopping",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.distances",
+        "speed.stopping"
+      ]
+    },
+    {
+      "number": "11.",
+      "question": "¿A qué velocidad máxima tiene permitido circular una autocaravana de 3.500 kg de MMA por una autovía?\nWhat is the speed limit for a motorhome with a MAM of 3,500 kg travelling on a dual carriageway?",
+      "image_url": "ff260b90-690d-4a0c-99ea-2de083e25a2dM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A 100 km/h, pudiendo superarla en 20 km/h para adelantar.\n100 km/h, and this can be exceeded by 20 km/h to overtake.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A 120 km/h.\n120 km/h.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "A 90 km/h.\n90 km/h.",
+          "correct": false
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')\n",
+      "source_ordinal": 11,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:11",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1048-q11.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds"
+      ]
+    },
+    {
+      "number": "12.",
+      "question": "En caso de reventón de un neumático, ¿es aconsejable frenar bruscamente?\nIf a tyre bursts, should you brake hard?",
+      "image_url": "443fe01a-824d-4f75-845c-1ab0d7152c02M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, cuando el neumático que ha reventado pertenece al eje trasero.\nYes, if the tyre that has burst is on the rear axle.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, para estabilizar el vehículo cuanto antes.\nYes, to stabilise the vehicle as soon as possible.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "No, hay que utilizar el freno lo menos posible, reteniendo el vehículo con el motor.\nNo, the brake must be used as little as possible, controlling the vehicle with the engine.",
+          "correct": true
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES              \n               \n4 Wheels\n4.4 Behaviour in the event of a burst tyre (blow out)\nIn case of a tyre blow out (rapid deflation of the tyre) the following action is necessary:\nStay calm.\nHold the steering wheel firmly, with two hands, to correct any change of course that may occur.\nSmoothly maintain the pressure of the foot on the accelerator, then, raise it slowly (do not abruptly move your foot off the accelerator).\nUse brakes sparingly. Attempt to reduce speed primarily by engine braking.  \n(Página 72 del manual 'Learning to drive')\n",
+      "source_ordinal": 12,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:12",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1048-q12.jpg",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "number": "13.",
+      "question": "Mediante el empleo de la correspondiente señalización, las velocidades máximas en autovías dentro de poblado podrán ser…\nBy using the corresponding signs, the speed limits on dual carriageways in populated areas can be...",
+      "image_url": "547624d0-44ca-4f6d-a0a5-9af7ba5d16e7M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "únicamente rebajadas en autovías especialmente peligrosas.\nonly lowered on especially dangerous dual carriageways.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "rebajadas o ampliadas rebasando incluso los límites genéricos establecidos para dichas vías fuera de poblado.\nlowered or raised, even exceeding the general speed limits established for these roads outside populated areas.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "ampliadas sin rebasar, en ningún caso, los límites genéricos establecidos para dichas vías fuera de poblado.\nraised, without exceeding the general speed limits established for these roads outside populated areas under any circumstances.",
+          "correct": true
+        }
+      ],
+      "help": "5 Generic speed      \n   \n5.2 Maximum speeds within a populated area\nBy using the corresponding specific signposting, these generic limits may be:\nLowered in urban roads and through-roads.\nIncreased in:\n- Single-lane carriageways in each direction, exceptionally, up to a maximum speed of 50 km/h.\n- Motorways and dual carriageways in populated areas, without, under any circumstances, exceeding the general speed limits established for these roads outside populated areas.\n(Página 174 del manual 'Learning to drive')\n",
+      "source_ordinal": 13,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:13",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1048-q13.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.speeds"
+      ]
+    },
+    {
+      "number": "14.",
+      "question": "El conductor de un vehículo podrá adelantar en un túnel cuando...\nA vehicle driver can overtake in a tunnel when...",
+      "image_url": "855bee08-8175-43b7-b23c-57137460bc78M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "exista más de un carril en su sentido de circulación.\nthere is more than one lane in the same direction of traffic.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "exista más de un carril en el sentido contrario de su marcha.\nthere is more than one lane for oncoming traffic.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "exista un carril para cada sentido, siempre que el túnel esté bien iluminado.\nthere is a lane for each direction, provided that the tunnel is well lit.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres      \n     \n5 Overtaking\n5.8 Situations when you must not overtake\nIt is also prohibited to overtake:\nIn tunnels, underpasses and track sections covered by a Tunnel sign (S-5) with two-way traffic, if the vehicle which you intend to overtake only has one lane for their traffic.\n(Página 191 del manual 'Learning to drive')\n\nManeouvres      \n     \n5 Overtaking\n5.8 Situations when you must not overtake\nNonetheless, vehicles that have more than one lane for their driving direction may overtake, provided that they do so without invading the lanes travelling in the opposite direction.\n(Página 192 del manual 'Learning to drive')\n",
+      "source_ordinal": 14,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:14",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q14.jpg",
+      "primary_topic_id": "driving.overtaking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking",
+        "driving.tunnels"
+      ]
+    },
+    {
+      "number": "15.",
+      "question": "¿Es correcto que un automóvil disponga únicamente de la tercera luz de frenado?\nIs it appropriate if a car only has a third brake light?",
+      "image_url": "41691a5a-9063-44dc-a796-ce599177771aM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, es suficiente para advertir la intención de inmovilizar el vehículo o de frenar.\nYes, it is sufficient to indicate that they intend to stop or brake.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "No.\nNo.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sí, cuando esta sea de intensidad superior a las obligatorias.\nYes, if it is brighter than the compulsory brake lights.",
+          "correct": false
+        }
+      ],
+      "help": "18 Brake lights\n \n18.1 Obligatory fitment of brake lights\nBrake lights are an obligatory requirement for all automobiles. They are required to be fitted with two lights.\nExcept - motorcycles without sidecar, three wheeled vehicles and heavy quadricyles, which may have one or two lights. And motorcycles with a sidecar that may have either two or three brake lights.\n(Página 106 del manual 'Learning to drive')\n\n19 Third brake light\n \nThe third brake light is a brake light that is becoming commonplace to see on vehicles, particularly cars. It is a light that is located higher up at the rear of the vehicle, usually in the back window.\nIt is the same colour and intensity as the other brake lights and illuminates in conjunction with the others when the brakes are applied.\n(Página 106 del manual 'Learning to drive')\n",
+      "source_ordinal": 15,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:15",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1048-q15.jpg",
+      "primary_topic_id": "vehicle.lights",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.lights"
+      ]
+    },
+    {
+      "number": "16.",
+      "question": "Siempre que un conductor salga a una vía de uso público por un camino exclusivamente privado...\nIf a driver leaves a public road and joins a private road...",
+      "image_url": "8118adf3-626e-4bd8-bca4-1b7de969e80aM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "está obligado a detenerse.\nthey must stop.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "está obligado a cerciorarse de que puede hacerlo sin peligro.\nthey must make sure they can do so safely.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "tiene preferencia de paso.\nthey have right-of-way.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres  \n \n3 Joining the traffic flow\n3.2.1 Observation\nRegardless of where the driving is joining from, he must do so without endangering other road users.\n(Página 184 del manual 'Learning to drive')\n",
+      "source_ordinal": 16,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:16",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1048-q16.jpg",
+      "primary_topic_id": "driving.merging",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.merging"
+      ]
+    },
+    {
+      "number": "17.",
+      "question": "El titular de un permiso de conducción deberá comunicar a la Jefatura Provincial de Tráfico el cambio de su domicilio dentro del plazo de...\nA driving licence holder must report a change of address to the Local Traffic Department within...",
+      "image_url": "7afa6d6e-bc37-4a75-ab67-6a56d565cd67M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "10 días.\n10 days.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "30 días.\n30 days.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "15 días.\n15 days.",
+          "correct": true
+        }
+      ],
+      "help": "2 Driver documentation\n \n2.7 Amendments to data and duplicates\nThe driving licence holder must notify the Provincial Traffic Headquarters, of any amendments and changes required to the data shown on the driving licence, as well as the address of the holder. This must be communicated within fifteen days (starting from when the change of circumstance(s) occur).\nA duplicate driving licence will be issued, if the original licence becomes damaged, or lost, or due to changes to the data. If available, the original licence must be sent to the authorities upon application.\nIf as a consequence of a loss of a licence, a duplicate driving licence is issued, then should the original licence be subsequently found/recovered by the holder, the original must be returned to the issuing Provincial Traffic Headquarters.\n(Página 23 del manual 'Learning to drive')\n",
+      "source_ordinal": 17,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:17",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1048-q17.jpg",
+      "primary_topic_id": "documents.permissions",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.permissions",
+        "documents.registration",
+        "numbers.dates"
+      ]
+    },
+    {
+      "number": "18.",
+      "question": "¿Está permitido montar neumáticos con índice de carga o un código de velocidad distinto al que recomienda el fabricante?\nIs it permitted to install tyres with a load or speed rating different to that recommended by the manufacturer?",
+      "image_url": "6da9456b-e175-4bff-ba79-2aea340e2acaM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, cuando el índice y el código sean superiores al recomendado por el fabricante.\nYes, when the ratings are higher than those recommended by the manufacturer.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "No, está prohibido en cualquier caso.\nNo, it is prohibited.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Únicamente se pueden montar con distinto código de velocidad, el índice de carga nunca se puede variar.\nThey can only be fitted with a different speed rating, the load rating can never be different.",
+          "correct": false
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES      \n       \n4 Wheels    \n4.2 Tyres  \n4.2.2 Tyre markings\nThe sides of the tyres contain information relating to their characteristics. The main ones are:\nIt is prohibited to mount tyres with a load index or a code below the speed of the tyres that were originally mounted on the vehicle or as recommended by the manufacturer. However, you can mount tyres that are greater than those recommended.\nType of tyres: At present, most tyres are tubeless.\nDate of manufacture: Identifies the date of manufacture of the tyre by the use of four digits. The first two represent the week of the year and the last two the year of manufacture. For example, “1520” means week 15 (mid-April) of 2020. These figures may be within an oval.\nLocation indicator for wear: Tread wear indicators can be found within the grooves of the tyre. Tyre manufacturers mould tread wear indicators (T.W.I) into the design of the tyres tread pattern. This may be indicated by the symbol TWI (Tread Wear Indicator), or a triangle, arrow or other symbol indicated by the manufacturer.\n(Página 69 del manual 'Learning to drive')\n",
+      "source_ordinal": 18,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:18",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q18.jpg",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.cargo",
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "number": "19.",
+      "question": "Cuando un conductor pierde todos los puntos de su permiso, ¿qué debe hacer si quiere seguir conduciendo?\nIf a driver loses all the points on his/her licence, what should he/she do if he/she wants to continue driving?",
+      "image_url": "83e83bd3-35f0-4c45-a2f3-323bb3ee44a3M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Asistir a un curso y, si supera una prueba tipo test, recuperará el permiso con 12 puntos.\nAttend a course and, if they pass a test, they will be given their licence back with 12 points.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Asistir a un curso y, si supera una prueba tipo test, recuperará el permiso con 8 puntos.\nAttend a course and, if they pass a test, they will be given their licence back with 8 points.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Obtener un nuevo permiso de conducir.\nObtain a new driving licence.",
+          "correct": false
+        }
+      ],
+      "help": "2 Driver documentation  \n \n2.2 The penalty point system\nInitial assignment of points\nDrivers who have lost all their points and who have been issued with a new driver’s licence will be assigned 8 points. If they do not lose any points in two years, they will be assigned 12 points.\nIn both cases, drivers who keep their 12 points for three years will receive two extra points, and one more point for the three following years, reaching a total of 15 points.\n(Página 20 del manual 'Learning to drive')\n\n2 Driver documentation          \n         \n2.2 The penalty point system      \nRegaining points\nIf all available points have been withdrawn, prior to seeking permission to recommence driving, it is then necessary to undertake a recognised course of re-education of a minimum duration of 20 hours, plus passing a theory examination as determined by the Provincial Traffic Headquarters.\n(Página 20 del manual 'Learning to drive')\n",
+      "source_ordinal": 19,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:19",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1048-q19.jpg",
+      "primary_topic_id": "documents.points",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.permissions",
+        "documents.points"
+      ]
+    },
+    {
+      "number": "20.",
+      "question": "¿Qué elemento del vehículo es importante revisar con más frecuencia?\nWhich element of the vehicle is it important to check most frequently?",
+      "image_url": "10613b2c-77cb-45c5-888f-4c4a74969abfM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Los neumáticos.\nTyres.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "El líquido de frenos.\nBrake fluid.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Las luces.\nLights.",
+          "correct": false
+        }
+      ],
+      "help": "Mechanics and maintenance\n \n12 Wheels and tyres\n12.1 Maintenance\nCheck the tyre pressures using a properly approved and tested tyre gauge at least once or twice a month. These can be found at public and private locations.\nThis is particularly important prior to commencing a journey where the vehicle will be travelling at high speed or where it will be heavily loaded. A tyre with badly adjusted pressure will wear unevenly as well as presenting an increased risk of a puncture or blow out. Fuel consumption is also increased.\n(Página 245 del manual 'Learning to drive')\n",
+      "source_ordinal": 20,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:20",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q20.jpg",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "number": "21.",
+      "question": "Un turismo con remolque de 750 kg de MMA, ¿a qué velocidad máxima tiene permitido adelantar por autopista?\nWhat is the maximum speed that a car pulling a trailer with a MAM of 750 kg can overtake at on a motorway?",
+      "image_url": "e6e7c1d5-1a83-4f42-a49a-0863b29646ccM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "A 100 km/h.\n100 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A 80 km/h.\n80 km/h.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A 90 km/h.\n90 km/h.",
+          "correct": true
+        }
+      ],
+      "help": "5 Generic speed        \n         \n5.1 Maximum speed limits on interurban roads         \n5.1.1 Motorways and dual carriageways\nAutomobiles should never exceed the maximum speed limit applicable to the type of vehicle when driving on motorways and dual carriageways - not even when over taking.\nPassenger cars, motorbikes, three-wheeled vehicles similar to motorbikes, camper vans with a Maximum Authorised Mass ≤ 3,500 kg and pick-up trucks: 120 km/h.\nBuses, passenger car derivatives and mixed adaptable vehicles: 100 km/h.\nLorries, trailers, vans, camper vans with a Maximum Authorised Mass > 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles: 90 km/h.\nMotor tricycles not assimilated to motorcycles and heavy quadricycle: 70 km/h.\n \n(Página 172 del manual 'Learning to drive')\n",
+      "source_ordinal": 21,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:21",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1048-q21.jpg",
+      "primary_topic_id": "numbers.speeds",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.overtaking",
+        "numbers.speeds"
+      ]
+    },
+    {
+      "number": "22.",
+      "question": "Está permitido parar...\nIt is permitted to stop...",
+      "image_url": "59d50d9d-ca92-496b-b35c-34f8847a8d13M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "en los carriles reservados para bicicletas.\nin bicycle lanes.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "delante de los vados señalizados correctamente.\nin front of correctly identified dropped kerbs.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "en los pasos para ciclistas.\non bicycle crossings.",
+          "correct": false
+        }
+      ],
+      "help": "Maneouvres                      \n                 \n10 Immobilisations – Stationary vehicles Stopping (waiting) and parking    \n10.5 Prohibited Places    \nParking is prohibited in the following places:\nIn sites enabled by the municipal authority as parking with time limits, pursuant to the regulation of the system they employ, without having the permit that authorises it or when, having a permit, the vehicle is parked for more than the maximum time permitted by this authorisation.\nIn front of areas (gates and access) that have signs forbidding parking.\nIn double rows.\nStopping (waiting) in double rows is only permitted when there are no free spaces in the proximity and only when to do so does not cause an obstruction.\n(Página 200 del manual 'Learning to drive')\n",
+      "source_ordinal": 22,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:22",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1048-q22.jpg",
+      "primary_topic_id": "driving.parking",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.parking"
+      ]
+    },
+    {
+      "number": "23.",
+      "question": "Un remolque de la categoría 02 que no es una caravana remolcada y está destinado al transporte de mercancías, debe someterse a la inspección técnica periódica hasta que tenga una antigüedad de 10 años...\nA category 02 trailer that is not a towed caravan and is intended for the transport of goods must undergo a periodic technical inspection until it is 10 years old...",
+      "image_url": "d2d0f418-1092-409a-9e21-d5585e80294aM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "cada dos años.\nevery two years.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "cada cuatro años.\nevery four years.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "cada año.\nevery year.",
+          "correct": true
+        }
+      ],
+      "help": "3 Documentation for the vehicle              \n           \n3.2 Card relating to the technical inspection of the vehicle (ITV card)\n3.2.1 Technical inspections  \nFrequency of compulsory periodic testing\nCategory of vehicle\nVehicles in category O2 (except towed caravans in this category):\nTrailers designed and constructed for the carriage of goods or people, or as accommodation.\nFrequency of inspection according to age of the vehicle\n- Up to ten years: Annual.\n- Over ten years: Half-yearly.\n(Página 26 del manual 'Learning to drive')\n",
+      "source_ordinal": 23,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:23",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1048-q23.jpg",
+      "primary_topic_id": "numbers.deadlines.itv",
+      "classification_review_required": false,
+      "topic_ids": [
+        "numbers.deadlines.itv",
+        "documents.itv",
+        "transport.trailers"
+      ]
+    },
+    {
+      "number": "24.",
+      "question": "¿Qué indica esta señal?\nWhat does this sign mean?",
+      "image_url": "7405b334-07d1-44e3-bb87-a4a6461060d9M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Inicio de un nuevo carril hacia la derecha en una calzada de dos carriles.\nThere is a new lane to the right on a two-lane road.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Bifurcación hacia la derecha en calzada de tres carriles.\nThere is a fork to the right on a three-lane road.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Obligación de seguir de frente porque el carril derecho desaparece.\nYou must proceed forwards as the right lane will end.",
+          "correct": false
+        }
+      ],
+      "help": "5 Vertical Signs                \n           \n5.4 Indication Road Signs  \n5.4.3 Lane signs  \nS-61a and S-61b Fork to the left (S-61a) or right (S-61b) on a three-lane carriageway\nIndicates, on a carriageway with three lanes in the same direction of travel, that a fork will occur involving a change of direction from the left-hand lane (S-61a) or the right-hand lane (S-61b).\n(Página 137 del manual 'Learning to drive')\n",
+      "source_ordinal": 24,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:24",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1048-q24.jpg",
+      "primary_topic_id": "signs.lanes",
+      "classification_review_required": false,
+      "topic_ids": [
+        "signs.lanes"
+      ]
+    },
+    {
+      "number": "25.",
+      "question": "En caso de lluvia intensa, ¿es recomendable aumentar la distancia de seguridad y reducir la velocidad?\nIn the event of heavy rain, is it advisable to increase the stopping distance and reduce your speed?",
+      "image_url": "cb452594-2ce5-4819-932a-abd9909b0a9fM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "No, al reducir la velocidad es mayor la proporción de agua en el asfalto.\nNo, reducing your speed increases the amount of water on the road.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, mejora el agarre de los neumáticos, pero no es recomendable reducir la velocidad.\nYes, it improves tyre grip, but it is not recommended to slow down.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, ya que la adherencia es menor y, por consiguiente, la distancia de frenado aumenta.\nYes, since grip is worse and because the braking distance increases.",
+          "correct": true
+        }
+      ],
+      "help": "Safe driving  \n   \n5 Driving in rain\n5.1 Adhesion - Grip\nIn order to maintain the best possible adherence (grip) between your vehicle and the road surface – you should:\nIncrease the safety distance.\nReduce the speed.\n(Página 228 del manual 'Learning to drive')\n",
+      "source_ordinal": 25,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:25",
+      "collection_type": "exam",
+      "selected_letter": "C",
+      "help_status": "captured",
+      "local_image": "exam-1048-q25.jpg",
+      "primary_topic_id": "speed.stopping",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.weather",
+        "numbers.distances",
+        "speed.stopping"
+      ]
+    },
+    {
+      "number": "26.",
+      "question": "Con el permiso de la clase B con una antigüedad superior a dos años, ¿se podrá conducir, dentro del territorio nacional, algún tipo de automóvil con una MMA superior a 3.500 kg?\nWith a class B licence which is at least two years old, can you drive a vehicle with a MAM over 3,500 kg within the country?",
+      "image_url": "191759e0-a11a-435b-b8c8-6d15ca9d366aM.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, ciertos automóviles sin remolque impulsados por combustibles alternativos destinados al transporte de mercancías cuya MMA no exceda los 4.250 kg.\nYes, some vehicles without trailers powered by alternative fuels for transporting goods whose MAM does not exceed 4,250 kg.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "No, para conducir automóviles con una MMA superior a 3.500 kg es preciso el permiso C1 o el C.\nNo, to drive vehicles with a MAM over 3,500 kg it is necessary to have a C1 or C licence.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sí, cualquier automóvil sin remolque impulsado por un combustible alternativo cuya MMA no exceda los 4.250 kg.\nYes, any vehicle without a trailer powered by an alternative fuel whose MAM does not exceed 4,250 kg.",
+          "correct": false
+        }
+      ],
+      "help": "2 Driver documentation              \n           \n2.4 Classes of driving permits        \n2.4.5 B permit\nWith a B driving licence which is at least two years’ old, it is possible to drive, within the country, vehicles without trailers powered by alternative fuels for the transport of goods with a MAM above 3,500 kg but below 4,250 kg. This is provided that the mass above 3,500 kg is solely due to the propulsion system compared to the propulsion system of a vehicle with the same dimensions which is equipped with a standard internal combustion engine with spark or compression ignition, and provided that it does not increase the load capacity with regards to the same vehicle.\n \n(Página 22 del manual 'Learning to drive')\n",
+      "source_ordinal": 26,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:26",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q26.jpg",
+      "primary_topic_id": "documents.permissions",
+      "classification_review_required": false,
+      "topic_ids": [
+        "documents.permissions"
+      ]
+    },
+    {
+      "number": "27.",
+      "question": "Fumar al volante...\nSmoking at the wheel...",
+      "image_url": "7eae7ea5-8612-4ce8-a4f2-86041e004b04M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "es una conducta que puede interferir en la conducción y provocar un accidente.\ncan interfere with driving and cause an accident.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "es la principal causa de distracción durante la conducción.\nis the main reason for distraction during driving.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "relaja y proporciona serenidad al fumador, lo que repercute positivamente en la conducción.\nrelaxes and calms the smoker, which has a positive effect on their driving.",
+          "correct": false
+        }
+      ],
+      "help": "DISTRACTIONS\n \n7 Smoking\nSmoking, besides being harmful to health, affects driving because, amongst other factors, it causes distractions when searching and lighting the cigarette, makes one of the hands useless or generates vision problems due to smoke.\nSmoking also causes excessive carbon monoxide to build up in the smoker’s body and therefore, alters the capabilities needed to drive safely causing a decrease in the level of attention needed at the wheel.\n(Página 35 del manual 'Learning to drive')\n\nDISTRACTIONS\n \n7 Smoking\nDrivers that smoke are involved in twice as many collisions than nonsmokers, usually because:\nThe entire process is a series of distractions; that is, finding the cigarette packet, removing it from within, lighting it, depositing the ash and extinguishing it.\nIt can lead to dangerous driving. Smokers tend to evaluate situations as less dangerous and take on more risks when driving.\n(Página 35 del manual 'Learning to drive')\n",
+      "source_ordinal": 27,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:27",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q27.jpg",
+      "primary_topic_id": "routine.distraction",
+      "classification_review_required": false,
+      "topic_ids": [
+        "routine.distraction"
+      ]
+    },
+    {
+      "number": "28.",
+      "question": "Fuera de poblado, como norma general, ¿por qué lado de la vía deberán circular los peatones cuando no dispongan de zona peatonal?\nOutside a populated area, as a general rule, which side of the road should pedestrians use if they do not have a pedestrian area?",
+      "image_url": "a6fed6e9-287c-46fd-ab6a-e0d67037cac1M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Por la izquierda.\nOn the left.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Por la derecha, en casos de poca visibilidad.\nOn the right, if there is poor visibility.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Indistintamente por la derecha o por la izquierda, siempre que haya un arcén.\nEither on the right or on the left, provided there is a hard shoulder.",
+          "correct": false
+        }
+      ],
+      "help": "5 Pedestrians\n \n5.2 Walking on the road or the hard shoulder\nOn interurban roads and main roads that do not have a pedestrian area, pedestrians will walk on the left-hand side in order to see the oncoming vehicles and to be warned of their presence, even though they are permitted to walk on the right when, for safety reasons, it is more suitable.\n(Página 56 del manual 'Learning to drive')\n",
+      "source_ordinal": 28,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:28",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q28.jpg",
+      "primary_topic_id": "driving.pedestrians",
+      "classification_review_required": false,
+      "topic_ids": [
+        "driving.pedestrians"
+      ]
+    },
+    {
+      "number": "29.",
+      "question": "El calor, ¿influye en el desgaste de los neumáticos?\nDoes heat affect tyre wear?",
+      "image_url": "4260ede8-4b55-4083-817a-e6c05aae4770M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "Sí, reduce el desgaste.\nYes, it reduces wear and tear.",
+          "correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sí, aumenta el desgaste.\nYes, wear and tear increases.",
+          "correct": true
+        },
+        {
+          "letter": "C",
+          "text": "No.\nNo.",
+          "correct": false
+        }
+      ],
+      "help": "ACTIVE SAFETY FEATURES          \n           \n4 Wheels        \n4.2 Tyres\n4.2.5 Tyre wear\nTyre wear is dependent upon:\nThe way the vehicle is driven (driving aggressively or sharp increases wear).\nThe vehicle speed (faster, leads to higher wear).\nClimatology (the wear is higher in summer).\nThe use (cargo carried).\nIncorrect inflation pressure.\nThe poor condition of the roadway.\n(Página 71 del manual 'Learning to drive')\n",
+      "source_ordinal": 29,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:29",
+      "collection_type": "exam",
+      "selected_letter": "B",
+      "help_status": "captured",
+      "local_image": "exam-1048-q29.jpg",
+      "primary_topic_id": "vehicle.tyres",
+      "classification_review_required": false,
+      "topic_ids": [
+        "vehicle.tyres"
+      ]
+    },
+    {
+      "number": "30.",
+      "question": "En esta carretera convencional, ¿qué velocidad se considera anormalmente reducida, sin causa justificada, para un turismo?\nOn this conventional road, what speed is considered abnormally low, without just cause, for a passenger car?",
+      "image_url": "be58b94f-d647-4bea-9780-481380c607f1M.jpg",
+      "answers": [
+        {
+          "letter": "A",
+          "text": "La inferior a 45 km/h.\nUnder 45 kph.",
+          "correct": true
+        },
+        {
+          "letter": "B",
+          "text": "La inferior a 60 km/h.\nUnder 60 kph.",
+          "correct": false
+        },
+        {
+          "letter": "C",
+          "text": "60 km/h o inferior.\n60 kph or lower.",
+          "correct": false
+        }
+      ],
+      "help": "5 Generic speed        \n     \n5.3 Minimum generic speed\nThe generic minimum speed limits, both inside and outside populated areas, are:\nOn motorways and dual carriageways: 60 km/h for all motor vehicles.\nOn the remaining roads: the minimum speed is half of the maximum generic speed for each road.\n(Página 174 del manual 'Learning to drive')\n\n5 Generic speed    \n \n5.3 Minimum generic speed\nWhen you drive below these minimum limits you are said to travel at an abnormally reduced speed. This is considered an inadequate speed, as there is an increased risk of danger and a higher risk of a collision as a result of people overtaking the slower moving vehicles. It also adds to road congestion as it hampers the movement of other road users.\n(Página 174 del manual 'Learning to drive')\n",
+      "source_ordinal": 30,
+      "source_test_id": 1048,
+      "question_id": "exam:1048:30",
+      "collection_type": "exam",
+      "selected_letter": "A",
+      "help_status": "captured",
+      "local_image": "exam-1048-q30.jpg",
+      "primary_topic_id": "speed.adaptation",
+      "classification_review_required": false,
+      "topic_ids": [
+        "speed.adaptation"
+      ]
+    }
+  ],
+  "captured_at": "2026-10-24T09:57:24.238Z",
+  "result": {
+    "correct": 30,
+    "incorrect": 0,
+    "unanswered": 0
+  }
+}
